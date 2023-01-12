@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="M167">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#62669">Die letzten Verfügungen Artur Schnitzlers,
+               23.&#8239;10.&#8239;1931</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="167"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a" ref="#62669">Die letzten Verfügungen Artur Schnitzlers</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#41202">Arbeiter-Zeitung</title>
+                     <imprint>
+                        <date when="1931-10-23" n="1">23.&#8239;10.&#8239;1931</date>
+                     </imprint>
+                     <biblScope unit="jg">44</biblScope>
+                     <biblScope unit="nr">292</biblScope>
+                     <biblScope unit="pp">8</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <title level="a" ref="#62669">Arthur Schnitzlers letzwillige Verfügung:
+                        Begräbnis letzter Klasse</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#53851">Der Wiener Tag</title>
+                     <imprint>
+                        <date when="1931-10-23">23.&#8239;10.&#8239;1931</date>
+                     </imprint>
+                     <biblScope unit="jg">10</biblScope>
+                     <biblScope unit="nr">3038</biblScope>
+                     <biblScope unit="pp">7</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct corresp="Lindken">
+                  <monogr>
+                     <author>Lindken, Hans-Ulrich</author>
+                     <title level="m">Arthur Schnitzler. Aspekte und Akzente. Materialien zu Leben
+                        und Werk</title>
+                     <imprint>
+                        <date when="1894">1984</date>
+                        <publisher>Peter Lang</publisher>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <pubPlace>Bern</pubPlace>
+                        <pubPlace>Göttingen</pubPlace>
+                     </imprint>
+                     <biblScope unit="pp">420</biblScope>
+                  </monogr>
+                  <series>
+                     <title level="s">Europäische Hochschulschriften, Reihe 1, Deutsche Sprache und
+                        Literatur</title>
+                     <biblScope unit="vol">754</biblScope>
+                  </series>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2021-12-16">Angelegt</change>
+         <change who="MAM" when="2021-12-17">Index check</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div type="image">
+            <figure>
+               <graphic url="./images/1931_arbeiterzeitung.jpg" width="3cm"/>
+            </figure>
+         </div>
+         <div type="original">
+            <head>Die letzten Verfügungen Artur Schnitzlers</head>
+            <p>Der Leichnam des Dichters Artur Schnitzler wird heute Freitag um ½&#160;12 Uhr
+               vormittags vom Trauerhause in der <rs type="place" ref="#150">Sternwartestraße</rs>
+               in den <rs type="place" ref="#41376">Zentralfriedhof</rs> (erstes Tor) gebracht und
+               im israelitischen Friedhof beigesetzt.</p>
+            <p>Der Sohn Schnitzlers, der Schauspieler und Regisseur Dr. <rs type="person"
+                  ref="#12692">Heinrich Schnitzler</rs>, ersucht uns, die folgenden letztwilligen
+               Verfügungen, die im Nachlaß seines Vaters waren, zu veröffentlichen; weiter bittet
+               die Familie die gesamte Oeffentlichkeit, diese Wünsche Schnitzlers zu achten:</p>
+            <p rend="inline">»<rs type="place" ref="#50">Wien</rs>, <anchor type="commentary"
+                  xml:id="K_M167-1"/><date>29.&#160;April 1912</date><note type="commentary"
+                  xml:id="K_M167-1h">Im <rs type="work" ref="#33243">Tagebuch</rs> steht an diesem
+                  Tag nichts, das mit Verfügungen für seinen Tod in Verbindung
+                  steht.</note>,</p>
+            <p rend="inline">Bestimmungen, die ich nach meinem Ableben zu erfüllen bitte:</p>
+            <p rend="inline"><hi rend="spaced_out">Herzstich</hi>.</p>
+            <p rend="inline"><hi rend="spaced_out">Keine Kränze</hi>!</p>
+            <p rend="inline"><hi rend="spaced_out">Keine Parte</hi>! Auch in der Zeitung nicht!</p>
+            <p rend="inline"><hi rend="spaced_out">Begräbnis letzter Klasse</hi>.</p>
+            <p rend="inline">Das durch Befolgung dieser Bestimmungen erübrigte Geld ist
+               Spitalzwecken zuzuwenden.</p>
+            <p rend="inline"><hi rend="spaced_out">Keine Reden</hi>!</p>
+            <p rend="inline">Vermeidung <hi rend="spaced_out">allen rituellen Beiwerkes.</hi></p>
+            <p rend="inline"><hi rend="spaced_out">Keine Trauer</hi> tragen nach meinem Tode,
+               absolut keine.</p>
+            <p rend="right"><hi rend="spaced_out">Artur Schnitzler</hi>.«</p>
+            <p>(Die gesperrt gedruckten Worte sind in der Originalhandschrift unterstrichen.)</p>
+         </div>
+      </body>
+   </text>
+</TEI>

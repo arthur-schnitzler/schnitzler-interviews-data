@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="P117">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#58663">Schnitzlers »Reigen« in Kopenhagen, 10.&#8239;5.&#8239;1925</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="117"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a" ref="#58663">Schnitzlers »Reigen« in Kopenhagen. Ein Protest
+                        des Dichters gegen unbefugte Uebersetzungen</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#36374">Neue Freie Presse</title>
+                     <imprint>
+                        <date when="1925-05-10" n="1">10.&#8239;5.&#8239;1925</date>
+                     </imprint>
+                     <biblScope unit="nr">21.787</biblScope>
+                     <biblScope unit="pp">16</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2021-09-17">Angelegt</change>
+         <change who="MAM" when="2021-09-28">Index check</change>
+         <change who="KH" when="2021-10-27">Durchsicht</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div type="original">
+            <head>Schnitzlers »<rs type="work" ref="#29855">Reigen</rs>« in <rs type="place" ref="#36300">Kopenhagen</rs>.</head>
+            <head type="sub">Ein Protest des Dichters gegen unbefugte Uebersetzungen.</head>
+            <head type="sub">Telegramm unseres Korrespondenten.</head>
+            <p rend="right">
+               <rs type="place" ref="#36300">
+                  <hi rend="spaced_out">Kopenhagen</hi>
+               </rs>, <date>9.&#160;Mai</date>.</p>
+            <p>Unter eigenartigen Umständen gelangte heute abend <rs type="person" ref="#2121">Artur
+                  Schnitzler</rs>s »<rs type="work" ref="#29855">
+                  <hi rend="spaced_out">Reigen</hi>
+               </rs>« im <rs type="org" ref="#58660">
+                  <hi rend="spaced_out">Kopenhagener Betty-Nansen-Theater</hi>
+               </rs> zur Erstaufführung. Der <anchor type="commentary" xml:id="K_implied_58671"/>
+               <rs type="person" ref="#58671" subtype="implied">Theaterzensor</rs>
+               <note type="commentary" xml:id="K_implied_58671h">
+                  <rs type="person" ref="#58671">Peter Andreas
+                     Rosenberg</rs>
+               </note> hatte ursprünglich die Aufführung untersagt, jedoch,
+               nachdem die Theaterleitung sich zu einschneidenden Kürzungen bequemt hatte, die
+               Erlaubnis zur Aufführung erteilt, wobei jedoch die Bedingung gestellt wurde, daß eine
+               hervorragende literarische <anchor type="commentary" xml:id="K_I117-3"/>Persönlichkeit<note type="commentary" xml:id="K_I117-3h">Diese Aufgabe übernahm
+                  der Herausgeber der Zeitschrift <rs type="work" ref="#41541">Tilskueren</rs>, <rs type="person" ref="#58667">Poul Levin</rs>.</note> bei der Erstaufführung einen
+               einleitenden Vortrag halten solle. Den Dichter hat man bei den sehr wesentlichen
+               Streichungen nicht zu Rate gezogen. Man ist sogar nicht einmal um seine Einwilligung
+               eingekommen. Dies veranlaßte die <rs type="place" ref="#36300">Kopenhagener</rs>
+               Mittagszeitung »<rs type="work" ref="#58666">Extrablaaded</rs>« dazu, <rs type="person" ref="#2121">Schnitzler</rs> telegraphisch darüber zu befragen.
+               Hierauf erhielt »<rs type="work" ref="#58666">Extrablaaded</rs>« die Drahtantwort von
+                  <rs type="person" ref="#2121">Schnitzler</rs>, er sei von der Direktion des <rs type="org" ref="#58660">Betty-Nansen-Theater</rs>s nicht verständigt worden und
+                  <hi rend="spaced_out">protestiere auf das schärfste gegen jede von ihm nicht
+                  autorisierte Textänderung</hi>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

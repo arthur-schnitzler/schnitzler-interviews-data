@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="I116">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#58648">Thor [=Torkild Vogel-Jörgensen]: Arthur
+               Schnitzler.&#8239;En Samtale med en beremt Wiener, 11. 5. 1923</title>
+            <author ref="#26494">Thor</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="116"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#26494">Thor [=Torkild Vogel-Jörgensen]</author>
+                     <title level="a" ref="#58648">Arthur Schnitzler. En Samtale med en beremt
+                        Wiener</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#58592">København</title>
+                     <imprint>
+                        <date when="1923-05-11" n="2">11.&#8239;5.&#8239;1923</date>
+                     </imprint>
+                     <biblScope unit="pp">1</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="dk-DK">Dänisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2021-09-15">angelegt</change>
+         <change who="MAM" when="2021-09-28">Index check</change>
+         <change who="KH" when="2021-10-21">Durchsicht</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="text">
+      <body>
+         <div type="image">
+            <figure>
+               <graphic url="./images/1923_kobenhavn.jpg" width="3.3cm"/>
+            </figure>
+            <caption>
+               <rs type="person" ref="#2121">Arthur Schnitzler</rs> fotograferet ved Ankomsten
+               ifates paa <rs type="place" ref="#58656" subtype="implied">Banegaarden</rs> af <rs
+                  type="org" ref="#58652">
+                  <hi rend="capitals">København</hi>
+               </rs>’s Fotograf.<lb/>
+               <rs type="person" ref="#2121">Arthur Schnitzler</rs> fotografiert bei seiner Ankunft
+               am <rs type="place" ref="#58656" subtype="implied">Bahnhof</rs> durch den <rs
+                  type="org" ref="#58652">
+                  <hi rend="capitals">København</hi>
+               </rs>-Fotografen.<lb/>
+            </caption>
+         </div>
+         <div type="original" xml:lang="dk-DK">
+            <p>Den berømte <rs type="place" ref="#41240">østrigske</rs> Forfatter <rs type="person"
+                  ref="#2121">
+                  <hi rend="spaced_out">Arthur Schnitzler</hi>
+               </rs>, der i Gaar ankom til <rs type="place" ref="#36300">København</rs> for, som
+                  »<rs type="org" ref="#29482">Studentersamfundet</rs>«s Gæst, at læse egne Værker
+               op paa Lørdag Aften, er ikke nogen Fremmed for os. Adskillige af hans Stykker har
+               været spillet paa Teatrene her i Byen, bl. a. tre af de »<rs type="work" ref="#29935"
+                  >Anatol</rs>«-Enaktere, hvormed han i <date>1893</date> debuterede som Forfatter.
+               Ogsaa Skuespillet »<rs type="work" ref="#29917">Liebelei</rs>«, som han et Par Aar
+               efter slog igennem med, har været opført herhjemme. Et Par af hans Romaner og
+               Novellesamlinger er oversat paa <rs type="place" ref="#43570">dansk</rs>, hvorimod
+               det mest omtalte og omdisputerede af hans Værker, de ti Dialoger »<rs type="work"
+                  ref="#29855">Reigen</rs>«, som <rs type="person" ref="#2910">Betty Nansen</rs>
+               tænkte paa at opføre, aldrig naaede frem paa hendes Scene. Dets Opførelse i <rs
+                  type="place" ref="#151">Tyskland</rs> for et Par Aar siden vakte som bekendt vild
+               Forargelse, og sandsynligvis vilde det ogsaa have haft Vanskelighed ved at passere
+               den <rs type="place" ref="#43570">danske</rs> Censur.</p>
+            <p>Paa Tirsdag Aften opfører det <rs type="place" ref="#1079">kgl. Teater</rs> hans »<rs
+                  type="work" ref="#31429">Den store Scene</rs>«, som findes paa dets
+               Repertoireliste, hvorimod <rs type="place" ref="#1144">Dagmarteatret</rs>, der vilde
+               have spillet »<rs type="work" ref="#29935">Anatol</rs>«, har maattet opgive det paa
+               Grund af forskellige Vanskeligheder.</p>
+            <head>En Samtale med den berømte <rs type="place" ref="#41240">østrigske</rs>
+               Forfatter</head>
+            <head type="sub">
+               <rs type="person" ref="#2121">Arthur Schnitzler</rs> fortæller om sit tidligere Besøg
+               i <rs type="place" ref="#43570">Danmark</rs>, sine Bøger og Nøden i <rs type="place"
+                  ref="#41240">Østrig</rs>
+            </head>
+            <p>Da <rs type="place" ref="#168">Berlin</rs>erekspressen i Aftes rullede ind paa <rs
+                  type="place" ref="#58656" subtype="implied">Københavns Banegaard</rs>, var der
+               blandt dens ikke særlig mange Passagerer en lille, væver Mand med graat, spidst
+               Fuldskæg og en bredskygget, gron Bohême-Hat. Det var <rs type="person" ref="#2121"
+                  >Arthur Schnitzler</rs>, den berømte og omstridte <rs type="place" ref="#41240"
+                  >østrigske</rs> Forfatter, »<rs type="work" ref="#29935">Anatol</rs>e«s
+               <!--sic!--> og »<rs type="work" ref="#29855">Reigen</rs>«s Skaber, der i Morgen skal
+               læse Brudstykker af sin Produktion op i »<rs type="org" ref="#29482"
+                  >Studentersamfundet</rs>«.</p>
+            <p>Først i Onsdags Nat var Telegrammet kommet med Tidspunktet for hans Ankomst, og
+               Skæbnen vilde, at <rs type="org" ref="#29482">Samfundets</rs> Formand, Prof. <rs
+                  type="person" ref="#17793">Hammerich</rs>, der ikke havde ventet ham saa tidligt,
+               var bortrejst fra Byen. Paa hans Vegne var Bestyrelsen derfor repræsenteret ved
+               Næstformanden, cand. mag. <rs type="person" ref="#58959">Huus</rs>, og Frøken <rs
+                  type="person" ref="#58962">Mackeprang</rs>, ligesom ogsaa Forfatterforeningens
+               Formand, Hr. <rs type="person" ref="#12251">Sophus Michaelis</rs>, havde givet Møde
+               for at byde sin Kollega Velkommen.</p>
+            <p>Saa stilfærdig var Modtagelsen arrangeret efter <rs type="person" ref="#2121">Arthur
+                  Schnitzler</rs>s utrykkelige Ønske. Han har overhovedet frabedt sig enhver Form
+               for Hyldest under sit Besøg. Selv ved Festbordet, der følger efter Oplæsningen, har
+               han bedt sig fritaget for Taler.</p>
+            <p>Under sit Ophold her i Byen bor Hr. <rs type="person" ref="#2121">Schnitzler</rs> paa
+               Hotel »<rs type="place" ref="#58094">Phoenix</rs>«, hvor han, trods Rejsetræthed,
+               kort efter sin Ankomst modtog os til en lille, tvangfri Samtale.</p>
+            <p>– Hvad skal jeg sige Dem? spurgte den berømte <rs type="place" ref="#41240"
+                  >Østriger</rs> en Smule nervøs. Jeg er ganske uforberedt paa et Interview. Det
+               bruger man jo ikke i den Udstrækning hjemme hos os som her.</p>
+            <p>– De har tidligere besøgt <rs type="place" ref="#43570">Danmark</rs>, ikke sand?</p>
+            <p>– Jo, to Gange, selv om det ganske vist ligger adskillige Aar tilbage. Og jeg har de
+               smukkeste Minder herfra. Jeg husker f. Eks. en Sommer i <rs type="place" ref="#958"
+                  >Skodsborg</rs>! Dér vil jeg op igen. Jeg vil overhovedet benytte disse Dage, jeg
+               er her, til at se <rs type="place" ref="#43570">Danmark</rs>s skønne Foraar. Jeg har
+               ogsaa Venner heroppe.</p>
+            <p>– De kendte <rs type="person" ref="#2357">Peter Nansen</rs>, Deres <rs type="place"
+                  ref="#43570">danske</rs> Oversætter?</p>
+            <p>– Som Menneske kendte jeg ham desværre ikke saa meget, som jeg gerne vilde have
+               gjort. Jeg traf ham kun et Par Gange personlig. Men som Forfatter og gennem Breve
+               charmerede han mig som alle andre, han kom i Berøring med.</p>
+            <p>Vi søger at faa Arthur Schnitzter til at tale om sit eget Forfatterskab; men det er,
+               som viger han smidigt udenom hele Tiden.</p>
+            <p>– Oprindelig er jeg jo Læge, siger han. Min Fader og min Bedstefader var Læger. Min
+               Broder er ogsaa Læge. Maaske er denne Slægtsinteresse ikke nogen helt ligegyldig
+               Faktor, naar man vil bedømme det, jeg skriver. Jeg er af og til blevet beskyldt for
+               at lægge Tendens ind i mine Bøger og Stykker. Men det er forkert. Det gør jeg ikke.
+               Det, der sker, selve Handlingen, er mig for saa vidt ligegyldig. Det er
+               Personskildringen, der betyder alt. Jeg har oplevet, at Skuespillere har lagt Tendens
+               ind i mine Repliker, og det har været mig de pinligste og smerteligste
+               Oplevelser.</p>
+            <p>
+               <rs type="person" ref="#2121">Schnitzler</rs> vender sig et Øjeblik og ser ud af
+               Vinduet, ud over Tagene, hvor Regnen i Skumringen begynder at falde.</p>
+            <p>– Jeg føler mig saa hjemligt tilmode i <rs type="place" ref="#43570">Danmark</rs>!
+               siger han. Jeg har mærket det paa Turen op gennem Deres Land i Dag. Det er ikke saa
+               meget Landskabet, der gør det. Det er Atmosfæren, hvis De forstaar dette. Jeg har
+               følt noget af det samme under Besøg i Holland og Sverige.</p>
+            <p>– Har De rejst meget?</p>
+            <p>– Egentlig ikke. I de senere Aar, under Krigen og efter, er det jo ikke Hvermands Sag
+               i <rs type="place" ref="#41240">Østrig</rs> at rejse ud. Det gælder ogsaa mig og det,
+               skønt jeg ikke hører til dem, der har Grund til at klage!<c rendition="#dots" n="3"/>
+            </p>
+            <p>Kun med et Par korte Sætninger, der prenter sig i Ens Bevidsthed, nævner <rs
+                  type="person" ref="#2121">Schnitzler</rs> Nøden i sit Hjemland.</p>
+            <p>– Den dybeste Elendighed findes ikke hos dem, der stiller den til Skue, siger han.
+               lkke hos Gadens Betlere eller Arbejderne eller Krigsinvaliderne. Men der findes
+               blandt Middelstanden Mennesker, der dør langsomt af Sult, fra Aar til Aar!<c
+                  rendition="#dots" n="3"/>
+            </p>
+            <p>Samtalen afbrydes af et Besøg. Det er Prof. <rs type="person" ref="#17793"
+                  >Hammerich</rs> og Frue, der er kommet ind med et senere Tog. De kommer ude fra
+               det <rs type="place" ref="#43570">danske</rs> Foraar, som vor berømte Gæst har glædet
+               sig til at se, og Fru <rs type="person" ref="#17789">Hammerich</rs> bringer ham den
+               første Hilsen fra det i Form af en mægtig Buket Bøgegrene.</p>
+            <p>Professoren drages ind i Samtalen, og vi faar derigennem at vide, hvad <rs
+                  type="person" ref="#2121">Schnitzler</rs> har tænkt sig at læse op: En Novelle, en
+               af <rs type="work" ref="#29935">Anatol</rs>-Enakterne, et Brudstykke af et eller
+               andet. Digteren peger paa Skrivebordet, hvor en Stabel af hans Bøger ligger. Han
+               beder med et Suk og et Smil om at faa Lov til at gennemgaa Bunken, før han træffer
+               sit endelige Valg.</p>
+            <p>– Bøger, siger han i Samtalens Løb, hører jo endnu til den billige Luksus i <rs
+                  type="place" ref="#41240">Østrig</rs>, Teatrene derimod til den dyrere. Jeg kender
+               efterhaanden slet ikke det Publikum, der kommer til mine Stykker. Mine Venners
+               Ansigter er forsvundet. De har ikke Raad. Det er den nye Tids Rigmænd, der fylder
+               Tilskuerpladsen. Skuespil kan jo ogsaa bruges som en Slags Aftenunderholdning!</p>
+            <p>
+               <rs type="person" ref="#2121">Schnitzler</rs> har under hele Samtalen staaet med en
+               let Sommeroverfrakke paa. Før vi tager Afsked, forhører han sig – med et lidt
+               bekymret Blik paa Regnen, der stadig siver –, om Foraaret ikke er køligt i <rs
+                  type="place" ref="#43570">Danmark</rs>.</p>
+            <p>– Kun i Aften! trøster Fru <rs type="person" ref="#17789">Hammerich</rs>. I Morgen og
+               de følgende Dage er det lunt!</p>
+            <p>– Jeg skal sige Dem, forklarer <rs type="person" ref="#2121">Schnitzler</rs>, at jeg
+               i <rs type="place" ref="#168">Berlin</rs> blev bestjaalet for en vægtigere Overfrakke
+               end denne samt forskellige andre Ting, jeg satte Pris paa. Jeg kan tydeligt
+               forestille mig, hvorledes Tyven har baaret sig ad. Saadan<c rendition="#dots" n="3"/>
+            </p>
+            <p>Og paa Stedet opfører den berømte Forfatter en lille, improviseret Enakter, der
+               illustrerer den nedrige Bedrift.</p>
+            <p>– Som Forfatter er man vel nok i Besiddelse af visse Sherlock Holmes-Instinkter!
+               smiler han. Nu fortrøster jeg mig foreløbig til det milde <rs type="place"
+                  ref="#43570">danske</rs> Foraar!</p>
+            <p rend="right">Thor.</p>
+         </div>
+         <div type="translation">
+            <p>Der berühmte <rs type="place" ref="#41240">österreichische</rs> Schriftsteller <rs
+                  type="person" ref="#2121">
+                  <hi rend="spaced_out">Arthur Schnitzler</hi>
+               </rs>, der gestern in <rs type="place" ref="#36300">Kopenhagen</rs> angekommen ist,
+               um als Gast der »<rs type="org" ref="#29482">Studentenvereinigung</rs>« am
+               Samstagabend aus eigenen Werken zu lesen, ist uns kein Fremder. Mehrere seiner Stücke
+               wurden an Theatern hier in der Stadt gespielt, u.&#8239;a. drei der »<rs type="work"
+                  ref="#29935">Anatol</rs>«-Einakter, mit denen er <date>1893</date> als
+               Schriftsteller debütierte. Auch das Schauspiel »<rs type="work" ref="#29917"
+                  >Liebelei</rs>«, mit dem er einige Jahre später den Durchbruch erlebte, wurde
+               hierzulande aufgeführt. Ein paar seiner Romane und Novellensammlungen wurden auf <rs
+                  type="place" ref="#43570">Dänisch</rs> übersetzt, während das meist diskutierte
+               und umstrittenste seiner Werke, die zehn Dialoge »<rs ref="#29855" type="work"
+                  >Reigen</rs>«, die <anchor type="commentary" xml:id="K_I116-3"/>
+               <rs type="person" ref="#2910">Betty Nansen</rs>
+               <note type="commentary" xml:id="K_I116-3h">
+                  <rs type="person" ref="#2910">Betty Nansen</rs> wollte <date>1922</date> in ihrem
+                     <rs type="org" ref="#58660">Betty Nansen-Theater</rs> in <rs type="place"
+                     ref="#36300">Kopenhagen</rs> das Stück spielen (Übersetzung: <rs type="person"
+                     ref="#19016">Marc Kalckar</rs>), was ihr von der Zensur untersagt wurde.
+                     <date>1925</date> wurde die Aufführung nach Kürzungen erlaubt, diese waren
+                  jedoch nicht mit <rs type="person" ref="#2121">Schnitzler</rs> abgesprochen,
+                  weswegen er protestierte.</note> aufzuführen gedachte, niemals auf ihre Bühne
+               kamen. Dessen Aufführung in <rs type="place" ref="#151">Deutschland</rs> vor ein paar
+               Jahren weckte wie bekannt wilde Verärgerung, und wahrscheinlich hätte es auch
+               Schwierigkeiten gehabt, durch die <rs type="place" ref="#43570">dänische</rs> Zensur
+               zu kommen.</p>
+            <p>Am Dienstagabend führt das <rs type="place" ref="#1079">königliche Theater</rs> von ihm
+                  »<rs type="work" ref="#31429">Die große Szene</rs>« auf, das sich auf seiner
+               Repertoireliste findet, während das <rs type="place" ref="#1144">Dagmartheater</rs>,
+               das »<rs type="work" ref="#29935">Anatol</rs>« spielen wollte, davon aufgrund
+               verschiedener Schwierigkeiten Abstand nehmen musste.</p>
+            <head>Ein Gespräch mit dem berühmten <rs type="place" ref="#41240">österreichischen</rs>
+               Schriftsteller</head>
+            <head type="sub">
+               <rs type="person" ref="#2121">Arthur Schnitzler</rs> erzählt über seinen früheren
+               Besuch in <rs type="place" ref="#43570">Dänemark</rs>, seine Bücher und die Not in
+                  <rs type="place" ref="#41240">Österreich</rs>
+            </head>
+            <p>Als der <rs type="place" ref="#168">Berlin</rs>-Express gestern abend in den <rs
+                  type="place" ref="#58656">Kopenhagener Bahnhof</rs> rollte, war unter dessen nicht
+               besonders vielen Passagieren ein kleiner, lebhafter Mann mit grauem, spitzem Vollbart
+               und einem breitkrempigen, grünen Bohème-Hut. Das war <rs type="person" ref="#2121"
+                  >Arthur Schnitzler</rs>, der berühmte und umstrittene <rs type="place"
+                  ref="#41240">österreichische</rs> Schriftsteller, der Schöpfer von »<rs
+                  type="work" ref="#29935">Anatol</rs>« und »<rs type="work" ref="#29855"
+                  >Reigen</rs>«, der morgen Bruchstücke seiner Produktion in der »<rs type="org"
+                  ref="#29482">Studentenvereinigung</rs>« lesen wird.</p>
+            <p>Erst Mittwochnacht war das Telegramm mit dem Zeitpunkt seiner Ankunft angekommen, und
+               das Schicksal wollte, dass der Vorsitzende der <rs type="org" ref="#29482"
+                  >Vereinigung</rs>, Prof. <rs type="person" ref="#17793">Hammerich</rs>, der ihn
+               nicht so früh erwartet hatte, aus der Stadt abgereist war. An seiner Stelle war der
+               Vorstand deshalb durch seinen Stellvertreter repräsentiert, cand. mag. <rs
+                  type="person" ref="#58959">Huus</rs>, und Fräulein <rs type="person" ref="#58962"
+                  >Mackeprang</rs>, wie auch der Vorsitzende der Schriftstellervereinigung, Hr. <rs
+                  type="person" ref="#12251">Sophus Michaelis</rs>, beim Treffen war, um seinen
+               Kollegen willkommen zu heißen.</p>
+            <p>Der Empfang war nach dem ausdrücklichen Wunsch von <rs type="person" ref="#2121"
+                  >Arthur Schnitzler</rs> ruhig arrangiert. Er hat sich überhaupt jede Form von
+               Huldigung während seines Besuchs verbeten. Selbst beim Festessen, das der Lesung
+               folgt, hat er gebeten von Reden abzusehen.</p>
+            <p>Während seines Aufenthaltes hier in der Stadt wohnt Hr. <rs type="person" ref="#2121"
+                  >Schnitzler</rs> im Hotel »<rs type="place" ref="#58094">Phoenix</rs>«, wo er,
+               trotz Reisemüdigkeit, uns kurz nach seiner Ankunft für ein kleines, zwangloses
+               Gespräch traf.</p>
+            <p>– Was soll ich Ihnen sagen? Fragte der berühmte <rs type="place" ref="#41240"
+                  >Österreicher</rs> ein bisschen nervös. Ich bin ganz unvorbereitet auf ein
+               Interview. Das handhabt man zu Hause bei uns ja nicht in diesem Ausmaß wie hier.</p>
+            <p>
+               <ref type="question" target="#q005"/>– Sie haben <rs type="place" ref="#43570"
+                  >Dänemark</rs> schon früher besucht, nicht wahr?</p>
+            <p>– Ja, zwei Mal, obwohl das allerdings schon einige Jahre zurückliegt. Und ich habe
+               die schönsten Erinnerungen daran. Ich erinnere mich z.&#8239;B. an einen Sommer in
+                  <rs type="place" ref="#958">Skodsborg</rs>! Dort will ich wieder hinauf! Ich
+               möchte diese Tage, die ich hier bin, überhaupt nutzen, um <rs type="place"
+                  ref="#43570">Dänemark</rs>s schönen Frühling zu sehen. Ich habe auch Freunde hier
+               heroben.</p>
+            <p>
+               <ref type="question" target="#q067"/>– Sie kannten <rs type="person" ref="#2357"
+                  >Peter Nansen</rs>, Ihren <rs type="place" ref="#43570">dänischen</rs>
+               <anchor type="commentary" xml:id="K_I116-33"/>Übersetzer<note type="commentary"
+                  xml:id="K_I116-33h"><rs type="person" ref="#2357">Nansen</rs> hat von
+                     <rs type="person" ref="#2121">Schnitzler</rs> nur <rs type="work"
+                        ref="#63610">Anatol (Fem enaktere)</rs> (<date>1913</date>) übersetzt, war aber an der 
+               Vermittlung anderer Werke beteiligt.</note>?</p>
+            <p>– Als Mensch kannte ich ihn leider nicht so gut, wie ich es gerne gehabt hätte. Ich
+               traf ihn nur ein paar Male persönlich. Aber als Schriftsteller und durch <anchor
+                  type="commentary" xml:id="K_I116-1"/>Briefe<note type="commentary"
+                  xml:id="K_I116-1h">zweimal zeitnah ediert als: <bibl><rs
+                        type="person" ref="#2357">Peter Nansen</rs>, <rs type="person" ref="#2121"
+                        >Arthur Schnitzler</rs>: <title level="a">Der Briefwechsel</title>. In:
+                        <title level="j">Literatur und Kritik</title>, <date>2003</date>,
+                     H.&#8239;375/376, S.&#8239;28–34</bibl> bzw. <bibl><rs type="person" ref="#2357"
+                        >Peter Nansen</rs>, <rs type="person" ref="#2121">Arthur Schnitzler</rs>:
+                        <title level="m">Ein Briefwechsel zweier Geistesverwandter</title>. Hg.,
+                        kommentiert und mit einem Nachwort versehen von Karin Bang. Roskilde:
+                        <publisher>CØNK</publisher><space unit="chars" quantity="1"/>2003 (<title
+                           level="s">Småskrifter fra CØNK</title>, 9)</bibl>.</note> hat er mich wie alle anderen,
+               die mit ihm in Berührung kamen, bezaubert.</p>
+            <p>Wir versuchen <rs type="person" ref="#2121">Arthur Schnitzler</rs> über sein eigenes
+               Werk zum Reden zu bringen; aber es ist, als würde er die ganze Zeit elegant
+               ausweichen.</p>
+            <p>– Ursprünglich bin ich ja Arzt, sagt er. Mein Vater und mein Großvater waren Ärzte.
+               Mein Bruder ist auch Arzt. Vielleicht ist dieses Familieninteresse kein ganz
+               gleichgültiger Faktor, wenn man das beurteilen möchte, was ich schreibe. Ich wurde ab
+               und zu beschuldigt, dass ich Tendenz in meine Bücher und Stücke legen würde. Das ist
+               aber falsch. Das mache ich nicht. Das, was geschieht, die Handlung selbst, ist mir so
+               weit egal. Es ist die <anchor type="commentary" xml:id="K_I116-4"
+               />Personenschilderung, die alles bedeutet<note type="commentary" xml:id="K_I116-4h"
+                     ><ref type="pointer" subtype="cf" target="#I096_L_typologie"/></note>. Ich habe
+               erlebt, dass Schauspieler Tendenz in meine Worte gelegt haben, und das waren mir die
+               peinlichsten und schmerzlichsten Erlebnisse.</p>
+            <p>
+               <rs type="person" ref="#2121">Schnitzler</rs> wendet sich einen Augenblick und blickt
+               aus dem Fenster, über die Dächer, wo der Regen in der Dämmerung zu fallen
+               beginnt.</p>
+            <p>– Ich fühle mich in <rs type="place" ref="#43570">Dänemark</rs> so zu Hause! sagt er.
+               Ich habe es auf der Fahrt durch Ihr Land heute bemerkt. Es ist nicht so sehr die
+               Landschaft, die das macht. Es ist die Atmosphäre, falls Sie das verstehen. Ich habe
+               Ähnliches bei Besuchen in Holland und Schweden erlebt.</p>
+            <p>
+               <ref type="question" target="#q019"/>– Sind Sie viel gereist?</p>
+            <p>– Eigentlich nicht. In den letzten Jahren, während des Krieges und danach, ist zu
+               reisen ja nicht jedermanns Sache in <rs type="place" ref="#41240">Österreich</rs>.
+               Das gilt auch für mich, und das, obwohl ich nicht zu denen gehöre, die Grund zu
+               klagen haben!<c rendition="#dots" n="3"/>
+            </p>
+            <p>Nur mit ein paar kurzen Sätzen, die sich ins Bewusstsein prägen, erwähnt <rs
+                  type="person" ref="#2121">Schnitzler</rs> die Not in seinem Heimatland.</p>
+            <p>– Das tiefste Elend findet sich nicht bei denen, die es zur Schau stellen, sagt er.
+               Nicht bei den Straßenbettlern oder Arbeitern oder Kriegsinvaliden. Sondern es findet
+               sich unter den Menschen des Mittelstandes, die langsam an Hunger sterben, von Jahr zu
+                  Jahr!<c rendition="#dots" n="3"/></p>
+            <p>Das Gespräch wird durch einen Besuch unterbrochen. Es sind Prof. <rs type="person"
+                  ref="#17793">Hammerich</rs> und seine Frau, die mit dem späteren Zug gekommen
+               sind. Sie kommen aus dem <rs type="place" ref="#43570">dänischen</rs> Frühling, den
+               der berühmte Gast sich gefreut hatte zu sehen, und Frau <rs type="person"
+                  ref="#17789">Hammerich</rs> bringt ihm den ersten Gruß davon in Form eines großen
+               Buketts Buchenzweige.</p>
+            <p>Der Professor wird in das Gespräch gezogen, und dadurch erfahren wir, was <rs
+                  type="person" ref="#2121">Schnitzler</rs> sich gedacht hat, vorzulesen: Eine
+               Novelle, einen der <rs type="work" ref="#29935">Anatol</rs>-Einakter, ein Bruchstück
+               von irgendetwas. Der Dichter zeigt auf den Schreibtisch, wo ein Stapel seiner Bücher
+               liegt. Er bittet mit einem Seufzer und einem Lächeln darum, den Stoß durchgehen zu
+               dürfen, bevor er seine endgültige Wahl trifft.</p>
+            <p> – Bücher, sagt er im Verlauf des Gesprächs, gehören ja noch zum billigen Luxus in
+                  <rs type="place" ref="#41240">Österreich</rs>, Theater hingegen zum teureren. Ich
+               kenne allmählich kaum das Publikum, das in meine Stücke kommt. Die Gesichter meiner
+               Freunde sind verschwunden. Sie können es sich nicht leisten. Es sind die Reichen der
+               neuen Zeit, die den Zuschauerraum füllen. Schauspiel kann ja auch als eine Art
+               Abendunterhaltung gebraucht werden!</p>
+            <p>
+               <rs type="person" ref="#2121">Schnitzler</rs> ist während des gesamten Gesprächs mit
+               einem leichten Sommermantel bekleidet gestanden. Bevor wir uns verabschieden, befragt
+               er uns – mit einem etwas bekümmerten Blick auf den Regen, der noch immer fällt – ob
+               der Frühling in <rs type="place" ref="#43570">Dänemark</rs> nicht kühl wäre.</p>
+            <p>– Nur heute Abend! tröstet Frau <rs type="person" ref="#17789">Hammerich</rs>. Morgen
+               und an den Tagen darauf ist es lau!</p>
+            <p>– Ich muss Ihnen sagen, erklärt <rs type="person" ref="#2121">Schnitzler</rs>, dass
+               mir in <rs type="place" ref="#168">Berlin</rs> ein schwererer Mantel als dieser und
+               verschiedene andere Sachen, die ich schätzte, gestohlen wurden. Ich kann mir deutlich
+               vorstellen, wie sich der Dieb benommen hat. So<c rendition="#dots" n="3"/>
+            </p>
+            <p>Und schon führt der berühmte Schriftsteller einen kleinen, improvisierten Einakter
+               auf, der diese niederträchtige Tat illustriert.</p>
+            <p>– Als Schriftsteller ist man doch im Besitz gewisser Sherlock Holmes-Instinkte!
+               lächelt er. Nun verlasse ich mich vorläufig auf den milden <rs type="place"
+                  ref="#43570">dänischen</rs> Frühling!</p>
+            <p rend="right">Thor.</p>
+         </div>
+         <div type="biographical">
+            <div1>
+               <ref target="1923-05-10" type="schnitzlerDiary"/>
+               <quote>In <rs type="place" ref="#36300">Kopenhagen</rs> erwarten mich 4 Photogr., die
+                  mich abconterfeien,– ich fühle mich gleichgiltig gegen die Lächerlichkeit. <rs
+                     type="person" ref="#12251">Sophus Michaelis</rs> ist da, Herr <rs type="person"
+                     ref="#58959">Huus</rs> vom <rs type="org" ref="#29482">Stud. Verein</rs>, <rs
+                     type="person" ref="#26030">Thomsen</rs>; die Journalisten <rs type="person"
+                     ref="#13737">Barföd</rs>, <rs type="person" ref="#23112">Rechendorff</rs>, <rs
+                     type="person" ref="#26494">Vogel-Jörgensen</rs>, <rs type="person" ref="#16086"
+                     >Falkenfleth</rs>;– <rs type="person" ref="#58959">Huus</rs> fährt uns ins
+                  Hotel ›<rs type="place" ref="#58094">Phönix</rs>‹.– Eine halbe Stunde sind die
+                  vier Journalisten da; schmerzloses gemeinsames Interview.–</quote>
+            </div1>
+         </div>
+      </body>
+   </text>
+</TEI>

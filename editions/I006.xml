@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="I006">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#32907">[Marco Brociner]: Haus Delorme.&#8239;(Eine Richtigstellung von
+               Arthur Schnitzler), 25.&#8239;11.&#8239;1904</title>
+            <author ref="#3442">Brociner, Marco</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="006"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#3442">[Marco Brociner]</author>
+                     <title level="a" ref="#32907">Haus Delorme. (Eine Richtigstellung von Arthur
+                        Schnitzler.)</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#41321">Neues Wiener Tagblatt</title>
+                     <imprint>
+                        <date when="1904-11-25" n="1">25.&#8239;11.&#8239;1904</date>
+                     </imprint>
+                     <biblScope unit="jg">38</biblScope>
+                     <biblScope unit="nr">327</biblScope>
+                     <biblScope unit="pp">13</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2017-11-17">angelegt</change>
+         <change who="MAM" when="2018-02-14">Index check</change>
+         <change who="KH" when="2021-10-07">Durchsicht</change>
+      </revisionDesc>
+      <!-- https://anno.onb.ac.at/cgi-content/anno?aid=nwg&datum=19041125&seite=13 -->
+   </teiHeader>
+   <text type="text">
+      <body>
+         <div type="original">
+            <head>
+               <rs type="work" ref="#31547">Haus Delorme.</rs>
+            </head>
+            <head type="sub">(Eine Richtigstellung von <rs type="person" ref="#2121">Arthur
+                  Schnitzler</rs>.)</head>
+            <p>Ueber den Einakter »<rs type="work" ref="#31547">Haus Delorme</rs>«, der bekanntlich
+               noch vor seiner Aufführung lebhafte Debatten hervorgerufen, hat sich gestern <rs
+                  type="person" ref="#2121">Arthur <hi rend="spaced_out">Schnitzler</hi>
+               </rs> einem Mitarbeiter unseres Blattes gegenüber in folgender Weise geäußert. »<ref
+                  target="#q023" type="question"/>Mein Einakter ›<rs type="work" ref="#31547">Haus
+                  Delorme</rs>‹ gehört zu einem geplanten Cyklus von Familienszenen, die in
+               verschiedenen Gesellschaftsklassen spielen. Ich nenne diese Szenen Burlesken und
+               deute damit die Tonart an, in der sie gehalten sind. Ich <anchor type="commentary"
+                  xml:id="K_I006-1"/>las den Einakter im vorigen Sommer einem intimen Kreise<note
+                  type="commentary" xml:id="K_I006-1h">Die einzige Zuhörerin am <ref
+                     target="1903-07-26" subtype="date-only" type="schnitzlerDiary"/> dürfte seine
+                  Frau <rs type="person" ref="#2173">Olga</rs> gewesen sein.</note> vor, wo er die
+               von mir beabsichtigte Wirkung übte: er weckte lebhafte Heiterkeit. Daß er anstößig
+               sei oder den Schauspielerstand verunglimpfe, diese Empfindung hatte niemand in diesem
+               Kreise, in dem sich auch Damen befanden. In gleicher Weise urteilte auch Direktor <rs
+                  type="person" ref="#12504"><anchor type="textConst" xml:id="T_I006-1"/>Reinhardt<note type='textConst' xml:id="T_I006-1h"><quote>Reinhart</quote></note></rs>, der das Stück für die ›<rs type="place"
+                  ref="#208">Kleine Bühne</rs>‹ erwarb, wo es gleichzeitig mit <anchor
+                  type="commentary" xml:id="K_implied_30217"/>zwei anderen <rs type="work"
+                  subtype="implied" ref="#30217 #29843">Einaktern</rs>
+               <note type="commentary" xml:id="K_implied_30217h">
+                  <rs type="work" ref="#29843">Der grüne Kakadu</rs>, <rs type="work" ref="#30217"
+                     >Der tapfere Cassian</rs>
+               </note> von mir zur Aufführung gelangen sollte. Als ich vorige Woche nach <rs
+                  type="place" ref="#168">Berlin</rs> kam, waren die Proben bereits in bestem Gange.
+               Wie sonst bei den Proben meiner Stücke, nahm ich kleine Aenderungen und Milderungen
+               vor. Ich machte nicht die geringste Wahrnehmung, daß unter den Darstellern eine
+               Animosität gegen ›<rs type="work" ref="#31547">Haus Delorme</rs>‹ herrsche; ich hörte
+               auch keine Andeutung, daß der Schauspielerstand durch diesen Einakter entwürdigt
+               werde. Die Aufführung konnte bloß aus dem Grunde nicht stattfinden, weil die
+               Zensurbehörde in letzter Stunde erklärte, daß sie noch keine endgiltige Entscheidung
+               gefaßt habe. Umso größer war meine staunende Ueberraschung, als ich in den <rs
+                  type="place" ref="#168">Berlin</rs>er Zeitungen las, daß die Darsteller des ›<rs
+                  type="place" ref="#208">Kleinen Theaters</rs>‹ über das Stück, darin sie eine
+               Degradierung ihres Standes erblicken, in peinliche Aufregung versetzt worden seien
+               und mit einem Streik drohen. Dieses Gerücht, das bereits als Tatsache ausgegeben
+               wurde, entsprang offenbar aus unbegründeten Mitteilungen einiger Schauspieler und der
+               Fall wäre völlig bedeutungslos, wenn hiebei nicht eine Erscheinung zutage getreten
+               wäre, gegen die ich entschieden protestieren muß. Einige Zeitungen haben den
+               angeblichen Inhalt meines <rs type="work" ref="#31547" subtype="implied">Stückes</rs>
+               erzählt. Es ist wohl das erste Mal, daß auf Grund eines Coulissenklatsches die Fabel
+               eines Bühnenwerkes, und dazu noch in völlig entstellter Weise, wiedergegeben wurde,
+               ehe es der Autor der Oeffentlichkeit und der Kritik in der von ihm passenden Zeit
+               unterbreitet hat. Das ist eine noch nicht dagewesene Verletzung eines verbrieften
+               Autorrechtes. Aber man ist noch weiter gegangen. Auf Grund dieser entstellten
+               Inhaltsangabe des <rs type="work" ref="#31547" subtype="implied">Einakters</rs> hat
+               man über mich das kritische Richtschwert geschwungen. Man hat mich beurteilt und
+               verurteilt. Gegen diesen Vorgang, der meines Wissens keinen Präzedenzfall hat, muß
+               ich energisch Verwahrung einlegen. Das ist das einzige beachtenswerte Moment in
+               dieser Angelegenheit. Ueber die Frage, ob Bühnenkünstler berechtigt seien,
+               Schauspielerstücke unter dem Vorgeben, daß sie ihr Standesbewußtsein verletzen,
+               abzulehnen, könnte ich nur in akademischer Weise antworten und meine Antwort würde
+               hiebei vollkommen mit jener Ansicht übereinstimmen, die in Ihrem Blatte bei der
+               Besprechung dieser Frage entwickelt wurde. Schließlich möchte ich nochmals betonen,
+               daß ein Verbot des Einakters bis jetzt wenigstens nicht erfolgt ist. Hoffentlich wird
+               er bald <anchor type="commentary" xml:id="K_I006-12"/>freigegeben<note
+                  type="commentary" xml:id="K_I006-12h">Zu Lebzeiten kam es zu keiner Aufführung und
+                     <rs type="person" ref="#2121">Schnitzler</rs> hat es nie in Druck
+                  gegeben.</note>. Dann erst wird der Moment kommen, da die Kritik ihr Urteil über
+               mein Werk abzugeben haben wird.</p>
+         </div>
+         <div type="biographical">
+            <div1>
+               <ref type="schnitzlerDiary" target="1904-11-24"/>
+               <quote>Interviewt von <rs type="person" ref="#3916">Klinenberger</rs> und <rs
+                  type="person" ref="#3442">Brociner</rs>.</quote>
+            </div1>
+            <div1>
+               <ref type="schnitzlerDiary" target="1904-11-25"/>
+               <quote>Vorm. erschienen in der <rs type="org" ref="#29351">N. Fr. Pr.</rs>, auch
+                  (schlechter) im <rs type="org" ref="#29414">N. Wr. Tgbl.</rs> meine Äußerungen
+                  über <rs type="work" ref="#31547">Delorme</rs>.</quote>
+            </div1>
+         </div>
+      </body>
+   </text>
+</TEI>

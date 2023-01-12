@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+  xml:base="schnitzler-interviews" xml:id="I065">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="s">Arthur Schnitzler: Interviews</title>
+        <title level="a" ref="#33207">Mária Rónay: Schnitzler Artur elavult műfajnak tartja az
+          interjút, Oktober 1927</title>
+        <author ref="#29096">Rónay, Mária</author>
+        <editor>
+          <name>Müller, Martin Anton</name>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>ASI</edition>
+        <respStmt>
+          <resp>Transkription und Kommentierung</resp>
+          <name>Martin Anton Müller</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Martin Anton Müller</publisher>
+        <idno type="asi" n="065"/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <biblStruct>
+            <analytic>
+              <author ref="#29096">Rónay, Mária</author>
+              <title level="a" ref="#33207">Schnitzler Artur elavult műfajnak tartja az
+                interjút</title>
+            </analytic>
+            <monogr>
+              <title level="j" ref="#56422">Literatura</title>
+              <imprint>
+                <date when="1927-10-01" n="1">Oktober 1927</date>
+              </imprint>
+              <biblScope unit="jg">2</biblScope>
+              <biblScope unit="nr">10</biblScope>
+              <biblScope unit="pp">337</biblScope>
+            </monogr>
+          </biblStruct>
+          <biblStruct corresp="ASUN">
+            <analytic>
+              <editor>Hg. Martin Anton Müller, Übersetzung Sándor Tatár</editor>
+              <title level="a">Arthur Schnitzlers ungarische Interviews</title>
+            </analytic>
+            <monogr>
+              <title level="j">Hofmannsthal-Jahrbuch. Zur europäischen Moderne</title>
+              <imprint>
+                <date when="2020">2020</date>
+              </imprint>
+              <biblScope unit="vol">28</biblScope>
+              <biblScope unit="pp">75–77</biblScope>
+            </monogr>
+          </biblStruct>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="hu-HU">Hungarian</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc status="approved">
+      <change who="MAM" when="2017-11-17">angelegt</change>
+      <change who="MAM" when="2021-07-06">Bearbeitung von Sándor Tátar eingebaut</change>
+      <change who="MAM" when="2019-10-20">Index check</change>
+      <change who="KH" when="2021-10-27">Durchsicht</change>
+    </revisionDesc>
+  </teiHeader>
+  <!-- https://adtplus.arcanum.hu/en/view/MTA_LiteraturaBeszamoloSzellemiEletrol_1927/&pg=488&layout=s -->
+  <text type="text">
+    <body>
+      <div type="original" xml:lang="hu-HU">
+        <head>
+          <rs type="person" ref="#2121">Schnitzler</rs> Artur elavult műfajnak tartja az interjut </head>
+        <p>A forradalom utáni <rs type="place" ref="#50">Bécs</rs> meglehetősen nyomott hangulatú
+          sivárságában hiába keressük a régi császárváros fényét. Csak a pompás paloták
+          architekturális szépségei őrzik emlékét a hajdani életnek. Az emberek feltünően kopottak,
+          és gondterhesek. Csak az idegenek hoznak valami életet a városba, – az uccákon többet
+          hallani idegen szót, különösen magyart, mint németet.</p>
+        <p>Elindulunk, hogy felkeressük <rs type="person" ref="#2121">
+            <hi rend="spaced_out">Schnitzler</hi> Arturt</rs>, az osztrák irodalom élesszemü, biztos
+          kezü reprezentánsát.</p>
+        <p>Schnitzler a <rs type="place" ref="#150"><anchor type="textConst" xml:id="T_I065-1"
+              />Sternwartestraßeban<note type="textConst" xml:id="T_I065-1h"
+                ><quote>Sternwartegasseban</quote></note></rs> lakik, a <rs type="place"
+            ref="#113">Türkenschanz-Park</rs> közelében, <rs type="place" ref="#50">Bécs</rs>
+          előkelő villanegyedében. Lombos fák árnyékában haladunk a csöndes, kihaltnak látszó
+          városrészben. A kertkapu csengőjének szavára automatikusan nyilik meg előttünk a vasrácsos
+          kapu és a ház bejárata. Az előkelő finomságu hallban a házvezetőnő fogad:</p>
+        <p>– A doktor ur nincs idehaza, bement a városba. Már csak azért fog hazajönni, hogy a
+          kofferjeit, a vasuthoz vitesse, mert még ma elutazik nyaralni.</p>
+        <p>Másfél óra mulva, utolsó kisérletként, felhívjuk telefonon a villát.</p>
+        <p>Kellemes, meleg férfihang szólal meg: </p>
+        <p>– Hallo, hier <rs type="person" ref="#2121">Arthur Schnitzler</rs> beim Telephon!</p>
+        <p>Elmondjuk, hogy azért kerestük, mert egy interjut akartunk tőle kérni és ha már az idő
+          rövidsége miatt nem lehetett személyesen beszélni, legalább azt tegye meg, hogy telefonice
+          feleljen néhány kérdésünkre.</p>
+        <p>– Nagyon sajnálom, de teljesen lehetetlen teljesitenem a kivánságát, – hangzik a válasz,
+          én elvből nem adok soha senkinek interjut.</p>
+        <p>– Mégis, most az egyszer kivételesen tegye meg kérem! Egyenesen azért jöttem <rs
+            type="place" ref="#50">Bécs</rs>be, hogy Önnel beszélhessek! – próbáljuk
+          kapacitálni.</p>
+        <p>Jókedvüen belenevet a telefonba.</p>
+        <p>– Nagyon szivesen beszélgetnék és nagyon örülnék, ha visszatértem után felkeresne, de
+          interjut nem adhatok, – <anchor type="textConst" xml:id="T_T030151-1"/>higgye<note
+            type="textConst" xml:id="T_T030151-1h"><quote>higyje</quote></note> el, hogy
+          lehetetlen. Mert amint egynek adok, ezután mindenki megrohanna. Nem lehet kivételeket
+          tennem.</p>
+        <p>Elkomolyodva folytatja:</p>
+        <p>– Különben <hi rend="spaced_out">is elavult müfajnak tartom az interjut</hi>. Nem lehet
+          valakiről helyes képet rajzolni egyórai beszélgetés alapján, ahhoz hosszú évek ismeretsége
+          kell.</p>
+        <p>– Hát legalább azt mondja el a magyar publikum számára, – amely olyan lelkes olvasója, –
+          hogy min dolgozik most.</p>
+        <p>Megint nevetve feleli:</p>
+        <p>– Hogy min dolgozom most, azt majd megtudják, ha megjelenik a munkám, – a többi nem
+          tartozik a publikumra. Amig egy mü el nem készül, addig az iró sajátja, a magánéletéhez
+          tartozik, amihez a nagy nyilvánosságnak semmi köze.</p>
+        <p>Hiába minden, <rs type="person" ref="#2121">Schnitzler</rs> hajthatatlan, nem lehet tőle
+          megtudni semmit.</p>
+        <p rend="right">
+          <hi rend="spaced_out">Rónay Mária</hi>.</p>
+      </div>
+      <div type="translation">
+        <head>
+          <rs type="person" ref="#2121">Arthur Schnitzler</rs> hält das Interview für eine überholte
+          Gattung</head>
+        <p>In der schwermütigen Ödnis des <anchor type="commentary" xml:id="K_import_84"
+          />postrevolutionären <rs type="place" ref="#50">Wien</rs><note type="commentary"
+            xml:id="K_import_84h">gemeint ist die Auflösung der k. u. k. Monarchie am Ende des
+            1. Weltkriegs und der Übergang zur <rs type="place" ref="#41240">österreichischen
+              Republik</rs> am <date>12.&#8239;11.&#8239;1918</date>
+          </note> suchen wir vergebens nach dem Glanz der alten Kaiserstadt. Nur die
+          architektonischen Schönheiten der prächtigen Paläste wahren noch die Erinnerung an das
+          einstige Leben. Die Leute sind augenscheinlich verwahrlost und kummerbeladen. Lediglich
+          die Fremden bringen ein bisschen Leben in die Stadt – auf den Straßen hört man mehr
+          Fremdsprachen (besonders Ungarisch) als Deutsch.</p>
+        <p>Wir brechen auf, um <rs type="person" ref="#2121">Arthur <hi rend="spaced_out"
+              >Schnitzler</hi>
+          </rs>, den Repräsentanten der <rs type="place" ref="#41240">österreichischen</rs>
+          Literatur mit dem scharfen Blick und der sicheren Hand, zu besuchen.</p>
+        <p>
+          <rs type="person" ref="#2121">Schnitzler</rs> wohnt in der <rs type="place" ref="#150"
+            >Sternwartestraße</rs>, in der Nähe des <rs type="place" ref="#113"
+            >Türkenschanzparks</rs>, im vornehmen Villenviertel <rs type="place" ref="#50"
+          >Wien</rs>s. Wir wandeln im Schatten von Laubkronen im stillen, scheinbar ausgestorbenen
+          Stadtteil. Auf das Läuten am Gartentor hin öffnen sich automatisch vor uns das
+          Eisengittertor sowie die Eingangstür des Hauses. Im vornehmen und eleganten Flur werden
+          wir von einer <anchor type="commentary" xml:id="K_I065-1"/>
+          <rs type="person" ref="#17901" subtype="implied">Haushälterin</rs>
+          <note type="commentary" xml:id="K_I065-1h">Es könnte sich um <rs type="person"
+              ref="#17901">Anna Haselmayer</rs> handeln, die <date>1927</date> bei <rs type="person"
+              ref="#2121">Schnitzler</rs> Haushaltshilfe war.</note> empfangen.</p>
+        <p>– Der Herr Doktor ist nicht daheim, er ging in die Stadt. Er kommt dann nur noch nach
+          Hause, um seine Koffer zur Bahn bringen zu lassen, weil er heute noch in den Urlaub
+          fährt.</p>
+        <p>Nach anderthalb Stunden unternehmen wir einen letzten Versuch, in der Villa
+          anzurufen.</p>
+        <p>Es ertönt eine angenehme, warme Männerstimme:</p>
+        <p>– <anchor xml:id="K_import_86" type="commentary"/>Hallo, hier <rs type="person"
+            ref="#2121">Arthur Schnitzler</rs> beim Telephon!<note type="commentary"
+            xml:id="K_import_86h">In etwa um diese Zeit legte sich <rs type="person" ref="#2121"
+              >Schnitzler</rs> eine Geheimnummer zu, »<quote>A10.0.81</quote>«.</note>
+        </p>
+        <p>Wir sagen ihm, dass wir anrufen, weil wir ihn gerne um ein Interview gebeten hätten. Wenn
+          es aber einmal wegen der knappen Zeit unmöglich sei, ihn persönlich zu sprechen, so möge
+          er doch mindestens per Telefon ein paar Fragen von uns beantworten.</p>
+        <p>– Tut mir sehr leid, aber es ist mir schier unmöglich, Ihren Wunsch zu erfüllen – lautet
+          die Antwort –, ich gebe aus Prinzip niemandem je ein Interview.</p>
+        <p>– Machen Sie doch, bitte, jetzt eine einzige Ausnahme! Ich bin nur deshalb nach <rs
+            type="place" ref="#50">Wien</rs> gekommen, um Sie sprechen zu können! – versuchen wir
+          ihn zu überreden.</p>
+        <p>Er lacht frohgemut in den Hörer.</p>
+        <p>– Auch ich würde mich sehr gern mit Ihnen unterhalten und würd’ mich freuen, wenn Sie
+          mich nach meiner Rückkehr aufsuchen würden, aber ein Interview kann ich nicht geben –
+          glauben Sie mir, bitte, es ist unmöglich. Denn wenn ich mich von einem interviewen lasse,
+          würden mich alle anderen anstürmen. Ich kann unmöglich Ausnahmen machen.</p>
+        <p>Er wird nun ernst, indem er fortfährt:</p>
+        <p>– Sowieso <hi rend="spaced_out">halte ich das Interview für eine überholte Gattung</hi>.
+          Keiner kann doch einen anderen nach einem Gespräch von der Dauer einer Stunde getreu
+          porträtieren, das setzt doch eine langjährige Bekanntschaft voraus.</p>
+        <p>
+          <ref type="question" target="#q001"/>– Dann verraten Sie wenigstens dem ungarischen
+          Publikum (das Ihre Werke leidenschaftlich liest), woran Sie gerade arbeiten.</p>
+        <p>Erneut lacht er bei seiner Antwort:</p>
+        <p>– <anchor xml:id="K_import_87" type="commentary"/>Woran ich gerade arbeite, werden Sie
+          erfahren, wenn mein Werk fertig sein wird – alles Übrige geht das Publikum nichts an.
+          Solange ein Werk nicht fertig ist, gehört das allein dem Autor, es gehört zu seinem
+          Privatleben, das die breite Masse überhaupt nichts angeht.<note type="commentary"
+            xml:id="K_import_87h">Das stimmt mit der sonst von <rs type="person" ref="#2121"
+              >Schnitzler</rs> gelebten Praxis überein, nicht öffentlich über Texte zu sprechen,
+            bevor sie abgeschlossen waren.</note>
+        </p>
+        <p>Alles vergebens; er bleibt unbeugsam; nichts kann man aus ihm herausbringen.</p>
+        <p rend="right">
+          <hi rend="spaced_out">Mária Rónay.</hi>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

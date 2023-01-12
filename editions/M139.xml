@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="M139">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#60265">Bund der Bühnendichter, 12.&#8239;4.&#8239;1906</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="139"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a" ref="#60265">Bund der Bühnendichter. II</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#41564">Die Schaubühne</title>
+                     <imprint>
+                        <date when="1906-04-12" n="1">12.&#8239;4.&#8239;1906</date>
+                     </imprint>
+                     <biblScope unit="jg">33</biblScope>
+                     <biblScope unit="nr">11.176</biblScope>
+                     <biblScope unit="pp">10</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2021-10-14">angelegt</change>
+         <change who="MAM" when="2021-10-15">Index check</change>
+         <change who="KH" when="2021-11-15">Durchsicht</change>
+      </revisionDesc>
+   </teiHeader>
+   <!--   https://archive.org/details/DieSchaubuehne2-1906-1/page/n460/mode/2up
+-->
+   <text type="article">
+      <body>
+         <div type="original">
+            <head>Bund der Bühnendichter</head>
+            <head type="sub">
+               <anchor type="commentary" xml:id="K_I139-1"/>II<note type="commentary"
+                  xml:id="K_I139-1h">Motiviert durch den Artikel <rs type="work" ref="#32516"
+                     >Bühnenvertrieb</rs> von <rs type="person" ref="#12968">Siegfried
+                     Trebitsch</rs>, der am <date>22.&#8239;3.&#8239;1906</date> in Nr. 12 der <rs type="work"
+                     ref="#41564">Schaubühne</rs> erschienen war und die Einrichtung einer
+                  Bühnengenossenschaft zur Vertretung der Autorenrechte forderte, startete <rs
+                     type="person" ref="#11813">Siegfried Jacobsohn</rs> mit Nr. 14 eine mehrteilige
+                  Debatte, die sich über Monate streckte. Diese Fortsetzung erschien eine Woche nach den ersten Beiträgen. 
+                Sie beginnt mit <rs type="person" ref="#2121">Schnitzler</rs>s Beitrag, auf ihn folgten Antworten von <rs type="person" ref="#60271">Friedrich
+                     Hotho</rs>, <rs type="person" ref="#2385">Alfred Halm</rs>, <rs type="person"
+                     ref="#12877">August Strindberg</rs>, <rs type="person" ref="#3747">Arthur
+                     Pserhofer</rs> und <rs type="person" ref="#12664">Johannes Schlaf</rs>.</note>
+            </head>
+            <p>
+               <hi rend="bold">Arthur Schnitzler</hi>.</p>
+            <p>
+               Ich vermag nur einige Fragen zu formulieren, auf
+               deren Beantwortung es mir besonders anzukommen scheint. Erstens: Welchen Vorteil
+               bietet eine <hi rend="antiqua">
+                  <rs type="org" ref="#29397">
+                     <anchor type="commentary" xml:id="K_I139-11"/>Société des Auteurs<note
+                        type="commentary" xml:id="K_I139-11h">Die französische Interessensvertretung
+                        besteht seit <date>1825</date>.</note>
+                  </rs>
+               </hi> nach französischem Muster gegenüber der in <rs type="place" ref="#151"
+                  >Deutschland</rs> und <rs type="place" ref="#41240">Österreich</rs> üblichen
+               Interessenvertretung der dramatischen Autoren durch Agenten? Zweitens: Welches sind
+               die Schwierigkeiten, die sich bisher, trotz der offenbar unter den Autoren
+               vorhandenen günstigen Stimmung, einer solchen Gründung in den Weg gestellt haben?
+               Drittens: Auf welche Weise wäre, vorläufig ohne Gründung einer <hi rend="antiqua"
+                  >Société</hi>, eine Besserung der bestehenden Zustände zu erzielen? wie wäre es
+               insbesondre möglich, eine reguläre (nicht nur in Verdachtsfällen behördlich
+               angeordnete und daher als Beleidigung wirkende) Kontrolle aller Aufführungen und
+               Einnahmeziffern an sämtlichen <rs type="place" ref="#41240">österreichischen</rs> und
+                  <rs type="place" ref="#151">deutschen</rs> Bühnen durchzuführen? (Eine ähnliche
+               Kontrolle hätte wohl auch für das Buchverlagswesen ihren Wert.) Wie wäre es endlich
+               dem allgemeinen Rechtsgefühl klarzumachen, daß Übervorteilungen aller Art, auch wenn
+               sie sich auf Erzeugnisse der Kunst oder des theatralischen Handwerks beziehen,
+               sittlich nicht anders zu bewerten und rechtlich nicht anders zu behandeln sind als
+               die gleichen Verfehlungen auf anderm Gebiete?</p>
+            <p>Diese Fragen wären vielleicht zu ergänzen durch andre, die sich mit den
+               schriftstellerischen Beziehungen <rs type="place" ref="#151">Deutschland</rs>s und
+                  <rs type="place" ref="#41240">Österreich</rs>s zu den übrigen Ländern
+               beschäftigten; sowohl zu denjenigen, mit denen eine (in der praktischen Durchführung
+               beinahe immer unzureichende) Konvention besteht; als zu denjenigen, wo eine
+               gesetzlich gewährleistete Schutzlosigkeit es geistigen Eigentums waltet.</p>
+            <p>So könnte eine Behandlung der Bühnenvertriebsfrage Anlaß werden, das weite und
+               wichtige Thema vom ökonomischen Verhältnis des Schriftstellers zu seiner nähern und
+               fernern geschäftlichen Umwelt, das in juristischer und ethischer Auffassung
+               gleichermaßen schwankend scheint, nach allen Richtungen hin aufzuhellen.</p>
+         </div>
+         <div type="biographical">
+            <div1>
+               <bibl>
+                  <rs type="person" ref="#11813">Siegfried Jacobsohn</rs> an Schnitzler,
+                     <date>26.&#8239;3.&#8239;1906</date>
+               </bibl>
+               <quote>
+                  <p>ich möchte Sie noch persönlicher als in dem hektographierten Schreiben um ein
+                     Wort zur Frage des Bühnenvertriebs bitten. Die Sache scheint doch von
+                     ziemlicher Wichtigkeit zu sein, nach den Antworten von <rs type="person"
+                        ref="#11740">Hofmannsthal</rs>, <rs type="person" ref="#13068"
+                     >Wedekind</rs>, <rs type="person" ref="#12664">Schlaf</rs> u. v. a. zu
+                     schließen. Ich freue mich auf das lebhafte Interesse und würde Sie sehr ungern
+                     missen.</p></quote>
+            </div1>
+            <div1>
+               <ref target="1906-03-28" type="schnitzlerDiary"/>
+               <quote>Notizen zum ›Bühnenvertrieb‹ (<rs type="person" ref="#11813">Jacobsohn</rs>s
+                  Ersuchen, <rs type="person" ref="#12968">Trebitsch</rs>’ <rs type="work"
+                     ref="#32516" subtype="implied">Artikel</rs>) –</quote>
+            </div1>
+            <div1>
+               <bibl>
+                  <rs type="person" ref="#11813">Siegfried Jacobsohn</rs> an Schnitzler,
+                     <date>31.&#8239;3.&#8239;1906</date>
+               </bibl>
+               <quote>
+                  <p>vielen Dank für Ihre positiven Fragen. Nach dem vielen Geschwätz, das einen
+                     Teil der Antworten in Nr. 14 ausmacht, werden Sie, wenn Sie in Nr. 15
+                     erschienen sind, die Diskussion zweifellos gegenständlicher und fruchtbarer
+                     machen. Vielleicht wird dann wirklich was bei der Sache herauskommen.</p></quote>
+            </div1>
+         </div>
+      </body>
+   </text>
+</TEI>

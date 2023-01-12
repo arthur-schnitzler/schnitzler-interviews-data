@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="M180">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#88345">Arthur Schnitzler: [Pressemitteilung zur Berliner Aufführung von Liebelei],
+               13.&#160;3.&#160;1895</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="180"/>
+         </publicationStmt>
+         <sourceDesc>
+            <origDate when="1895-03-13" n="1">13.&#160;3.&#160;1895</origDate>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Wienbibliothek</repository>
+                        <idno>Nachlass Salten, ZPH 1681, Schachtel 24, 4.4.1.2</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Blatt, 1 Seite, schwarze Tinte. Umseitig mit Bleistift von
+                           unbekannter Hand nicht zu bestimmender Vermerk: »<quote>33 / pt.
+                                 <unclear>4</unclear>0 g</quote>«.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct>
+                  <monogr>
+                     <title level="j" ref="#41264">Wiener Abendpost</title>
+                     <imprint>
+                        <date when="1895-03-13" n="1">13.&#8239;3.&#8239;1895</date>
+                     </imprint>
+                     <biblScope unit="nr">60</biblScope>
+                     <biblScope unit="pp">3</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <title level="j" ref="#36376">Neues Wiener Journal</title>
+                     <imprint>
+                        <date when="1895-03-14">14.&#8239;3.&#8239;1895</date>
+                     </imprint>
+                     <biblScope unit="nr">498</biblScope>
+                     <biblScope unit="pp">5</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <title level="j" ref="#36374">Neue Freie Presse</title>
+                     <imprint>
+                        <date when="1895-03-14">14.&#8239;3.&#8239;1895</date>
+                     </imprint>
+                     <biblScope unit="nr">10.975, Morgenblatt</biblScope>
+                     <biblScope unit="pp">7</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <title level="j" ref="#41189">Die Presse</title>
+                     <imprint>
+                        <date when="1895-03-14">14.&#8239;3.&#8239;1895</date>
+                     </imprint>
+                     <biblScope unit="jg">48</biblScope>
+                     <biblScope unit="nr">72</biblScope>
+                     <biblScope unit="pp">10</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <title level="j" ref="#41321">Neues Wiener Tagblatt</title>
+                     <imprint>
+                        <date when="1895-03-14">14.&#8239;3.&#8239;1895</date>
+                     </imprint>
+                     <biblScope unit="jg">29</biblScope>
+                     <biblScope unit="nr">72</biblScope>
+                     <biblScope unit="pp">7</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2022-04-21">angelegt</change>
+         <change who="MAM" when="2022-04-21">Index check</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div type="original">
+            <head><supplied>Pressemitteilung</supplied></head>
+            <p>»<rs type="work" ref="#29917">Liebelei</rs>«, das dreiaktige Schauspiel von Arthur
+               Schnitzler, welches eine der <anchor type="commentary" xml:id="K_M180-1"/>nächsten
+                  Novitäten<note type="commentary" xml:id="K_M180-1h">Die Uraufführung war zwar für
+                     <date>März 1895</date> geplant, verschob sich aber bis zum <ref
+                     type="schnitzlerDiary" subtype="date-only" target="1895-10-09"/>.</note> des
+                  <rs type="org" ref="#36247">Burgtheater</rs>s sein <subst>
+                  <del rend="strikethrough">soll</del>
+                  <add place="above">dürfte</add>
+               </subst>, ist auch vom <anchor type="commentary" xml:id="K_M180-2"/><rs type="org"
+                  ref="#35597">deutschen Theater</rs><note type="commentary" xml:id="K_M180-2h">Die
+                     <rs type="place" ref="#168">Berlin</rs>er Premiere fand am <ref
+                        type="schnitzlerDiary" subtype="date-only" target="1896-02-04"/> statt, <rs type="person" ref="#2299">Agnes Sorma</rs>
+                     gab die <rs type="work" ref="#29917" subtype="implied">Christine</rs>.</note>
+               in <rs type="place" ref="#168">Berlin</rs> zur Aufführung angenommen worden. Es wird
+               dort in der nächsten Saison mit <rs type="person" ref="#2299"><hi rend="latintype"
+                     >Agnes Sorma</hi></rs> in der weiblichten Hauptrolle in Scene gehen.</p>
+         </div>
+         <div type="biographical">
+            <div1>
+               <ref type="schnitzlerDiary" target="1895-03-14"/>
+               <quote>In den Ztg. durch mich Notiz <rs type="work" ref="#29917">Liebelei</rs><space
+                     unit="chars" quantity="1"/><rs type="org" ref="#35597">Dtsch.
+                     Theater</rs><space unit="chars" quantity="1"/><rs type="person" ref="#2299"
+                     >Sorma</rs>.―</quote>
+            </div1>
+         </div>
+      </body>
+   </text>
+</TEI>

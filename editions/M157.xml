@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="M157">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#61769">Hieroglyphen des Lebens, 15.&#8239;6.&#8239;1891</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="157"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#2121">A.&#160;Sch.</author>
+                     <title level="a" ref="#61769">Hieroglyphen des Lebens</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#35942">Moderne Rundschau</title>
+                     <imprint>
+                        <date when="1891-06-15" n="1">15.&#8239;6.&#8239;1891</date>
+                     </imprint>
+                     <biblScope unit="vol">3</biblScope>
+                     <biblScope unit="nr">6</biblScope>
+                     <biblScope unit="pp">243</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2021-11-09">angelegt</change>
+         <change who="MAM" when="2021-12-17">Index check</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div type="original">
+            <p><hi rend="bold"><rs type="work" ref="#61767">Hieroglyphen des Lebens</rs></hi>.
+               Novellen und Skizzen von <rs type="person" ref="#7253"><hi rend="spaced_out">Alfred
+                     Friedmann</hi></rs>. (<rs type="place" ref="#864">Leipzig</rs>, <rs type="org"
+                  ref="#61773">Gustav Körner</rs>.) Zuweilen hört man von einem literarisch
+               werthlosen Buche als von guter Unterhaltungslectüre sprechen. Für das vorliegende
+               wäre auch das des Lobes zu viel. Banale Stoffe, seicht behandelt – das gilt für diese
+               Novellen und Skizzen von der ersten bis zur letzten. Herr <rs type="person"
+                  ref="#7253">Alfred Friedmann</rs> nennt einen geachteten literarischen Namen sein
+               eigen. Wie nun, wenn zufällig ein Leser gerade die »<rs type="work" ref="#61767"
+                  >Hieroglyphen</rs>«, als das erste Werk aus der Feder dieses <rs type="person"
+                  ref="#7253" subtype="implied">Autors</rs> kennen lernte? Er wäre gewiß auf die
+               anderen nicht mehr begierig. Dieser Umstand wird von vielen Dichtern übersehen, die
+               allzurasch beliebt wurden. Sie streben täglich nach neuen Lorbeeren, wohl weil sie
+               denen von gestern nicht recht vertrauen.</p>
+            <p rend="right">A. Sch.</p>
+         </div>
+         <div type="biographical">
+            <div1>
+               <ref target="1891-06-21" type="schnitzlerDiary"/>
+               <quote><p>In der <rs type="work" ref="#35942">Mod. Rsch.</rs> waren bisher 4 kleine
+                  Kritiken von mir:</p>
+                  <p>über ›<rs type="work" ref="#61800">Medeabild</rs>‹ von <rs type="person"
+                     ref="#18053">Heitmüller</rs>,</p>
+                  <p><rs type="work" ref="#61781">Prof. Sylvan</rs> von <rs type="person"
+                     ref="#18468">Holmblad</rs></p>
+                  <p><rs type="work" ref="#61767">Hieroglyphen des Lebens</rs> von <rs type="person"
+                     ref="#7253">Alfr. Friedmann</rs></p>
+                  <p><rs type="work" ref="#31901">Friedensengel</rs> von <rs type="person"
+                     ref="#4287">Singer</rs>.</p></quote>
+            </div1>
+         </div>
+      </body>
+   </text>
+</TEI>

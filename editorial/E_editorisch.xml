@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="E_editorisch">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Interviews</title>
+                <title level="a">Editorische Richtlinien</title>
+                <author>Müller, Martin Anton</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASI</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Martin Anton Müller</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Martin Anton Müller</publisher>
+                <idno type="ASI-E" n="006"/>
+                <availability status="free">
+                    <p>Copyright © 2018</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Interviews of Arthur Schnitzler</p>
+            </seriesStmt>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="MAM" when="2021-12-16">angelegt</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="text">
+        <body>
+            <div type="writingSession" n="1">
+                <p>Die Geschwindigkeit, in der Zeitungen gesetzt wurden, erhöhte auch die Zahl der
+                    sinnentstellenden Druckfehler. Offensichtliche Fehler werden korrigiert und
+                    durch das nachstehende Verzeichnis ausgewiesen. Das inkludiert falsch
+                    geschriebene Realia in fremdsprachigen Texten wie falsche Personennamen oder
+                    Werktitel. Nicht eingegriffen wird bei zulässiger orthographischer Varianz. Der
+                    Vorname <rs type="person" ref="#2121">Schnitzler</rs>s wird, je nach
+                    Verlagshaus, sowohl als »Artur« wie »Arthur« geschrieben.</p>
+                <p>Titel und Zwischenüberschriften werden vereinheitlicht und folgen dem Format der
+                    Neuausgabe, eine weitere Nachahmung der Textauszeichnung – wie beispielsweise
+                    Fettdruck oder Versalien – findet nicht statt, bei Binnendifferenzierung,
+                    beispielsweise durch ein gesperrt gesetztes Wort, wird im Anlassfall über die
+                    Beibehaltung entschieden. Auf Wechsel von Schriftgrößen wird durchwegs
+                    verzichtet. Im Fließtext werden etwaige Textauszeichnungen übernommen. ›Fett‹,
+                    ›kursiv‹, ›versal‹, ›unterstrichen‹ können unmittelbar als solche umgesetzt
+                    werden. Da Kapitälchen in den Vorlagen nicht vorhandenen sind, ist es möglich,
+                    sie als Markierung für einen Schriftwechsel einzusetzen. Das betrifft vor allem
+                    Fremdwörter, etwa ein lateinischer Ausdruck, der in einem Fraktursatz in einer
+                    Antiqua-Schrift gesetzt ist. Diese Regel gilt nicht für einzelne Buchstaben, die
+                    in einer Frakturtype fehlten und aus einer anderen Type genommen wurden, etwa um
+                    einen französischen Akzent zu platzieren. Bei der typografisch problematischen,
+                    aber häufig vorkommenden Sperrung wurde eine Sonderregel angewandt. In Texten,
+                    in denen <hi rend="italics">keine</hi> Kursivierung vorkommt, wird die Sperrung
+                    kursiv gesetzt. Wenn innerhalb eines Textes Sperrung und Kursivsetzung vorhanden
+                    ist, bleibt die Sperrung erhalten.</p>
+                <p>Das Lange-s (›ſ‹) wird als rundes (›s‹) wiedergegeben; in handschriftlichen
+                    Zeugen vorkommende Geminationen durch Überstrich (›<c rendition="#gemination-m"
+                    />‹, ›<c rendition="#gemination-n"/>‹) werden aufgelöst (›mm‹, ›nn‹). </p>
+                <p>Anführungszeichen und Auszeichnungen direkter Rede wurden in ihrer Verwendung aus
+                    den Ursprungssprachen übernommen. Das betrifft etwa die in englischsprachigen
+                    Texten anzutreffende Praxis, Absätze in einer direkten Rede mit einem öffnenden
+                    Zeichen zu beginnen, aber das schließende erst am Ende der Rede zu setzen. Die
+                    für die Markierung der Rede verwendeten Zeichen wurden durchwegs zu »…« bzw.
+                    innerhalb geöffneter zu ›…‹ normalisiert. Weitere Normalisierungen fanden auf
+                    der Ebene der Interpunktion statt: Auslassungspunkte werden je nachdem, ob sie
+                    ein Satzende darstellen oder zwischen zwei Satzteilen stehen, ohne
+                        (»Satzschluss<c rendition="#dots" n="3"/>«) respektive mit Abstand (»zuerst
+                        dies&#160;<c rendition="#dots" n="3"/> dann das«) vom vorangestellten Wort
+                    gesetzt. Gedankenstriche werden durchwegs als Halbgeviertstriche (»–«)
+                    wiedergegeben. Geviertstriche ohne Abstand zum Vorgänger- und Nachfolgewort, wie
+                    diese in englischsprachigen Texten anzutreffen sind, werden ebenfalls mit
+                    Abstand und gekürzt gesetzt. Eine weitere Form der Normalisierung betrifft
+                    Datumsangaben, die durchwegs mit Zwischenraum zwischen den Punkten gesetzt sind
+                        (»<date>15.&#8239;5.&#8239;1862</date>«).</p>
+                <p>Kürzungen der Texte betreffen vor allem Textteile, die sich eindeutig <hi
+                        rend="italics">nicht</hi> auf <rs type="person" ref="#2121">Schnitzler</rs>
+                    beziehen. Das betrifft vor allem die weiteren Antworten bei Rundfragen. Soweit
+                    nicht über drei Dutzend Namen betroffen sind, werden im Kommentar die
+                    Verfasserinnen und Verfasser genannt, mit denen <rs type="person" ref="#2121"
+                        >Schnitzler</rs> hier auftritt. Kürzungen zwischen wiedergegebenen
+                    Textteilen sind durch »{[}<c rendition="#dots" n="3"/>{]}« markiert, weitere
+                    Hinweise auf die Art des Eingriffs finden sich im jeweiligen Kommentar eines
+                    Texts.</p>
+                <p>Bilder werden unmittelbar vor den Text platziert.</p>
+                <p>Stillschweigend übergangen werden ausgeschlagende Buchstaben, wenn anzunehmen
+                    ist, dass dieser Fehler nur einen Teil der Auflage betroffen hat. Bei
+                    Typoskripten werden die häufig vorkommenden Abstandsfehler, sei es durch
+                    übereinander gedruckte Buchstaben oder fehlende Wortzwischenräume ohne
+                    gesonderte Erwähnung behoben.</p>
+                <p>Bei der Wiedergabe von Typoskripten wird ausschließlich der letzte
+                    Überarbeitungsvorgang kenntlich gemacht. Die getroffene Annahme dahinter lautet,
+                    dass jene von der Sekretärin erstellte Textfassung, die sie mit Maschine und
+                    handschriftlichen Korrekturen <rs type="person" ref="#2121">Schnitzler</rs>
+                    vorgelegt hat, eine Grundschicht bildet, auf Basis derer es zu einer
+                    Überarbeitung durch den Autor kam. Für die Typistin wird dabei eine einzelne
+                    Textstufe angenommen, innerhalb derer zwischen Getipptem und Handschriftlichem
+                    nicht mehr differenziert wird. Praktisch bedeutet das, dass ein beim Tippvorgang
+                    gelöschtes Wort (üblicherweise durch »xxxx«) oder ein handschriftlich von der
+                    Schreibkraft ergänzter Buchstabe nicht wiedergegeben wird. Alle Streichungen in
+                    der Wiedergabe von Typoskripten können damit der Überarbeitung durch den
+                    Verfasser zugeordnet werden.</p>
+                <p>Die Aufgaben des Kommentars sind vielfältig, nicht nur das Erläutern von
+                    Anspielungen und unverständlichen Passagen. Er soll zudem durch ein Abgleich mit
+                    anderen Überlieferungen die Verlässlichkeit des jeweiligen Interviews erkennbar
+                    machen. Offensichtlich falsche Behauptungen, wie jene, <rs type="person"
+                        ref="#2121">Schnitzler</rs> hätte die Hand zum faschistischen Gruß gehoben
+                        <ref target="#L_I068_fascisti" type="pointer"/>, sollen als solche kenntlich
+                    werden. In eingeschränktem Maß können Querverweise zwischen Texten dazu dienen,
+                    die Überlieferung zu stützen. Als Beispiel genannt werden kann die Verwendung
+                    des Wortes »Fiasko« in Zusammenhang mit einer Aufführung von <rs type="work"
+                        ref="#30005">Abschiedssouper</rs>, das sowohl in einem <rs type="place"
+                        ref="#35512">ungarischen</rs> aus dem Jahr <date>1912</date><space
+                        unit="chars" quantity="1"/><ref target="#LI067-fiasko" type="pointer"/> und
+                    in einem <rs type="place" ref="#44335">schwedischen</rs> Interview aus dem Jahr
+                        <date>1923</date><space unit="chars" quantity="1"/><ref
+                        target="#L_I097_fiasko" type="pointer"/> vorkommt, was Nahe legt, dass die
+                    Wortwahl von <rs type="person" ref="#2121">Schnitzler</rs> stammt. Verzichtet
+                    wird auf einen die jeweiligen Implikationen genauer behandelnden Kommentar.
+                    Sofern zwei unmittelbar aufeinander folgende Texte den gleichen Kommentar
+                    erforderlich machen, wird auf eine Doppelung verzichtet und nur das erste
+                    Vorkommen mit einer Anmerkung versehen.</p>
+                <p>Das Register unternimmt es, Personen, Werke, Institutionen und Orte zu bestimmen.
+                    Durch die in den letzten Jahren erfolgte Digitalisierung und Weiterarbeit an der
+                    Personendatenbank der <rs type="work" ref="#33243">Tagebuch</rs>-Edition können
+                    viele Geburts- und Todesdaten taggenau und mit Ortsangaben gebracht werden.
+                    Während aber die Verantwortlichen der <rs type="work" ref="#33243"
+                    >Tagebuch</rs>-Edition aufgrund der zweifelhaften Gültigkeit gegen die Aufnahme
+                    von Berufsbezeichnungen entschied, werden bei Personen bis zu drei Berufsangaben
+                    aufgenommen. Das Ergebnis ist angreifbar, weil zwischen Beruf und Tätigkeit
+                    unterschieden werden müsste, sondern auch, weil fehlende Angaben ein falsche
+                    Signal aussenden. Das eine Problem äußert sich etwa derart, dass eine Person,
+                    die in den mehreren Jahrzehnten ihres Lebens gerade ein Buch veröffentlicht hat,
+                    als »Schriftsteller« oder »Schriftstellerin« gilt. Auch die historische
+                    Ungerechtigkeit, dass unbezahlte Arbeit übergangen wurde, wird fortgeschrieben,
+                    wenn Frauen ohne nähere Bezeichnung bleiben, obwohl vermutlich ein allgemein
+                    hinzugefügtes »Hausfrau« mehr Gerechtigkeit bedeutet hätte.</p>
+                <head type="sub">Diakritische Darstellung</head>
+                <list type="simple-gloss">
+                    <label>
+                        <unclear>Beispiel</unclear>
+                    </label>
+                    <item>Unsicher gelesene Stelle</item>
+                    <label>
+                        <gap unit="chars" quantity="5" reason="illegible"/>
+                    </label>
+                    <item>Nicht entzifferte Stelle. Die Anzahl der × gibt dabei die mutmaßliche
+                        Zeichenzahl wieder.</item>
+                    <label>
+                        <add place="above">Beispiel</add>
+                    </label>
+                    <item>Nachträgliche Einfügung</item>
+                    <label>
+                        <subst>
+                            <del rend="overwritten">Exempel</del>
+                            <add place="inline">Beispiel</add>
+                        </subst>
+                    </label>
+                    <item>Eine durch Überarbeitung (Streichung, Überschreibung) getilgte
+                        Textvariante wird hochgestellt vor der sie ersetzenden Schicht
+                        wiedergegeben.</item>
+                    <label>
+                        <hi rend="latintype">Beispiel</hi>
+                    </label>
+                    <item>Schriftwechsel zu Latein- oder Antiquaschrift innerhalb eines Textes in
+                        Fraktur oder Kurrentschrift</item>
+                    <label>
+                        <hi rend="pre-print">Beispiel</hi>
+                    </label>
+                    <item>Vordruck am Papier</item>
+                    <label>
+                        <supplied>Beispiel</supplied>
+                    </label>
+                    <item>Ergänzungen der Herausgeber</item>
+                    <label>{[}<c rendition="#dots" n="3"/>{]}</label>
+                    <item>Auslassung eines Textteils</item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

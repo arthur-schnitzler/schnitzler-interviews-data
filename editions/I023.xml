@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="I023">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#32971">Karl Marilaun: Bei Artur Schnitzler,
+               28.&#8239;10.&#8239;1923</title>
+            <author ref="#5130">Marilaun, Karl</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="023"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#5130">Marilaun, Karl</author>
+                     <title level="a" ref="#32971">Bei Artur Schnitzler</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#36376">Neues Wiener Journal</title>
+                     <imprint>
+                        <date when="1923-10-28" n="1">28.&#8239;10.&#8239;1923</date>
+                     </imprint>
+                     <biblScope unit="jg">31</biblScope>
+                     <biblScope unit="nr">10.756</biblScope>
+                     <biblScope unit="pp">8</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#5130">Marilaun, Carl</author>
+                     <title level="a" ref="#33077">Arthur Schnitzler erzählt, wie er zu seinem
+                        Anatol kam. Die Zerstörung einer literarhistorischen Illusion</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#36376">Neues Wiener Journal</title>
+                     <imprint>
+                        <date when="1931-10-25" n="1">25.&#8239;10.&#8239;1931</date>
+                     </imprint>
+                     <biblScope unit="jg">39</biblScope>
+                     <biblScope unit="nr">13.623</biblScope>
+                     <biblScope unit="pp">7–8</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct corresp="ASFestwochen">
+                  <analytic>
+                     <author ref="#5130">Marilaun, Carl</author>
+                     <title level="a" ref="#33077">Arthur Schnitzler erzählt, wie er zu seinem
+                        Anatol kam. Die Zerstörung einer literarhistorischen Illusion</title>
+                  </analytic>
+                  <monogr>
+                     <title level="m">Arthur Schnitzler (1862–1931). Materialien zur Ausstellung der
+                        Wiener Festwochen 1981</title>
+                     <editor>Hg. Arthur Schnitzler-Institut, Wien, im Auftrag der Wiener Festwochen.
+                        Zusammenstellung: Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik,
+                        Walter Ruprechter, Reinhard Urbach</editor>
+                     <imprint>
+                        <date when="1981" n="1">1981</date>
+                     </imprint>
+                     <biblScope unit="pp">24–26</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct corresp="Lindken">
+                  <analytic>
+                     <author ref="#5130">Marilaun, Carl</author>
+                     <title level="a" ref="#33077">Arthur Schnitzler erzählt, wie er zu seinem
+                        Anatol kam. Die Zerstörung einer literarhistorischen Illusion</title>
+                  </analytic>
+                  <monogr>
+                     <author>Lindken, Hans-Ulrich</author>
+                     <title level="m">Arthur Schnitzler. Aspekte und Akzente. Materialien zu Leben
+                        und Werk</title>
+                     <imprint>
+                        <date when="1984">1984</date>
+                        <publisher>Peter Lang</publisher>
+                        <pubPlace>Frankfurt am Main, Bern, New York</pubPlace>
+                     </imprint>
+                     <biblScope unit="pp">251–254</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2017-11-17">angelegt</change>
+         <change who="MAM" when="2018-02-14">Index check</change>
+         <change who="KH" when="2021-10-25">Durchsicht</change>
+         <change who="MAM" when="2022-01-10">Überarbeitete Fassung nun hier eingefügt, nicht mehr
+            eigenes Interview.</change>
+      </revisionDesc>
+   </teiHeader>
+   <!--    http://anno.onb.ac.at/cgi-content/anno?aid=nwj&datum=19231028&seite=8&zoom=33&query=%22schnitzler%2Bgespräch%22~5&ref=anno-search
+-->
+   <!-- Überarbeitete Fassung: https://anno.onb.ac.at/cgi-content/anno?aid=nwj&datum=19311025&seite=7&zoom=43 -->
+   <text type="text">
+      <body>
+         <div type="original">
+            <head>
+               <anchor type="commentary" xml:id="KT109-2"/>Bei <rs type="person" ref="#2121">Artur
+                  Schnitzler</rs>
+               <note type="commentary" xml:id="KT109-2h">Am <date>25.&#8239;10.&#8239;1931</date>,
+                  wenige Tage nach <rs type="person" ref="#2121">Schnitzlers</rs> Tod, erschien eine
+                  überarbeite Fassung, die hier wegen der umfangreichen Änderungen zur Gänze
+                  wiedergegeben wird: »<quote>
+                     <p><hi rend="bold">Arthur <rs type="person" ref="#2121">Schnitzler</rs>
+                           erzählt, wie er zu seinem <rs type="work" ref="#29935">Anatol</rs>
+                           kam.</hi></p>
+                     <p>Die Zerstörung einer literarhistorischen Illusion.</p>
+                     <p>Leicht vorgebeugt, die verschränkten Arme bequem aufs Schreibpult gelehnt,
+                        in der Stirn noch immer die berühmte, aber grau und wirr gewordene <rs
+                           type="person" ref="#2121">Schnitzler</rs>-Locke, steht der kleine große
+                        Mann und spricht mit jener faszinierenden Plauderkunst, die bedauern läßt,
+                        daß man ein ›Gespräch mit <rs type="person" ref="#2121">Artur
+                           Schnitzler</rs>‹ bekanntlich nicht aufstenographieren durfte. ›<anchor
+                           type="label" xml:id="I046_ich-lese-interviews"/>Ich lese Interviews recht
+                        gern‹, hatte er zuvor gesagt. ›Aber es müssen die anderen sein, die ihre
+                        Haut zu Markte tragen!‹ Für seine Person hatte er nicht die geringste
+                        Neigung, Monologe zu halten, die man hernach als Aeußerung eines berühmten
+                        Zeitgenossen in die Zeitung bringt.</p>
+                     <p>Teils stand man also in der <rs type="place" ref="#150"
+                           >Sternwartestraße</rs> als Berufsmensch Tantalusqualen aus, wenn <rs
+                           type="person" ref="#2121">Artur Schnitzler</rs>, nachdem er Vertrauen
+                        gefaßt, seine blendendsten Bonmots, Antithesen und scharmanten Bosheiten
+                        fertig geprägt nur so aus dem Aermel schüttelte. Aber dann nahm das Gespräch
+                        eine Wendung, bei der man, würde man einen Bleistift in der Hand gehabt
+                        haben, ihn wahrscheinlich eingesteckt hätte. Denn Artur <rs type="person"
+                           ref="#2121">Schnitzler</rs> begann nun – über <rs type="person"
+                           ref="#2121">Artur Schnitzler</rs> zu sprechen, mit einem so weitgehenden
+                        kritischen Freimut, daß man gegen diese Art, einen Dichter zu sehen, gern
+                        ein paar respektvolle Verwahrungen eingelegt hätte. Es war eine nicht gerade
+                        unwohlwollende, für den Versuch von Komplimenten aber absolut unempfängliche
+                        Skepsis, mit der er auf sein eigenes dichterisches Schaffen zu sprechen kam
+                        und bei dieser Gelegenheit auch gleich eine allen <rs type="place" ref="#50"
+                           >Wien</rs>er Literarhistorikern teuer gewordene Illusion zerstörte.</p>
+                     <p>Er erzählte nämlich die Entstehungsgeschichte seiner weltberühmt gewordenen
+                           ›<rs type="work" ref="#29935">Anatol</rs>‹-Szenen, und das war wohl das
+                        scharmanteste Kapitel Literaturgeschichte, das man je von einem Dichter
+                        vernommen hat. Dieser Anatol, junger Mann aus gutem Hause, und sein
+                        geistiger Habitus haben bekanntlich einer ganzen, ums fin de siècle lebenden
+                        und liebenden Generation junger Herren ihr Gesicht geben. Und es galt als
+                        ausgemacht, daß Anatol das liebenswürdige Selbstporträt des zwanzigjährigen
+                        Dichters sei.</p>
+                     <p>›Davon ist aber nicht ein Wort wahr‹, sagte <rs type="person" ref="#2121"
+                           >Artur Schnitzler</rs> mit jener unnachahmlichen, heiteren Ironie, die er
+                        in sein Lächeln legen konnte. ›Ich mußte immer ein wenig lachen, wenn mir
+                        die Kritik, die sogenannten Verehrer und die Literarhistoriker tiefere
+                        Beziehungen zu meinem Anatol – nachwiesen!‹ Wie aber sah es mit dieser zum
+                        Literaturdogma gewordenen Anatolverwandtschaft, von der die Feuilletonisten
+                        jahrzehntelang gelebt haben, in Wirklichkeit aus? Der junge Arzt Dr. <rs
+                           type="person" ref="#2121">Schnitzler</rs> schrieb, ohne die
+                        allergeringste Absicht auf ein eventuelles Berühmtwerden, aus dem Handgelenk
+                        eine Lustspielszene. ›Sie schien mir‹, erzählte er, ›völlig belanglos und
+                        ungefähr als das, was man zu jener Zeit eine <anchor type="label" xml:id="I023_L_1lustspiel"/>›Plauderei aus dem <rs
+                           type="place" ref="#166">Französischen</rs>‹ nannte. Die dem <rs
+                           type="work" ref="#29935">Anatol</rs> dann nachgerühmte ›<rs type="place"
+                           ref="#50">wien</rs>erische Note‹ hatte ich gar nicht beabsichtigt. Die
+                        kleine Szene war einfach die Frucht jenes fleißigen <rs type="org"
+                           ref="#36247">Burgtheater</rs>besuchs, zu dem ich im Hause meines <rs
+                           type="person" subtype="implied" ref="#12695">Vaters</rs> erzogen worden
+                        war. Aber ›Dichtung‹? Nein. So oft ich diese erste <rs type="work"
+                           ref="#30033" subtype="implied">Anatolszene</rs> in späteren Jahren dann wieder durchgelesen
+                        oder auf einer Bühne gesehen habe, versuchte ich herauszubringen, wo da die
+                        sogenannte ›eigene Note‹ ist. Ich habe sie nie herausgefunden!‹</p>
+                     <p>Und <rs type="person" ref="#2121">Artur Schnitzler</rs> lächelte mit
+                        unbelehrbarer Ironie, als ich mich respektvoll entrüstet weigerte, diese
+                        Demolierung unserer Illusionen zur Kenntnis zu nehmen. Er erzählte weiter.
+                        Jenem Lustspielszenchen, dessen Held übrigens noch gar nicht Anatol, sondern
+                        Richard oder Robert hieß, folgte eine <rs type="work" ref="#31357"
+                           >zweite</rs>, ebenso beiläufig dramatisierte Plauderei. Und viel später
+                        erst kam <rs type="person" ref="#2121">Schnitzler</rs> der Gedanke, die in
+                        seiner Schreibtischlade aufgestöberten Einakter zu vereinigen. Der Erfolg,
+                        den ›<rs type="work" ref="#29935">Anatol</rs>‹ bei der Erstaufführung fand,
+                        war nach dem Empfinden des Dichters eigentlich durchaus nicht überwältigend.
+                        Und als später der große Erfolg kam, war <rs type="person" ref="#2121"
+                           >Schnitzler</rs> über diese ›Jugendarbeit‹ längst hinausgewachsen. ›Er
+                        interessierte mich kaum mehr‹, sagte er. ›Und die eine oder andere dieser
+                        heute von ein paar Leuten fast klassisch genannten Szenenreihe kann ich
+                        geradezu nicht mehr ausstehen<c rendition="#dots" n="3"/>‹</p>
+                     <p>Uebrigens ist es interessant und wohl kaum bekannt, daß <rs type="person"
+                           ref="#12265">Mitterwurzer</rs> eines Tages mit dem Antrag kam, den <rs
+                           type="work" ref="#29935">Anatol</rs> spielen zu wollen. Er wünschte aber,
+                        daß ihm <rs type="person" ref="#2121">Schnitzler</rs> eine Szene
+                        hinzudichten möge. Und auf die Frage, was dies für eine Szene sein solle,
+                        sagte <rs type="person" ref="#12265">Mitterwurzer</rs> nach einigem
+                        Ueberlegen: ›Schließen Sie den Zyklus mit <anchor type="label" xml:id="I023_anatolsTod"/>›Anatols Tod‹ ab!‹ Es war die Idee
+                        eines Tragöden, mit der sich <rs type="person" ref="#2121">Schnitzler</rs>
+                        nicht zu befreunden vermochte. Aber er skizzierte immerhin den Entwurf eines
+                        neuen, die Szenenreihe <rs type="work" ref="#30161" subtype="implied"
+                           >abschließenden Einakters</rs>. Der Entwurf blieb liegen, <rs
+                           type="person" ref="#12265">Mitterwurzer</rs> starb. Und damit war die
+                        Idee eines Anatol, dessen Gesicht in der Darstellung <rs type="person"
+                           ref="#12265">Mitterwurzers</rs> wohl andere Züge als die eines jungen
+                        Mannes aus gutem <rs type="place" ref="#50">Wien</rs>er Hause getragen
+                        hätte, für immer begraben.</p>
+                     <p>Im Weitersprechen streifte <rs type="person" ref="#2121">Artur
+                           Schnitzler</rs> noch manche Entstehungsgeschichte später erschienener
+                        Werke, von denen er vieles nur mit starken kritischen Vorbehalten gelten
+                        lassen wollte. So gab er zum Beispiel seinen ›<rs type="work" ref="#29905"
+                           >Ruf des Lebens</rs>‹ fast vollständig Preis. Er sagte wörtlich: ›Der
+                        erste Akt ist ausgezeichnet, beim zweiten gehe ich noch mit, den dritten
+                        aber streiche ich heute glatt durch!‹ Ihn noch einmal schreiben? ›Ja,‹ sagte
+                        er rasch, ›ich<pb/> habe manchmal daran gedacht. Vielleicht kommt es einmal
+                        dazu. Aber jetzt habe ich andere Arbeiten im Kopf, die mich stärker
+                        beschäftigen.‹ Tatsächlich ist <rs type="person" ref="#2121">Artur
+                           Schnitzler</rs> erst in der allerletzten Zeit seines Lebens dazugekommen,
+                        den lange erwogenen und immer zurückgestellten Plan einer Umarbeitung dieses
+                        Dramas in Angriff zu nehmen.</p>
+                     <p>Frage: Welches seiner Theaterstücke er am höchsten schätzt! <rs
+                           type="person" ref="#2121">Schnitzler</rs>, auf und ab in seinem Zimmer,
+                        kräuselte die Lippen, sah darin aber doch einen Augenblick nachdenklich vor
+                        sich hin, um sachlich und bestimmt antworten zu können. Die Wahl fiel ihm
+                        anscheinend nicht schwer. Er sagte: ›Die ›<rs type="work" ref="#30717"
+                           >Komödie der Worte</rs>‹ habe ich gern. Vielleicht könnte ich mich sogar
+                        entschließen, sie ausnehmend gut zu finden. Sagen würde ich das aber nur,
+                        wenn sie – ein anderer geschrieben hätte<c rendition="#dots" n="3"/>
+                        Hingegen gibt es ein Buch, zu dem ich mich ganz ohne Einschränkung bekenne.
+                        Es geschrieben zu haben, bin ich beinahe stolz. Und das ist mein alter Roman
+                           ›<rs type="work" ref="#29923">Der Weg ins Freie</rs>‹. Dieses Buch muß
+                        ich mir nächstens auf meinen Schreibtisch zu den Büchern legen, die ich bei
+                        Gelegenheit, und wenn ich Zeit habe, wieder einmal lesen möchte.‹</p>
+                     <p>Weggehend, sah ich die erleuchteten Scheiben des Arbeitszimmers <rs
+                           type="person" ref="#2121">Artur Schnitzler</rs>s durch die verregneten,
+                        finstern <rs type="place" ref="#533">Cottage</rs>gärten glänzen. Nebel spann
+                        ums Licht der hinter Baumkronen halbversteckten Laternen. Die Schritte des
+                        Entgegenkommenden scheuchten ein engverschlungenes Paar auseinander. Zögernd
+                        lösen sie ihre Hände. Der junge Mensch schlägt seinen Rockkragen auf. Und
+                        das Mädchen, Regentropfen aus dem Haar streifend, fängt mit der Hand ein
+                        herangewehtes, von Nässe schweres Blatt auf. Sie läßt es fallen. Ihre
+                        dunklen Augen haften einen Moment, sonderbar und verräterisch schweifend,
+                        über den Geliebten hinweg an dem Fremden, der vorübergeht. Wie durch eine
+                        erfundene, aus Bücherseiten und von Theaterszenen symbolhaft
+                        herüberschattende Welt geht man und erkennt sie: diese schweigenden
+                        Herbstgärten <rs type="person" ref="#2121">Artur Schnitzler</rs>s, des
+                        Dichters von <rs type="place" ref="#50">Wien</rs>.</p></quote>«</note>
+            </head>
+            <head type="sub">Von Karl Marilaun</head>
+            <p>Zu anderen Dichtern geht man, auf Pathos und Bedeutung vorbereitet, in der Stimmung
+               eines historischen Augenblicks. Im nachhinein stellt sich dann allerdings meistens
+               heraus, daß das Ganze eine lokal historische, weniger beträchtliche als sentimentale
+               Angelegenheit war.</p>
+            <p>Auf dem Wege zu <rs type="person" ref="#2121">Artur Schnitzler</rs> darf man die
+               etwas fröhlichere Erwartung mitnehmen, daß man natürlich zu einem sehr berühmten, oft
+               und sehr wortreich gefeierten und außerdem auch wirklich verehrten Menschen kommt.
+               Aber dieser Dichter hat die äußere und mehr noch die innere <anchor type="commentary" xml:id="K_I023-111"/>Tournüre<note type='commentary' xml:id="K_I023-111h">die Umgangsformen beherrschen</note> des Weltmannes,
+               dem es stärkstes Unbehagen bereiten müßte, wenn er ausdrücklich als Zierde der Nation
+               und verdienstvoller Bürger angesprochen würde. Kommt man trotzdem in einiger
+               Befangenheit zu ihm, so weiß er sie ziemlich schnell zu zerstreuen, mit einer
+               Plauderkunst, die so amüsant, beweglich und bestrickend ist, daß man erst im
+               nachhinein zur Feststellung kommt, mit wieviel Grazie und formbewußter Kultur ein
+               bedeutender Mensch es hier vermieden hat, bedeutend zu erscheinen.</p>
+            <p>Interviews allerdings bittet er sich gleich im vorhinein aus. Er hat die denkbar
+               geringste Neigung, Monologe zu halten, die hernach als Aeußerung eines berühmten
+               Zeitgenossen registriert werden könnten. Außerdem sagt er fast prinzipiell lauter
+               Dinge, gegen die man am liebsten sofort eine Menge respektvoller Verwahrungen
+               einlegen möchte. Er spricht nämlich über <rs type="person" ref="#2121">Artur
+                  Schnitzler</rs>, den Dichter, mit einem äußerst weitgehenden Freimut und einer
+               nicht gerade unwohlwollenden, für jeden Versuch von Komplimenten aber absolut
+               unempfänglichen Skepsis. <ref type="question" target="#q087"/>Es gibt wenig, das
+               amüsanter wäre, als von ihm die Entstehungsgeschichte seines fast weltberühmt
+               gewordenen »<rs type="work" ref="#29935">Anatol</rs>« erzählt zu bekommen. Dieser
+               junge Mann, dessen geistiger Habitus das Gesicht einer oder zweier Generationen
+               junger Männer bestimmt hat, <anchor type="label" xml:id="L_I023_abstammung"/>stammt
+               nach <rs type="person" ref="#2121">Artur Schnitzler</rs> zunächst und vor allem gar
+               nicht so sehr von ihm selbst, als von einer schwer eruierbaren Menge <rs type="place"
+                  ref="#166">französischer</rs> Belletristen und <rs type="place" ref="#182"
+                  >Paris</rs>er Lustspielfiguren ab. <rs type="person" ref="#2121">Schnitzler</rs>
+               hatte immer ein heiteres Lächeln, wenn ihm die Kritik, die Verehrer und die
+                  Literaturhistoriker<anchor xml:id="I023_laecheln" type="label"/> ganz bestimmte,
+               tiefere Beziehungen zu diesem <rs type="work" ref="#29935">Anatol</rs> nachsagten.
+               Wie sehen diese Beziehungen in Wirklichkeit aus? Der junge Arzt Dr. <rs type="person"
+                  ref="#2121">Schnitzler</rs> schrieb, ohne allergeringste Absicht auf Bereicherung
+               der heimischen Literaturproduktion, eine ihm schon damals ziemlich belanglos
+               erscheinende Lustspielszene, nicht viel mehr als eine Plauderei »nach dem <rs
+                  type="place" ref="#166">Französischen</rs>«. Er wußte damals kaum, daß Dichter
+               verpflichtet sind, eine eigene Note zu haben, und wenn man sie heute im »<rs
+                  type="work" ref="#29935">Anatol</rs>« erblicken will, lächelt er mit unbelehrbarer
+               Ironie.</p>
+            <p>Also, jenem <anchor type="commentary" xml:id="K_implied_30033"/>
+               <rs type="work" subtype="implied" ref="#30033">Lustspielszenchen</rs>
+               <note type="commentary" xml:id="K_implied_30033h">
+                  <rs type="work" ref="#30033">Anatols Hochzeitsmorgen</rs>
+               </note>, dessen Held übrigens noch gar nicht Anatol, sondern <anchor
+                  type="commentary" xml:id="K_I023-1"/>Richard oder Robert<note type="commentary"
+                  xml:id="K_I023-1h">In der ersten Fassung von <rs type="work" ref="#30033">Anatols
+                     Hochzeitsmorgen</rs> steht»<quote>Richard</quote>«, »Robert« lässt sich mit
+                  keinem überlieferten Textzeugen belegen (<bibl><rs type="work" ref="#29935"
+                        >Anatol. Historisch-kritische Ausgabe</rs> S.&#8239;3</bibl>), <ref target="#K_I096-9"
+                     type="pointer" subtype="cf"/></note> hieß, folgte eine <anchor
+                  type="commentary" xml:id="K_implied_31357"/>
+               <rs type="work" ref="#31357" subtype="implied">zweite</rs>
+               <note type="commentary" xml:id="K_implied_31357h">
+                  <rs type="work" ref="#31357">Episode</rs>
+               </note>, ebenso beiläufig dramatisierte Plauderei. Und viel später erst kam ihm der
+               Gedanke, diese und andere, in seiner Lade liegende Einakter zu vereinigen. Von einem
+               wirklichen Erfolg aber konnte man noch lange nicht sprechen, und als er endlich kam,
+               war <rs type="person" ref="#2121">Schnitzler</rs> über diesen »<rs type="work"
+                  ref="#29935">Anatol</rs>« längst hinausgewachsen, er interessierte ihn kaum mehr
+               und die eine oder andere Szene dieser klassisch gewordenen Reihe kann er heute
+               geradezu »nicht ausstehen«. Uebrigens ist es interessant, daß <rs type="person"
+                  ref="#12265">Mitterwurzer</rs> eines Tages zu ihm mit dem Antrag kam, den <rs
+                  type="work" ref="#29935">Anatol</rs> spielen zu wollen. Er wünschte aber, daß <rs
+                  type="person" ref="#2121">Schnitzler</rs> für ihn eine Szene hinzudichten möge,
+               und auf die Frage, was dies für eine Szene sein solle, sagte <rs type="person"
+                  ref="#12265">Mitterwurzer</rs> nach einigem Ueberlegen: »Schließen Sie den Zyklus
+               mit ›<anchor type="label" xml:id="I023_L_anatolsTodII"></anchor><anchor type="commentary" xml:id="K_I023-11"/>Anatols Tod<note type="commentary"
+                  xml:id="K_I023-11h"><ref target="#I034_L_anatolstod" type="pointer" subtype="cf"/></note>‹
+               ab!« Es war die Idee eines Tragöden, mit der sich <rs type="person" ref="#2121"
+                  >Schnitzler</rs> nicht zu befreunden vermochte, aber er skizzierte immerhin den
+               Entwurf eines neuen, die Szenenreihe <anchor type="commentary" xml:id="KT109-1"/>
+               <rs type="work" subtype="implied" ref="#30161">abschließenden Einakters</rs>
+               <note type="commentary" xml:id="KT109-1h">
+                  <rs type="work" ref="#30161">Anatols Größenwahn</rs></note>. Der Entwurf blieb
+               liegen, <rs type="person" ref="#12265">Mitterwurzer</rs> starb und mit ihm mußte die
+               befremdend erscheinende, aber interessante Idee eines <rs type="work" ref="#29935"
+                  >Anatol</rs>, dessen Jünglings- und Genießergesicht andere Züge als die des
+               herkömmlichen, netten Bonvivants getragen hätte, begraben werden.</p>
+            <p>Im Gespräch streift <rs type="person" ref="#2121">Artur Schnitzler</rs> noch manche
+               Entstehungsgeschichte später erschienener Werke, von denen er fast das meiste nur mit
+               starken kritischen Vorbehalten gelten lassen will. So gibt er zum Beispiel seinen
+                  »<rs type="work" ref="#29905">Ruf des Lebens</rs>« fast vollständig preis. Er
+               weiß, daß der erste Akt ausgezeichnet ist, beim zweiten geht er noch mit, den dritten
+               aber streicht er mit einer einzigen Handbewegung glatt durch. Er kann nicht finden,
+               daß hier noch etwas zu retten wäre. Ihn noch einmal schreiben? Ja, er hat mitunter
+               daran gedacht. Aber es gibt so viele, ihn stärker beschäftigende und ihm dringender
+               erscheinende Pläne als die Umarbeitung eines alten Stückes. Ein neues <anchor
+                  type="commentary" xml:id="K_implied_30205"/>
+               <rs type="work" ref="#30205" subtype="implied">Bühnenwerk</rs>
+               <note type="commentary" xml:id="K_implied_30205h">
+                  <rs type="work" ref="#30205">Komödie der Verführung. In drei Akten</rs>, dessen
+                  Diktat am <ref type="schnitzlerDiary" target="1923-10-06" subtype="date-only"/>
+                  abgeschlossen wurde.</note> steht jetzt übrigens vor der Vollendung.
+               Novellistisches läuft zwischendurch; nach längerer Zeit beschäftigt ihn auch wieder
+               die Konzeption eines <anchor type="commentary" xml:id="K_implied_30817"/>
+               <rs type="work" subtype="implied" ref="#30817">Romans</rs>
+               <note type="commentary" xml:id="K_implied_30817h">
+                  <rs type="work" ref="#30817">Therese. Chronik eines Frauenlebens</rs>
+               </note>, und während er davon spricht, fällt ihm ein, wie lange er sich eigentlich
+               schon vorgenommen hat, seinen »<anchor type="commentary" xml:id="K_I023-4"/><rs
+                  type="work" ref="#29923">Weg ins Freie</rs>« wieder einmal zu lesen<note
+                  type="commentary" xml:id="K_I023-4h">Eine vollständige Lektüre lässt sich erst im
+                     <date>April 1929</date> belegen.</note>. An diesem Buch hängt er mit einer Art
+               von wirklich starkem Gefühl, und da er eben zuvor bei einer beiläufigen Aufzählung
+               seiner Bühnendichtungen mit kritischen Einwänden nicht gespart hat – den meisten
+               dieser Formulierungen, sagt er lächelnd, möchte er bei der berufsmäßigen Kritik nicht
+               gern begegnen –, <ref type="question" target="#q014"/>liegt die Frage nahe, welches
+               seiner Theaterstücke er am höchsten schätzt.</p>
+            <p>
+               <rs type="person" ref="#2121">Schnitzler</rs>, auf und ab in seinem Zimmer, kräuselt
+               die Lippen, dann sieht er aber doch einen Augenblick nachdenklich vor sich hin, um
+               sachlich und bestimmt antworten zu können. Die Wahl fällt ihm anscheinend nicht
+               schwer. Die »<rs type="work" ref="#30717">Komödie der Worte</rs>« hat er gern, das
+               heißt, er könnte sich entschließen, sie geradewegs gut zu finden. Um das ganz glatt
+               entscheiden zu können, wäre es allerdings nötig, daß ein anderer das Stück
+               geschrieben hätte. Dann, vielleicht, würde <rs type="person" ref="#2121">Artur
+                  Schnitzler</rs> die »<rs type="work" ref="#30717">Komödie der Worte</rs>«, den
+                  »<rs type="work" ref="#29923">Weg ins Freie</rs>« und hoffentlich noch ein paar
+               andere von seinen Sachen ins Regal zu den Büchern legen, die wieder einmal zu lesen
+               er gerne Zeit haben möchte.</p>
+            <p>Weggehend, sieht man die erleuchteten Scheiben seines Arbeitszimmers durch die
+               verregneten, kleinen und finsteren Herbstgärten glänzen. Hinter schwarzen Gittern,
+               auf abgeräumten Beeten stehen die Terrakottastatuen der hier ansässigen, guten
+               Bürger. Nebel spinnt ums halbe Licht der spärlichen Gaslaternen, in fallendes Laub
+               versinkt der Fuß, und der Lichtkegel, den ein helles Feuer in die nachtstumme Allee
+               wirft, scheucht ein engverschlungenes Paar auseinander. Zögernd lösen sie ihre Hände,
+               der junge Mensch schlägt seinen Rockkragen aus, und das Mädchen, Regentropfen aus dem
+               Haar streifend, fängt mit der Hand ein herangewehtes, von Nässe schweres Blatt auf.
+               Sie läßt es fallen. Ihre dunklen Augen haften einen Moment, sonderbar schweifend, an
+               dem Fremden, der vorübergeht.</p>
+            <p>Wie durch eine erfundene, aus Bücherseiten, von Theaterszenen symbolhaft
+               herüberschattende Welt geht man und erkennt sie, diese schweigenden Herbstgärten <rs
+                  type="person" ref="#2121">Artur Schnitzlers</rs>, des Dichters von <rs
+                  type="place" ref="#50">Wien</rs>. </p>
+         </div>
+         <div type="biographical">
+            <div1>
+               <ref type="schnitzlerDiary" target="1923-10-23"/>
+               <quote>
+                  <rs type="person" ref="#5130">Carl Marilaun</rs> vom <rs type="org" ref="#29320"
+                     >N. Wr. Journal</rs>; besonders sympathisch, sprachen fast zwei
+                  Stunden.</quote>
+            </div1>
+         </div>
+      </body>
+   </text>
+</TEI>

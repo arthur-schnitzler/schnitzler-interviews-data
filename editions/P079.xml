@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="P079">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#58381">Zum »Professor Bernhardi«, Februar 1913</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="079"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <title level="a" ref="#58381">Zum »Professor Bernhardi«</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#41568">Der Merker</title>
+                     <imprint>
+                        <date when="1913-02-28" n="1">2. Februar-Heft 1913</date>
+                     </imprint>
+                     <biblScope unit="jg">4</biblScope>
+                     <biblScope unit="nr">4</biblScope>
+                     <biblScope unit="pp">135</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2018-10-19">angelegt aus Julia Glunks Abschrift</change>
+         <change who="MAM" when="2021-09-12">Index check</change>
+         <change who="KH" when="2021-10-13">Durchsicht</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="text">
+      <body>
+         <div type="original">
+            <head>Zum »<rs type="work" ref="#30203">Professor Bernhardi</rs>«.</head>
+            <head type="sub">von Arthur Schnitzler.</head>
+            <p>Sehr geehrte Redaktion! Ich glaube mich verpflichtet, den Lesern Ihres geschätzten
+               Blattes, die den höchst anregenden Artikel von <rs type="person" ref="#10992">Georg
+                  Brandes</rs> »<anchor type="commentary" xml:id="K_I079-1"/>
+               <rs type="work" ref="#33259">Theater und Schauspiele in Deutschland</rs>
+               <note type="commentary" xml:id="K_I079-1h">
+                  <bibl>
+                     <rs type="work" ref="#41568">Der Merker</rs>, H.&#160;3,
+                        <date>1.&#160;Februar-Heft 1913</date>, S.&#8239;95–99</bibl>.</note>« zur
+               Kenntnis genommen haben, die wenigen Sätze nicht vorzuenthalten, die, in einem soeben
+               von mir abgesandten <anchor type="commentary" xml:id="K_P079-1"/>Brief<note
+                  type="commentary" xml:id="K_P079-1h">Der Brief an <rs type="person" ref="#10992"
+                     >Georg Brandes</rs> ist datiert mit <date>27.&#8239;2.&#8239;1913</date>, so dass
+                  die Auslieferung des 2.&#160;Februar-Hefts des <rs type="work" ref="#41568"
+                     >Merker</rs> erst für <date>März 1913</date> anzunehmen ist (<bibl><title
+                        level="m">schnitzler-briefe</title>, L02114</bibl>). <rs type="person"
+                     ref="#10992">Brandes</rs> reagiert mit: »<quote>Ich erhalte hier (<rs
+                        ref="#1135" type="place">Hotel Métropole, Taormina</rs>) Ihren
+                     liebenswürdigen Brief, der mir zeigt, dass ich Unrecht hatte zu glauben, was
+                     die Professorin <rs ref="#2312" type="person">Zuckerkandl</rs> mir in <rs
+                        ref="#50" type="place">Wien</rs> über den Anlass Ihres <rs type="work"
+                        ref="#30203" subtype="implied">Schauspiels</rs> erzählte. Ich bitte Sie
+                     meinen Irrthum zu entschuldigen. Man sollte nie Vertrauen an dergleichen
+                     Mittheilungen haben.</quote>« (<bibl>L02116</bibl>)</note> an den ausgezeichneten Verfasser, dazu
+               bestimmt sind, einen Irrtum, den er, wie Andere vor ihm, gutgläubig übernommen haben,
+               ein für allemal richtig zu stellen. Diese Sätze lauten:</p>
+            <p>»Es ist über den ›<rs type="work" ref="#30203">Bernhardi</rs>‹ gar viel herumgeredet
+               und – nicht immer bona fide – herumgeschwätzt worden und auch Sie, verehrter Freund,
+               sind, wie speziell aus einer Ihrer Bemerkungen hervorgeht, über die
+               Entstehungsgeschichte meines Stückes nicht richtig informiert. Die Komödie behandelt
+               nicht eigentlich ›ein Lebensschicksal, wie es mein <rs type="person" subtype="implied" ref="#12695">Vater</rs> erfahren hat‹, der Inhalt
+               ist vielmehr frei erfunden. Mein <rs type="person" subtype="implied" ref="#12695">Vater</rs> hat wohl seinerzeit, im Verein mit Freunden,
+               ein <anchor type="commentary" xml:id="K_P079-11"/><rs subtype="implied" type="org" ref="#41367">Krankeninstitut</rs><note type='commentary' xml:id="K_P079-11h">die <rs type="org" ref="#41367">Allgemeine Poliklinik</rs> im <rs type="place" ref="#59">9. Wiener Gemeindebezirk</rs></note> in der Art des ›Elisabethinums‹ gegründet, hat es gegen
+               mancherlei Anfeindungen mit Aufgebot seiner ganzen Begabung und Tatkraft, natürlich
+               nicht ohne die Mithilfe ausgezeichneter Arbeits- und Kampfgefährten, zu hoher Blüte
+               gebracht und mußte, insbesondere gegen Schluß seines Lebens, von mancher Seite Undank
+               und Kränkung erfahren; – aber wenn auch sein Ausscheiden aus dem von ihm begründeten
+               <rs subtype="implied" type="org" ref="#41367">Institut</rs> vielleicht Einem oder dem Anderen nicht gerade unangenehm gewesen wäre, – er
+               ist keineswegs ›hinausintrigiert‹ worden, ja ist sogar als Direktor des <rs subtype="implied" type="org" ref="#41367">Institutes</rs> am
+                  <date>2.&#160;Mai 1893</date> gestorben. Übrigens hat mein Titelheld, der Professor
+               <rs type="work" ref="#30203" subtype="implied">Bernhardi</rs>, von meinem <rs type="person" subtype="implied" ref="#12695">Vater</rs> nur wenige Züge entliehen, und auch die anderen Figuren
+               meines <rs type="work" ref="#30203" subtype="implied">Stückes</rs> sind, mit der freilich unerläßlichen Benützung von Wirklichkeitszügen,
+               so frei gestaltet, daß nur Kunstfremde, an denen es natürlich niemals mangelt, hier
+               von einem Schlüsselstück reden konnten. Meine <rs type="work" ref="#30203" subtype="implied">Komödie</rs> hat keine andere Wahrheit, als
+               die, daß sich die Handlung genau so wie ich sie erdichtet habe, in Wirklichkeit
+               zugetragen haben könnte – zum mindesten in <rs type="place" ref="#50">Wien</rs> zu Ende des vorigen
+               Jahrhunderts.«</p>
+            <p>Für die Aufnahme dieser Zeilen bestens dankend, mit vorzüglicher Hochachtung</p>
+            <p>Ihr ergebener</p>
+            <p rend="right">
+               <hi rend="spaced_out">Arthur Schnitzler</hi>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

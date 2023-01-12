@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="M147">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#60935">Rundfrage über das Duell, [Mai 1912?, vermutlich
+               unveröffentlicht]</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="147"/>
+         </publicationStmt>
+         <sourceDesc>
+            <origDate when="1912-05-01" n="1">[Mai 1912?]</origDate>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, A:3,5</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>maschinschriftliches Typosript, 4 Blätter, 5 Seiten, mit
+                           handschriftlichen Korrekturen in Bleistift (zwei weitere Durchschläge
+                           vorhanden)</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="apundbe">
+                  <analytic>
+                     <title level="a" ref="#60935">Rundfrage über das Duell</title>
+                  </analytic>
+                  <monogr>
+                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <title level="m">Aphorismen und Betrachtungen</title>
+                     <editor>Hg. Robert O. Weiss</editor>
+                     <imprint>
+                        <date when="1967-01-01">1967</date>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                     </imprint>
+                     <biblScope unit="pp">321–323</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2021-11-09">angelegt</change>
+         <change who="MAM" when="2021-11-11">Index check</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div type="original">
+            <head>
+               <anchor type="commentary" xml:id="K_R147-1"/>Rundfrage<note type="commentary"
+                  xml:id="K_R147-1h">Der Text ist undatiert, ein Abdruck zu Lebzeiten nicht belegt.
+                  Am ehesten könnte es sich um einen Beitrag für eine Umfrage der <rs type="work"
+                     ref="#60937">Leipziger Neuesten Nachrichten</rs> handeln, die am
+                     <date>11.&#8239;5.&#8239;1912</date> erschien (<bibl>
+                     <rs type="work" ref="#60939">Das Duell</rs>. In: <rs type="work" ref="#60937"
+                        >Leipziger Neueste Nachrichten</rs>, Nr.&#8239;131, S.&#8239;[17]–18
+                     (Feuilleton-Beilage)</bibl>.). Darin wurden folgende Fragen gestellt:
+                     »<quote>Glauben Sie an die Notwendigkeit des Duells oder aus welchen Gründen
+                     erkennen Sie seine Berechtigung nicht an; in welchen Lebenslagen sehen Sie in
+                     der Pistole oder dem Säbel die letzte Möglichkeit?</quote>«</note> über das
+               Duell.</head>
+            <p>Die Beziehungen zwischen zwei Menschen, die zu einem Zweikampf führen können, sind
+               sehr vielfältiger Natur und ebenso vielfältig die Bedeutung, die dem Duell als
+               Abschluss der Beziehungen zwischen zwei Menschen zukommt.</p>
+            <p>Diese menschlichen Beziehungen haben mit allen anderen, wie z.&#8239;B. Ehe, Liebe,
+               Freundschaft, ausser ihrer Vielfältigkeit auch das gemeinsam, dass den
+               aussenstehenden Menschen ein wirklicher Einblick in sie verwehrt ist und dass daher
+               jede Einmischung von anderer Seite unerlaubt, ungebührlich, ja vielleicht unsittlich
+               erscheint, so lange es sich eben ausschliesslich um diese Beziehungen <subst>
+                  <del rend="strikethrough">selbst</del>
+                  <add place="margin">an sich</add>
+               </subst> handelt und nicht um den Einfluss, den <subst>
+                  <del rend="strikethrough">diese</del>
+                  <add place="margin">sie</add>
+               </subst> eventuell auf die Existenz Unbeteiligter zu nehmen imstande sind.</p>
+            <p>Es ist also nicht nur töricht, sondern sogar unverträglich mit dem Recht der
+               Selbstbestimmung zwei Individuen, deren Beziehungen sich <del rend="strikethrough"
+                  >tatsächlich</del> dahin entwickelt haben, dass sie das unabweisbare Bedürfnis
+               empfinden sich mit den Waffen in der Hand gegenüber zu stehen oder <del
+                  rend="strikethrough">gar</del> einer den andern zu töten, an der Ausführung dieses
+               Vorsatzes zu hindern.</p>
+            <p>Gegen Duellanten also, die sich freiwillig gestellt und <add place="above">solche,
+                  die</add> den Gegner nicht in irgend einer Art zum Duelle gezwungen haben, dürfte
+                  <del rend="strikethrough">also</del> von staatswegen niemals etwas unternommen
+               werden, selbst wenn das Duell einen unglücklichen Ausgang hatte. Hier erst setzt die
+               Frage ein, nicht um das Duell, <pb/>sondern um den <hi rend="underline" n="1"
+                  >Duellzwang</hi> handelt es sich. Und zwar nicht um den augenfälligen Zwang, gegen
+               den einzuschreiten eine verhältnismässig einfache Sache wäre, sondern um die
+               vielfachen Formen des uneingestandenen, unaufrichtigen, gefährlichen Zwanges, der in
+               unseren gesellschaftlichen Zuständen begründet ist.</p>
+            <p>Bei oberflächlicher Betrachtung könnte man beinahe glauben, dass es einen Zwang zum
+               Duell wenigstens für <del rend="strikethrough">die</del> Zivilisten überhaupt nicht
+               gibt; wie denn die Duellfrage im Offiziersstande hier schon darum ausser Acht
+               gelassen werden soll, weil jeder, der diese Carrière einschlägt, ebenso gut weiss,
+               welchen Anschauungen und Gesetzen er sich damit unterworfen hat, wie der Arzt, der es
+               seinerseits nicht ablehnen darf, sich bei einer plötzlich ausbrechenden Epidemie an
+               der Behandlung der Erkrankten zu beteiligen und die damit verbundene Gefahr auf sich
+               zu nehmen, wenn er auch auf den Ausbruch <subst>
+                  <del rend="strikethrough">der</del>
+                  <add place="margin">einer</add>
+               </subst> Epidemie bei Ablegung des Doktorats nicht gefasst war.</p>
+            <p>Anders aber steht es <del rend="strikethrough">aber</del> beim Zivil. Hier kommt es
+               jeden Tag vor, dass Leute <add place="inline">auch</add> ohne Absicht in Kreise
+               geraten, wo Anschauungen herrschen, in denen der Duellzwang notwendig inbegriffen
+               ist. So lange Leute als feig gelten werden, die eine Duellforderung ablehnen und so
+               lange Leute den Vorwurf dieser sogenannten Feigheit als <anchor type="textConst"
+                  xml:id="T_R147-12"/>diffamierend<note type="textConst" xml:id="T_R147-12h"
+                     ><quote>difamierend</quote></note> empfinden werden, so lange wird auch der
+               Duellzwang bestehen. Keine behördliche Verfügung, kein Gesetz wird die Macht haben
+               jemanden, der einen andern <subst>
+                  <del rend="strikethrough">beleidigt oder auch nicht beleidigt</del>
+                  <add place="margin">wirklich oder im Sinne der geltenden gesellsch Anschauungen
+                     beleidigt</add>
+               </subst> hat, davor zu schützen, dass er eine <pb/>Ohrfeige bekommt. Und so lange
+               diese Ohrfeige ihre innerhalb der Gesellschaft nun einmal feststehende symbolische
+               Bedeutung behält, wird keine behördliche Verfügung die Macht besitzen den
+               Geohrfeigten glauben zu machen, dass sein Beleidiger durch eine Geldstrafe von fünf
+               bis hundert Gulden oder selbst durch Arrest von vierundzwanzig Stunden genügend
+               bestraft und damit seine, des Gezüchtigten Ehre wiederhergestellt weiss. So wird also
+               diese Ohrfeige, wenn andere Mittel versagen, in all den Kreisen, wo sie eben <add
+                  place="inline">als</add> ein Symbol <subst>
+                  <del rend="strikethrough">bedeutet</del>
+                  <add place="above">gilt</add>
+               </subst>, einen absoluten Zwang zum Duell bedeuten.</p>
+            <p>Es ist also unbedingt erforderlich, diese Beleidigung innerhalb von Kreisen, wo sie
+               eben mehr bedeutet als sich selbst, mit einer Strafe zu belegen, die dem symbolischen
+               Ernst der Beleidigung angemessen <anchor type="textConst" xml:id="T_R0001-1"
+                  />ist;<note type="textConst" xml:id="T_R0001-1h"><quote>ist.</quote></note>
+               <space unit="chars" quantity="1"/>
+               <subst>
+                  <del rend="overwritten">U</del>
+                  <add place="inline">u</add>
+               </subst>nter Umständen <del rend="strikethrough">also</del> mit schweren
+               Kerkerstrafen.</p>
+            <p>Ebenso streng müsste der Vorwurf der Satisfaktionsfähigkeit gestraft werden, der
+               gegen den <anchor type="textConst" xml:id="T_R147-1"/>Duellverweigerer<note
+                  type="textConst" xml:id="T_R147-1h"><quote>Duellverweiger</quote></note>
+               öffentlich erhoben würde, denn es ist sehr wohl der Fall zu denken, dass jemand
+               einmal mit guten Gründen ein Duell abgelehnt hätte und ein anderes Mal aus eben so
+               guten <anchor type="textConst" xml:id="T_R147-123"/>Gründen<note type="textConst"
+                  xml:id="T_R147-123h"><quote>Gründe</quote></note> die Nötigung empfände selbst
+               jemanden zum Duell herauszufordern.</p>
+            <p>Die Forderung an sich aber dürfte niemals strafbar sein. Sie hätte nichts anderes zu
+               bedeuten und dürfte nicht in anderem Sinne aufgefasst werden, als die Frage: willst
+               <pb/>du dich mit mir schlagen? eine Frage, auf die die Antwort dem Andern völlig frei
+               stünde, auch eine abschlägige keinerlei <anchor type="textConst" xml:id="T_R147-45"
+                  />diffamierende<note type="textConst" xml:id="T_R147-45h"
+                     ><quote>difamierende</quote></note> Folgen für den Duellverweiger mit sich
+               brächte, woraus die einfache Folgerung resultiert, dass man auch den Fordernden für
+               ein Ja des Geforderten in keiner Weise verantwortlich machen dürfte.</p>
+            <p>Auch von prinzipiellen Duellgegnern hört man immer wieder die Ansicht <anchor
+                  type="textConst" xml:id="T_R147-13"/>ausgesprochen<note type="textConst"
+                  xml:id="T_R147-13h"><quote>aussprechen</quote></note>, dass es immerhin Fälle
+               gibt, wo das Recht, jemanden zum Duell zu provozieren, unbedingt zuerkannt werden
+               müsste. Und als Lieblingsbeispiele werden immer wieder solche Fälle gewählt, in denen
+               es sich um Verführung der Gattin oder der Schwester handelt. Und doch liegt hier die
+               Sache nicht anders, als in sämmtlichen anderen Fällen, bei denen sich irgend jemand
+               als beleidigt fühlt. Ist der sogenannte Verführer geneigt auf das Duell einzugehen,
+               so möge es stattfinden und wie immer der Ausgang <anchor type="textConst"
+                  xml:id="T_R147-5"/>sei,<note type="textConst" xml:id="T_R147-5h"
+                     ><quote>sei</quote></note> straflos bleiben. Ist aber der Beleidiger nicht
+               geneigt die verlangte Satisfaktion zu geben, so wäre der Versuch ihn zu einem Duell
+               zu zwingen mit der gleichen Schärfe zu ahnden, wie in jedem andern Fall. Natürlich
+               müsste dem Gatten oder dem Bruder Gelegenheit geboten werden, sich auf andere Weise
+               Genugtuung zu verschaffen, auf die er nach unseren heute noch bestehenden
+               bürgerlichen Anschauungen ein Recht beanspruchen kann. Doch besteht ein solches Recht
+               überhaupt viel seltener als man heute noch zugibt, es sei, man wollte ausdrücken,
+               dass auch schon der verletzten Eitelkeit ein Recht auf Genugtuung zust<subst>
+                  <del rend="overwritten">eht</del>
+                  <add place="inline">ände</add>
+               </subst>. </p>
+         </div>
+      </body>
+   </text>
+</TEI>

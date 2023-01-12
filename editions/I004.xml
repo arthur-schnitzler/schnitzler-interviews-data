@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="I004">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#32955">Kurt Sonnenfeld: Persönliches von Artur Schnitzler,
+               18.&#8239;5.&#8239;1922</title>
+            <author ref="#3109">Sonnenfeld, Kurt</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="004"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#3109">Sonnenfeld, Kurt</author>
+                     <title level="a" ref="#32955">Persönliches von Artur Schnitzler</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#36374">Neue Freie Presse</title>
+                     <imprint>
+                        <date when="1922-05-18" n="1">18.&#8239;5.&#8239;1922</date>
+                     </imprint>
+                     <biblScope unit="nr">20.731, Abendblatt</biblScope>
+                     <biblScope unit="pp">3</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2017-11-17">angelegt</change>
+         <change who="MAM" when="2018-02-14">Index check</change>
+         <change who="KH" when="2021-10-20">Durchsicht</change>
+      </revisionDesc>
+   </teiHeader>
+   <!--  <facsimile>
+        <graphic url="http://anno.onb.ac.at/cgi-content/anno?aid=nfp&datum=19220518&seite=23"/>
+    </facsimile>-->
+   <text type="text">
+      <body>
+         <div type="original">
+            <head>Persönliches von <rs type="person" ref="#2121">Artur Schnitzler</rs>
+            </head>
+            <head type="sub">Von Dr. Kurt Sonnenfeld</head>
+            <p rend="right">
+               <rs type="place" ref="#50">
+                  <hi rend="spaced_out">Wien</hi>
+               </rs>, <date when="1922-05-18">18. Mai</date>
+            </p>
+            <p>Als ich <rs type="person" ref="#2121">Artur Schnitzler</rs> vor einigen Wochen nach
+               einer Theatervorstellung ein Stück Weges heimwärts begleiten durfte, sprachen wir von
+               seinem bevorstehenden sechzigsten Geburtstage. »<ref target="#q163" type="question"
+               />Eigentlich fröstelt es mich ein bißchen,« sagte er, »wenn ich an dieses Datum
+               denke. Die zehn Jahre seit meinem fünfzigsten Geburtstage sind mir unheimlich schnell
+               vergangen. So greifbar, als ob’s gestern gewesen wäre, sehe ich den <date>Mai
+                  1912</date> vor mir, die herrlichen <anchor type="commentary" xml:id="K_I004-11"
+               />Frühlingstage in <rs type="place" ref="#45260">Brioni</rs><note type="commentary"
+                  xml:id="K_I004-11h"><rs type="person" ref="#2121">Schnitzler</rs> war
+                     <date>1912</date> nur zwei Tage im <date>Mai</date> auf <rs type="place"
+                     ref="#45260">Brijuni</rs>, die Unterkunft für den Sommer besichtigen, in der
+                  die Familie dann mehrere Wochen bleiben sollte. Dieser Besuch war aber noch vor
+                  seinem Geburtstag, den er auf dem Schiff von <rs type="place" ref="#873"
+                     >Triest</rs> nach <rs type="place" ref="#462">Venedig</rs> verbrachte.</note>.
+               Die folgenden Jahre waren mit Ereignissen vollgepfropft und trotzdem sind sie so
+               schnell an mir vorübergegangen. Und so werde ich auf einmal, noch bevor ich’s recht
+               bemerke, siebzig Jahre alt sein<c rendition="#dots" n="4"/> Was waren doch in meiner
+               Jugend zehn Jahre für eine lange Zeit! Als achtjähriger Bub ging ich in die
+               Volksschule und als achtzehnjähriger Maturant hatte ich Liebesabenteuer. Aber wenn
+               wir älter werden, so gleiten die Jahre immer schneller und schließlich spurlos an uns
+                  vorüber<c rendition="#dots" n="4"/>«</p>
+            <p>Sie gleiten wohl auch deshalb so schnell an mir vorüber, hätte <rs type="person"
+                  ref="#2121">Schnitzler</rs> hinzufügen sollen, weil sie bis an den Rand mit Arbeit
+               gefüllt sind. Von ihm kann man lernen, was Arbeit heißt. <ref target="#q013"
+                  type="question"/>Von der ersten flüchtigen Konzeption, vielleicht auf einsamem
+               Waldspaziergang empfangen, bis zur endgültigen Niederschrift führt ein weiter Weg,
+               dessen Etappen man erst ermessen kann, wenn man Entwürfe seiner Manuskripte zu sehen
+               bekommt und sich davon überzeugt, wie er an jedem Worte feilt und bosselt. Er <anchor
+                  type="commentary" xml:id="K_I004-4"/>diktiert seine Arbeiten in die
+                  Schreibmaschine<note type="commentary" xml:id="K_I004-4h">Das
+                  Schreibmaschinendiktat folgte üblicherweise auf eine handschriftliche
+                  Niederschrift, die er diktierte.</note>, deren Geklapper ihn trotz seiner
+               Abneigung gegen Lärm (die Doppeltür seines Arbeitszimmers ist mit schalldämpfenden
+               Lederkissen gepolstert) durchaus nicht stört. </p>
+            <p>Ebenso sprichwörtlich wie seine bezaubernde Liebenswürdigkeit ist seine vornehme
+               Zurückhaltung. Er stellt sich nicht gern auf ein Piedestal, und wie er allen
+               Geburtstagsfeiern bisher stets aus dem Wege gegangen ist, so ist er vor seinem
+                  <anchor type="commentary" xml:id="K_I004-55"/>sechzigsten Geburtstag ins
+                  Ausland<note type="commentary" xml:id="K_I004-55h">am <ref type="schnitzlerDiary"
+                     target="1922-05-15" subtype="date-only"/> war er in <rs type="place"
+                     ref="#44172">Nürnberg</rs></note> entflohen. </p>
+            <p><ref target="#q165" type="question"/>Die strenge Kritik, die er seinem eigenen
+               Schaffen gegenüber übt, ist daran schuld, daß er einige Arbeiten überhaupt nicht
+               veröffentlicht hat. Als ich ihm einmal nach dem Erscheinen eines Buches sagte, daß es
+               dem bleibenden Bestande der deutschen Literatur angehören werde, lächelte er
+               skeptisch: »Unsterblichkeit? Davon sprechen wir erst bei der zweiten Auflage<c
+                  rendition="#dots" n="4"/>« Seine schöpferische Gestaltungskraft wird von einem
+               taghellen Verstande beherrscht, der zu seiner Vorliebe für das Zwielicht, für die
+               Dämmerseelen seltsam kontrastiert. <ref target="#q165" type="question"/>Ueber die
+               Frage, ob er nicht für einen Dichter beinahe zu viel Verstand, eine allzu analytische
+               Veranlagung habe, darüber macht er sich keine Sorgen: »<anchor type="commentary"
+                  xml:id="K_I004-3"/>Man kann nie genug Verstand haben<note type="commentary"
+                  xml:id="K_I004-3h">aus dem früheren Interview, <ref type="pointer" target="#I013_L_verstand" subtype="cf"
+                  /></note><c rendition="#dots" n="4"/>« </p>
+            <p>Es ist üblich, in seiner ärztlichen Vergangenheit die wichtigste Komponente seines
+               Wesens zu erblicken. Daß er aber auch ein <anchor type="commentary"
+                  xml:id="K_I004-33"/>glänzender Jurist<note type="commentary" xml:id="K_I004-33h"
+                     >auch das aus dem früheren Interview, <ref type="pointer" target="#I013_L_verstand"/> entnommen</note> ist,
+               wissen die Theaterdirektoren und Verleger, mit denen er Verträge abschließt, zu
+               bestätigen. Und wer soviel über den Tod nachgegrübelt hat wie er, der vermag den
+               philosophischen, den metaphysischen Trieb nicht zu verleugnen. So kann ihn eigentlich
+               jede Fakultät für sich reklamieren<c rendition="#dots" n="4"/>
+            </p>
+            <p><ref target="#q014" type="question"/>Unter seinen Dichtungen sind ihm einige
+               sozialkritische Werke, die viel Widerspruch gefunden haben, besonders ans Herz
+               gewachsen, so »<rs type="work" ref="#29853">Leutnant Gustl</rs>«, »<rs type="work"
+                  ref="#29855">Reigen</rs>«, »<rs type="work" ref="#30203">Professor
+               Bernhardi</rs>«. </p>
+            <p>Es ist schwer, die Gesinnung eines so komplizierten und in allen Bezirken des Geistes
+               heimischen Mannes auf eine eindeutige Formel zu bringen. <rs type="person"
+                  ref="#2121">Schnitzlers</rs> Ritterlichkeit läßt ihn immer die Partei der
+               Unterdrückten ergreifen. So sehr er als Dichter objektiv ist und jeder »Tendenz« aus
+               dem Wege geht, so ist ihm seine Kunst dennoch oft zur Tribüne geworden und er hat
+               immer gegen offenkundiges Unrecht mutig Partei ergriffen. Jede Art von Chauvinismus
+               widerspricht seinem innersten Geschmack. Als während des Krieges irgend ein
+               literarischer <anchor type="commentary" xml:id="K_implied_27739"/>
+               <rs type="person" ref="#27739" subtype="implied">Industrieritter</rs>
+               <note type="commentary" xml:id="K_implied_27739h">nicht identifiziert</note> ein
+               Interview mit ihm erfand und ihm Worte des Hasses gegen große <rs type="place"
+                  ref="#166">französische</rs> und <rs type="place" ref="#166">russische</rs>
+               Dichter zuschrieb, die ihm lieb und teuer sind, da hat er dagegen aufs schärfste
+               protestiert, obwohl eine solche Auflehnung gegen den Chauvinismus damals gewiß nicht
+               ungefährlich war. Sein <anchor type="commentary" xml:id="K_implied_32959"/>
+               <rs type="work" ref="#32959" subtype="implied">Protest</rs>
+               <note type="commentary" xml:id="K_implied_32959h">
+                  <ref target="#P111" type="pointer"/>
+               </note> machte dann, von <rs type="person" ref="#12543">Romain Rolland</rs>
+               übersetzt, die Runde durch die gesamte internationale Presse und wurde als Kundgebung
+               des repräsentativen <rs type="place" ref="#41240">österreichischen</rs> Dichters
+               überall mit der größten Achtung und Sympathie aufgenommen. Bei späteren Anlässen hat
+                  <rs type="person" ref="#2121">Schnitzler</rs> mit der ganzen Autorität seiner
+               Persönlichkeit gegen jeden Terror von rechts und links nachdrücklichst Einspruch
+               erhoben. </p>
+            <p>Er ist ein wahrer Künstler des Gesprächs, dem er aus den entlegensten Gebieten des
+               Wissens und aus seiner intimen Kenntnis von Menschen und Dingen immer neue Nahrung
+               zuströmen läßt. Müßige Brillantfeuerwerke des Geistes liebt er nicht, und er
+               empfindet sie in seinen frühen Jugendwerken als störend. Starken Worten und Urteilen
+               geht er keineswegs vorsichtig aus dem Wege, und wie er zu lieben und zu verehren
+               vermag, so kann er auch hassen und verachten. Wenn er lebhaft spricht, so bedauert
+               man oft, den unwiderstehlichen Zauber seiner Rede nicht festhalten zu können.
+               Freilich müßte man dazu, wie einmal ein <rs type="person" ref="#3557"
+                  subtype="implied">Kritiker</rs> über den »<rs type="work" ref="#29935"
+               >Anatol</rs>« gesagt hat, eine <anchor type="commentary" xml:id="KT090-1"/>goldene
+               Feder in Champagner tauchen<note type="commentary" xml:id="KT090-1h"><ref
+                     type="pointer" target="#KT099-1"/></note>
+               <c rendition="#dots" n="4"/>
+            </p>
+            <p>Seiner Herzensgüte ist es zuzuschreiben, daß er trotz seiner ungeheuren
+               Arbeitsleistung immer noch die Zeit findet, jungen Schriftstellern mit Rat und Tat
+               zur Seite zu stehen. Dankbar entsinne ich mich eines persönlichen Erlebnisses. Als
+               völlig unbekannter, blutjunger Mensch hatte ich ihm einmal mit der Bitte um sein
+               Urteil ein umfangreiches Manuskript, eine <rs type="place" ref="#50">Wiener</rs>
+               Liebesgeschichte, übersandt, die »Wilder Mohn« hieß und noch dazu – ein erschwerender
+               Umstand! – in Distichen abgefaßt war. <rs type="person" ref="#2121">Schnitzler</rs>
+               antwortete mir auf dieses Attentat in einem ausführlichen Briefe, und er hat sich die
+               Zeit genommen, mich auf jeden holprigen Hexameter, auf jeden hinkenden Pentameter
+               aufmerksam zu machen und einige Einzelheiten, die ihm gefallen hatten, in sachlichen
+               Bemerkungen hervorzuheben.</p>
+            <p><ref target="#q164" type="question"/>In seiner grüblerischen und halb schwermütigen,
+               halb ironischen Art beschäftigt sich <rs type="person" ref="#2121">Schnitzler</rs>
+               schon seit mehreren Jahren mit dem Problem des alternden Mannes, und aus dieser
+               Stimmung heraus hat er die Gestalten <rs type="work" ref="#30201">Doktor
+                  Gräslers</rs> und <rs type="work" ref="#30819 #30971">Casanovas</rs> geschaffen.
+               Meines Wissens verwahrt er in seiner Schreibtischlade die Skizzen zu einer <anchor
+                  type="commentary" xml:id="K_implied_30863"/>
+               <rs type="work" ref="#30863" subtype="implied">Novelle</rs>
+               <note type="commentary" xml:id="K_implied_30863h">
+                  <rs type="work" ref="#30863">Flucht in die Finsternis</rs>
+               </note>, in der das Seelenleben des Mannes um die Sechzig noch deutlicher enthüllt
+               ist. Er weiß genau, wie alt und wie jung man mit sechzig Jahren ist, und ihm
+               gegenüber wäre es eine nichtssagende Redensart, von der unverwelklichen Jugend seines
+               Wesens zu sprechen. Jedes Lebensalter hat seinen eigenen Wert und seinen eigenen
+               Reiz. Auf der Höhe des Lebens, alle Probleme deiner Kunst souverän beherrschend, von
+               den Besten unter deinen Zeitgenossen bewundert und geliebt, gehst du, <rs
+                  type="person" ref="#2121">Artur Schnitzler</rs> deinen Weg steil aufwärts zu immer
+               neuen Fernblicken und immer neuen Gipfeln. Daß du ihn in ungebrochener Kraft noch
+               viele Jahre schreiten mögest, wünschen dir alle, denen du kostbarster Kulturbesitz
+               bist. Denn </p>
+            <lg type="poem">
+               <l><anchor type="commentary" xml:id="K_I004-1"/>Dir drängt sich Dichtertraum an
+                     Dichtertraum.<note type="commentary" xml:id="K_I004-1h">Es handelt sich um ein
+                     Gedicht von Sonnenfeld.</note></l>
+               <l>So sag’ doch, wie bewältigst du die Last</l>
+               <l>Der reichen Früchte, die das Auge kaum,</l>
+               <l>Das schönheitstrunkene, im Blick umfaßt?</l>
+               <l>So wächst aus reichem Lande ein üppiger Baum,</l>
+               <l>Dem schwergesegnet prangen Ast an Ast,</l>
+               <l>Der Wipfel aber ragt hoch aufgerichtet</l>
+               <l>Wie eines Künstlers Haupt, das träumt und dichtet.</l>
+               <l>Ob dir dein Schaffen nicht auch Leid beschert</l>
+               <l>Und ob nicht manchmal leise Müdigkeit</l>
+               <l>Dem Ueberdrange der Gestalten wehrt?</l>
+               <l>Wer weiß! <c rendition="#dots" n="3"/> Doch triumphiert die Seligkeit</l>
+               <l>Und macht dich Tausenden beneidenswert,</l>
+               <l>Wenn aus der Schöpferstunde tiefem Leid</l>
+               <l>Ein Werk zu freudigem Leben ringt sich los –</l>
+               <l>Gleichwie das Kind aus seiner Mutter Schoß.</l>
+            </lg>
+         </div>
+         <!-- Nichts im Tagebuch -->
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="M155">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#61752">[Lieber Lothar], 19.&#8239;9.&#8239;1912</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="154"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <title level="a" ref="#61752">[Lieber Lothar]</title>
+                  </analytic>
+                  <monogr>
+                     <title level="m" ref="#61748">Wunschbüchlein zur Eröffnung des Komödienhauses
+                        am 19.&#160;9.&#160;1912</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>[Selbstverlag, Druck Buchdruckerei Otto <c rendition="#kaufmannsund"/> Emil Klett]</publisher>
+                        <date when="1912-09-19" n="1">September 1912</date>
+                     </imprint>
+                     <biblScope unit="pp">88</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2021-11-09">angelegt</change>
+         <change who="MAM" when="2021-12-17">Index check</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div type="original">
+            <head>Wunschbüchlein zur Eröffnung des Komödienhauses</head>
+            <p><gap reason="outOfScope" unit="lines" quantity="30"/></p>
+            <p>Lieber <rs type="person" ref="#2570">Lothar</rs>, ich wünsche Dir, daß Du vor dem
+               Publikum der <anchor type="commentary" xml:id="K_M155-1"/>37.&#160;Vorstellung<note
+                  type="commentary" xml:id="K_M155-1h">Der Wunsch blieb ein solcher, <rs
+                     type="person" ref="#2570">Rudolf Lothar</rs> ging mit dem neu übernommenen <rs
+                     type="org" ref="#61746">Komödienhaus</rs> in <rs type="place" ref="#168"
+                     >Berlin</rs> innerhalb weniger Wochen bankrott. <ref target="1912-12-09"
+                        type="schnitzlerDiary" subtype="Cf"/>: »<quote><rs
+                           type="person" ref="#2570">Rudolf Lothar</rs>, in <rs type="place" ref="#168"
+                              >Berlin</rs>
+                           abgekracht, halbe Million Schulden, jetzt <rs type="place" ref="#61755">Cottage Sanatorium</rs>, geht nach <rs type="place" ref="#182">Paris</rs>,
+                     dann Weltreisen, ist ganz guten Muts verhältnismäßig.</quote>«</note> den
+               gleichen Respekt haben mögest, wie vor der Premiere, und daß Du bei Anlaß jeden
+               Stückes Gelegenheit fändest, diesen Respekt zu beweisen.</p>
+            <p rend="right">Arthur Schnitzler.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

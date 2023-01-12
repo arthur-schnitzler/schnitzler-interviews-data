@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="I010">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#32915">[Ludwig Basch]: Der Theatererlaß des Ministerpräsidenten,
+               15.&#8239;4.&#8239;1903</title>
+            <author ref="#13791">Basch, Ludwig</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="010"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#13791">[Ludwig Basch]</author>
+                     <title level="a" ref="#32915">Der Theatererlaß des Ministerpräsidenten</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#41484">Illustrirtes Wiener Extrablatt</title>
+                     <imprint>
+                        <date when="1903-04-15" n="1">15.&#8239;4.&#8239;1903</date>
+                     </imprint>
+                     <biblScope unit="jg">32</biblScope>
+                     <biblScope unit="nr">103</biblScope>
+                     <biblScope unit="pp">2</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2017-11-17">angelegt</change>
+         <change who="MAM" when="2018-02-14">Index check</change>
+         <change who="KH" when="2021-10-06">Durchsicht</change>
+      </revisionDesc>
+   </teiHeader>
+   <!-- http://anno.onb.ac.at/cgi-content/anno?aid=iwe&datum=19030415&seite=2&zoom=33 -->
+   <text type="text">
+      <body>
+         <div type="original">
+            <head>Der Theatererlaß des <rs type="person" ref="#11955" subtype="implied"
+                  >Ministerpräsidenten</rs>
+            </head>
+            <p>Der Erlaß des Ministerpräsidenten Doctor <rs type="person" ref="#11955">
+                  <hi rend="spaced_out">v. Koerber</hi>
+               </rs> über die Handhabung der Theatercensur, den wir in unserem Ostersonntagsblatte
+               veröffentlicht haben, hat in allen Kreisen, in denen man sich für das Theater und
+               seine Freiheit interessirt – und wo wäre dies mehr der Fall, als in <rs type="place"
+                  ref="#50">Wien</rs>? – großes und berechtigtes Aufsehen hervorgerufen. Ueber die
+               Tendenz des Erlasses herrscht nur eine Stimme: Man erkennt allgemein an, daß der
+               Erlaß des <rs type="person" ref="#11955" subtype="implied">Ministerpräsidenten</rs>
+               ausschließlich von Wohlwollen für die freie Entwicklung der Bühnendichtung und der
+               Bühnen dictirt ist und daß er die durchaus anerkennenswerthe Absicht hat, den
+               Polizeigeist, der von der früheren Zeiten her das kritische Walten Censurbehörden nur
+               allzusehr beeinflußt hat, in die gebührenden Schranken zu verweisen. Wenn man das
+               Theater einen Tempel der Kunst nennen kann, so hat der <rs type="person" ref="#11955"
+                  subtype="implied">Ministerpräsident</rs> nun eine Tempelaustreibung im Sinne, bei
+               welcher engherziges Bureaukratenthum und alter Zopf aus den Räumen, die der Kunst
+               gewidmet sind, verwiesen werden sollen. Nicht der Schrankenlosigkeit soll Thor und
+               Thür geöffnet werden, aber die Censur soll größere Beschränkung erfahren und die
+               Bühne soll mehr Freiheit erhalten. Dies ist das Hauptprincip des Erlasses, der es
+               gestatten wird, daß sich im Rahmen des Theaters nun auch die socialen Erscheinungen
+               des Lebens von heute, so wie sie das Auge des Dichters sieht, wiederspiegeln können.
+               Gerade die moderne dramatische Dichtung hat am meisten Veranlassung, sich dieses
+               Erlasses zu freuen. Denn er erleichtert ihr den Zutritt zur Bühne, der ihr bisher oft
+               durch allerlei von überängstlicher oder übereifriger, unliterarischer oder
+               unkritischer Censur vorgeschobene Querbalken verlegt war.</p>
+            <p>Es erschien uns richtig, das Urtheil von Fachleuten über den Erlaß des <rs
+                  type="person" ref="#11955" subtype="implied">Ministerpräsidenten</rs> einzuholen.
+                  <ref type="question" target="#q009"/>Wir befragten einen <rs type="person"
+                  ref="#12671" subtype="implied">Theaterdirector</rs>, einen <rs type="person"
+                  ref="#2121" subtype="implied">Dichter</rs> und einen angesehenen <rs type="person"
+                  ref="#2777" subtype="implied">Juristen</rs> um ihre Meinungen über den Erlaß. Sie
+               Alle, die gewiß als competente Richter über die Bestimmungen des Erlasses anerkannt
+               werden müssen, begrüßen den Erlaß im Allgemeinen sympathisch, aber sie erheben
+               Einwendungen gegen manche Einzelnheiten. Wir geben <anchor type="commentary"
+                  xml:id="K_I010-1"/>im Nachstehenden<note type="commentary" xml:id="K_I010-1h">Vor
+                  jener <rs type="person" ref="#2121">Schnitzler</rs>s findet sich die Stellungnahme
+                  des Direktor des <rs type="org" ref="#36247">Burgtheaters</rs> Dr. <rs
+                     type="person" ref="#12671">Paul Schlenther</rs>, nach seiner die des Hof- und
+                  Gerichtsadvokaten Dr. <rs type="person" ref="#2777">Edmund Benedikt</rs>.</note>
+               das, was wir vernommen, wieder:</p>
+            <p><gap reason="outOfScope" unit="paragraphs" quantity="10"/></p>
+            <head type="sub">Dr. <rs type="person" ref="#2121">Arthur Schnitzler</rs>:</head>
+            <p>Der urbane, vornehme Ton des Erlasses berührte mich sehr sympathisch. Wenn ich auch
+               nicht der Kundgebung des Herrn <rs type="person" ref="#11955" subtype="implied"
+                  >Ministerpräsidenten</rs> rückhaltlosen Beifall zu spenden vermag, so bedeutet sie
+               doch einen wesentlichen Fortschritt.</p>
+            <p>Nach dem Erlaß wird ein Censurbeirath aus drei Männern gebildet. Wer werden diese
+               Persönlichkeiten sein? Werden sie die entsprechende Objectivität in ihr Amt
+               mitbringen? Ein Verwaltungs- und ein richterlicher Beamter werden sich mit einem
+               literarischen Fachmann im Beirathe zusammenfinden. Ich möchte nicht schwarz sehen,
+               allein ich fürchte, daß die amtlichen Censoren den Fachmann oft – nicht immer –
+               überstimmen werden. Der Landeschef ist an diese Gutachten nicht gebunden, er kann die
+               Aufführung eines Stückes freigeben oder verbieten. Ich will von jedem Landeschef das
+               Beste denken, aber selbst der mächtigste Statthalter ist außer Stande, den gewissen
+               »Wind« abzuwehren, der sich gegen die sogenannten gefährlichen Stücke erhebt. Dieser
+               »Wind« hat schon häufig Stücke weggeblasen, die man für sehr zulässig erkannte.</p>
+            <p>Im höheren, im culturgeschichtlichen Sinne ist die Censur entschieden zu verwerfen.
+               Eine Censur, liberal aufgefaßt und liberal geübt, muß geübt <anchor type="textConst" xml:id="T_I010-11"/>werden,<note type='textConst' xml:id="T_I010-11h"><quote>werden</quote></note> sonst kommt die
+               Censur der Theaterdirectoren und die ist noch ärger. Am Richtigsten wäre es, die
+               Autoren für ihre Werke verantwortlich zu machen. Doch das ist eine ideale Forderung
+               in unseren Zeiten – ein schöner Traum.</p>
+            <p>Unter den Parteiungen in welchen wir leben, ist eine Aufhebung der Censur nicht zu
+               erwarten. Es ist leider bei uns das Princip der Sachlichkeit ausgestorben, es
+               herrscht übermächtig das Princip der Parteipolitik. Jede Partei denkt nur daran, die
+               Freiheit anderer zu knebeln. Deshalb ist an ideale Zustände nicht zu denken. Die
+               Aufhebung der Censur wird dann möglich sein, wenn die Entwicklung der Menschheit bis
+               zu einem Punkte gediehen ist, der die Menschen befähigt, auf der Bühne blos die
+               künstlerischen Dinge zu sehen. Es fällt mir gewiß nicht ein das Recht auf Tendenz
+               verkümmern zu wollen. Meisterwerke der Weltliteratur sind Tendenzdichtungen; nur soll
+               das Publicum so reif <anchor type="textConst" xml:id="T_I010-1"/>sein,<note
+                  type="textConst" xml:id="T_I010-1h"><quote>sein</quote></note> daß es nicht für oder gegen die
+               Tendenz sich erklärt, sondern blos darüber urtheilt, ob es dem Dichter gelungen ist,
+               über eine bestimmte Tendenz sich auszusprechen, <anchor type="commentary"
+                  xml:id="KT096-1"/>die man vorher als zulässig erkannt hatte<note type="commentary"
+                  xml:id="KT096-1h">In der <bibl>Abend-Ausgabe, S. 3,</bibl> erschien folgende
+                  Korrektur: »<quote>* <hi rend="spaced_out">Richtigstellung</hi>. In einem Absatz
+                     der interessanten Aeußerungen <rs type="person" ref="#2121">Arthur <hi
+                           rend="spaced_out">Schnitzler</hi>
+                     </rs>’s über den <rs type="work" ref="#32915">Censurerlaß</rs> (siehe heutiges
+                     Morgenblatt) ist eine sinnstörende Verhebung enthalten. Es muß richtig heißen:
+                     ›nur soll das Publicum so reif sein, daß es nicht für oder gegen die Tendenz
+                     sich erklärt, sondern blos darüber urteilt, ob es dem Dichter gelungen ist,
+                     über eine bestimmte Tendenz sich auszusprechen.‹ Der Nachsatz, ›die man vorher
+                     als zulässig erkannt hatte‹, ist eine irrthümliche Wiederholung aus einem
+                     anderen Passus und ist zu eliminiren.</quote>«</note>.</p>
+            <p>In dem Erlasse des <rs type="person" ref="#11955" subtype="implied"
+                  >Ministerpräsidenten</rs> berührt die offene Sprache angenehm. Er gibt den
+               Censoren einen Wink, sich den Wandel der Zeiten vor Augen zu halten und es bedeutet
+               nicht wenig, wenn in einem amtlichen Erlasse offen zugestanden wird, daß die Versuche
+               einer gewaltsamen Hemmung sich erfolg- und werthlos erwiesen haben.</p>
+         </div>
+         <div type="biographical">
+            <div1>
+               <ref type="schnitzlerDiary" target="1903-04-14"/>
+               <quote>
+                  <rs type="person" ref="#13791">Basch</rs>, Interview, über den <rs type="person"
+                     ref="#11955">Körber</rs> Censur Erlass.</quote>
+            </div1>
+         </div>
+      </body>
+   </text>
+</TEI>

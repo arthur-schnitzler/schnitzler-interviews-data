@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="M062">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#33195">Schnitzler: Der Burgtheaterring der »Concordia«,
+               30.&#8239;5.&#8239;1926</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <author ref="#5320">Wilbrandt-Baudius, Auguste</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="062"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a" ref="#33195">Der Burgtheaterring der »Concordia«. Dankbriefe
+                        von Frau Wilbrandt-Baudius und Artur Schnitzler</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#36376">Neues Wiener Journal</title>
+                     <imprint>
+                        <date when="1926-05-30" n="1">30.&#8239;5.&#8239;1926</date>
+                     </imprint>
+                     <biblScope unit="jg">34</biblScope>
+                     <biblScope unit="nr">11.680</biblScope>
+                     <biblScope unit="pp">5</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2017-11-17">angelegt</change>
+         <change who="MAM" when="2021-09-28">Index check</change>
+         <change who="KH" when="2021-10-27">Durchsicht</change>
+      </revisionDesc>
+   </teiHeader>
+   <!-- http://anno.onb.ac.at/cgi-content/anno?aid=nwj&datum=19260530&seite=5&zoom=33 -->
+   <text type="text">
+      <body>
+         <div type="original">
+            <head>Der <rs type="org" ref="#29268">Burgtheaterring</rs> der »<rs type="org"
+                  ref="#29752">Concordia</rs>«</head>
+            <head type="sub">Dankbriefe von Frau <rs type="person" ref="#5320"
+                  >Wilbrandt-Baudius</rs> und <rs type="person" ref="#2121">Artur
+               Schnitzler</rs>.</head>
+            <p rend="inline">Der vom Herausgeber des »<rs type="org" ref="#29320">Neuen Wiener
+                  Journals</rs>« <rs type="person" ref="#4054">J. Lippowitz</rs> gestiftete <rs
+                  type="org" ref="#29268">Burgtheaterring</rs> ist in diesem Jahre bekanntlich Frau
+                  <rs type="person" ref="#5320">Wilbrandt-Baudius</rs> und <rs type="person"
+                  ref="#2121">Artur Schnitzler</rs> zuerkannt worden. Die feierliche Ueberreichung
+               erfolgt sofort nach Fertigstellung der Ringe, die noch von Künstlerhand ausgeführten
+               Modellen im Atelier der bekannten Juwelierfirma <rs type="org" ref="#29468"
+                  >Köchert</rs> angefertigt werden. Inzwischen hat der Präsident der »<rs type="org"
+                  ref="#29752">Concordia</rs>«, Herr Dr. <rs type="person" ref="#13088">Edmund
+                  Wengraf</rs>, den mit dem <rs type="org" ref="#29268">Burgtheaterring</rs>
+               Ausgezeichneten offiziell Mitteilung von dieser Ehrung gemacht und darauf die
+               folgenden Dankschreiben erhalten:</p>
+            <head type="sub">Brief der Frau <hi rend="spaced_out">Wilbrandt-Baudius</hi>:</head>
+            <p rend="right">
+               <rs type="place" ref="#50">Wien</rs>, <date>24. April 1926</date>.</p>
+            <p>Dem Journalisten- und Schriftstellerverein »<rs type="org" ref="#29752"
+                  >Concordia</rs>« sage ich meinen besten Dank für den schönen Brief, der mir die
+               Ehrengabe eines Ringes verheißt. Sie wird mir eine doppelt liebe Erinnerung sein:</p>
+            <p>sowohl an das 150jährige Jubiläum unseres <rs type="org" ref="#36247"
+                  >Burgtheaters</rs>, wie auch an Ihren hochgeschätzten Verein »<rs type="org"
+                  ref="#29752">Concordia</rs>«.</p>
+            <p rend="center">Ihre ergebene</p>
+            <p rend="right">Auguste Wilbrandt <anchor type="commentary" xml:id="KT148-1"/>
+               <hi rend="antiqua">e. h.</hi>
+               <note type="commentary" xml:id="KT148-1h">eigenhändig</note>
+            </p>
+            <!--<p rend="center">*</p>-->
+            <head type="sub">Brief des Herrn <hi rend="spaced_out">Dr. Artur Schnitzler</hi>:</head>
+            <p rend="right">
+               <date>22. Mai 1926</date>.</p>
+            <p rend="center">Sehr verehrter Herr Präsident!</p>
+            <p>Ich war fünf Wochen lang <anchor type="commentary" xml:id="KT148-2"/>verreist<note
+                  type="commentary" xml:id="KT148-2h">Er kam am <date>20.&#8239;5.&#8239;1926</date> von einer
+                  Kreuzfahrt durch das <rs ref="#41016" type="place">westliche Mittelmeer</rs> und
+                  bis <rs type="place" ref="#506">Hamburg</rs> zurück.</note>, so komme ich erst
+               heute dazu, Ihr liebenswürdiges Schreiben vom <date>23. April d.&#160;J.</date> zu
+               beantworten, in dem Sie mir von der sehr ehrenvollen Auszeichnung freundliche
+               Mitteilung machen, deren die »<rs type="org" ref="#29752">Concordia</rs>« mich durch
+               die Verleihung des <rs type="org" ref="#29268">Burgtheaterringes</rs> für würdig
+               erachtet hat. Da der tatsächliche Empfang des Ringes, so hoch auch sein Kunstwert
+               sein möge, zu meiner herzlichen Freude über die bei der ersten Verleihung auf mich
+               entfallene Wahl kaum noch etwas wird beitragen können, erscheint es wohl nicht
+               verfrüht, wenn ich mir schon heute erlaube, Ihnen, verehrter Herr <rs type="person"
+                  ref="#13088" subtype="implied">Präsident</rs>, und den anderen werten Herren der
+                  »<rs type="org" ref="#29752">Concordia</rs>«, Herrn <rs type="person" ref="#4054">
+                  <hi rend="spaced_out">Lippowitz</hi>
+               </rs> vor allem, meinen aufrichtigen Dank auszusprechen und bin mit dem Ausdruck
+               vorzüglichster Hochschätzung und den allerschönsten Grüßen für Sie, verehrter Herr
+               Präsident,</p>
+            <p rend="center">Ihr sehr ergebener</p>
+            <p rend="right">Artur Schnitzler <hi rend="antiqua">e. h.</hi>
+            </p>
+            <p>Herrn Dr. <rs type="person" ref="#13088">Edmund Wengraf</rs>,</p>
+            <p>Präsident der »<rs type="org" ref="#29752">Concordia</rs>«,</p>
+            <p>
+               <rs type="place" ref="#50">Wien, I.</rs>,</p>
+            <p>
+               <rs type="place" ref="#35">Rudolfsplatz 12.</rs>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

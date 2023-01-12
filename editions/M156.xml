@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="M156">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#31885">Der Friedensengel, 15.&#8239;6.&#8239;1891</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="156"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#2121">A.&#160;Sch.</author>
+                     <title level="a" ref="#31885">Der Friedensengel</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#35942">Moderne Rundschau</title>
+                     <imprint>
+                        <date when="1891-06-15" n="2">15.&#8239;6.&#8239;1891</date>
+                     </imprint>
+                     <biblScope unit="vol">3</biblScope>
+                     <biblScope unit="nr">6</biblScope>
+                     <biblScope unit="pp">243</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2021-11-09">angelegt</change>
+         <change who="MAM" when="2021-12-17">Index check</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div type="original">
+            <p><hi rend="bold"><rs type="work" ref="#31901">Der Friedensengel</rs></hi>. Schauspiel
+               in einem Aufzuge von <hi rend="spaced_out"><rs type="person" ref="#4287">Maximilian
+                     Singer</rs></hi>. (<rs type="place" ref="#50">Wien</rs>, <rs type="org"
+                  ref="#61763">Jac. <anchor type="textConst" xml:id="T_M156-1"/>Dirnböck<note
+                     type="textConst" xml:id="T_M156-1h"><quote>Dirböck</quote></note></rs>.) Ein
+               fünfzigjähriger Professor, seine 26jährige Frau, das fünfjährige Kind dieser beiden,
+               ein zweiunddreißigjähriger Arzt, eine Kindsfrau. Dies die handelnden Personen. Wir
+               übergeben dieses Verzeichniß hiemit den deutschen Dichtern – und es ist zu
+               befürchten, daß neunundneunzig von hundert nahezu dasselbe Stück schreiben werden wie
+               Herr <rs type="person" ref="#4287">Maximilian Singer</rs>. Gewisse Möglichlichkeiten
+               der Unterscheidung schließen wir freilich nicht aus. Vielleicht wird einer von jenen
+               Dichtern ein besonderes dramatisches Geschick entwickeln, ein anderer wird die
+               Sprache vollendeter beherrschen, ein dritter wird tiefer ins Psychologische
+               einzugehen versuchen – und einem vierten wird am Ende gar in irgend einem Augenblicke
+               der Arbeit ein neuer Gedanke oder ein alter in neuer Form einfallen. Wir, die gerade
+               über den <rs type="work" ref="#31901" subtype="implied">Einakter</rs><space
+                  unit="chars" quantity="1"/><rs type="person" ref="#4287">M. Singers</rs> zu
+               berichten haben, bedauern lebhaft, daß wir in diesem von allen den genannten Vorzügen
+               auch nicht einen zu entdecken vermochten. <anchor type="commentary" xml:id="K_M156-1"
+               />Das Schauspiel ist, wie auf dem Titel bemerkt steht, den Bühnen gegenüber
+               Manuscript. Die Bühnen werden sich das nicht zweimal sagen lassen!<note
+                  type="commentary" xml:id="K_M156-1h">Diese Stelle zitiert <rs type="person"
+                     ref="#10815">Hermann Bahr</rs> anlässlich des 60.&#160;Geburtstages <rs
+                     type="person" ref="#2121">Schnitzler</rs>s um auf dessen Vergangenheit als
+                  Literaturkritiker aufmerksam zu machen, <bibl><title level="m"
+                        >Briefwechsel</title> Bahr/Schnitzler, S.&#8239;553</bibl>.</note><anchor
+                  type="label" xml:id="M158_L_anfangh"/></p>
+            <p rend="right">A Sch.</p>
+         </div>
+         <div type="biographical">
+            <div1>
+               <ref target="1891-06-21" type="schnitzlerDiary"/>
+               <quote><p>In der <rs type="work" ref="#35942">Mod. Rsch.</rs> waren bisher 4 kleine
+                     Kritiken von mir:</p>
+                  <p>über ›<rs type="work" ref="#61800">Medeabild</rs>‹ von <rs type="person"
+                        ref="#18053">Heitmüller</rs>,</p>
+                  <p><rs type="work" ref="#61781">Prof. Sylvan</rs> von <rs type="person"
+                        ref="#18468">Holmblad</rs></p>
+                  <p><rs type="work" ref="#61767">Hieroglyphen des Lebens</rs> von <rs type="person"
+                        ref="#7253">Alfr. Friedmann</rs></p>
+                  <p><rs type="work" ref="#31901">Friedensengel</rs> von <rs type="person"
+                        ref="#4287">Singer</rs>.</p></quote>
+            </div1>
+         </div>
+      </body>
+   </text>
+</TEI>

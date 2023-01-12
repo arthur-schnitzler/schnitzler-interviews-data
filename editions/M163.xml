@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="M163">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#62513">Gerhart Hauptmann und Arthur Schnitzler an die Bukum,
+               Herbst&#8239;1929</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <author ref="#11617">Hauptmann, Gerhart</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="163"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                    <!-- <author ref="#2121">Schnitzler, Arthur</author>
+                     <author ref="#11617">Hauptmann, Gerhart</author>-->
+                     <title level="a" ref="#62513">Gerhart Hauptmann und Arthur Schnitzler an die
+                        Bukum</title>
+                  </analytic>
+                  <monogr>
+                     <title level="m" ref="#62517">Fünfundzwanzig Jahre Bukum. Literarischer
+                        Festalmanach auf das Jahr 1930</title>
+                     <imprint>
+                        <date when="1929-11-01" n="1">Herbst 1929</date>
+                        <publisher>Bukum</publisher>
+                        <pubPlace>Wien</pubPlace>
+                     </imprint>
+                     <biblScope unit="pp">17–18</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2021-12-16">angelegt</change>
+         <change who="MAM" when="2021-12-16">Index check</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div type="image">
+            <figure>
+               <graphic url="./images/1929_bukum.jpg" width="5cm"/>
+            </figure>
+            <caption>Der <rs type="org" ref="#29740">Bukum</rs><space unit="chars" quantity="1"
+                  /><date>1904</date>–<date>1929</date> mit den herzlichsten
+               Glückwünschen Arthur Schnitzler</caption>
+         </div>
+         <div type="original">
+            <head>Gerhart Hauptmann und Arthur Schnitzler an die <rs type="org" ref="#29740"
+                  >Bukum</rs></head>
+            <head type="sub">Gerhart Hauptmann</head>
+            <p rend="right"><rs ref="#62521" type="place">Kloster Hiddensee</rs> (<rs type="place"
+                  ref="#62524">Haus Seedorn</rs>), den <date>24.&#160;August 1929</date>.</p>
+            <p><rs type="person" ref="#11646">Hugo Heller</rs> ehrte mich durch sein Wohlwollen, und
+               ich habe in ihm einen ausgezeichneten Menschen und lebendig tätigen Geist schätzen
+               und lieben gelernt. Man überzeugte sich in seiner Gegenwart sehr bald davon, daß
+               seinem äußeren Beruf, der ihn mit Literatur und Kunst verband, ein innerer entsprach,
+               der stets bereit war, das Echte auf beiden Gebieten zu fördern.</p>
+            <head type="sub">Arthur Schnitzler</head>
+            <p rend="right"><rs type="place" ref="#50">Wien</rs>, <date>11.&#160;Juli
+               1929</date>.</p>
+            <p><rs type="person" ref="#11646">Hugo Heller</rs> war vielleicht der erste, im besten
+               Sinn moderne Buchhändler des neuen <rs type="place" ref="#50">Wien</rs> im alten <rs
+                  type="place" ref="#41240">Österreich</rs>. Durch seine organisatorische Begabung,
+               seine innere und äußere Regsamkeit, durch Bildung und durch Urteil, vor allem aber
+               durch seine stetige, lebendige Anteilnahme am Buch, nicht nur insofern es Ware,
+               sondern insofern es geistiges Element bedeutet, war er dazu berufen ein zuverlässiger
+               und kulturell wesentlicher Mittler zwischen Autor und Publikum zu sein. Ich werde ihm
+               stets ein herzliches und dankbares Angedenken bewahren und spreche der <hi
+                  rend="italics">»<rs type="org" ref="#29740">Bukum</rs>«, (die <rs type="person"
+                     ref="#11646">Hugo Heller</rs>s Erbe treu und erfolgreich verwaltet und das
+                  bedeutende und in steter Entwicklung befindliche Geschäft im Sinne des
+                  vortrefflichen Gründers weiterzuführen weiß, anläßlich des 25jährigen Jubiläums
+                  meine aufrichtigsten und wärmsten Glückwünsche aus.</hi></p>
+         </div>
+      </body>
+   </text>
+</TEI>

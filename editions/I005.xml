@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="I005">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#32957">Berta Zuckerkandl-Szeps: Wie kann das geistige Eigentum
+               geschützt werden?, 18.&#8239;4.&#8239;1926</title>
+            <author ref="#2312">Zuckerkandl-Szeps, Berta</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="005"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#2312">Zuckerkandl-Szeps, Berta</author>
+                     <title level="a" ref="#32957">Wie kann das geistige Eigentum geschützt werden?
+                        Ein Gespräch mit Artur Schnitzler</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#36376">Neues Wiener Journal</title>
+                     <imprint>
+                        <date when="1926-04-18" n="1">18.&#8239;4.&#8239;1926</date>
+                     </imprint>
+                     <biblScope unit="jg">34</biblScope>
+                     <biblScope unit="nr">11.640</biblScope>
+                     <biblScope unit="pp">5–6</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#2312">Zuckerkandl-Szeps, Berta</author>
+                     <title level="a">Weltorganisation des geistigen Rechtsschutzes. Aus einem
+                        Gespräch mit Artur Schnitzler</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#36376">Neues Wiener Journal</title>
+                     <imprint>
+                        <date when="1931-11-03">3.&#8239;11.&#8239;1931</date>
+                     </imprint>
+                     <biblScope unit="jg">39</biblScope>
+                     <biblScope unit="nr">13.632</biblScope>
+                     <biblScope unit="pp">7</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct corresp="Lindken">
+                  <analytic>
+                     <author ref="#2312">Zuckerkandl-Szeps, Berta</author>
+                     <title level="a">Weltorganisation des geistigen Rechtsschutzes</title>
+                  </analytic>
+                  <monogr>
+                     <author>Lindken, Hans-Ulrich</author>
+                     <title level="m">Arthur Schnitzler. Aspekte und Akzente. Materialien zu Leben
+                        und Werk</title>
+                     <imprint>
+                        <date when="1984">1984</date>
+                        <publisher>Peter Lang</publisher>
+                        <pubPlace>Frankfurt am Main, Bern, New York</pubPlace>
+                     </imprint>
+                     <biblScope unit="pp">224–225</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2017-11-17">angelegt</change>
+         <change who="MAM" when="2018-02-14">Index check</change>
+         <change who="KH" when="2021-10-27">Durchsicht</change>
+      </revisionDesc>
+   </teiHeader>
+   <!-- <facsimile>
+      <!-\-  <graphic url="http://anno.onb.ac.at/cgi-content/anno?aid=nwj&datum=19260418&seite=5&zoom=38"/>-\->
+    </facsimile>-->
+   <text type="text">
+      <body>
+         <div type="original">
+            <head>Wie kann das geistige Eigentum geschützt werden?</head>
+            <head type="sub">Ein Gespräch mit <rs type="person" ref="#2121">Artur
+               Schnitzler</rs>.</head>
+            <head type="sub">Von</head>
+            <head type="sub">Berta Zuckerkandl-Szeps.</head>
+            <p>
+               <rs type="person" ref="#2121">Artur Schnitzler</rs> ist im Begriff, eine vielwöchige
+                  <anchor type="commentary" xml:id="K_I005-1"/>Seefahrt<note type="commentary"
+                  xml:id="K_I005-1h">Vom <ref target="1926-04-15" type="schnitzlerDiary"
+                     subtype="date-only"/> bis zum <ref target="1926-05-20" type="schnitzlerDiary"
+                     subtype="date-only"/> reisten <rs type="person" ref="#2121">Schnitzler</rs> und
+                  seine Tochter mit dem Schiff von <rs type="place" ref="#873">Triest</rs> nach <rs
+                     type="place" ref="#506">Hamburg</rs>.</note> anzutreten. Wir besprechen vor
+               seiner Abreise noch mancherlei. Da eben ein <rs type="place" ref="#166"
+                  >französischer</rs>
+               <space unit="chars" quantity="1"/>
+               <anchor type="commentary" xml:id="KT091-1"/>
+               <rs type="person" ref="#5172" subtype="implied">Schriftsteller</rs>
+               <note type="commentary" xml:id="KT091-1h">
+                  <rs type="person" ref="#5172">Jean Richard-Bloch</rs>
+               </note> von Rang bei mir weilt, so streift das Gespräch auch Fragen, die immer
+               dringender der internationalen Aufmerksamkeit und Lösung bedürfen. Der Anfang Juni in
+                  <rs type="place" ref="#182">Paris</rs> tagende Autorenkongreß wird wohl eine oder
+               die andere dieser Fragen behandeln. </p>
+            <p>In der letzten Sitzung, die die <rs type="org" ref="#29275">Genossenschaft
+                  dramatischer Autoren</rs> in <rs type="place" ref="#50">Wien</rs> abhielt, ist
+               durch den Einspruch der <rs type="place" ref="#168">Berlin</rs>er Theaterdirektoren
+               eine Aktion gescheitert, die endlich dem unmöglichsten Zustande ein Ende bereiten
+               sollte. Das heißt: die Autoren, die Uebersetzer, die Verleger hatten sich
+               zusammengeschlossen, um den ihnen gebührenden Tantiemenanteil, über den zu verfügen
+               Theaterdirektoren tatsächlich niemals berechtigt sind, bei der jeden Abend
+               erfolgenden Abrechnung ausgezahlt zu erhalten. Dieser Vorgang ist in <rs type="place"
+                  ref="#166">Frankreich</rs> längst üblich. </p>
+            <p>»Gewiß«, unterbricht mich der <rs type="place" ref="#166">französische</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="#5172" subtype="implied">Schriftsteller</rs>, »der <anchor type="commentary" xml:id="K_I005-44"/>geistige
+               Rechtsschutz<note type='commentary' xml:id="K_I005-44h"><ref
+                  type="pointer" subtype="cf" target="#I071_L_K_Urheberrecht"/></note> in <rs type="place" ref="#166">Frankreich</rs> wird für <rs type="place"
+                  ref="#166">Franzosen</rs> und Fremde gleich rigoros gehandhabt. Insbesondere die
+               Theaterautoren werden durch die vorbildliche Organisation der <rs type="org"
+                  ref="#29397">Société des auteurs</rs> aller Sorge enthoben. Der Fremde lächelt oft
+               über die bureaukratische, langsame Art, mit der drei Herren, die an einer Kasse
+               sitzen, jedes Zuschauers Karte einzeln prüfen. Jeder von ihnen ist ein Vertreter, ist
+               der über die Abendeinnahme verfügende Kontrollor. Ein Teil der Einnahme gehört dem
+               Direktor des Theaters. Den zweiten Teil hebt das Luxussteueramt sofort ein. Den
+               dritten Kontrollor entsendet (allabendlich in jedes einzelne Theater) die <rs
+                  type="org" ref="#29397">Société des auteurs</rs>. Dieser kassiert die dem Autor,
+               respektive auch dem Uebersetzer gebührenden Tantiemen ein. Indem jeder der drei
+               Kontrollore die überreichte Karte prüft und einträgt, weiß der Autor nicht nur genau
+               Bescheid über die allabendliche Einnahme, es kann ihm auch niemals geschehen, daß er
+               oft monatelang auf die Auszahlung jenes Teils der Einnahme warten muß, die von Rechts
+               wegen dem Direktor auch nicht eine Stunde lang gehört. Nun aber kann ich Ihnen nicht
+               verhehlen, daß der in manchen Ländern, wie es auch in <rs type="place" ref="#151"
+                  >Deutschland</rs> und <rs type="place" ref="#41240">Oesterreich</rs> der Fall ist,
+               mangelhafte Rechtsschutz der Autoren, für die französischen Autoren die ärgerlichsten
+               Folgen hat. Die <rs type="org" ref="#29397">Société des auteurs</rs> ist nicht
+               imstande, Einnahmen in der Fremde so einzutreiben, wie dies als gesetzlich anerkannte
+               Maßnahme bei uns geltend ist. Und es werden daher soeben Abwehrmaßregeln erwogen, die
+               darin bestehen sollen, daß künftighin die Rechte der fremden Autoren, die in <rs
+                  type="place" ref="#166">Frankreich</rs> aufgeführt werden, der von der <rs
+                  type="org" ref="#29397">Société des auteurs</rs> gepflogenen Kontrolle verlustig
+               gehen. Dies ist allerdings nur für einen <rs type="person" ref="#12421"
+                  >Pirandello</rs>, einen <rs type="person" ref="#2381">Shaw</rs>, die hundertmal
+               gespielt werden, fühlbar und nicht für die selten gespielten Autoren deutscher
+               Sprache. Aber anders gestaltet sich die Sachlage für die Operetten. Die <rs
+                  type="place" ref="#50">Wiener</rs> Operettenfirmen werden den Unterschied in der
+               Kontrollhabung zu spüren bekommen.« </p>
+            <p>»Der geistige Rechtsschutz ist überhaupt absolut reformbedürftig«, unterbricht <rs
+                  type="person" ref="#2121">Artur <hi rend="spaced_out">Schnitzler</hi>
+               </rs>. »Was zum Beispiel in <rs type="place" ref="#175">Amerika</rs> alles möglich
+               ist, obwohl dort doch das ›Copyright‹ existiert, grenzt an das Wunderbare. Ich
+               erhalte ununterbrochen Briefe von mir ganz Unbekannten, die das Recht <anchor
+                  type="commentary" xml:id="K_I005-4"/>arrogieren<note type="commentary"
+                  xml:id="K_I005-4h">analog zur Adoption, bei der eine minderjährige Person als Kind
+                  anerkannt wird, eine selbstständige Person als Kind anerkennen</note>, über meine
+               Werke zu verfügen, sozusagen als meine Generalagenten zu fungieren, ohne daß ich
+               ihnen jemals die Autorisation dazu erteilt hätte. Auch meine Verleger und die von mir
+               tatsächlich Autorisierten sind dadurch oft und oft zu Schaden gekommen. Um solche
+               Dinge in Zukunft unmöglich zu machen, habe ich an alle in Amerika interessierten
+               Stellen die dringende Aufforderung gerichtet, sie mögen von jedermann, der an sie
+               bezüglich der Publizierung oder der Aufführung meiner Werke herantritt, einen von mir
+               eigenhändig geschriebenen Autorisationsbrief verlangen.« </p>
+            <p>»Das alles«, meinte der <rs type="person" ref="#5172" subtype="implied"
+               >Franzose</rs>, »sind vereinzelte und gänzlich unzulängliche Maßnahmen.« </p>
+            <p>
+               <ref type="question" target="#q099"/>»Haben Sie sich nicht«, frage ich <rs
+                  type="person" ref="#2121">Schnitzler</rs>, »bereits vor einiger Zeit mit dem
+               Gedanken befaßt, eine Weltorganisation des geistigen Rechtsschutzes anzuregen?« </p>
+            <p>»Ja. Unglaublich,« sagt <rs type="person" ref="#2121">Schnitzler</rs>, »wie wenig der
+               Respekt vor geistigem Eigentum entwickelt ist. Weder das weitere Publikum besitzt
+               ihn, noch der engere Zirkel, dessen Gewerbe es ist, sich mit geistigen Produkten zu
+               beschäftigen. Daher es doppelt notwendig scheint, dem jetzt bestehenden
+               ›Copyright‹-Recht, das nicht nur in <rs type="place" ref="#175">Amerika</rs>, sondern
+               auch in anderen Ländern absolut nicht ausreichend ist, um vor Mißverständnissen, ja
+               selbst vor Mißbrauch zu schützen, eine viel tiefer verankerte Form zu geben.« </p>
+            <p>
+               <ref type="question" target="#q100"/>»Und an welche neue, bessere Organisation denken
+                  <anchor type="textConst" xml:id="K_I005-67"/>Sie?« »Ich<note type="textConst"
+                  xml:id="K_I005-67h"><quote>Sie? Ich</quote></note> (meinte <rs type="person" ref="#2121"
+                  >Schnitzler</rs>) und mit mir viele rechtlich fühlende Menschen sind dazu gelangt,
+               uns gegen alle unerlaubten, sogenannten ›Versehen‹ und Transaktionen aufzulehnen, die
+               dahin gehen, einem Schriftsteller die Einnahmen, die ihm aus seinem Werk erfließen,
+               zu beeinträchtigen oder zu rauben. Auch jene Fälle nicht ausgenommen, für die ein
+               gerichtliches Verfahren oder eine Strafe nicht vorgesehen ist. Ich hoffe, daß eine
+               Zeit kommen muß, in der überhaupt ein eigener Rechtsapparat zum Schutz von Werken der
+               Kunst und der Literatur nicht mehr notwendig ist. Weil das geistige Eigentum gleich
+               wie jedes andere Eigentum <hi rend="spaced_out">vom Staat geschützt sein wird</hi>.« </p>
+            <p>»Das wäre«, meint der <rs type="place" ref="#166">französische</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="#5172" subtype="implied">Schriftsteller</rs>, »eine der
+               bedeutendsten sozialen Errungenschaften. <ref type="question" target="#q101"/>Aber
+               wie ist der Weg?« </p>
+            <p><ref type="question" target="#q100"></ref>»Das Problem der Copyright-Recht«, antwortet <rs type="person" ref="#2121">Artur
+                  Schnitzler</rs>, »welches ich nur streifen wollte, ist viel zu kompliziert, als
+               daß ich hier mehr als mein persönliches Verhältnis zu dieser Frage zu präzisieren
+               vermag. Vorläufig möchte ich nur folgende Anregung geben. Der geistige Rechtsschutz
+               kann allein auf internationaler Basis neu aufgebaut werden. Es gibt aber meinem
+               Empfinden nach ein einziges wirksames Mittel, um die Parlamente, die Regierungen und
+               die Allgemeinheit für die bedeutsame Frage zu interessieren. Dieses ist: <hi
+                  rend="spaced_out">den Staat zu beteiligen</hi>. Es müßte die Rechtseinrichtung
+               getroffen werden, daß der Staat aus allen einem im Ausland übersetzten und dort
+               erschienenen Werk erfließenden Einnahmen einen gewissen Prozentsatz bezieht. Während
+               bis jetzt nicht einmal wie, die Autoren, in irgend nennenswerter Weise
+               Berücksichtigung gefunden haben. Ein staatliches Kontrollbureau hätte für die
+               einwandfreie Ueberwachung der Einnahmen, die Auszahlungen zu sorgen. Aus den dem
+               Staat zukommenden Prozenten könnte er<pb/> soziale Einrichtungen bedenken. Wie nun
+               diese Idee einer Kompagnonschaft des Staates an dem Ertrag geistiger Arbeit
+               ausgeführt werden könnte, dies muß ich Menschen, die ein größeres Organisationstalent
+               haben als ich, überlassen. Eines nur scheint mir gewiß. Eine internationale
+               Verständigung der Staaten, die als Mitbeteiligte eine straffe, streng gehandhabte,
+               jeden Mißbrauch, jede Uebervorteilung ausschließende Organisation des geistigen
+               Rechtsschutzes in die Wege leiten müßten, ist das Erstrebenswerte.« </p>
+            <p>»Sollte Ihre Anregung (sage ich) nicht in dem <date>Anfang Juni</date> in <rs
+                  type="place" ref="#182">Paris</rs> tagenden internationalen Autorenkongreß zur
+               Sprache kommen? Und da Sie leider durch Ihre länger währende Reise verhindert sein
+               werden, selbst zu erscheinen (was in Paris die größte Enttäuschung hervorrufen wird,
+               wirft der Franzose ein) so sollte ein würdiger Vertreter Ihrer Ideen entsendet
+               werden.« </p>
+            <p>»Es wird mich freuen (schließt <rs type="person" ref="#2121">Schnitzler</rs> unser
+               Gespräch), wenn ich wenigstens dazu helfen kann, der kommenden Generation würdigere
+               Sicherheiten zu erobern, als sie den Dichtern, Schriftstellern, Autoren dieser für
+               uns rechtlosen Zeit zur Verfügung stehen.«</p>
+         </div>
+         <div type="biographical">
+            <div1>
+               <ref type="schnitzlerDiary" target="1926-04-12"/>
+               <quote>Gegen Abend bei der Hofrätin <rs type="person" ref="#2312">Z</rs>. Dort (<rs
+                     type="person" ref="#2312" subtype="implied">Hofr.</rs>) <rs type="person"
+                     ref="#5156">Paul Zifferer</rs>. Wegen des <rs type="place" ref="#182"
+                     >Paris</rs>er Autorencongresses;– solle wegen meines Antrags Urheberrechtschutz
+                  etc. (<rs type="org" ref="#29371">Dial</rs>) hin;– nein.– Allerlei <rs
+                     type="place" ref="#166">französisches</rs>.– Über die Krankheitsgefahren auf
+                  meiner bevorstehenden Reise.</quote>
+            </div1>
+         </div>
+      </body>
+   </text>
+</TEI>

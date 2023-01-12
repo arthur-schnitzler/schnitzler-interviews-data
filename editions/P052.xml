@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="P052">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#33113">Karl Kraus: Vorlesungen [für Peter Altenbergs Grab], Ende
+               Dezember 1922</title>
+            <author ref="#11988">Kraus, Karl</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="052"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#11988">Kraus, Karl</author>
+                     <title level="a" ref="#33113">Vorlesungen</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#41244">Die Fackel</title>
+                     <imprint>
+                        <date when="1922-12-31" n="1">Ende Dezember 1922</date>
+                     </imprint>
+                     <biblScope unit="jg">24</biblScope>
+                     <biblScope unit="nr">608–612</biblScope>
+                     <biblScope unit="pp">43–59, hier S.&#8239;50–52 und S.&#8239;56–58</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <title level="m">Vorlesung Karl Kraus [Programm]</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Richard Lànyi</publisher>
+                        <date when="1922-11-26" n="1">26.&#8239;11.&#8239;1922</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct corresp="ASB2">
+                  <monogr>
+                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefe 1913–1931</title>
+                     <editor>Hg. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und
+                        Heinrich Schnitzler</editor>
+                     <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                     <biblScope unit="pp">293–295</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2017-11-17">angelegt</change>
+         <change who="MAM" when="2021-09-16">Index check</change>
+         <change who="KH" when="2021-10-21">Durchsicht</change>
+      </revisionDesc>
+   </teiHeader>
+   <!-- https://fackel.oeaw.ac.at/f/608,050 -->
+   <text type="text">
+      <body>
+         <div type="original">
+            <head>Vorlesungen</head>
+            <p rend="center">
+               <gap reason="outOfScope" unit="lines" quantity="99"/>
+            </p>
+            <p>
+               <rs type="place" ref="#240">Mittlerer Konzerthaussaal</rs>,
+                  <date>26.&#160;November</date>, <time>3 Uhr</time>:</p>
+            <p>I. <rs type="work" ref="#33119">Das Wort, sie sollen es lassen stahn</rs><space
+                  unit="chars" quantity="1"/><anchor type="commentary" xml:id="K_P052-111"/>[Mit
+                  Vorbemerkung]<note type="commentary" xml:id="K_P052-111h">Eckige Klammern bereits
+                  in der Vorlage</note>. – In eigenster Sache.</p>
+            <p>II. Aus: <rs type="work" ref="#33121">Kralikstag</rs> (Einleitung). – Szenen: Die
+               Cherusker in <rs type="place" ref="#36545">Krems</rs> / Elfriede Ritter und die
+               Reporter. – Die vornehmsten Gäste aus der Kulturstadt <rs type="place" ref="#50"
+                  >Wien</rs> / <rs type="person" ref="#11527">Großmann</rs> daheim. – Reklamefahrten
+               zur Hölle. – Im Untergang.</p>
+            <p>Ein Teil des Ertrags – wie <date>2.&#160;November</date> –: K 1,000.000 für den <rs
+                  type="org" ref="#29449">Verband der Kriegsblinden Österreichs</rs> (<rs
+                  type="place" ref="#1053">III. Henslerstraße 3</rs>) und für den <rs type="org"
+                  ref="#29450">N.-ö. Landesverein für Jugend- und
+                  Kriegerhinterbliebenenfürsorge</rs> (<rs type="place" ref="#1054">Wien, I.,
+                  Drahtgasse 3</rs>).</p>
+            <p>Vorbemerkung:</p>
+            <p>Ein Aufsatz, geschrieben ein Jahr, bevor die Presse zu jenem Kreuze kroch und die
+               Justiz ihren Segen dazu gab.</p>
+            <p>Auf dem Programm:</p>
+            <p>Dem Grabsteinfonds sind zugeflossen: <c rendition="#dots" n="4"/> = K 2,635.500 und
+               č K 170.</p>
+            <p>Das bisherige Ergebnis – neben zwei Millionen Kronen aus dem Ertrag einer Vorlesung
+               nur eine aus der unmittelbaren Beteiligung des Publikums – ist beschämend dürftig und
+               recht eigentlich der Tatsache angemessen, daß das Ehrengrab <rs type="person"
+                  ref="#2147">Peter Altenbergs</rs> so lange durch kein sichtbares Zeichen zu
+               erkennen<pb/> gibt, wer darin ruht. Daß die Leute, die sich Künstler nennen,
+               wenigstens zu diesem edlen Zweck etwas beisteuern könnten, kommt ihnen gar nicht in
+               den Sinn. Die Kreuze in der nichtswürdigsten Tagespresse geben Zeugnis davon, wie
+               viel sie der irdische Ruhm täglich kostet. Ein winziger Bruchteil, an dessen
+               schmutzigen Verwaltern erspart, würde hinreichen, um dem Andenken eines <rs
+                  type="person" ref="#2147" subtype="implied">Dichters</rs>, der freilich lebendiger
+               ist als ihrer aller Gegenwart, die äußere Ehre zu erweisen. Der Vorleser spricht die
+               Erwartung aus, daß das Publikum nun durch regere Teilnahme wettmachen wird, was es
+               selbst und was die armseligen Kunsttreibenden dieser Stadt bisher versäumt haben. Er
+               müßte sonst, da die Kosten eines Grabsteines viel höher sind als das bisherige
+               Ergebnis der Sammlung, weitere Vorlesungserträgnisse aufwenden, welche dann der
+               Fürsorge für ein hungerndes und frierendes Leben entzogen wären. Ganz nebenbei aber
+               und zur Gelegenheit des <anchor type="commentary" xml:id="K_P052-1"
+               />60.&#160;Geburtstages <rs type="person" ref="#11617">Gerhart Hauptmanns</rs><note
+                  type="commentary" xml:id="K_P052-1h">am
+                  <date>15.&#8239;11.&#8239;1922</date></note> sei bemerkt, daß er besser getan
+               hätte, anstatt einer Welt, die das freilich so haben will, das allen einstigen Spuren
+               von Echtheit hohnsprechende Schauspiel zu bieten dieser unermüdlichen Willfährigkeit,
+               sich feiern zu lassen – daß es ihm wohl angestanden hätte, wenigstens einer einzigen
+               dieser tausend Freß- und Preßorgien zugunsten der wie eh und je hungernden <rs
+                  type="work" subtype="implied" ref="#29827">Weber</rs> abzuwinken. Auch könnte gerade er
+               sich des <rs type="person" ref="#2147">Altenberg</rs>-Grabes erinnern, der ja das
+               Genie des Mannes früh genug erkannt hat. Wenigstens ist dies durch ein in meinem
+               Besitz befindliches Schreiben beglaubigt, das den folgenden Wortlaut hat:</p>
+            <p rend="inline">Lieber Herr <rs type="person" ref="#2147">Peter Altenberg</rs>,</p>
+            <p rend="inline">
+               <anchor type="commentary" xml:id="KT138-3"/>gestern<note type="commentary"
+                  xml:id="KT138-3h"><ref target="1896-10-28"
+                     type="schnitzlerDiary" subtype="cf"/>: »<quote>
+                     <rs type="person" ref="#11617">Gerhard Hauptmann</rs>. Er fragte nach <rs
+                        type="person" ref="#2147">Altenberg</rs>. Seit Jahren hat kein Buch einen
+                     solchen Eindruck auf ihn gemacht.–</quote>«</note> sprach ich mit <rs type="person" ref="#11617"
+                  >Gerhart Hauptmann</rs>, der sich über Ihr Buch in unendlich sympathischer Weise
+               äußerte und unter anderm sagte, <hi rend="spaced_out">seit Jahren</hi> habe kein
+                  <anchor type="commentary" xml:id="KT138-1"/>
+               <rs type="work" ref="#30965" subtype="implied">Buch</rs>
+               <note type="commentary" xml:id="KT138-1h">
+                  <bibl>
+                     <rs type="person" ref="#2147">Peter Altenberg</rs>: <rs type="work"
+                        ref="#30965">Wie ich es sehe</rs>. Berlin: <rs type="org" ref="#29639"
+                        >S.&#8239;Fischer</rs>
+                     <space unit="chars" quantity="1"/>
+                     <date>1896</date>
+                  </bibl>.</note> einen so starken Eindruck auf ihn gemacht als das Ihre.</p>
+            <p rend="inline">Da diese Bemerkung für Sie interessant sein dürfte und sie sonst kaum
+               an Sie gelangen könnte, fühle ich mich in gewissem Sinne angenehm verpflichtet, sie
+               Ihnen mitzuteilen.</p>
+            <p rend="inline">Mit bestem Gruß Ihr ergebener</p>
+            <p rend="inline">
+               <rs type="place" ref="#168">Berlin</rs>, <date>29. X.&#8239;96</date>. <signed>
+                  <rs type="person" ref="#2121">Arthur Schnitzler</rs>
+               </signed>
+            </p>
+            <p>Ganz in diesem Sinne will ich (wenn der Autor des Schreibens binnen acht Tagen keinen
+               Einspruch erhebt) es als Autogramm verkaufen, um wenigstens auf diese Weise die
+               deutsche<pb/> Literatur zur Errichtung eines Grabsteines für Peter Altenberg
+               heranzuziehen. Der Wert des Autogramms ist allerdings beträchtlich erhöht durch eine
+                  <anchor type="commentary" xml:id="K_P052-33"/>Randnotiz <rs type="person"
+                  ref="#2147">Peter Altenbergs</rs><note type="commentary" xml:id="K_P052-33h">Der
+                  Brief ist nur in Form einer Fotokopie überliefert, auf der die Ergänzungen nur
+                  teilweise zu entziffern sind, <bibl>vgl. <title level="m"
+                        >schnitzler-briefe</title> L00611</bibl>.</note>, der die ihm widerfahrene
+               literarische Weihe mit den Adressen eines Nachtcafés und offenbar einer von dessen
+               Besucherinnen quittiert hat – eine <rs type="person" ref="#2147"
+               >Altenberg</rs>-Reaktion, um derentwillen ich vor so viel Jahren mir das
+               Doppelautogramm von ihm erbat, das der unheimliche Zufall gerade im Jahr der
+               Grabsammlung und der sechzigsten Geburtstage auffinden half. Wenn ich noch erwähne,
+               daß dieser Sachverhalt durch eine handschriftliche Bemerkung von mir festgestellt
+               ist, so dürfte dem Wert des Schriftstücks und dem guten Zweck, dem er bestimmt ist,
+               keine Einbuße drohen. Es kann im Ernst nicht angenommen werden, daß die beiden <rs
+                  type="person" ref="#2121 #2147" subtype="implied">Dichter</rs>, die ja der lauteren irdischen
+               Huldigung teilhaft wurden, etwas dagegen einzuwenden haben, daß mit diesem echten <rs
+                  type="person" ref="#2147">Altenberg</rs>-Dokument auf echte <rs type="person"
+                  ref="#2147">Altenberg</rs>-Art dazu beigetragen werde, daß sein Grab zu der
+               würdigsten und selbstverständlichsten aller Ehren kommt. </p>
+            <p>
+               <gap reason="outOfScope" unit="lines" quantity="99"/>
+            </p>
+            <p>Auf der Rückseite des Programms:</p>
+            <p>Dem Grabsteinfonds sind zugeflossen: <c rendition="#dots" n="4"/> = K 3,130.500,
+               č K 170 und M 500.</p>
+            <p rend="right">
+               <date>30.&#8239;11.&#8239;1922.</date>
+            </p>
+            <p>Sehr geehrter Herr <rs type="person" ref="#20707">Lányi</rs>.</p>
+            <p>Aus dem mir freundlichst übersandten <anchor type="commentary" xml:id="KT138-4"
+               />Programm der Vorlesung <rs type="person" ref="#11988">Karl Kraus</rs>
+               <note type="commentary" xml:id="KT138-4h">Das Programm deckt sich weitgehend mit dem
+                  hier zuerst abgedruckten.</note> am <date>26. November 1922</date> entnehme ich,
+               daß <rs type="person" ref="#11988">Karl Kraus</rs> sich im Besitze eines Briefes von
+               meiner Hand befindet, in dem ich am <date>29. Oktober 96</date>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="#2147">Peter Altenberg</rs> eine Äußerung <rs type="person"
+                  ref="#11617">Gerhart Hauptmanns</rs> über ihn, gleich ehrenvoll für beide, zur
+               Kenntnis brachte; und erfahre ferner, daß <rs type="person" ref="#11988">Karl
+                  Kraus</rs> diesen meinen Brief zu Gunsten des Fonds zur Errichtung eines
+               Grabsteines für <rs type="person" ref="#2147">Peter Altenberg</rs> zu verkaufen
+               beabsichtigt, falls ich binnen acht Tagen keinen Einspruch erheben sollte. <rs
+                  type="person" ref="#11988">Karl Kraus</rs> hat einen solchen Einspruch gewiß nicht
+               ernstlich befürchtet und wird nicht einmal sonderlich überrascht sein, wenn ich
+               selbst als Kauflustiger mich zu melden hiemit so frei bin, – und zwar mit einem Anbot
+               von 250.000 Kronen, die ich durch die Postsparkasse der <rs type="org" ref="#50728"
+                  >Buchhandlung Richard Lányi</rs> überweise. Mag es auch fraglich erscheinen, ob
+                  <rs type="person" ref="#11988">Karl Kraus</rs> berechtigt war ein Privatschreiben
+               von mir ohne meine vorherige Genehmigung abzudrucken oder vorzulesen und zu einer
+               eventuellen Feilbietung dieses meines Schreibens sich mit meiner nachträglichen oder
+               gar mit einem Schweigen meinerseits begnügen zu wollen (wenn er auch allen Grund
+               hatte mein Einverständnis zu Veröffentlichung und Verkauf als selbstverständlich
+               vorauszusetzen) – so wenig denke ich daran ihm das unbeschränkte Verfügungsrecht über
+               den erzielten Kaufpreis abzusprechen. Trotzdem – und ich glaube damit nicht nur im
+               Sinne des großen lebenden Dichters vorzugehen, dessen Äußerung ich festgehalten,
+               sondern auch im Geist des großen toten <rs type="person" ref="#2147"
+                  subtype="implied">Dichters</rs>, dem ich sie zur Kenntnis gebracht hatte –
+               trotzdem gestatte ich mir dem augenblicklichen Eigentümer meines Schreibens in aller
+               Bescheidenheit den Vorschlag zu unterbreiten, ob er nicht – entgegen seiner
+               ursprünglichen edeln Absicht, den Erlös für mein Autogramm dem Fonds zur Errichtung
+               eines Grabsteines für <rs type="person" ref="#2147">Peter Altenberg</rs> zuzuführen
+               (von dessen Existenz, des Fonds nämlich, mir übrigens bis<pb/> zum heutigen Tage
+               nichts bekannt war und auf dessen Gründung der praktische Philosoph und Durchschauer
+               menschlicher Eitelkeiten kaum sonderlichen Wert gelegt haben dürfte) – diese Summe
+               einem meines Erachtens noch edleren und jedenfalls nützlicheren Zwecke, – nämlich der
+                  <rs type="org" ref="#29448">Österreichischen Künstlerhilfe</rs> zuzuwenden sich
+               entschließen möchte; wie er es so oft mit anderen, höheren, aus eigenem Schaffen
+               stammenden Beträgen zu tun pflegt.</p>
+            <p>Sollte jedoch auf mein Autogramm ein höheres Anbot erfolgen als das meine (was mir
+               trotz der eigenhändig an den Rand geschriebenen Notiz <rs type="person" ref="#2147"
+                  >Peter Altenbergs</rs> unwahrscheinlich dünkt, da im Laufe des seither vergangenen
+               Vierteljahrhunderts sowohl die Adresse des Nachtkaffeehauses als auch die vermutliche
+               Adresse der Besucherin jenes Nachtkaffeehauses an aktuellem Interesse und praktischer
+               Verwendbarkeit allzuviel eingebüßt haben dürften) – so ziehe ich natürlich mein Anbot
+               zu Gunsten jenes höheren zurück, nicht aber die der <rs type="org" ref="#50728"
+                  >Buchhandlung Lányi</rs> überwiesene Summe von 250.000 Kronen, die ich in diesem
+               Falle ohneweiters der <rs type="org" ref="#29448">Österr. Künstlerhilfe</rs> zur
+               Verfügung zu stellen bitte.</p>
+            <p rend="inline"> Mit vorzüglicher Hochachtung</p>
+            <p>
+               <signed>Dr. <rs type="person" ref="#2121">Arthur Schnitzler</rs>
+               </signed>
+            </p>
+            <p>
+               <space dim="vertical" unit="line" quantity="1"/>
+            </p>
+            <p rend="right">
+               <date>2.&#8239;12.&#8239;1922.</date>
+            </p>
+            <p rend="center">Hochgeehrter Herr Doktor!</p>
+            <p>Mit dem besten Dank für Ihr sehr freundliches Schreiben vom
+                  <date>30.&#8239;11.</date>, das ich Herrn <rs type="person" ref="#11988">Karl
+                  Kraus</rs> übermittelt habe, beehre ich mich Ihnen mitzuteilen, daß nach meinem
+               Dafürhalten das autographische Dokument – mit drei Handschriften und dem Urteil <rs
+                  type="person" ref="#11617">Gerhart Hauptmanns</rs> – einen noch weit höheren Wert
+               als die freundlich übersandten 250.000 Kronen hat, für deren gütige Spende ich Ihnen,
+               auch im Namen des Herrn <rs type="person" ref="#11988">Karl Kraus</rs>, in jedem
+               Falle herzlich danke. Es kann ja wohl nicht angenommen werden, daß jene praktische
+               Unverwendbarkeit der von <rs type="person" ref="#2147">Peter Altenberg</rs>
+               eigenhändig hinzugesetzten und heute veralteten Adressen, von der Sie scherzhaft
+               sprechen, dem Wert des Schriftstücks Abbruch tue, zu dessen Erhöhung überdies, was
+               Sie, hochgeehrter Herr Doktor, übersehen haben, auch die<pb/> handschriftliche
+               Bestätigung des augenblicklichen Eigentümers nicht unerheblich beiträgt. Mit vollem
+               Recht aber bemerken Sie, daß dieser Ihren Einspruch nicht ernstlich befürchtet hat,
+               vielmehr allen Grund hatte, Ihr Einverständnis zur Veröffentlichung (die übrigens nur
+               durch das Programm und nicht durch eine Vorlesung erfolgt ist) und zum Verkauf eines
+               Briefes als selbstverständlich vorauszusetzen, der ja seinem Inhalte nach kaum als
+               »Privatschreiben« aufgefaßt werden könnte. Hätte er mit der Förmlichkeit einer
+               Anfrage Zeit verloren, so wäre die Gelegenheit, das Publikum seiner Vorträge auf das
+               Dokument aufmerksam zu machen und eine kräftige Unterstützung der Aktion zu
+               ermöglichen, versäumt worden. Was Ihren Vorschlag zur Verwendung des von Ihnen
+               überwiesenen Betrages anlangt, so wird dieser ganz in Ihrem Sinne der »<rs type="org"
+                  ref="#29448">Österreichischen Künstlerhilfe</rs>« gewidmet werden, wenn der Erlös
+               des dreifachen Autogramms ihn übersteigen sollte.<footNote xml:id="FNT138-1">
+                  <p>Da er 500.000 Kronen beträgt, ist die Spende der »<rs type="org" ref="#29448"
+                        >Österreichischen Künstlerhilfe</rs>« zugeführt worden.</p>
+               </footNote> Im andern Falle, wenn also kein höheres Anbot als das Ihre erfolgt, wären
+               Sie, hochgeehrter Herr Doktor, der Käufer, dem jenes ausgehändigt würde. In diesem
+               Fall jedoch könnte sich Herr <rs type="person" ref="#11988">Karl Kraus</rs> nicht
+               damit einverstanden erklären, den Betrag statt dem Fonds zur Errichtung eines
+               Grabsteines für <rs type="person" ref="#2147">Peter Altenberg</rs> der »<rs
+                  type="org" ref="#29448">Österreichischen Künstlerhilfe</rs>« zu überlassen. Ihr
+               Hinweis, daß er selbst diesem Zwecke höhere, aus eigenem Schaffen stammende Beträge
+               zuzuwenden pflege, beruht insoferne auf einem Irrtum, als solche Beträge der »<rs
+                  type="org" ref="#29448">Österreichischen Künstlerhilfe</rs>« tatsächlich zu einer
+               Zeit zugewendet wurden, da die Bestimmung dieser Aktion die <rs type="place"
+                  ref="#41240">österreichischen</rs> Künstler noch nicht als Objekt – was ja wohl
+               dem Sinn des Wortes besser entsprechen mag –, sondern als Subjekt der Hilfe gemeint,
+               also bedeutet hat, daß die <rs type="place" ref="#41240">österreichischen</rs>
+               Künstler den hungernden <rs type="place" ref="#34438">Russen</rs> helfen, nicht, daß
+               ihnen selbst geholfen werde. Auch dies mag nun, wie Sie ganz zutreffend bemerken, ein
+               nützlicher und edler Zweck sein, deckt sich aber nicht mit der Intention des Herrn
+                  <rs type="person" ref="#11988">Karl Kraus</rs>, der Menschennot ohne Rücksicht auf
+               den Beruf der Notleidenden und darauf, daß sie etwa Künstler sind oder sich dafür
+               halten, abzuhelfen.<pb/> Er würde gewiß nicht zögern, von den Erträgnissen seiner
+               Vorlesungen auch Künstler zu beteilen, aber keineswegs in Würdigung ihrer speziellen
+               Tätigkeit oder eines Werts, der sie aus der unübersehbaren Masse des Elends
+               heraushebt. Da er in dieser allgemeinen Richtung, die nur das gleiche Recht des
+               Bedürfens anerkennt, seine Pflicht erfüllt, so glaubt er, sie durch die Ehrung eines
+               so teuren <rs type="person" ref="#2147" subtype="implied">Dichter</rs>grabes, welche
+               freilich hinter der Achtung vor der Not des Lebens zurückstehen müßte, nicht zu
+               verkürzen. Es mag wohl sein, daß auch der praktische Philosoph und Durchschauer
+               menschlicher Eitelkeiten höheren Wert auf jene Pflicht als auf die der Pietät gelegt
+               hätte. Immerhin wollen Sie in Erwägung ziehen, daß er selbst in einer seiner <rs
+                  type="work" ref="#33115" subtype="implied">Skizzen</rs> die <anchor
+                  type="commentary" xml:id="KT138-2"/>Inschrift für sein Grab<note type="commentary"
+                  xml:id="KT138-2h">In <rs type="work" ref="#33115">Selbstbiographie</rs> (<bibl>
+                     <rs type="org" ref="#29749">Wiener Rundschau</rs>, Jg.&#8239;3, Nr.&#160;7,
+                        <date>15.&#8239;2.&#8239;1899</date>, S.&#8239;167–168</bibl>.) schrieb <rs
+                     type="person" ref="#2147">Altenberg</rs>: »<quote>Ich möchte auf meinem
+                     Grabsteine die Worte haben: ›Er liebte und sah!‹</quote>«. Das wurde
+                  umgesetzt.</note> bestimmt hat, das bis heute, obschon es, und im wahren Sinne des
+               Wortes, ein Ehrengrab der Stadt <rs type="place" ref="#50">Wien</rs> ist, sogar eines
+               Kennzeichens entbehren muß.</p>
+            <p rend="inline">Mit wiederholtem Dank und in vorzüglicher Hochachtung</p>
+            <p>
+               <signed>
+                  <rs type="person" ref="#20707">Richard Lányi</rs>
+               </signed>
+            </p>
+         </div>
+         <div type="biographical">
+            <div1>
+               <ref type="schnitzlerDiary" target="1922-11-28"/>
+               <quote>Nm. mit einer Antwort an Buchhändler <rs type="person" ref="#20707">Lanyi</rs>
+                  beschäftigt. (<rs type="person" ref="#11988">Karl Kraus</rs> will meinen Brief an
+                     <rs type="person" ref="#11617">G. Hauptmann</rs> vom
+                     <date>Oct.&#8239;1896</date> als Autogramm zu Gunsten des Fonds für einen <rs
+                     type="person" ref="#2147">P.&#8239;A.</rs> Grabstein ausbieten.) –</quote>
+            </div1>
+         </div>
+      </body>
+   </text>
+</TEI>

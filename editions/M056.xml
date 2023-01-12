@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="M056">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#33135">Roy Temple House: The Writer and His Daily Bread,
+               18.&#8239;10.&#8239;1931</title>
+            <author ref="#29075">House, Roy Temple</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="056"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#29075">House, Roy Temple</author>
+                     <title level="a" ref="#33135">The Writer and His Daily Bread</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#58538">New York Herald Tribune</title>
+                     <imprint>
+                        <date when="1931-10-18" n="1">18.&#8239;10.&#8239;1931</date>
+                     </imprint>
+                     <biblScope unit="vol">91</biblScope>
+                     <biblScope unit="nr">31.017</biblScope>
+                     <biblScope unit="sec">9</biblScope>
+                     <biblScope unit="pp">9</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en-US">English</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2017-11-17">angelegt</change>
+         <change who="MAM" when="2021-09-28">Index check</change>
+         <change who="KH" when="2021-11-02">Durchsicht</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="text">
+      <body>
+         <div type="image">
+            <figure>
+               <graphic url="./images/1931-10-18-bread.jpg" width="7cm"/>
+            </figure>
+            <caption>»Books Are a Luxury« (Drawing by <rs type="person" ref="#59407">Alan
+               Dunn</rs>)</caption>
+         </div>
+         <div type="original" xml:lang="en-US">
+            <head>The Writer and his Daily Bread</head>
+            <head type="sub">By Roy Temple House</head>
+            <head type="sub">
+               <hi rend="italics">Editor of the international book review quarterly »<rs type="org"
+                     ref="#29457">Books Abroad</rs>«</hi>
+            </head>
+            <p>In my editorial capacity I receive a great deal of <rs type="place" ref="#468"
+                  >European</rs> mail. Every few days of late have been learning by letter or from
+               the foreign press that another Continental publishing company has gone to the wall.
+               An old <rs type="place" ref="#151">German</rs> publishing house writes: »Have you any
+               suggestions as to how the <rs type="place" ref="#175">American</rs> sale of our books
+               can be stimulated? <rs type="place" ref="#151">German</rs>s have almost completely
+               stopped buying books.« The head of some of the solidest <rs type="place" ref="#151"
+                  >German</rs> firms remarks in a burst of confidence that for the first time since
+               his childhood he could not afford a summer vacation this season. A mild deprivation
+               compared to the case of the <rs type="place" ref="#166">French</rs>
+               <space unit="chars" quantity="1"/>
+               <anchor type="commentary" xml:id="K_implied_58317"/>
+               <rs type="person" ref="#58317" subtype="implied">novelist</rs>
+               <note type="commentary" xml:id="K_implied_58317h">nicht identifiziert</note> who died
+               of starvation a year or two ago and that of the once-famous <rs type="place"
+                  ref="#43430">Czech</rs>
+               <space unit="chars" quantity="1"/>
+               <anchor type="commentary" xml:id="KT142-1"/>
+               <rs type="person" ref="#5281" subtype="implied">dramatist</rs>
+               <note type="commentary" xml:id="KT142-1h">der in <rs type="place" ref="#955"
+                     >Teplitz</rs> geborene <rs type="person" ref="#5281"
+                  >Dietzenschmidt</rs></note> who is subsisting on charity. Books are a luxury, and
+               everybody in central <rs type="place" ref="#468">Europe</rs> who has lived from the
+               making or the selling of books is living narrowly at present.</p>
+            <p>In the course of considerable correspondence on the subject I have received from <rs
+                  type="place" ref="#468">Europe</rs> some very interesting <anchor
+                  type="commentary" xml:id="K_M056-1"/>comment<note type="commentary"
+                  xml:id="K_M056-1h">Die Beiträge erschienen in folgender Reihe: <rs type="person"
+                     ref="#5277">Leon Lemonnier</rs>, <rs type="person" ref="#29080">Luc
+                     Durtain</rs>, <rs type="person" ref="#11367">Gustav Frenssen</rs>, <rs
+                     type="person" ref="#2121">Schnitzler</rs>, <rs type="person" ref="#12345"
+                     >Robert Neumann</rs> und <rs type="person" ref="#5272">W. E. Süskind</rs>.
+               </note>, signed now and then with a name which carries weight. <gap
+                  reason="outOfScope" unit="lines" quantity="10"/>
+               <!-- Im Absatz gekürzt XXXX: The problem is less serious in <rs type="place" ref="#166">France</rs> than in some other countries, but even there
+               the author’s couch is no bed of roses. The thoughtful <rs type="person" subtype="implied" ref="#5277">author</rs> of »<rs type="work" ref="#33137">La vie
+                  d’Oscar Wilde</rs>« and of several books which deal with the perplexities of the
+               literary profession, wrote me a little while ago: --></p>
+            <!--<p>
+               <space dim="vertical" unit="line" quantity="1"/>
+            </p>
+            <p>»In <rs type="place" ref="#166">France</rs> there are probably not twenty authors who
+               live from the sale of their books. The majority of them pull through with the help of
+                  journalism<c rendition="#dots" n="4"/> I do not see any remedy for the situation.
+               There is no way of forcing the public to buy books which do not interest them. If the
+               state grants a subvention to certain writers, their art will inevitably suffer, for
+               they will become the creatures of the government and their work will trend toward low
+               propaganda. The only solution is for imaginative literature, as is already the case
+               with poetry, to cease to be a profession and become an avocation. The reason why so
+               many mediocre works are published is precisely that their authors expect material
+               gain from them. The moment they earn their livelihood in some other fashion, at that
+               moment they will stop writing, except when they have something to say. Literature
+               will thus gain in quality.</p>
+            <p rend="inline">»Sincerely,</p>
+            <p rend="right">
+               <rs type="person" ref="#5277">
+                  <hi rend="capitals">Leon Lemonnier</hi>
+               </rs>.« </p>
+            <p>
+               <space dim="vertical" unit="line" quantity="1"/>
+            </p>
+            <p>The disappearance of literature as a profession, then, and the relegation of the
+               literary man to the amateur class. The enterprising <rs type="person" subtype="implied" ref="#29080">author</rs> of »<rs type="work" ref="#33139">Quarantième Etage</rs>« and various other books which sell widely in a dozen
+               countries no doubt experiences little direct inconvenience from the situation, but he
+               has given thought to it. He says: </p>
+            <p>
+               <space dim="vertical" unit="line" quantity="1"/>
+            </p>
+            <p>»The deplorable conditions under which certain writers are forced to live certainly
+               react unfortunately on their literary production<c rendition="#dots" n="4"/> Very few
+               writers of reputation are suffering serious distress. But many authors of merit have
+               no reputation<c rendition="#dots" n="4"/> A distinction must be made among the
+               different <rs type="place" ref="#468">European</rs> countries. A very important consideration is always the number of
+               individuals who speak or read the language of the author. The situation is relatively
+               very favorable for writers in English, where success means fortune. When <rs type="place" ref="#151">Germany</rs> was
+               in a less miserable situation than she is today the life of the <rs type="place" ref="#151">German</rs> artist was
+               fairly comfortable, too, when he had crossed the threshold of fame, <rs type="place" ref="#166">French</rs> writers,
+               who are so fortunate as to be read not only by the 50,000,000 <rs type="place" ref="#468">Europeans</rs> whose
+               language is <rs type="place" ref="#166">French</rs> but in foreign countries, are also relatively favored. But the
+               situation is deplorable for the languages which are not widely used, like <rs type="place" ref="#44016">Dutch</rs>,
+               <rs type="place" ref="#43430">Czech</rs>, <rs type="place" ref="#44244">Finnish</rs>, etc<c rendition="#dots" n="4"/>
+            </p>
+            <p rend="inline">»With best regards,<signed>
+                  <rs type="person" ref="#29080">LUC DURTAIN</rs>.«</signed>
+            </p>
+            <p>
+               <space dim="vertical" unit="line" quantity="1"/>
+            </p>
+            <p>But it is from <rs type="place" ref="#151">Germany</rs> and <rs type="place" ref="#41240">Austria</rs> that the most touching letters come. Old <rs type="person" ref="#11367">Gustav Frenssen</rs>, known to two generations of <rs type="place" ref="#175">Americans</rs> for his »<rs type="work" ref="#33141">Jorn
+                  Uhl</rs>« and »<rs type="work" ref="#33143">Hilligenlei</rs>,« writes bravely, if
+               a little caustically, from his <rs type="place" ref="#49215" subtype="implied">Holstein village</rs>:</p>
+            <p>
+               <space dim="vertical" unit="line" quantity="1"/>
+            </p>
+            <p>»There are in <rs type="place" ref="#151">Germany</rs> a considerable number of
+               writers of reputation but without merit. They have gained their reputation through
+               the kindness of friends, critics and periodicals, not through their works. Some of
+               these writers are having a very hard time in these trying days, but I am inclined to
+               think that it is just as well that they should.</p>
+            <p>»The story writer of real merit, the writer who has a real story-telling gift, can
+               even in these difficult times, by publishing his books first in a newspaper or
+               magazine and then in book form, earn as much as will suffice for modest needs. Since
+               the inflation left him without means, and since his older works at present bring him
+               little or nothing, because very few persons buy books nowadays, he dare not get sick,
+               and must, like the undersigned, work on into his old age.</p>
+            <p>»Much worse than the situation of the novelist is that of the dramatist, it is very
+               possible, even likely, that a <rs type="person" ref="#11933">Heinrich von Kleist</rs>
+               would go to his destruction if he were living today, especially since the theaters
+               have gone to the devil again (wieder einmal nicht Gottes, sondern des Teufels sind).
+               It is just as serious with the poets.</p>
+            <p>»This is how things are today. Since they are steadily growing more desperate, it may
+               be worse next month. Before the war probably 60 per cent of our population were able
+               to buy books and go to the theater. Now not 5 per cent can do so. Who knows how it
+               will be by another month?</p>
+            <p>»How can conditions be improved? The only thing I can suggest is to kill off
+               everybody who favors our dragging our burden of political debt any longer.</p>
+            <p rend="inline">»Your friend, <signed>
+                  <rs type="person" ref="#11367">GUSTAV FRENSSEN</rs>.«</signed>
+            </p>
+            <p>
+               <space dim="vertical" unit="line" quantity="1"/>
+            </p>-->
+            <p><gap reason="outOfScope" unit="paragraphs" quantity="20"/></p>
+            <p>The wisest and kindest of living <rs type="place" ref="#41240">Austrian</rs> Writers
+               has concrete suggestions. Dr. <rs type="person" ref="#2121">Arthur Schnitzler</rs>
+               writes:</p>
+            <p>
+               <space dim="vertical" unit="line" quantity="1"/>
+            </p>
+            <p>
+               <c rendition="#dots" n="4"/>»The shortest and simplest means of helping the situation
+               is by direct aid to the needy writers. More important – and in a higher sense –
+               would, of course, be a <anchor type="commentary" xml:id="K_M056-11"/>reform of the copyright law<note type='commentary' xml:id="K_M056-11h"><ref type="pointer" target="#I044" subtype="cf"/></note>, or at least a careful observance
+               of the existing law, which, as you know, is not now the case. It is unfortunately
+               true that spiritual property has never been put on the same plane before the law as
+               material property, and so it is constantly happening that direct infractions of
+               existing law are not adequately punished or not at all, so that the most disgraceful
+               offenders against the regulations concerning spiritual property are allowed to go
+               free, not merely unpunished, but even as highly respected citizens. But these things
+               cannot be changed overnight, and even if they were changed there will always remain a
+               certain number of writers who would have difficulty in earning a living, if they were
+               paid respectably<c rendition="#dots" n="4"/>
+            </p>
+            <p rend="inline">»Cordially, <signed>
+                  <rs type="person" ref="#2121"><hi rend="capitals">Arthur Schnitzler</hi></rs>.«</signed>
+            </p>
+            <p>
+               <space dim="vertical" unit="line" quantity="1"/>
+            </p>
+            <p><gap reason="outOfScope" unit="paragraphs" quantity="20"/></p>
+            <!--<p>
+               <space dim="vertical" unit="line" quantity="1"/>
+            </p>
+            <p>The alert and brilliant young <rs type="person" subtype="implied" ref="#12345">author</rs> of »<rs type="work" ref="#33145">Mit fremden Federn</rs>« and »<rs type="work" ref="#33147">Die Pest von Lianora</rs>« is full of sympathy and good
+               will. He says:</p>
+            <p>
+               <space dim="vertical" unit="line" quantity="1"/>
+            </p>
+            <p>»Economic crises always hit the writer particularly hard. He belongs in the category
+               of luxuries, with champagne manufacturers, light ladies and hotel porters. No one has
+               any money now for any of these categories. There is the additional difficulty that
+               since the war we have an entirely new literature, and some of the most distinguished
+               personalities of pre-war literature have been unable or unwilling to adapt themselves
+               to the new conditions, and are as a result living in the direst need. Some of them
+               are literally starving. The only way to help them is with money – and more money.
+               Very truly,</p>
+            <p>
+               <signed>»<rs type="person" ref="#12345">ROBERT NEUMANN</rs>.«</signed>
+            </p>
+            <p>
+               <space dim="vertical" unit="line" quantity="1"/>
+            </p>
+            <p>
+               <rs type="person" ref="#5272">W. E. Süskind</rs>, whose psychological masterpieces
+                  »<rs type="work" ref="#33149">Tordis</rs>« and »<rs type="work" ref="#33151">Jugend</rs>« have made him famous, regards the problem as very serious:</p>
+            <p>»The economic situation of writers in <rs type="place" ref="#151">Germany</rs> is
+               extremely disquieting, and the future is full of perplexity. I am not thinking simply
+               of the general depression. Bad as that is, another circumstance is largely
+               responsible for the fact that important writers are in want today and the production
+               of a really first-class literature is becoming more and more difficult. The point at
+               which the writer makes his living is steadily changing. In the majority of cases it
+               is no longer the book, but the periodical, and there the vicious law obtains, imposed
+               by the publishers, that the writer must keep in mind that puzzling monster, the
+               popular taste. It follows inevitably that the artistic and spiritual standard of the
+               production is lowered, and I maintain that there is today no first class writer in
+                  <rs type="place" ref="#151">Germany</rs> who is economically able to write
+               entirely unhampered, just as his talent prompts him. The economic enslavement of the
+               writer is no longer a prospect to be feared. It is a fact<c rendition="#dots" n="4"/>
+            </p>
+            <p rend="inline">»With best wishes. <signed>
+                  <rs type="person" ref="#5272">W. E. SUSKIND</rs>.«</signed>
+            </p>-->
+           
+            <p>Readers who may be inclined to offer financial assistance to <rs type="place"
+                  ref="#151">German</rs> or <rs type="place" ref="#41240">Austrian</rs> writers who
+               are in financial straits may make contacts with the <rs type="org" ref="#29337"
+                  >Schutzverband Deutscher Schriftsteller</rs>, <rs type="place" ref="#1056">Berlin
+                  W. 50, Nürnbergerstrasse 8</rs>, or with the <rs type="org" ref="#29458"
+                  >Schutzverband Deutscher Schriftsteller in Oesterreich</rs>, <rs type="place"
+                  ref="#1055">Wien, Annagasse 5</rs>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

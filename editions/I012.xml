@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="I012">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#32919">Th.&#8239;Thomas [= Rudolph Lothar]: Das Drama in Rosa,
+               25.&#8239;1.&#8239;1903</title>
+            <author ref="#2570">Lothar, Rudolph</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="012"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#2570">Th. Thomas [= Rudolph Lothar]</author>
+                     <title level="a" ref="#32919">Das Drama in Rosa</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#36374">Neue Freie Presse</title>
+                     <imprint>
+                        <date when="1903-01-25" n="1">25.&#8239;1.&#8239;1903</date>
+                     </imprint>
+                     <biblScope unit="nr">13.799</biblScope>
+                     <biblScope unit="pp">8–9</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2017-11-17">angelegt</change>
+         <change who="MAM" when="2018-02-14">Index check</change>
+         <change who="KH" when="2021-10-05">Durchsicht</change>
+      </revisionDesc>
+      <!-- http://anno.onb.ac.at/cgi-content/anno?aid=nfp&datum=19030125&seite=8&zoom=33 -->
+   </teiHeader>
+   <text type="text">
+      <body>
+         <div type="original">
+            <head>Das Drama in Rosa.</head>
+            <p>Mag der Himmel noch so blau sein und der Sonnenschein noch so hell, wenn der
+               Wetterbericht meldet, daß es in <rs type="place" ref="#40321">Bregenz</rs> regnet, so
+               regnet es in den nächsten Tagen auch bei uns. Der Westen ist unser Wetterwinkel und
+               wie es heute dort ist, wird es morgen bei uns sein. Das gilt aber nicht nur von den
+               Vorgängen in der Atmosphäre, sondern auch von den Vorgängen im künstlerischen Leben.
+               Richtungen und Strömungen gehen von Westen nach Osten denselben breiten Weg, den die
+               Mode so gerne beschreitet. Was in Mode-Artikeln und Kunstgeschmack aus <rs
+                  type="place" ref="#182">Paris</rs> signalisirt wird, das kriegen auch wir
+               demnächst vorgesetzt. Es scheint, als gäbe es von dieser Regel kaum eine Ausnahme.
+               Man wird eines Tages daran gehen, den Gründen dieses Gesetzes nachzuforschen, und die
+               Gelehrten werden aus der Menschennatur zu erklären versuchen, warum die Dinge und
+               Ideen just so wandern und nicht anders. Vor einigen Tagen berichtete<space
+                  unit="chars" quantity="1"/>
+               <rs type="person" ref="#12365">Max Nordau</rs> über einen <rs type="work"
+                  ref="#32931">
+                  <anchor type="commentary" xml:id="KT098-1"/>Wetterumschlag<note type="commentary"
+                     xml:id="KT098-1h">
+                     <bibl>
+                        <rs type="person" ref="#12365">Max Nordau</rs>: <rs type="work" ref="#32931"
+                           >Wetterumschlag</rs>. In: <rs type="org" ref="#29351">Neue Freie
+                           Presse</rs>, Nr. 13.788, <date>14.&#8239;1.&#8239;1903</date>,
+                        Morgenblatt, S.&#8239;1–3.</bibl>
+                  </note>
+               </rs> in der <rs type="place" ref="#182">Paris</rs>er Dramen-Manufactur. Es scheint,
+               daß es mit dem »<hi rend="antiqua">Genre rosse</hi>«, mit dem brutalen Drama zu Ende
+               geht und daß das Drama in Roth vom Drama in Rosa verdrängt wird. Man ist es satt, auf
+               der Bühne Laster, Gemeinheit, Niedertracht und Elend im Reigen zu sehen, und man
+               freut sich wieder allerorten, wenn auf den Brettern angenehme Menschen unter
+               angenehmen Umständen Angenehmes erleben. War der Bühnenhimmel der letzten Jahre
+               bleigrau und mit Wolken beladen, so hellt er sich jetzt aus zum lichtesten Blau. Die
+               Bühne wird wieder zur besten aller Welten, und der Dichter kleidet sich statt mit
+               ausgesuchter Schäbigkeit und Häßlichkeit, wie es bis jetzt die Mode erheischte,
+               wieder in schöne, heitere Gewänder.</p>
+            <p>Und bei uns? Macht auch bei uns in <rs type="place" ref="#50">Wien</rs> das Drama in
+               Rosa dem Drama in Roth den Rang streitig?</p>
+            <p>Director <rs type="person" ref="#2601">Jarno</rs>, der ja den <rs type="place"
+                  ref="#166">französischen</rs> Import am besten kennt, meint, man könne von einem
+               Wetterumschlag im <rs type="place" ref="#50">Wien</rs>er Geschmack nicht gut
+               reden.</p>
+            <p>»Ich glaube nicht,« sagt er, »dass <rs type="place" ref="#50">Wien</rs> jemals der
+               rechte Boden für das ›<hi rend="antiqua">Genre rosse</hi>‹ gewesen ist. Davon <anchor
+                  type="textConst" xml:id="T_I012-1"/>überzeugte<note type="textConst"
+                  xml:id="T_I012-1h"><quote>überzeute</quote></note> ich mich schon im Jahre <date>1900</date>
+               bei der Aufführung von <rs type="person" ref="#5122">Dora Duncker</rs>’s ›<anchor
+                  type="commentary" xml:id="K_I012-2"/><rs type="work" ref="#32921"
+                  >Bagatelle</rs><note type="commentary" xml:id="K_I012-2h">In <rs type="place"
+                     ref="#50">Wien</rs> wurde es zum ersten Mal im Zuge eines Einakterabends am <rs
+                     type="org" ref="#39689">Theater in der Josefstadt</rs> am
+                     <date>23.&#8239;2.&#8239;1900</date> zusammen mit <rs type="work" ref="#30005"
+                     >Abschiedssouper</rs> von <rs type="person" ref="#2121">Schnitzler</rs> und
+                  zwei weiteren Stücken gegeben.</note>‹. Das Stückchen war dem Publicum zu stark
+               und ich konnte es nur einmal geben. Deßwegen habe ich auch die Einacter ›<anchor
+                  type="commentary" xml:id="K_I012-1"/><rs type="work" ref="#32923">Am
+                  Telephon</rs><note type="commentary" xml:id="K_I012-1h">Die <rs type="place"
+                     ref="#50">Wien</rs>er Premiere des Einakters von <rs type="person" ref="#29015"
+                     >André de Lorde</rs> und <rs type="person" ref="#29018">Charles Foleÿ</rs> fand
+                  am <date>2.&#8239;10.&#8239;1902</date> in <rs type="org" ref="#62834">Danzers
+                     Orpheum</rs> statt.</note>‹ und ›<anchor type="commentary" xml:id="K_I012-5"
+                  /><rs type="work" ref="#32927">Er</rs><note type="commentary" xml:id="K_I012-5h"
+                     ><rs type="work" ref="#32927">Er!</rs> von <rs type="person" ref="#5125">Oscar
+                     Méténier</rs> wurde am <date>5.&#8239;10.&#8239;1901</date> gegeben. Anlass
+                  bildete die Eröffnung der 2.&#160;Saison von <rs type="org" ref="#62834">Danzers
+                     Orpheum</rs>. Die Hauptrolle spielte <rs type="person" ref="#63014">Annie
+                     Dirkens</rs> als Gast.</note>‹ nicht aufgeführt, obzwar ich sie im Hause hatte,
+               weil ich eben überzeugt bin, daß das <rs type="place" ref="#50">Wien</rs>er Publicum
+               brutale Dinge nicht verträgt, im Theater nicht verträgt. In einem <anchor
+                  type="commentary" xml:id="K_I012-3"/>Rauchtheater<note type="commentary"
+                  xml:id="K_I012-3h">ein Unterhaltungstheater oder Varieté, in dem Rauchen erlaubt
+                  ist</note> liegen die Dinge anders. Da hilft Einem das Bier und die Cigarre über
+               die unangenehme Situation hinweg und man ist auch in seiner Bewegung freier als im
+               Theater. Man kann fortgehen und wiederkommen, wenn die peinliche Sache vorüber
+               ist.</p>
+            <p>Die natürliche Gutmüthigkeit des <rs type="place" ref="#50">Wien</rs>ers hat das
+               Aufkommen des ›<hi rend="antiqua">Genre rosse</hi>‹ bei uns verhindert. Das ›goldene
+                  <rs type="place" ref="#50">Wien</rs>er Herz‹ ist wirklich keine Blague. Und so wie
+               bei uns die Gutmüthigkeit, so stand in <rs type="place" ref="#168">Berlin</rs> das
+               ästhetische Gefühl gegen diese Gattung Theater. Denn glauben Sie ja nicht, daß das
+               Theater in Roth jemals dem Geschmack des <rs type="place" ref="#168">Berlin</rs>er
+               Publikums entsprochen hat. Dem Geschmack einer Clique vielleicht, aber die Clique ist
+               ja nicht das Publicum. Was in <rs type="person" ref="#11617">Hauptmann</rs>’s Drama
+                  ›<rs type="work" ref="#31939">Vor Sonnenaufgang</rs>‹ wirklich wirkte, war – die
+                  <anchor type="commentary" xml:id="K_I012-4"/>keusche Liebesscene<note
+                  type="commentary" xml:id="K_I012-4h">Im vierten Akt gestehen in einer Gartenlaube
+                  (ein Anklang an <rs type="work" ref="#30247">Faust</rs>) Helene Krause und Alfred
+                  Loth sich ihre wechselseitigen Gefühle. Im 5. (letzten) Akt reist Loth ab, weil er
+                  die Beziehung aufgrund ihres niederen sozialen Milieus für zum Scheitern
+                  verurteilt hält; Helene bringt sich um. </note>.</p>
+            <p>Aber da rede ich immer vom brutalen Drama. Seien wir uns einmal darüber klar, was wir
+               brutal nennen: Wenn wir sehen, wie die Menschen auf der Bühne einer höheren Gewalt
+               gegenüber ohnmächtig sind, von dieser Gewalt erdrückt, zu Boden geschlagen werden,
+               ohne Widerstand leisten zu können, so empfinden wir das als brutal. Unser Mitleid
+               wandelt sich in Ekel. Lehnt sich aber der Held gegen die ihn bedrückende Gewalt auf,
+               ist blos die Möglichkeit einer solchen Auflehnung gegeben, so haben wir ein starkes
+               Stück vor uns und das Publikum geht mit. Daher ist es immer ein sicherer Effect, wenn
+               Einer auf der Bühne dem, der die Macht über ihn hatte oder hat, rund heraus seine
+               Meinung sagt. Das gilt vom Pantoffelhelden wie vom classischen Heros.</p>
+            <p>Ums Mitgehen des Publikums handelt es sich immer. Nicht wahr? Und da habe ich nun
+               eine Beobachtung gemacht: Früher ging man ins Theater, um eben Theater zu sehen;
+               heute will man Leben auf der Bühne haben. Das Publicum geht viel stärker mit als
+               früher, die Nerven sind außerordentlich verfeinert worden, die Empfindlichkeit und
+               Empfänglichkeit ist gestiegen. Die Consequenz davon ist, daß heute schon die
+               Andeutung genügt, um Verständniß zu wecken. Das gilt vom Autor wie vom Schauspieler.
+               An die Stelle der großen äußerlichen Linie von früher ist das innerliche Spielen
+               getreten. Das Publicum will weiterarbeiten, die Mitarbeit im Theater ist ihm ein
+               Genuß. Gibt aber der Künstler, Autor oder Schauspieler das Endlichste, so hört die
+               Mitarbeit auf, und das Publicum ist um die Freude des Ergänzens gebracht. Die Zeit
+               der Schreie und der großen Gesten ist vorüber. Wir empfinden das Alles heute
+               unangenehm als Theatralik. Aber diese Kunst der Andeutung ist nicht nur eine
+               Consequenz unserer feineren Nerven, sondern auch eine Reaction gegen den
+               Naturalismus.</p>
+            <p>Sie werden es nun begreiflich finden, daß die Mitarbeit des Publikums bei angenehmen
+               Zuständen auf der Bühne angenehmer ist, als wenn da auf dem Theater allerlei
+               Widerlichkeiten und Widerwärtigkeiten vor sich gehen. Die Mitarbeit am rosigen Stück
+               ist wie ein warmes Bad. Aber der Erfolg dieser Stücke datirt ja nicht von gestern. Er
+               hat bei uns überhaupt nie aufgehört. Denken Sie doch nur ans ›<anchor
+                  type="commentary" xml:id="K_I012-6"/><rs type="work" ref="#32933">Weiße
+                  Rössel</rs><note type="commentary" xml:id="K_I012-6h">Das Lustspiel <rs
+                     type="work" ref="#32933">Im weißen Rößl</rs> von von <rs type="person"
+                     ref="#14328">Oscar Blumenthal</rs> und <rs type="person" ref="#11845">Gustav
+                     Kadelburg</rs> wurde nach der Uraufführung am
+                     <date>30.&#8239;12.&#8239;1897</date> ein großer Publikumsmagnet. Die heute
+                  bekanntere Operette basiert darauf und wurde <date>1930</date> uraufgeführt.</note>‹ und an
+                  ›<anchor type="commentary" xml:id="K_I012-7"/><rs type="work" ref="#31505"
+                  >Alt-Heidelberg</rs><note type="commentary" xml:id="K_I012-7h"><rs type="work"
+                     ref="#31505">Alt-Heidelberg</rs> ist ein Schauspiel von <rs type="person"
+                     ref="#12240">Wilhelm Meyer-Förster</rs>, das am
+                     <date>22.&#8239;11.&#8239;1901</date> zum ersten Mal aufgeführt wurde. Es war
+                  eines der Zugstücke dieser Zeit.</note>‹. Ich bin auch überzeugt, daß der grosse
+               Erfolg vom ›<anchor type="commentary" xml:id="K_I012-8"/><rs type="work" ref="#32929"
+                  >Süßen Mädel</rs><note type="commentary" xml:id="K_I012-8h">Die Operette <rs
+                     type="work" ref="#32929">Das süße Mädel</rs> von <rs type="person" ref="#12501"
+                     >Heinrich Reinhardt</rs>, Libretto von <rs type="person" ref="#2577">Alexander
+                        Landesberg</rs> und <rs type="person" ref="#25372">Leo Stein</rs>, wurde am
+                     <date>25.&#8239;10.&#8239;1901</date> am <rs type="org" ref="#63031">Wiener
+                     Carl-Theater</rs> uraufgeführt. Jahrzehntelang stand sie in verschiedenen
+                  Häusern am Spielplan.</note>‹ schon im Titel liegt. Das ist ja ein Titel, süß wie
+               Honig. Wenn man ihn nur liest oder hört, so hat man schon ein angenehmes Gefühl. Der
+               Meister des <rs type="place" ref="#166">französischen</rs> Stückes in Rosa ist aber
+               unstreitig <rs type="person" ref="#2408">Capus</rs>. Das ist ein Mann, der das
+               Publicum kennt und weiß, was ihm wohlthut und gefällt. In allen Stücken von <rs
+                  type="person" ref="#2408">Capus</rs> wird Geld verschenkt. Das ist nämlich auch
+               ein sicherer Effect. Es gibt nichts Angenehmeres fürs Publicum, als wenn auf der
+               Bühne Geld verschenkt wird. Die Psychologie der offenen Brieftasche kennt <rs
+                  type="person" ref="#2408">Capus</rs> so gut, wie der <anchor type="commentary"
+                  xml:id="KT098-2"/>selige <rs type="person" ref="#29020">Fürst</rs>
+               <note type="commentary" xml:id="KT098-2h">Im von ihm betriebenen Theater trat <rs
+                     type="person" ref="#29020">Johann Fürst</rs> am Ende der Stücke wiederholt als
+                  Retter mit großer roter Brieftasche auf und sprach den Stehsatz: »meinen Namen
+                  sollt ihr nie erfahren – ich bin der Kaiser <rs type="person" ref="#3084"
+                     >Josef</rs>«.</note> sie kannte.«</p>
+            <p>Die Frage wird freilich nie gelöst werden, wer in der dramatischen Mode den Ton
+               angibt: Das Publicum oder der Dichter. Folgt der Autor dem Druck der Menge oder folgt
+               die Menge dem Zug des Autors? Es ist begreiflich, daß die Directoren auf dem
+               Standpunkte der Social-Historiker stehen, die in der Allgemeinheit das Bestimmende
+               erblicken und für die der Held, sei es nun ein Feldherr oder ein Dichter, nichts
+               Anderes vorstellt, als die Spitze der Pyramide oder, um ein anderes Bild zu
+               gebrauchen, als die Frucht am Baume. Die Helden selbst, also in unserem Falle die
+               Dichter, werden aber wahrscheinlich alle Anhänger von <rs type="person" ref="#11074"
+                  >Carlyle</rs>’s »<anchor type="commentary" xml:id="K_I012-9"/>Heroenverehrung<note
+                  type="commentary" xml:id="K_I012-9h">Der Historiker <rs type="person" ref="#11074"
+                     >Thomas Carlyle</rs> vertrat die Ansicht, dass Geschichte durch einzelne,
+                  besondere Individuen gemacht würde und riet zur Verehrung dieser »Heroen« als
+                  Lebenseinstellung.</note>« sein und sagen, daß sie es sind, die Geschmack, Weg und
+               Richtung bestimmen.</p>
+            <p>Vor einigen Tagen sprach ich mit einem <anchor type="commentary" xml:id="K_I012-11"
+               />alten <rs type="person" ref="#2121" subtype="implied">Freunde</rs><note
+                  type="commentary" xml:id="K_I012-11h">Ab hier wird ein Gespräch mit <rs
+                     type="person" ref="#2121">Schnitzler</rs> wiedergegeben.</note>, einem <rs
+                  type="place" ref="#50">Wien</rs>er <rs type="person" ref="#2121" subtype="implied"
+                  >Dramatiker</rs>, man könnte fast sagen, <anchor type="label" xml:id="I012-label1"/>
+               <hi rend="spaced_out">dem</hi>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="#50">Wien</rs>er Dramatiker. Denn wenn in Einem, so lebt in ihm
+               die <rs type="place" ref="#50">Wien</rs>erische Art sich am reinsten aus.</p>
+            <p>»Der Künstler,« sagte mein <rs type="person" ref="#2121" subtype="implied"
+                  >Freund</rs>, »der Mann, der Neues findet und sagt, also mit anderen Worten, das
+               Genie weist den Weg. Er gibt das, was das Publikum ergreift, packt, rührt, kurz, er
+               wirkt. Dann kommen die Geister dritter und vierter Ordnung, die sich sagen: Aha,
+               diese Note wirkt, dieser Ton macht Effect. Und dann machen sie das, was die Ersten
+               und Zweiten gefunden und gebracht, so lange nach, beuten es geschäftlich so lange
+               aus, bis es dem Publicum über wird und die Handwerkswaare keinen Käufer mehr findet.
+               Dann muß wieder ein Genie kommen, das Neues bringt, und die ganze Geschichte
+               wiederholt sich. Wenn dieses Genie heute auftritt und uns ein Drama in Roth
+               bescheert, so wird es <anchor type="textConst" xml:id="TT098-1"/>damit<note
+                  type="textConst" xml:id="TT098-1h"><quote>damit damit</quote></note> ebenso
+               siegen, wie mit einem Drama in Rosa.</p>
+            <p>Ich glaube überhaupt nicht, daß der wahre Künstler dem sich unterwerfen kann, was man
+               gemeiniglich Mode, Geschmack oder Richtung heißt. Wobei ich natürlich einräumen muß,
+               daß all dies, so weit es Milieu ist, auf ihn wirkt, wie auf jeden Andern. Ich will
+               dir an mir selbst ein Beispiel geben. Ich wollte immer gerne <anchor
+                  type="commentary" xml:id="K_I012-12"/>Lustspiele schreiben<note type="commentary"
+                  xml:id="K_I012-12h">Möglicherweise eine Reminiszenz aus der Entstehungszeit von
+                  »Die Entrüsteten«, das zuerst als Lustspiel geplant war und später als Roman zu
+                     <rs type="work" ref="#29923">Der Weg ins Freie</rs> ausgearbeitet wurde. Vgl.
+                  Schnitzler an <rs type="person" ref="#10986">Brahm</rs>, <date when="1897-05-23"
+                     >23.&#8239;5.&#8239;1897</date>: »<quote>ob es eine Komödie wird, weiß ich noch
+                     nicht sicher; denn mit meinen lustigen Ideen geht es mir gewöhnlich so wie mit
+                     einem ungeheuer fidelen Stoff, den ich einmal meinen Freunden erzählte und wo
+                     es mir mitten im Erzählen passierte, daß die Sache immer ernster wurde, bis
+                     schließlich, zu meinem eigenen Erstaunen, der Held den grausamen Tod des
+                     Erstochenwerdens erlitt. (Wobei es wenigstens nicht knallt.)</quote>«
+                     <bibl>(A.&#160;S. <title level="m">Briefe</title> I,
+                  S.&#8239;324)</bibl>.</note>. Man hat mir auch schon so oft gesagt: ›Sie sollten
+               doch einmal ein Lustspiel schreiben!‹ Ich bringe es aber über den lustigen Einacter,
+               die heitere Scene nicht hinaus. Ich habe so einen lustigen Stoff gehabt – kaum aber
+               beschäftige ich mich mit ihm, so wandelt er sich unversehens ins Melancholische,
+               Hypochondrische oder auch ins Tragische. Das liegt nun eben in meiner Natur. Und
+               warum meine Natur so ist? Vielleicht spielt da Vererbung mit, was weiß ich? Ich bin
+               nun einmal so und kann mich nicht ändern. Ich versuche freilich fortwährend mich zu
+               ändern, wie jeder Künstler. Das nennt man dann Entwicklung. Einmal hatte ich einen
+               Posseneinfall. Ich traf einen Freund und sagte ihm: ›Sie, ich muß Ihnen den Stoff zu
+               einer Posse erzählen.‹ Aber indem ich erzählte – du weißt ja, wie man im Erzählen am
+               Stoffe weiterarbeitet – ging schon die Wandlung ins Tragische vor sich, und am
+               Schlusse gab es Mord und Todtschlag. ›Und das nennen Sie eine Posse?‹ fragte mein
+               Freund. Ich kann also, wie du siehst, weder ein Drama in Roth, noch ein Drama in Rosa
+               schreiben aus der Ueberzeugung heraus, daß dies oder jenes heute nach dem Geschmack
+               des Publicums ist. Ich muß die Stücke so schreiben, wie sie sich mir geben.«</p>
+            <p>Gewiß hat mein <rs type="person" ref="#2121" subtype="implied">Freund</rs>, der
+               Dramatiker, Recht. Nur der Handwerker, nicht der Künstler erkundigt sich nach Wunsch
+               und Bedarf des Publikums, ehe er an die Arbeit geht. Und doch glaubt oft auch der
+               größte Held zu schieben, indeß er geschoben wird. Er glaubt eine Welt zu tragen, und
+               die Welt trägt ihn. Wir kommen in diesem Fragengewirr schließlich doch immer auf das
+               unlösbare Problem des freien und unfreien Willens. Drama in Roth und Drama in Rosa!
+               Das Eine entspricht so gut einem kategorischen Imperativ wie das Andere. Das Eine ist
+               so gut wie das Andere ein Culturspiegel. Daß aber die Menschheit jeden Anlaß benützt,
+               um<pb/> freudig nach dem rosigen Spiegel greifen, der Alles so schön und gefällig
+               zeigt, ist begreiflich. Und ich kann den gutmüthigen Philosophen nicht Unrecht geben,
+               die behaupten, daß die Herstellung solch liebenswürdiger Spiegel ein dringendes
+               Bedürfniß sei. <signed>
+                  <hi rend="spaced_out">Th. Thomas.</hi>
+               </signed>
+            </p>
+         </div>
+         <div type="biographical">
+            <div1>
+               <ref type="schnitzlerDiary" target="1903-01-24"/>
+               <quote>Von gestern nachzutragen <rs type="person" ref="#2570">Lothar</rs> da, mich
+                  über Drame rose und rosse ›interviewen‹.– Ich verbat mir Namensnennung.–</quote>
+            </div1>
+         </div>
+      </body>
+   </text>
+</TEI>

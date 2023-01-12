@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="M063">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#58540">Die Censur in Oesterreich.&#8239;Eine Zeitfrage,
+               6.&#8239;1.&#8239;1897</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="063"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a" ref="#58540">Die Censur in Oesterreich. Eine Zeitfrage.
+                        II</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#36376">Neues Wiener Journal</title>
+                     <imprint>
+                        <date when="1897-01-06" n="1">6.&#8239;1.&#8239;1897</date>
+                     </imprint>
+                     <biblScope unit="nr">1.151</biblScope>
+                     <biblScope unit="pp">4</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2017-11-17">angelegt</change>
+         <change who="MAM" when="2021-09-08">Index check</change>
+         <change who="KH" when="2021-10-04">Durchsicht</change>
+      </revisionDesc>
+   </teiHeader>
+   <!-- http://anno.onb.ac.at/cgi-content/anno?aid=nwj&datum=18970106&seite=4&zoom=33 -->
+   <text type="text">
+      <body>
+         <div type="original">
+            <head>Die Censur in <rs type="place" ref="#41240">Oesterreich</rs>.</head>
+            <head type="sub">Eine Zeitfrage.</head>
+            <head type="sub">
+               <hi rend="antiqua">II.</hi>
+            </head>
+            <p>Den äußerst bemerkenswerthen <anchor type="commentary" xml:id="KT149-1"
+                  />Aeußerungen<note type="commentary" xml:id="KT149-1h">Der erste Teil der Umfrage
+                  erschien am Vortag (<bibl>Nr.&#160;1.150, <date>5.&#8239;1.&#8239;1897</date>, S.&#8239;3–4</bibl>), wobei er die Antworten
+                  des Polizeipräsidenten <rs type="person" ref="#5326">Franz von Stejskal</rs>, der
+                  Theaterdirektoren <rs type="person" ref="#2164">Ernst Gettke</rs> (<rs
+                     type="place" ref="#77">Raimund-Theaters</rs>) und <rs type="person" ref="#5336"
+                     >Ignaz Wild</rs> (<rs type="place" ref="#40">Theaters in der Josefstadt</rs>)
+                  sowie der Theaterdirektorin des <rs type="place" ref="#37">Theaters an der
+                     Wien</rs>, <rs type="person" ref="#5333">Alexandrine von Schönerer</rs>,
+                  brachte.</note> des <rs type="place" ref="#50">Wien</rs>er <rs type="person"
+                  ref="#5326" subtype="implied">Polizeipräsidenten</rs> und mehrerer <rs
+                  type="place" ref="#50">Wien</rs>er 
+               <rs type="person" ref="#2164 #5336 #5333" subtype="implied">Theaterdirectoren</rs>
+                über diese brennende und unaufhaltsam ihrer endlichen Lösung zudrängende
+               Frage lassen wir heute andere Persönlichkeiten folgen, denen in dieser Angelegenheit
+               das Recht, gehört zu werden, zusteht. Vor Allem die vier verschiedene
+               Parteirichtungen unseres <rs type="place" ref="#776">Reichsrathes</rs> vertretenden
+               Parlamentarier, die den <anchor type="commentary" xml:id="K_I063-1"/>Beginn<note
+                  type="commentary" xml:id="K_I063-1h">weitere Antworten von Dr. <rs type="person"
+                     ref="#5323">Emanuel Engel</rs>, <rs type="place" ref="#776"
+                     >Reichsrathsabgeordneter</rs>, Obmann des <rs type="org" ref="#29472"
+                     >Jungczechenclubs</rs>; Dr. <rs type="person" ref="#5329">Ferdinand
+                     Kronawetter</rs>, <rs type="place" ref="#776">Reichsrathsabgeordneter</rs>,
+                  Magistratsrath etc.; Dr. <rs type="person" ref="#29091">Witold R. v. Lewicki</rs>,
+                     <rs type="place" ref="#776">Reichsrathsabgeordneter</rs>, Schriftsteller,
+                  Vicesecretär des Landesausschusses; Dr. <rs type="person" ref="#12903">Eduard
+                     Sueß</rs>, <rs type="place" ref="#776">Reichsrathsabgeordneter</rs>,
+                  Universitätsprofessor; <rs type="person" ref="#2161">Emerich v. Bukovics</rs>,
+                  Director des <rs type="place" ref="#20">Deutschen Volkstheater</rs>; <rs
+                     type="person" ref="#2928">Franz v. Jauner</rs>, Director des <rs type="place"
+                     ref="#118">Carl-Theater</rs>s und <rs type="person" ref="#12265">Friedrich
+                     Mitterwurzer</rs>
+               </note> machen mögen. </p>
+            <p><gap reason="outOfScope" unit="paragraphs" quantity="30"/></p>
+            <!--<p rend="center">
+               <hi rend="superscript">*</hi>
+               <space unit="chars" quantity="1"/>
+               <hi rend="subscript">*</hi>
+               <space unit="chars" quantity="1"/>
+               <hi rend="superscript">*</hi>
+            </p>-->
+            <head type="sub">Dr. <rs type="person" ref="#2121">Arthur Schnitzler</rs>
+            </head>
+            <head type="sub">Schriftsteller.</head>
+            <p>»Wie jeder Autor, bin auch ich selbstredend <hi rend="spaced_out">für</hi> die
+               Abschaffung der Bühnencensur und zwar schon deshalb, weil die Censur bei uns in die
+               Hände von Personen gelegt ist, die für die Kunst kein Verständniß besitzen. Es ist
+               ein offenes Geheimniß: der Censor läßt sich bei uns bei der Beurtheilung des ihm
+               vorgelegten Stückes von allen anderen Rücksichten eher leiten, als von
+               künstlerischen. Er ist <hi rend="antiqua">a priori</hi> gar nicht dazu befähigt, ein
+               Stück künstlerisch zu beurtheilen. Wer sind unsere Censoren? Da werden aufs
+               Gerathewohl Beamte herausgegriffen, die sonst alle möglichen guten Qualitäten
+               besitzen mögen, nur keine literarischen. Danach wird eben nicht gefragt. In der
+               <anchor type="commentary" xml:id="K_M063-3"/>heutigen Nummer<note type='commentary' xml:id="K_M063-3h">Das ermöglicht, <rs type="person" ref="#2121">Schnitzler</rs>s Beitrag als 
+               Reaktion auf den ersten Teil der Umfrage zu bestimmen.</note> des ›<rs type="org" ref="#29320">Neuen Wiener Journal</rs>‹ erzählt
+               der <rs type="person" ref="#5326" subtype="implied">Polizeipräsident</rs>, daß er <rs
+                  type="person" ref="#11798">Ibsen</rs>’s ›<rs type="work" ref="#30027"
+                  >Gespenster</rs>‹ seinerzeit in <rs type="place" ref="#652">Prag</rs> verboten
+               habe. Er verhehlt uns auch die Gründe nicht, von denen er sich hiebei hatte leiten
+               lassen. <hi rend="spaced_out">Künstlerische</hi> waren es <hi rend="spaced_out"
+                  >nicht</hi>. Herr <rs type="person" ref="#5326">v. Stejskal</rs> hielt die ›<rs
+                  type="work" ref="#30027">Gespenster</rs>‹ für ein unsittliches Stück; nun, ich bin
+               in diesem Punkte anderer Meinung, ich halte die ›<rs type="work" ref="#30027"
+                  >Gespenster</rs>‹ nicht für unsittlich, aber man mag darüber nun denken, wie man
+               will, Kunst und Sittlichkeit sind verschiedene Begriffe, man darf sie nicht
+               miteinander verwechseln, wie Herr <rs type="person" ref="#5326">v. Stejskal</rs> es
+               in diesem Falle gethan.</p>
+            <p>Freilich, der Staat hat die Neigung und auch die Machtmittel, Alles zu unterdrücken,
+               was ihm nicht in den Kram paßt, und ich muß gestehen, solange der Staat von der
+               Voraussetzung ausgeht, daß die Einrichtungen, die er schützen will, durch das freie
+               Wort auf der Bühne gefährdet sind, solange werde ich begreifen, daß er sich des
+               Rothstifts nicht begeben mag, der ihm die Handhabe bietet, das seiner Meinung nach
+               Gefährliche im Keime zu ersticken. Ob das, was dem Stifte des Censors zum Opfer
+               fällt, wirklich danach angethan ist, den Staat in seiner Ruhe zu bedrohen, ist eine
+               andere Frage. Kein Stück der Weltliteratur ist dem Staate gefährlich geworden, auch
+                  <rs type="person" ref="#10857">Beaumarchais</rs>’ ›<rs type="work" ref="#33199"
+                  >Figaro’s Hochzeit</rs>‹ möchte ich kaum als Ausnahme gelten lassen. Der <rs
+                  type="work" ref="#33199">Figaro</rs> hat die <rs type="place" ref="#166"
+                  >französische</rs> Revolution nicht erzeugt, er war blos der zündende Funke. Und
+               ich bin überzeugt, wenn wieder einmal ein Wort geschrieben werden sollte, das ›trifft
+               und zündet‹, der <hi rend="spaced_out">Censor</hi> wird es gewiß <hi
+                  rend="spaced_out">nicht herausfinden</hi>. Das ist vor seinem Stifte sicher. Erst
+               wenn es hinausgeflattert sein wird, wird der Censor sich fragen, wo stand denn das
+               Wort. Ich habe es ja gar nicht gelesen.«</p>
+         </div>
+      </body>
+   </text>
+</TEI>

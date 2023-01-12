@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="M158">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#61791">Professor Sylvan’s junge Ehe, 15.&#8239;4.&#8239;1891</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="158"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#2121">A.&#160;Sch.</author>
+                     <title level="a" ref="#61791">Professor Sylvan’s junge Ehe</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#35942">Moderne Rundschau</title>
+                     <imprint>
+                        <date when="1891-04-15" n="1">15.&#8239;4.&#8239;1891</date>
+                     </imprint>
+                     <biblScope unit="vol">3</biblScope>
+                     <biblScope unit="nr">2</biblScope>
+                     <biblScope unit="pp">84</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2021-11-09">angelegt</change>
+         <change who="MAM" when="2021-12-17">Index check</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div type="original">
+            <p><anchor type="label" xml:id="M158_L_anfangv"/><hi rend="bold"><rs type="work" ref="#61781"><anchor type="commentary"
+                        xml:id="K_M158-1"/>Professor Sylvan’s junge Ehe<note type="commentary"
+                        xml:id="K_M158-1h">Das Buch ist eine biobliografische Seltenheit und lässt
+                        sich nur in der <bibl><publisher>British Library</publisher></bibl>
+                        nachweisen. <rs type="person" ref="#2167">Felix
+                           Salten</rs> bespricht es um die selbe Zeit auf inhaltlich ziemlich die gleiche Weise
+                         (<bibl><rs type="person" ref="#2167">f.&#160;s.</rs>: <rs
+                              type="work" ref="#61787">»Professor Sylvan’s junge Ehe«</rs>. In: <rs
+                              type="work" ref="#41466">Allgemeinen Kunst-Chronik</rs>, Bd.&#160;15,
+                           Nr.&#160;9, <date>2. April-Heft&#8239;1891</date>,
+                        S.&#8239;258</bibl>).</note> und andere Novellen</rs></hi>. Von <rs
+                  type="person" ref="#18468"><hi rend="spaced_out">Alexandrine von <anchor
+                        type="textConst" xml:id="T_M158-1"/>Holmblad<note type="textConst"
+                        xml:id="T_M158-1h"><quote>Holenblad</quote></note></hi></rs>. (<rs
+                  type="place" ref="#866">Dresden</rs> und <rs type="place" ref="#864">Leipzig</rs>,
+                  <rs type="org" ref="#29771">E. Pierson’s Verlag</rs>.) Martha, Sylvan’s
+               jugendliche Frau, <anchor type="textConst" xml:id="T_M158-3"/>Natascha<note
+                  type="textConst" xml:id="T_M158-3h"><quote>Natasche</quote></note>, die Tochter
+               der armen Witwe, und das Ladenmädchen Malchen – die <anchor type="textConst"
+                  xml:id="T_M158-2"/>Heldinnen<note type="textConst" xml:id="T_M158-2h"
+                     ><quote>Heldinen</quote></note> der drei Novellen, sind lauter Engel; so viel
+               Selbstverleugnung und Güte haben wir selbst in einem deutschen Novellenbuch schon
+               lange nicht gefunden. Die zwei ersten Geschichten sind langweilig und überdies recht
+               schlecht geschrieben. Dabei ein fadenscheiniger Humor, der kindlich sein will und
+               dabei immer nur kindisch ist. Viel hübscher erzählt ist die dritte Novelle »<rs
+                  type="work" ref="#61784">Das Malchen</rs>«, in der ein einfacher und rührender
+               Stoff zwar ohne psychologische Tiefe, aber recht gemüthvoll und ansprechend
+               dargestellt wird.</p>
+            <p rend="right">A. Sch.</p>
+         </div>
+         <div type="biographical">
+            <div1>
+               <ref target="1891-06-21" type="schnitzlerDiary"/>
+               <quote><p>In der <rs type="work" ref="#35942">Mod. Rsch.</rs> waren bisher 4 kleine
+                  Kritiken von mir:</p>
+                  <p>über ›<rs type="work" ref="#61800">Medeabild</rs>‹ von <rs type="person"
+                     ref="#18053">Heitmüller</rs>,</p>
+                  <p><rs type="work" ref="#61781">Prof. Sylvan</rs> von <rs type="person"
+                     ref="#18468">Holmblad</rs></p>
+                  <p><rs type="work" ref="#61767">Hieroglyphen des Lebens</rs> von <rs type="person"
+                     ref="#7253">Alfr. Friedmann</rs></p>
+                  <p><rs type="work" ref="#31901">Friedensengel</rs> von <rs type="person"
+                     ref="#4287">Singer</rs>.</p></quote>
+            </div1>
+         </div>
+      </body>
+   </text>
+</TEI>

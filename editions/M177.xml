@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="M177">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#63301">Ein bisher unveröffentlichter Brief Schnitzlers,
+               19.&#8239;12.&#8239;1931</title>
+            <author/>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="177"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <monogr>
+                     <title level="j" ref="#63300">Morgenzeitung und Handelsblatt</title>
+                     <imprint>
+                        <date when="1931-12-19" n="1">19.&#8239;12.&#8239;1931</date>
+                     </imprint>
+                     <biblScope unit="jg">19</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct corresp="ASB2">
+                  <monogr>
+                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefe 1913–1931</title>
+                     <editor>Hg. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und
+                        Heinrich Schnitzler</editor>
+                     <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                     <biblScope unit="pp">339–340</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <author>Streibel, Robert</author>
+                     <title level="a">Als der Klimt-Garten noch blühte…</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j">Spurensuche</title>
+                     <imprint>
+                        <date when="2000">2000</date>
+                     </imprint>
+                     <biblScope unit="jg">11</biblScope>
+                     <biblScope unit="nr">1–2</biblScope>
+                     <biblScope unit="pp">109–115, hier 114–115</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2022-01-10">Angelegt</change>
+         <change who="MAM" when="2022-01-18">Index check</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div type="original">
+            <head>Ein bisher unveröffentlichter Brief Schnitzlers.</head>
+            <head type="sub">Antwort in Sachen des <rs type="work" ref="#30203">Professors
+                  Bernhardi</rs>.</head>
+            <p rend="inline">Von befreundeter Seite wird uns ein Brief Arthur <hi rend="spaced_out"
+                  >Schnitzlers</hi> zur Verfügung gestellt, der eine Antwort des Dichters an eine
+                  <anchor type="commentary" xml:id="K_M177-1"/><rs type="person" ref="#63206"
+                     subtype="implied">Dame</rs><note type="commentary" xml:id="K_M177-1h"><rs type="person" ref="#63206"
+                        >Edith
+                  Werner</rs>, zu diesem Zeitpunkt Schülerin eines Mädchenpensionats in <rs type="place"
+                     ref="#50">Wien</rs>, hatte in ihrem Brief vom <date>24.&#8239;3.&#8239;1924</date>
+                  auf eine Stelle im ersten Akt von <rs type="work" ref="#30203">Professor
+                     Bernhardi</rs> hingewiesen, die ihrer Meinung nach einen Widerspruch enthalte.
+                  Die Sterbende, von der Bernhardi sage, sie sei völlig ahnungslos und von ihrer
+                  Heilung überzeugt, rufe, als ihr die Schwester den Besuch des Priesters ankündigt,
+                  aus: »Muß ich denn wirklich sterben?« Dieses »wirklich« stehe nicht im Einklang
+                  mit der Aussage Bernhardis (<bibl><title level="m">Briefe</title> II,
+                     S.&#8239;959</bibl>).</note> ist, die mit der Auffassung Schnitzlers nicht
+               einverstanden war. Hier der Wortlaut des Schreibens:</p>
+            <p rend="right"><date>10.&#160;April 1924</date>.</p>
+            <p rend="center">Sehr geehrtes Fräulein!</p>
+            <p>Ihr Bedenken ist ganz klug, aber trotzdem trifft es nicht zu. Die Sterbende ist zwar
+               in Euphorie verfallen, aber vorher war sie nicht nur krank, sondern sie hat sich auch
+               krank gefühlt und Todesgedanken gehabt. Die Ankündigung des priesterlichen Besuches
+               weckt sie eben aus ihrer Euphorie, auch aus der seelilischen, die Todesangst ist
+               wieder da, nicht zum ersten Mal und auch ihre früheren Aengste kommen ihr nun neu zum
+               Bewußtsein. <rs type="work" ref="#30203" subtype="implied">Bernhardi</rs> enthält ihr
+               also nicht die Segnungen der Kirche vor, die ja gewiß (wie später von Prof. <rs
+                  type="work" ref="#30203" subtype="implied">Cyprian</rs> deutlich gesagt wird) von
+               manchen Sterbenden wirklich als Segnungen empfunden werden, sondern er erfüllt seine
+               ärztliche Pflicht, indem er seine Patientin davor zu bewahren sucht, aus ungestörtem
+               Wohlgefühl unvermittelt in Todesgrauen versetzt zu werden. Ich hoffe Sie sind
+               beruhigt, mein Fräulein, und ich grüße Sie bestens</p>
+            <p rend="right">Arthur <hi rend="spaced_out">Schnitzler</hi>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

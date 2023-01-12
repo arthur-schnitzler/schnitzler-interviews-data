@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="M174">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#63170">Kundgebungen für das Andenken Moriz Benedikts,
+               23.&#8239;3.&#8239;1920</title>
+            <author/>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="170"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a" ref="#63170">Kundgebungen für das Andenken Moriz
+                        Benedikts</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#36374">Neue Freie Presse</title>
+                     <imprint>
+                        <date when="1920-03-23" n="1">23.&#8239;3.&#8239;1920</date>
+                     </imprint>
+                     <biblScope unit="nr">19.961, Morgenblatt</biblScope>
+                     <biblScope unit="pp">7</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2022-01-10">Angelegt</change>
+          <change who="MAM" when="2022-01-11">Index check</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div type="original">
+            <head>Kundgebungen für das Andenken <rs type="person" ref="#13996">Moriz
+               Benedikt</rs>s.</head>
+            <p><gap reason="outOfScope" unit="paragraphs" quantity="10"/></p>
+            <p>Artur <hi rend="spaced_out">Schnitzler</hi> schreibt an den Herausgeber und
+               Chefredakteur Dr. <rs type="person" ref="#10872">Ernst Benedikt</rs>: »Mit tiefer
+               Bewegung hat mich die Nachricht vom Tode Ihres Vaters erfüllt, dieses
+               außerordentlichen Mannes, der mir als eine ganz besondere Kraft stets
+               bewunderungswürdig erschienen ist und, als politische und schriftstellerische
+               Erscheinung dem Freunde, wie dem Gegner gleich bedeutungsvoll und unvergeßlich, mich
+               bei jeder persönlichen Begegnung in seinem ganz privaten und menschlichen Wesen
+               jederzeit aufs neue angezogen und mit wohltuender Wärme berührt hat. Nicht allzuoft
+               ward mir die Freude solcher Begegnungen und Unterhaltungen zuteil, doch manches
+               Gespräch, wenige zwischen vier Wänden, die meisten im Freien, <rs type="place"
+                  ref="#189">Semmering</rs> oder <rs type="place" ref="#40876">Wienerwald</rs>,
+               geführt, bewahre ich und werde ich für immer als höchst lebendig und fruchtbar in
+               dankbarer Erinnerung bewahren. Dem trauernden <rs type="person" ref="#10872"
+                  subtype="implied">Sohne</rs>, dem Mitarbeiter und Nachfolger, dem Erben seines
+               Werkes und seiner Verantwortung, drücke ich in aufrichtiger Teilnahme die Hand.«</p>
+         </div>
+         <div type="biographical">
+            <div1>
+               <bibl><rs type="person" ref="#10872">Ernst Benedikt</rs> an Schnitzler,
+                     <date>24.&#8239;3.&#8239;1920</date></bibl>
+               <quote><p><rs type="place" ref="#50">Wien</rs>, <date>24.&#160;März
+                     1920</date>.</p><p>Hochverehrter Herr Doctor!</p><p>Ihr freundliches Gedenken
+                     anläßlich des schweren Unglücks, das mich getroffen hat, erfüllt mich mit
+                     aufrichtiger Dankbarkeit. Mein <rs type="person" ref="#13996" subtype="implied"
+                        >Vater</rs> hat mir oft von seinen Spaziergängen mit Ihnen erzählt und ich
+                     habe nur immer bedauert, daß ich nicht anwesend war, um dem geistigen
+                     Zusammenspiel zweier so bedeutender Persönlichkeiten folgen zu
+                     können.</p><p>Ich hoffe, sehr verehrter Herr Doctor, daß Sie uns Ihre
+                        freundliche Gesinnung erhalten werden, der die <rs type="org" ref="#29351">Neue Freie
+                        Presse</rs> schon so wichtige Erfolge zu danken hat. Es war mir ein Trost,
+                     daß ein Mann von so vollendeter Bildung und so durchdringendem Geist wie Sie,
+                     die Persönlichkeit meines Vaters mit Anerkennung beurteilt.</p><p>Noch einmal
+                     meinen besten Dank.</p><p>Ergebenst</p><p>D<hi rend="superscript"
+                     >r</hi>ErnstBenedikt</p></quote>
+            </div1>
+         </div>
+      </body>
+   </text>
+</TEI>

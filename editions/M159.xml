@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="M159">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#61803">Das Medeabild,
+               15.&#8239;4.&#8239;1891</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="159"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#2121">A.&#160;Sch.</author>
+                     <title level="a" ref="#61803">Das Medeabild</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#35942">Moderne Rundschau</title>
+                     <imprint>
+                        <date when="1891-04-15" n="2">15.&#8239;4.&#8239;1891</date>
+                     </imprint>
+                     <biblScope unit="vol">3</biblScope>
+                     <biblScope unit="nr">2</biblScope>
+                     <biblScope unit="pp">86</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2021-11-09">angelegt</change>
+         <change who="MAM" when="2021-12-17">Index check</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div type="original">
+            <p><hi rend="bold"><rs type="work" ref="#61800">Das Medeabild</rs></hi>. Drama in einem
+               Aufzuge von <rs type="person" ref="#18053">Ferdinand Heitmüller</rs>. (<rs
+                  type="place" ref="#866">Dresden</rs> und <rs type="place" ref="#864">Leipzig</rs>,
+                  <rs type="org" ref="#29771">E.&#160;Pierson's Verlag</rs>.) Die Scene: Das
+               Atelier. – Fenster im Grunde, die auf eine Terrasse gehen<c rendition="#dots" n="3"/>
+               In der Ferne die kühnen Umrisse des <rs type="place" ref="#51642">Vesuv</rs> im
+                  Mondlichte<c rendition="#dots" n="3"/> Aus einer rothen Ampel fließt ein warmes
+               mattes Licht u.&#8239;s.&#8239;w. u.&#8239;s.&#8239;w. Man sieht, Stimmung übergenug!
+               Kurz vor Aufgehen des Vorhanges hört man noch überdies die letzten verklingenden
+               Accorde eines <rs type="place" ref="#40306">italienischen</rs> Tanzes, Hochrufen und
+               den Lärm aufbrechender Gäste. Leider bleibt die Bühne jedoch nur eine Weile leer und
+               es treten die zwei Personen des Stückes auf, der Maler Oswald und sein eben ihm
+               angetrautes junges Weib, Arda, die sich eine Menge von sehr verhängnißvollen Dingen
+               erzählen, an denen ein poetisches oder dramatisches Interesse zu nehmen uns völlig
+               unmöglich ist. Oswald, so stellt sich im Laufe des Gespräches heraus, hat Arda’s
+               Mutter verführt; Arda hat geschworen, Rache zu nehmen und hält unbegreiflicherweise
+               diesen Schwur, obwohl Oswald, seiner glaubwürdigen Erzählung nach, die Verführte
+               lange Zeit hindurch vergeblich gesucht hat, um sein Unrecht wieder gut zu machen.
+               Arda ersticht Oswald, dann sich selbst. Keine Ausführung des psychologischen, keine
+               des Situationsmotivs. Wir hören die verzückten Phrasen dieser zwei unglückseligen
+               Menschenkinder, ohne daß auch nur eine Saite menschlichen Empfindens in uns
+               mitklingt. Die Sprache konnte uns mit dem tragikomischen Stoff nicht versöhnen; sie
+               ist innerlich hohl wie das Stück selbst. Dennoch gewahrten wir hie und da Spuren von
+               künstlerischem Empfinden, so daß wir hoffen dürfen, ein mißglücktes Jugendwerk vor
+               uns zu haben, über das der Autor möglicherweise noch weit hinauskommen wird. – In <rs
+                  type="place" ref="#1259">Altona</rs> wurde das Drama aufgeführt; sollten die
+               Rollen dankbar sein?</p>
+            <p rend="right">A. Sch.</p>
+         </div>
+         <div type="biographical">
+            <div1>
+               <ref target="1891-06-21" type="schnitzlerDiary"/>
+               <quote><p>In der <rs type="work" ref="#35942">Mod. Rsch.</rs> waren bisher 4 kleine
+                  Kritiken von mir:</p>
+                  <p>über ›<rs type="work" ref="#61800">Medeabild</rs>‹ von <rs type="person"
+                     ref="#18053">Heitmüller</rs>,</p>
+                  <p><rs type="work" ref="#61781">Prof. Sylvan</rs> von <rs type="person"
+                     ref="#18468">Holmblad</rs></p>
+                  <p><rs type="work" ref="#61767">Hieroglyphen des Lebens</rs> von <rs type="person"
+                     ref="#7253">Alfr. Friedmann</rs></p>
+                  <p><rs type="work" ref="#31901">Friedensengel</rs> von <rs type="person"
+                     ref="#4287">Singer</rs>.</p></quote>
+            </div1>
+         </div>
+      </body>
+   </text>
+</TEI>

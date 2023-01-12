@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="I007">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#32909">[Ludwig Klinenberger]: Arthur Schnitzlers »Haus Delorme«,
+               25.&#8239;11.&#8239;1904</title>
+            <author ref="#3916">Klinenberger, Ludwig</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="007"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#3916">[Ludwig Klinenberger]</author>
+                     <title level="a" ref="#32909">Arthur Schnitzlers »Haus Delorme«</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#36374">Neue Freie Presse</title>
+                     <imprint>
+                        <date when="1904-11-25" n="0">25.&#8239;11.&#8239;1904</date>
+                     </imprint>
+                     <biblScope unit="nr">14.460</biblScope>
+                     <biblScope unit="pp">12</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2017-11-17">angelegt</change>
+         <change who="MAM" when="2018-02-14">Index check</change>
+         <change who="KH" when="2021-10-07">Durchsicht</change>
+      </revisionDesc>
+      <!-- https://anno.onb.ac.at/cgi-content/anno?aid=nfp&datum=19041125&seite=12 -->
+   </teiHeader>
+   <text type="text">
+      <body>
+         <div type="original">
+            <head>Arthur Schnitzlers »<rs type="work" ref="#31547">Haus Delorme</rs>«</head>
+            <p rend="right">
+               <rs type="place" ref="#50">
+                  <hi rend="spaced_out">Wien</hi>
+               </rs>, <date when="1904-11-24">24. November</date>.</p>
+            <p>
+               <rs type="person" ref="#2121">Arthur <hi rend="spaced_out">Schnitzler</hi>
+               </rs> ist heute aus <rs type="place" ref="#168">Berlin</rs> zurückgekehrt, wo er der
+               Premiere seiner Stücke »<rs type="work" ref="#30217">Der tapfere Kassian</rs>« und
+                  »<rs type="work" ref="#29843">Der grüne Kakadu</rs>« beigewohnt hat. Der dritte
+               zur Aufführung geplante Einakter »<anchor type="commentary" xml:id="K_I007-1"/><rs
+                  type="work" ref="#31547">Haus Delorme</rs><note type="commentary"
+                  xml:id="K_I007-1h"><rs type="person" ref="#2121">Schnitzler</rs>s im
+                  Schauspielermilieu angesiedelter Einakter blieb zu Lebzeiten unveröffentlicht. An
+                  seine <rs type="person" ref="#2173" subtype="implied">Frau</rs> schrieb <rs
+                     type="person" ref="#2121">Schnitzler</rs> am
+                     <date>14.&#8239;11.&#8239;1904</date>: »<quote>Angeblich wollte man <rs
+                        type="work" ref="#31547">Del.</rs> absetzen wegen zu großer Länge des
+                     Abends, in Wirklichkeit wegen Grimms der Schauspieler gegen das Stück
+                     (besonders <rs type="person" ref="#11046">Burg</rs>) – und nun erscheint
+                     gestern hier im <rs type="work" ref="#62394">Kl. Journal</rs> eine Notiz, von
+                     der ich erst abends durch <rs type="person" ref="#12504">Reinhardt</rs> erfuhr
+                     – daß <rs type="person" ref="#12504">Reinhardt</rs> es abgesetzt habe, weil es
+                     die Familienverhältnisse der <rs type="person" ref="#12618">Adele Sandrock</rs>
+                     in ›unzweideutiger u unliebenswerter Weise‹ beleuchte.</quote>« (<bibl><title
+                        level="m">Briefe</title> I, S.&#8239;488–489</bibl>.)</note>« wurde
+               bekanntlich vor der Generalprobe von der Zensur verboten. Ein <rs type="place"
+                  ref="#168">Berlin</rs>er Blatt erzählte den Inhalt des Stückes und brachte die
+               Mitteilung, daß sich bei der Regie und den mitwirkenden Künstlern von allem Anfang
+               eine Mißstimmung gegen »<rs type="work" ref="#31547">Haus Delorme</rs>« wegen einer
+               darin enthaltenen angeblichen Verunglimpfung des Schauspielerstandes geltend gemacht
+               habe. <ref type="question" target="#q023"/>Ueber diese Angelegenheit äußert sich <rs
+                  type="person" ref="#2121">Arthur <hi rend="spaced_out">Schnitzler</hi>
+               </rs> einem unserer Mitarbeiter gegenüber folgendermaßen:</p>
+            <p>»Das Wesentlichste an der ganzen Angelegenheit ist meiner Ansicht nach, daß sich hier
+               ein bisher noch nicht erhörter Vorgang abgespielt hat: Es wurde nicht nur der
+               angebliche Inhalt eines Stückes vor dessen Aufführung oder vor dessen
+               Veröffentlichung in Buchform erzählt, nein, dieser angebliche Inhalt wurde von irgend
+               einem Unberufenen, dem er offenbar nur vom Hörensagen bekannt sein konnte, in
+               <anchor type="commentary" xml:id="K_I007-999"/>entstellter Weise veröffentlicht<note type='commentary' xml:id="K_I007-999h">Er dürfte sich auf die Meldung <rs type="work" ref="#62976">Haus Delorme</rs> beziehen, die am
+                  <date>22.&#8239;11.&#8239;1904</date> im <rs type="work" ref="#41289">Berliner Börsencourier</rs> erschien und die 
+               abschätzig über das Stück urteilt.</note> (die Personen sind falsch aufgezählt, der Inhalt
+               unrichtig wiedergegeben, das einzige Zitat falsch), und als wäre es noch nicht genug:
+               auf Grund dieser unrichtigen Nacherzählung des Inhaltes eines vom Autor der
+               Oeffentlichkeit noch nicht übergebenen Stückes durch jemanden, der das <rs
+                  type="work" subtype="implied" ref="#31547">Stück</rs> selbst <hi rend="spaced_out"
+                  >erwiesenermaßen nicht kannte</hi> – und offenbar von diesem Unberufenen selbst –
+               ein Urteil über dieses Stück abgegeben, gedruckt, weiterverbreitet. Selbst wenn jedes
+               Wort der Nacherzählung richtig und das Urteil zutreffend wäre, müßte ich auf das
+               entschiedenste protestieren gegen den Eingriff in das bisher strenge gewahrte
+               Autorenrecht, daß über geistige Produkte erst dann eine öffentliche Aeußerung erlaubt
+               ist, wenn sie in einer vom Autor gutgeheißenen Form und mit seinem Willen der
+               Oeffentlichkeit übergeben worden sind. Dieser Fall liegt besonders kraß, denn es ist
+               meines Wissens bisher noch nicht dagewesen, daß nicht nur Inhaltsangaben auf Grund
+               von Coulissenklatsch erzählt, sondern daß auch Urteile über Theaterstücke auf solcher
+               Basis vor der Ausführung der Oeffentlichkeit mitgeteilt werden.</p>
+            <p>›<rs type="work" ref="#31547">Haus Delorme</rs>‹ ist ein Stück aus einer geplanten
+               Reihe von Familienburlesken, von denen eines in Arbeiter-, eines in Bürger-, eines in
+               Komödianten-, eines in aristokratischen und eines in noch höheren Kreisen spielt.
+                  <anchor type="commentary" xml:id="K_I007-4"/>Zwei<note type="commentary"
+                  xml:id="K_I007-4h">Das andere ist der Einakter <rs type="work" ref="#33784">Die
+                     Gouvernante</rs>, der am <date>2.&#8239;12.&#8239;1903</date> von <rs
+                     type="person" ref="#10848">Ludwig Bauer</rs> bei einem »Intimen Abend« in <rs
+                     type="place" ref="#168">Berlin</rs> öffentlich vorgelesen wurde. <rs
+                     type="person" ref="#2121">Schnitzler</rs> war überrascht, da er nur von einer
+                  privaten Lesung ausgegangen war. Seit <date>1977</date> ist das Stück in
+                        <bibl><title level="m">Entworfenes und Verworfenes</title></bibl>
+                  publiziert.</note> davon sind erst beendet.</p>
+            <p>Ueber den angeblichen Streik der Schauspieler wird sich Direktor <rs type="person"
+               ref="#12504"><anchor type="textConst" xml:id="T_I007-1"/>Reinhardt<note type='textConst' xml:id="T_I007-1h"><quote>Reinhard</quote></note></rs> zu äußern haben. Mir ist von einem Streik nichts
+               bekannt geworden. Das Gerücht hievon ist möglicherweise dadurch entstanden, daß ich
+               noch in <rs type="place" ref="#168">Berlin</rs>, während der Proben Aenderungen
+               einiger Stellen vornahm, was ich und wohl die meisten Autoren beinahe immer – oft
+               auch nach der Aufführung eines Stückes tun. Zum Beispiel habe ich im ›<anchor
+                  type="commentary" xml:id="K_I007-78"/><rs type="work" ref="#29899">Freiwild</rs>‹
+               erst im vorigen Jahre eine Szene vollkommen umgestaltet<note type="commentary"
+                  xml:id="K_I007-78h"><ref target="1902-03-24" type="schnitzlerDiary" subtype="cf"
+                  />: »<quote>Aenderte Scheinduellscene in <rs type="work" ref="#29899"
+                        >Freiwild</rs>.</quote>«</note>. Uebrigens ist mir ein Fall aus einer <rs
+                  type="place" ref="#41240">österreichischen</rs> Provinzstadt erinnerlich, wo die
+                  <anchor type="commentary" xml:id="K_I007-18"/>Schauspieler gegen die Ausführung
+               von ›<rs type="work" ref="#29899">Freiwild</rs>‹ protestiert haben<note
+                  type="commentary" xml:id="K_I007-18h">Er dürfte sich auf einen Vorfall bei der
+                  Inszenierung am <rs type="org" ref="#62965">Lobe-Theater</rs> in <rs type="place"
+                     ref="#677">Breslau</rs> beziehen, die am <date>12.&#8239;12.&#8239;1896</date>
+                  Premiere hatte. Der Schauspieler des Offiziers legte aus Protest für eine Szene, in der seine
+                  Figur eine Ohrfeige von einem Zivilisten bekommt, die Uniform ab, um sie in den
+                  folgenden Szenen wieder zu tragen. (<bibl><rs type="work" ref="#62973">Die
+                        Schauspielerin im Schauspiele</rs>. In: <rs type="work" ref="#41321">Neues
+                        Wiener Tagblatt</rs>, Jg.&#8239;30, Nr.&#160;355,
+                        <date>25.&#8239;12.&#8239;1896</date>, S.&#8239;9</bibl>.)</note> – weil
+               angeblich darin der Schauspielerstand beleidigt wurde. Ebenso wurde behauptet, daß
+               ich in ›<rs type="work" ref="#29899">Freiwild</rs>‹ und ›<rs type="work" ref="#29853"
+                  >Lieutenant Gustl</rs>‹ die gesamte Armee, in ›<rs type="work" ref="#29869"
+                  >Literatur</rs>‹ sowohl die Aristokraten als die Dichter verletzt habe. Einmal kam
+               mir sogar eine Notiz unter die Augen, wo irgend wer gegen die ›<rs type="work"
+                  ref="#29877">Masken</rs>‹ im Namen der Journalisten protestieren zu müssen
+               glaubte. Aus solchen Aeußerungen und Meinungen spricht meiner Ansicht nach meistens
+               Heuchelei und etwas seltener ein einfältiges Mißverstehen des Solidaritätsbegriffes.
+               Die Besten innerhalb eines Standes sind stets diejenigen, welche sich über dessen
+               Vorurteile und Fehler erheben, nicht diejenigen, die den Inbegriff dieser Vorurteile
+               und Fehler am reinsten repräsentieren. Von den ersteren sind gewiß noch nie Versuche
+               gemacht worden, den Schriftsteller in der Ausgestaltung seiner Stoffe und
+               künstlerischen Befähigung irgendwie beschränken zu wollen.«</p>
+         </div>
+         <div type="biographical">
+            <div1>
+               <ref type="schnitzlerDiary" target="1904-11-24"/>
+               <quote>Interviewt von <rs type="person" ref="#3916">Klinenberger</rs> und <rs
+                     type="person" ref="#3442">Brociner</rs>.</quote>
+            </div1>
+            <div1>
+               <ref type="schnitzlerDiary" target="1904-11-25"/>
+               <quote>Vorm. erschienen in der <rs type="org" ref="#29351">N. Fr. Pr.</rs>, auch
+                  (schlechter) im <rs type="org" ref="#29414">N. Wr. Tgbl.</rs> meine Äußerungen
+                  über <rs type="work" ref="#31547">Delorme</rs>.</quote>
+            </div1>
+         </div>
+      </body>
+   </text>
+</TEI>

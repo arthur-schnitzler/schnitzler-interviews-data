@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="M144">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#60863">Tschechow, 18.&#8239;1.&#8239;1910</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="144"/>
+         </publicationStmt>
+         <sourceDesc>
+            <origDate when="1910-01-18" n="1">18. 1. 1910</origDate>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>D</country>
+                        <settlement>Marbach am Neckar</settlement>
+                        <repository>Deutsches Literaturarchiv</repository>
+                        <idno>HS.85.1.1727</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Maschinschriftlicher Durchschlag. Von <rs type="person" ref="#2121"
+                              >Schnitzler</rs> mit rotem Buntstift beschriftet:
+                                 »<quote>Rothen<unclear>s</unclear>t<unclear>ern</unclear></quote>«
+                           und »<quote>(<rs type="person" ref="#3603">Tschechow</rs>)</quote>«.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="ASB1">
+                  <monogr>
+                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefe 1875–1912</title>
+                     <editor>Nickl, Therese</editor>
+                     <editor>Schnitzler, Heinrich</editor>
+                     <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                        <date when="1981-01-01">1981</date>
+                     </imprint>
+                     <biblScope unit="pp">623–624</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2021-10-15">angelegt</change>
+         <change who="MAM" when="2021-11-09">Index check</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div type="original">
+            <head><supplied>Tschechow</supplied></head>
+            <p>Es gibt in der <anchor type="commentary" xml:id="K_R144-1"/>gesammten
+                  Weltliteratur<note type="commentary" xml:id="K_R144-1h">Dieser Text ist als Durchschlag des Briefes <rs type="person"
+                     ref="#2121">Schnitzler</rs>s an <rs type="person" ref="#2992">Peter
+                     Rotenstern/Zvezdič</rs> erhalten. Da versandt, ist davon auszugehen, dass es
+                  zum Abdruck kam. Der Empfänger war Korrespondent in <rs type="place"
+                     ref="#50">Wien</rs> für die liberale <rs type="place" ref="#869">Moskau</rs>er
+                  Tageszeitung <rs type="org" ref="#60847">Russkije wedomosti</rs>. Das Datum deutet
+                  darauf hin, dass <rs type="person" ref="#2121">Schnitzler</rs>s Beitrag für eine
+                  Festbeilage anlässlich von <rs ref="#3603" type="person">Čechov</rs>s 50.
+                  Geburstag am <date>29.&#8239;1.&#8239;1910</date> gedacht war.</note> wenige
+               Novellen, die so stark auf mich gewirkt haben, wie <rs type="person" ref="#3603"
+                  >Tschechow</rs>s »<anchor type="commentary" xml:id="K_R144-2"/>
+               <rs type="work" ref="#60850">Zweikampf</rs>
+               <note type="commentary" xml:id="K_R144-2h">Für gewöhnlich wird der Titel mit <rs
+                     type="work" ref="#60850">Das Duell</rs> übersetzt, <rs type="person"
+                     ref="#2121">Schnitzler</rs> bezieht sich damit auf die erste Übersetzung durch
+                     <rs type="person" ref="#11760">Korfiz Holm</rs> aus dem Jahr <date>1897</date>.
+                     <rs type="person" ref="#2121">Schnitzler</rs> las den Text am <ref
+                     type="schnitzlerDiary" subtype="date-only" target="1904-10-07"/>
+               </note>« und »<anchor type="commentary" xml:id="K_R144-11"/>
+               <rs type="work" ref="#60852">Schatten des Todes</rs>
+               <note type="commentary" xml:id="K_R144-11h">Heute wird der Titel meist als <rs
+                     type="work" ref="#60852">Eine langweilige Geschichte</rs> übersetzt. <rs
+                     type="person" ref="#2121">Schnitzler</rs> las ihn gleichfalls in der
+                  Übersetzung von <rs type="person" ref="#11760">Holm</rs> aus dem Jahr
+                     <date>1897</date>, am <ref type="schnitzlerDiary" subtype="date-only"
+                     target="1902-08-26"/>.</note>«. Und von der Bühne herab hat nicht vieles einen
+               so unvergesslichen Eindruck auf mich gemacht wie <anchor type="commentary"
+                  xml:id="K_R144-8"/> »<rs type="work" ref="#59338">Onkel Wanja</rs>« <note
+                  type="commentary" xml:id="K_R144-8h">Er bezieht sich auf das <rs type="place"
+                     ref="#50">Wien</rs>er Gastspiel des <rs type="org" ref="#57809">Künstlerischen
+                     Theaters</rs> im <rs type="place" ref="#60854">Bürgertheater</rs> am <ref
+                     target="1906-04-18" type="schnitzlerDiary" subtype="date-only"/>. Die
+                  Inszenierung beurteilt er im <rs type="work" ref="#33243">Tagebuch</rs> mit:
+                     »<quote>Außerordentlich.</quote>«</note> in der Darstellung des <rs type="org"
+                  ref="#57809">Moskauer künstlerischen Theaters</rs>, obwohl ich der <rs
+                  type="place" ref="#34438">russischen</rs> Sprache nicht mächtig bin. Von allen <rs
+                  type="place" ref="#34438">russischen</rs> Dichtern – und ich fühle wohl, dass es
+               grössere und umfassendere gegeben <anchor type="textConst" xml:id="T_M144-1"
+                  />hat<note type="textConst" xml:id="T_M144-1h"><quote>hat,</quote></note> als <rs
+                  type="person" ref="#3603">Tschechow</rs> – hat keiner mit so rein menschlicher
+               Stimme zu mir gesprochen als eben er. Ich habe ihn leider nie von Angesicht zu
+               Angesicht gesehen, aber ich kenne ihn von Seele zu Seele und so bleibt er mir für
+               alle Zeit lebendig.</p>
+         </div>
+         <div type="biographical">
+            <div1>
+               <bibl><rs type="person" ref="#2121">Schnitzler</rs> an <rs type="person" ref="#2992"
+                     >Peter Rotenstern/Zvezdič</rs>, <date>18.&#8239;1.&#8239;1910</date>
+               </bibl>
+               <quote>Hier haben Sie die gewünschten paar Worte für die <rs type="person"
+                     ref="#3603">Tschechow</rs>-Nummer Ihres <rs type="org" ref="#60847"
+                     subtype="implied">Blattes</rs>.</quote>
+            </div1>
+            <div1>
+               <bibl><rs type="person" ref="#2992">Peter Rotenstern/Zvezdič</rs> an <rs
+                     type="person" ref="#2121">Schnitzler</rs>, <date>20.&#8239;1.&#8239;1910</date>
+               </bibl>
+               <quote><p><rs type="place" ref="#312">Wien IX
+                        Währingerstr.&#8239;26</rs></p><p><date>20.&#8239;I.&#8239;10</date></p>
+                  <p>Sehr geehrter Herrr Doctor,</p><p>Ich danke Ihnen herzlichst für Ihre schönen
+                     Zeilen über <rs type="person" ref="#3603">Tschechow</rs>. Es ist fürwahr eine
+                     fürstliche Gabe und sie wird dem <rs type="place" ref="#34438">russischen</rs>
+                     Lesekreis eine wahre Freude bereiten.</p><p>Hochachtungsvoll
+                     ergebenst</p><p>Ihr P. Swesditsch</p><p>P.&#8239;S. Haben Sie nachgeschaut in
+                     der Angelegenheit des ›<rs type="work" ref="#29905">Ruf des
+                     Lebens</rs>‹</p><p>Für mich steht es ausser Zweifel dass ich damals bei der
+                     Bank (<rs type="org" ref="#29244">Bodenkredit-Anstalt</rs>?) auf Ihr Conto 300
+                     Rubel eingelegt habe. Die Belege dürfen noch in <rs type="place" ref="#182"
+                        >Paris</rs> sein und meine <rs type="person" ref="#23640" subtype="implied"
+                        >Frau</rs>, die in drei Wochen dorthin geht, wird sie eruiren.</p><p>P.
+                     Sw.</p></quote>
+            </div1>
+         </div>
+      </body>
+   </text>
+</TEI>

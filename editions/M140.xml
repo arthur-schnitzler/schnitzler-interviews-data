@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="M140">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#60276">[Abonnentenwerbung The Jewish Tribune],
+               11.&#8239;4.&#8239;1924</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="140"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a" ref="#60276">[Subskriptionswerbung]</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#60274">The Jewish Tribune</title>
+                     <imprint>
+                        <date when="1924-04-11" n="1">11.&#8239;4.&#8239;1924</date>
+                     </imprint>
+                     <biblScope unit="jg">43</biblScope>
+                     <biblScope unit="pp">[2, Umschlag]</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en-UK">Englisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2021-10-15">angelegt</change>
+         <change who="MAM" when="2021-11-03">Index check</change>
+         <change who="KH" when="2021-11-12">Durchsicht</change>
+      </revisionDesc>
+   </teiHeader>
+   <!--   https://archive.org/details/DieSchaubuehne2-1906-1/page/n460/mode/2up
+-->
+   <text type="article">
+      <body>
+         <div type="image">
+            <figure>
+               <graphic url="./images/1924-01-11-Jewish-Tribune.jpg" width="4cm"/>
+            </figure>
+            <caption>
+               <hi rend="capitals">Arthur Schnitzler</hi>
+            </caption>
+         </div>
+         <div type="original" xml:lang="en-US">
+            <p>What <hi rend="bold">Dr. Arthur Schnitzler</hi>, one of the foremost Jews in the
+               world, <anchor type="commentary" xml:id="K_I140-12"/>writes<note type="commentary" xml:id="K_I140-12h">Diese Anzeige ist untypisch für <rs type="person" ref="#2121">Schnitzler</rs>, so dass die Vermutung einer Fälschung nahe liegt.</note> of
+                  <rs type="work" ref="#60274">
+                  <hi rend="capitals">The Jewish Tribune</hi>
+               </rs>
+            </p>
+            <p rend="inline">
+               <rs type="work" ref="#60274">
+                  <hi rend="capitals">The Jewish Tribune</hi>
+               </rs> appears to me to be an extremely useful, valuable and splendidly led enterprise
+               which has assumed a task of wide scope which it also accomplishes – the task of
+               serving the interests of Judaism, and which, especially at this time of most
+               unrestrained anti-Semitism, is of extreme importance.</p>
+            <p rend="right">
+               <hi rend="small_caps">Arthur Schnitzler</hi>
+            </p>
+            <p>
+               <space dim="vertical" quantity="1" unit="lines"/>
+            </p>
+            <p>
+               <rs type="work" ref="#60274">The Jewish Tribune<lb/>and Hebrew Standard</rs>
+            </p>
+            <p>The American Jewish Weekly</p>
+            <p>
+               <rs type="place" ref="#60279">Marbridge Building, New York</rs>
+            </p>
+            <p>Herewith is <c rendition="#dollar"/> 4 for one year’s <anchor type="commentary" xml:id="K_I140-1"/>subscription<note type="commentary" xml:id="K_I140-1h">Dieser
+                  Teil des Umschlags enthält Zeilen für die Angabe von Namen und Adresse, die
+                  ausgeschnitten und eingesandt werden können.</note>; <c rendition="#dollar"/> 7
+               for two years.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

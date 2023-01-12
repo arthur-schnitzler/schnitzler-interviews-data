@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="I039">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#33033">[Hermann Menkes]: Der Grillparzer-Preis,
+               16.&#8239;1.&#8239;1908</title>
+            <author ref="#2553">Menkes, Hermann</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="039"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#2553">[Hermann Menkes]</author>
+                     <title level="a" ref="#33033">Der Grillparzer-Preis. Für Dr. Artur Schnitzlers
+                        »Zwischenspiel«. (Originalbericht des »Neuen Wiener Journal«.)</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#36376">Neues Wiener Journal</title>
+                     <imprint>
+                        <date when="1908-01-16" n="2">16.&#8239;1.&#8239;1908</date>
+                     </imprint>
+                     <biblScope unit="jg">16</biblScope>
+                     <biblScope unit="nr">5.113</biblScope>
+                     <biblScope unit="pp">2–3</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2017-11-17">angelegt</change>
+         <change who="MAM" when="2021-09-16">Index check</change>
+         <change who="KH" when="2021-10-11">Durchsicht</change>
+      </revisionDesc>
+   </teiHeader>
+   <!-- http://anno.onb.ac.at/cgi-content/anno?aid=nwj&datum=19080116&seite=2&zoom=33&query=%22schnitzler%22&ref=anno-search -->
+   <text type="text">
+      <body>
+         <div type="original">
+            <head>Der <rs type="org" ref="#29677">Grillparzer-Preis</rs>
+            </head>
+            <head type="sub">Für Dr. <rs type="person" ref="#2121">Artur Schnitzler</rs>s »<rs
+                  type="work" ref="#29903">Zwischenspiel</rs>«.</head>
+            <head type="sub">(Originalbericht des »<rs type="org" ref="#29320">Neuen Wiener
+                  Journal</rs>«.)</head>
+            <p>Gestern nachmittag hat in der <rs type="org" ref="#29395">Akademie der
+                  Wissenschaften</rs> die Sitzung des Preisrichterkollegiums über den <rs type="org"
+                  ref="#29677">Grillparzer-Preis</rs> stattgefunden. Es wurde das Ergebnis
+               publiziert, wonach der Preis im Betrage von 5000 Kronen Herrn Dr. <rs type="person"
+                  ref="#2121">Artur <hi rend="spaced_out">Schnitzler</hi>
+               </rs> für sein im Repertoire des <rs type="org" ref="#36247">Burgtheaters</rs>
+               stehendes Schauspiel »<rs type="work" ref="#29903">Zwischenspiel</rs>« einstimmig
+               zuerkannt <anchor type="textConst" xml:id="TT125-1"/>wurde<note type="textConst"
+                  xml:id="TT125-1h"><quote>wnrde</quote></note>. </p>
+            <p>Die Tatsache, daß nun ein <rs type="place" ref="#41240">österreichischer</rs> Dichter
+               jenen Preis erhielt, der bereits viermal nach <rs type="place" ref="#151"
+                  >Deutschland</rs> wanderte, wird mit Genugtuung aufgenommen werden, obgleich »<rs
+                  type="work" ref="#29903">Zwischenspiel</rs>« trotz seiner Feinheiten nicht zu den
+               kritisch einwandlosesten dramatischen Werken <rs type="person" ref="#2121"
+                  >Schnitzlers</rs> gehört. Mit der Zuerkennnng des Preises drückte das Kollegium
+               den gesamten Werken dieses feinsinnigen Poeten die bedeutendste Anerkennung aus, über
+               die es verfügt. 94 Stücke standen in Konkurrenz und in den letzten Tagen hieß es, daß
+               die Jury in ihren Entschlüssen wankend sei. Man sprach<pb/> von der »<rs type="work"
+                  ref="#33039">Rabensteinerin</rs>« <rs type="person" ref="#13118">
+                  <hi rend="spaced_out">Wildenbruchs</hi>
+               </rs> und von »<rs type="work" ref="#33035">Familie</rs>« von <rs type="person"
+                  ref="#12749">
+                  <hi rend="spaced_out">Schönherr</hi>
+               </rs> als von Werken, von denen das eine oder andere den Preis erhalten solle.
+               Schließlich entschloß man sich für <rs type="person" ref="#2121">Schnitzler</rs>,
+               wohl in der Erwägung, daß diesem Dichter eine lange und vielfältige Reihe von
+               wertvollen dramatischen Werken zu verdanken sei. Den Preis erhielt bereits <hi
+                  rend="spaced_out">dreimal</hi>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="#11617">Gerhart <hi rend="spaced_out">Hauptmann</hi>
+               </rs> für den »<rs type="work" ref="#31165">Armen Heinrich</rs>«, »<rs type="work"
+                  ref="#31511">Hannele</rs>« und »<rs type="work" ref="#33037">Fuhrmann
+                  Henschel</rs>«, und einmal <rs type="person" ref="#11605">Otto Erich <hi
+                     rend="spaced_out">Hartleben</hi>
+               </rs> für »<rs type="work" ref="#31767">Rosenmontag</rs>«. Unter den <rs type="place"
+                  ref="#41240">österreichischen</rs> Dichtern wurde bloß <rs type="person"
+                  ref="#10772">Ludwig <hi rend="spaced_out">Anzengruber</hi>
+               </rs> mit dem Preis einmal ausgezeichnet. </p>
+            <p>»<rs type="work" ref="#29903">Zwischenspiel</rs>« entstand im Jahre <date>1904</date>
+               und wurde zum erstenmal am <date>12. Oktober 1905</date> und zuletzt am <date>6.
+                  September 1907</date> am <rs type="org" ref="#36247">Burgtheater</rs> aufgeführt,
+               im ganzen 17mal. Das Stück behandelt ein interessantes psychologisches Problem aus
+               dem Eheleben eines Künstlerpaares und es ist mehr auf das geistvolle Räsonnement als
+               auf starke dramatische Vorgänge gestellt. </p>
+            <p>Einer unserer Mitarbeiter suchte gestern unmittelbar nach der Entscheidung der Jury
+               Herrn <rs type="person" ref="#2121">Artur Schnitzler</rs> auf und berichtet uns über
+               seine Unterredung wie folgt: </p>
+            <head type="sub">Bei <rs type="person" ref="#2121">Artur Schnitzler</rs>.</head>
+            <p>Auf einem Spaziergange um den <rs type="place" ref="#113">Türkenschanzpark</rs>,
+               indessen Nähe <rs type="person" ref="#2121">Schnitzler</rs> seit einigen Jahren sein
+               Heim aufgeschlagen hat, treffe ich den Dichter an, noch überrascht durch die ihm kurz
+               vorher zugegangene Nachricht von der Zuerkennung des <rs type="org" ref="#29677"
+                  >Grillparzer-Preises</rs>. Daß ihm die Auszeichnung und insbesondere dem »<rs
+                  type="work" ref="#29903">Zwischenspiel</rs>« zuteil werden wird, daran hatte <rs
+                  type="person" ref="#2121">Schnitzler</rs> nicht gedacht, zumal die Nachricht
+               zuletzt kursierte, daß das Kollegium <rs type="person" ref="#12749">Schönherr</rs>
+               und <rs type="person" ref="#13118">Wildenbruch</rs> in Betracht gezogen habe. Wir
+               gehen eine Strecke lang an verschneiten Gärten und Villen vorbei, sehen einen Moment
+               der Schuljugend zu, die auf etwas abschüssiger Bahn unter Lachen und Lärmen dem
+               Rodelsport huldigt.</p>
+            <p>»Eigentlich gehört ›<rs type="work" ref="#29903">Zwischenspiel</rs>‹ nicht zu den
+               Sachen, die mir innerlich nahestehen,« sagte <rs type="person" ref="#2121"
+                  >Schnitzler</rs>, »seine kleine Welt erscheint mir zu abgeschlossen, die Fenster
+               der Stuben, in denen das Stück spielt, sind einem kleinen Garten zugewendet, und es
+               ist mit dem ganzen Drama so, daß von ihm kein Weg ins große Leben führt, zu anderen
+               Menschen. Es fehlen die großen Beziehungen zu einem Allgemeinen und deshalb wohl kann
+               es mich nicht befriedigen. Mir selbst ist der ›<rs type="work" ref="#29985">Einsame
+                  Weg</rs>‹, ja auch ›<rs type="work" ref="#29905">Der Ruf des Lebens</rs>‹ durch
+               seine ersten Akte, auf denen, wie ich glaube, Schicksalsschwere liegt, sympathischer.
+               Es ist bei mir so, daß ich eine empfangene Stimmung oder Idee in einem einzigen Werke
+               nicht in allen Verzweigungen und Nuancen <anchor type="textConst" xml:id="TT125-2"
+                  />ausgeben<note type="textConst" xml:id="TT125-2h"
+                  ><quote>ausgebeu</quote></note> kann, daß mir noch ein Ueberschuß bleibt, der in
+               mir aufs neue produktiv wird und mich zu anderen Gedankengängen und Stimmungen
+               hinüberführt. ›<rs type="work" ref="#29903">Zwischenspiel</rs>‹ ist abgeschlossen und
+               für mich abgetan. Anders, wie noch bei vielen Sachen, erging es mir beim ›<rs
+                  type="work" ref="#29985">Einsamen Weg</rs>‹. Gestalten, die ich in dieses Stück
+               bannen wollte, lösten sich los, kamen in andere Konflikte und es entstanden andere
+               Stücke, Szenen. Diese Sachen haben dann keine andere innere Verwandtschaft als
+               vielleicht etwa des Tones und der Stimmung, die mir vielleicht eigen sind. Oder aber
+               es geschieht, daß ich ein Stück oder eine Novelle fast bis zur Vollendung bringe, es
+               aber in einer Stimmung der Abneigung lange liegen lasse, und eines Tages ruft es mich
+               gleichsam wieder an, meldet sich, aber nun ist alles in mir anders und das Stück
+               erhält eine innere Umformung, hat sich in mir stilisiert und es wird etwas ganz
+               anderes, gehört dann einer anderen Stilart als der zuerst gedachten an. </p>
+            <p>»Es gibt in den Schaffensprozessen, die ich durchmache, Unterströmungen in mir, die
+               mich nach verschiedenen Richtungen oft führen. Mein Sinn für das Leben und das
+               Wirkliche wird zuweilen abgelenkt, hin zu einer Traumwelt, zum Märchenhaften. Sie
+               werden das in meiner neuen Produktion vielfach finden, und ich habe mich, vielleicht
+               nur vorübergehend, Stoffgebieten zugewendet, die meiner Phantasie den freiesten
+               Spielraum lassen. Deshalb begrüße ich die Bestrebungen und Leistungen <rs
+                  type="person" ref="#12548">Rollers</rs> in der wärmsten Weise. Die
+               Dekorationskunst dieses modernen Meisters ermöglicht die Aufführung von Werken, die
+               ausschließlich von der Phantasie inspiriert sind, weckt mit ihrer knappen Sprache,
+               ihren Andeutungen und durch den Mangel einer künstlichen und illusionstörenden
+               Wirklichkeit beim Zuschauer die stärkste Illusion und, was viel mehr ist,
+               Ideenassoziationen, die ein Mitschaffen des Zuschauers anregen. </p>
+            <p>Dahin geht, wie bereits gesagt, vorläufig meine dichterische Intention. Meine nächste
+               Publikation ist ein Roman: ›<rs type="work" ref="#29923">Der Weg ins Freie</rs>‹,
+               andere Dinge sind teils abgeschlossen, harren teils noch der Vollendung. Ueber meinen
+               Roman kann ich Ihnen jetzt nur sagen, daß ich in ihm die Beziehungen gegenseitiger
+                  <rs type="place" ref="#50">Wien</rs>er Schichten und sozialer Gruppen darzustellen
+               versucht habe. </p>
+            <p>Phantasieleben und Wirklichkeit, das ist ein Kapitel, über welches ich Ihnen noch
+               mancherlei sagen könnte. Sie fließen im Leben eines Produzierenden oft in einander,
+               und zuweilen ertappe ich mich dabei, daß mir ein Phantasiebild einen Moment lang wie
+               etwas erscheint, das ich wirklich erlebt habe. Doch, ich habe schon zu viel von mir
+               und meinem Schaffen gesprochen«, schloß der Dichter, indem er mir mit freundlichstem
+               Lächeln die Hand reichte <c rendition="#dots" n="3"/>
+            </p>
+         </div>
+         <div type="biographical">
+            <div1>
+               <ref type="schnitzlerDiary" target="1908-01-15"/>
+               <quote>zu Haus kam bald <rs type="person" ref="#2553">Herm. Menkes</rs> (<rs
+                     type="org" ref="#29320">N. W. Journal</rs>) mit dem ich montirt manches kluge
+                  sprach.–</quote>
+            </div1>
+         </div>
+      </body>
+   </text>
+</TEI>

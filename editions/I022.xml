@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="I022">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#32969">Herman Bernstein: Nations Must Check the Spread of Hate
+               Declares Noted Austrian, 17.&#8239;9.&#8239;1922</title>
+            <author ref="#5160">Bernstein, Herman</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="022"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#5160">Bernstein, Herman</author>
+                     <title level="a" ref="#32969">Nations Must Check the Spread of Hate Declares
+                        Noted Austrian</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#58339">New York American</title>
+                     <imprint>
+                        <date when="1922-09-17" n="1">17. 9. 1922</date>
+                     </imprint>
+                     <biblScope unit="nr">14.305</biblScope>
+                     <biblScope unit="sec">March of Events</biblScope>
+                     <biblScope unit="pp">6</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#5160">Bernstein, Herman</author>
+                     <title level="a">What Is Becoming of Europe. From an Interview With Arthur
+                        Schnitzler</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j">Jewish Daily News</title>
+                     <imprint>
+                        <date when="1922-09-21" n="1">21. 9. 1922</date>
+                     </imprint>
+                     <biblScope unit="vol">38</biblScope>
+                     <biblScope unit="nr">222</biblScope>
+                     <biblScope unit="pp">[12]</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#5160">Bernstein, Herman</author>
+                     <title level="a" ref="#32969">Arthur Schnitzler</title>
+                  </analytic>
+                  <monogr>
+                     <title level="m">Celebrities of our Time. Interviews</title>
+                     <imprint>
+                        <pubPlace>New York</pubPlace>
+                        <publisher>Joseph Lawren</publisher>
+                        <date when="1924">1924</date>
+                     </imprint>
+                     <biblScope unit="pp">318–325</biblScope>
+                  </monogr>
+               </biblStruct>
+               <!-- https://archive.org/stream/celebritiesofour000452mbp#page/n343/mode/2up -->
+               <biblStruct>
+                  <analytic>
+                     <author ref="#5160">Bernstein, Herman</author>
+                     <title level="a">What is becoming of Europe?</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Jewish Exponent</title>
+                     <imprint>
+                        <date when="1925-01-16" n="1">16. 1. 1925</date>
+                     </imprint>
+                     <biblScope unit="vol">75</biblScope>
+                     <biblScope unit="nr">17</biblScope>
+                     <biblScope unit="pp">8</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en-US">English</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2018-01-24">angelegt</change>
+         <change who="MAM" when="2018-02-14">Index check</change>
+         <change who="KH" when="2021-10-20">Durchsicht</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="text">
+      <body>
+         <div type="original" xml:lang="en-US">
+            <head>Nations Must Check the Spread of Hate</head>
+            <head type="sub">Declares Noted <rs type="place" ref="#41240">Austrian</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="#2121">
+                  <anchor type="textConst" xml:id="T_I022-1"/>Schnitzler<note type="textConst"
+                     xml:id="T_I022-1h"><quote>Schnitzer</quote></note>
+               </rs>, Leader of <rs type="place" ref="#50">Viennese</rs> Dramatists</head>
+            <head type="sub">»What Is Becoming of <rs type="place" ref="#468">Europe</rs>?« Asks
+               Master Mind – »We See More Hate Than Before the War« – The Terror of Old Battles and
+               Slaughter is Lost in the Vistas of Time – World has Grown Careless of Human
+               Life.</head>
+            <head type="sub">By Herman Bernstein</head>
+            <p>
+               <anchor type="commentary" xml:id="KT108-1"/>What<note type="commentary"
+                  xml:id="KT108-1h">Bevor es bei beiden mit »<quote>
+                     <foreign xml:lang="en-US">›What is becoming of <rs type="place" ref="#468"
+                           >Europe</rs>?‹</foreign></quote>« losgeht, wiederholt die Zeitschriftenfassung die ersten beiden Absätze
+                  des Interviews aus dem Jahr <date>1916</date> (<ref target="#I019" type="pointer"
+                  />) und fügt einen Satz hinzu; die Buchausgabe bringt stattdessen folgende
+                  Einleitung: »<quote>
+                     <foreign xml:lang="en-US">I met <rs type="person" ref="#2121">Arthur
+                           Schnitzler</rs> in his study in <rs type="place" ref="#50">Vienna</rs>. A
+                        fine copy of <rs type="work" ref="#31935">Mona Lisa</rs> was conspicuous
+                        among the numerous portraits on the walls, and on his desk stood a <rs
+                           type="work" ref="#33013" subtype="implied">statuette</rs> of <rs
+                           type="person" ref="#11461">Goethe</rs>. The brilliant <rs type="place"
+                           ref="#50">Viennese</rs> dramatist and novelist, whose sixtieth birthday
+                        was recently celebrated by his friends and admirers, is youthful despite the
+                        gray in his hair and beard, and his kindly smile is as full of charm as
+                        ever. During the past few months many eulogies by the foremost dramatists,
+                        novelists and critics appeared in various <rs type="place" ref="#468"
+                           >European</rs> periodicals and newspapers. / <rs type="person"
+                           ref="#2121">Schnitzler</rs> is beloved by all who know him. All agree
+                        that his artistic works are marked with a peculiar charm and are of lasting
+                        value. He has portrayed men and women as they really are – with their dreams
+                        and their passions, their foibles and their follies. / <rs type="person"
+                           ref="#11617">Gerhardt Hauptmann</rs>, summing up the achievements of <rs
+                           type="person" ref="#2121">Schnitzler</rs> thus far, <rs type="work"
+                           ref="#31455" subtype="implied">writes</rs> that to have an appreciation
+                        of <rs type="person" ref="#2121">Schnitzler</rs> is to have an appreciation
+                        of art and culture. <rs type="person" ref="#10815">Hermann Bahr</rs>
+                        <space unit="chars" quantity="1"/>
+                        <rs type="work" ref="#31455" subtype="implied">predicts</rs> that <rs
+                           type="person" ref="#2121">Schnitzler</rs> will fare better than other
+                        writers a hundred years hence, for when future generations will want to
+                        study the traits, the modes of life and thought during the years of <rs
+                           type="place" ref="#41240">Austria</rs>’s sunset, they will have to go
+                        back to <rs type="person" ref="#2121">Schnitzler</rs> who mirrored that
+                        sunset most clearly, who reproduced as no one else the last charm of<pb/>
+                        <space unit="chars" quantity="1"/>
+                        <rs type="place" ref="#50">Vienna</rs> in the shadows, who was the doctor at
+                        her death bed, who loved her more deeply than anyone else, who was the last
+                        poet of her agony. / <rs type="person" ref="#2121">Schnitzler</rs> spoke
+                        with deep emotion of <rs type="place" ref="#41240">Austria</rs>’s pathetic
+                        plight, of the beauty and grandeur of her landscapes and of her still
+                        undeveloped opportunities, of the curse of too much politics in <rs
+                           type="place" ref="#41240">Austria</rs>, and for that matter in the whole
+                        of <rs type="place" ref="#468">Europe</rs>, and then he pointed to the
+                        growth of prejudice and hate after the war.</foreign></quote>«. Von gesondertem Interesse sind die beiden erwähnten Kunstwerke. <rs
+                     type="person" ref="#2121">Schnitzler</rs> dürfte die Kopie der <rs type="work"
+                     ref="#31935">Mona Lisa</rs> in Originalgröße noch vor der Popularisierung des
+                  Kunstwerks durch einen spektakulären Diebstahl aus dem <rs type="org" ref="#63428"
+                     >Louvre</rs><space unit="chars" quantity="1"/><date>1911</date> erworben haben.
+                  Sie ist noch auf den letzten Fotos seines Arbeitszimmers zu erkennen. (<bibl>Vgl.
+                        <title level="m">A.&#8239;S. und die bildende Kunst</title> 110–111</bibl>.)
+                  Die Keramikstatue von Powolny ist auch in einem anderen Interview erwähnt, <ref
+                     type="pointer" target="#I061_L_schlafrockii"/>. Die Texte <rs type="person"
+                     ref="#11617">Hauptmanns</rs> und <rs type="person" ref="#10815">Bahrs</rs>, auf
+                  die Bezug genommen werden, erschienen beide im <rs type="person" ref="#2121"
+                     >Schnitzler</rs> gewidmeten Heft der <rs type="work" ref="#36156">Neuen
+                     Rundschau</rs> vom <date>Mai 1922</date>.</note>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="#11798">Henryk Ibsen</rs> was to the <rs type="place"
+                  ref="#64465">Norwegian</rs> drama, <rs type="person" ref="#12877">August
+                  Strindberg</rs> to the <rs type="place" ref="#44335">Swedish</rs>, <rs
+                  type="person" ref="#3603">Anton Chekhov</rs> to the <rs type="place" ref="#34438"
+                  >Russian</rs>, what <rs type="person" ref="#11617">Gerhardt Hauptmann</rs> is to
+               the <rs type="place" ref="#151">German</rs> drama, <rs type="person" ref="#2381"
+                  >Bernard Shaw</rs> to the <rs type="place" ref="#254">English</rs> and <rs
+                  type="person" ref="#12156">Maurice Maeterlinck</rs> to the <rs type="place"
+                  ref="#166">French</rs>, <rs type="person" ref="#2121">Arthur Schnitzler</rs> is to
+               the Austrian drama to-day. Keen and penetrating, brilliant and subtle, a master of
+               irony and satire, yet sincere and full of optimism, this master builder of the modern
+                  <rs type="place" ref="#41240">Austrian</rs> drama, this <rs type="place" ref="#50"
+                  >Viennese</rs> man of letters has impressed himself profoundly upon the literature
+               of <rs type="place" ref="#41240">Austria</rs> in the face of innumerable
+               difficulties.</p>
+            <p>By the sheer force of his art, as it manifested itself in his works, in masterpiece
+               after masterpiece, Dr. <rs type="person" ref="#2121">Arthur Schnitzler</rs>, a Jew,
+               has won distinction in <rs type="place" ref="#50">Vienna</rs>, the very hotbed of
+               anti-semitism. He has surmounted many obstacles, combating prejudice calmly, yet with
+               firm determination.</p>
+            <p>The following interview was had in the study of this brilliant writer in <rs
+                  type="place" ref="#50">Vienna</rs>:</p>
+            <p>»What is becoming of <rs type="place" ref="#468">Europe</rs>?« said <rs type="person"
+                  ref="#2121">Schnitzler</rs>. »The hate which has been intensified by the war is
+               growing and spreading, and the most dreadful feature of it all is that people are
+               talking of now wars in the near future.</p>
+            <p>
+               <anchor type="commentary" xml:id="KT108-2"/>»It<note type="commentary"
+                  xml:id="KT108-2h">In der Buchausgabe beginnt der Absatz mit: »<quote>
+                     <foreign xml:lang="en-US">›On <date>August 1, 1914</date>, – on the day of the
+                        declaration of war – I wrote a letter to my <rs type="person" ref="#12698"
+                           subtype="implied">brother</rs> of which I should have been ashamed a
+                        little later. I gave him my reasons why it was impossible that such a world
+                        war could take place. It was a foolish letter in view of the events that
+                        followed so rapidly, and that involved practically the whole world in the
+                        war. But only now – after several years of so-called peace, we see clearly
+                        that the war was really impossible.</foreign></quote>«</note> was the most brutal of all wars, it destroyed more values than
+                  <anchor type="commentary" xml:id="K_I022-45"/>any previous war<note
+                  type="commentary" xml:id="K_I022-45h">In der Buchausgabe ist der Satz erweitert
+                  um: »<quote>and it has left the world in a much worse condition than it was before
+                     the war.</quote>«</note>. We see chaos, poverty, ruination everywhere in <rs
+                  type="place" ref="#468">Europe</rs>. And we see more hate than before the war.</p>
+            <head type="sub">Spread of Hate</head>
+            <p>»To check this spread of hate in various countries, it seems to me that it is urgent
+               for intellectual leaders everywhere to create good will and a better understanding
+               among the nations. A great campaign of education is essential in that direction.</p>
+            <p>»We have seen that Socialism has failed to meet the problems of war and peace
+               effectively and has not exerted much of an influence either in the war or in the
+               making of peace.</p>
+            <p>»We must realise, first of all, that man is the worst of all animals – the most cruel
+               of them all. The difference between the human being and other animals is that the
+               human being possesses such traits as joy at <anchor type="textConst"
+                  xml:id="T_I022-11"/>another’s<note type="textConst" xml:id="T_I022-11h"
+                     ><quote>anoher’s</quote></note> misfortune. Animals have no such terrible
+               traits.</p>
+            <p>»We must also realise that while the human mind may be improved by education the
+               human soul cannot be improved – for it cannot be changed. We may, therefore, hope
+               that human beings will some day become wiser, but they cannot become better. Human
+               beings are born egotists. They do not love one another unselfishly – they hate one
+               another.</p>
+            <p>»All we may hope for is that the intellectual leaders may succeed in showing the
+               people that they must stop wars because it would be best for them to have no wars –
+               because they would benefit more from peace than from war.</p>
+            <head type="sub">Practical Pacificism </head>
+            <p>»Pacifism should not be sentimental. That is useless. Pacifists should not say that
+               it is wrong to kill; that it is unethical to destroy human life; that it is immoral
+               to commit such a crime; that other people suffer from such destruction, and that war
+               is terrible on that account.</p>
+            <p>»Everybody knows that war is terrible; that it leaves dead and maimed in its wake;
+               that it destroys property, and retards what is known as civilization. But such
+               methods of reasoning, such arguments are of no avail. Human beings are not impressed
+               by them. Human beings do not change their nature on that account.</p>
+            <p>»Instead of sentimental pacifism it is essential to convince them by education that
+               peace would benefit them and save them – that in a roundabout way they themselves or
+               their children may be the victims of war – the wounded, the mutilated, the dead.</p>
+            <head type="sub">The Quality of Love</head>
+            <p>»It is of very little value to preach love and the brotherhood of man, for it does
+               not help. There are some people who believe that it is enough for them to preach or
+               to listen to sermons on loving one’s neighbor as themselves – and that by this they
+               have already discharged all their duties to their fellow-men.</p>
+            <p>»The quality of unselfish love is not inherent in human beings – and it is useless to
+               demand of human beings to change that which cannot be changed. Besides, it is not
+               necessary at all. I do not want people to love me. I do not want their kisses. I
+               don’t think it necessary that there should be too much love among the nations.</p>
+            <p>»The important thing is that people should realize that they must not wrong one
+               another – that they must not hurt or injure one another. The important thing is that
+               people should have the opportunity to work, undisturbed, in peace; that they should
+               not interfere with others; that they should not destroy others; that they should not
+               rob others. They must learn to realise that war will affect them directly in some way
+               or other just as they believe war would affect their enemy, their neighbor.</p>
+            <head type="sub">Rejoicing in Death</head>
+            <p>»Yesterday, while my <rs type="person" ref="#2238" subtype="implied">daughter</rs>
+               was packing to go to the country, we found a batch of old newspapers published during
+               the war. I looked at the headlines. ›The Battle of – .‹<space unit="chars"
+                  quantity="1"/>›We Captured 50,000 men. Tens of Thousands Slain.‹ And the
+               jubilation over each victory! I remember how our people rejoiced when they heard that
+               thousands of <rs type="place" ref="#34438">Russians</rs> were drowned in swamps.</p>
+            <p>»I was filled with terror as I recalled all this. Of course, the other side did
+               exactly the same. They too, rejoiced when hundreds of thousands of our people were
+               slaughtered. And I recalled with horror the indifference with which people afterwards
+               read about those battles.</p>
+            <p>»When, for instance, they read that fifty thousand men had been slain, and on the
+               following morning the revised figures showed that instead of fifty thousand there
+               really were sixty thousand casualties, did that difference disturb the people’s
+               sleep, or did it affect their appetites? Not in the least. They went on eating,
+               drinking and smoking their cigars.</p>
+            <p>»In fact, the men at the front hated the ›enemy‹ less than the people in the rear –
+               we know that at the front the men often fraternized with the ›enemy,‹ while the
+               people in the rear hated the ›enemy‹ intensely – and this hate is continuing. And in
+               certain places it is even encouraged deliberately – fanned and spread <anchor
+                  type="commentary" xml:id="KT108-3"/>artificially.<note type="commentary"
+                  xml:id="KT108-3h">In der Buchausgabe folgt ein weiterer Absatz: »<quote>
+                     <foreign xml:lang="en-US">›If we read about some distant island sinking into
+                        the ocean with a population of a half a million human beings we would
+                        actually be affected by such news much less than by the natural death of
+                        someone on our block. If a fire breaks out in our neighbor’s house, we are
+                        upset and worried to the extent that we fear lest the fire should spread to
+                        our own house. If a fire breaks out somewhere in our city, we are worried
+                        because it may destroy the house of one of our relatives or friends. If we
+                        hear of a fire in a distant part of our city where we have no relatives or
+                        friends, we go on smoking our cigars undisturbed.</foreign></quote>«</note>
+            </p>
+            <head type="sub">Careless of Life</head>
+            <p>»I recall a simple, quite unimportant incident, but it is so characteristic that I
+               will tell it to you. Some years ago my <rs type="person" subtype="implied"
+                  ref="#2173">wife</rs> had scarlet fever. We had a <anchor type="commentary"
+                  xml:id="K_implied_27740"/>
+               <rs type="person" subtype="implied" ref="#27740">nurse</rs>
+               <note type="commentary" xml:id="K_implied_27740h">nicht identifiziert. Die Erkrankung
+                  bestand im <date>Dezember 1907</date>.</note> who attended her. The <rs
+                  type="person" ref="#27740" subtype="implied">nurse</rs> was very correct, devoted,
+               efficient and intelligent.</p>
+            <p>»When my <rs type="person" ref="#2173" subtype="implied">wife</rs> recovered and the
+                  <rs type="person" ref="#27740" subtype="implied">nurse</rs> was to leave, she had
+               to wait about a quarter of an hour for an ambulance which was to fumigate her clothes
+               in order that she may not infect other people.</p>
+            <p>»When I went out of the house a few minutes later, I noticed to my great amazement
+               that the <rs type="person" ref="#27740" subtype="implied">nurse</rs> entered a
+               crowded street car, without having waited for the ambulance. She had no patience to
+               wait fifteen minutes, and she went home by car without having taken the necessary
+               precaution. She probably infected a number of people in that car with scarlet
+               fever.</p>
+            <p>»Here was a <rs type="person" ref="#27740" subtype="implied">nurse</rs> who knew well
+               the dangers of such contagion. She was intelligent and it was her profession to look
+               after patients, and be careful. But that did not matter to her. She went into the
+               crowded street car because the passengers were just ordinary people whom she did not
+               know. They were strangers to her, and she did not care.</p>
+            <p>»But if, for instance, <rs type="person" ref="#27740" subtype="implied">she</rs> were
+               to learn that someone was infected in that car by her, and that such person carried
+               the disease to a child who happened to be a schoolmate of her own child, and in that
+               way infected her own child – and her own child died as a result, of her recklessness
+               and neglect, then she would think and act differently in the future.</p>
+            <head type="sub">Benefits of Peace</head>
+            <p>»Of course, if such a thing happened, people would say that it was an unusual case, a
+               rare coincidence. But if people were to figure things out logically they would find
+               that the wrong they do to others in some way or other necessarily reacts on
+               themselves – they would understand that, and would stop wronging others. As I have
+               said before, human beings may become wiser, but they will never grow better.</p>
+            <p>»It is therefore the important task of intellectual leaders everywhere to organise
+               themselves and start a campaign to enlighten the people that peace is in their own
+               interests – that war will ruin them, while peace will <anchor type="commentary"
+                  xml:id="KT108-4"/>benefit them.«<note type="commentary" xml:id="KT108-4h">Die
+                  Buchausgabe hat hier vier weitere Absätze: »<quote>
+                     <p>
+                        <foreign xml:lang="en-US">›Why don’t you develop this idea more elaborately
+                           in an article?‹ I suggested.</foreign>
+                     </p>
+                     <p>
+                        <foreign xml:lang="en-US">
+                           <pb/>›I can’t write articles,‹ replied Dr. <rs type="person" ref="#2121"
+                              >Schnitzler</rs>. ›I have often been asked to write articles for the
+                              <rs type="org" ref="#29351">
+                              <hi rend="italics">Neue Freie Presse</hi>
+                           </rs>. I have often discussed certain subjects with the publisher and
+                           editor of that newspaper, and he often said to me: ›Let me have an
+                           article on this subject. This is just what I need.‹ I have always
+                           declined to write articles. I often wonder why journalists and publicists
+                           underestimate their own ability to write articles and believe that
+                           novelists or dramatists must necessarily know how to write
+                           articles.‹</foreign>
+                     </p>
+                     <p>
+                        <foreign xml:lang="en-US">›But in this instance you have advanced the best
+                           reasons why you should write something on this theme, particularly when
+                           you pointed out that the intellectual leaders should at this juncture do
+                           the utmost to make people realize the effects of war and peace on
+                           themselves,‹ I said.</foreign>
+                     </p>
+                     <p>
+                        <foreign xml:lang="en-US">›I am afraid you would be disappointed if I wrote
+                           an article on this subject. I really could not do it,‹ he
+                           replied.</foreign>
+                     </p></quote>«</note>
+            </p>
+            <p>Our conversation turned to his dramatic works. Suddenly he asked:</p>
+            <p>»How would you account for the fact that <anchor type="commentary" xml:id="K_I022-1"
+               />some of my plays<note type="commentary" xml:id="K_I022-1h">das trifft nur auf <rs
+                     type="work" ref="#29855">Reigen</rs> zu</note> which were written twenty or
+               twenty-five years ago are being produced only now? They seem to attract more
+               attention now than when I wrote them.«</p>
+            <p>»Your works were at least a quarter of a century ahead of their time,« I answered,
+               »Only now people are beginning to understand and appreciate them fully.«</p>
+            <p>When I mentioned »<rs type="work" ref="#29855">Reigen</rs>,« his sex play which
+               created a sensation last year in <rs type="place" ref="#168">Berlin</rs> and <rs
+                  type="place" ref="#50">Vienna</rs> and which was at first suppressed by the German
+               censor, <rs type="person" ref="#2121">Schnitzler</rs> remarked modestly:</p>
+            <p>»›<rs type="work" ref="#29855">Reigen</rs>‹ is an ordinary play. The dialogues were
+               written more than twenty-five years-ago. When this play of mine will long have been
+               forgotten, the record of the <rs type="place" ref="#168">Berlin</rs> trial connected
+               with ›<rs type="work" ref="#29855">Reigen</rs>‹ will live. The <anchor
+                  type="commentary" xml:id="KT108-5"/>stenographic report<note type="commentary"
+                  xml:id="KT108-5h"><ref type="pointer" target="#I113_L_reigenprozess"/></note> of
+               the testimony at that trial is the most amazing satire of our time. The four or five
+               figures that revealed themselves in that extraordinary document are types of
+               hypocrisy that the greatest of satirists could hardly have invented or improved
+               upon.«</p>
+         </div>
+         <div type="biographical">
+            <div1>
+               <ref type="schnitzlerDiary" target="1922-07-12"/>
+               <quote>Vm. Hr. <rs type="person" ref="#5160">Hermann Bernstein</rs> (<rs type="place"
+                     ref="#175">Amerika</rs>, der Journalist, der mich schon vor 2&#160;J.
+                  interviewt hat). Redete drei Stunden, allgemeines und spec. politisches – er
+                  wollte durchaus daß ich ihm einen Artikel schreibe – was ich ablehnte. Dann
+                  literarisch geschäftliches; Ratschlag mich an die <rs type="org" ref="#29436"
+                     >League of auth<supplied>ors</supplied>. Am<supplied>erica</supplied>.</rs>
+                  etc. zu wenden.–</quote>
+            </div1>
+            <div1>
+               <bibl>Schnitzler an <rs type="person" ref="#5160">Bernstein</rs>,
+                     <date>18.&#8239;10.&#8239;1922</date>
+               </bibl>
+               <quote>Vor allem danke ich Ihnen vielmals für die freundliche Uebersendung Ihres
+                  Interviews, das ich vorzüglich finde. Präzis und konzis zugleich.</quote>
+            </div1>
+         </div>
+      </body>
+   </text>
+</TEI>

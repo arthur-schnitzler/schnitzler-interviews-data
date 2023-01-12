@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="M165">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#31771">Ein Ehrenbeleidigungsproceß,
+               23.&#8239;2.&#8239;1901</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="165"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a" ref="#31771">Ein Ehrenbeleidigungsproceß</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#31771">Neues Wiener Tagblatt</title>
+                     <imprint>
+                        <date when="1901-02-23" n="1">23.&#8239;2.&#8239;1901</date>
+                     </imprint>
+                     <biblScope unit="jg">35</biblScope>
+                     <biblScope unit="nr">53</biblScope>
+                     <biblScope unit="pp">7–10</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct corresp="HBAS">
+                  <monogr>
+                     <author ref="#10815">Bahr, Hermann</author>
+                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefe, Aufzeichnungen, Dokumente. 1891–1931</title>
+                     <editor>Hg. Kurt Ifkovits, Martin Anton Müller</editor>
+                     <imprint>
+                        <pubPlace>Göttingen</pubPlace>
+                        <publisher>Wallstein</publisher>
+                        <date when="2018">2018</date>
+                     </imprint>
+                     <biblScope unit="pp">197–201</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2021-12-16">Übernommen aus Bahr/Schnitzler</change>
+         <change who="MAM" when="2021-12-17">Index check</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div type="original">
+            <head>Ein Ehrenbeleidigungsproceß.</head>
+            <p>Wir berichteten im gestrigen Abendblatte über den Beginn des Schwurgerichtsprocesses
+               über die <anchor type="commentary" xml:id="K_M165-11"/>Ehrenbeleidigungsklagen<note
+                  type="commentary" xml:id="K_M165-11h">Dieser Prozess ist der einzige
+                  Ehrenbeleidigungsprozess, den <rs type="person" ref="#11988">Kraus</rs> jemals
+                  verloren hat. <bibl>Vgl. Alfred Pfabigan: <title level="a">Karl Kraus / Hermann
+                        Bahr – revisited</title>. In: <title level="j">Hermann Bahr –
+                        Österreichischer Kritiker europäischer Avantgarden</title>. Bern
+                     u.&#8239;a.: <publisher>Peter Lang</publisher><space unit="chars" quantity="1"
+                        /><date>2014</date>, S.&#8239;83–98 (<title level="s">Jahrbuch für
+                        Internationale Germanistik</title>, A,&#8239;118)</bibl></note>, die von dem
+               Schriftsteller und Theaterkritiker <rs type="person" ref="#10815">Hermann <hi
+                     rend="spaced_out">Bahr</hi>
+               </rs> sowie dem Director des <rs type="org" ref="#36430">Deutschen Volkstheaters</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="#2161">Emerich v. <hi rend="spaced_out">Bukovics</hi>
+               </rs> gegen den Redacteur der »<rs type="org" ref="#29308">Fackel</rs>«, <rs
+                  type="person" ref="#11988">Carl <hi rend="spaced_out">Kraus</hi>
+               </rs>, erhoben worden waren. Die Verhandlung währte bis zum Abend und wird erst heute
+               zu Ende geführt werden. Die Veranlassung zu dem Proceß gaben bekanntlich <anchor
+                  type="commentary" xml:id="K_M165-1"/>
+               <rs type="work" subtype="implied" ref="#31769 #31773">zwei Artikel</rs>
+               <note type="commentary" xml:id="K_M165-1h"><bibl>
+                     <rs type="person" ref="#11988">Karl Kraus</rs>: <rs type="work" ref="#31769"
+                        >Vom Wechselgastspiel</rs>. In: <rs type="work" ref="#41244">Die
+                     Fackel</rs>, Jg.&#8239;2, Nr.&#8239;43, <date>Anfang Juni 1900</date>,
+                     S.&#8239;16–25</bibl>. Und: <bibl>
+                     <rs type="person" ref="#11988">Karl Kraus</rs>: <rs type="work" ref="#31773"
+                        >[Die Überraschung der neuen Theatersensation]</rs>. In: <rs type="work"
+                        ref="#41244">Die Fackel</rs>, Jg.&#8239;2, Nr.&#8239;53, <date>Mitte
+                        September 1900</date>, S.&#8239;1–6</bibl>.</note>, in welchen Herrn <rs
+                  type="person" ref="#10815">Bahr</rs> vorgeworfen wurde, daß er sich von Director
+                  <rs type="person" ref="#2161">
+                  <hi rend="spaced_out">Bukovics</hi>
+               </rs> durch einen geschenkten Baugrund habe bestechen lassen; ferner wird Herrn <rs
+                  type="person" ref="#2161">v. <hi rend="spaced_out">Bukovics</hi>
+               </rs> Ehrenwortbruch gegenüber einem Autor zum Vorwurfe gemacht. Die Verhandlung
+               begann mit der Vernehmung des Angeklagten zu dem zuletzt angeführten Anklagepunkt.
+                  <rs type="person" ref="#11988">Kraus</rs> bekannte sich als Verfasser des
+               Artikels, erklärte sich nichtschuldig und bot hiefür den Beweis an. <gap
+                  reason="outOfScope" unit="lines" quantity="10"/></p>
+            <p><gap reason="outOfScope" unit="paragraphs" quantity="10"/></p>
+            <head type="sub">Weitere Zeugenvernehmungen.</head>
+            <p>Der <anchor type="commentary" xml:id="K_M165-3"/><rs type="person" subtype="implied"
+                  ref="#28482">Präsident</rs><note type="commentary" xml:id="K_M165-3h"><rs
+                     type="person" ref="#28482">Karl von Diestler</rs></note> verliest hierauf die
+               Zeugenaussage des Directors des <rs type="org" ref="#35597">Deutschen Theaters in
+                  Berlin</rs>, <rs type="person" ref="#10986">Otto <hi rend="spaced_out">Brahm</hi>
+               </rs>. Dieser sagt aus, es sei bei ihm ein Stück <rs type="person" ref="#10815"
+                  >Hermann Bahr</rs>’s eingereicht worden. Da es zur Aufführung nicht angenommen
+               wurde, habe <rs type="person" ref="#10815">Bahr</rs> keine weiteren
+               Annäherungsversuche gemacht.</p>
+            <p>Es wird zur Vernehmung des Zeugen Dr. <rs type="person" ref="#2121">Arthur<hi
+                     rend="spaced_out"> Schnitzler</hi>
+               </rs> geschritten. Er gibt an, 38 Jahre alt, in <rs type="place" ref="#50">Wien</rs>
+               geboren und hieher zuständig zu sein, von Beruf Arzt und Schriftsteller.</p>
+            <p>
+               <rs type="person" subtype="implied" ref="#28482">
+                  <hi rend="spaced_out">Präs.</hi>
+               </rs>: Erinnern Sie sich, Herr Zeuge, für Herrn <rs type="person" ref="#10815"
+                  >Bahr</rs> mit dem <rs type="org" ref="#35597">Deutschen Theater in Berlin</rs> in
+               Verbindung getreten zu sein? </p>
+            <p>
+               <rs type="person" subtype="implied" ref="#2121">
+                  <hi rend="spaced_out">Zeuge</hi>
+               </rs>: Ja, ich habe Herrn <rs type="person" ref="#10986">Brahm</rs> im December 1896
+               ein Stück von Bahr geschickt, das »<rs type="work" ref="#29829">Tschapperl</rs>«. Wir
+               wußten Beide, daß die Chancen für die Annahme dieses Stückes keine besonders
+               günstigen sind.</p>
+            <p>
+               <rs type="person" subtype="implied" ref="#28482">
+                  <hi rend="spaced_out">Präs.</hi>
+               </rs>: Die <rs type="place" ref="#168">Berlin</rs>er können schon den Titel nicht
+               aussprechen. (Heiterkeit.) </p>
+            <p>
+               <rs type="person" subtype="implied" ref="#2121">
+                  <hi rend="spaced_out">Zeuge</hi>
+               </rs>: Herr <rs type="person" ref="#10986">Brahm</rs> hat sich geäußert, daß das
+               Stück zur Annahme nicht geeignet sei. Von der <anchor type="commentary"
+                  xml:id="K_M165-2"/>Angabe von Gründen<note type="commentary" xml:id="K_M165-2h"
+                     ><bibl>vgl. den Brief von <rs type="person" ref="#10986">Otto Brahm</rs> an <rs
+                        type="person" ref="#2121">Schnitzler</rs>, 2.&#160;1.&#160;1897</bibl>:
+                     »<quote>Weiter habe ich, um Ihnen (nicht dem mir unsympathischen Herrn Bahr)
+                     gefällig zu sein, desselbigen <rs type="work" ref="#29829" subtype="implied"
+                        >Stück</rs> gelesen. Ich finde es für das <rs type="org" ref="#35597"
+                        >Deutsche Theater</rs> nicht geeignet. Da Herr <rs type="person"
+                        ref="#10815">Bahr</rs> es nicht direkt eingereicht hat, so kann ich mich auf
+                     diese Kabinettjustiz beschränken und die Motivierung des Urteils Ihnen und mir
+                     ersparen.</quote>« (<bibl><title level="m">Der Briefwechsel Arthur Schnitzler –
+                        Otto Brahm</title>. Vollständige Ausgabe Hg., eingeleitet und erläutert von
+                     Oskar Seidlin. Tübingen: <publisher>Max Niemeyer Verlag</publisher><space
+                        unit="chars" quantity="1"/><date>1975</date>, S.&#8239;28</bibl>)</note>
+               könne er umso eher absehen, als das Stück nicht direct eingereicht worden sei. Dies
+               habe ich dem Herrn <rs type="person" ref="#10815">Bahr</rs> mitgetheilt. Ich weiß
+               allerdings nicht, ob mündlich oder schriftlich.</p>
+            <p>
+               <rs type="person" subtype="implied" ref="#28482">
+                  <hi rend="spaced_out">Präs.</hi>
+               </rs>: Haben Sie später noch einmal intervenirt? </p>
+            <p>
+               <rs type="person" subtype="implied" ref="#2121">
+                  <hi rend="spaced_out">Zeuge</hi>
+               </rs>: Ich kann mich nicht erinnern, mit <rs type="person" ref="#10815">Bahr</rs>
+               darüber noch einmal gesprochen zu haben, außer in den letzten Tagen, wo wir über
+               diesen Proceß gesprochen haben.</p>
+            <p>
+               <rs type="person" subtype="implied" ref="#28482">
+                  <hi rend="spaced_out">Präs.</hi>
+               </rs>: Haben Sie, Herr Zeuge, gehört, daß Herr <rs type="person" ref="#10815"
+                  >Bahr</rs> außer diesem Falle noch einmal mit dem <rs type="org" ref="#35597"
+                  >Deutschen Theater</rs> verhandelt hätte? </p>
+            <p>
+               <rs type="person" subtype="implied" ref="#2121">
+                  <hi rend="spaced_out">Zeuge</hi>
+               </rs>: Absolut nicht.</p>
+            <p>Dr. <rs type="person" ref="#11590">
+                  <hi rend="spaced_out"><anchor type="textConst" xml:id="T_M165-1"/>Harpner<note
+                        type="textConst" xml:id="T_M165-1h"><quote>Harpener</quote></note></hi>
+               </rs> (zum Zeugen): Sie hatten wohl die Ansicht, daß das Stück kaum angenommen werden
+               würde. Nicht wahr, es hat sich hier um eine Art Versuch gehandelt? </p>
+            <p>
+               <rs type="person" subtype="implied" ref="#2121">
+                  <hi rend="spaced_out">Zeuge</hi>
+               </rs>: Ja, ja! So war es auch.</p>
+            <p>
+               <rs type="person" subtype="implied" ref="#28482">
+                  <hi rend="spaced_out">Präs.</hi>
+               </rs>: Waren Sie also über die Ablehnung so erstaunt?</p>
+            <p>
+               <rs type="person" subtype="implied" ref="#2121">
+                  <hi rend="spaced_out">Zeuge</hi>
+               </rs>: Nein! </p>
+            <p>Dr. <rs type="person" ref="#11590">
+                  <hi rend="spaced_out">Harpner</hi>
+               </rs>: Wenn Sie nun hören, daß Herr <rs type="person" ref="#10815">Bahr</rs> vier
+               Jahre nach diesem Vorfall das <rs type="org" ref="#35597">Deutsche Theater</rs>
+               ungünstig beurtheilt haben soll, glauben Sie, daß es irgend einen Sinn hat,
+               vorauszusetzen, <rs type="person" ref="#10815">Bahr</rs> habe sich dafür rächen
+               wollen, daß sein Versuch mit dem »<rs type="work" ref="#29829">Tschapperl</rs>«
+               mißlungen sei? </p>
+            <p>
+               <rs type="person" subtype="implied" ref="#2121">
+                  <hi rend="spaced_out">Zeuge</hi>
+               </rs>: Ich bin überzeugt, daß dies nicht der Fall war; ich bin absolut überzeugt
+               davon.</p>
+            <p>
+               <rs type="person" subtype="implied" ref="#11988">
+                  <hi rend="spaced_out">Angekl.</hi>
+               </rs>: Ich finde es sehr komisch, daß Herr <rs type="person" ref="#10815">Bahr</rs>
+               ein Stück eingereicht haben soll, in der Hoffnung, daß man es ablehnen werde. Die
+               Feindseligkeit <rs type="person" ref="#10815">Bahr</rs>’s gegen <rs type="person"
+                  ref="#10986">Brahm</rs> bestand ja auch schon früher, schon aus der Zeit der
+               Gründung der <rs type="org" ref="#29212">Freien Bühne</rs>, sie wurde nur verschärft
+               durch diese Ablehnung. Auch ich habe das <rs type="org" ref="#35597">Deutsche
+                  Theater</rs> angegriffen, es aber nicht zu Gunsten des <rs type="org" ref="#36430"
+                  >Deutschen Volkstheaters</rs> herabgesetzt.</p>
+            <p><gap reason="outOfScope" unit="paragraphs" quantity="10"/></p>
+         </div>
+         <div type="biographical">
+            <div1>
+               <ref target="1901-02-22" type="schnitzlerDiary"/>
+               <quote>Zeuge im Prozess <rs type="person" ref="#10815">Bahr</rs> – <rs type="person"
+                     ref="#11988">Kraus</rs>.–</quote>
+            </div1>
+         </div>
+      </body>
+   </text>
+</TEI>

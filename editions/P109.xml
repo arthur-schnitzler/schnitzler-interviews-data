@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="P109">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#58428">[»Reigen« nicht verfilmt], 30.&#8239;9.&#8239;1920</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="107"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <title level="a" ref="#58428">[»Reigen« nicht verfilmt]</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#36376">Neues Wiener Journal</title>
+                     <imprint>
+                        <date when="1920-09-30" n="1">30.&#8239;9.&#8239;1920</date>
+                     </imprint>
+                     <biblScope unit="jg">28</biblScope>
+                     <biblScope unit="nr">9.664</biblScope>
+                     <biblScope unit="pp">8</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2021-09-13">Angelegt</change>
+         <change who="MAM" when="2021-09-21">Index check</change>
+         <change who="KH" when="2021-10-18">Durchsicht</change>
+      </revisionDesc>
+   </teiHeader>
+   <!-- https://anno.onb.ac.at/cgi-content/anno?aid=nwj&datum=19200930&seite=8&zoom=33 -->
+   <text type="article">
+      <body>
+         <div type="original">
+            <head><supplied><rs
+               type="work" ref="#58431">Der Reigen</rs> keine Verfilmung von <rs
+                  type="work" ref="#29855">Reigen</rs></supplied></head>
+            <p>* Dr. Artur <hi rend="spaced_out">Schnitzler</hi> bittet uns um Aufnahme folgender
+               Verwahrung: »Einige Kinotheater kündigen die Aufführung eines Filmwerkes ›<rs
+                  type="work" ref="#58431">
+                  <hi rend="spaced_out">Der Reigen</hi>
+               </rs>‹ an, mit dem Zusatze ›nach Schnitzlers Roman‹. Ich stelle hiemit fest, daß der
+               Film ›<rs type="work" ref="#58431">Der Reigen</rs>‹ mit meiner Szenenreihe ›<rs
+                  type="work" ref="#29855">Reigen</rs>‹ nichts weiter gemein hat, als den Titel, der
+               allerdings durch den Vorgesetzten Artikel sozusagen geändert erscheint. Da diese
+               Aenderung keineswegs genügte, um, wie vielleicht auch der mir unbekannte <anchor
+                  type="commentary" xml:id="K_P109-4"/><rs type="person" subtype="implied"
+                  ref="#9181">Richard Oswald</rs><note type="commentary" xml:id="K_P109-4h"><rs
+                     type="person" ref="#9181">Verfasser</rs></note> des Filmwerkes ›<rs type="work"
+                  ref="#58431">Der Reigen</rs>‹ vorauszusehen in der Lage war, Verwechslungen mit
+               der von mir verfaßten Szenenreihe und eine gelegentliche mißverständliche Benutzung
+               meines Namens auszuschließen, behalte ich mir weitere Schritte in dieser
+               Angelegenheit vor. <hi rend="spaced_out">Artur Schnitzler</hi>.«</p>
+         </div>
+         <div type="biographical">
+            <div1>
+               <ref target="1920-09-29" type="schnitzlerDiary"/>
+               <quote>Vm. <rs type="org" ref="#29453">Corr. Wilhelm</rs>,– eine ›Verwahrung‹
+                  einrücken, weil in den Kinos ein Film ›<rs type="work" ref="#58431">Der
+                     Reigen</rs>‹ gespielt wird, der mit meinem ›<rs type="work" ref="#29855"
+                     >Reigen</rs>‹ nichts zu thun hat, ›nach dem Roman S.s‹. (Wahrscheinlich Specul.
+                  des Verfassers.)</quote>
+            </div1>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="P054">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#33131">[Der junge Medardus am Burgtheater],
+               25.&#8239;9.&#8239;1911</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="054"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#11018">Brisson, Adolphe</author>
+                     <title level="a" ref="#33129">Chronique Théatrale</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#58327">Le Temps</title>
+                     <imprint>
+                        <date when="1911-09-26" n="1">25.&#8239;9.&#8239;1911</date>
+                     </imprint>
+                     <biblScope unit="vol">51</biblScope>
+                     <biblScope unit="nr">18.347</biblScope>
+                     <biblScope unit="pp">[1–2], hier S.&#8239;[2]</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr-FR">French</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2017-11-17">angelegt</change>
+         <change who="MAM" when="2021-09-08">übersetzt</change>
+         <change who="MAM" when="2021-09-08">Index check</change>
+         <change who="KH" when="2021-10-13">Durchsicht</change>
+      </revisionDesc>
+   </teiHeader>
+   <!-- http://gallica.bnf.fr/ark:/12148/bpt6k240620w/f2.item.r=arthur.zoom -->
+   <text type="text">
+      <body>
+         <div type="original" xml:lang="fr-FR">
+            <head>Chronique théatrale</head>
+            <p rend="center">
+               <gap reason="outOfScope" unit="lines" quantity="99"/>
+            </p>
+            <p>Je reçois la lettre suivante que la courtoisie me fait un devoir d’insérer.</p>
+            <p>
+               <space dim="vertical" unit="line" quantity="1"/>
+            </p>
+            <p rend="right">
+               <rs type="place" ref="#50">Vienne</rs>, <date>2 septembre</date>.</p>
+            <p rend="inline">Monsieur le <rs type="person" ref="#11018" subtype="implied">rédacteur</rs>,</p>
+            <p>On me fait remarquer que dans le <rs type="work" ref="#33133" subtype="implied">feuilleton</rs> du <hi rend="italics">Temps</hi> du <date>21&#8239;août</date> dernier sur la saison théâtrale
+                  <rs type="place" ref="#50">Viennoise</rs>, s’est glissée une erreur tout à fait
+               inexplicable.</p>
+            <p>Votre correspondant, M. <rs type="person" ref="#29074">J.-F. Prater</rs> prétend,
+               entre autres choses, que ma pièce <rs type="work" ref="#29937">
+                  <hi rend="italics">le Jeune Médard</hi>
+               </rs> a disparu de l’affiche du <rs type="org" ref="#36247">Burgtheater</rs> »avec
+               une rapidité significative«.</p>
+            <p>Etant donné l’importance de votre journal, je me permets d’apporter un démenti formel
+               à cette appréciation, préjudiciable à la fois aux intérêts du <rs type="org" ref="#36247">Burgtheater</rs> et à l’avenir que ma pièce pourrait avoir en <rs type="place" ref="#166">France</rs>.</p>
+            <p>
+               <rs type="work" ref="#29937">
+                  <hi rend="italics">Le Jeune Médard</hi>
+               </rs> a été représenté 33 fois depuis le <date>28 novembre</date> jusqu’à la fin de
+               la saison dernière – chiffre maximum pour un temps aussi court. Ma pièce a reparu sur
+               l’affiche le <date>3&#8239;septembre</date> dès l’ouverture de la saison, et il n’y a guère
+               eu pièce au <rs type="org" ref="#36247">Burgtheater</rs> qui ait jamais fait de
+               recettes aussi fortes.</p>
+            <p>En vous priant, monsieur de rédacteur, de bien vouloir insérer cette rectification
+               dans votre journal, je vous prie de vouloir bien agréer l’assurance de ma
+               considération la plus haute et la plus distinguée.</p>
+            <p rend="right">
+               <hi rend="capitals">Arthur Schnitzler</hi>.</p>
+            <p>
+               <space dim="vertical" unit="line" quantity="1"/>
+            </p>
+            <p>Ce n’est pas à nous, c’est à M. <rs type="person" ref="#29074">J.-F. Prater</rs>
+               qu’il appartient de répondre à M. Schnitzler.</p>
+            <p rend="right">
+               <hi rend="capitals">Adolphe Brisson</hi>.</p>
+         </div>
+         <div type="translation">
+            <head>Theaterchronik</head>
+            <p rend="center">
+               <gap reason="outOfScope" unit="lines" quantity="99"/>
+            </p>
+            <p>Ich empfing den folgenden Brief, den ich mir erlaube, einzufügen.</p>
+            <p>
+               <space dim="vertical" unit="line" quantity="1"/>
+            </p>
+            <p rend="right">
+               <rs type="place" ref="#50">Wien</rs>, <date>2. September</date>.</p>
+            <p rend="inline">Geehrter Herr <rs type="person" ref="#11018" subtype="implied">Redakteur</rs>,</p>
+            <p>Ich wurde darauf hingewiesen, dass in das <anchor type="commentary" xml:id="KT140-1"/>
+               <rs type="work" ref="#33133" subtype="implied">Feuilleton</rs>
+               <note type="commentary" xml:id="KT140-1h">In <rs type="person" ref="#29074">J.-F.
+                     Prater</rs>: <rs type="work" ref="#33133">La saison théatrale a Vienne
+                     (1910–1911)</rs> (<bibl>
+                     <rs type="org" ref="#29451">Le Temps</rs>, Jg.&#8239;51, Nr.&#8239;18.312,
+                        <date>21.&#8239;8.&#8239;1911</date>, S.&#8239;1–2, hier: S.&#8239;2</bibl>)
+                  wird ein Überblick über die abgelaufene Theatersaison gegeben, wobei <rs type="work" ref="#29937">Der junge Medardus</rs> vernichtend kritisiert wird.
+                  Beim Autorname dürfte es sich um ein Pseudonym handeln.</note> der <hi rend="italics">Temps</hi> vom vergangenen <date>21. August</date> über die <rs type="place" ref="#50">Wien</rs>er Theatersaison ein unerklärlicher Fehler
+               gerutscht ist.</p>
+            <p>Ihr Korrespondent <rs type="person" ref="#29074">J.-F. Prater</rs> behauptet unter
+               anderem, dass mein Stück <rs type="work" ref="#29937">
+                  <hi rend="italics">Der junge Medardus</hi>
+               </rs> vom Anschlagzettel des <rs type="org" ref="#36247">Burgtheater</rs> mit
+               »bezeichnender Geschwindigkeit« verschwunden ist.</p>
+            <p>Wissend um die Bedeutung Ihrer Zeitung, erlaube ich mir, dieser Behauptung förmlich
+               zu widersprechen, die nachteilig sind für die Interessen sowohl des <rs type="org" ref="#36247">Burgtheater</rs>s wie dem Schicksal meines Stückes in <rs type="place" ref="#166">Frankreich</rs>.</p>
+            <p>
+               <rs type="work" ref="#29937">
+                  <hi rend="italics">Der junge Medardus</hi>
+               </rs> wurde seit dem <date>28. November</date> bis zum Ende der letzten Saison 33 Mal
+               gegeben – die Höchstzahl für eine so kurze Zeit. Mein Stück ist erneut auf dem
+               Anschlagzettel vom <date>3.&#160;September</date> zum Beginn der Saison und es gab kaum je
+               ein Stück am <rs type="org" ref="#36247">Burgtheater</rs>, das so gut angekommen
+               ist.</p>
+            <p>Ich bitte Sie, geschätzter Redakteur, diese Richtigstellung in ihre Zeitung
+               aufzunehmen und versichere Sie meiner vorzüglichsten und vornehmsten Hochachtung.</p>
+            <p rend="right">
+               <hi rend="capitals">Arthur Schnitzler</hi>.</p>
+            <p>
+               <space dim="vertical" unit="line" quantity="1"/>
+            </p>
+            <p>Es liegt nicht an uns, sondern an <rs type="person" ref="#29074">J.-F. Prater</rs>,
+               Herrn Schnitzler zu antworten.</p>
+            <p rend="right">
+               <hi rend="capitals">Adolphe Brisson</hi>.</p>
+         </div>
+         <div type="biographical">
+            <div1>
+               <ref type="schnitzlerDiary" target="1911-10-05"/>
+               <quote>Briefe an <rs type="person" ref="#11018">Brisson</rs> (<rs type="org" ref="#29451">Temps</rs>, Dank für die Aufnahme meiner Berichtigung)</quote>
+            </div1>
+         </div>
+      </body>
+   </text>
+</TEI>

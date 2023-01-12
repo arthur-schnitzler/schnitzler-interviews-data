@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="M162">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#62510">[An Georg Reimers], September&#8239;1925</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="162"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <title level="a" ref="#62510">[An Georg Reimers]</title>
+                  </analytic>
+                  <monogr>
+                     <title level="m" ref="#62506">Georg Reimers. Festschrift zu seinem
+                        vierzigjährigen Burgtheaterjubiläum 1885&#160;1925.</title>
+                     <imprint>
+                        <date when="1925-01-09" n="1">September 1925</date>
+                        <publisher>Reinhold-Verlag</publisher>
+                        <pubPlace>Wien</pubPlace>
+                        <pubPlace>Berlin</pubPlace>
+                     </imprint>
+                     <biblScope unit="pp">59</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <author>Wagner, Renate</author>
+                     <author>Vacha, Brigitte</author>
+                     <title level="m">Wiener Schnitzler-Aufführungen 1891–1970</title>
+                     <imprint>
+                        <date when="1971">1971</date>
+                        <pubPlace>München</pubPlace>
+                        <publisher>Prestel</publisher>
+                     </imprint>
+                     <biblScope unit="pp">61</biblScope>
+                  </monogr>
+                  
+               </biblStruct>
+               <biblStruct corresp="ASB2">
+                  <monogr>
+                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefe 1913–1931</title>
+                     <editor>Hg. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und
+                        Heinrich Schnitzler</editor>
+                     <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                     <biblScope unit="pp">411</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2021-12-15">angelegt</change>
+         <change who="MAM" when="2021-12-15">Index check</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div type="image">
+            <figure>
+               <graphic url="./images/1925_reimers.jpg" width="10cm"/>
+            </figure>
+         </div>
+         <div type="original">
+            <head>Georg Reimers. Festschrift zu seinem
+               vierzigjährigen Burgtheaterjubiläum 1885&#160;1925.</head>
+            <p><gap reason="outOfScope" unit="paragraphs" quantity="20"/></p>
+            <p rend="right"><anchor type="commentary" xml:id="K_M162-2"/><rs type="place" ref="#50"
+                  >Wien</rs><note type="commentary" xml:id="K_M162-2h">Im <date>September
+                     1925</date> fanden mehrere Feierlichkeiten anlässlich des vierzigsten
+                  Bühnenjubiläums des Schauspielers <rs type="person" ref="#12498">Georg
+                     Reimers</rs> statt. Die Festschrift besteht aus Faksimiles der verschiedenen
+                  Gratulationen. <rs type="person" ref="#2121">Schnitzler</rs> verwendet für seinen
+                  Beitrag (wie seit <date>1906</date> durchwegs in seinen Briefen üblich) eine
+                  lateinische Schreibschrift. Abschrift war dem Druck keine beigegeben. </note>,
+                  <date>Juli 1925</date>.</p>
+            <p>Kaum ein Jahr ist es her, mein verehrter Herr <rs type="person" ref="#12498">Georg
+                  Reimers</rs>, dass ich, der Ihnen als <rs type="org" ref="#36247"
+               >Burgtheater</rs>-Autor und als einfacher Theaterbesucher schon so oft zu Danke
+               verpflichtet war, die Freude hatte, Sie wieder einmal in einer meiner <anchor
+                  type="commentary" xml:id="K_M162-1"/><rs type="work" subtype="implied"
+                  ref="#30205">Stücke</rs><note type="commentary" xml:id="K_M162-1h">Er bezieht sich
+                  auf die Uraufführung von <rs type="work" ref="#30205">Komödie der Verführung</rs> am
+                     <ref target="1924-10-11" type="schnitzlerDiary" subtype="date-only"/> am <rs
+                     type="org" ref="#36247">Burgtheater</rs>.</note> zu sehen, in einer Rolle, die,
+               wie man<unclear>che</unclear> fanden, Ihnen »auf den Leib« geschrieben war. Doch so
+               köstlich und herzerweichend Sie den <rs type="work" subtype="implied" ref="#30205"
+                  >Eligius Fenz</rs> spielten, &#8239;– ich möchte den Schauspieler <rs type="person"
+                  ref="#12498">Georg Reimers</rs> gegenüber dem Kammersänger <rs type="work"
+                  subtype="implied" ref="#30205">Fenz</rs> sehr entschieden in Schutz nehmen – denn
+               in jenem ist glücklicherweise all das wahr geworden und wahr geblieben, was dieser –
+               wenn ich ihn richtig beurtheile – sich großentheils nur eingebildet haben dürfte.
+               Sie, <rs type="person" ref="#12498">Georg Reimers</rs> stehen heute wirklich auf der
+               Höhe Ihrer Kunst – und auf der Höhe Ihres Lebens&#8239;–; und au<unclear>f</unclear>
+               der gleichen Höhe hoffen wir Sie noch lange Jahre sehen und bewundern zu dürfen.</p>
+            <p rend="inline">Mit den wärmsten Glückwünschen<lb/>Ihr</p>
+            <p rend="right">Arthur Schnitzler</p>
+         </div>
+      </body>
+   </text>
+</TEI>

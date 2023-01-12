@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ana="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" ana="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragen zu den Schnitzler-Interviews</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <list>
+            <item xml:id="q032" ana="Kunst">Sinkt das Niveau der gegenwärtigen Literatur?</item>
+            <item xml:id="q172" ana="Kunst">Wird der Tonfilm das Drama ablösen?</item>
+            <item xml:id="q158" ana="Kunst">Dürfen Kunstwerke sexuelle Irritation hervorrufen?</item>
+            <item xml:id="q140" ana="Kunst">Ist es möglich, Endgültigkeit im Ausdruck zu erreichen?</item>
+            <item xml:id="q156" ana="Kunst">Soll man die »Schmutzliteratur« bekämpfen?</item>
+            <item xml:id="q070" ana="Kunst">Was bedeutet die Krise nach dem Krieg für neue literarische Entwicklungen?</item>
+            <item xml:id="q074" ana="Kunst">Was für Auswirkungen hat der Krieg auf die Literatur?</item>
+            <item xml:id="q063" ana="Kunst">Was halten Sie von Oswald Spenglers Theorie des Untergangs?</item>
+            <item xml:id="q028" ana="Kunst">Was halten Sie von neuen literarischen Strömungen?</item>
+            <item xml:id="q078" ana="Kunst">Was halten Sie von (Theater-)Zensur?</item>
+            <item xml:id="q065" ana="Kunst">Was halten sie vom Expressionismus?</item>
+            <item xml:id="q171" ana="Kunst">Kann eine Kunstform absterben?</item>
+            <item xml:id="q064" ana="Kunst">Welche Gattung bedeutet Ihnen am meisten?</item>
+            <item xml:id="q155" ana="Kunst">Welche Vorteile genießt »Schmutzliteratur« gegenüber besseren Kunstwerken?</item>
+            <item xml:id="q154" ana="Kunst">Welchen Nutzen bringt »Schmutzliteratur«?</item>
+            <item xml:id="q153" ana="Kunst">Welchen Schaden stiftet »Schmutzliteratur«?</item>
+            <item xml:id="q152" ana="Kunst">Wie definieren Sie »Schmutzliteratur«?</item>
+            <item xml:id="q157" ana="Kunst">Wie kommt es zu sexueller Irritation durch Kunstwerke?</item>
+            <item xml:id="q159" ana="Kunst">Wie stehen Sie zu Pornografie?</item>
+            <item xml:id="q022" ana="Kunst">Wie verhalten sich dramatische und novellistische Literatur zueinander?</item>
+            <item xml:id="q086" ana="Kunst">Welche Zukunft sehen Sie für die Kunstgattung »Film«?</item>
+            <item xml:id="q138" ana="Kunst">Warum haben Sie sich vom Naturalismus abgewandt?</item>
+            <item xml:id="q176" ana="Kunst">Lässt sich ein Theatererfolg vorhersagen?</item>
+            <item xml:id="q178" ana="Kunst">Wie kann ein Problemdrama weltweit reüssieren?</item>
+            <item xml:id="q177" ana="Kunst">Wie ist es, Anstoß zu erregen?</item>
+            <item xml:id="q201" ana="Kunst">Was ist ihnen am Drama wichtig?</item>
+            <item xml:id="q202" ana="Kunst">Was halten Sie von Filmregisseuren?</item>
+            <item xml:id="q204" ana="Kunst">Welcher Film gefällt Ihnen?</item>
+            <item xml:id="q208" ana="Kunst">Gibt es eine Kaffeehausliteratur?</item>
+            
+            <item xml:id="q111" ana="Allgemein">Gibt es in der Natur Wiederholung?</item>
+            <item xml:id="q110" ana="Allgemein">Lässt sich das Elixier der ewigen Jugend erforschen?</item>
+            <item xml:id="q012" ana="Allgemein">Haben Sie die Stadt und ihre Menschen aufgegeben?</item>
+            <item xml:id="q120" ana="Allgemein">Muss ein Menschenversteher alles verzeihen?</item>
+            <item xml:id="q109" ana="Allgemein">Möchten Sie ewig leben?</item>
+            <item xml:id="q081" ana="Allgemein">Kam es durch den Krieg zu einer Annäherung der Menschen?</item>
+            <item xml:id="q004" ana="Allgemein">Soll sich ein Autor bei der Premiere dem Publikum zeigen?</item>
+            <item xml:id="q080" ana="Allgemein">Was bedeutet die Krise nach dem Krieg für den Fortschritt?</item>
+            <item xml:id="q097" ana="Allgemein">Was halten Sie vom Bubikopf?</item>
+            <item xml:id="q114" ana="Allgemein">Was halten Sie von der Lehre des Behaviourismus und dem Fehlen der Willensfreiheit?</item>
+            <item xml:id="q107" ana="Allgemein">Was würden Sie tun, wenn Sie Gott wären?</item>
+            <item xml:id="q033" ana="Allgemein">Wie beurteilen Sie Karriereängste junger Menschen?</item>
+            <item xml:id="q207" ana="Allgemein">Ängstigen Sie die nachkommenden Schriftsteller?</item>
+            
+            <item xml:id="q026" ana="Allgemein">Wie stehen Sie zu Alkohol und Kunstwerk?</item>
+            <item xml:id="q029" ana="Allgemein">Wie viel Einfluss soll ein Autor auf die Regie seiner Stücke ausüben?</item>
+            <item xml:id="q050" ana="Allgemein">Inspirieren sie schwere Zeiten?</item>
+            <item xml:id="q126" ana="Biografie">Empfinden Sie Zuneigungen ebenso stark wie Abneigungen?</item>
+            <item xml:id="q018" ana="Biografie">Haben Sie Theaterkritik geschrieben?</item>
+            <item xml:id="q161" ana="Biografie">Praktizieren Sie noch als Arzt?</item>
+            <item xml:id="q047" ana="Biografie">Haben Sie mehr als zwei Kinder?</item>
+            <item xml:id="q044" ana="Biografie">Haben Sie viele Feinde?</item>
+            <item xml:id="q025" ana="Biografie">Hat die Einnahme von Alkohol Ihre künstlerische Arbeit beeinflusst?</item>
+            <item xml:id="q104" ana="Biografie">Wie verliefen Ihre schriftstellerischen Anfänge?</item>
+            <item xml:id="q112" ana="Biografie">Langweilen Sie sich manchmal?</item>
+            <item xml:id="q119" ana="Biografie">Sind Sie Individualist?</item>
+            <item xml:id="q118" ana="Biografie">Sind Sie Monarchist?</item>
+            <item xml:id="q071" ana="Biografie">Sind Sie ein geübter Vortragender?</item>
+            <item xml:id="q039" ana="Biografie">War Ihre literarische Laufbahn ein Weg ins Freie?</item>
+            <item xml:id="q163" ana="Biografie">Wie ist es, zu altern?</item>
+            <item xml:id="q168" ana="Biografie">Fürchten Sie sich vor dem Tod?</item>
+            <item xml:id="q142" ana="Biografie">Warum geben Sie keine Interviews?</item>
+            <item xml:id="q024" ana="Biografie">Welchen Einfluß hat Alkohol auf Ihre künstlerische Arbeit?</item>
+            <item xml:id="q013" ana="Biografie">Wie arbeiten Sie?</item>
+            <item xml:id="q113" ana="Biografie">Wie halten Sie sich jung?</item>
+            <item xml:id="q048" ana="Biografie">Wird Ihr Sohn Schriftsteller?</item>
+            <item xml:id="q121" ana="Biografie">Wofür empfinden Sie Abneigung?</item>
+            <item xml:id="q017" ana="Biografie">Üben Sie Journalismus aus?</item>
+            <item xml:id="q165" ana="Biografie">Sind Sie nicht zu klug für einen Dichter?</item>
+            <item xml:id="q174" ana="Biografie">Schildern Sie Ihren Tagesablauf.</item>
+            <item xml:id="q175" ana="Biografie">Wie sind sie als Vortragender?</item>
+            <item xml:id="q210" ana="Biografie">Wie geht es Ihnen mit Skandalen?</item>
+            <item xml:id="q009" ana="Ereignisse">Was halten Sie vom Theatererlass des Ministerpräsidenten (1903)?</item>
+            <item xml:id="q011" ana="Ereignisse">Was halten Sie vom Verbot der »Rose Bernd«-Aufführung?</item>
+            <item xml:id="q010" ana="Ereignisse">Was halten Sie von Dumonts Plan eines Nationaltheaters?</item>
+            <item xml:id="q008" ana="Ereignisse">Was halten Sie von der Interpellation des Dr. Pattai?</item>
+            <item xml:id="q160" ana="Ereignisse">Was halten Sie von einem »Bund der Bühnendichter«?</item>
+            <item xml:id="q007" ana="Ereignisse">Wie kam es zur Bauernfeld-Ehrengabe?</item>
+            <item xml:id="q162" ana="Ereignisse">Wieso wird der »Simplicissimus« nicht verboten?</item>
+            <item xml:id="q089" ana="Judentum">Gibt es einen »jüdischen Charakter«?</item>
+            <item xml:id="q117" ana="Judentum">Glauben Sie an eine bestimmte Religion?</item>
+            <item xml:id="q091" ana="Judentum">Halten Sie die Juden für ein kreatives Volk?</item>
+            <item xml:id="q043" ana="Judentum">Sind Sie orthodoxer Jude?</item>
+            <item xml:id="q143" ana="Judentum">Sind sie Jude?</item>
+            <item xml:id="q088" ana="Judentum">Welche Lösung der »Judenfrage« sehen Sie?</item>
+            <item xml:id="q141" ana="Judentum">Wie stehen Sie zum Antisemitismus?</item>
+            <item xml:id="q167" ana="Judentum">Wie stehen Sie zum Zionismus?</item>
+            <item xml:id="q020" ana="Länder">Gleichen sich Wien und Kopenhagen?</item>
+            <item xml:id="q130" ana="Länder">Möchten Sie nach Amerika reisen?</item>
+            <item xml:id="q169" ana="Länder">Was halten Sie von Amerika?</item>
+            <item xml:id="q019" ana="Länder">Reisen Sie?</item>
+            <item xml:id="q083" ana="Länder">Wann kommen Sie wieder nach Schweden?</item>
+            <item xml:id="q200" ana="Länder">Kennen Sie Schweden?</item>
+            <item xml:id="q005" ana="Länder">Was halten Sie von Dänemark?</item>
+            <item xml:id="q002" ana="Länder">Was halten Sie von Ungarn?</item>
+            <item xml:id="q003" ana="Länder">Was halten Sie von den Niederlanden?</item>
+            <item xml:id="q062" ana="Länder">Was halten Sie von dänischer Literatur?</item>
+            <item xml:id="q206" ana="Länder">Was halten Sie von skandinavischer Literatur?</item>
+            <item xml:id="q150" ana="Länder">Welche französischen Schriftsteller und Werke schätzen Sie am meisten?</item>
+            <item xml:id="q149" ana="Länder">Welcher »Stil« ist repräsentativ für den französischen Geist?</item>
+            <item xml:id="q103" ana="Länder">Gehen Sie im Frühling nach Italien?</item>
+            <item xml:id="q147" ana="Länder">Welchen Einfluss hat die französischen Literatur auf die Ihres Landes?</item>
+            <item xml:id="q058" ana="Urheberrecht">Wie sind Ihre Erfahrungen zum Urheberrecht und Dänemark?</item>
+            <item xml:id="q079" ana="Länder">Wie sind die Verhältnisse in Deutschland?</item>
+            <item xml:id="q148" ana="Länder">Wo ist der Einfluss der französischen Literatur am sichtbarsten?</item>
+            <item xml:id="q053" ana="Länder">Woher kommen Sie?</item>
+            <item xml:id="q146" ana="Länder">Würden Sie gerne nach Palästina/Israel reisen?</item>
+            <item xml:id="q122" ana="Personen">Clemenceau war keine Katastrophe für die Welt?</item>
+            <item xml:id="q125" ana="Personen">Gelten Ihre Typologisierungen für beide Geschlechter?</item>
+            <item xml:id="q124" ana="Personen">Haben Sie je Menschen typisiert?</item>
+            <item xml:id="q049" ana="Personen">Kennen Sie Professor Steinach?</item>
+            <item xml:id="q067" ana="Personen">Sie kannten Peter Nansen?</item>
+            <item xml:id="q123" ana="Personen">Sind Sie gegen Woodrow Wilson zu streng?</item>
+            <item xml:id="q151" ana="Personen">Verfolgt Maximilian Harden Privatinteressen oder das öffentliche Wohl?</item>
+            <item xml:id="q105" ana="Personen">Was halten Sie von Hugo von Hofmannsthal?</item>
+            <item xml:id="q127" ana="Personen">Welchen Staatsmann in Europa bewundern Sie?</item>
+            <item xml:id="q131" ana="Länder">Welchen amerikanischen Schriftsteller möchten sie kennenlernen?</item>
+            <item xml:id="q128" ana="Personen">Welches sind die größten zeitgenössischen deutschsprachigen Schriftsteller?</item>
+            <item xml:id="q144" ana="Personen">Wie war ihr Verhältnis zu Theodor Herzl?</item>
+            <item xml:id="q093" ana="Urheberrecht">Empfehlen Sie einen ewigen Urheberschutz?</item>
+            <item xml:id="q102" ana="Urheberrecht">Was halten Sie vom Boykott ihrer Werke durch die Ravag?</item>
+            <item xml:id="q100" ana="Urheberrecht">Was würde ein besseres Urheberrecht ausmachen?</item>
+            <item xml:id="q101" ana="Urheberrecht">Wie kann der Staat geistiges Eigentum schützen?</item>
+            <item xml:id="q099" ana="Urheberrecht">Wollten Sie nicht eine Weltorganisation des geistigen Rechtschutzes anregen?</item>
+            <item xml:id="q164" ana="Werke">Haben Sie Unveröffentlichtes in der Lade?</item>
+            <item xml:id="q170" ana="Länder">Schätzen Sie die amerikanische Literatur?</item>
+            <item xml:id="q040" ana="Werke">Gibt es ein Vorbild für die Figur des Konrad Herbot?</item>
+            <item xml:id="q075" ana="Werke">Gibt es ein Vorbild für »Fink und Fliederbusch«?</item>
+            <item xml:id="q068" ana="Biografie">Kannten Sie Peter Nansens Bücher, als Sie zu publizieren begannen?</item>
+            <item xml:id="q038" ana="Werke">In welchem Ihrer Werke finden Sie sich selbst ausgedrückt?</item>
+            <item xml:id="q115" ana="Biografie">In welchem Maße hängen Sie von (göttlicher) Eingebung ab?</item>
+            <item xml:id="q076" ana="Werke">Was halten Sie von der Verfilmung von »Anatol«?</item>
+            <item xml:id="q136" ana="Werke">Ist Ihr Tagebuch ebenso freizügig wie die Autobiographie von Frank Harris?</item>
+            <item xml:id="q094" ana="Werke">Ist das Erscheinen Ihrer Werke in Amerika lukrativ?</item>
+            <item xml:id="q054" ana="Werke">Steht der »Reigen« in Berlin auf dem Spielplan?</item>
+            <item xml:id="q061" ana="Werke">Steht der »Reigen« auf dem Spielplan?</item>
+            <item xml:id="q069" ana="Werke">Warum schreiben Sie Ihre Bücher?</item>
+            <item xml:id="q023" ana="Werke">Was halten Sie vom Skandal um »Haus Delorme«?</item>
+            <item xml:id="q073" ana="Werke">Was halten Sie von Frank Wedekinds »Büchse der Pandora«?</item>
+            <item xml:id="q095" ana="Werke">Was halten Sie von der japanischen Übersetzung ihrer Werke?</item>
+            <item xml:id="q096" ana="Werke">Was halten Sie von der »Reigen«-Aufführung in Kopenhagen?</item>
+            <item xml:id="q015" ana="Werke">Was halten Sie von »Die Gefährtin«?</item>
+            <item xml:id="q016" ana="Werke">Was halten Sie von »Freiwild«?</item>
+            <item xml:id="q092" ana="Biografie">Was lesen Sie gerade?</item>
+            <item xml:id="q037" ana="Werke">Was sagen Sie zum Sturm auf die Kammerspiele wegen des »Reigens«?</item>
+            <item xml:id="q055" ana="Werke">Was werden Sie vorlesen?</item>
+            <item xml:id="q014" ana="Werke">Welche Ihrer Arbeiten finden Sie selbst am Besten?</item>
+            <item xml:id="q027" ana="Kunst">Welches Buch empfehlen Sie?</item>
+            <item xml:id="q137" ana="Werke">Welches Ihrer Werke schätzen Sie am meisten?</item>
+            <item xml:id="q135" ana="Werke">Werden Sie Ihr Tagebuch veröffentlichen?</item>
+            <item xml:id="q085" ana="Werke">Wie hat Ihnen die Uraufführung von »Der junge Medardus« gefallen?</item>
+            <item xml:id="q084" ana="Werke">Wie hat Ihnen die Verfilmung des »Jungen Medardus« gefallen?</item>
+            <item xml:id="q082" ana="Werke">Wie hat Ihnen die schwedische Aufführung von »Liebelei« gefallen?</item>
+            <item xml:id="q030" ana="Werke">Wie kam es zu »Der junge Medardus«?</item>
+            <item xml:id="q087" ana="Werke">Wie kam es zum »Anatol«?</item>
+            <item xml:id="q036" ana="Werke">Wie kam es zum »Reigen«?</item>
+            <item xml:id="q031" ana="Werke">Wie kam es zur Opernfassung von »Liebelei«?</item>
+            <item xml:id="q034" ana="Werke">Wie stehen Sie zur Debatte um den »Reigen«?</item>
+            <item xml:id="q132" ana="Werke">Wie viele Bücher haben Sie geschrieben?</item>
+            <item xml:id="q041" ana="Werke">Wie wurde der »Reigen« aufgenommen?</item>
+            <item xml:id="q077" ana="Werke">Wie wurde »Professor Bernhardi« aufgenommen?</item>
+            <item xml:id="q006" ana="Werke">Wie wurden »Lebendige Stunden« in Berlin aufgenommen?</item>
+            <item xml:id="q139" ana="Werke">Wird Ihre gegenwärtige Arbeit alle früheren Werke übertreffen?</item>
+            <item xml:id="q051" ana="Werke">Wird der »Reigen« in Holland aufgeführt werden?</item>
+            <item xml:id="q035" ana="Werke">Wird es bei weiteren Aufführungen des »Reigen« Striche geben?</item>
+            <item xml:id="q045" ana="Werke">Wo liegt das Weite Land?</item>
+            
+            <item xml:id="q001" ana="Werke">Woran arbeiten Sie?</item>
+            <item xml:id="q021" ana="Österreich">Sind Journalisten in Wien unpopulär?</item>
+            <item xml:id="q072" ana="Österreich">Was halten Sie von Wien?</item>
+            <item xml:id="q052" ana="Österreich">Was halten Sie von der Wiener Kunstszene?</item>
+            <item xml:id="q098" ana="Österreich">Was ist das Wesen des Burgtheaters?</item>
+            <item xml:id="q059" ana="Österreich">Wie sind die Verhältnisse an den Wiener Theatern?</item>
+            <item xml:id="q057" ana="Österreich">Wie sind die Verhältnisse in Wien für Schriftsteller?</item>
+            <item xml:id="q056" ana="Österreich">Wie sind die Verhältnisse in Wien und Österreich?</item>
+            <item xml:id="q205" ana="Österreich">Was halten Sie von österreichischer Literatur?</item>
+            <item xml:id="q173" ana="Urheberrecht">Was halten Sie vom Urheberrecht?</item>
+            <item xml:id="q209" ana="Kunst">Wie gehen Sie mit negativer Kritik um?</item>
+            <item xml:id="q211" ana="Kunst">Kann man Autor und Kritiker zugleich sein?</item>
+         </list>
+      </body>
+  </text>
+</TEI>

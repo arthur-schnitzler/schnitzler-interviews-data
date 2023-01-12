@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xml:id="E_toDo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: Interviews</title>
+                <title level="a">Zu Tun</title>
+                <author key="">Müller, Martin Anton</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASI</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Martin Anton Müller</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Martin Anton Müller</publisher>
+                <idno type="ASI-E" n="002"/>
+                <availability status="free">
+                    <p>Copyright © 2018</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Interviews of Arthur Schnitzler</p>
+            </seriesStmt>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="MAM" when="20171117">angelegt</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="text">
+        <body>
+            <div type="writingSession" n="1">
+                <list>
+                    <!--<item>Interviewfragen: Ergänzungen</item>-->
+                    <!--<item>Danksagung überarbeiten</item>-->
+                    <item>Die Übersetzungen müssen kontrolliert werden:
+                        <list><item>sind in der Originalsprache Fehler stehen geblieben?</item>
+                            <item>stimmt die Übersetzung?</item>
+                        </list>
+                    </item>
+                    <item>Lektorat des Kommentars und des Anhangs</item>
+                    <item>Register
+                        <list>
+                            <item>Institutionen und gleichlautende Werke zusammenlegen</item>
+                            <item>Namensvarianten (Ehenamen, Geburtsnamen) bei Namen einbauen</item>
+                            <item>Werke Veröffentlichungsdatum</item>
+                            <item>Straßen und Gebäude zu Orten</item>
+                            <item>Tageszeitungen zu Orten</item>
+                            <item>Verwandtschaftsverhältnisse</item>
+                        </list>
+                    </item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="M148">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#36012">Tolstoi, [Oktober 1908?, unveröffentlicht]</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="148"/>
+         </publicationStmt>
+         <sourceDesc>
+            <origDate when="1908-10-01" n="1">[Oktober 1908?]</origDate>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, A:17,1</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Maschinschriftliches Typosript, zwei Blätter, zwei Seiten, mit
+                           handschriftlichen Korrekturen in Bleistift. Die zwei Zeilen der
+                           Überschrift sind eine Zufügung in Bleistift.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct  corresp="apundbe">
+                  <analytic>
+                     <title level="a" ref="#36012">Tolstoi</title>
+                  </analytic>
+                  <monogr>
+                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <title level="m">Aphorismen und Betrachtungen</title>
+                     <editor>Hg. Robert O. Weiss</editor>
+                     <imprint>
+                        <date when="1967-01-01">1967</date>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                     </imprint>
+                     <biblScope unit="pp">325–326</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2021-11-09">angelegt</change>
+         <change who="MAM" when="2021-11-12">Index check</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div type="original">
+            <head>
+               <rs type="person" ref="#3739">Tolstoi</rs>
+            </head>
+            <head type="sub">(Antwort auf eine Rundfrage, nicht eingesandt)</head>
+            <p>Ich bewundere <rs type="person" ref="#3739">Tolstoi</rs>s Werke und liebe manche von
+               ihnen; besonders »<rs type="work" ref="#34996">Krieg und Frieden</rs>«, »<rs
+                  type="work" ref="#60953">die Kosaken</rs>« und die »<anchor type="commentary"
+                  xml:id="K_R148-1"/>
+               <rs type="work" ref="#60955">Soldatengeschichten</rs>
+               <note type="commentary" xml:id="K_R148-1h">Es dürfte sich um diese Zusammenstellung
+                  handeln: <bibl>
+                     <rs type="person" ref="#3739">Leo Tolstoi</rs>: <rs type="work" ref="#60955"
+                        >Russische Soldatengeschichten und kleine Erzählungen</rs>. Aus dem
+                     Russischen übertragen von Dr. <rs type="person" ref="#60957">Hermann
+                        Roskoschny</rs>. Leipzig: <publisher>Greßner <c rendition="#kaufmannsund"/>
+                        Schramm</publisher>
+                     <space unit="chars" quantity="1"/>
+                     <date>1887</date>
+                  </bibl>.</note>«.</p>
+            <p>Über die kunsttheoretischen und religions-philosophischen Schriften <rs type="person"
+                  ref="#3739">Tolstoi</rs>s kann ich mich kaum äussern, da ich nicht alle und manche
+               nur im Auszug gelesen habe. Doch muss ich gestehen, dass die <subst>
+                  <del rend="strikethrough">Ideen</del>
+                  <add place="above">Ansichten</add>
+               </subst> eines Dichters, seine Ideen als solche, mich immer nur in geringem Masse interessier<subst>
+                  <del rend="strikethrough">en können</del>
+                  <add place="above">t haben</add>
+               </subst>. Ich lebe nämlich in dem sonderbaren Wahn, als wären alle überhaupt
+               möglichen Ideen <subst>
+                  <del rend="strikethrough">, das heisst,</del>
+                  <add place="mixed">und damit <unclear>aber</unclear> die</add>
+               </subst> Fähigkeit <del rend="strikethrough">alle Ideen zu begreifen</del>, sie <del
+                  rend="strikethrough">also</del> auch <del rend="strikethrough">nötigenfalls</del>
+               selbst auszusprechen oder durch <add place="above">die</add> von mir erfundenen <subst>
+                  <del rend="strikethrough">Figuren</del>
+                  <add place="above">Gestalten</add>
+               </subst> aussprechen zu lassen, in meiner Seele vorgebildet, so dass auch die
+               neuesten und bizarrsten für mich keine Überraschung <add place="above">zu</add>
+               bedeuten <add place="inline">vermögen.</add>
+               <space unit="chars" quantity="1"/>
+               <pb/>
+               <subst>
+                  <del rend="strikethrough">Und s</del>
+                  <add place="inline">S</add>
+               </subst>cheint <add place="above">übrigens</add> nicht der Fall <rs type="person"
+                  ref="#3739">Tolstoi</rs>
+               <space unit="chars" quantity="1"/>
+               <del rend="strikethrough">selbst</del> die relative Gleichgültigkeit aller <add
+                  place="above">Ideen, aller</add> theoretischen Erwägungen zu beweisen? Haben ihn
+               seine blasphemischen Ansichten über die Kunst gehindert Kunstwerke hohen Ranges zu
+               schaffen? <subst>
+                  <del rend="strikethrough">Und g</del>
+                  <add place="inline">G</add>
+               </subst>ibt es <del rend="strikethrough">nur</del> einen <add place="above"
+                  >einzigen</add> Menschen, den <rs type="person" ref="#3739">Tolstoi</rs> von <rs
+                  type="person" ref="#2412">Shakespeare</rs> oder von <rs type="person" ref="#3739"
+                  >Tolstoi</rs>
+               <space unit="chars" quantity="1"/>
+               <add place="above">selbst</add> abwendig gemacht hätte? Was mir einen Dichter wert
+               macht sind immer die Gestalten, die er in sich trägt<add place="inline">,</add> und
+               der Rhythmus, in dem er sie erscheinen und walten lässt. Von Allen, die in diesen
+               Tagen leben, gibt es Keinen, dessen Gestalten lebendiger gewandelt und dessen
+               Rhythmus gewaltiger getönt <subst>
+                  <del rend="overwritten">hat</del>
+                  <add place="inline">hätte</add>
+               </subst> als der Dichter <rs type="person" ref="#3739">Tolstoi</rs>.</p>
+         </div>
+         <div type="biographical">
+            <div1>
+               <bibl>
+                  <rs type="person" ref="#26937">Zinaida Vengerowa</rs> an Schnitzler,
+                     <date>1.&#8239;10.&#8239;[1908]</date>
+               </bibl>
+               <quote>Ich sende Ihnen das Rundschreiben des <rs type="person" ref="#3739"
+                     >Tolstoi</rs>comité in <rs type="place" ref="#433">Petersburg</rs> – obgleich,
+                  wie ich glaube, Sie schon ein solches erhalten haben. Das Comité hat mich schon
+                  vor lange beauftragt Sie um einen Beitrag für das <rs type="work" ref="#60961"
+                     >Tolstoialmanach</rs> zu bitten – schickte aber erst jetzt das Rundschreiben.
+                  Deshalb die Verzögerung. Jedenfalls ist noch Zeit bis zu <date>25 Oktober</date> -
+                  u. wenn Sie schon bis jetzt nicht etwas eingesandt haben, hoffe ich daß Sie es
+                  jetzt thun werden. Das Buch soll <rs type="place" ref="#468">Europa</rs>s Gedanken
+                  über <rs type="person" ref="#3739">Tolstoi</rs> bringen – deshalb ist es so sehr
+                  zu wünschen daß keiner der Schriftsteller die wir in <rs type="place" ref="#34438"
+                     >Rußland</rs> hochschätzen, fehlt. Man hofft also sehr auf Ihre
+                  Mitwirkung.</quote>
+            </div1>
+            <div1>
+               <bibl><rs type="person" ref="#2121">Schnitzler</rs> an <rs type="person" ref="#26937">Zinaida Vengerowa</rs>,
+                     <date>8.&#8239;10.&#8239;1908</date></bibl>
+               <quote>Ob ich über <rs type="person" ref="#3739">Tolstoi</rs> etwas
+                     einsende<supplied>n</supplied> werde, weiss ich noch nicht. Mir liegen diese
+                  Sachen so gar nicht<c rendition="#dots" n="2"/> Ich werde übrigens sehn.</quote>
+            </div1>
+         </div>
+      </body>
+   </text>
+</TEI>

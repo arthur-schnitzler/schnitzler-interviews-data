@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="M057">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#30983">Der Fall Jacobsohn, 17.&#8239;12.&#8239;1904</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="057"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <title level="a" ref="#30983">Der Fall Jacobsohn</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#40042">Die Zukunft</title>
+                     <imprint>
+                        <date when="1904-12-17" n="1">17.&#8239;12.&#8239;1904</date>
+                     </imprint>
+                     <biblScope unit="jg">13</biblScope>
+                     <biblScope unit="vol">49</biblScope>
+                     <biblScope unit="nr">12</biblScope>
+                     <biblScope unit="pp">401–404</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#27418">Z.</author>
+                     <title level="a" ref="#33161">Der Fall Jacobsohn</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#58330">Hochland</title>
+                     <imprint>
+                        <date when="1905-02" n="1">Februar 1905</date>
+                     </imprint>
+                     <biblScope unit="jg">2</biblScope>
+                     <biblScope unit="nr">5</biblScope>
+                     <biblScope unit="pp">627–630</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct corresp="ASB1">
+                  <monogr>
+                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefe 1875–1912</title>
+                     <editor>Nickl, Therese</editor>
+                     <editor>Schnitzler, Heinrich</editor>
+                     <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                        <date when="1981">1981</date>
+                     </imprint>
+                     <biblScope unit="pp">499–504</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <monogr>
+                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <title level="m">Medizinische Schriften</title>
+                     <editor>Hg. Horst Thomé</editor>
+                     <imprint>
+                        <pubPlace>Wien, Darmstadt</pubPlace>
+                        <publisher>Zsolnay</publisher>
+                        <date when="1988">1988</date>
+                     </imprint>
+                     <biblScope unit="pp">328–333</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2017-11-17">angelegt</change>
+         <change who="MAM" when="2021-09-16">Index check</change>
+         <change who="KH" when="2021-10-07">Durchsicht</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="text">
+      <body>
+         <div type="original">
+            <head><anchor type="commentary" xml:id="K_I057-1"/>Der Fall <rs type="person" ref="#11813">Jacobsohn</rs><note type="commentary" xml:id="K_I057-1h">
+               <rs type="person" ref="#2121">Schnitzler</rs> reagiert auf: <bibl>
+                  <supplied>
+                     <rs type="person" ref="#11581">Maximilian Harden</rs>
+                  </supplied>: <rs type="work" ref="#32418">Der kleine Jacobsohn</rs>. In: <rs
+                     type="org" ref="#29631">Die Zukunft</rs>, Jg.&#8239;13, Bd.&#160;49,
+                  Nr.&#160;11, <date>10.&#8239;12.&#8239;1904</date>,
+                  S.&#8239;370–378</bibl>, in dem ein Erklärungsversuch für einen Plagiatsvorwurf gegen <rs type="person" ref="#11813">Jacobsohn</rs> gegeben wurde. Erstmals wurde der Vorwurf von <rs
+                     type="person" ref="#11469">Alfred Gold</rs> am <date>12.&#8239;11.&#8239;1904</date> durch
+               ein Schreiben an das <rs type="org" ref="#29329">Berliner Tageblatt</rs>
+               öffentlich gemacht (<bibl>
+                  <rs type="work" ref="#33165">Ein psychologisches Rätsel</rs>, Jg.&#8239;33, Nr.&#8239;579,
+                  Abend-Ausgabe, S.&#8239;2</bibl>.) Darin wurden in einer Synopse drei Stellen aus
+               einer Theaterrezension von <rs type="person" ref="#11469">Gold</rs> über <rs
+                  type="person" ref="#12618">Adele Sandrock</rs> in <rs
+                     type="person" ref="#12899">Sudermann</rs>’s <rs type="work" ref="#31329"
+                        >Heimat</rs> abgedruckt (<bibl>
+                           <rs type="person" ref="#11469">A.&#8239;G.</rs>: <rs type="work" ref="#33167">[Adele
+                              Sandrock in Heimat]</rs>. In: <rs type="org" ref="#29209">Die Zeit</rs>,
+                           Bd. 13, Nr.&#8239;169, S.&#8239;207</bibl>). Gegenübergestellt waren ein Zitat aus <rs
+                              type="person" ref="#11813">Jacobsohn</rs>s Besprechung von <rs type="work"
+                                 ref="#31407">Traumulus</rs> (<rs type="org" ref="#29460">Welt am Montag</rs>,
+               <date>26.&#8239;9.&#8239;1904</date>) sowie zwei aus der Rezension von <rs type="person"
+                  ref="#11201">Eleonora Duse</rs> in <rs type="work" ref="#31329"
+                     >Heimat</rs> (<rs type="org" ref="#29460">Welt am
+                        Montag</rs>, <date>7.&#8239;11.&#8239;1904</date>). Am <date>14.&#8239;11.&#8239;1904</date> erschien die Reaktion <rs
+                           type="person" ref="#11813">Jacobsohn</rs>s, 
+               <rs type="work" ref="#33159">In eigener Sache</rs>, in <rs type="org" ref="#29460">Die
+                     Welt am Montag</rs> (<bibl>Jg.&#8239;10, Nr.&#8239;46, S.&#8239;2</bibl>).</note>
+               <footNote xml:id="FT143-1">
+                  <p>Ein Brief des Dichters (der <hi rend="antiqua">Doctor medicinae</hi> und
+                     praktischer Arzt ist) und eine Ergänzung des im vorigen Heft (»<rs type="work"
+                        ref="#32418">Der kleine Jacobsohn</rs>«) Gesagten.</p>
+               </footNote>
+            </head>
+            <p>Lieber Herr 
+               <rs type="person" ref="#11581">Harden</rs>, man hat Sie wohl berichtet, wenn man Ihnen sagte,
+               daß ich vom ersten Augenblick an zu denen gehörte, die den Fall <rs type="person"
+                  ref="#11813">Jacobsohn</rs> in das Gebiet des Pathologischen zu verweisen
+               wünschten. Allerdings lag das pathologische Moment für mich schon nach dem ersten
+               Eindruck anderswo als dort, wo man es vielfach zu suchen scheint. Ich sagte mir
+               nämlich: Hier ist ein junger Mensch, der sich im Laufe weniger Jahre durch
+               zweifellose Begabung und außerordentlichen Fleiß einen höchst geschätzten Namen als
+               Kritiker erworben hat und dem nun plötzlich schriftstellerische Vergehen vorgeworfen
+               werden, zu denen für ihn, nach Wesen und Umfang seines Talentes, keinerlei Nötigung
+               vorliegen konnte und von denen er auch mit absoluter Sicherheit wissen mußte, daß sie
+               auf die Dauer weder unbekannt noch unbesprochen bleiben würden. Wenn er also trotzdem
+               dieser Vergehen schuldig wurde, so gibt es dafür nur eine einzige Erklärung:
+               zeitweiliges Versagen der Urteilskraft aufgrund einer psychischen Störung, die mir am
+               Verständlichsten wurde, wenn ich sie als gegensätzlich zum Krankheitbilde der
+               Hypochondrie aufzufassen suchte. Während man nämlich bei der Hypochondrie als
+               charakteristische Grundlage für eine Reihe von Symptomen eine Entfesselung der
+               Ideen-Assoziationen in der Richtung betrachten kann, daß durch einen oft
+               geringfügigen Reiz eilige und unaufhaltsame Gedankenfolgen ausgelöst werden, die sich
+               auf allerlei entfernte gefahrvolle Möglichkeiten beziehen, schien es mir im Fall <rs
+                  type="person" ref="#11813">Jacobsohn</rs>, als wenn hier auch die nächstliegenden
+               Erwägungen über die höchst wahrscheinlichen Folgen einer innerhalb des
+               schriftstellerischen Berufes als unerlaubt geltenden Handlung ausgeschaltet würden.
+               Und ich will gleich hinzusetzen, daß mir bisher der Anlaß fehlt, von dieser ersten
+               Auffassung abzugehen. Weder leuchtete mir der 
+               <rs type="work" ref="#33159" subtype="implied">Erklärungversuch</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="#11813">Jacobsohn</rs>s in der »<rs type="org" ref="#29460"
+                  >Welt am Montag</rs>« ein, noch scheint mir die sogenannte »<anchor
+                  type="commentary" xml:id="KT143-2"/>Lösung des psychologischen Rätsels<note
+                  type="commentary" xml:id="KT143-2h">Dieses Privatgutachten wurde von <rs
+                     type="person" ref="#11813">Jacobsohn</rs> versandt, <bibl>
+                     <rs type="person" ref="#29083">Arthur R. H. Lehmann</rs>: <rs type="work"
+                        ref="#33157">[Der Fall Jacobsohn. Lösung des psychologischen Rätsels]</rs>.
+                     In: <rs type="work" ref="#59353">Montags-Revue aus Böhmen</rs>, Jg.&#8239;26, Nr.&#8239;48,
+                        <date>28.&#8239;11.&#8239;1904</date>, S.&#8239;6</bibl>. Ob es <rs type="person" ref="#2121"
+                     >Schnitzler</rs> unmittelbar oder durch einen Abdruck in einer Zeitung oder
+                  Zeitschrift bekannt war, ist nicht geklärt.</note>« durch Herrn <rs type="person"
+                  ref="#29083">Arthur R. H. Lehmann</rs> auf den Fall <rs type="person" ref="#11813"
+                  >Jacobsohn</rs> mit genügender Sicherheit anwendbar. Herr <rs type="person"
+                  ref="#29083">Lehmann</rs> citirt Fälle von außergewöhnlich gesteigertem Gedächtniß
+               unter sonst normalen Geistesverhältnissen und ferner Fälle von außergewöhnlichen
+               Gedächtnißsteigerungen im Verlauf gewisser Gehirnkrankheiten oder solcher
+               Krankheiten, bei denen es sekundär zu hyperämischen Störungen im Gehirn (im
+               Sprachcentrum oder in der Nähe des Sprachcentrums) kommt. Daß alle von <rs
+                  type="person" ref="#29083">Lehmann</rs> citirten Beispiele an sich vollkommen
+               einwandfrei sind, versteht sich von selbst; nur geben sie meiner Empfindung nach
+               keinen Aufschluß über den Fall <rs type="person" ref="#11813">Jacobsohn</rs>. Worin
+               besteht denn das Charakteristische und höchst Eigentümliche dieses Falles, wenn man
+               ihn,<pb/> wie <rs type="person" ref="#11813">Jacobsohn</rs> selbst und wie <rs
+                  type="person" ref="#29083">Lehmann</rs>, als chronische Affektion in der Nähe des
+               Sprachcentrums auffassen will? Besteht es in dem stupenden Gedächtniß, das sich in
+               der konstanten Fähigkeit ausspräche, Wort- und Satzfolgen, die vor langer Zeit
+               gelesen oder gehört wurden, bewußt zu reproduziren, oder darin, daß die Reproduktion
+               solcher Wort- und Satzfolgen zwangsartig infolge gewisser vorübergehender
+               Reizzustände im Sprachcentrum auftritt? Oder handelt es sich hier um eines jener
+               (gewiß nicht sehr häufigen) Phänomene, wo im Verlauf eines hysterischen Anfalles,
+               einer fieberhaften Erkrankung oder irgendeines anderen krankhaften Zustandes, der
+               einen Reiz in oder neben dem Sprachcentrum auslöst, Wort- oder auch Tonfolgen
+               reproduzirt werden, die der Kranke in gesundem Zustand gar nicht oder mindesten nicht
+               so genau reproduziren könnte wie unter dem Einflüsse seiner Krankheit? Diese Fälle
+               sind beinahe immer mit Amnesie verbunden. Das heißt: die betreffenden Kranken
+               erinnern sich nachher nicht des Umstandes, daß sie in ihrem Anfall die Wort- oder
+               Tonfolgen reproduzirt und wiedergegeben haben. Und ferner werden diese Wort- und
+               Tonfolgen mit mathematischer Genauigkeit, ja, um bei dem Vergleich <rs type="person"
+                  ref="#29083">Lehmann</rs>s zu bleiben, ähnlich wie von einem Grammophon
+               abgeschnurrt. Gewiß aber gibt es auch Übergangsfälle, wo die Reproduktion der Wort-
+               oder Tonfolgen nicht unbewußt, sondern nur mechanisch, also unter einer gewissen
+               Kontrolle des Bewußtseins und ohne nachfolgende Amnesie, erfolgt. In all diesen
+               Fällen aber ist der Ersatz eines Wortes innerhalb der reproduzirten Wortfolge durch
+               ein anderes unter Mithilfe des Urteilsvermögens nach den bisherigen Erfahrungen
+               ausgeschlossen. Gerade dieser Vorgang aber tritt bei <rs type="person" ref="#11813"
+                  >Jacobsohn</rs> ein; und man müßte es geradezu als das Eigentümliche dieses Falles
+               ansprechen (wenn wir ihn eben als chronischen Reizzustand in der Nähe des
+               Sprachcentrums auffassen wollen), daß erstens innerhalb des mechanischen Ablaufes
+               einer reproduzirten Wortfolge (wie sie sich in den unter Verdacht stehenden Kritiken
+               vorfinden) das eine oder das andere für den betreffenden Anlaß nicht geeignete Wort
+               durch ein geeignetes (zum Beispiel: »<rs type="work" ref="#31329">Magda</rs>« durch
+                  »<rs type="work" ref="#31407">Traumulus</rs>«) ersetzt wird und daß zweitens die
+               Wortfolge regelmäßig dort, wo im mechanischen Ablauf Name oder Chiffre des wirklichen
+               Verfassers stehen sollte, jäh abreißt. Nun sollte man aber wenigstens glauben, daß
+               durch dieses plötzliche Einsetzen bewußter Urteilskraft der Kranke aufgestört würde,
+               etwa wie ein angerufener Nachtwandler, und selbst bemerken müßte, daß die unter Zwang
+               reproduzirten Wortfolgen nicht von ihm herrühren. Wenn es sich aber so verhält, dann
+               zieht <rs type="person" ref="#11813">Jacobsohn</rs> keinenfalls die nötigen
+               Konsequenzen daraus; denn die auf so seltsame Weise entstandenen Kritiken sind ja
+               gedruckt und von <rs type="person" ref="#11813">Jacobsohn</rs> selbst unterzeichnet
+               worden. </p>
+            <p>Nun hielte ich es ja nicht für unmöglich, daß durch die Macht eines neuen Eindruckes,
+               trotz dem Zwang, mit dem alte Wortfolgen reproduzirt<pb/> wurden, gelegentlich die
+               Substituierung eines Wortes durch ein anderes, passenderes erfolgen, ja, selbst daß
+               einmal ein jähes Abreißen der Wortfolge gerade in dem Moment erfolgen könnte, wo die
+               Chiffre oder der Name des ursprünglichen Verfassers zu erscheinen hätte. Aber solche
+               Vorgänge als regelmäßige anzuerkennen, wehrt sich alles in mir, was ich an Einsicht
+               in gesunde und kranke Seelen besitze. Freilich kommt es weiter nicht in Betracht, daß
+               ein Fall wie der <rs type="person" ref="#11813">Jacobsohn</rs>s bisher meines Wissens
+               weder publizirt noch überhaupt beobachtet worden ist; doch müßte er seine Logik in
+               sich tragen, wie alles Menschliche. <rs type="person" ref="#11813">Jacobsohn</rs>
+               erzählt in seiner früher erwähnten Erwiderung einen Vorfall, der nur gegen seinen
+               eigenen Erklärungversuch auszunützen ist; er erzählt, wie er sich einmal auf
+               irgendeine Anregung im Gespräch hin sofort erinnert habe, was ein bestimmter Kritiker
+               bei einer bestimmten Gelegenheit über einen bestimmten Schauspieler geschrieben
+               hatte. In diesem Fall hat also <rs type="person" ref="#11813">Jacobsohn</rs> eine
+               logische Wortfolge nicht nur bewußt reproduzirt, sondern er hat auch gewußt, auf wen
+               sich die Wortfolge bezog und von wem sie herrührte. In den Fällen, die man ihm zum
+               Vorwurf macht, ist gerade das Gegenteil bemerkenswert: er reproduzirt, wenn schon
+               nicht unbewußt, doch gegen seinen Willen und trotz dem Bedürfniß, eigene Worte zu
+               finden, er glaubt, diese Wortfolgen selbst gefunden zu haben, ersetzt aber zugleich
+               die für den neuen Anlaß nicht passenden Eigennamen und Ausdrücke durch die richtigen,
+               die in den Rahmen der neuen Kritik hineinpassen. Vor diesem Ineinanderspielen von
+               Wahnsinn und Methode wollen sich meine Zweifel nicht beruhigen; und darum kann ich
+               mich vorläufig den Erklärungversuchen des Falles <rs type="person" ref="#11813"
+                  >Jacobsohn</rs>, die ihn als eine chronische Affektion in der Nähe des
+               Sprachcentrums deuten wollen, nicht anschließen. Aber wie fern es mir liegt, <rs
+                  type="person" ref="#11813">Jacobsohn</rs> durch meine Zweifel verletzen zu wollen,
+               sollen Sie gleich hören. Gerade sein Rechtfertigungversuch ist mir ein neuer Beweis
+               für die Richtigkeit meiner Auffassung seines Zustandes; denn dieser Versuch scheint
+               mir nichts als eine Unüberlegtheit mehr. Und im Interesse der Zukunft <rs
+                  type="person" ref="#11813">Jacobsohn</rs>s, an die ich glaube, wünschte ich, mit
+               dieser Meinung recht zu behalten. Denn wenn <rs type="person" ref="#11813"
+                  >Jacobsohn</rs>s Krankheit wirklich auf dem unwiderstehlichen Zwang zu mehr oder
+               minder unbewußten Reproduktionen aufgrund einer chronischen Affektion in der Nähe des
+               Sprachcentrums beruhte, so müßte man den jungen Mann auf unbestimmte Zeit hinaus,
+               wenn nicht auf immer, für die Wiederaufnahme seiner kritischen Tätigkeit verloren
+               geben; hat es sich aber, wie ich eben glaube, nur um jenes Gegenteil von Hypochondrie
+               gehandelt, das ihn zu Unvorsichtigkeiten und Unüberlegtheiten gelangen ließ und das
+               nur als pathologisch und nicht als unredliches Beginnen gedeutet werden dürfte, so
+               bin ich überzeugt, daß <rs type="person" ref="#11813">Siegfried Jacobsohn</rs>, der
+               begeisterte Freund des Theaters, der glänzende Stilist und der unter normalen
+               Umständen so selbständige Kritiker,<pb/> für alle künftigen Zeiten vor einer
+               Wiederkehr ähnlicher Anfälle gefeit ist und seine Feder bald wieder mit Glück und
+               Ehren führen wird. Denn wenn auch ein Dutzend oder zwanzig oder hundert Stellen in
+               seinen Kritiken nicht von ihm selbst herrühren: wie vieles bleibt trotzdem noch
+               übrig, woraus die Fähigkeiten dieses Dreiundzwanzigjährigen unverkennbar zu uns
+               sprechen! Nicht der Fall an sich, der sich hier ereignet hat, scheint mir tragisch:
+               er wird es nur dadurch, daß man ihn gar zu leicht gegen den Betroffenen ausnützen und
+               besonders aufgrund jener nicht glücklichen Erklärungversuche ihm die Wiederaufnahme
+               seiner Tätigkeit unmöglich machen könnte. Und darum wünschte ich in <rs type="person"
+                  ref="#11813">Jacobsohn</rs>s eigenstem Interesse, daß er sich selbst meiner
+               Auffassung zuwende, nach der mir die Möglichkeit einer Wiederkehr seiner psychischen
+               Störung so gut wie ausgeschlossen scheint. Meine besten Wünsche sind bei ihm. </p>
+            <p>Mit herzlichem Gruß Ihr aufrichtig ergebener </p>
+            <p>
+               <signed>
+                  <hi rend="spaced_out">Arthur Schnitzler</hi>.</signed>
+            </p>
+            <p>
+               <rs type="place" ref="#50">Wien</rs>.</p>
+         </div>
+         <div type="biographical">
+            <div1>
+               <ref type="schnitzlerDiary" target="1904-12-03"/>
+               <quote>Vm. dictirt (über <rs type="person" ref="#11813">Jacobsohn</rs> an <rs
+                     type="person" ref="#11581">Harden</rs>), <rs type="work" ref="#29903"
+                        >N<supplied>eue</supplied>. E<supplied>he</supplied>.</rs> wieder von vorn.
+                  / Nm. wieder an diesem <rs type="work" ref="#30983">Brief</rs>; später <rs
+                     type="work" ref="#29903">N. E</rs>.–</quote>
+            </div1>
+            <div1>
+               <ref type="schnitzlerDiary" target="1904-12-05"/>
+               <quote>
+                  <rs type="work" ref="#30983">Brief</rs> an <rs type="person" ref="#11581"
+                     >Harden</rs> umgearbeitet.–</quote>
+            </div1>
+            <div1>
+               <ref type="schnitzlerDiary" target="1904-12-06"/>
+               <quote>Vm., während ich den <rs type="work" ref="#30983">Brief</rs> an <rs
+                     type="person" ref="#11581">Harden</rs> nochmals dictirte, kam <rs type="person"
+                     ref="#27882">Fritz Wärndorfer</rs>
+                  <space unit="chars" quantity="1"/>
+                  <gap reason="outOfScope" unit="lines" quantity="99"/></quote>
+            </div1>
+            <div1>
+               <ref type="schnitzlerDiary" target="1904-12-17"/>
+               <quote>In der <rs type="org" ref="#29631">Zukunft</rs> ist mein Brief an <rs
+                     type="person" ref="#11581">Harden</rs> als Artikel gedruckt. ›<rs type="work"
+                     ref="#30983">Der Fall <rs type="person" ref="#11813">Jacobsohn</rs>
+                  </rs>‹.–</quote>
+            </div1>
+            <div1>
+               <ref type="schnitzlerDiary" target="1904-12-19"/>
+               <quote>Dann kam <rs type="person" ref="#11813">Jacobsohn</rs>, der einige Wochen hier
+                  bleiben will, dankte mir sehr für den <rs type="work" ref="#30983">Brief</rs>, der
+                  ihm mehr genützt hätte als alles, was bisher für ihn geschehn. (Nachm. hatt ich
+                  von einem gewissen <rs type="person" ref="#11541">Gugitz</rs> einen schnöden aber
+                  nicht unhöflichen, traurigen, verstimmenden Brief erhalten, gegen meinen.)</quote>
+            </div1>
+            <div1>
+               <ref type="schnitzlerDiary" target="1904-12-20"/>
+               <quote>Brief <rs type="person" ref="#2167">Saltens</rs>, mit Bemerkung, er hätte über
+                  meinen Artikel <rs type="work" ref="#30983">J.</rs> wesentliches zu bemerken,
+                  irritirte mich. (Bin zum Journalisten nicht geschaffen!) –</quote>
+            </div1>
+            <div1>
+               <ref type="schnitzlerDiary" target="1904-12-23"/>
+               <quote>Abd. <rs type="place" ref="#44">Riedhof</rs> mit <rs type="person" ref="#2173"
+                     >O</rs>.– <rs type="person" ref="#2167">Salten</rs>.– Über <rs type="person"
+                     ref="#11391">Fuldas</rs> Klage gegen <rs type="person" ref="#10815">Bahr</rs>
+                     (<rs type="person" ref="#10815">Bahr</rs>: ›<rs type="work" ref="#30045"
+                     subtype="implied">gieriger Jobber</rs>‹), über meinen <rs type="work"
+                     ref="#30983" subtype="implied">
+                     <rs type="person" ref="#11813">Jacobsohn</rs>
+                     <space unit="chars" quantity="1"/>Artikel</rs>.</quote>
+            </div1>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="M029">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#33003">Die Leichenfeier für Otto Brahm, 2.&#8239;12.&#8239;1912</title>
+            <author/>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="029"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author>[O. V.]</author>
+                     <title level="a" ref="#33003">Die Leichenfeier für Otto Brahm. (Telegramm der
+                        »Neuen Freien Presse«)</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#36374">Neue Freie Presse</title>
+                     <imprint>
+                        <date when="1912-12-02" n="1">2.&#8239;12.&#8239;1912</date>
+                     </imprint>
+                     <biblScope unit="nr">17.342, Nachmittagblatt</biblScope>
+                     <biblScope unit="pp">6–7</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2017-11-17">angelegt</change>
+         <change who="MAM" when="2018-02-14">Index check</change>
+         <change who="KH" when="2021-10-13">Durchsicht</change>
+      </revisionDesc>
+   </teiHeader>
+   <!-- http://anno.onb.ac.at/cgi-content/anno?aid=nfp&datum=19121202&seite=6&zoom=33 -->
+   <text type="text">
+      <body>
+         <div type="original">
+            <head>Die Leichenfeier für <rs type="person" ref="#10986">Otto Brahm</rs>.</head>
+            <head type="sub">(Telegramm der »<rs type="org" ref="#29351">Neuen Freien
+               Presse</rs>«.)</head>
+            <p rend="right">
+               <rs type="place" ref="#168">
+                  <hi rend="spaced_out">Berlin</hi>
+               </rs>, <date>2. Dezember</date>.</p>
+            <p>In der Urnenhalle des neuerbauten <rs type="place" ref="#1039">Berliner
+                  Krematoriums</rs> fand gestern vormittag um <time>10 Uhr</time> die Trauerfeier
+               für <rs type="person" ref="#10986">Otto <hi rend="spaced_out">Brahm</hi>
+               </rs> statt. Die Feuerbestattung erfolgt in <rs type="place" ref="#506">Hamburg</rs>,
+               denn das <rs type="place" ref="#206">preußische</rs> Gesetz, in welchem die <rs
+                  type="place" ref="#206">preußische</rs> Regierung die Leichenverbrennung zwar
+               endlich erlaubt, zugleich aber den reaktionären Parteien das Zugeständnis gemacht
+               hat, sie nach Möglichkeit zu erschweren, enthält die Bestimmung, daß die Leiche nur
+               verbrannt werden darf, wenn der Verstorbene dies in einer beglaubigten Urkunde
+               ausdrücklich verfügt hat. Nun hat zwar <rs type="person" ref="#10986">Otto Brahm</rs>
+               die Verbrennung gewünscht, aber eine beglaubigte Urkunde liegt darüber nicht vor. So
+               kann denn die Feuerbestattung in <rs type="place" ref="#206">Preußen</rs> nicht
+               stattfinden, und muß in <rs type="place" ref="#506">Hamburg</rs> erfolgen, wo das <rs
+                  type="place" ref="#206">preußische</rs> Gesetz keine Geltung hat. Die Trauerfeier
+               aber wurde in <rs type="place" ref="#168">Berlin</rs> veranstaltet.</p>
+            <p>Die <rs type="place" ref="#1040">Urnenhalle</rs> auf dem alten städtischen Friedhof,
+               in der sie stattfand, ist ein vortreffliches Werk der modernen <rs type="place"
+                  ref="#168">Berlin</rs>er Baukunst, die seit etwa einem Jahrzehnt Hervorragendes zu
+               leisten beginnt. Eine gewisse Feierlichkeit der architektonischen Form im Verein mit
+               der dürsteren Färbung des Gesteins bringt im Inneren wie im Aeußern des Ge<pb/>bäudes
+               den ernsten Zweck zum Ausdruck, dem es dient. In der Halle war der Sarg aufgestellt,
+               von Blumen und Kränzen gänzlich bedeckt; ringsum brannten Lichter. In der ersten
+               Reihe saß als nächster Hinterbliebener <rs type="person" ref="#10986">Otto
+                  Brahms</rs> Bruder, der Schauspieler <rs type="person" ref="#5187">Ludwig <hi
+                     rend="spaced_out">Brahm</hi>
+               </rs> aus <rs type="place" ref="#506">Hamburg</rs>, mit seiner <anchor
+                  type="commentary" xml:id="K_implied_29038"/>
+               <rs type="person" subtype="implied" ref="#29038">Gemahlin</rs>
+               <note type="commentary" xml:id="K_implied_29038h">
+                  <rs type="person" ref="#29038">Martha Brahm</rs>
+               </note>. Er war tiefbewegt, denn die beiden Brüder waren einander mit großer Liebe
+               zugetan. Justizrat <rs type="person" ref="#4532">
+                  <hi rend="spaced_out">Jonas</hi>
+               </rs>, der nächste Freund des Verstorbenen, hatte seinen Platz neben den
+               Familienangehörigen, und auch <rs type="person" ref="#11617">Gerhart <hi
+                     rend="spaced_out">Hauptmann</hi>
+               </rs> saß in der ersten Reihe der Leidtragenden. Die Trauerversammlung war überaus
+               zahlreich, trotz der für die Großstadt verhältnismäßig frühen Stunde und trotz der
+               weiten Entfernung des <rs type="place" ref="#1039">Krematoriums</rs> vom Zentrum der
+               Stadt. Was nur irgend zur <rs type="place" ref="#168">Berlin</rs>er Theaterwelt
+               gehört, war erschienen, Direktoren, Schauspieler und Schauspielerinnen. Vollzählig
+               hatte sich das Ensemble des <rs type="place" ref="#18">Lessing-Theaters</rs>
+               eingefunden. Die Damen alle in Trauerkleidung. Anwesend waren auch alle bekannten
+               Persönlichkeiten des literarischen <rs type="place" ref="#168">Berlin</rs> wie <rs
+                  type="person" ref="#12899">
+                  <hi rend="spaced_out">Sudermann</hi>
+               </rs>, <rs type="person" ref="#14328">
+                  <hi rend="spaced_out">Blumenthal</hi>
+               </rs> sowie viele andere, und außer <rs type="person" ref="#11617">Gerhart <hi
+                     rend="spaced_out">Hauptmann</hi>
+               </rs> erwiesen auch noch andere Autoren, deren Werke <rs type="person" ref="#10986"
+                  >Otto Brahm</rs> mit Vorliebe aufgeführt hat, ihm die letzte Ehre. Die modernen
+               Dramatiker <rs type="place" ref="#41240">Oesterreichs</rs> vertrat <rs type="person"
+                  ref="#2121">Artur <hi rend="spaced_out">Schnitzler</hi>
+               </rs>. Die Trauerversammlung füllte den unteren Raum der Halle und die beiden
+               Galerien, die sich darüber hinziehen und in deren Hintergrund die Urnen stehen. </p>
+            <p>Die Trauerfeier verlief schlicht und würdig: sie begann mit Harmoniumspiel und
+               Gesang. Dann folgten die Redner, die alle nur in möglichst gedrängten Worten von dem
+               Verstorbenen Abschied nahmen. Harmoniumspiel und Gesang machten den Schluß. Was die
+               einzelnen Ansprachen betrifft, so soll man gewiß über Reden bei einer Trauerfeier
+               kein Urteil abgeben, aber auch eine Trauerversammlung empfängt Eindrücke und diese
+               Eindrücke hörte man später dahin formulieren, daß <rs type="person" ref="#11617"
+                  >Gerhart <hi rend="spaced_out">Hauptmanns</hi>
+               </rs> Rede sich vielleicht wärmer lesen wird als sie sich anhörte, daß <rs
+                  type="person" ref="#2121">Artur <hi rend="spaced_out">Schnitzler</hi>
+               </rs> sich der Aufgabe im Namen von Neu-<rs type="place" ref="#41240"
+                  >Oesterreich</rs>, wie er selbst es nannte, zu sprechen in einfacher und vornehmer
+               Form entledigte und daß diejenigen Worte, die am meisten zu Herzen gingen, eigentlich
+               der künstlerische Gegner des Verstorbenen, der Generalintendant Graf <rs
+                  type="person" ref="#11795">
+                  <hi rend="spaced_out">Hülsen-Haeseler</hi>
+               </rs> fand. </p>
+            <head type="sub">Trauerrede <rs type="person" ref="#11617">Gerhart
+               Hauptmanns</rs>.</head>
+            <p>
+               <rs type="person" ref="#11617">Gerhart <hi rend="spaced_out">Hauptmann</hi>
+               </rs> ergriff zuerst das Wort und sagte folgendes: »Der hier liegt, ist nicht der
+               erste Freund, den ich verloren habe, nicht der erste ausgezeichnete Mensch, den die
+               Welt verliert, aber solche Verluste sind für die zurückbleibenden Ereignisse von
+               mysteriöser Tiefe immer gleich überraschend, verwirrend und schmerzlich. Indem ich
+               hier rede, in Gegenwart eines Toten, der noch vor ganz kurzer Zeit eine volle und
+               ganz lebendige Gegenwart war, bin ich, wie jemand, dem ein Teil seines Wesens
+               entrissen wurde und dessen Wunde noch offen ist. Davon gebe ich Zeugnis; ich sage
+               ganz einfach, ein wie wichtiger Teil meiner Seele mit diesem Manne verbunden war und
+               durch sein Scheiden versehrt wurde. Wir waren verbunden durch eine verwandte
+               Innerlichkeit und durch äußere Umstände. <hi rend="spaced_out">Das Werk dieses Mannes
+                  war zum Teil mein Werk und mein Werk war zum Teil das Werk dieses Mannes.</hi>
+               Durch nahezu 25 Jahre hielten wir innerlich und äußerlich in dem wunderlichen Kriege
+               dieses Lebens zusammen und kämpften für eine Sache, der wir Schritt für Schritt Boden
+               gewannen. Waren auch andere gleichwertige Kämpfer mit uns im Kampf verbunden, so gab
+               es etwas, das uns noch tiefer verband; ich darf es nennen: <hi rend="spaced_out">das
+                  Ideal. Dieser Mensch, Mann und Freund, war deutscher Idealist in reinstem
+                  Sinne.</hi> Wenn wir ein Bild für das Wesen einsetzen, so kann man von einer
+               Standarte des Ideals reden, die er hoch hielt. Ein solches Feldzeichen kann
+               schwanken, ja sinken, ohne Unehre, sofern ihr Träger es festhält, das heißt, nicht
+               wegwirft. Der hier liegt, hat die Standarte fest gehalten und niemals
+               weggeworfen.</p>
+            <p>Die hier Versammelten kennen ihn. Ich habe nicht nötig, Beweise für mein Zeugnis
+               beizubringen. Wir wissen, daß diesen tief wertvollen Mann die besondere deutsche
+               Eigenschaft des Idealismus auszeichnete. Nicht eines vagen Idealismus, sondern eines
+               fest begründeten, von Ueberlegung und Umsicht getragenen, eines mit Mut und mit
+               Zähigkeit gepaarten Idealismus. Ich glaube nicht, daß in der Geschichte des deutschen
+               Theaters eine solche Verbindung von drastischer Kraft und ideeller Kraft jemals vor
+               ihm dagewesen ist. Er zwang das Theater zu einer ernsten, echten und lebendigen
+               Kunst, er brachte es dem Leben und ihm das Leben nahe in einer Weise, wie es bis
+               dahin niemals geschehen ist. Und in <rs type="person" ref="#10986">Brahm</rs>
+               verkörperte sich eine andere deutsche Eigenschaft: die oft gerühmte, weniger oft
+               wirklich anzutreffende deutsche Treue. Nicht nur, daß er sie der Sache hielt, er
+               hielt sie auch der Person. Das wissen alle, die ihn gekannt haben und die seine feste
+               Treue erfahren haben. Er nahm Schwächen in Kauf, um der Treue willen, und er stützte
+               Schwankende, Strauchelnde und Mutlose. Sein Leben war kein leichter Dienst. Sein
+               Beruf war schwer. Es mag Leute geben, die einen Kampf für die Würde des deutschen
+               Theaters nicht für wichtig genug ansehen, um an seinem Ernst zu glauben. Es ist sein
+               Verdienst, seine Wichtigkeit erkannt und seine Person dafür eingesetzt zu haben. Er
+               belud sich deshalb mit Sorgen, Mühen und Aufgaben aller Art, unternahm Feldzüge,
+               erlebte Siege und Niederlagen, Erfüllungen und Enttäuschungen weit ab von dem Dasein,
+               wie es der ruhige Bürger in Bequemlichkeit führen kann. Das Verantwortlichkeitsgefühl
+               eines bedeutenden Staatsmannes, dem das Geschick seines Vaterlandes in die Hand
+               gegeben ist, kann nicht größer sein. Er bedarf keiner größeren Summe von Arbeit,
+               Ausdauer, Umsicht und Tapferkeit. <hi rend="spaced_out">Der Mann, der hier liegt, hat
+                  einen wahren Kulturkampf ritterlich durchgefochten.</hi>
+            </p>
+            <p>Er ehrte sich selbst durch diesen Kampf. Er mehrte den deutschen Kulturbesitz, und
+               dieses Bewußtsein genügte ihm. Rücksicht auf andere äußere Ehre kannte er nicht. Aber
+               der <anchor type="commentary" xml:id="K_implied_5190"/>
+               <rs type="person" subtype="implied" ref="#5190">König von Norwegen</rs>
+               <note type="commentary" xml:id="K_implied_5190h">
+                  <rs type="person" ref="#5190">Christian Haakon VII.</rs>
+               </note> hat gerade darum diesen <rs type="work" ref="#32997">Ritter von Geist</rs>,
+               diesen Ritter von deutschem Geist zum Ritter des <rs type="org" ref="#29242">Sankt
+                  Olaf-Ordens</rs> geschlagen.</p>
+            <p>Wir aber, wie ehren wir diesen Mann? Indem wir sein lebendiges Werk erhalten und
+               fortsetzen! Das Werk, dessen Bedeutsamkeit sich dem Betrachter immer tiefer und
+               tiefer erschließt. Es hat auf einer gewissen Ebene die Einheit von Kunst und Volk zum
+               Ereignis gemacht. Das Theater ist in ihm gleichsam zum Atmungsorgan der Volksseele
+               geworden. Er gab dem Abseitigen, eigentlich Volks- und Weltfremden die schlichte
+               Kraft einer naturnotwendigen Funktion. Wir danken dir, lieber <rs type="person"
+                  ref="#10986">Brahm</rs>, für alles, was du so hingebungsvoll für deutsche Art und
+               Kunst geleistet hast, und ich danke dir für deine niemals schwankende Freundestreue.
+               Ich sage dir ade, ade, du ausgezeichneter, treuer Mensch, Mann und Freund.« </p>
+            <head type="sub">Die Trauerrede <rs type="person" ref="#2121">Artur
+               Schnitzlers</rs>.</head>
+            <p>Die Rede <rs type="person" ref="#2121">Artur <hi rend="spaced_out">Schnitzlers</hi>
+               </rs> bei der Trauerfeier für <rs type="person" ref="#10986">Otto Brahm</rs> hatte
+               ungefähr folgenden <anchor type="commentary" xml:id="KT115-2"/>Wortlaut<note
+                  type="commentary" xml:id="KT115-2h">Die Grabrede auf Papier des <rs type="place"
+                     ref="#1090">Hotels Adlon</rs> heute im <bibl>
+                     <publisher>DLA Marbach</publisher>, HS.NZ85.1.93</bibl>. <bibl>Abgedruckt in
+                        <title level="j">Neue Zürcher Zeitung</title>, Nr. 425,
+                        <date>13. 9. 1970</date>, Beilage Literatur und Kunst</bibl>. </note>: </p>
+            <p>»Es ist heute gerade eine Woche, daß ich <rs type="person" ref="#10986">Otto
+                  Brahm</rs> das letztemal gesehen habe. Es war ein Sonntag wie heute, heller und
+               schöner als heute. Er kam eben von einem Spaziergang zurück, seinem allerletzten.
+               Denn für den nächsten Tag stand ihm der schwere Gang bevor, von dem er in sein Heim
+               nicht mehr wiederkehren sollte, und auch noch in dieser Stunde, die schon von
+               schweren Schatten umdunkelt war, zeigte er für allerlei Angelegenheiten, die mehr
+               mich berührten, als ihn und ihm in diesem Augenblicke recht <anchor type="textConst"
+                  xml:id="TT115-1"/>geringfügig<note type="textConst" xml:id="TT115-1h"
+                     ><quote>gringfügig</quote></note> erscheinen mochten, das gleiche
+               teilnehmende Interesse wie auch sonst. Und als ich ihn verließ mit bösen Ahnungen, da
+               ging mir die ganze Zeit unserer Bekanntschaft, unseres Verbundenseins durch den Sinn,
+               und ich dachte insbesondere an den Anfang unserer Beziehungen, dachte an eine kleine
+               Feier, die an seinem <anchor type="commentary" xml:id="KT115-1"/>vierzigsten
+                  Geburtstage<note type="commentary" xml:id="KT115-1h">eigentlich am Vorabend des
+                  Geburtstags, am <date>4.&#8239;2.&#8239;1896</date>, unmittelbar im Anschluss an die <rs
+                     type="place" ref="#168">Berliner</rs> Premiere von <rs type="work" ref="#29917"
+                     >Liebelei</rs>
+               </note> stattfand und bei der ich das erstemal öffentlich vor einem kleinen Kreise
+               das Wort an ihn gerichtet habe. Es galt damals, ihm zu danken für das schöne
+               Verständnis, das er einem meiner ersten Werke entgegengebracht hatte. Und heute an
+               seinem Sarg stehe ich wieder da, um ihm zu danken. Heute nicht für mich allein,
+               sondern auch <hi rend="spaced_out">im Namen meiner Landsleute, im Namen jenes neuen
+                  literarischen </hi>
+               <rs type="place" ref="#41240">
+                  <hi rend="spaced_out">Oesterreich</hi>
+               </rs>
+               <hi rend="spaced_out">, dem er so viel Verständnis und Liebe entgegengebracht hat. In
+                  den Anfängen manchmal vielleicht mehr Liebe als die Heimat selbst.</hi>
+            </p>
+            <p>Mir persönlich ist er ein Freund gewesen, wie einem im Leben nur wenige beschieden
+               sind. Und <anchor type="textConst" xml:id="TT115-2"/>läge<note type="textConst"
+                  xml:id="TT115-2h"><quote>länge</quote></note> hier auch nicht der <rs
+                  type="person" ref="#10986">Otto Brahm</rs>, der dem deutschen Theater und der
+               deutschen Kulturgeschichte angehört, den Freund, den wunderbaren Menschen könnte mein
+               Herz nie vergessen. Fahre wohl, <rs type="person" ref="#10986">Otto Brahm</rs>!«</p>
+            <head type="sub">Die Rede des Grafen <rs type="person" ref="#11795"
+               >Hülsen-Haeseler</rs>.</head>
+            <p>Generalintendant Graf <rs type="person" ref="#11795">
+                  <hi rend="spaced_out">Hülsen-Haeseler</hi>
+               </rs> hielt im Namen des <rs type="org" ref="#29769">Bühnenvereines</rs> die
+               folgendes Rede: </p>
+            <p>»In tiefer, ernster Trauer treten auch wir vom <rs type="org" ref="#29769">Deutschen
+                  Bühnenverein</rs> hier an diese Bahre. Gilt es doch, Abschied zu nehmen von einem
+               langjährigen treuen Kollegen, der uns viel gewesen ist als Künstler wie als Mensch.
+               Achtzehn Jahre hindurch hat er unter uns gewirkt in stiller Arbeit mit großem Willen
+               und Können, mit seinem klugen Rat und seiner reichen Erfahrung, mit seiner
+               überzeugenden, stets maßvollen Beredsamkeit, vor allem aber mit der Macht seiner
+               offenen, schlichten Persönlichkeit. Eine Natur wie er, aufrecht, bescheiden, stolz,
+               nie eigensinnig, aber festhaltend an dem, was ein klug und kühn erwägender Sinn für
+               richtig erkannt, mußte er in unserem Verein das Feld für eine reiche, segenbringende
+               Arbeit, mußte er herzlich dankbare Freunde finden. Waren es doch gerade diese seine
+               Charaktereigenschaften, sein reiches Künstler- und sein freies Menschentum, die ihn
+               uns allen besonders nahebrachten. Gar manches Saatkorn, das er warf, wird aufgehen,
+               seine Früchte tragen und sprechend zeugen für sein Wirken und er wird nicht tot sein,
+               denn er wird leben in unserem Gedächtnis. Und wenn wir diesen Kranz, den aufrichtige
+               Dankbarkeit ihm als unseren letzten Gruß gewunden, hier heute an der Bahre
+               niederlegen, so tun wir dies mit tiefer Wehmut im Herzen und mit der stummen Frage an
+               das Schicksal, warum es der Besten einen zu früh aus unserer Mitte riß. Friede seiner
+               Asche! Ehre seinem Andenken!«</p>
+            <p>Es sprachen noch für die Schauspieler des <rs type="place" ref="#18"
+                  >Lessings-Theaters</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="#12491">Emanuel <hi rend="spaced_out">Reicher</hi>
+               </rs>, ferner Dr. <rs type="person" ref="#12671">Paul <hi rend="spaced_out"
+                     >Schlenther</hi>
+               </rs>. Unter den Klängen des Chors »Ruhe sanft!« endete die Feier.</p>
+         </div>
+         <div type="biographical">
+            <div1>
+               <ref target="1912-11-29" type="schnitzlerDiary"/>
+               <quote>ich allein durch den <rs type="place" ref="#36914">Thiergarten</rs> ins Hotel,
+                  Worte für <rs type="person" ref="#10986">Brahm</rs>s Trauerfeier
+                  bedenkend.–</quote>
+            </div1>
+            <div1>
+               <ref target="1912-12-01" type="schnitzlerDiary"/>
+               <quote>Mit <rs type="person" ref="#2173">O.</rs> und <rs type="person" ref="#10788"
+                     >Raoul Auernheimer</rs> in die Urnenhalle. Legte einen Kranz nieder. <rs
+                     type="person" ref="#11617">Hauptmann</rs> sprach, dann <rs type="person"
+                     ref="#11795">Hülsen</rs>, dann ich (frei, und völlig unbefangen), <rs
+                     type="person" ref="#12491">Reicher</rs>, <rs type="person" ref="#12671"
+                     >Schlenther</rs>.–</quote>
+            </div1>
+         </div>
+      </body>
+   </text>
+</TEI>

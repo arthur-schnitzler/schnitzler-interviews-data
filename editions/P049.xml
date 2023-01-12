@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="P049">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#33097">Der Fall Sandrock, 3.&#8239;4.&#8239;1894</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="049"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <title level="a" ref="#33097">Der Fall Sandrock</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#36376">Neues Wiener Journal</title>
+                     <imprint>
+                        <date when="1894-04-03" n="1">3.&#8239;4.&#8239;1894</date>
+                     </imprint>
+                     <biblScope unit="nr">158</biblScope>
+                     <biblScope unit="pp">5</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2017-11-17">angelegt</change>
+         <change who="MAM" when="2021-09-08">Index check</change>
+         <change who="KH" when="2021-10-04">Durchsicht, Auszeichnung überprüft</change>
+      </revisionDesc>
+      <!-- http://anno.onb.ac.at/cgi-content/anno?aid=nwj&datum=18940403&seite=5&zoom=33 -->
+   </teiHeader>
+   <text type="text">
+      <body>
+         <div type="original">
+            <head>Der Fall <rs type="person" ref="#12618">Sandrock</rs>.</head>
+            <p>Die Direction des <rs type="org" ref="#36430">
+                  <hi rend="spaced_out">Deutschen Volkstheaters</hi>
+               </rs> sendet uns <anchor type="commentary" xml:id="KT135-2"/>neuerlich<note
+                  type="commentary" xml:id="KT135-2h">Am <date>31.&#8239;3.&#8239;1894</date> erschien
+                  im <rs type="work" ref="#36376">Neuen Wiener Journal</rs> eine ungezeichnete Meldung, <rs type="work" ref="#33105">Hinter den Coulissen</rs> 
+                  (<bibl>Nr.&#8239;155, S.&#8239;5</bibl>), derzufolge <rs type="person" ref="#12618"
+                     >Adele Sandrock</rs> auf verschiedenste Weisen aus dem Theater gemobbt werde. Eine erste Richtigstellung erschien am
+                     <date>1.&#8239;4.&#8239;1894</date> (<bibl>
+                     <rs type="work" ref="#33099">Adele Sandrock und das Volkstheater</rs>. In: <rs
+                        type="org" ref="#29320">Neues Wiener Journal</rs>, Nr.&#160;156,
+                     S.&#8239;5</bibl>). Sie thematisierte vor allem eine Auseinandersetzung
+                  zwischen <rs type="person" ref="#11848">Kadelburg</rs> und <rs type="person"
+                     ref="#12618">Sandrock</rs>. Als Beleg dafür, dass die
+                  Schauspielerin nicht vorsätzlich vom Auftritt ferngehalten werde, wird die
+                  Aussage gebracht, auf die <rs type="person" ref="#2121">Schnitzler</rs> reagiert:
+                     »<quote>Fräulein <rs type="person" ref="#12618">Sandrock</rs> war in dieser
+                     Saison durch circa zwei Monate infolge Krankheit am Auftreten verhindert und
+                     war nach ihrer Genesung in mehreren Stücken beschäftigt, deren weibliche
+                     Hauptrollen von den Autoren speciell für Fräulein <rs type="person"
+                        ref="#12618">Sandrock</rs> geschrieben wurden, so im ›<rs type="work"
+                        ref="#29823">Märchen</rs>‹ von <rs type="person" ref="#2121"
+                     >Schnitzler</rs>, in ›<rs type="work" ref="#33101">Sündfluth</rs>‹ von
+                        <rs type="person" ref="#3442">Brociner</rs>, u.&#8239;s.&#8239;w.</quote>«.</note> eine
+               Berichtigung, der wir, im Sinne des Preßgesetzes, Aufnahme gewähren müssen. Diese
+               Berichtigung lautet: »Löbliche Redaction! Die Direction des <rs type="org" ref="#36430">Deutschen Volkstheaters</rs> ist neuerlich genöthigt, Sie infolge der in
+               Ihrer Zeitschrift vom <date>31. März 1894</date>
+               <space unit="chars" quantity="1"/>Nr.&#8239;155, unter der <anchor type="textConst"
+                  xml:id="TT135-1"/>Rubrik<note type="textConst" xml:id="TT135-1h"
+                     ><quote>»Rubrik</quote></note>: ›Theater und Kunst‹, ›<rs type="work" ref="#33105">Hinter den Coulissen</rs>‹
+               angeführten Behauptungen unter Hinweis auf <anchor type="commentary" xml:id="KT135-3"
+               />§ 19 Preßgesetz<note type="commentary" xml:id="KT135-3h">Dieses regelte die
+                  verpflichtende Aufnahme einer Berichtigung an der selben Stelle und in der
+                  Gestaltung der ursprünglichen Nachricht, wenn das vom Staatsanwalt angeordnet
+                  wurde.</note> um nachstehende Berichtigung zu ersuchen:</p>
+            <p>Es ist unwahr, daß die Direction Fräulein <rs type="person" ref="#12618"
+                  >Sandrock</rs> los werden möchte. Es ist unwahr, daß Herr <rs type="person"
+                  ref="#11848">Kadelburg</rs> nur der vorgeschobene Posten war. Es ist unwahr, daß
+               Fräulein <rs type="person" ref="#12618">Sandrock</rs> seit geraumer Zeit systematisch
+               chikanirt wird. </p>
+            <p>Es ist unwahr, daß ›von Oben‹ die Parole ausgegeben wird. </p>
+            <p>Es ist unwahr, daß man Fräulein <rs type="person" ref="#12618">Sandrock</rs>
+               überhaupt oder in der kleinlichsten Weise insultiren lasse. Hochachtungsvoll <hi
+                  rend="antiqua">
+                  <anchor type="commentary" xml:id="KT135-1"/>noe<note type="commentary"
+                     xml:id="KT135-1h">lateinisch in nomine: im Namen von</note>
+               </hi>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="#2161">
+                  <hi rend="spaced_out">Emerich v. Bukovics</hi>
+               </rs>:</p>
+            <p rend="right">Dr. <rs type="person" ref="#28077">
+                  <hi rend="spaced_out">Heinrich Loewy</hi>
+               </rs>
+               <anchor type="textConst" xml:id="T_P049-1"/>.«<note type="textConst"
+                  xml:id="T_P049-1h"><quote>.</quote></note>
+            </p>
+            <p>Die Direction des <rs type="org" ref="#36430">Deutschen Volkstheaters</rs> scheint
+               guter Laune zu sein und mißbraucht die Bestimmungen des Preßgesetzes zu kindlichen
+               Scherzen. Sie spricht von Unwahrheiten und ist in ihren Berichtigungen unwahr. In der
+               vorgestrigen Stilübung des <rs type="org" ref="#36430">Deutschen Volkstheaters</rs>
+               wurde zum Beispiel Arthur <hi rend="spaced_out">Schnitzler</hi>’s »<rs type="work"
+                  ref="#29823">Märchen</rs>« als eines der Stücke angeführt, <hi rend="spaced_out"
+                  >deren Hauptrolle für Fräulein </hi>
+               <rs type="person" ref="#12618">
+                  <hi rend="spaced_out">Sandrock</hi>
+               </rs>
+               <hi rend="spaced_out"> geschrieben wurde</hi>. Dieses Phantasiegebilde der Direction
+               wird <anchor type="textConst" xml:id="TT135-2"/>widerlegt<note type="textConst"
+                  xml:id="TT135-2h"><quote>wiederlegt</quote></note> durch die nachfolgende
+               Zuschrift:</p>
+            <p rend="right">
+               <rs type="place" ref="#50">
+                  <hi rend="spaced_out">Wien</hi>
+               </rs>, <date>1. April 1894</date>. </p>
+            <p rend="center">
+               <hi rend="spaced_out">Sehr gehrter Herr Redacteur!</hi>
+            </p>
+            <p>Auf die in der Zuschrift des Dr. <rs type="person" ref="#28077">Heinrich Löwy</rs>
+               enthaltene Bewertung, daß Fräulein <rs type="person" ref="#12618">Sandrock</rs> in
+               mehreren Stücken beschäftigt war, <hi rend="spaced_out">deren weibliche Hauptrollen
+                  von den Autoren speciell für Fräulein <rs type="person" ref="#12618">Sandrock</rs>
+               </hi> geschrieben <anchor type="textConst" xml:id="T_P049-2"/>wurden,<note
+                  type="textConst" xml:id="T_P049-2h"><quote>wurden</quote></note> so im »<rs
+                  type="work" ref="#29823">Märchen</rs>« von Schnitzler etc., erlaube ich mir
+               Folgendes zu erwidern. </p>
+            <p>Das »<rs type="work" ref="#29823">Märchen</rs>« ist im <date>December 1891</date> vom
+                  <rs type="place" ref="#18">Berliner Lessing-Theater</rs> angenommen und erst im
+               <date>Sommer 1893</date>, also um etwa ein und einhalb Jahre später, dem <rs type="org" ref="#36430">Deutschen Volkstheater</rs>
+               <space unit="chars" quantity="1"/>
+               <hi rend="spaced_out">überreicht</hi>
+               <space unit="chars" quantity="1"/>
+               <anchor type="textConst" xml:id="TT135-3"/>worden<note type="textConst"
+                  xml:id="TT135-3h"><quote>werden</quote></note>, was der löblichen Direction sehr
+               gut bekannt sein mußte, da ich Herrn <rs type="person" ref="#2161">v. Bukovics</rs>
+               gegenüber ausdrücklich davon Erwähnung machte, und dieser den für mich sehr
+               schmeichelhaften Wunsch aussprach, das Stück <hi rend="spaced_out">vor</hi> dem <rs
+                  type="org" ref="#35053">Lessing-Theater</rs> zur Aufführung zu bringen. So
+               glücklich ich nun auch in dem gegebenen Falle war, daß die Hauptrolle von einer so
+               ausgezeichneten Künstlerin wie Fräulein <rs type="person" ref="#12618">Sandrock</rs>
+               dargestellt wurde, so muß ich doch die in der Zuschrift des Herrn Dr. <rs
+                  type="person" ref="#28077">Heinrich Löwy</rs> klar enthaltene Zumuthung, als wenn
+               es meine Sache wäre, bei Abfassung eines Stückes an <hi rend="spaced_out">Rollen</hi>
+               für bestimmte Schauspieler zu denken, aufs Entschiedenste zurückweisen. </p>
+            <p rend="inline">Hochachtungsvoll </p>
+            <p>
+               <signed>Dr. <hi rend="spaced_out">Arthur Schnitzler</hi>.</signed>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

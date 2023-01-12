@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="M050">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#33107">Der Rücktritt des Burgtheatersekretärs Dr. Rosenbaum,
+               16.&#8239;5.&#8239;1915</title>
+            <author ref="#11617">Hauptmann, Gerhart</author>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="050"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#11617">Hauptmann, Gerhart</author>
+                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <title level="a" ref="#33107">Der Rücktritt des Burgtheatersekretärs Dr.
+                        Rosenbaum</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#36374">Neue Freie Presse</title>
+                     <imprint>
+                        <date when="1915-05-16" n="1">16.&#8239;5.&#8239;1915</date>
+                     </imprint>
+                     <biblScope unit="nr">18.222</biblScope>
+                     <biblScope unit="pp">18</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct corresp="ASB2">
+                  <monogr>
+                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefe 1913–1931</title>
+                     <editor>Hg. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und
+                        Heinrich Schnitzler</editor>
+                     <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                     <biblScope unit="pp">85–86</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2017-11-17">angelegt</change>
+         <change who="MAM" when="2021-09-14">Index check</change>
+         <change who="KH" when="2021-10-18">Durchsicht</change>
+      </revisionDesc>
+   </teiHeader>
+   <!-- http://anno.onb.ac.at/cgi-content/anno?aid=nfp&datum=19150516&seite=18&zoom=33 -->
+   <text type="text">
+      <body>
+         <div type="original">
+            <head>Der Rücktritt des <rs type="org" ref="#36247">Burgtheater</rs>sekretärs Dr.&#160;<rs type="person" ref="#12556">Rosenbaum</rs>.</head>
+            <p rend="right">
+               <rs type="place" ref="#50">
+                  <hi rend="spaced_out">Wien</hi>
+               </rs>, <date>15. Mai</date>. </p>
+            <p>Der literarisch-artistische Sekretär der <rs type="org" ref="#36247">Hofbühne</rs> Dr.
+                  <rs type="person" ref="#12556">Richard <hi rend="spaced_out">Rosenbaum</hi>
+               </rs> ist nach langjähriger Tätigkeit von seiner Stelle <anchor type="commentary" xml:id="KT136-2"/>zurückgetreten<note type="commentary" xml:id="KT136-2h">Den
+                  Hintergrund erläutert <rs type="person" ref="#2121">Schnitzler</rs>: »<quote>Nm.
+                     erscheint Dr. <rs type="person" ref="#12556">Rosenbaum</rs> zeigt mir einen
+                     Brief <rs type="person" ref="#12948">Thimigs</rs>: er stelle es ihm anheim,
+                     seine Entlassung sofort zu nehmen – oder seiner Kündigung gewärtig zu sein. <rs type="person" ref="#12556">R.</rs> frägt ihn Gründe; lauter Vorwände,
+                     darunter einer – er habe mir eine Aufführung der ›<rs type="work" ref="#29917">Liebelei</rs>‹ ›angeboten‹,– was eine Competenzüberschreitung sei (nachdem
+                        <rs type="person" ref="#12948">Thimig</rs> selbst mir schon vor 2 Jahren
+                     eine Neustudirung vorschlug was ich, wie auch jetzt, als überflüssig ablehnte
+                     und ›<rs type="work" ref="#29863">Lebend. Stunden</rs>‹ rieth) – der wahre
+                     Grund: Empfindlichkeit; Gefühl, an Bildung unter <rs type="person" ref="#12556">R.</rs> zu stehn; Eifersucht etc.– Finde den Vorgang nach 17j. ehrenvollen
+                     Diensten <rs type="person" ref="#12556">R.</rs> unqualifizirbar (– nach seinem
+                     Provisorium dankt <rs type="person" ref="#12948">Thimig</rs> dem <rs type="person" ref="#12556">R.</rs>: ›Ohne Sie hätt ichs nicht durchführen
+                     können‹ – und so ist es auch!), stellte mich ihm zur Verfügung. Aber es ist
+                     klar, dass gegen den festen Entschluss <rs type="person" ref="#12948">Thimigs</rs> nichts zu machen sein wird. (Und nebstbei macht er sich (was
+                     er nie zugestehn würde – auch sich selbst nicht!) liebkind bei dem <rs type="org" ref="#29637">Reichspost</rs>-Geschmeiss und gewissen höhern
+                     Kreisen.– Kein Mensch hat seinen Ruf ohne Grund! –)</quote>«. (<ref target="1915-03-31" type="schnitzlerDiary"/>)</note>. Die freundlichen
+               Erinnerungen, die Dr. <rs type="person" ref="#12556">Rosenbaum</rs> in den Kreisen
+               der Dramatiker hinterläßt, zeigten sich in den Briefen, die wir auf Wunsch der
+               Autoren nachfolgend veröffentlichen: </p>
+            <head type="sub">Gerhart Hauptmann.</head>
+            <p rend="right">
+               <rs type="place" ref="#1052">
+                  <hi rend="spaced_out">Wiesenstein</hi>, Agnetendorf i. R.</rs>, den <date>20.
+                  April 1915</date>.</p>
+            <p rend="center">Lieber und verehrter Dr. <rs type="person" ref="#12556">Rosenbaum</rs>!</p>
+            <p>Sie verlassen das <rs type="org" ref="#36247">Burgtheater</rs>. Ihre Freunde haben den
+               Wunsch, Ihnen bei diesem Anlasse ein Wort zu sagen. Ich weiß, wie schwer Ihnen dieser
+               Abschied werden muß, denn ich weiß, wie hingebend Sie das <rs type="org" ref="#36247">Burgtheater</rs> geliebt haben, ja, daß leben und für das Burgtheater wirken, für
+               Sie beinahe das Gleiche bedeutet. Danach ist es schwer, Sie in einem andern, noch so
+               lockenden Wirkungskreis, auch nur vorzustellen. Aber die Welt ist immer noch weit und
+               Gott ist Überall, lieber Herr <rs type="person" ref="#12556">Rosenbaum</rs>. Mir ist
+               nicht bange um den Tüchtigen. </p>
+            <p rend="right">Ihr Gerhart <hi rend="spaced_out">Hauptmann</hi>.</p>
+            <head type="sub">Arthur Schnitzler.</head>
+            <p rend="center">Lieber und verehrter Herr Dr. <rs type="person" ref="#12556">Rosenbaum</rs>!</p>
+            <p>Das Amt eines literarisch-artistischen Sekretärs, das Sie 17 Jahre lang am <rs type="org" ref="#36247">Burgtheater</rs> verwaltet haben, war reicher an Arbeit und
+               Verantwortung als an äußeren Ehren und sonstigem Gewinn; – trotzdem, denke ich,
+               werden Sie aus einer Stellung, die so lange Zeit hin durch mehr als Ihre Aufgabe –
+               die beinahe Ihren Lebensinhalt bedeutet hat, nicht ohne innerste Bewegung scheiden.
+               Innerhalb dieser Zeit gab es gewisse Uebergangsepochen, in denen Ihnen zu einem
+               höheren Rang als dem eines literarisch-artistischen Sekretärs kaum etwas anders
+                  <anchor type="commentary" xml:id="KT136-1"/>gefehlt hat, als ein Titel<note type="commentary" xml:id="KT136-1h">Zumindest <date>1912</date> dürfte sich <rs type="person" ref="#12556">Rosenbaum</rs> berechtigte Hoffnungen gemacht haben,
+                  wie aus <rs type="person" ref="#2121">Schnitzlers</rs>
+                  <space unit="chars" quantity="1"/>
+                  <bibl>
+                     <rs type="work" ref="#33243">Tagebuch</rs>
+                  </bibl> mehrfach hervorgeht – »<quote>Wenn er nicht <rs type="person" ref="#12556">Rosenbaum</rs> hieße!–</quote>« (<ref target="1912-07-02" subtype="date-only" type="schnitzlerDiary"/>).</note>, der diese Tatsache
+               ausgedrückt hätte; aber auch sonst haben Sie sich stets als der <hi rend="spaced_out">ordnende</hi>, also als ein guter Geist des <rs type="org" ref="#36247">Burgtheaters</rs> bewähren dürfen, und wie Sie es getan haben, kann Ihrem Ehrgeiz
+               vollkommen genügen. Denn Ordnung halten in Ihrem Sinn geht weit über die amtliche
+               Betätigung hinaus, mit dem der Kreis Ihrer Pflichten umschrieben gewesen wäre; ohne
+               die Fähigkeit des Ueberblicks und ohne ein lebendig-persönliches Verhältnis zu dem
+               ihm anvertrauten Werk bliebe auch der tüchtigste Beamte eine Art von Pedant. Das
+               aber, mein verehrter Herr Doktor, sind Sie niemals gewesen, und so werden Sie für
+               einen neuen Wirkungskreis, der sich Ihnen ja bald eröffnen dürfte, nicht nur Ihre
+               reichen Gaben und Kenntnisse auf literarischem, theatralischem und administrativem
+               Gebiet (über die Sie mir weitere Abschiedskomplimente gern erlassen werden), sondern
+               auch das unverbrauchte Herz und den offenen und gerechten Sinn mitbringen, mit denen
+               Sie vor 17 Jahren die Räume betraten, <anchor type="textConst" xml:id="T_R050-1"/>wo
+                  es<note type="textConst" xml:id="T_R050-1h"><quote>w s</quote></note> Ihnen
+               bestimmt war, Ihre guten Jugend- und Mannesjahre (die besten kommen noch) in treuen
+               Diensten des von uns beiden mehr oder minder glücklich, aber beständig geliebten <rs type="org" ref="#36247">Burgtheaters</rs> hinzubringen. </p>
+            <p>Sie wissen, daß die Wünsche und Hoffnungen zahlreicher Freunde, unter die ich mich
+               gerne zähle, auf jedem neuen Weg Ihnen folgen werden; und ich für meinen Teil bin
+               sicher, wo immer ich Ihnen amtlich und außeramtlich begegnen werde, den
+               liebenswürdigen, wahrhaften Menschen wiederzufinden, als der Sie sich im Laufe aller
+               dieser Jahre mir gegenüber immer erwiesen haben, innerhalb und außerhalb des
+               Theaters, aus dessen Chronik Ihr Name als eines in Stille und mit Ernst tätigen
+               Mitarbeiters dreier <anchor type="commentary" xml:id="K_implied_12671"/>
+               <rs type="person" ref="#12671 #10883 #12948" subtype="implied">Direktoren</rs>
+               <note type="commentary" xml:id="K_implied_12671h">
+                  <rs type="person" ref="#12671">Paul Schlenther</rs>, <rs type="person" ref="#10883">Alfred von Berger</rs> und <rs type="person" ref="#12948">Hugo
+                     Thimig</rs>
+               </note> niemals wird schwinden können. </p>
+            <p rend="inline">Ihr aufrichtig ergebener </p>
+            <p rend="right">
+               <hi rend="spaced_out">Arthur Schnitzler</hi>.</p>
+            <p>
+               <rs type="place" ref="#50">
+                  <hi rend="spaced_out">Wien</hi>
+               </rs>, <date>5. Mai 1915</date>.</p>
+         </div>
+         <div type="biographical">
+            <div1>
+               <ref type="schnitzlerDiary" target="1915-05-04"/>
+               <quote>Einen zur Veröffentlichung bestimmten Brief an <rs type="person" ref="#12556">Rosenbaum</rs> unter den üblichen Schwierigkeiten entworfen.–</quote>
+            </div1>
+            <div1>
+               <ref type="schnitzlerDiary" target="1915-05-05"/>
+               <quote>Vm. dictirt (an <rs type="person" ref="#12556">Rosenbaum</rs> u. a.)</quote>
+            </div1>
+            <div1>
+               <ref type="schnitzlerDiary" target="1915-05-19"/>
+               <quote>Vm. bei <rs type="person" ref="#12740">Gustav <supplied>Schwarzkopf</supplied>
+                  </rs>. <gap reason="outOfScope" unit="lines" quantity="99"/> Er hat ferner den
+                  Auftrag, mir Thimigs ›Befremden‹ über meinen offnen Brief an <rs type="person" ref="#12556">Rosenbaum</rs> in der <rs type="org" ref="#29351">N. Fr. Pr.</rs>
+                  auszudrücken, worauf ich aufrichtigst replicire, mir persönliche Aussprache mit
+                     <rs type="person" ref="#12948">Th.</rs> vorbehaltend.–</quote>
+            </div1>
+         </div>
+      </body>
+   </text>
+</TEI>

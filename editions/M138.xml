@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="M138">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#60214">Zwei Fragen und ihre Beantwortung,
+               1.&#8239;1.&#8239;1925</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="138"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a" ref="#60214">Zwei Fragen und ihre Beantwortung</title>
+                  </analytic>
+                  <monogr>
+                     <title level="m" ref="#60258">Almanach auf das Jahr 1925</title>
+                     <imprint>
+                        <publisher>Bukum</publisher>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1925-01-01" n="1">1925</date>
+                     </imprint>
+                     <biblScope unit="pp">41–53, hier S.&#8239;51</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">Das beste Buch</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#60214">Neues Wiener Journal</title>
+                     <imprint>
+                        <date when="1925-01-01">1.&#8239;1.&#8239;1925</date>
+                     </imprint>
+                     <biblScope unit="jg">33</biblScope>
+                     <biblScope unit="nr">11.176</biblScope>
+                     <biblScope unit="pp">10</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">Das beste Buch</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j">Der Querschnitt</title>
+                     <imprint>
+                        <date when="1925-02-01" n="1">Februar 1925</date>
+                     </imprint>
+                     <biblScope unit="jg">5</biblScope>
+                     <biblScope unit="nr">2</biblScope>
+                     <biblScope unit="pp">167–168</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2021-10-14">angelegt</change>
+         <change who="MAM" when="2021-11-03">Index check</change>
+         <change who="KH" when="2021-11-12">Durchsicht</change>
+         <change who="MAM" when="2021-12-15">Durchsicht mit Almanach</change>
+      </revisionDesc>
+   </teiHeader>
+   <!-- https://anno.onb.ac.at/cgi-content/anno?aid=nwj&datum=19250101&seite=10&zoom=33&query=%22voltaire%2Bschnitzler%22~4&ref=anno-search -->
+   <text type="article">
+      <body>
+         <div type="original">
+            <head><anchor type="commentary" xml:id="K_I138-1"/>Zwei Fragen und ihre
+                  Beantwortung<note type="commentary" xml:id="K_I138-1h">Neben <rs type="person"
+                     ref="#2121">Schnitzler</rs> stammen die Antworten von: <rs type="person"
+                     ref="#10788">Raoul Auernheimer</rs>, <rs type="person" ref="#4752">Max
+                     Beckmann</rs>, <rs type="person" ref="#14110">Richard Arnold Bermann</rs>, <rs
+                     type="person" ref="#10955">Franz Blei</rs>, <rs type="person" ref="#11002"
+                     >Felix Braun</rs>, <rs type="person" ref="#6441">Max Brod</rs>, <rs
+                     type="person" ref="#6927">Kasimir Edschmid</rs>, <rs type="person" ref="#6964"
+                     >Anton von Eiselsberg</rs>, <rs type="person" ref="#11265">Paul Ernst</rs>, <rs
+                     type="person" ref="#11488">Rudolf Goldscheid</rs>, <rs type="person"
+                     ref="#11679">Hermann Hesse</rs>, <rs type="person" ref="#11749">Arthur
+                     Holitscher</rs>, <rs type="person" ref="#11813">Siegfried Jacobsohn</rs>, <rs
+                     type="person" ref="#8190">Hermann von Keyserling</rs>, <rs type="person"
+                     ref="#8363">Anton Kuh</rs>, <rs type="person" ref="#8673">Ernst Lissauer</rs>,
+                     <rs type="person" ref="#8729">Emil Lucka</rs>, <rs type="person" ref="#12126"
+                     >Emil Ludwig</rs>, <rs type="person" ref="#4061">Maria Mayer</rs>, <rs
+                     type="person" ref="#28711">Julius Meinl</rs>, <rs type="person" ref="#12225"
+                     >Max Mell</rs>, <rs type="person" ref="#12248">Gustav Meyrink</rs>, <rs
+                     type="person" ref="#8994">Robert Musil</rs>, <rs type="person" ref="#12540">Ida
+                     Roland</rs>, <rs type="person" ref="#12640">René Schickele</rs>, <rs
+                     type="person" ref="#9730">Wilhelm Schmidtbonn</rs>, <rs type="person"
+                     ref="#12685">Oscar A. H. Schmitz</rs>, <rs type="person" ref="#60247">Hermann
+                     Struck</rs>, <rs type="person" ref="#10478">Ernst Weiss</rs>, <rs type="person"
+                     ref="#13122">Anton Wildgans</rs>, <rs type="person" ref="#13208">Arnold
+                     Zweig</rs> und <rs type="person" ref="#13212">Stefan Zweig</rs>.</note></head>
+            <p rend="center"><hi rend="spaced_out">Die Fragen:</hi></p>
+            <p>1.&#160;Welches Buch des Jahres hat auf Sie den stärksten Eindruck
+               gemacht?<lb/>2.&#160;Wodurch ist Ihrer Meinung nach dieser Eindruck begründet?</p>
+            <p>
+               <gap reason="outOfScope" unit="paragraphs" quantity="30"/>
+            </p>
+            <p><space dim="vertical" unit="lines" quantity="1"/></p>
+            <p>Stärkster Bucheindruck dieses Jahres:</p>
+            <p rend="center"><hi rend="antiqua">
+                  <rs type="person" ref="#10992">Brandes</rs>: <anchor type="commentary"
+                     xml:id="K_I138-2"/>
+                  <rs type="work" ref="#33237">Voltaire</rs>
+                  <note type="commentary" xml:id="K_I138-2h">Die Lektüre dauerte vom <ref
+                        target="1924-02-08" type="schnitzlerDiary" subtype="date-only"/> bis zum
+                        <ref target="1924-05-07" type="schnitzlerDiary" subtype="date-only"/>, wobei
+                     sich <rs type="person" ref="#2121">Schnitzler</rs> erst drei Tage später den
+                     Abschluss notiert und dazu: »<quote>wunderbares Buch</quote>«.</note>.</hi></p>
+            <p rend="right">
+               <hi rend="antiqua">Arthur Schnitzler</hi>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

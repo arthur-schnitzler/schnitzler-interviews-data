@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="P080">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#58396">Ein Brief von Artur Schnitzler,
+               20.&#8239;11.&#8239;1914</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="080"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a" ref="#58396">Ein Brief von Artur Schnitzler</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#36376">Neues Wiener Journal</title>
+                     <imprint>
+                        <date when="1914-11-20" n="1">20.&#8239;11.&#8239;1914</date>
+                     </imprint>
+                     <biblScope unit="jg">22</biblScope>
+                     <biblScope unit="nr">7.569</biblScope>
+                     <biblScope unit="pp">4</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2018-10-19">angelegt aus Julia Glunks Abschrift</change>
+         <change who="MAM" when="2021-09-12">Index check</change>
+         <change who="KH" when="2021-10-14">Durchsicht</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="text">
+      <body>
+         <div type="original">
+            <head>Ein Brief von Artur Schnitzler.</head>
+            <p>Wir haben kürzlich einen aus deutsch-amerikanischen Blättern hier bekanntgewordenen
+                  <anchor type="commentary" xml:id="K_P080-1"/>Brief<note type="commentary"
+                  xml:id="K_P080-1h"><ref type="pointer" target="#M106"/></note> veröffentlicht, den
+               Artur <hi rend="spaced_out">Schnitzler</hi> an einen in <rs type="place" ref="#175"
+                  >Amerika</rs> lebenden Schulfreund richtete. Mit Bezug auf diese Veröffentlichung
+               sendet uns nun Herr Dr. <rs type="person" ref="#2121">Artur Schnitzler</rs> folgendes
+               Schreiben:</p>
+            <p>Sehr verehrter Herr Chefredakteur!</p>
+            <p>Ich werde darauf aufmerksam gemacht, daß in Ihrem geschätzten Blatt (vom
+                  <date>17. d.</date>) ein Brief von mir an einen <rs type="person" ref="#15271"
+                  subtype="implied">Schulfreund</rs> in <rs type="place" ref="#175">Amerika</rs>
+               abgedruckt ist. Nun stimmt es allerdings, daß ich an einen lieben alten <rs
+                  type="person" ref="#15271" subtype="implied">Freund</rs> in <rs type="place"
+                  ref="#44053">New-York</rs>, den ich seit Jahrzehnten nicht gesehen und gesprochen
+               habe, einen Brief richtete; der Brief aber, den ich eben im »<rs type="work"
+                  ref="#36376">Neuen Wiener Journal</rs>« lese und der offenbar aus irgendeiner <rs
+                  type="place" ref="#175">amerikanischen</rs> Zeitung übernommen ist, enthält auch
+               nicht einen Satz, der von mir verfaßt worden wäre. Das Ganze liest sich etwa so, als
+               wenn mein Originalschreiben zuerst ins Englische und dann wieder ins Deutsche
+               zurückübersetzt worden wäre, beide Male mit einem solchen Mangel an Sorgfalt, daß
+               nicht nur der ursprüngliche Wortlaut, sondern an manchen Stellen auch der Sinn, wenn
+               nicht geradezu ins Gegenteil verkehrt, doch erheblich verändert erscheint. Da ich,
+               auch während des Weltkrieges, bei den zahlreichen Lesern Ihres geschätzten Blattes
+               nicht in den Verdacht kommen möchte, mich gegen den Geist meiner deutschen
+               Muttersprache – und wäre es auch nur in einem Privatbrief an einen <rs type="person"
+                  ref="#15271" subtype="implied">Schulfreund</rs> in <rs type="place" ref="#175"
+                  >Amerika</rs> – vergangen zu haben, so ersuche ich Sie, sehr geehrter Herr
+               Chefredakteur, höflichst diesen Zeilen an gleicher Stelle, wo die von Ihnen,
+               selbstverständlich im besten Glauben, übernommene durchaus willkürliche Variation
+               eines zur Veröffentlichung nie bestimmt gewesenen Briefes erschienen ist, gütigst
+               wortgetreue Aufnahme zu gewähren.</p>
+            <p>Mit vorzüglicher Hochachtung</p>
+            <p>Ihr ergebener</p>
+            <p rend="right">
+               <hi rend="spaced_out">Artur Schnitzler</hi>.</p>
+         </div>
+         <div type="biographical">
+            <div1>
+               <ref target="1914-11-19" type="schnitzlerDiary"/>
+               <quote>Dictirt Briefe (u. a. ans <rs type="work" ref="#36376">N. Wr. Journal</rs> –
+                  wo mein Brief an <rs type="person" ref="#15271">Deimel</rs>, offenbar aus einer
+                     <rs type="place" ref="#44053">New York</rs> Zeitung verunstaltet abgedruckt
+                  war) –</quote>
+            </div1>
+         </div>
+      </body>
+   </text>
+</TEI>

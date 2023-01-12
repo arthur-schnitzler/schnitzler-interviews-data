@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="I103">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#58247">Karl Marilaun: [Interview, Fragment],
+               20.&#8239;11.&#8239;1925</title>
+            <author ref="#5130">Marilaun, Karl</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="103"/>
+         </publicationStmt>
+         <sourceDesc>
+            <origDate when="1925-11-20">20. 11. 1925</origDate>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#4412">Schinnerer, Otto P.</author>
+                     <title level="a" ref="#58250">The Early Works of Arthur Schnitzler</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#58596">The Germanic Review</title>
+                     <imprint>
+                        <date when="1929-04-01" n="1">April 1929</date>
+                     </imprint>
+                     <biblScope unit="vol">4</biblScope>
+                     <biblScope unit="nr">2</biblScope>
+                     <biblScope unit="pp">153–197, hier S.&#8239;195</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en-US">Englisch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2021-09-06">angelegt</change>
+         <change who="MAM" when="2021-09-22">Index check</change>
+         <change who="KH" when="2021-10-27">Durchsicht</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="https://schnitzler-zeitungen.acdh.oeaw.ac.at/transkribus/page/50217/224218/44"/>
+   </facsimile>
+   <text type="text">
+      <body>
+         <div type="original" xml:lang="en-US">
+            <p>As regards <hi rend="italics">
+                  <rs type="work" ref="#29935">Anatol</rs>
+               </hi>, we need have no misgivings in establishing <rs type="person" ref="#2121"
+                  >Schnitzler</rs>’s literary indebtedness,<ref type="question" target="#q087"/> for
+               we can summon our own author as a witness. To Carl Marilaun he stated in an <anchor
+                  type="commentary" xml:id="K_I103-1"/>interview<note type="commentary"
+                  xml:id="K_I103-1h">Kein Exemplar der Zeitung konnte nachgewiesen werden, der
+                  einzige Hinweis auf das Interview stammt aus dem Aufsatz <rs type="person"
+                     ref="#4412">Schinnerer</rs>s. Inhaltlich ist die Stelle verwandt zu einer
+                  Stelle in einem früheren Text <rs type="person" ref="#5130">Marilaun</rs>s, so
+                  dass es sich möglicherweise nur um eine Überarbeitung desselben gehandelt haben
+                  könnte, <ref target="#L_I023_abstammung" type="pointer" subtype="see"/>.</note>
+               <hi rend="superscript">66</hi> that, without any intention of contributing anything
+               of value to the comedy literature of his native country, he wrote a scene which to
+               himself seemed quite unimportant, naming the chief character <rs type="work"
+                  ref="#29935" subtype="implied">Anatol</rs> in recollection of agreeable <rs
+                  type="place" ref="#182">Paris</rs>ian comedies. In those days, he added, he did
+               not know that an author was obliged to have an original note of his own. »Der
+               Einakter, dem ich dann noch einige folgen ließ,« he is quoted as saying, »war nichts
+               weiter als eine Lesefrucht. Heute weiß ich, daß er von der <anchor type="commentary"
+                  xml:id="K_I103-3"/>Menge <rs type="place" ref="#166">französischer</rs> Novellen
+               und Komödien<note type="commentary" xml:id="K_I103-3h"><ref type="pointer"
+                     target="#I023_L_1lustspiel" subtype="cf"/></note>, die ich damals las und sah,
+               in gerader Linie abstammte.«</p>
+            <p>
+               <space dim="vertical" unit="lines" quantity="1"/>
+            </p>
+            <p>
+               <hi rend="superscript">66</hi> Cf. <rs type="work" ref="#58245">
+                  <hi rend="italics">Leipziger Abendpost</hi>
+               </rs>, <date>Nov.&#8239;20, 1925</date>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

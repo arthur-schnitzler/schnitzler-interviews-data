@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="P031">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#33001">Artur Schnitzler läßt sich nicht interviewen!,
+               18.&#8239;9.&#8239;1931</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="031"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <title level="a" ref="#33001">Artur Schnitzler läßt sich nicht
+                        interviewen!</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#36376">Neues Wiener Journal</title>
+                     <imprint>
+                        <date when="1931-09-18" n="1">18.&#8239;9.&#8239;1931</date>
+                     </imprint>
+                     <biblScope unit="jg">39</biblScope>
+                     <biblScope unit="nr">13.586</biblScope>
+                     <biblScope unit="pp">8</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct corresp="ASB2">
+                  <monogr>
+                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefe 1913–1931</title>
+                     <editor>Hg. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und
+                        Heinrich Schnitzler</editor>
+                     <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                     <biblScope unit="pp">809–812</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2017-11-17">angelegt</change>
+         <change who="MAM" when="2018-02-14">Index check</change>
+         <change who="KH" when="2021-11-02">Durchsicht</change>
+      </revisionDesc>
+   </teiHeader>
+   <!-- https://anno.onb.ac.at/cgi-content/anno?aid=nwj&datum=19310918&seite=8&zoom=33 -->
+   <text type="text">
+      <body>
+         <div type="original">
+            <head>Artur Schnitzler läßt sich nicht interviewen!</head>
+            <head type="sub">Interessante Polemik des Dichters mit der <rs type="place" ref="#168"
+                  >Berlin</rs>er Zeitschrift »<rs type="org" ref="#29412">Neue Jüdische
+                  Monatsschau</rs>« über einen Aufsatz »<rs type="work" ref="#32999">Das Gute am
+                  Antisemitismus</rs>«.</head>
+            <head type="sub">Von</head>
+            <head type="sub">Dr. Artur Schnitzler.</head>
+            <p rend="inline">Artur Schnitzler sendet uns zur Veröffentlichung nachstehendes
+               Schreiben, das er an die <rs type="place" ref="#168">Berlin</rs>er Zeitschrift »<rs
+                  type="org" ref="#29412">Neue Jüdische Monatsschau</rs>« gerichtet hat.</p>
+            <p rend="right">
+               <rs type="place" ref="#50">
+                  <hi rend="spaced_out">Wien</hi>
+               </rs>, <date>16. September 1931</date>.</p>
+            <p rend="inline">An die<lb/>Redaktion der »<rs type="org" ref="#29412">Neuen Jüdischen
+                  Monatschau</rs>«, <rs type="place" ref="#168">Berlin</rs>.</p>
+            <p>Im <date>September</date>heft Ihres geschätzten Blattes ist unter meinem Autornamen
+               ein Artikel erschienen, betitelt: »<anchor type="commentary" xml:id="KT117-1"/>
+               <rs type="work" ref="#32999">Das Gute am Antisemitismus</rs>
+               <note type="commentary" xml:id="KT117-1h">Bei dem Text, auf den <rs type="person"
+                     ref="#2121">Schnitzler</rs> reagiert, handelt es sich um eine verfremdete
+                  Fassung des bereits im Vorjahr erschienen Interviews <rs type="work" ref="#33005"
+                     >Anti-semitism, a Healthy Influence</rs>
+                  <space unit="chars" quantity="1"/>
+                  <ref target="#I032" type="pointer"/> und nicht auf den in zeitlicher Nähe zum
+                  Protest erschienenen Beitrag von <rs type="person" ref="#11277">Ewen</rs>, <rs type="work"
+                     ref="#32999">Schnitzler Tells Why he is a Jew</rs>
+                  <space unit="chars" quantity="1"/>
+                  <ref target="#I030" type="pointer"/>
+               </note>«. In einer Vorbemerkung schreiben Sie unter anderem: »Die folgende
+               Stellungnahme zur Judenfrage ist einem Interview mit dem <rs type="person"
+                  ref="#11277" subtype="implied">Berichterstatter</rs> des ›<rs type="org"
+                  ref="#29411">Canadian Jewish Chronicle</rs>‹ entnommen und soll in dem ›<rs
+                  type="org" ref="#29416">Literary Digest</rs>‹, <rs type="place" ref="#44053"
+                  >New-York</rs>, erschienen sein. Wir entnehmen die Ausführungen anläßlich des
+               siebzigsten Geburtstages von Schnitzler der Zeitschrift ›<rs type="org" ref="#29413"
+                  >Die Auslese</rs>‹ in <rs type="place" ref="#168">Berlin</rs>.«</p>
+            <p>Hiezu möchte ich vorerst bemerken, daß ich weder die von Ihnen zitierte Nummer der
+                  »<rs type="org" ref="#29413">Auslese</rs>«, noch die des »<rs type="org"
+                  ref="#29416">Literary Digest</rs>« jemals zu Gesicht bekommen habe. Der »<rs
+                  type="org" ref="#29412">Canadian Jewish Chronicle</rs>« ist möglicherweise – vor
+               Monaten oder Jahren – wie so viele andere Zeitschriften an mich gelangt, und der
+               Besuch mancher Berichterstatter, unter denen sich wohl auch der <rs type="person"
+                  subtype="implied" ref="#11277">Verfasser</rs> jenes Artikels im »<rs type="org"
+                  ref="#29412">C. J. Ch.</rs>« befunden haben dürfte, ist mir in mehr oder minder
+               deutlicher Erinnerung geblieben. Niemals aber habe ich einen Artikel verfaßt, dem ich
+               den Titel gab: »Das Gute am Antisemitismus« oder irgendeinen Aufsatz ähnlichen
+               Inhalts, ich habe keine Zeitschrift, weder eine inländische noch eine fremdsprachige
+               jemals ermächtigt, einen Artikel unter diesem Titel und unter meinem Namen zu
+               veröffentlichen. Von den in diesem bei Ihnen abgedruckten Artikel enthaltenen Sätzen
+               habe ich keinen jemals ausgesprochen oder niedergeschrieben, und keine der darin
+               niedergelegten Ansichten entspricht den meinen, ja, die meisten stehen zu den meinen
+               in vollkommenem Gegensatz.</p>
+            <p>Es besteht keine gesetzliche, kaum eine moralische Möglichkeit, Journalisten,
+               tüchtige oder minder tüchtige, an der Veröffentlichung von Gesprächen zu verhindern,
+               deren sie sich mit größerer oder geringerer Treue zu erinnern glauben, die sie mit
+               größerer oder geringerer Gewissenhaftigkeit aufgezeichnet haben, um sie endlich, mehr
+               oder minder tendenziös, zu reproduzieren. Es ist ja auch meist recht belanglos, was
+               in solchen Interviews zu lesen steht, und der Zeitungsleser, amüsiert oder nicht, hat
+               sich damit abgefunden, an Berichterstattungen solcher Art, auch was ihre
+               Glaubhaftigkeit anbelangt, nicht den allerstrengsten Maßstab anzulegen.</p>
+            <p>Bedenklicher wird die Sache, wenn in solchen Berichten, über Plauderei und Anekdote
+               hinaus, auf Grund von Hörfehlern, Denkfehlern, mangelnder Sprachkenntnis,
+               Mißverständnissen oder auch aus purer Leichtfertigkeit religiöse, politische,
+               ethische Meinungen der interviewten Persönlichkeit in oberflächlicher oder
+               entstellter Weise wiedergegeben werden. Und noch übler scheint es mir, wenn solche
+               mehr oder minder willkürliche Berichte, ohne je wirklich original gewesen zu sein,
+               neuerlich willkürlich bearbeitet, mit redaktionellen Erläuterungen und mit einem
+               sozusagen wirksamen Titel versehen werden. So ist zum Beispiel der niemals von mir
+               geschriebene Artikel, den die »<rs type="org" ref="#29412">Neue Jüdische
+                  Monatsschau</rs>« und wie ich aus ihr erfahre, der »<rs type="org" ref="#29416"
+                  >Literary Digest</rs>« und »<rs type="org" ref="#29413">Die Auslese</rs>« unter
+               dem Titel »<rs type="work" ref="#32999">Das Gute am Antisemitismus</rs>« publiziert
+               haben, kurz darauf in einer großen <rs type="place" ref="#50">Wien</rs>er <rs
+                  type="org" ref="#29320" subtype="implied">Tageszeitung</rs> abgedruckt worden,
+               diesmal unter dem Titel »<rs type="work" ref="#32999">Antisemitismus stärkt das
+                  Judentum</rs>« und mit dem Untertitel »Ein offenes Wort an die Christen von A. S.«
+               Ich bin nicht sicher, ob nicht naivere Zeitungsleser mir, abgesehen von den
+               Plattheiten und Unsinnigkeiten, die in jenem Artikel enthalten sind, am Ende noch die
+               Geschmacklosigkeit zutrauen, jenem niemals von mir verfaßten Artikel eine so törichte
+               und prätentiöse Ueberschrift verliehen zu haben.</p>
+            <p>Jeder anständige Journalist wird mir beistimmen, daß in Veröffentlichungen solcher
+               Art – sie mögen im einzelnen so manches Richtige enthalten und oft genug in bester
+               Absicht erfolgt sein – eine offenbare, wenn auch meist nur schwer faßbare Verletzung
+               des Urheberrechts und gelegentlich eine schriftstellerische und menschliche
+               Schädigung der Persönlichkeit begründet liegt, mit der so unbedenklich Verfahren
+               wurde. Es ist nicht immer ganz einfach, meistens auch kaum der Mühe wert, sich gegen
+               solche Uebergriffe öffentlich zur Wehr zu setzen; und in den meisten Fällen würde ein
+               derartiges Einschreiten einen unverhältnismäßigen Aufwand an Zeit für den
+               Geschädigten und eine überflüssige Belästigung der Oeffentlichkeit bedeuten. So
+               bleibt im allgemeinen nicht Besseres übrig als zu schweigen.</p>
+            <p>Da mir aber in den letzten Jahren mehrfach publizistische Abenteuer dieser Art
+               zugestoßen sind, so möchte ich nur ein- für allemal feststellen, daß ich <hi
+                  rend="spaced_out">Interviews überhaupt nicht erteile</hi> und daß Aeußerungen, die
+               ich etwa im Laufe von Privatgesprächen getan haben soll und tun werde, nur dann als
+               authentisch gelten dürfen, wenn ihre Richtigkeit durch eigene Unterschrift von mir
+               bestätigt wurde. Da ich mich aber imstande glaube, dort, wo es mir aus irgendeinem
+               Grunde erlaubt oder sogar geboten scheint, meine Ansichten, ohne Zuhilfenahme auch
+               der verläßlichsten Mittelsperson, auszusprechen, lehne ich es mit aller
+               Entschiedenheit ab, für die in sogenannten Interviews oder Elaboraten ähnlicher Art
+               in oder unter meinem Namen publizierten Weltanschauungen und Meinungen, ja auch nur
+               für einen Satz oder für ein Wort die Verantwortung zu übernehmen, selbst den Fall
+               gesetzt, daß sich ein oder das andere dieser gedruckten Worte mit einem von mir
+               tatsächlich gesprochenen oder eine der in solchen Interviews angeblich von mir
+               ausgedrückte Ansicht mit einer wirklich von mir gehegten decken sollte.</p>
+            <p>Für die Aufnahme dieser Erklärung verbindlichst dankend, bin ich mit dem Ausdruck
+               meiner vorzüglichen Hochachtung</p>
+            <p rend="inline"> Ihr sehr ergebener</p>
+            <p>
+               <signed>Dr. <hi rend="spaced_out">Artur Schnitzler</hi>.</signed>
+            </p>
+         </div>
+         <div type="biographical">
+            <div1>
+               <bibl><rs type="person" ref="#2121">Schnitzler</rs> an <rs type="person" ref="#60976"
+                     >Walter Nagelstock</rs>, <date>14.&#8239;9.&#8239;1931</date>
+               </bibl>
+               <quote>
+                  <p>
+                     <date>14.&#8239;9.&#8239;1931</date>.</p>
+                  <p>Sehr verehrter Herr Chefredakteur.</p>
+                  <p>Das beigeschlossene Schreiben habe ich, wie Sie aus der Ueberschrift ersehen,
+                     an die Redaktion der <supplied>›</supplied>
+                     <rs type="org" ref="#29412">Neuen jüdischen Monatsschau</rs>‹ gerichtet. Da der
+                     Artikel der ›<rs type="org" ref="#29412">Neuen jüd. Monatsschau</rs>‹ auch im
+                        ›<rs type="org" ref="#29320">Neuen Wr. Journal</rs>‹ erschienen ist, so darf
+                     ich von Ihrer Loyalität gewiss erwarten, dass Sie auch meinen Ausführungen Raum
+                     gewähren werden. Es ist selbstverständlich, dass ich nur auf einen absolut
+                     wortgetreuen Abdruck Wert legen würde. Andernfalls müsste ich bitten von der
+                     Veröffentlichung völlig abzusehen.</p>
+                  <p>Mit verbindlichen Grüssen</p>
+                  <p>Ihr sehr ergebener</p>
+                  <p>P. S. Im Falle des Abdruckes ersuche ich dringend um frdl. Zusendung einer
+                     Korrektur.</p>
+                  <p>Herrn Chefredakteur Dr. Walter Nagelstock, <rs type="org" ref="#29320">Neues
+                        Wr. Journal</rs>.</p></quote>
+            </div1>
+            <div1>
+               <ref type="schnitzlerDiary" target="1931-09-16"/>
+               <quote>Endgiltig den Brief an die <rs type="org" ref="#29412">Jüd. Rdsch.</rs>; wegen
+                  des ›Briefes von mir‹ den sie veröffentlicht haben;– ein entstelltes <rs
+                     type="work" ref="#32999" subtype="implied">Interview</rs>.</quote>
+            </div1>
+         </div>
+      </body>
+   </text>
+</TEI>

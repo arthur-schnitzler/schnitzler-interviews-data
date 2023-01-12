@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="M142">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a">Freiwillige Schutzwache,
+               25.&#8239;11.&#8239;1918</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="142"/>
+         </publicationStmt>
+         <sourceDesc>
+            
+            
+            <!--<listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Bildarchiv und Grafiksammlung der Österreichischen Nationalbibliothek</repository>
+                        <idno>KS&#160;16215487 POR MAG</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p></p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>-->
+            <listBibl>
+               <biblStruct>
+                  <monogr>
+                     <title level="m">Freiwillige Schutzwache [Plakat]</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <date when="1918-11-25" n="1">25. 11. 1918</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2021-10-15">angelegt</change>
+         <change who="MAM" when="2021-11-09">Index check</change>
+         <change who="KH" when="2021-11-12">Durchsicht</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div type="original">
+            <head>Bürger von <rs ref="#68" type="place">Währing</rs> u. <rs ref="#68" type="place">Döbling</rs>!</head>
+            <p>Die ernsten Ereignisse, die sich vollziehen, haben es mit sich gebracht, daß unser
+               tägliches Leben, insbesondere die regelmäßige Arbeit im Dienste der Öffentlichkeit
+               und der privaten Berufe eines erhöhten Schutzes bedarf.</p>
+            <p>Die mit Hingebung geleisteten Dienste, der Sicherheits- und Stadtschutzwache könnten
+               unter Umständen nicht ausreichen, die Ordnung aufrecht zu erhalten.</p>
+            <p>Auch in anderen äußeren Bezirken haben Bürger die Notwendigkeit erkannt, die
+               Sicherheitswache zu verstärken und sie in ihrem schweren Dienste zu unterstützen.</p>
+            <p>Männer von <rs ref="#68" type="place">Währing</rs> und <rs ref="#69" type="place">Döbling</rs>!</p>
+            <p>Wir fordern Euch auf: Tretet der <rs type="org" ref="#60307">freiwilligen
+                  Schutzwache</rs> des <rs ref="#68" type="place">18.</rs> und <rs ref="#69" type="place">19. Bezirkes</rs> bei! Damit soll zunächst eine Organisation
+               geschaffen werden, die erforderlichen Falles in Tätigkeit treten wird. Die Not der
+               Zeit und Euere Ehre fordern, daß Ihr selbst mit tätig seid, Euere Familien, Eueren
+               Herd, Euere Habe und damit zugleich das ganze Gemeinwesen zu schützen.</p>
+            <p>Männer von <rs ref="#68" type="place">Währing</rs> und <rs ref="#69" type="place">Döbling</rs> – jedes Standes, jedes Berufes – tretet der Schutzwache bei als
+               Gleiche unter Gleichen!</p>
+            <p>
+               <rs type="place" ref="#50">Wien</rs>, im <date>November 1918</date>.</p>
+            <p>
+               <space dim="vertical" quantity="1" unit="paragraphs"/>
+            </p>
+            <table>
+               <row>
+                  <cell>
+                     <rs type="person" ref="#60342">Anton Baumann</rs>, Bezirks-Vorsteher</cell>
+               </row>
+               <row>
+                  <cell>
+                     <rs type="person" ref="#60346">Wenzel Kuhn</rs>, Nationalrat und
+                     Bezirks-Vorsteher.</cell>
+               </row>
+               <row>
+                  <cell>
+                     <rs type="person" ref="#60352">Karl Kerner</rs>, Gemeinderat.</cell>
+               </row>
+               <row>
+                  <cell>
+                     <rs type="person" ref="#60356">Adolf Micheroli</rs>, Baumeister.</cell>
+               </row>
+               <row>
+                  <cell>Dr. <rs type="person" ref="#60362">Ferd. Ritter v. Wimmer</rs>,
+                     Finanzminister a. D.</cell>
+               </row>
+               <row>
+                  <cell>
+                     <rs type="person" ref="#12948">Hugo Thimig</rs>, Direktor des <rs type="org" ref="#36247">Burgtheaters</rs> a. D.</cell>
+               </row>
+               <row>
+                  <cell>Dr. <rs type="person" ref="#23134">Oswald Redlich</rs>,
+                     Univ.-Professor.</cell>
+               </row>
+               <row>
+                  <cell>Dr. <rs type="person" ref="#60314">Josef v. Hepperger</rs>, Univ.-Prof.,
+                     Direktor der <rs type="org" ref="#60337">Sternwarte</rs>.</cell>
+               </row>
+               <row>
+                  <cell>Dr. <rs type="person" ref="#60368">Julius Rader</rs>, Bezirksrat.</cell>
+               </row>
+               <row>
+                  <cell>Dr. <rs type="person" ref="#12689">Edmund Bernatzik</rs>,
+                     Univ.-Professor.</cell>
+               </row>
+               <row>
+                  <cell>
+                     <rs type="person" ref="#12689">Ferdinand Schmutzer</rs>, Prof. der <rs type="org" ref="#60329">Akademie der bildenden Künste</rs>.</cell>
+               </row>
+               <row>
+                  <cell>Hauptmann <rs type="person" ref="#3159">Hugo Schmidl</rs>.</cell>
+               </row>
+               <row>
+                  <cell>Dr. Arthur Schnitzler.</cell>
+               </row>
+               <row>
+                  <cell>Hauptmann <rs type="person" ref="#60380">Felix Lederer</rs>.</cell>
+               </row>
+            </table>
+            <p>
+               <space dim="vertical" quantity="1" unit="paragraphs"/>
+            </p>
+            <p>Anmeldungen und nähere Auskünfte:</p>
+            <p>Ab <date>Dienstag, den 3.&#160;Dezember</date> bis inkl. <date>Sonntag, den
+                  8.&#160;Dezember</date> von 9 bis 12 Uhr vormittags in <rs type="place" ref="#68">Währing</rs>: beim <rs type="org" ref="#60309">Magistratischen
+                  Bezirksamt</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="#287">Martinsstraße 100</rs>, in <rs type="place" ref="#69">Döbling</rs>: beim <rs type="org" ref="#60334">Polizeikommissariat</rs>
+               <space unit="chars" quantity="1"/>
+               <rs ref="#60332" type="place">Kreindlgasse 13</rs>, Schulsaal.</p>
+         </div>
+         <div type="biographical">
+            <div1>
+               <ref target="1918-11-25" type="schnitzlerDiary"/>
+               <quote>Nm. <rs type="person" ref="#3159">Hugo Schmidl</rs> und Ob. <rs type="person" ref="#27966">Sander</rs>; wegen Unterschrift unter den Aufruf zur <rs type="org" ref="#60307">Bürgerwehr Währing</rs>.–</quote>
+            </div1>
+         </div>
+      </body>
+   </text>
+</TEI>

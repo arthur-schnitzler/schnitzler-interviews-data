@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="P123">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#59209">Berichtigung, 1.&#8239;11.&#8239;1906</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="123"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <title level="a" ref="#59209">Berichtigung</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#58341">Das litterarische Echo</title>
+                     <imprint>
+                        <date when="1906-11-01" n="1">1.&#8239;11.&#8239;1906</date>
+                     </imprint>
+                     <biblScope unit="jg">9</biblScope>
+                     <biblScope unit="nr">3</biblScope>
+                     <biblScope unit="col">246</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <title level="a">Dichterische Arbeit und Alkohol</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#35935">Die Zeit</title>
+                     <imprint>
+                        <date when="1906-10-20" n="1">20.&#8239;10.&#8239;1906</date>
+                     </imprint>
+                     <biblScope unit="jg">5</biblScope>
+                     <biblScope unit="nr">1.463</biblScope>
+                     <biblScope unit="pp">3</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2021-09-21">Angelegt</change>
+         <change who="MAM" when="2021-09-23">Index check</change>
+         <change who="KH" when="2021-10-11">Durchsicht</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div type="original">
+            <head>Berichtigung</head>
+            <p>In Arthur Schnitzlers Antwort auf unsere Rundfrage (<anchor type="commentary"
+                  xml:id="K_P123-1"/>Dichtung und Alkohol<note type="commentary" xml:id="K_P123-1h"
+                     ><ref type="pointer" target="#M122"/></note>) haben sich im dritten Absatz
+               sinnstörende Druckfehler eingeschlichen. Wir geben deshalb den richtigen Wortlaut des
+                  <anchor type="commentary" xml:id="K_I123-1"/>ganzen Absatzes<note
+                  type="commentary" xml:id="K_I123-1h">Die Richtigstellung erschien zuerst zum
+                  Nachdruck in der <rs type="work" ref="#35935">Zeit</rs>, dann etwas ausführlicher
+                  im <rs type="work" ref="#58341">Litterarischen Echo</rs>. Der Ausführlichkeit
+                  wegen wird hier vom Prinzip des Erstdrucks abgewichen und die längere Fassung
+                  wiedergegeben.</note> wieder: »Zweifellos verdanken manche künstlerische Produkte
+               dem Alkoholismus ihrer Schöpfer die besondere Eigenart, und man möchte sich, wie die
+               Dinge nun einmal stehen, gewisse dieser Werke nicht aus der Literatur wegdenken;
+               ebenso zweifellos aber ist, daß jeder der hier in Betracht kommenden Künstler ohne
+               Alkohol seine Gaben höher entwickelt hätte, da der Alkohol ein Talent wohl zu
+               verändern, aber nie zu steigern vermag.«</p>
+         </div>
+      </body>
+   </text>
+</TEI>

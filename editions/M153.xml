@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="M153">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#61317">Was halten Sie von diesem Herrn,
+               11.&#8239;12.&#8239;1904</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="153"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <title level="a" ref="#61317">Was halten Sie von diesem Herrn</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#42158">Der Floh</title>
+                     <imprint>
+                        <date when="1904-12-11" n="1">11.&#8239;12.&#8239;1904</date>
+                     </imprint>
+                     <biblScope unit="jg">36</biblScope>
+                     <biblScope unit="nr">49, 50 Weihnachtsnummer</biblScope>
+                     <biblScope unit="pp">11–13</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2021-11-09">angelegt</change>
+         <change who="MAM" when="2021-11-16">Index check</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div type="image">
+            <figure>
+               <graphic url="./images/1904-floh.jpg" width="5cm"/>
+            </figure>
+         </div>
+         <div type="original">
+            <head>»Was halten Sie von diesem Herrn?«</head>
+            <p>betitelt sich die <anchor type="commentary" xml:id="K_R153-1"/>Rundfrage<note type="commentary" xml:id="K_R153-1h">Die weiteren Antworten stammen von: <rs type="person" ref="#12618">Adele Sandrock</rs>, <rs type="person" ref="#2601">Josef Jarno</rs>, <rs type="person" ref="#2850">Stella Hohenfels</rs>, <rs type="person" ref="#61323">Lene Land</rs>, <rs type="person" ref="#11036">Max
+                     Eugen Burckhard</rs>, <rs type="person" ref="#2150">Julius Bauer</rs>, <rs type="person" ref="#10815">Hermann Bahr</rs>, <rs type="person" ref="#2577">Alexander Landesberg</rs>, <rs type="person" ref="#15112">Karl Costa</rs>, <rs type="person" ref="#2154">Vincenz Chiavacci</rs>, <rs type="person" ref="#12501">Heinrich Reinhardt</rs>, <rs type="person" ref="#8552">Franz
+                     Lehár</rs>, <rs type="person" ref="#12460">Eduard Pötzl</rs>, <rs type="person" ref="#11857">Max Kalbeck</rs>, <rs type="person" ref="#11406">Julius von
+                     Gans-Ludassy</rs>, <rs type="person" ref="#3300">Julius Löwy</rs>, <rs type="person" ref="#11533">Alfred Grünfeld</rs>, <rs type="person" ref="#7048">Edmund Eysler</rs>, <rs type="person" ref="#12809">Adolf von Sonnenthal</rs>,
+                     <rs type="person" ref="#11851">Josef Kainz</rs>, <rs type="person" ref="#10250">Louis Treumann</rs>, <rs type="person" ref="#28861">Hermann Winkelmann</rs>,
+                     <rs type="person" ref="#12980">Rudolf Tyrolt</rs>, <rs type="person" ref="#21952">Hansi Niese</rs>, <rs type="person" ref="#12936">Wilhelm
+                     Thaller</rs>, <rs type="person" ref="#11441">Alexander Girardi</rs> und <rs type="person" ref="#61347">Carl Blasel</rs>.</note>, die wir an die
+               hervorragendsten <rs type="place" ref="#50">Wien</rs>er Schriftsteller, Musiker,
+               Theatergrößen und Kritiker gerichtet haben.</p>
+            <p>Was dieser Rundfrage besondere Originalität verleiht, ist der Umstand, daß jeder der
+               Gefragten auf Grund der ihm zugesandten Karikatur seiner Person über sich selbst zu
+               Gericht sitzen sollte und daß die Antworten dadurch subjektiv und objektiv
+               individuell ausfallen mußten.</p>
+            <p>Daß bei dem beschränkten Raume nicht alle Größen Aufnahme finden konnten, liegt wohl
+               auf der Hand. Wir wollen nicht verfehlen, auch an dieser Stelle, allen <hi rend="antiqua">p.&#8239;t.</hi> Einsendern für die witzige und geistvolle
+               Beantwortung unserer Rundfrage Dank zu sagen. Wir geben der Erwartung Ausdruck, daß
+               wir durch die Reproduzierung dieser Selbstpersiflagen und Karikaturen der <rs type="place" ref="#50">Wien</rs>er Lieblinge zur Weihnachtsbelustigung unserer
+               Leser beigetragen haben.</p>
+            <p>
+               <gap reason="outOfScope" unit="paragraphs" quantity="30"/>
+            </p>
+            <p>
+               <space dim="vertical" quantity="1" unit="paragraphs"/>
+            </p>
+            <p>Ich beantworte Rundfragen nur dann, wenn ich, auch ungefragt, ein Bedürfnis empfinde,
+               über das betreffende Thema zu reden. Das trifft hier nicht zu und daher gestatten Sie
+               mir, zu schweigen.</p>
+            <p rend="right">Arthur Schnitzler.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

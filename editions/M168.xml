@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="M168">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#62716">Für Gorki. Glückwünsche der Freunde,
+               31.&#8239;3.&#8239;1928</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="168"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a" ref="#62716">Für Gorki. Glückwünsche der Freunde</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#36344">Frankfurter Zeitung</title>
+                     <imprint>
+                        <date when="1928-03-31" n="1">31.&#8239;3.&#8239;1928</date>
+                     </imprint>
+                     <biblScope unit="jg">72</biblScope>
+                     <biblScope unit="nr">245, Erstes Morgenblatt</biblScope>
+                     <biblScope unit="pp">1–2, hier S.&#8239;2</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2021-12-21">Angelegt</change>
+         <change who="MAM" when="2021-12-21">Index check</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div type="original">
+            <head>Für <rs type="person" ref="#2323">Gorki</rs></head>
+            <head type="sub">Glückwünsche der Freunde.</head>
+            <p>Das »Komitee der ausländischen Freunde von <rs type="person" ref="#2323">Maxim
+                  Gorki</rs>« hat in Zusammenarbeit mit dem <rs type="org" ref="#62745"
+                  >Malik-Verlag</rs>, der jetzt die deutsche Gesamtausgabe von <rs type="person"
+                  ref="#2323">Gorki</rs>s Werken herausgibt, dem Dichter mit den Wünschen und Grüßen
+               der Freunde eine eindrucksvolle Kundgebung geistiger Gemeinschaft übermitteln können.
+               Wir sind in der Lage, <anchor type="commentary" xml:id="K_M168-1"/>einige dieser
+                  Glückwünsche<note type="commentary" xml:id="K_M168-1h"><rs type="person"
+                     ref="#2121">Schnitzler</rs>s Textspende beschließt die Beiträge. Davor stehen
+                  jene von: <rs type="person" ref="#7209">Leonhard Frank</rs>, <rs type="person"
+                     ref="#11570">Knut Hamsun</rs>, <rs type="person" ref="#12170">Heinrich
+                     Mann</rs>, <rs type="person" ref="#11435">André Gide</rs>, <rs type="person"
+                     ref="#9756">Wilhelm von Scholz</rs>, <rs type="person" ref="#11820">Johannes
+                     Jensen</rs>, <rs type="person" ref="#11205">Alfred Döblin</rs>, <rs
+                     type="person" ref="#8422">Selma Lagerlöf</rs>, <rs type="person" ref="#62727"
+                     >Bernhard Diebold</rs>, <rs type="person" ref="#62732">Alfons Paquet</rs>, <rs
+                     type="person" ref="#8740">Paul Löbe</rs>, <rs type="person" ref="#6303">Rudolf
+                     Binding</rs>, <rs type="person" ref="#12543">Romain Rolland</rs>, <rs
+                     type="person" ref="#13055">Jakob Wassermann</rs> und <rs type="person"
+                     ref="#11187">Georges Duhamel</rs>.</note> zu veröffentlichen.</p>
+            <p><gap reason="outOfScope" unit="paragraphs" quantity="14"/></p>
+            <p><space unit="lines" quantity="1" dim="vertical"/></p>
+            <p>Dem größten <rs type="place" ref="#34438">russischen</rs> Dichter <rs type="person"
+                  ref="#2323">Maxim Gorki</rs>, an dessen Schaffen ich seit drei Jahrzehnten
+               bewundernd Anteil nehme, sende ich zum sechzigsten Geburtstage die herzlichsten
+               Wünsche und Grüße.</p>
+            <p><seg rend="left"><rs type="place" ref="#50"><hi rend="spaced_out">Wien</hi></rs><hi
+                     rend="spaced_out">, </hi><date><hi rend="spaced_out">Feber
+                  1928</hi></date>.</seg>
+               <seg rend="right"><hi rend="spaced_out">Arthur Schnitzler.</hi></seg></p>
+         </div>
+      </body>
+   </text>
+</TEI>

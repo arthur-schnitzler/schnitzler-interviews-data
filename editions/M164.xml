@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="M164">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#62621">Artur Schnitzler und die beiden Radfahrer,
+               24.&#8239;9.&#8239;1922</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="164"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a" ref="#62621">Artur Schnitzler und die beiden Radfahrer</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#58419">Illustrierte Kronen Zeitung</title>
+                     <imprint>
+                        <date when="1922-09-24" n="1">24.&#8239;9.&#8239;1922</date>
+                     </imprint>
+                     <biblScope unit="jg">23</biblScope>
+                     <biblScope unit="nr">8149</biblScope>
+                     <biblScope unit="pp">7</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2021-12-16">angelegt</change>
+         <change who="MAM" when="2021-12-17">Index check</change>
+      </revisionDesc>
+   </teiHeader>
+   <!-- https://anno.onb.ac.at/cgi-content/anno?aid=krz&datum=19220924&seite=7&zoom=73&query=%22schnitzler%2Bradfahrer%22~5&ref=anno-search -->
+   <text type="article">
+      <body>
+         <div type="original">
+            <head>(Artur Schnitzler und die beiden Radfahrer.)</head>
+            <p>Unlängst hat das <rs type="org" ref="#62598">Polizeikommissariat Hernals</rs> die
+                  <anchor type="commentary" xml:id="K_M164-2"/>Anzeige<note type="commentary"
+                  xml:id="K_M164-2h"><ref target="1922-06-25" subtype="cf" type="schnitzlerDiary"/>:
+                     »<quote>Spaziergang <rs type="place" ref="#169">Pötzleinsdorf</rs> – <rs
+                        type="place" ref="#170">Neuwaldegg</rs>; unerfreuliche Unterbrechung. Zwei
+                     junge <rs subtype="implied" ref="#62600 #62601" type="person">Radfahrer</rs>
+                     fuhren von hinten in mich herein, ausweichend stießen sie zusammen, stürzten,
+                     besonders der <rs subtype="implied" ref="#62600" type="person">eine</rs> schien
+                     erheblich verletzt. Sie versuchten mich verantwortlich zu machen, ich verwies
+                     sie sehr energisch, war behilflich; bettete ihn auf eine Wiese;– führte den
+                     Verletzten mit seinem <rs type="person" subtype="implied" ref="#62601"
+                        >Collegen</rs> (Spengler und Elektriker) zur Wachstube <rs type="org"
+                        ref="#62602">Neuwaldegg</rs> Mauthaus; machte dem <rs type="person"
+                        subtype="implied" ref="#62605">Kommissär</rs> meine Angaben – wartete, bis
+                     das Sanitätsauto den Verletzten (wahrscheinlich Schulterluxation) abgeholt.–
+                     Zurück;– <gap reason="outOfScope" unit="lines" quantity="2"/>. Habe leichte
+                     Schmerzen im rechten Arm, denke an ›sympathische Sensationen‹ – bis ich zu
+                     Hause entdecke, daß auch ich bei dem Zusammenstoß eine Prellung und Extravasat.
+                     am r.&#160;Unterarm erlitten.–</quote>«</note> gegen den Dichter Artur <hi
+                  rend="spaced_out">Schnitzler</hi> beim <rs type="org" ref="#54803"
+                  >Strafbezirksgericht Fünfhaus</rs> wegen Uebertretung gegen die körperliche
+               Sicherheit erstattet, weil er daran Schuld trage, daß zwei Radfahrer, der 15jährige
+               Spengler <rs type="person" ref="#62600">Julius <hi rend="spaced_out">Zaijic</hi></rs>
+               und der 16jährige Elektrotechniker <rs type="person" ref="#62601">Jaroslav <hi
+                     rend="spaced_out">Uherka</hi></rs>, zu Fall kamen und sich verletzten. Der
+               staatsanwaltschaftliche <anchor type="commentary" xml:id="K_M164-1"/><rs
+                  type="person" subtype="implied" ref="#62605">Funktionär</rs><note
+                  type="commentary" xml:id="K_M164-1h">Otto Fischer</note> des <rs type="org"
+                  ref="#54803">Bezirksgerichtes Fünfhaus</rs> hat jedoch im weiteren Stadium den
+               Spieß umgekehrt und gegen die beiden genannten Burschen die Anklage wegen
+               Sicherheitsgefährdung erhoben, während nun Artur Schnitzler die Rolle des Zeugen
+               zufiel. In der gestrigen Verhandlung, vor dem <rs type="org" ref="#54803"
+                  >Bezirksgericht Fünfhaus</rs> war der als Zeuge geladene Dichter nicht anwesend;
+               er hatte sein Nichtkommen durch Berufsgeschäfte entschuldigt. In seinem Schreiben
+               gibt er eine ausführliche Darstellung der Situation nach dem Unfalle der beiden
+               Radfahrer, <anchor type="textConst" xml:id="T_M164-1"/>denn<note type="textConst"
+                  xml:id="T_M164-1h"><quote>den</quote></note> diesen selbst habe er nicht
+               gesehen. Er gibt an, daß er am <date>25.&#160;Juni</date>, vormittags von <rs
+                  type="place" ref="#169">Pötzleinsdorf</rs> nach <rs type="place" ref="#170"
+                  >Neuwaldegg</rs> auf der Straße, die weder Geh- noch Radfahrweg hat, spazieren
+               ging. <anchor type="commentary" xml:id="K_M164-14"/><anchor type="textConst" xml:id="T_M164-11"/>»Plötzlich<note type='textConst' xml:id="T_M164-11h"><quote>Plötzlich</quote></note> hörte ich<note
+                  type="commentary" xml:id="K_M164-14h">Der Sprecherwechsel ist in der Vorlage nicht
+                  gekennzeichnet.</note> hinter mir klingeln. In der Sekunde darauf sah ich zwei
+               jugendliche Radfahrer nebeneinander samt ihren Rädern auf der Erde liegen. Sie hatten
+               zweifellos neben mir vorbeifahren wollen, sind dabei mit ihren Rädern
+               zusammengestoßen und gestürzt. Ich habe den ganzen Vorfall nicht beachten können, da
+               sich alles hinter mir <anchor type="textConst" xml:id="T_M164-77"/>abspielte.«<note type='textConst' xml:id="T_M164-77h"><quote>abspielte</quote></note> Dr.&#160;Schnitzler, der bekanntlich auch Arzt ist,
+               hat die beiden Verletzten gleich behandelt und ihnen später auch ein <anchor
+                  type="commentary" xml:id="K_M164-17"/>Geldgeschenk<note type="commentary"
+                  xml:id="K_M164-17h">Aus einem weiteren Prozessbericht geht hervor, dass das Geld
+                  für die Wiederinstandsetzung der demolierten Fahrräder gedacht war (<bibl><rs
+                        type="work" ref="#62610">Eine mißglückte Strafanzeige gegen Artur
+                        Schnitzler</rs>. In: <rs type="work" ref="#36376">Neues Wiener Journal</rs>,
+                     Jg.&#8239;30, Nr.&#160;10.364, S.&#8239;18</bibl>).</note> gemacht. Die beiden
+                  <rs type="person" subtype="implied" ref="#62600 #62601">Angeklagten</rs> geben an,
+               der »Herr« sei, als sie vorfuhren, zuerst in das eine, dann in das andere Rad
+               »hineingeraten«, wodurch sie beide fielen. Der <anchor type="commentary"
+                  xml:id="K_M164-22"/><rs type="person" subtype="implied" ref="#62617"
+                  >Richter</rs><note type="commentary" xml:id="K_M164-22h"><rs type="person"
+                     ref="#62617">Karl Hietler</rs></note> sprach die beiden <rs type="person"
+                  subtype="implied" ref="#62600 #62601">Angeklagten</rs> auf Grund der Angaben Dr.
+               Artur Schnitzlers <hi rend="spaced_out">frei</hi>, da auch er, als der einzige in
+               Betracht stammende Zeuge, von einem schuldbaren Vorgehen der Angeklagten nichts
+               wissen konnte, da er sie erst sah, als sie schon am Boden lagen.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

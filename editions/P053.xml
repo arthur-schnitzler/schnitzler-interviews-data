@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="P053">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#33123">Erklärung.&#8239;[Nicht bei Premiere von Ritter Blaubart],
+               1.&#8239;1.&#8239;1907</title>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="053"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <title level="a" ref="#33123">Erklärung</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#58341">Das literarische Echo</title>
+                     <imprint>
+                        <date when="1907-01-01" n="1">1.&#8239;1.&#8239;1907</date>
+                     </imprint>
+                     <biblScope unit="vol">9</biblScope>
+                     <biblScope unit="nr">7</biblScope>
+                     <biblScope unit="col">563–564</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct corresp="ASB1">
+                  <monogr>
+                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefe 1875–1912</title>
+                     <editor>Nickl, Therese</editor>
+                     <editor>Schnitzler, Heinrich</editor>
+                     <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                        <date when="1981">1981</date>
+                     </imprint>
+                     <biblScope unit="pp">548–549</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2017-11-17">angelegt</change>
+         <change who="MAM" when="2021-09-16">Index check</change>
+         <change who="KH" when="2021-10-11">Durchsicht</change>
+      </revisionDesc>
+      <!-- https://archive.org/stream/daslitterarische9190ettl#page/n329/mode/2up -->
+   </teiHeader>
+   <text type="text">
+      <body>
+         <div type="original">
+            <head><supplied>Schnitzler nicht bei <rs type="work" ref="#33125">Ritter Blaubart</rs></supplied></head>
+            <p rend="center">Sehr geehrter Herr Redakteur!</p>
+            <p>In seinem <anchor type="commentary" xml:id="KT139-1"/>
+               <rs type="work" ref="#33125" subtype="implied">Bericht</rs>
+               <note type="commentary" xml:id="KT139-1h">Die Uraufführung fand am
+                     <date>10.&#8239;11.&#8239;1906</date> am <rs type="place" ref="#18"
+                     >Lessingtheater</rs> statt. <rs type="person" ref="#14049">Leo Berg</rs>s
+                  Rezension <rs type="work" ref="#33125">Ritter Blaubart. Ein Märchenstück in
+                     5 Akten von <rs type="person" ref="#11273">Herbert Eulenberg</rs>. (<rs
+                        type="place" ref="#18">Lessingtheater</rs>, <date>8.&#160;November
+                        1906</date>.) Buchausgabe bei Egon Fleischel <c rendition="#kaufmannsund"/>
+                     Co., Berlin</rs>. erschien am <date>1.&#8239;12.&#8239;1906</date>
+                     (<bibl>Jg.&#8239;9, H.&#8239;5, Sp. 365–368</bibl>).</note> über die
+               Erstaufführung des »<rs type="work" ref="#33127">Ritter Blaubart</rs>« am <rs
+                  type="place" ref="#18">Lessingtheater zu Berlin</rs> erzählt Ihr Herr <rs
+                  type="person" ref="#14049" subtype="implied">Referent</rs>, daß der Theaterskandal
+               seinen Höhepunkt erreichte, »als <anchor type="commentary" xml:id="KT139-2"/>
+               <rs type="person" ref="#11581">Maximilian Harden</rs>
+               <note type="commentary" xml:id="KT139-2h">Im Unterschied zu <rs type="person"
+                     ref="#2121">Schnitzler</rs> dürfte <rs type="person" ref="#11581">Harden</rs>
+                  wirklich in Erscheinung getreten sein, wie aus einer Meldung der <rs type="org"
+                     ref="#29351">Neuen Freien Presse</rs> hervorgeht, die ihn gleichfalls nennt
+                     (<bibl>Nr.&#160;1.565, <date>9.&#8239;11.&#8239;1906</date>,
+                  S.&#8239;13</bibl>).</note> und Arthur Schnitzler mit Berserkerwut für das schon
+               verlorene Stück in die Bresche sprangen, sichtbar vor allem Publikum hervortretend,
+               tosenden Beifall klatschend und mit vollen Backen Bravo rufend, wutentbrannt«. Er
+               fügt hinzu: »Es war eine schöne Szene« und spricht etliche Absätze später die
+               Befürchtung aus, daß sich einige Kritiker »natürlich durch <rs type="person"
+                  ref="#11581">Hardens</rs> und Schnitzlers Auftreten beunruhigt fühlen werden«. </p>
+            <p>Demgegenüber bitte ich Sie festzustellen, daß ich seit Monaten nicht in <rs
+                  type="place" ref="#168">Berlin</rs> war, daher auch zu meinem Bedauern der
+               Premiere des »<rs type="work" ref="#33127">Blaubart</rs>« nicht beiwohnen und meinem
+               Beifall für das Stück – selbst wenn solches Betragen sonst zu meinen Gepflogenheiten
+               gehörte – nicht in der von Herrn <rs type="person" ref="#14049">Leo Berg</rs> mit so
+               vollendeter Beobachtungsgabe geschilderten Weise Ausdruck geben konnte. </p>
+            <p>Mit vorzüglicher Hochachtung </p>
+            <p rend="inline">Ihr ergebener </p>
+            <p>
+               <rs type="place" ref="#50">Wien</rs>
+               <space unit="chars" quantity="1"/>
+               <signed>
+                  <hi rend="antiqua">Dr</hi>. <hi rend="spaced_out">Arthur Schnitzler</hi>
+               </signed>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

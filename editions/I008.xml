@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="I008">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Interviews</title>
+            <title level="a" ref="#32911">Hermann Menkes: Bei Artur Schnitzler,
+               22.&#8239;11.&#8239;1910</title>
+            <author ref="#2553">Menkes, Hermann</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="008"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#2553">Menkes, Hermann</author>
+                     <title level="a" ref="#32911">Bei Artur Schnitzler</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#36376">Neues Wiener Journal</title>
+                     <imprint>
+                        <date when="1910-11-22" n="1">22.&#8239;11.&#8239;1910</date>
+                     </imprint>
+                     <biblScope unit="jg">18</biblScope>
+                     <biblScope unit="nr">6.137</biblScope>
+                     <biblScope unit="pp">2</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <title level="a" ref="#32911">Echo der Zeitungen</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j">Das litterarische Echo</title>
+                     <imprint>
+                        <date when="1911-01-01">1.&#8239;1.&#8239;1911</date>
+                     </imprint>
+                     <biblScope unit="jg">13</biblScope>
+                     <biblScope unit="nr">7</biblScope>
+                     <biblScope unit="col">511</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <editor>Renner-Henke, Ursula</editor>
+                     <title level="a">Hausbesuche. Hermann Menkes bei Wiener Künstlern und
+                        Sängerinnen</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j">Hofmannsthal Jahrbuch</title>
+                     <imprint>
+                        <date when="2016">2016</date>
+                     </imprint>
+                     <biblScope unit="jg">24</biblScope>
+                     <biblScope unit="pp">87–93</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2017-11-17">angelegt</change>
+         <change who="MAM" when="2018-02-14">Index check</change>
+         <change who="KH" when="2021-10-13">Durchsicht</change>
+      </revisionDesc>
+      <!-- https://anno.onb.ac.at/cgi-content/anno?aid=nwj&datum=19101122&seite=2&zoom=41 -->
+   </teiHeader>
+   <text type="text">
+      <body>
+         <div type="original">
+            <head>Bei <rs type="person" ref="#2121">Artur Schnitzler</rs>.</head>
+            <head type="sub">Von</head>
+            <head type="sub">Hermann Menkes.</head>
+            <p>Eine Unterhaltung mit <rs type="person" ref="#2121">Artur Schnitzler</rs> gewinnt
+               einen besonderen Reiz dadurch, daß alle im Gespräch berührten Dinge ihm zu Problemen
+               werden, die er in ganz eigener Weise zu beleuchten und zu vertiefen versteht. Ein
+               langes, freundliches Verhältnis zwischen dem Dichter und mir ermöglichte mir oft das
+               Glück solch anregender Stunden. Mancher Einblick in die Geheimnisse seiner
+               Werkstätte, in die Entstehung seiner Werke wurde mir gewährt. Wie ein an sich
+               unbedeutsames Ereignis, das Wiedersehen mit einem vergessenen Bekannten oder
+               Jugendfreund, die Stimmung eines Augenblicks befruchtend auf seine Phantasie wirkt,
+               erzählte er mir oft, und wie ein dichterischer Einfall ihm in den ersten Tagen zu
+               einem so starken Erlebnis wird, daß es sich oft in das Wirkliche drängt. Es geschieht
+               dabei, daß eine einzige Idee zu einer Wurzel mannigfacher dichterischer Probleme wird
+               und daß so mehrere Dramen oder Novellen aus einem ursprünglich einzigen Stoff
+               erwachsen. Ironische Bemerkungen mischen sich in die ernsten Auseinandersetzungen
+               eines Gespräches und geben ihm Pikanterie und Abwechslung des Tones. Dinge, in die
+               sein Wirken und sein tieferes Interesse nicht hineinreichen, lehnt er von der
+               konversationellen Behandlung ab, obgleich <rs type="person" ref="#2121"
+                  >Schnitzler</rs> so wenig von der Einseitigkeit des Metiermenschen an sich hat. </p>
+            <p>An einem Abend der letzten Tage saß ich ihm in dem Arbeitszimmer seines neuen Heims
+               in der <rs type="place" ref="#150">Sternwartestraße</rs> wieder gegenüber. Das Haus,
+               das nun in seinen Besitz übergegangen ist, war ehemaliges <anchor type="commentary"
+                  xml:id="K_I008-1"/>Eigentum des Ehepaares <rs type="person" ref="#10959 #12595"
+                  >Römpler–Bleibtreu</rs><note type="commentary" xml:id="K_I008-1h"><anchor
+                     type="label" xml:id="I008_L_sternwartevilla"/>Mit der Geburt der Tochter <rs
+                     type="person" ref="#2238">Lili</rs> im Jahr <date>1909</date> trat die
+                  Notwendigkeit einer räumlichen Vergrößerung der Wohnsituation ein. Nach einigen
+                  Immobilienbesichtigungen führte das – letzlich dank eines großzügigen Kredits von
+                     <rs type="person" ref="#2121">Schnitzler</rs>s Bruder <rs type="person"
+                     ref="#12698">Julius</rs> – zum Kauf des Hauses der <rs type="org" ref="#36247"
+                     >Burgschauspielerin</rs><space unit="chars" quantity="1"/><rs type="person"
+                     ref="#10959">Hedwig Bleibtreu</rs>. Ihr Mann, der Schauspieler <rs
+                     type="person" ref="#12595">Alexander Römpler</rs>, war <date>Ende 1909</date>
+                  gestorben. Die trauernde Witwe beschloss, das im Jahr <date>1895</date> vom
+                  Architekten <rs type="person" ref="#21717">Hermann Müller</rs> eigens für den
+                  Verstorbenen errichtete Haus zu veräußern. Die Villa lag fußläufig nur
+                  400&#160;Meter von der alten Wohnung <rs type="person" ref="#2121"
+                  >Schnitzler</rs>s entfernt und kostete 95.000 Kronen. <bibl>Vgl. Gerhard Hubmann:
+                        <title level="a">»Schwankende häusliche Stimmung«. Mit Arthur Schnitzler
+                        beim Villenkauf</title>. In: <title level="m">»So schön kann Wissenschaft
+                        sein!« Mit Kronprinz Rudolf im Unterricht, mit Kaiserin Elisabeth von
+                        Schloss zu Schloss, mit Arthur Schnitzler beim Villenkauf. Zeitkapseln aus
+                        der Sammlung Brigitte Hamann.</title> Geöffnet und hg. von Marcel Atze unter
+                     Mitarbeit von Kyra Waldner. Wien: <publisher>Wienbibliothek</publisher><space
+                        unit="chars" quantity="1"/><date>2017</date>,
+                  S.&#8239;220–236</bibl>.</note>. Von der mit wenigen Bildern und Statuetten
+               geschmückten Arbeitsstube im ersten Stockwerk bietet sich ein Ausblick nach der jetzt
+               herbstlichen, von Schleiern umwobenen <rs type="place" ref="#50">Wien</rs>er
+               Landschaft, zu den sanften Hügeln und Geländen, die <rs type="person" ref="#2121"
+                  >Schnitzler</rs> so sehr liebt und die er namentlich in seinen Erzählungen in so
+               zarter, lyrisch abgetönter Stimmung und Plastik wiedergegeben hat. Das ganze Gespräch
+               ward zu einem »<rs type="work" ref="#29923">Weg ins Freie</rs>« aus herrschenden
+               Vorurteilen und irrtümlichen Auffassungen.</p>
+            <p>Ich finde <rs type="person" ref="#2121">Schnitzler</rs> nach einer Rückkehr aus einer
+               Probe zur <anchor type="commentary" xml:id="K_I008-5"/>Aufführung des »<rs
+                  type="work" ref="#29937">Jungen Medardus</rs><note type="commentary"
+                  xml:id="K_I008-5h">Die Uraufführung fand am <ref target="1910-11-24"
+                     type="schnitzlerDiary" subtype="date-only"/> am <rs type="org" ref="#36247"
+                     >Burgtheater</rs> statt.</note>« und ich frage ihn,<ref type="question"
+                  target="#q029"/> welche Bedeutung er der Mitwirkung eines Autors an der Regie
+               seines Stückes beimißt.</p>
+            <p>Er erwidert, daß diese Mitwirkung des Dramatikers schon mit den szenischen
+               Anmerkungen zu seinem Stücke beginnt und daß er ja wohl am besten Aufschlüsse darüber
+               geben kann, wie er sich ins Wirkliche umgesetzt eine Inszenierung gedacht. Ueber das
+               rein Technische noch hinaus ist sein Rat und seine Aufklärung über den ideellen
+               Gehalt einer Stelle von größter Wichtigkeit. <rs type="person" ref="#2121"
+                  >Schnitzler</rs> berichtet über ein interessantes Vorkommnis mit <rs type="person"
+                  ref="#10844">Bassermann</rs> gelegentlich der <anchor type="commentary"
+                  xml:id="K_I008-6"/><rs type="place" ref="#168">Berlin</rs>er Proben zum »<rs
+                  type="work" ref="#29985">Einsamen Weg</rs><note type="commentary"
+                  xml:id="K_I008-6h">Die Uraufführung fand <ref target="1904-02-13"
+                     subtype="date-only" type="schnitzlerDiary"/> am <rs type="org" ref="#35597"
+                     >Deutschen Theater Berlin</rs> statt.</note>«. <rs type="person" ref="#10844"
+                  >Bassermann</rs> fand, daß die ihm zugedachte Rolle ihm nicht liege, und er
+               sträubte sich bei jeder Schwierigkeit, die sich ergab. Gelegentlich einer kleinen
+               Dialogstelle, die er mit dem Dichter besprach, sprang <rs type="person" ref="#10844"
+                  >Bassermann</rs> mit einem freudigen Heureka auf. Er hatte nun aus einem winzigen
+               Teil den tieferen Sinn des Ganzen erfaßt und die Gestalt erschloß sich ihm ganz, die
+               er dann in so meisterhafter Weise darstellte.</p>
+            <p>»Interessant«, meinte <rs type="person" ref="#2121">Schnitzler</rs>, »ist die innere
+               Umwandlung des Autors während der Proben. Es geschieht da manchmal, daß man trotz der
+               stärksten literarischen Ambitionen zum Publikum wird und genau wie dieses an das
+               eigene Stück die rein theatralische Forderung stellt. Damit ändert sich die ganze
+               Optik. Dinge, die ihm früher lebendig warm<!-- so! -->, erscheinen ihm nun nicht
+               belebt genug und zu ihrer stärksten Wirkung nicht gebracht. Das ist keine
+               Objektivierung, sondern die erste Probe auf die Gesetze der Bühne vom Standpunkt
+               eines Zuschauers aus. Da kann der Autor noch eingreifen und schon aus diesem Grunde
+               ist seine Mitwirkung von Belang. Wie der vollendende, vorbereitende Abschluß einer
+               Aufführung vor sich geht, ist schwer zu sagen. Das verbessert oder verschlechtert
+               sich wie in einer Wellenbewegung. Es geschieht, daß die Darstellung eine Vollendung
+               erhält, ohne daß ihr irgendeine bewußte Arbeit vorangegangen. So auch ein Verfall
+               ohne Vernachlässigung. Ob der Dichter nach Abschluß eines Werkes oder während der
+               ersten Aufführung, der Umsetzung ins Wirkliche, eine Desillusion erlebt? Jeder
+               Schaffende geht schon von vornherein mit der Resignation ans Werk, daß er hinter der
+               Schönheit seines ersten Erlebnisses zurückbleiben und nie das hervorbringen wird, was
+               ihm als Ideal vorschwebte. Die Aufführung eines Stückes enttäuscht ihn, wenn die
+               Darsteller schwächer sind als seine Gestalten. Dies ist glücklicherweise nicht immer
+               der Fall, zuweilen das Gegenteil. Freilich gibt es in einem Theater nie so viele gute
+               Darsteller, als ein Stück es manchmal erfordert. Das sind die Enttäuschungen, die man
+               empfindet.«</p>
+            <p>Ich <ref type="question" target="#q030"/>befrage <rs type="person" ref="#2121"
+                  >Schnitzler</rs> um die Entstehung des »<rs type="work" ref="#29937">Jungen
+                  Medardus</rs>«, der demnächst im <rs type="org" ref="#36247">Burgtheater</rs>
+               aufgeführt wird.</p>
+            <p>»Historische Stücke sind eine frühe Liebe von mir gewesen, der ich treu blieb. Die
+               historische Stimmung meines neuen Dramas verdichtete sich allmählich in mir zu der
+               einer bestimmten Zeit. Es war keine bloße Flucht in die Vergangenheit, in die man
+               sich manchmal begibt, wenn Geschehnisse und Gestalten etwas Außerordentliches, über
+               das Alltägliche Hinausgehendes an sich haben. Man hat sich darüber gewundert, daß
+               mein Stück so umfangreich gedieh, daß ich es einiger Aenderungen unterziehen mußte.
+                  <rs type="person" ref="#2412">Shakespeare</rs> und <rs type="person" ref="#12654"
+                  >Schiller</rs> waren wohl gute Theaterpraktiker genug und dennoch kann man weder
+               den »<rs type="work" ref="#30009">Hamlet</rs>« noch den »<rs type="work" ref="#33023"
+                  >Karlos</rs>« ungekürzt spielen. Die Beispiele könnte man noch häufen. Jeder Stoff
+               hat seine notwendigen Dimensionen in sich und ich glaube, daß ich nicht allzuweit
+               über das Zulässige hinausging.«</p>
+            <p>Ich berühre im weiteren Verlaufe des Gesprächs <ref type="question" target="#q031"
+               />die <anchor type="commentary" xml:id="K_I008-9"/>Vertonung der »<rs type="work"
+                  ref="#29917">Liebelei</rs><note type="commentary" xml:id="K_I008-9h">Die von <rs
+                     type="person" ref="#21891">Franz Neumann</rs> komponierte Oper hatte am <ref
+                     target="1910-09-18" type="schnitzlerDiary" subtype="date-only"/> am <rs
+                     type="org" ref="#46954">Frankfurter Opernhaus</rs> Uraufführung.</note>«, die
+               unlängst in <rs type="place" ref="#146">Frankfurt am Main</rs> als <rs type="work"
+                  ref="#31311">Oper</rs> aufgeführt wurde.</p>
+            <p>»Das war einer der ersten Versuche, ein Stück in seinem ursprünglichen Charakter als
+               Operntext zu benutzen, ein Versuch, dem ich zuerst skeptisch gegenüberstand. Mein <rs
+                  type="work" subtype="implied" ref="#29917">Stück</rs> wurde keinerlei Aenderung
+               unterzogen. Der <rs type="person" ref="#21891" subtype="implied">Komponist</rs> paßte
+               sich in trefflicher Weise dem etwa vorhandenen Rhythmus der Sprache an oder gab ihr
+               durch die Musik einen solchen. Er hatte allerdings mancherlei Schwierigkeiten zu
+               überwinden.«</p>
+            <p>Von persönlichen Dingen kamen wir auf allgemeine, und <ref type="question"
+                  target="#q032"/>ich fragte <rs type="person" ref="#2121">Schnitzler</rs> ob er
+               jenen recht gebe, die das Sinken des Niveaus in der literarischen Produktion unserer
+               Zeit beklagen.</p>
+            <p>»Ich bin allerdings der Ansicht«, erwiderte er, »daß wir uns in einer
+               Uebergangsepoche befinden. Die <rs type="person" ref="#11933">Kleists</rs> und <rs
+                  type="person" ref="#12654">Schillers</rs> laufen jetzt nicht so herum, aber ich
+               glaube dennoch, daß man im Unrecht ist. Wir besitzen im Roman, in der Lyrik und im
+               Drama eine Fülle von eigenartigen Begabungen, wie nicht oft in einer Zeit. Das ist
+               keine Blüteperiode der Dichtung wie zur Zeit unserer Klassiker, aber das, was im
+               letzten Abschnitt geschaffen wurde, ist wohl bedeutender und kultivierter als die
+               Produktion der vorklassischen Epoche. Man hat gegen das Artistentum sich gewendet,
+               ohne freilich bestimmte Persönlichkeiten zu bezeichnen, aber hat es je eine hohe Form
+               ohne bedeutenden Inhalt gegeben? Man hat ferner die geringe Beziehung unserer
+               Dichtung zum zeitgenössischen Leben und dessen Fragen getadelt. Der Sinn dieser
+               Förderer geht nach dem Aktuellen. Aber gerade die zeitlosen Dichtungen waren es,
+               denen die größte Dauer beschieden war: ›<rs type="work" ref="#30031">Tasso</rs>‹,
+                  ›<rs type="work" ref="#30247">Faust</rs>‹, ›<rs type="work" ref="#30009"
+                  >Hamlet</rs>‹. Ich glaube, ein derartiges Werk kann uns mehr von dem Empfindungs-
+               und Gedankengehalt seiner Entstehungszeit aussagen, als eines, das eine momentane
+               gesellschaftliche oder politische Frage behandelt. Man meint, daß das Publikum sich
+               vom literarischen Drama abwende, aber gerade in den letzten zehn Jahren haben wir
+               Erfolge gesehen, die bei literarischen Stücken zu keiner Zeit größere waren. Manches
+               Vergessene wurde und wird ausgegraben, vieles, was auf die Zeitgenossen nicht wirkte
+               und gerade jetzt seine glückliche Auferstehung <anchor type="textConst"
+                  xml:id="T_I008-1"/>erlebt.«<note type="textConst" xml:id="T_I008-1h"
+                     ><quote>erlebt.</quote></note>
+            </p>
+            <p>»Man hat auch von literarischen Cliquen gesprochen. Wann sind die mit irgendeinem
+               Unternehmen, einer Tat hervorgetreten? Ich glaube, das, was man als Cliquen
+               bezeichnet, das sind Gemeinschaften von Schaffenden, die von einem gleichen Ideal,
+               einer künstlerischen Anschauung zusammengeführt werden. Das ist ein ziemlich
+               natürlicher Vorgang. Aber man könnte mit einem vielleicht seltsamen, aber doch nicht
+               unwahren Paradoxon die Cliquen als eine Gruppe von Menschen bezeichnen, die sich im
+               geheimen am stärksten hassen. Im übrigen leben die Schriftsteller gerade jetzt sehr
+               isoliert, worüber <anchor type="commentary" xml:id="K_I008-10"/><rs type="person"
+                  ref="#13068">Wedekind</rs> ja unlängst <rs type="work" ref="#33025"
+                  >Klage</rs><note type="commentary" xml:id="K_I008-10h">Es dürfte sich um diese
+                  Aussage <rs type="person" ref="#13068">Wedekind</rs>s handeln: »<quote>ich finde,
+                     daß die heute lebenden und schaffenden Schriftsteller viel zu wenig Achtung
+                     voreinander haben, deshalb hat auch niemand Achtung vor ihnen. Das Publikum
+                     sehr wenig, die Kritik gar keine und die Zensur noch weniger. <gap
+                        reason="outOfScope" unit="lines" quantity="20"/> Wir interessieren uns viel
+                     zu wenig für einander, um Kritiken über einander zu schreiben, wir kennen ja
+                     einander kaum.</quote>« <bibl>Zit. nach der Edition von Ursula Renner,
+                     S.&#8239;92–93</bibl>.</note> geführt hat. Aber das ist eine Vereinsamung, die
+               für die persönliche Entwicklung notwendig ist. Vielfache falsche Auffassungen
+               entstehen aus der Kluft, von welcher Schaffende und Kritiker getrennt sind. Das ist
+               nicht ein Gegensatz von Neid und verletzter Eitelkeit, sondern sie liegt in der
+               Verschiedenartigkeit der Optik, des ganzen Verhältnisses zum Werke.«</p>
+            <p>So schloß dieses kurze, in einer Herbstabendstunde geführte Gespräch, in welchem <rs
+                  type="person" ref="#2121">Artur Schnitzler</rs> mir über sein Verhältnis zu
+               künstlerischen Fragen Aufschluß gab.</p>
+         </div>
+         <div type="biographical">
+            <div1>
+               <ref type="schnitzlerDiary" target="1910-11-07"/>
+               <quote>
+                  <rs type="person" ref="#2553">H. Menkes</rs> (vom <rs type="org" ref="#29320">Wr.
+                     J.</rs>), interviewt über <rs type="work" ref="#29937">Medardus</rs>
+                  u.&#8239;a.–</quote>
+            </div1>
+         </div>
+      </body>
+   </text>
+</TEI>
