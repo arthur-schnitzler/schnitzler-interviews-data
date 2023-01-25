@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
    xml:base="schnitzler-interviews" xml:id="I179">
    <teiHeader>
       <fileDesc>
@@ -100,7 +100,9 @@
             <p><rs type="person" ref="#2121">Arthur Schnitzler</rs> blev, i Kraft af sin Bys
                aandsfri Livsglæde og fornemme Skepsis, Elskovslegens moderne Digter i <rs
                   type="place" ref="#151">Tyskland</rs>.</p>
-            <p rend="center">***</p>
+            <p rend="center">
+               <c rendition="#ornament"/>
+            </p>
             <p>–&#8239;–&#8239;– For at lære det Land at kende, hvis Digtning havde øvet saa tor
                Indflydelse paa ham, kom han i sidste Sommer til <rs type="place" ref="#36300"
                   >Kjøbenhavn</rs> og tog Ophold paa <rs type="place" ref="#1091">Skodsborg
@@ -229,7 +231,9 @@
             <p><rs type="person" ref="#2121">Arthur Schnitzler</rs> wurde durch die atemlose
                Lebensfreude und den distinguierten Skeptizismus seiner Stadt zum modernen
                Liebesdichter <rs type="place" ref="#151">Deutschlands</rs>.</p>
-            <p rend="center">***</p>
+            <p rend="center">
+               <c rendition="#ornament"/>
+            </p>
             <p>–&#8239;–&#8239;– Um das Land kennenzulernen, dessen Dichtung ihn so stark
                beeinflusst hat, kam er im vergangenen Sommer nach <rs type="place" ref="#36300"
                   >Kopenhagen</rs> und wohnte mit einigen Freunden im <rs type="place" ref="#1091"
@@ -366,6 +370,20 @@
             <p rend="right">–n–</p>
          </div>
          <div type="biographical">
+            <div1>
+               <bibl><rs type="person" ref="#11485">Paul Goldmann</rs> an <rs type="person" ref="#2121">Schnitzler</rs>, 11.&#8239;3.&#8239;1897</bibl>
+               <quote>Soeben erhalte ich für Dich und <hi rend="latintype">
+                  <rs type="person" ref="#10863">Richard</rs>
+               </hi> zwei Nummern von »<hi rend="latintype">
+                  <rs type="work" ref="#36357">Politiken</rs>
+               </hi>«, wo <hi rend="latintype">
+                  <rs type="person" ref="#2357">Peter Nansen</rs>
+               </hi> über Dich und zugleich über uns 
+                  <rs type="work" subtype="implied" ref="#30470">geschrieben</rs>
+                   hat. Ich verstehe kein Wort davon,
+                  aber es scheint prächtig zu sein.  Ich sende beide
+                  <rs type="work" subtype="implied" ref="#36357">Nummern</rs> an Dich.</quote>
+            </div1>
             <div1>
                <bibl><rs type="person" ref="#2121">Schnitzler</rs> an <rs type="person" ref="#2357"
                      >Nansen</rs>, 15.&#8239;3.&#8239;1897</bibl>

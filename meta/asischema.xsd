@@ -740,9 +740,15 @@
    <xs:element name="figure">
       <xs:complexType>
          <xs:sequence>
-            <xs:element ref="tei:graphic"/>
+            <xs:element ref="tei:figDesc" maxOccurs="1" minOccurs="0"/>
+            <xs:element ref="tei:graphic" minOccurs="1" maxOccurs="1"/>
          </xs:sequence>
       </xs:complexType>
+   </xs:element>
+   <xs:element name="figDesc">
+      <xs:simpleType>
+         <xs:restriction base="xs:string"/>
+         </xs:simpleType>
    </xs:element>
    <xs:element name="closer">
       <xs:complexType mixed="true">
@@ -1815,6 +1821,7 @@
                   <xs:enumeration value="#geschwungene-klammer-zu"/>
                   <xs:enumeration value="#geschwungene-klammer-auf"/>
                   <xs:enumeration value="#dollar"/>
+                  <xs:enumeration value="#ornament"/>
                </xs:restriction>
             </xs:simpleType>
          </xs:attribute>

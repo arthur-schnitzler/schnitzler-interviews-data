@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../../XML/meta/asischema.xsd"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
    xml:base="schnitzler-interviews" xml:id="P111">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: Interviews</title>
-            <title level="a" ref="#58490">Une protestation d’Arthur Schnitzler, 21.&#8239;12.&#8239;1914</title>
+            <title level="a" ref="#58490">Une protestation d’Arthur Schnitzler,
+               21.&#8239;12.&#8239;1914</title>
             <author ref="#2121">Schnitzler, Arthur</author>
             <author ref="#12543">Rolland, Romain</author>
             <editor>
@@ -171,9 +172,7 @@
             <p>15 décembre 1914.</p>
             <p rend="right">Romain <hi rend="capitals">Rolland</hi>.</p>
             <p rend="center">
-               <hi rend="subscript">*</hi>
-               <hi rend="superscript">*</hi>
-               <hi rend="subscript">*</hi>
+               <c rendition="#ornament"/>
             </p>
             <p>J’apprends indirectement par des <rs type="person" ref="#3068 #26392">amis</rs>
                <space unit="chars" quantity="1"/>
@@ -260,9 +259,7 @@
                <date>15.&#160;Dezember 1914</date>.</p>
             <p rend="right">Romain ROLLAND.</p>
             <p rend="center">
-               <hi rend="subscript">*</hi>
-               <hi rend="superscript">*</hi>
-               <hi rend="subscript">*</hi>
+               <c rendition="#ornament"/>
             </p>
             <p>
                <anchor type="commentary" xml:id="T_I111-1"/>Wie ich durch<note type="commentary"
@@ -313,18 +310,18 @@
                jener Publikation offenbar mitgeteilt sind, von meiner Seite niemals gefallen sind,
                nach meiner Gesinnung niemals, weder im Frieden noch im Kriege, hätten fallen
                können.</p>
-            <p><anchor type="label" xml:id="P111_fernzuhalten"></anchor>Es ist freilich etwas beschämend für jemand, der sich zeitlebens vom Pathos der
-               Selbstverständlichkeiten leidlich fernzuhalten gewußt hat, erst ausdrücklich
-               versichern zu müssen, daß ihm das Schöne jederzeit schön, das Große jederzeit groß
-               bleiben wird; auch wenn es Nationen angehört, oder innerhalb von Nationen geworden
-               und gewachsen ist, mit denen sein Vaterland eben in einen Krieg verwickelt ist; aber
-               der zahlreichen Menschen denkend, die sich in dieser Epoche auch zu schlimmeren
-               Dingen verstehen müssen, als zu einer kleinen Geschmacklosigkeit, stehe ich nicht an
-               es hier niederzuschreiben, daß ich <rs type="person" ref="#3739">Tolstoi</rs> (einen
-                  <rs type="place" ref="#34438">Russen</rs>!) für eines der gewaltigsten
-               dichterischen Ingenien halte, die je über den Erdkreis geschritten sind; daß <anchor
-                  type="textConst" xml:id="T_P111-11"/>mir<note type="textConst" xml:id="T_P111-11h"
-                     ><quote>ich</quote></note>
+            <p><anchor type="label" xml:id="P111_fernzuhalten"/>Es ist freilich etwas beschämend für
+               jemand, der sich zeitlebens vom Pathos der Selbstverständlichkeiten leidlich
+               fernzuhalten gewußt hat, erst ausdrücklich versichern zu müssen, daß ihm das Schöne
+               jederzeit schön, das Große jederzeit groß bleiben wird; auch wenn es Nationen
+               angehört, oder innerhalb von Nationen geworden und gewachsen ist, mit denen sein
+               Vaterland eben in einen Krieg verwickelt ist; aber der zahlreichen Menschen denkend,
+               die sich in dieser Epoche auch zu schlimmeren Dingen verstehen müssen, als zu einer
+               kleinen Geschmacklosigkeit, stehe ich nicht an es hier niederzuschreiben, daß ich <rs
+                  type="person" ref="#3739">Tolstoi</rs> (einen <rs type="place" ref="#34438"
+                  >Russen</rs>!) für eines der gewaltigsten dichterischen Ingenien halte, die je
+               über den Erdkreis geschritten sind; daß <anchor type="textConst" xml:id="T_P111-11"
+                  />mir<note type="textConst" xml:id="T_P111-11h"><quote>ich</quote></note>
                <space unit="chars" quantity="1"/>
                <rs type="person" ref="#4279">Anatole France</rs> (ein <rs type="place" ref="#166"
                   >Franzose</rs>!) nach wie vor als <anchor type="textConst" xml:id="T_P111-3"
@@ -480,15 +477,15 @@
                   wollte), weil man in <rs ref="#34438" type="place">Russland</rs> all diesen Unsinn
                   glaubte. Durch Vermittlung <rs ref="#12543" type="person">Romain Rollands</rs>
                   liess ich nun in <rs ref="#43435" type="place">Schweiz</rs>er Blättern eine
-                  Entgegnung erschei<pb facs="Georg_Brandes_arkiv_177"/>nen, in der ich
-                  versicherte, dass ich niemals ein Wort von all dem Widersinn geäussert und bald
-                  darauf stellte sich das Ganze auch als die Mystifikation irgend eines <rs
-                     ref="#29503" type="org" subtype="implied">russischen Winkelblattes</rs> heraus.
-                  Hingegen wurde ich von gewissen <rs ref="#151" type="place">deutschen</rs> und <rs
-                     ref="#41240" type="place">österreichischen</rs>, selbstverständlich
-                  antisemitischen Blättern in der blödesten Weise angegriffen, weil ich es für
-                  notwendig gefunden hatte jene erlogenen Aeusserungen über die feindesländischen
-                  Dichter richtig zu stellen.</quote>
+                  Entgegnung erschei<pb facs="Georg_Brandes_arkiv_177"/>nen, in der ich versicherte,
+                  dass ich niemals ein Wort von all dem Widersinn geäussert und bald darauf stellte
+                  sich das Ganze auch als die Mystifikation irgend eines <rs ref="#29503" type="org"
+                     subtype="implied">russischen Winkelblattes</rs> heraus. Hingegen wurde ich von
+                  gewissen <rs ref="#151" type="place">deutschen</rs> und <rs ref="#41240"
+                     type="place">österreichischen</rs>, selbstverständlich antisemitischen Blättern
+                  in der blödesten Weise angegriffen, weil ich es für notwendig gefunden hatte jene
+                  erlogenen Aeusserungen über die feindesländischen Dichter richtig zu
+                  stellen.</quote>
             </div1>
             <div1>
                <ref target="1921-04-17" type="schnitzlerDiary"/>

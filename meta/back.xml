@@ -3,6 +3,102 @@
 <root>
    <back>
       <listPerson>
+         <person xml:id="pmb4986">
+            <persName>
+               <forename>Fedor</forename>
+               <surname>Mamroth</surname>
+            </persName>
+            <birth>
+               <date when-iso="1851-02-21">21.02.1851</date>
+               <settlement ref="677">
+                  <placeName type="pref">Breslau</placeName>
+                  <location>
+                     <geo>51,10773 17,03533</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when-iso="1907-06-25">25.06.1907</date>
+               <settlement ref="146">
+                  <placeName type="pref">Frankfurt am Main</placeName>
+                  <location>
+                     <geo>50,11552 8,68417</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="99">Journalist/Journalistin</occupation>
+            <occupation ref="100">Kritiker/Kritikerin</occupation>
+            <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116724919</idno>
+            <idno type="URL" subtype="schnitzler-tagebuch">
+               https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17801
+            </idno>
+            <idno type="URL" subtype="schnitzler-bahr">
+               https://schnitzler-bahr.acdh.oeaw.ac.at/pmb4986.html
+            </idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4986/</idno>
+            <idno type="URL" subtype="schnitzler-briefe">
+               https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchref=pmb4986
+            </idno>
+            <idno type="URL" subtype="schnitzler-lektueren">
+               https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb4986.html
+            </idno>
+            <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49563</idno>
+            <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x002832f1</idno>
+            <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1400771</idno>
+            <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Fedor_Mamroth</idno>
+            <affiliation>
+               <term ref="1182">arbeitet für</term>
+               <orgName ref="29698">An der schönen blauen Donau</orgName>
+               <idno type="URL" subtype="schnitzler-bahr">
+                  https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29698.html
+               </idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29698/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">
+                  https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchref=pmb29698
+               </idno>
+            </affiliation>
+            <affiliation when-iso="1891-04-01">
+               <term ref="1182">arbeitet für</term>
+               <orgName ref="29442">Frankfurter Zeitung</orgName>
+               <idno type="URL" subtype="schnitzler-bahr">
+                  https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29442.html
+               </idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29442/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">
+                  https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchref=pmb29442
+               </idno>
+               <idno type="URL" subtype="legalkraus">
+                  https://kraus.wienbibliothek.at/register/institutionen/pmb29442
+               </idno>
+            </affiliation>
+            <affiliation>
+               <term ref="1182">arbeitet für</term>
+               <orgName ref="29351">Neue Freie Presse</orgName>
+               <idno type="URL" subtype="schnitzler-bahr">
+                  https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29351.html
+               </idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29351/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">
+                  https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchref=pmb29351
+               </idno>
+               <idno type="URL" subtype="legalkraus">
+                  https://kraus.wienbibliothek.at/register/institutionen/pmb29351
+               </idno>
+            </affiliation>
+            <listEvent>
+               <event ref="89661" when-iso="1896-01-11">
+                  <desc n="1370">teilgenommen an</desc>
+                  <label>Premiere von Liebelei, Die Versucherin, 11.1.1896</label>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/89661/</idno>
+               </event>
+            </listEvent>
+            <listBibl>
+               <bibl type="collections" n="3">Manuell angelegt</bibl>
+               <bibl type="collections" n="11">ÖBL nach 1850 geboren</bibl>
+               <bibl type="collections" n="12">Fackel</bibl>
+            </listBibl>
+         </person>
          <person xml:id="pmb12435">
             <persName>
                <forename>Clara Katharina</forename>
@@ -1207,6 +1303,28 @@
             <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q107787</idno>
             <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hedwig_Pauly-Winterstein</idno>
          </person>
+         <bibl xml:id="pmb30029">
+            <title type="main">
+               Prinz Friedrich von Homburg oder die Schlacht bei Fehrbellin
+            </title>
+            <author ref="pmb11933" role="hat-geschaffen">Kleist, Heinrich von</author>
+            <date notBefore-iso="1821-01-01" when-iso="1821-07-02">1821</date>
+            <idno type="URL" subtype="schnitzler-bahr">
+               https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30029.html
+            </idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30029/</idno>
+            <idno type="URL" subtype="schnitzler-briefe">
+               https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchref=pmb30029
+            </idno>
+            <idno type="URL" subtype="schnitzler-tagebuch">
+               https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30029.html
+            </idno>
+            <idno type="URL">https://www.wikidata.org/wiki/Q366146</idno>
+            <note type="collections">
+               <bibl type="collections" n="3">Manuell angelegt</bibl>
+            </note>
+            <note type="work_kind">Drama >> Mehraktiges Drama</note>
+         </bibl>
          <person xml:id="pmb11851">
             <persName>
                <forename>Josef</forename>
@@ -30975,6 +31093,58 @@
             </note>
             <note type="work_kind">Erzählung</note>
          </bibl>
+         <bibl xml:id="pmb140850">
+            <title type="main">Ein Erfolg. Lustspiel in vier Akten</title>
+            <author ref="pmb12078" role="hat-geschaffen">Lindau, Paul</author>
+            <date when-iso="1874-11-07">1874-11-07</date>
+            <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/140850/</idno>
+            <note type="collections">
+               <bibl type="collections" n="8">manually created entity</bibl>
+            </note>
+            <note type="work_kind">Mehraktiges Drama</note>
+         </bibl>
+         <bibl xml:id="pmb31737">
+            <title type="main">Die Mütter. Schauspiel in vier Acten</title>
+            <author ref="pmb11701" role="hat-geschaffen">Hirschfeld, Georg</author>
+            <date notBefore-iso="1896-01-01" when-iso="1896-07-01">1896</date>
+            <idno type="URL" subtype="schnitzler-bahr">
+               https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31737.html
+            </idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31737/</idno>
+            <idno type="URL" subtype="schnitzler-briefe">
+               https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchref=pmb31737
+            </idno>
+            <idno type="URL" subtype="schnitzler-tagebuch">
+               https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31737.html
+            </idno>
+            <note type="collections">
+               <bibl type="collections" n="3">Manuell angelegt</bibl>
+            </note>
+            <note type="work_kind">Drama >> Mehraktiges Drama</note>
+         </bibl>
+         <bibl xml:id="pmb32047">
+            <title type="main">The Merchant of Venice</title>
+            <title type="namensvariante">Shylock, il mercante di Venezia</title>
+            <title type="werk_namensvariante">Der Kaufmann von Venedig</title>
+            <author ref="pmb2412" role="hat-geschaffen">Shakespeare, William</author>
+            <date notBefore-iso="1596-01-01" when-iso="1596-07-01">1596</date>
+            <idno type="URL" subtype="schnitzler-bahr">
+               https://schnitzler-bahr.acdh.oeaw.ac.at/pmb32047.html
+            </idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32047/</idno>
+            <idno type="URL" subtype="schnitzler-tagebuch">
+               https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb32047.html
+            </idno>
+            <idno type="URL" subtype="legalkraus">
+               https://kraus.wienbibliothek.at/register/werke/pmb32047
+            </idno>
+            <idno type="URL">https://www.wikidata.org/wiki/Q206400</idno>
+            <note type="collections">
+               <bibl type="collections" n="3">Manuell angelegt</bibl>
+               <bibl type="collections" n="5">legalkraus</bibl>
+            </note>
+            <note type="work_kind">Drama >> Mehraktiges Drama</note>
+         </bibl>
          <bibl xml:id="pmb30349">
             <title type="main">Das Tagebuch der Redegonda</title>
             <title type="werk_bibliografische-angabe">Süddeutsche Monatshefte, Jg. 9, Bd. 1, H. 1, Oktober 1911</title>
@@ -31294,12 +31464,46 @@
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29989.html</idno>
             <note type="work_kind">Text</note>
          </bibl>
+         <bibl xml:id="pmb31729">
+            <title type="main">Die Journalisten. Lustspiel in vier Akten</title>
+            <author ref="pmb11377" role="hat-geschaffen">Freytag, Gustav</author>
+            <date notBefore-iso="1852-01-01" when-iso="1852-07-01">1852</date>
+            <idno type="URL" subtype="schnitzler-bahr">
+               https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31729.html
+            </idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31729/</idno>
+            <idno type="URL" subtype="schnitzler-tagebuch">
+               https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31729.html
+            </idno>
+            <idno type="URL" subtype="legalkraus">
+               https://kraus.wienbibliothek.at/register/werke/pmb31729
+            </idno>
+            <idno type="URL">https://www.wikidata.org/wiki/Q50540645</idno>
+            <note type="collections">
+               <bibl type="collections" n="5">legalkraus</bibl>
+            </note>
+            <note type="work_kind">Drama >> Mehraktiges Drama</note>
+         </bibl>
          <bibl xml:id="pmb33089">
             <title type="main">Bauernfeld</title>
             <author role="hat-geschaffen" ref="pmb29060">Horner, Emil</author>
             <date when-iso="1900-01-01">1900</date>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33089/</idno>
             <note type="work_kind">Text</note>
+         </bibl>
+         <bibl xml:id="pmb140839">
+            <title type="main">[Rezension über Agnes Jordan]</title>
+            <title type="werk_bibliografische-angabe">
+               –rm–: [Rezension über Agnes Jordan]. In: Frankfurter Zeitung, Jg. XXXX, Nr. XXXX, 25. 10. 1899, 2. Morgenblatt, S. XXXX
+            </title>
+            <title type="werk_unter-diesem-namen-oder-kurzel-veroffentlicht">–rm–</title>
+            <author ref="pmb2121" role="hat-anonym-veroffentlicht">Schnitzler, Arthur</author>
+            <date>1899-10-25</date>
+            <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/140839/</idno>
+            <note type="collections">
+               <bibl type="collections" n="8">manually created entity</bibl>
+            </note>
+            <note type="work_kind">Rezension</note>
          </bibl>
          <bibl xml:id="pmb32356">
             <title type="main">Gebildete Menschen. Zeitbild in drei Acten</title>
@@ -34453,6 +34657,361 @@
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb32157.html</idno>
             <note type="work_kind">Film</note>
          </bibl>
+         <bibl xml:id="pmb141413">
+            <title type="main">Wiener Brief. [Der Verschwender]</title>
+            <title type="werk_bibliografische-angabe">FZ, 44. Jg., Nr. 353, 21.12.1899, Abendblatt, S. 2</title>
+            <author ref="pmb2121" role="hat-unter-einem-kurzel-veroffentlicht">Schnitzler, Arthur</author>
+            <date when-iso="1899-12-21">1899-12-21</date>
+            <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/141413/</idno>
+            <note type="collections">
+               <bibl type="collections" n="8">manually created entity</bibl>
+            </note>
+            <note type="work_kind">Rezension</note>
+         </bibl>
+         <person xml:id="pmb141443">
+            <persName>
+               <surname>Baum</surname>
+            </persName>
+            <sex value="not-set"/>
+            <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/141443/</idno>
+            <listBibl>
+               <bibl type="collections" n="8">manually created entity</bibl>
+            </listBibl>
+         </person>
+         <person xml:id="pmb13159">
+            <persName>
+               <forename>Ludwig</forename>
+               <surname>Wolff</surname>
+            </persName>
+            <birth>
+               <date when-iso="1876-03-07">07.03.1876</date>
+               <settlement key="48098">
+                  <placeName type="pref">Bielsko-Biała</placeName>
+                  <location>
+                     <geo>49,82245 19,04686</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when-iso="1958-01-01">nach 1958</date>
+               <settlement key="43406">
+                  <placeName type="pref">Vereinigte Staaten von Amerika (USA)</placeName>
+                  <location>
+                     <geo>39,76 -98,5</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation key="115">Dramaturg/Dramaturgin</occupation>
+            <idno type="URL" subtype="schnitzler-tagebuch">
+               https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21448
+            </idno>
+            <idno type="URL" subtype="gnd">https://d-nb.info/gnd/104298170</idno>
+            <idno type="URL" subtype="schnitzler-bahr">
+               https://schnitzler-bahr.acdh.oeaw.ac.at/pmb13159.html
+            </idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/13159/</idno>
+            <idno type="URL" subtype="schnitzler-briefe">
+               https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb13159
+            </idno>
+            <idno type="URL" subtype="schnitzler-lektueren">
+               https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13159.html
+            </idno>
+            <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q103254</idno>
+            <idno type="URL" subtype="wikipedia">
+               https://de.wikipedia.org/wiki/Ludwig_Wolff_(Schriftsteller)
+            </idno>
+            <idno type="URL" subtype="schnitzler-kino">
+               https://schnitzler-kino.acdh.oeaw.ac.at/pmb13159.html
+            </idno>
+            <listBibl>
+               <bibl type="collections" n="3">Manuell angelegt</bibl>
+            </listBibl>
+         </person>
+         <place xml:id="pmb141438">
+            <placeName>Tišnov</placeName>
+            <placeName type="alternative-name">Tischnowitz</placeName>
+            <desc type="entity_type">https://www.geonames.org/ontology#P.PPL</desc>
+            <desc type="entity_type_id">1412</desc>
+            <location type="coords">
+               <geo>49,34872 16,42438</geo>
+            </location>
+            
+            <idno type="URL" subtype="apis-default">https://pmb.acdh.oeaw.ac.at/entity/141438/</idno>
+            <idno type="URL">https://sws.geonames.org/3064211/</idno>
+            <listBibl>
+               <bibl type="collections" n="7">Default import collection</bibl>
+            </listBibl>
+         </place>
+         <person xml:id="pmb12556">
+            <persName>
+               <forename>Richard</forename>
+               <surname>Rosenbaum</surname>
+            </persName>
+            <birth>
+               <date when-iso="1867-11-04">04.11.1867</date>
+               <settlement key="46918">
+                  <placeName type="pref">Žikov</placeName>
+                  <location>
+                     <geo>49,2319 13,45724</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when-iso="1942-06-25">25.06.1942</date>
+               <settlement key="2258">
+                  <placeName type="pref">Konzentrationslager Theresienstadt</placeName>
+                  <location>
+                     <geo>50,513639 14,164694</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation key="115">Dramaturg/Dramaturgin</occupation>
+            <occupation key="144">Verleger/Verlegerin</occupation>
+            <idno type="URL" subtype="schnitzler-tagebuch">
+               https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19364
+            </idno>
+            <idno type="URL" subtype="gnd">https://d-nb.info/gnd/11662177X</idno>
+            <idno type="URL" subtype="schnitzler-bahr">
+               https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12556.html
+            </idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12556/</idno>
+            <idno type="URL" subtype="schnitzler-briefe">
+               https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12556
+            </idno>
+            <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp52478</idno>
+            <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x00284309</idno>
+            <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q19225581</idno>
+            <affiliation>
+               <term key="1182">arbeitet für</term>
+               <orgName key="36247">Burgtheater</orgName>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/38633-9</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36247/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">
+                  https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36247
+               </idno>
+               <idno type="URL" subtype="legalkraus">
+                  https://kraus.wienbibliothek.at/register/institutionen/pmb36247
+               </idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q308720</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Burgtheater</idno>
+            </affiliation>
+            <listEvent>
+               <event key="47517" when-iso="1912-11-17">
+                  <desc n="1370">teilgenommen an</desc>
+                  <label>Hauptmann-Bankett der Concordia, 17.11.1912</label>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/47517/</idno>
+               </event>
+            </listEvent>
+            <listBibl>
+               <bibl type="collections" n="3">Manuell angelegt</bibl>
+               <bibl type="collections" n="11">ÖBL nach 1850 geboren</bibl>
+               <bibl type="collections" n="12">Fackel</bibl>
+               <bibl type="collections" n="14">No german Wikipedia-Site found</bibl>
+            </listBibl>
+         </person>
+         <bibl xml:id="pmb77407">
+            <title type="main">
+               Der Verschwender. Original-Zaubermärchen in drei Aufzügen
+            </title>
+            <author ref="pmb12468" role="hat-geschaffen">Raimund, Ferdinand</author>
+            <author ref="pmb117558" role="hat-vertont">Kreutzer, Conradin</author>
+            <date when-iso="1834-02-20">1834-02-20</date>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/77407/</idno>
+            <idno type="URL" subtype="schnitzler-tagebuch">
+               https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb77407.html
+            </idno>
+            <idno type="URL">https://www.wikidata.org/wiki/Q1197834</idno>
+            <note type="collections">
+               <bibl type="collections" n="8">manually created entity</bibl>
+            </note>
+            <note type="work_kind">Mehraktiges Drama</note>
+         </bibl>
+         <person xml:id="pmb117558">
+            <persName>
+               <forename>Conradin</forename>
+               <surname>Kreutzer</surname>
+            </persName>
+            <birth>
+               <date when-iso="1780-11-22">1780-11-22</date>
+            </birth>
+            <death>
+               <date when-iso="1849-12-14">1849-12-14</date>
+               <settlement ref="46637">
+                  <placeName type="pref">Riga</placeName>
+                  <location>
+                     <geo>56,946 24,10589</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="129">Komponist/Komponistin</occupation>
+            <occupation ref="181">Pianist/Pianistin</occupation>
+            <occupation ref="282">Kapellmeister/Kapellmeisterin</occupation>
+            <occupation ref="344">Musiker/Musikerin</occupation>
+            <occupation ref="2271">Musiklehrer/Musiklehrerin</occupation>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/117558/</idno>
+            <idno type="URL" subtype="gnd">https://d-nb.info/gnd/11871600X</idno>
+            <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp48108</idno>
+            <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q458732</idno>
+            <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Conradin_Kreutzer</idno>
+            <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x0028256a</idno>
+            <listBibl>
+               <bibl type="collections" n="7">Default import collection</bibl>
+               <bibl type="collections" n="12">Fackel</bibl>
+            </listBibl>
+         </person>
+         
+         <bibl xml:id="pmb42444">
+            <title type="main">Goldene Herzen. Wiener Volksstück in 4 Akten</title>
+            <author ref="pmb13082" role="hat-geschaffen">Karlweis, Carl</author>
+            <date when-iso="1895-11-09">9.11.1895</date>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/42444/</idno>
+            <idno type="URL" subtype="schnitzler-briefe">
+               https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchref=pmb42444
+            </idno>
+            <idno type="URL" subtype="schnitzler-tagebuch">
+               https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb42444.html
+            </idno>
+            <note type="collections">
+               <bibl type="collections" n="3">Manuell angelegt</bibl>
+            </note>
+            <note type="work_kind">Drama >> Mehraktiges Drama</note>
+         </bibl>
+         <person xml:id="pmb11441">
+            <persName>
+               <forename>Alexander</forename>
+               <surname>Girardi</surname>
+            </persName>
+            <birth>
+               <date when-iso="1850-12-05">05.12.1850</date>
+               <settlement ref="860">
+                  <placeName type="pref">Graz</placeName>
+                  <location>
+                     <geo>47,06667 15,43333</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when-iso="1918-04-20">20.04.1918</date>
+               <settlement ref="50">
+                  <placeName type="pref">Wien</placeName>
+                  <location>
+                     <geo>48,2066 16,37341</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="105">Schauspieler/Schauspielerin</occupation>
+            <idno type="URL" subtype="schnitzler-tagebuch">
+               https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15442
+            </idno>
+            <idno type="URL" subtype="gnd">https://d-nb.info/gnd/11869510X</idno>
+            <idno type="URL" subtype="schnitzler-bahr">
+               https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11441.html
+            </idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11441/</idno>
+            <idno type="URL" subtype="legalkraus">
+               https://kraus.wienbibliothek.at/register/personen/pmb11441
+            </idno>
+            <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp37978</idno>
+            <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x002817da</idno>
+            <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q45302</idno>
+            <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Alexander_Girardi</idno>
+            <idno type="URL" subtype="oeml">https://dx.doi.org/10.1553/0x0001cf1f</idno>
+            <listEvent>
+               <event ref="47517" when-iso="1912-11-17">
+                  <desc n="1256">ist Arbeitskraft bei</desc>
+                  <label>Hauptmann-Bankett der Concordia, 17.11.1912</label>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/47517/</idno>
+               </event>
+               <event ref="56915" when-iso="1912-03-17">
+                  <desc n="1256">ist Arbeitskraft bei</desc>
+                  <label>
+                     Premiere Der tapfere Kassian (Singspiel), 17.3.1912
+                  </label>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/56915/</idno>
+               </event>
+               <event ref="56931" when-iso="1910-12-23">
+                  <desc n="1256">ist Arbeitskraft bei</desc>
+                  <label>Uraufführung von Mein junger Herr, 23.12.1910</label>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/56931/</idno>
+               </event>
+               <event ref="89234" when-iso="1888-01-28">
+                  <desc n="1256">ist Arbeitskraft bei</desc>
+                  <label>
+                     Premiere von Die Hochzeit des Reservisten, 28.1.1888
+                  </label>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/89234/</idno>
+               </event>
+            </listEvent>
+            <listBibl>
+               <bibl type="collections" n="3">Manuell angelegt</bibl>
+               <bibl type="collections" n="5">legalkraus</bibl>
+               <bibl type="collections" n="11">ÖBL nach 1850 geboren</bibl>
+               <bibl type="collections" n="12">Fackel</bibl>
+            </listBibl>
+         </person>
+         <bibl xml:id="pmb32850">
+            <title type="main">
+               Der böse Geist Lumpacivagabundus oder Das liederliche Kleeblatt
+            </title>
+            <author ref="pmb12338" role="hat-geschaffen">Nestroy, Johann Nepomuk</author>
+            <date when-iso="1833-04-11">1833-04-11</date>
+            <idno type="URL" subtype="schnitzler-bahr">
+               https://schnitzler-bahr.acdh.oeaw.ac.at/pmb32850.html
+            </idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32850/</idno>
+            <idno type="URL" subtype="schnitzler-tagebuch">
+               https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb32850.html
+            </idno>
+            <idno type="URL" subtype="legalkraus">
+               https://kraus.wienbibliothek.at/register/werke/pmb32850
+            </idno>
+            <idno type="URL">https://www.wikidata.org/wiki/Q1198430</idno>
+            <note type="collections">
+               <bibl type="collections" n="5">legalkraus</bibl>
+            </note>
+            <note type="work_kind">Mehraktiges Drama</note>
+         </bibl>
+         <bibl xml:id="pmb41412">
+            <title type="main">Der Zerrissene</title>
+            <author ref="pmb12338" role="hat-geschaffen">Nestroy, Johann Nepomuk</author>
+            <date>9.4.1844</date>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41412/</idno>
+            <idno type="URL" subtype="schnitzler-briefe">
+               https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchref=pmb41412
+            </idno>
+            <idno type="URL" subtype="schnitzler-tagebuch">
+               https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb41412.html
+            </idno>
+            <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1198187</idno>
+            <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_Zerrissene</idno>
+            <note type="collections">
+               <bibl type="collections" n="3">Manuell angelegt</bibl>
+            </note>
+            <note type="work_kind">Mehraktiges Drama</note>
+         </bibl>
+         <bibl xml:id="pmb53924">
+            <title type="main">Kampl</title>
+            <author ref="pmb12338" role="hat-geschaffen">Nestroy, Johann Nepomuk</author>
+            <date notBefore-iso="1852-01-01" when-iso="1852-07-01">1852</date>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/53924/</idno>
+            <idno type="URL" subtype="schnitzler-tagebuch">
+               https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb53924.html
+            </idno>
+            <idno type="URL" subtype="legalkraus">
+               https://kraus.wienbibliothek.at/register/werke/pmb53924
+            </idno>
+            <idno type="URL">https://www.wikidata.org/wiki/Q1723374</idno>
+            <note type="collections">
+               <bibl type="collections" n="5">legalkraus</bibl>
+            </note>
+            <note type="work_kind">Posse >> Posse mit Gesang</note>
+         </bibl>
+         
          <bibl xml:id="pmb31295">
             <title type="main">Tristan</title>
             <author role="hat-geschaffen" ref="pmb12176">Mann, Thomas</author>
@@ -36819,6 +37378,26 @@
             </note>
             <note type="work_kind">Publikationsorgan &gt;&gt; Tageszeitung</note>
          </bibl>
+         <bibl xml:id="pmb30474">
+            <title type="main">Agnes Jordan. Schauspiel in fünf Akten</title>
+            <author ref="pmb11701" role="hat-geschaffen">Hirschfeld, Georg</author>
+            <date when-iso="1897-01-01">1897</date>
+            <idno type="URL" subtype="schnitzler-bahr">
+               https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30474.html
+            </idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30474/</idno>
+            <idno type="URL" subtype="schnitzler-briefe">
+               https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchref=pmb30474
+            </idno>
+            <idno type="URL" subtype="schnitzler-tagebuch">
+               https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30474.html
+            </idno>
+            <note type="collections">
+               <bibl type="collections" n="3">Manuell angelegt</bibl>
+            </note>
+            <note type="work_kind">Drama >> Mehraktiges Drama</note>
+         </bibl>
+         
          <bibl xml:id="pmb36344">
             <title type="main">Frankfurter Zeitung</title>
             <date from-iso="1856-01-01" to-iso="1943-07-02">1856 – 1943</date>
@@ -39434,7 +40013,7 @@
                <geo>52,07667 4,29861</geo>
             </location>
             <location type="located_in_place">
-               <placeName key="pmb44016">Niederlande</placeName>
+               <placeName ref="pmb44016">Niederlande</placeName>
                <geo>52,25 5,75</geo>
             </location>
             <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q36600</idno>
@@ -39447,7 +40026,7 @@
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/54853/</idno>
             <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4011446-6</idno>
             <idno type="URL" subtype="schnitzler-briefe">
-               https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb974
+               https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchref=pmb974
             </idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58810/</idno>
             <idno type="URL" subtype="geonames">https://sws.geonames.org/2747373/</idno>
@@ -39475,7 +40054,7 @@
                <geo>47,37174 8,54226</geo>
             </location>
             <location type="located_in_place">
-               <placeName key="pmb43435">Schweiz</placeName>
+               <placeName ref="pmb43435">Schweiz</placeName>
                <geo>47,00016 8,01427</geo>
             </location>
             <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q72</idno>
@@ -39485,7 +40064,7 @@
             </idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/484/</idno>
             <idno type="URL" subtype="schnitzler-briefe">
-               https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb484
+               https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchref=pmb484
             </idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/62728/</idno>
             <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4068038-1</idno>

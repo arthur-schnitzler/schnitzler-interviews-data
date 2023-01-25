@@ -8,19 +8,19 @@
    <xsl:import href="partial/date-format-for-print.xsl"/>
    <!-- Globale Parameter -->
    <xsl:param name="persons"
-      select="document('/Users/oldfiche/Dropbox/Arthur Schnitzler/Interviews/XML/meta/back.xml')"/>
+      select="document('../meta/back.xml')"/>
    <xsl:key name="person-lookup" match="person" use="replace(@xml:id, 'pmb', '#')"/>
    <xsl:param name="works"
-      select="document('/Users/oldfiche/Dropbox/Arthur Schnitzler/Interviews/XML/meta/back.xml')"/>
+      select="document('../meta/back.xml')"/>
    <xsl:key name="work-lookup" match="bibl" use="replace(@xml:id, 'pmb', '#')"/>
    <xsl:param name="orgs"
-      select="document('/Users/oldfiche/Dropbox/Arthur Schnitzler/Interviews/XML/meta/back.xml')"/>
+      select="document('../meta/back.xml')"/>
    <xsl:key name="org-lookup" match="org" use="replace(@xml:id, 'pmb', '#')"/>
    <xsl:param name="places"
-      select="document('/Users/oldfiche/Dropbox/Arthur Schnitzler/Interviews/XML/meta/back.xml')"/>
+      select="document('../meta/back.xml')"/>
    <xsl:key name="place-lookup" match="place" use="replace(@xml:id, 'pmb', '#')"/>
    <xsl:param name="placework"
-      select="document('/Users/oldfiche/Dropbox/Arthur Schnitzler/Interviews/XML/meta/placework.xml')"/>
+      select="document('../meta/placework.xml')"/>
    <xsl:key name="placework-lookup" match="item" use="related_work_id"/>
    <xsl:param name="sigle" select="document('../indices/siglen.xml')"/>
    <xsl:param name="interviewfragen" select="document('../indices/questions.xml')"/>
@@ -694,7 +694,7 @@
       <xsl:text>}</xsl:text>
       <xsl:if test="not($work-entry[contains(note[@type = 'work_kind'], 'Publikationsorgan')])">
          <xsl:variable name="datum" select="foo:date-translate($work-entry[1]/date[1]/text())"
-            as="xs:string"/>
+            as="xs:string?"/>
          <xsl:value-of
             select="foo:werk-metadaten-in-index($work-entry/Typ, $datum, $work-entry/author[$author-zaehler]/@role)"
          />
@@ -951,17 +951,18 @@
          <xsl:text>\setlength{\voffset}{\originalVOffset}</xsl:text>
          <xsl:text>\setlength{\hoffset}{\originalHOffset}</xsl:text>
          <!--<xsl:apply-templates select="TEI[@id = 'E_toDo']"/>-->
-         <xsl:apply-templates select="TEI[@id = 'E_danksagung']"/>
+         
          <xsl:text>\ihead{}</xsl:text>
          <xsl:text>\sloppy</xsl:text>
          <xsl:text>\idxlayout{columns=1, itemlayout=relhang,hangindent=1em, subindent=1em, subsubindent=2em, justific=RaggedRight, indentunit=1em, totoc=true}</xsl:text>
          <xsl:text>\setindexprenote{\small\noindent In Abwandlung eines Sachregisters werden die tatsächlichen und mutmaßlichen Fragen
          verzeichnet, auf die Schnitzler in seinen Interviews antwortet oder zumindest zu antworten scheint. Verwandte Fragen wurden teilweise verallgemeinert, um Variationen der selben Frage zu vermeiden.}</xsl:text>
-         <xsl:text>\small</xsl:text>
-         <xsl:text>\printindex[question]</xsl:text>
          <xsl:text>\normalsize{}</xsl:text>
          <xsl:text>\addcontentsline{toc}{part}{Interviews}</xsl:text>
          <xsl:apply-templates select="TEI[starts-with(@id, 'I')]"/>
+         <xsl:text>\footnotesize</xsl:text>
+         <xsl:text>\printindex[question]</xsl:text>
+         <xsl:text>\normalsize</xsl:text>
          <xsl:text>\cleardoublepage</xsl:text>
          <xsl:text>\ihead{}</xsl:text>
          <xsl:text>\setlength{\voffset}{0cm}</xsl:text>
@@ -1001,7 +1002,7 @@
          <xsl:text>\lohead{\textsc{texteingriffe}}</xsl:text>
          <xsl:text>
             \renewcommand{\printnpnum}[1]{\textbf{\printnpnumSave{#1}}}
-            \addchap{Texteingriffe}\mylabel{E_texteingriffe}
+            \addchap{Emendationen}\mylabel{E_texteingriffe}
             \Xendnotenumfont{\small{}}
             \noindent Es folgen die vorgenommenen Eingriffe in den ursprünglichen Text unter Angabe von fett gedruckter Seitenzahl und Zeilennummer. 
             Als Lemma gesetzt sind die emendierten, rechts davon die ursprünglichen Fassungen. Kommentare sind in eckige Klammern gefügt.\par
@@ -1011,6 +1012,11 @@
          <xsl:text>\normalsize</xsl:text>
          <xsl:apply-templates select="TEI[@id = 'E_nachwort']"/>
          <xsl:text>\newpage</xsl:text>
+         <xsl:text>\lohead{\textsc{dank}}</xsl:text>
+         <xsl:apply-templates select="TEI[@id = 'E_danksagung']"/>
+         <xsl:text>\newpage
+            \addtokomafont{partentrypagenumber}%
+		{\let\hfil\relax\def\hb@xt@#1#2{}}</xsl:text><!-- Entfernt Seitenzahlen der Parts -->
          <xsl:text>\lohead{\textsc{verzeichnis der dokumente}}</xsl:text>
          <xsl:text>\small</xsl:text>
          <xsl:text>\tableofcontents{}</xsl:text>
@@ -1088,16 +1094,26 @@
          </xsl:choose>
       </xsl:variable>
       <xsl:variable name="dokument-id" select="@id"/>
-      <xsl:if test="substring(@when, 1, 4) != $jahr-davor">
-         <xsl:text>\leavevmode\addchap*{</xsl:text>
-         <xsl:value-of select="substring(@when, 1, 4)"/>
-         <xsl:text>}
-      </xsl:text>
-      </xsl:if>
+      <xsl:choose>
+         <xsl:when test="starts-with($dokument-id, 'I') and count(preceding-sibling::TEI[@when and starts-with(@id,'I')])=0">
+            <xsl:text>\addchap*{</xsl:text>
+            <xsl:value-of select="substring(@when, 1, 4)"/>
+            <xsl:text>}</xsl:text>
+         </xsl:when>
+         <xsl:when test="starts-with($dokument-id, 'M') and count(preceding-sibling::TEI[@when and starts-with(@id,'M')])=0">
+            <xsl:text>\addchap*{</xsl:text>
+            <xsl:value-of select="substring(@when, 1, 4)"/>
+            <xsl:text>}</xsl:text>
+         </xsl:when>
+         <xsl:when test="substring(@when, 1, 4) != $jahr-davor">
+            <xsl:text>\addchap*{</xsl:text><!-- before: \leavevmode -->
+            <xsl:value-of select="substring(@when, 1, 4)"/>
+            <xsl:text>}</xsl:text></xsl:when>
+      </xsl:choose>
       <xsl:choose>
          <xsl:when test="starts-with($dokument-id, 'E_')">
             <!-- Herausgeber*innentext -->
-            <xsl:text>\leavevmode\addchap{</xsl:text>
+            <xsl:text>\addchap{</xsl:text><!-- zuvor: \leavevmode -->
             <xsl:value-of
                select="normalize-space(teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level = 'a'])"/>
             <xsl:text>}</xsl:text>
@@ -1190,10 +1206,13 @@
          <xsl:otherwise>  <xsl:apply-templates select="teiHeader"/>
          </xsl:otherwise>
       </xsl:choose>
-      <!-- Das hier setzt den Anhang ans Ende jedes Typs -->
+      <!-- Das hier setzt den Anhang ans Ende von Interviews und Proteste -->
       <xsl:variable name="id-typ" select="substring(@id, 1, 1)" as="xs:string"/>
       <xsl:choose>
-         <xsl:when test="not(following-sibling::TEI[1]/starts-with(@id, $id-typ))">
+         <xsl:when test="$id-typ = 'I' and following-sibling::TEI[1]/starts-with(@id, 'M')">
+            <xsl:value-of select="foo:latexAnhang($id-typ)"/>
+         </xsl:when>
+         <xsl:when test="$id-typ = 'P' and not(following-sibling::TEI[1]/starts-with(@id, 'P'))">
             <xsl:value-of select="foo:latexAnhang($id-typ)"/>
          </xsl:when>
       </xsl:choose>
@@ -3347,6 +3366,7 @@
          </xsl:when>
       </xsl:choose>
       <xsl:apply-templates/>
+      
       <xsl:choose>
          <xsl:when test="@rend = 'center'">
             <xsl:text>\end{center}</xsl:text>
@@ -3363,7 +3383,7 @@
       </xsl:if>
    </xsl:template>
    <xsl:template
-      match="p[ancestor::body and not(ancestor::TEI[starts-with(@id, 'E')]) and not(child::space[@dim] and not(child::*[2]) and empty(text())) and not(ancestor::div[@type = 'biographical']) and not(parent::footNote)] | closer | dateline">
+      match="p[(ancestor::body and not(ancestor::TEI[starts-with(@id, 'E')]) and not(child::space[@dim] and not(child::*[2]) and empty(text())) and not(ancestor::div[@type = 'biographical']) and not(parent::footNote))] | closer | dateline">
       <!--     <xsl:if test="self::closer">\leftskip=1em{}</xsl:if>
 -->
       <xsl:if test="self::p[@rend = 'inline']">
@@ -4067,16 +4087,18 @@
             <xsl:apply-templates/>
          </xsl:when>
          <xsl:otherwise>
-            <xsl:text>\stanza{}</xsl:text>
+            <xsl:text>\stanza[\vspace{\parskip}]{}</xsl:text>
             <xsl:apply-templates/>
-            <xsl:text>\stanzaend{}</xsl:text>
+            <xsl:text>\stanzaend[\vspace{\parskip}]{}</xsl:text>
          </xsl:otherwise>
       </xsl:choose>
    </xsl:template>
+   
+   
    <xsl:template match="lg[@type = 'stanza']">
-      <xsl:text>\stanza{}</xsl:text>
+      <xsl:text>\stanza[\vspace\parskip]{{}</xsl:text>
       <xsl:apply-templates/>
-      <xsl:text>\stanzaend{}</xsl:text>
+      <xsl:text>\stanzaend[\vspace\parskip]{{}</xsl:text>
    </xsl:template>
    <xsl:template match="l[ancestor::lg[@type = 'poem']]">
       <xsl:if test="@rend = 'inline'">
@@ -4097,6 +4119,11 @@
    <!-- Kaufmanns-Und & -->
    <xsl:template match="c[@rendition = '#kaufmannsund']">
       <xsl:text>{\kaufmannsund}</xsl:text>
+   </xsl:template>
+   <xsl:template match="c[@rendition='#ornament']">
+      <xsl:text>\vspace{0.66\baselineskip}</xsl:text>
+      <xsl:text>\hspace{-1em}\raisebox{-2pt}{*}\hspace{1em}\raisebox{1pt}{*}\hspace{1em}\raisebox{-2pt}{*}</xsl:text>
+      <xsl:text>\vspace{0.33\baselineskip}</xsl:text>
    </xsl:template>
    <xsl:template match="c[@rendition = '#geschwungene-klammer-auf']">
       <xsl:text>{\{}</xsl:text>
@@ -4131,15 +4158,20 @@
             <xsl:apply-templates/>
             <xsl:text>}</xsl:text>
          </xsl:when>
-         <xsl:when test="@hand">
-            <xsl:text>\uline{</xsl:text>
-            <xsl:apply-templates/>
-            <xsl:text>}</xsl:text>
-         </xsl:when>
-         <xsl:when test="@n = '1'">
-            <xsl:text>\uline{</xsl:text>
-            <xsl:apply-templates/>
-            <xsl:text>}</xsl:text>
+         <xsl:when test="@hand or @n = '1'">
+            <xsl:choose>
+               <xsl:when test="contains(., 'y') or contains(., 'g') or contains(., 'p') or contains(., 'q')">
+                  <xsl:text>\setul{}{0.3pt}\setuldepth{ygpq}</xsl:text>
+                  <xsl:text>\ul{</xsl:text>
+                  <xsl:apply-templates/>
+                  <xsl:text>}\setuldepth{a}</xsl:text>
+               </xsl:when>
+               <xsl:otherwise>
+                  <xsl:text>\ul{</xsl:text>
+                  <xsl:apply-templates/>
+                  <xsl:text>}</xsl:text>
+               </xsl:otherwise>
+            </xsl:choose>
          </xsl:when>
          <xsl:when test="@n = '2'">
             <xsl:text>\uuline{</xsl:text>
@@ -4333,7 +4365,7 @@
    </xsl:template>
    <!-- Streichung -->
    <xsl:template match="del[not(parent::subst)]">
-      <xsl:text>\strikeout{</xsl:text>
+      <xsl:text>\st{</xsl:text>
       <xsl:apply-templates/>
       <xsl:text>}</xsl:text>
    </xsl:template>
@@ -4632,7 +4664,7 @@
       <xsl:text>\end{otherlanguage}</xsl:text>
    </xsl:template>
    <xsl:template match="foreign[starts-with(@xml:lang, 'it') or starts-with(@lang, 'it')]">
-      <xsl:text>\begin{otherlanguage}{italienisch}</xsl:text>
+      <xsl:text>\begin{otherlanguage}{italian}</xsl:text>
       <xsl:apply-templates/>
       <xsl:text>\end{otherlanguage}</xsl:text>
    </xsl:template>
@@ -5043,15 +5075,15 @@
          </xsl:for-each>
       </xsl:if>
       <xsl:choose>
-         <xsl:when test="contains($entry/title, ':]') and starts-with($entry/title, '[')">
+         <xsl:when test="contains($entry/title[1], ':]') and starts-with($entry/title[1], '[')">
             <xsl:value-of select="substring-before($entry/title, ':] ')"/>
             <xsl:text>]: \emph{</xsl:text>
-            <xsl:value-of select="substring-after($entry/title, ':] ')"/>
+            <xsl:value-of select="substring-after($entry/title[1], ':] ')"/>
             <xsl:text>}</xsl:text>
          </xsl:when>
          <xsl:otherwise>
             <xsl:text>\emph{</xsl:text>
-            <xsl:value-of select="$entry/title"/>
+            <xsl:value-of select="$entry/title[1]"/>
             <xsl:text>}</xsl:text>
          </xsl:otherwise>
       </xsl:choose>
@@ -5453,6 +5485,7 @@
       <xsl:text>}\end{RaggedRight}\end{minipage}
       </xsl:text>
    </xsl:template>
+   <xsl:template match="figDesc"/>
    <xsl:template match="caption">
       <!-- Falls es eine Bildunterschrift gibt -->
       <xsl:text>\hspace{0.5cm}\noindent</xsl:text>
@@ -5462,6 +5495,11 @@
       </xsl:text>
    </xsl:template>
    <xsl:template match="graphic">
+      <xsl:if test="parent::figure/figDesc">
+         <xsl:text>\BeginAccSupp{ActualText=image </xsl:text>
+         <xsl:value-of select="parent::figure/figDesc/text()"/>
+         <xsl:text>,space}\EndAccSupp{}</xsl:text>
+      </xsl:if>
       <xsl:text>\includegraphics</xsl:text>
       <xsl:choose>
          <xsl:when test="@width">
@@ -5594,9 +5632,9 @@
             '[D1].\,[M1].\,[Y0001]')"/>
    </xsl:template>
    <xsl:template match="ref[@type = 'url']">
-      <xsl:text>\uline{\url{</xsl:text>
+      <xsl:text>{\url{</xsl:text>
       <xsl:value-of select="(@target)"/>
-      <xsl:text>}}</xsl:text>
+      <xsl:text>}</xsl:text>
    </xsl:template>
    <xsl:template match="ref[@type = 'toLetter']">
       <xsl:variable name="target-path" as="xs:string">
