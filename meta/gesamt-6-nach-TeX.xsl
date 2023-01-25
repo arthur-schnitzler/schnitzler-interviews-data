@@ -958,7 +958,8 @@
          <xsl:text>\setindexprenote{\small\noindent In Abwandlung eines Sachregisters werden die tatsächlichen und mutmaßlichen Fragen
          verzeichnet, auf die Schnitzler in seinen Interviews antwortet oder zumindest zu antworten scheint. Verwandte Fragen wurden teilweise verallgemeinert, um Variationen der selben Frage zu vermeiden.}</xsl:text>
          <xsl:text>\normalsize{}</xsl:text>
-         <xsl:text>\addcontentsline{toc}{part}{Interviews}</xsl:text>
+         <xsl:text>\addtocontents{toc}{%
+  \protect\contentsline{part}{Interviews}{}}</xsl:text><!-- keine Seitenzahl im Inhaltsverzeichnis -->
          <xsl:apply-templates select="TEI[starts-with(@id, 'I')]"/>
          <xsl:text>\footnotesize</xsl:text>
          <xsl:text>\printindex[question]</xsl:text>
@@ -977,9 +978,14 @@
          <xsl:text>\setlength{\hoffset}{\originalHOffset}</xsl:text>
          <xsl:text>\mainmatter</xsl:text>
          <xsl:text>\setcounter{page}{\value{alte-seitenzahl-vor-neuen-titelseiten}+1}</xsl:text>
-         <xsl:text>\addcontentsline{toc}{part}{Meinungen}</xsl:text>
+         <xsl:text>\addtocontents{toc}{%
+  \protect\contentsline{part}{Meinungen}{}}</xsl:text><!-- keine Seitenzahl im Inhaltsverzeichnis -->
+         <xsl:text>\part*{Meinungen}\clearpage </xsl:text>
          <xsl:apply-templates select="TEI[starts-with(@id, 'M')]"/>
-         <xsl:text>\addcontentsline{toc}{part}{Proteste}</xsl:text>
+         
+         <xsl:text>\addtocontents{toc}{%
+  \protect\contentsline{part}{Proteste}{}}</xsl:text><!-- keine Seitenzahl im Inhaltsverzeichnis -->
+         <xsl:text>\part*{Proteste}\clearpage </xsl:text>
          <xsl:apply-templates select="TEI[starts-with(@id, 'P')]"/>
          <xsl:text>\makeatletter
          </xsl:text>
@@ -4064,8 +4070,13 @@
          </xsl:when>
          <xsl:when test="ancestor::TEI[substring(@id, 1, 1) = 'E']">
             <xsl:choose>
+               <xsl:when test="substring(current(), 1, 1) = '»' and @type='poem'">
+                  <xsl:text>\begin{quoting}[leftmargin=5em]\noindent{}</xsl:text>
+                  <xsl:apply-templates/>
+                  <xsl:text>\normalsize\end{quoting}</xsl:text>
+               </xsl:when>
                <xsl:when test="substring(current(), 1, 1) = '»'">
-                  <xsl:text>\begin{quoting}\small\noindent{}</xsl:text>
+                  <xsl:text>\begin{quoting}\noindent{}</xsl:text>
                   <xsl:apply-templates/>
                   <xsl:text>\normalsize\end{quoting}</xsl:text>
                </xsl:when>
@@ -4121,9 +4132,9 @@
       <xsl:text>{\kaufmannsund}</xsl:text>
    </xsl:template>
    <xsl:template match="c[@rendition='#ornament']">
-      <xsl:text>\vspace{0.66\baselineskip}</xsl:text>
+      <xsl:text>\vspace{0.75\baselineskip}</xsl:text>
       <xsl:text>\hspace{-1em}\raisebox{-2pt}{*}\hspace{1em}\raisebox{1pt}{*}\hspace{1em}\raisebox{-2pt}{*}</xsl:text>
-      <xsl:text>\vspace{0.33\baselineskip}</xsl:text>
+      <xsl:text>\vspace{0.25\baselineskip}</xsl:text>
    </xsl:template>
    <xsl:template match="c[@rendition = '#geschwungene-klammer-auf']">
       <xsl:text>{\{}</xsl:text>
@@ -4162,6 +4173,12 @@
             <xsl:choose>
                <xsl:when test="contains(., 'y') or contains(., 'g') or contains(., 'p') or contains(., 'q')">
                   <xsl:text>\setul{}{0.3pt}\setuldepth{ygpq}</xsl:text>
+                  <xsl:text>\ul{</xsl:text>
+                  <xsl:apply-templates/>
+                  <xsl:text>}\setuldepth{a}</xsl:text>
+               </xsl:when>
+               <xsl:when test="contains(., ',') or contains(., ';')">
+                  <xsl:text>\setul{}{0.3pt}\setuldepth{,;}</xsl:text>
                   <xsl:text>\ul{</xsl:text>
                   <xsl:apply-templates/>
                   <xsl:text>}\setuldepth{a}</xsl:text>
@@ -4365,9 +4382,9 @@
    </xsl:template>
    <!-- Streichung -->
    <xsl:template match="del[not(parent::subst)]">
-      <xsl:text>\st{</xsl:text>
+      <xsl:text>\setul{-3pt}{0.3pt}\ul{</xsl:text>
       <xsl:apply-templates/>
-      <xsl:text>}</xsl:text>
+      <xsl:text>}\resetul{}</xsl:text>
    </xsl:template>
    <xsl:template match="del[parent::subst]">
       <xsl:apply-templates/>
@@ -5632,7 +5649,7 @@
             '[D1].\,[M1].\,[Y0001]')"/>
    </xsl:template>
    <xsl:template match="ref[@type = 'url']">
-      <xsl:text>{\url{</xsl:text>
+      <xsl:text>\url{</xsl:text>
       <xsl:value-of select="(@target)"/>
       <xsl:text>}</xsl:text>
    </xsl:template>
