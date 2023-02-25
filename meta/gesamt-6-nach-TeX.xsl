@@ -909,7 +909,7 @@
    </xsl:function>
    <xsl:function name="foo:latexAnhang">
       <xsl:param name="nur-eine-id-fuer-unique-labels" as="xs:string"/>
-      <xsl:text>\backmatter</xsl:text>
+      <!--<xsl:text>\backmatter</xsl:text>-->
       <xsl:text>\setcounter{secnumdepth}{-\maxdimen}</xsl:text>
       <xsl:text>\rehead{\textsc{anhang}}</xsl:text>
       <xsl:text>\renewcommand*{\partpagestyle}{empty}</xsl:text>
@@ -958,9 +958,11 @@
          <xsl:text>\setindexprenote{\small\noindent In Abwandlung eines Sachregisters werden die tatsächlichen und mutmaßlichen Fragen
          verzeichnet, auf die Schnitzler in seinen Interviews antwortet oder zumindest zu antworten scheint. Verwandte Fragen wurden teilweise verallgemeinert, um Variationen der selben Frage zu vermeiden.}</xsl:text>
          <xsl:text>\normalsize{}</xsl:text>
+         <xsl:text>\part*{Interviews}\clearpage </xsl:text>
          <xsl:text>\addtocontents{toc}{%
-  \protect\contentsline{part}{Interviews}{}}</xsl:text><!-- keine Seitenzahl im Inhaltsverzeichnis -->
+  \protect\contentsline{part}{Interviews}}</xsl:text><!-- keine Seitenzahl im Inhaltsverzeichnis -->
          <xsl:apply-templates select="TEI[starts-with(@id, 'I')]"/>
+         <xsl:value-of select="foo:latexAnhang('I')"/>
          <xsl:text>\footnotesize</xsl:text>
          <xsl:text>\printindex[question]</xsl:text>
          <xsl:text>\normalsize</xsl:text>
@@ -979,25 +981,28 @@
          <xsl:text>\mainmatter</xsl:text>
          <xsl:text>\setcounter{page}{\value{alte-seitenzahl-vor-neuen-titelseiten}+1}</xsl:text>
          <xsl:text>\addtocontents{toc}{%
-  \protect\contentsline{part}{Meinungen}{}}</xsl:text><!-- keine Seitenzahl im Inhaltsverzeichnis -->
+  \protect\contentsline{part}{Meinungen}}</xsl:text><!-- keine Seitenzahl im Inhaltsverzeichnis -->
          <xsl:text>\part*{Meinungen}\clearpage </xsl:text>
          <xsl:apply-templates select="TEI[starts-with(@id, 'M')]"/>
-         
          <xsl:text>\addtocontents{toc}{%
-  \protect\contentsline{part}{Proteste}{}}</xsl:text><!-- keine Seitenzahl im Inhaltsverzeichnis -->
+  \protect\contentsline{part}{Proteste}}</xsl:text><!-- keine Seitenzahl im Inhaltsverzeichnis -->
          <xsl:text>\part*{Proteste}\clearpage </xsl:text>
          <xsl:apply-templates select="TEI[starts-with(@id, 'P')]"/>
          <xsl:text>\makeatletter
          </xsl:text>
          <xsl:text>\makeatother
          </xsl:text>
-         <xsl:text>\backmatter</xsl:text>
+         <xsl:value-of select="foo:latexAnhang('P')"/>
+         
+         <!--<xsl:text>\backmatter</xsl:text>-->
+        <!-- <xsl:text>\addtocontents{toc}{%
+  \protect\contentsline{part}{Anhang}}</xsl:text>
          <xsl:text>\renewcommand*{\raggedsection}{%
  \CenteringLeftskip=1cm plus 1em\relax 
  \CenteringRightskip=1cm plus 1em\relax 
  \Centering }</xsl:text>
          <xsl:text>\setcounter{secnumdepth}{-\maxdimen}</xsl:text>
-         <xsl:text>\rehead{\textsc{anhang}}</xsl:text>
+         <xsl:text>\rehead{\textsc{anhang}}</xsl:text>-->
          <xsl:text>\normalsize </xsl:text>
          <xsl:apply-templates select="TEI[@id = 'E_textauswahl']"/>
          <xsl:apply-templates select="TEI[@id = 'E_editorisch']"/>
@@ -1005,7 +1010,7 @@
          </xsl:text>
          <xsl:apply-templates select="TEI[@id = 'E_literatur']"/>
          <!-- Herausgebereingriffe-->
-         <xsl:text>\lohead{\textsc{texteingriffe}}</xsl:text>
+         <xsl:text>\lohead{\textsc{emendationen}}</xsl:text>
          <xsl:text>
             \renewcommand{\printnpnum}[1]{\textbf{\printnpnumSave{#1}}}
             \addchap{Emendationen}\mylabel{E_texteingriffe}
@@ -1016,14 +1021,13 @@
             \noindent\doendnotes{A}
          </xsl:text>
          <xsl:text>\normalsize</xsl:text>
+         <xsl:text>\lohead{\textsc{nachwort}}</xsl:text>
          <xsl:apply-templates select="TEI[@id = 'E_nachwort']"/>
          <xsl:text>\newpage</xsl:text>
-         <xsl:text>\lohead{\textsc{dank}}</xsl:text>
          <xsl:apply-templates select="TEI[@id = 'E_danksagung']"/>
          <xsl:text>\newpage
-            \addtokomafont{partentrypagenumber}%
-		{\let\hfil\relax\def\hb@xt@#1#2{}}</xsl:text><!-- Entfernt Seitenzahlen der Parts -->
-         <xsl:text>\lohead{\textsc{verzeichnis der dokumente}}</xsl:text>
+         </xsl:text><!-- Entfernt Seitenzahlen der Parts -->
+         <xsl:text>\lohead{\textsc{inhalt}}</xsl:text>
          <xsl:text>\small</xsl:text>
          <xsl:text>\tableofcontents{}</xsl:text>
       </root>
@@ -1035,7 +1039,7 @@
             select="normalize-space(teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level = 'a'])"/>
          <xsl:text>}</xsl:text>
          <xsl:text>\lohead{\textsc{</xsl:text>
-         <xsl:value-of select="descendant::titleStmt/title[@level = 'a']/fn:normalize-space(.)"/>
+         <xsl:value-of select="lower-case(descendant::titleStmt/title[@level = 'a']/fn:normalize-space(.))"/>
          <xsl:text>}}</xsl:text>
          <xsl:text>\mylabel{</xsl:text>
          <xsl:value-of select="concat(foo:umlaute-entfernen(@id), 'v')"/>
@@ -1128,7 +1132,7 @@
             <xsl:text>
                \section*</xsl:text>
             <xsl:text>{</xsl:text>
-            <xsl:value-of select="count(preceding-sibling::TEI)-1"/>
+            <xsl:value-of select="count(preceding-sibling::TEI)"/>
             <xsl:text>.</xsl:text>
             <!--<xsl:value-of select="$dokument-id"/>-->
             <!-- HIER DER TITEL FÜR DIE ÜBERSCHRIFT AUSKOMMENTIERT 
@@ -1168,11 +1172,12 @@
             <xsl:text>}</xsl:text>
          </xsl:otherwise>
       </xsl:choose>
-      <xsl:text>\addcontentsline{toc}{chapter}{</xsl:text><xsl:value-of
+      <xsl:text>\addcontentsline{toc}{chapter}{</xsl:text><xsl:text>{\protect\thecountcount}. </xsl:text>
+      <xsl:value-of
          select="foo:sectionInToc(teiHeader/fileDesc/titleStmt/title[@level = 'a'], 0, count(contains(teiHeader/fileDesc/titleStmt/title[@level = 'a'], ',')))"/><xsl:text>}</xsl:text>
       <xsl:text>\nopagebreak\mylabel{</xsl:text>
       <xsl:value-of select="concat($dokument-id, 'v')"/>
-      <xsl:text>}</xsl:text>
+      <xsl:text>}\stepcounter{countcount}</xsl:text>
       <!-- Kopfzeilen -->
       <xsl:text>\rehead{\textsc{</xsl:text>
       <xsl:choose>
@@ -1213,7 +1218,7 @@
          </xsl:otherwise>
       </xsl:choose>
       <!-- Das hier setzt den Anhang ans Ende von Interviews und Proteste -->
-      <xsl:variable name="id-typ" select="substring(@id, 1, 1)" as="xs:string"/>
+    <!--  <xsl:variable name="id-typ" select="substring(@id, 1, 1)" as="xs:string"/>
       <xsl:choose>
          <xsl:when test="$id-typ = 'I' and following-sibling::TEI[1]/starts-with(@id, 'M')">
             <xsl:value-of select="foo:latexAnhang($id-typ)"/>
@@ -1221,7 +1226,7 @@
          <xsl:when test="$id-typ = 'P' and not(following-sibling::TEI[1]/starts-with(@id, 'P'))">
             <xsl:value-of select="foo:latexAnhang($id-typ)"/>
          </xsl:when>
-      </xsl:choose>
+      </xsl:choose>-->
    </xsl:template>
    <xsl:template match="teiHeader">
       <xsl:apply-templates/>
@@ -3302,7 +3307,7 @@
    <xsl:template match="lb[parent::item]">
       <xsl:text>{\newline}</xsl:text>
    </xsl:template>
-   <xsl:template match="footNote[ancestor::text/body]">
+   <xsl:template match="note[@type='footnote' and ancestor::text/body]">
       <xsl:text>\footnote{</xsl:text>
       <xsl:for-each select="p">
          <xsl:apply-templates select="."/>
@@ -3389,7 +3394,7 @@
       </xsl:if>
    </xsl:template>
    <xsl:template
-      match="p[(ancestor::body and not(ancestor::TEI[starts-with(@id, 'E')]) and not(child::space[@dim] and not(child::*[2]) and empty(text())) and not(ancestor::div[@type = 'biographical']) and not(parent::footNote))] | closer | dateline">
+      match="p[(ancestor::body and not(ancestor::TEI[starts-with(@id, 'E')]) and not(child::space[@dim] and not(child::*[2]) and empty(text())) and not(ancestor::div[@type = 'biographical']) and not(parent::note[@type='footnote']))] | closer | dateline">
       <!--     <xsl:if test="self::closer">\leftskip=1em{}</xsl:if>
 -->
       <xsl:if test="self::p[@rend = 'inline']">
@@ -3827,7 +3832,7 @@
    </xsl:template>
    <!-- anchors in Fussnoten, sehr seltener Fall-->
    <xsl:template
-      match="anchor[(@type = 'textConst' or @type = 'commentary') and ancestor::footNote]">
+      match="anchor[(@type = 'textConst' or @type = 'commentary') and ancestor::note[@type='footnote']]">
       <xsl:variable name="xmlid" select="concat(@id, 'h')"/>
       <xsl:text>\label{</xsl:text>
       <xsl:value-of select="@id"/>
@@ -3846,7 +3851,7 @@
    </xsl:template>
    <!-- Normaler anchor, Inhalt leer -->
    <xsl:template
-      match="anchor[(@type = 'textConst' or @type = 'commentary') and not(ancestor::footNote)]">
+      match="anchor[(@type = 'textConst' or @type = 'commentary') and not(ancestor::note[@type='footnote'])]">
       <xsl:text>\label{</xsl:text>
       <xsl:value-of select="@id"/>
       <xsl:text>v}</xsl:text>
@@ -3854,13 +3859,13 @@
       <xsl:apply-templates/>
    </xsl:template>
    <xsl:template
-      match="note[(@type = 'textConst' or @type = 'commentary') and not(ancestor::footNote)]"
+      match="note[(@type = 'textConst' or @type = 'commentary') and not(ancestor::note[@type='footnote'])]"
       mode="lemma"/>
    <xsl:template match="space[@unit = 'chars' and @quantity = '1']" mode="lemma">
       <xsl:text> </xsl:text>
    </xsl:template>
    <xsl:template
-      match="note[(@type = 'textConst' or @type = 'commentary') and not(ancestor::footNote)]">
+      match="note[(@type = 'textConst' or @type = 'commentary') and not(ancestor::note[@type='footnote'])]">
       <xsl:text>}{</xsl:text>
       <!-- Der Teil hier bildet das Lemma und kürzt es -->
       <xsl:variable name="lemma-start" as="xs:string"
@@ -3931,7 +3936,7 @@
       <xsl:text>}</xsl:text>
    </xsl:template>
    <xsl:template
-      match="note[(@type = 'textConst' or @type = 'commentary') and (ancestor::footNote)]">
+      match="note[(@type = 'textConst' or @type = 'commentary') and (ancestor::note[@type='footnote'])]">
       <!--     <xsl:text>\toendnotes[C]{</xsl:text>
       <xsl:apply-templates/>
       <xsl:text>\par}</xsl:text>-->
@@ -4133,8 +4138,8 @@
    </xsl:template>
    <xsl:template match="c[@rendition='#ornament']">
       <xsl:text>\vspace{0.75\baselineskip}</xsl:text>
-      <xsl:text>\hspace{-1em}\raisebox{-2pt}{*}\hspace{1em}\raisebox{1pt}{*}\hspace{1em}\raisebox{-2pt}{*}</xsl:text>
-      <xsl:text>\vspace{0.25\baselineskip}</xsl:text>
+      <xsl:text>\hspace{-1em}\raisebox{1pt}{*}\hspace{1em}\raisebox{-2pt}{*}\hspace{1em}\raisebox{1pt}{*}</xsl:text>
+      <xsl:text>\vspace{1.25\baselineskip}</xsl:text>
    </xsl:template>
    <xsl:template match="c[@rendition = '#geschwungene-klammer-auf']">
       <xsl:text>{\{}</xsl:text>
@@ -4569,14 +4574,14 @@
    </xsl:template>
    <!-- Großbuchstaben -->
    <xsl:template
-      match="hi[@rend = 'capitals' and not(descendant::note or descendant::footNote)]//text()">
+      match="hi[@rend = 'capitals' and not(descendant::note or descendant::note[@type='footnote'])]//text()">
       <xsl:value-of select="upper-case(.)"/>
    </xsl:template>
    <xsl:template
-      match="hi[@rend = 'capitals' and (descendant::note or descendant::footNote)]//text()">
+      match="hi[@rend = 'capitals' and (descendant::note or descendant::note[@type='footnote'])]//text()">
       <xsl:choose>
          <xsl:when
-            test="ancestor-or-self::footNote[not(descendant::hi[@rend = 'capitals'])] | ancestor-or-self::note[not(descendant::hi[@rend = 'capitals'])]">
+            test="ancestor-or-self::note[@type='footnote' and not(descendant::hi[@rend = 'capitals'])] | ancestor-or-self::note[not(descendant::hi[@rend = 'capitals'])]">
             <xsl:value-of select="."/>
          </xsl:when>
          <xsl:otherwise>

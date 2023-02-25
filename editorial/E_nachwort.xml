@@ -1,9 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xml:id="E_nachwort">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="E_nachwort">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="s">Arthur Schnitzler: Interviews</title>
+                <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.«
+                    Interviews, Meinungen, Proteste (1891–1931)</title>
                 <title level="a">Nachwort</title>
                 <author>Müller, Martin Anton</author>
                 <editor>
@@ -27,6 +31,9 @@
             <seriesStmt>
                 <p>Machine-Readable Transcriptions of the Interviews of Arthur Schnitzler</p>
             </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
         </fileDesc>
         <profileDesc>
             <langUsage>
@@ -65,15 +72,17 @@
                     gesetzt. Zu Wort kommen er selbst und die Journalistinnen und Journalisten, die
                     sich als Sprachrohr des Publikums verstanden. Ihre Erwartungshaltung formt <rs
                         type="person" ref="#2121">Schnitzler</rs>s öffentliche <hi rend="italics"
-                        >persona</hi>, auf die er wieder antwortet. Es ist ein Gruppenbild mit Autor, aufgenommen mit der Linse
-                    der öffentlichen Meinung.</p>
+                        >persona</hi>, auf die er wieder antwortet. Es ist ein Gruppenbild mit
+                    Autor, aufgenommen mit der Linse der öffentlichen Meinung.</p>
+            </div>
+            <div>
                 <head type="sub"><rs type="person" ref="#2121">Schnitzler</rs>s Ruhm und der postume
                     Beitrag</head>
                 <p>Die öffentliche Stellung <rs type="person" ref="#2121">Schnitzler</rs>s zu
                     Lebzeiten weicht auf so fundamentale Weisen von der gegenwärtigen ab, dass der
-                    Zugang dazu über die Entstehung seines heutigen Ruhms führen muss. Als Ausgangspunkt
-                    bietet sich eine Anekdote an, die <rs type="person" ref="#38375">Billy
-                        Wilder</rs> in <rs type="place" ref="#37116">Los Angeles</rs> in den
+                    Zugang dazu über die Entstehung seines heutigen Ruhms führen muss. Als
+                    Ausgangspunkt bietet sich eine Anekdote an, die <rs type="person" ref="#38375"
+                        >Billy Wilder</rs> in <rs type="place" ref="#37116">Los Angeles</rs> in den
                     1960er-Jahren seinem Biografen <rs type="person" ref="#64038">Axel Madsen</rs>
                     erzählte. In den 1920er-Jahren war <rs type="person" ref="#38375">Wilder</rs>
                     Reporter bei der Tageszeitung <rs type="org" ref="#29470">Die Stunde</rs>,
@@ -81,12 +90,12 @@
                     >Wien</rs>s. An nur einem Morgen will er an die Tür von <rs type="person"
                         ref="#5925">Alfred Adler</rs>, <rs type="person" ref="#11370">Sigmund
                         Freud</rs>, <rs type="person" ref="#12870">Richard Strauss</rs> und <rs
-                        type="person" ref="#2121">Arthur Schnitzler</rs> geklopft haben, um sie um eine
-                    kurze Stellungnahme zu einem Thema zu bitten. <rs
-                        type="person" ref="#11370">Freud</rs> habe ihn hochkant
-                                hinausgeschmissen.<footNote><p><bibl>Axel Madsen: <title level="m"
-                                    >Billy Wilder</title>. Indianapolis, London: <publisher>Indiana
-                                    University Press</publisher><space unit="chars" quantity="1"
+                        type="person" ref="#2121">Arthur Schnitzler</rs> geklopft haben, um sie um
+                    eine kurze Stellungnahme zu einem Thema zu bitten. <rs type="person"
+                        ref="#11370">Freud</rs> habe ihn hochkant hinausgeschmissen.<note
+                        type="footnote"><p><bibl>Axel Madsen: <title level="m">Billy Wilder</title>.
+                                Indianapolis, London: <publisher>Indiana University
+                                    Press</publisher><space unit="chars" quantity="1"
                                     /><date>1969</date>, S.&#8239;22</bibl>. <rs type="person"
                                 ref="#11370">Freud</rs>s Rauswurf erst bei: <bibl>Hellmuth Karasek:
                                     <title level="m">Billy Wilder. Eine Nahaufnahme</title>.
@@ -95,12 +104,12 @@
                             S.&#8239;46</bibl>. Vgl. auch <bibl>Georg Markus: <title level="a"
                                     >Begegnungen mit ganz normalen jüdischen Genies</title>. In:
                                     <title level="j">NU</title>, Nr.&#160;40, <date>2010</date>,
-                                H.&#160;2, S.&#8239;12–15, hier S.&#8239;13</bibl>. </p></footNote>
-                    Es ist anzunehmen, dass <rs type="person" ref="#2121">Schnitzler</rs> ihn
-                    ebenfalls der Türe verwiesen hätte – wenn die Geschichte denn wahr wäre. Eine
-                    solche Rundfrage ist nie erschienen.<footNote><p>Vgl. <bibl><title level="m"
-                                    >»Billie«. Billy Wilders Wiener journalistische
-                                Arbeiten</title>. Hg. Rolf Aurich, Wolfgang Jacobsen und Günter
+                                H.&#160;2, S.&#8239;12–15, hier S.&#8239;13</bibl>. </p></note> Es
+                    ist anzunehmen, dass <rs type="person" ref="#2121">Schnitzler</rs> ihn ebenfalls
+                    der Türe verwiesen hätte – wenn die Geschichte denn wahr wäre. Eine solche
+                    Rundfrage ist nie erschienen.<note type="footnote"><p>Vgl. <bibl><title
+                                    level="m">»Billie«. Billy Wilders Wiener journalistische
+                                    Arbeiten</title>. Hg. Rolf Aurich, Wolfgang Jacobsen und Günter
                                 Krenn. Wien: <publisher>Filmarchiv Austria</publisher><space
                                     unit="chars" quantity="1"/><date>2006</date>.</bibl> Von <rs
                                 type="person" ref="#38375">Wilder</rs> gibt es aber ein Rätsel, mit
@@ -112,13 +121,14 @@
                                     ref="#61577">Arithmogriph 6</rs>. In: <rs type="work"
                                     ref="#52154">Die Bühne</rs>, Jg.&#8239;2, H.&#8239;15,
                                     <date>19.&#8239;2.&#8239;1925</date>,
-                        S.&#8239;67</bibl>.</p></footNote> Da sie ein <hi rend="italics">Who’s
-                        Who</hi> der <rs type="place" ref="#50">Wien</rs>er Zwischenkriegszeit gibt,
-                    ist die Anekdote trotzdem relevant: Ein Arzt, ein Psychoanalytiker, ein
-                    Komponist und ein Schriftsteller verfügen noch Jahrzehnte später über dem
-                    Publikum geläufige Namen.</p>
+                        S.&#8239;67</bibl>.</p></note> Da sie ein <hi rend="italics">Who’s Who</hi>
+                    der <rs type="place" ref="#50">Wien</rs>er Zwischenkriegszeit gibt, ist die
+                    Anekdote trotzdem relevant: Ein Arzt, ein Psychoanalytiker, ein Komponist und
+                    ein Schriftsteller verfügen noch Jahrzehnte später über dem Publikum geläufige
+                    Namen.</p>
                 <p>Obzwar zu Lebzeiten vorne mit dabei, war <rs type="person" ref="#2121"
-                        >Schnitzler</rs> mittlerweile der Vergessenste der Vier.<footNote>
+                        >Schnitzler</rs> mittlerweile der Vergessenste der Vier.<note
+                        type="footnote">
                         <p>Eine statistische Orientierung kann durch <ref type="url"
                                 target="https://books.google.com/ngrams"/> gewonnen werden. Während
                                 <rs type="person" ref="#11370">Freud</rs> einen steten Anstieg
@@ -127,7 +137,7 @@
                                 >Schnitzler</rs> und <rs type="person" ref="#5925">Adler</rs>
                             weitgehend stabil bei einem Bruchteil der Erwähnungen der anderen
                             beiden.</p>
-                    </footNote><space unit="chars" quantity="1"/>
+                    </note><space unit="chars" quantity="1"/>
                     <rs type="person" ref="#2121">Schnitzler</rs>s Platz in der Liste ist nicht
                     Ausdruck eines anhaltenden Ruhms, sondern eines wachsenden. Schnitzler war am
                         <date>21.&#8239;10.&#8239;1931</date>, noch nicht siebzigjährig, an einer
@@ -171,7 +181,8 @@
                     Analog entstand in der »Schnitzler-Renaissance« ein neues Schnitzlerbild,
                     geformt durch Veröffentlichungen aus dem Nachlass. Briefeditionen wurden
                     herausgegeben, literarische Nachlasstexte ›entdeckt‹, die Fragment gebliebene
-                    Autobiografie <rs type="work" ref="#33838">Leben und Nachklang, Werk und Widerhall</rs>vor der Publikation schnell noch mit einem griffigen Titel
+                    Autobiografie <rs type="work" ref="#33838">Leben und Nachklang, Werk und
+                        Widerhall</rs>vor der Publikation schnell noch mit einem griffigen Titel
                     versehen (Der Verlagsleiter <rs type="person" ref="#63636">Janko Musulin</rs>:
                     »Jugend eines Jung-Wieners? – Nennen wir es <rs type="work" ref="#33838">Jugend
                         in Wien</rs>!«). In der Mitte der 1970erjahre begann dann die Arbeit an der
@@ -184,13 +195,16 @@
                     heutzutage mehr veröffentlicht, als man für die biografische Auswertung
                     benötigt. Man hat nun den ›Menschen‹ <rs type="person" ref="#2121"
                         >Schnitzler</rs> an die Seite seines Werks gestellt.</p>
+            </div>
+            <div>
                 <head type="sub">Gesteuert aus dem Jenseits</head>
-                <p>Das mit dem Nachlass zu zeichnende Bild des ›Menschen‹ <rs type="person" ref="#2121">Schnitzler</rs> dürfte
-                    nah dran an dem liegen, was sich der Portraitierte vorgestellt hatte. Dieser verfügte über ein
-                    ausgeprägtes Nachlassbewusstsein. Er ordnete zeitlebens die Manuskripte und
-                    Briefe, ließ Listen erstellen und Texte abtippen und die Sekretärin mit der
-                    Schreibmaschine erledigte die Erschließung. Kurzum: Es war, soweit das eben
-                    möglich war, alles vorbereitet, als er das Zeitliche segnete.<footNote><p>Ein
+                <p>Das mit dem Nachlass zu zeichnende Bild des ›Menschen‹ <rs type="person"
+                        ref="#2121">Schnitzler</rs> dürfte nah dran an dem liegen, was sich der
+                    Portraitierte vorgestellt hatte. Dieser verfügte über ein ausgeprägtes
+                    Nachlassbewusstsein. Er ordnete zeitlebens die Manuskripte und Briefe, ließ
+                    Listen erstellen und Texte abtippen und die Sekretärin mit der Schreibmaschine
+                    erledigte die Erschließung. Kurzum: Es war, soweit das eben möglich war, alles
+                    vorbereitet, als er das Zeitliche segnete.<note type="footnote"><p>Ein
                             besonderes Detail zeigte sich bei der Neuherausgabe des Briefwechsels
                             mit <rs type="person" ref="#11740">Hugo von Hofmannsthal</rs>. <rs
                                 type="person" ref="#2121">Schnitzler</rs> hatte sich nach dessen Tod
@@ -198,16 +212,16 @@
                             fügte mit Bleistift Datumsangaben hinzu, wenn diese fehlten. Vor allem
                             ergänzte er auch jene Briefe, die sich als Durchschlag in seinem
                             Nachlass fanden, von <rs type="person" ref="#11740">Hofmannsthal</rs>
-                            aber gar nicht aufbewahrt worden waren. </p></footNote> Seine Wünsche
-                    hatte er in den <rs type="work" ref="#35767">Bestimmungen über meinen
-                        Nachlass</rs> niedergeschrieben.<footNote><p><bibl>Jutta Müller, Gerhard
+                            aber gar nicht aufbewahrt worden waren. </p></note> Seine Wünsche hatte
+                    er in den <rs type="work" ref="#35767">Bestimmungen über meinen Nachlass</rs>
+                        niedergeschrieben.<note type="footnote"><p><bibl>Jutta Müller, Gerhard
                                 Neumann: <title level="m">Der Nachlass Arthur Schnitzlers</title>.
                                 Verzeichnis des im Schnitzler-Archiv der Universität Freiburg
                                 i.&#160;Br. befindlichen Materials. Mit einem Vorwort von Gerhart
                                 Baumann und einem Anhang von Heinrich Schnitzler: Verzeichnis des in
                                 Wien vorhandenen Nachlassmaterials. München:
                                     <publisher>Fink</publisher><space unit="chars" quantity="1"
-                                    /><date>1969</date>, S.&#8239;33–38</bibl>.</p></footNote> Sie
+                                    /><date>1969</date>, S.&#8239;33–38</bibl>.</p></note> Sie
                     lassen sich als Illustration dessen lesen, was dem Verfasser lieb und teuer
                     war:</p>
                 <list>
@@ -236,10 +250,10 @@
                             >Sohne</rs><space unit="chars" quantity="1"/><add place="above">meiner
                                 <rs subtype="implied" type="person" ref="#2238">Tochter</rs></add>
                         oder anderen meiner Nachkommen, werden zu entscheiden haben, was vertilgt zu
-                        werden, was vielleicht weiter zu leben verdient.«<footNote
+                        werden, was vielleicht weiter zu leben verdient.«<note type="footnote"
                             xml:id="nachwort-fn12"><p><bibl>Müller, Neumann: <title level="m">Der
                                         Nachlass Arthur Schnitzlers</title>,
-                            S.&#8239;37</bibl>.</p></footNote></quote></p>
+                            S.&#8239;37</bibl>.</p></note></quote></p>
                 <p><?latex \noindent ?>Man hat das Psychogramm eines Autors, der auf vollständige
                     Überlieferung wert legt. Der Moment, in dem etwas zerstört werden darf, ähnelt
                     beim gelernten Mediziner <rs type="person" ref="#2121">Schnitzler</rs> wohl
@@ -247,49 +261,50 @@
                     halten und der Familie die fälligen Entscheidungen erklären. Die verbleibenden
                     Papiere sind kulturhistorische Artefakte, und die Wissenschaft darf entscheiden,
                     was damit geschehen soll. Die Erben hielten sich daran und soweit das
-                    festzustellen ist, sind nur anderweitig begründbare Lücken
-                            vorhanden.<footNote><p>Verlustig sind einzelne Nachlassmappen, wobei
-                            dies teilweise durch Umordnungen erklärbar ist. Nur auf der
-                            Mikroverfilmung überliefert sind Aussagen zu Werkentstehungen.
-                            Verlagsverträge, soweit sie schriftlich fixiert waren, sind nicht
-                            durchwegs überliefert.</p><p>Mit einem dieser drei Gründe kann das
-                            Fehlen von Material zumeist erklärt werden: 1)&#160;in den Wirren der
-                            Transfers des Nachlasses abhandengekommen; 2)&#160;von <rs type="person"
-                                ref="#12692">Heinrich Schnitzler</rs> als Arbeitsmaterial verliehen
-                            und nicht zurückgefordert; 3)&#160;für nicht relevant
-                            eingestuft.</p><p>Als naheliegendster Anwärter für ein Purgatorium kann
-                            das Jugend-Tagebuch von <rs type="person" ref="#2238">Lili
-                                Schnitzler</rs> gelten, worin ihre Teenager-Schwärmereien
-                            festgehalten sind. Als solches wurde es auf Wunsch von <rs type="person"
-                                ref="#12692">Heinrich Schnitzler</rs>s Witwe <rs type="person"
-                                ref="#3233">Lilly</rs> bei der Übergabe des Nachlasses an das
-                                    <bibl><publisher>Deutsche Literaturarchiv</publisher></bibl> bis
-                                <date>2020</date> gesperrt. Dass selbst dieses Tagebuch für <rs
-                                type="person" ref="#2121">Arthur Schnitzler</rs> nicht tabu war,
-                            lässt sich daraus ableiten, dass er selbst noch eine Maschinabschrift
-                            beaufsichtigte.</p></footNote>
+                    festzustellen ist, sind nur anderweitig begründbare Lücken vorhanden.<note
+                        type="footnote"><p>Verlustig sind einzelne Nachlassmappen, wobei dies
+                            teilweise durch Umordnungen erklärbar ist. Nur auf der Mikroverfilmung
+                            überliefert sind Aussagen zu Werkentstehungen. Verlagsverträge, soweit
+                            sie schriftlich fixiert waren, sind nicht durchwegs
+                            überliefert.</p><p>Mit einem dieser drei Gründe kann das Fehlen von
+                            Material zumeist erklärt werden: 1)&#160;in den Wirren der Transfers des
+                            Nachlasses abhandengekommen; 2)&#160;von <rs type="person" ref="#12692"
+                                >Heinrich Schnitzler</rs> als Arbeitsmaterial verliehen und nicht
+                            zurückgefordert; 3)&#160;für nicht relevant eingestuft.</p><p>Als
+                            naheliegendster Anwärter für ein Purgatorium kann das Jugend-Tagebuch
+                            von <rs type="person" ref="#2238">Lili Schnitzler</rs> gelten, worin
+                            ihre Teenager-Schwärmereien festgehalten sind. Als solches wurde es auf
+                            Wunsch von <rs type="person" ref="#12692">Heinrich Schnitzler</rs>s
+                            Witwe <rs type="person" ref="#3233">Lilly</rs> bei der Übergabe des
+                            Nachlasses an das <bibl><publisher>Deutsche
+                                Literaturarchiv</publisher></bibl> bis <date>2020</date> gesperrt.
+                            Dass selbst dieses Tagebuch für <rs type="person" ref="#2121">Arthur
+                                Schnitzler</rs> nicht tabu war, lässt sich daraus ableiten, dass er
+                            selbst noch eine Maschinabschrift beaufsichtigte.</p></note>
                 </p>
                 <p>Ist das <rs type="work" ref="#33243">Tagebuch</rs> sein zentrales Vermächtnis?
                     Nicht nur in den <rs type="work" ref="#35767">Bestimmungen</rs>, auch in den
                     Interviews weckte er die Erwartungshaltung, dass Jahre nach seinem Tod noch eine
-                    bedeutende Neuerscheinung zu erwarten wäre, ein umfangreiches Zeitbild und ein relevantes Dokument (<ref
-                        type="pointer" target="#I092_L_tagebuchl"/>, <ref type="pointer"
-                        target="#I072_L_tagebuchl"/>, vgl. auch <ref type="pointer"
+                    bedeutende Neuerscheinung zu erwarten wäre, ein umfangreiches Zeitbild und ein
+                    relevantes Dokument (<ref type="pointer" target="#I092_L_tagebuchl"/>, <ref
+                        type="pointer" target="#I072_L_tagebuchl"/>, vgl. auch <ref type="pointer"
                         target="#K_I038_L_bahrsTagebuchl"/>). Inzwischen, da es vollständig ediert
                     vorliegt, muss man konstatieren: Zweifel sind, ungeachtet der enormen Leistung
                     von über 16.000 Einträgen, angebracht. Man kann sich über den Einblick in die
-                    Wiener Personennetzwerke freuen und trotzdem Enttäuschung über die Unzulänglichkeiten und
-                    die blinden Flecken empfinden. Nur zu oft besteht ein Eintrag daraus, dass <rs
-                        type="person" ref="#2121">Schnitzler</rs> Namen von Personen aufzählt, die
-                    er gesprochen hat oder aus der Erwähnung eines gelesenen Buches. Auffällig oft
-                    fehlen Begründungen und es ist nicht viel anders in den Rundfragen, bei denen er
-                    Buchempfehlungen abgeben soll und Titel nennt, aber nicht erklärt, was ihm daran
-                    gefallen hat <ref type="pointer" target="#M125"/>, <ref type="pointer"
-                        target="#M138"/>. Aus der Diskrepanz zwischen dem Erhofften und dem
-                    Eingelösten kann die Motivation erwachsen, aus dem Schatten von dem von <rs
-                        type="person" ref="#2121">Schnitzler</rs> für sein Nachwirken für relevant
-                    Erkannten hinauszutreten. Es weckt das Interesse, herauszufinden, wie sich sein
-                    Ruhm unter seinen Zeitgenossen fundierte.</p>
+                    Wiener Personennetzwerke freuen und trotzdem Enttäuschung über die
+                    Unzulänglichkeiten und die blinden Flecken empfinden. Nur zu oft besteht ein
+                    Eintrag daraus, dass <rs type="person" ref="#2121">Schnitzler</rs> Namen von
+                    Personen aufzählt, die er gesprochen hat oder aus der Erwähnung eines gelesenen
+                    Buches. Auffällig oft fehlen Begründungen und es ist nicht viel anders in den
+                    Rundfragen, bei denen er Buchempfehlungen abgeben soll und Titel nennt, aber
+                    nicht erklärt, was ihm daran gefallen hat <ref type="pointer" target="#M125"/>,
+                        <ref type="pointer" target="#M138"/>. Aus der Diskrepanz zwischen dem
+                    Erhofften und dem Eingelösten kann die Motivation erwachsen, aus dem Schatten
+                    von dem von <rs type="person" ref="#2121">Schnitzler</rs> für sein Nachwirken
+                    für relevant Erkannten hinauszutreten. Es weckt das Interesse, herauszufinden,
+                    wie sich sein Ruhm unter seinen Zeitgenossen fundierte.</p>
+            </div>
+            <div>
                 <head type="sub">Unverstandener Skandalautor</head>
                 <p><rs type="person" ref="#2121">Schnitzler</rs> trifft die Unterscheidung zwischen
                     Zeitgenossen und Nachwelt. Mit Ersteren spricht er vor allem, um ihnen zu sagen,
@@ -302,33 +317,33 @@
                 <p rend="inline">
                     <quote>»Noch nicht Geborener Du! einen Freund darf ich froh in dir
                         grüßen.<lb/>Lebtest du heut’ schon – wer weiss – zählt einen Hasser ich
-                            mehr.«<footNote xml:id="nachwort-hasser"><p><bibl><rs type="work"
-                                        ref="#61353">Widmung</rs>. In: <rs type="work" ref="#61352"
-                                        >Theater- und Musikwoche</rs>, Jg.&#160;1, Nr.&#160;34,
-                                        <date>15.&#160;12.&#160;1919</date> –
+                            mehr.«<note type="footnote" xml:id="nachwort-hasser"><p><bibl><rs
+                                        type="work" ref="#61353">Widmung</rs>. In: <rs type="work"
+                                        ref="#61352">Theater- und Musikwoche</rs>, Jg.&#160;1,
+                                    Nr.&#160;34, <date>15.&#160;12.&#160;1919</date> –
                                         <date>1.&#160;1.&#160;1920</date>, S.&#8239;1</bibl>. Heute
                                 in <bibl><title level="m">Aphorismen und Betrachtungen</title>,
-                                    S.&#160;16</bibl>.</p></footNote></quote>
+                                    S.&#160;16</bibl>.</p></note></quote>
                 </p>
                 <p><?latex \noindent ?>Rezensionen und Kritiken können stets als Beginn eines
                     öffentlichen Sprechens über ein Werk begriffen werden. <rs type="person"
                         ref="#2121">Schnitzler</rs>s Antwort auf diese Aufforderung zur
                     Kommunikation ist in einem engen Spektrum anzusiedeln. Kritiken werden von ihm
                     für gewöhnlich emotional gelesen: Sie sind ihm Überprüfung, ob er verstanden
-                    wurde – oder nicht.<footNote><p><bibl>Vgl. <title level="m">»Seh’n Sie, das
-                                    Berühmtwerden ist doch nicht so leicht!« Arthur Schnitzler über
-                                    sein literarisches Schaffen.</title> Ausgewählt und kommentiert
-                                und mit einem Vor- und Nachwort versehen von Irène Lindgren.
-                                Frankfurt/Main u.&#8239;a.: <publisher>Peter Lang</publisher><space
-                                    unit="chars" quantity="1"/><date>2002</date>,
-                                S.&#8239;565–609</bibl>.</p></footNote> An <rs type="person"
-                        ref="#11740">Hofmannsthal</rs> schreibt er: »<quote>So klug wie meine
-                        klügsten Kritiker bin ich lange noch</quote>«.<footNote><p><bibl><rs
-                                    type="person" ref="#2121">Schnitzler</rs> an <rs type="person"
-                                    ref="#11740">Hofmannsthal</rs>,
+                    wurde – oder nicht.<note type="footnote"><p><bibl>Vgl. <title level="m">»Seh’n
+                                    Sie, das Berühmtwerden ist doch nicht so leicht!« Arthur
+                                    Schnitzler über sein literarisches Schaffen.</title> Ausgewählt
+                                und kommentiert und mit einem Vor- und Nachwort versehen von Irène
+                                Lindgren. Frankfurt/Main u.&#8239;a.: <publisher>Peter
+                                    Lang</publisher><space unit="chars" quantity="1"
+                                    /><date>2002</date>, S.&#8239;565–609</bibl>.</p></note> An <rs
+                        type="person" ref="#11740">Hofmannsthal</rs> schreibt er: »<quote>So klug
+                        wie meine klügsten Kritiker bin ich lange noch</quote>«.<note
+                        type="footnote"><p><bibl><rs type="person" ref="#2121">Schnitzler</rs> an
+                                    <rs type="person" ref="#11740">Hofmannsthal</rs>,
                                     <date>6.&#8239;3.&#8239;1906</date>, <title level="m"
-                                    >schnitzler-briefe</title>, L01587</bibl>.</p></footNote> Oder,
-                    in einem nicht abgesandten Protestbrief: »<quote>Und wenn man von den seltenen
+                                    >schnitzler-briefe</title>, L01587</bibl>.</p></note> Oder, in
+                    einem nicht abgesandten Protestbrief: »<quote>Und wenn man von den seltenen
                         Fällen absieht, in denen der Dichter aus der Kritik etwas ihm Neues erführe
                         oder gar für seine Kunst etwas profitierte, so geht die Wirkung der Kritik
                         im allgemeinen <hi rend="underline" n="1">nicht</hi> weiter als bis an die
@@ -344,24 +359,23 @@
                             reason="outOfScope" unit="lines" quantity="3"/> Und so mancherlei
                         Kluges, Gutes, ja weiter fassendes über mich schon geschrieben worden ist,
                         Sie werden ja doch aus keiner Kritik Wesentlicheres über mich erfahren, als
-                        Sie in meinen Büchern finden können.«<footNote><p>Am
+                        Sie in meinen Büchern finden können.«<note type="footnote"><p>Am
                                     <date>17.&#8239;4.&#8239;1907</date>, <bibl><title level="m"
                                         >Briefe</title> I,
-                        S.&#8239;559–560</bibl>.</p></footNote></quote> Anlässlich der Kritiken zum
-                        <rs type="work" ref="#30203">Professor Bernhardi</rs> vermerkte er im <rs
+                        S.&#8239;559–560</bibl>.</p></note></quote> Anlässlich der Kritiken zum <rs
+                        type="work" ref="#30203">Professor Bernhardi</rs> vermerkte er im <rs
                         type="work" ref="#33243">Tagebuch</rs>: »<quote>die Tendenz der Kritik heißt
-                        mißverstehn – wenigstens dem Lebenden
-                                    gegenüber</quote>«.<footNote><p><bibl><ref
-                                    type="schnitzlerDiary" target="1912-12-05"
-                        /></bibl></p></footNote> Es ist also nur folgerichtig, wenn aus den <rs
+                        mißverstehn – wenigstens dem Lebenden gegenüber</quote>«.<note
+                        type="footnote"><p><bibl><ref type="schnitzlerDiary" target="1912-12-05"
+                                /></bibl></p></note> Es ist also nur folgerichtig, wenn aus den <rs
                         type="work" ref="#35767">Bestimmungen über meinen Nachlass</rs> deutlich
                     hervorgeht, dass er mit der »Sammlung von kritischen Zeitungsausschnitten«
                     nichts anfangen kann. Er sieht keine Verwendung für sie vor, außer dass sie fünf
                     Jahre nach seinem Tod gesichtet werde: <quote>»[…] besonders in ihrem negirenden
                         Theile dürfte sie eines literar- od vielmehr culturhistorischen Interesses
-                        nicht entbehren.«<footNote xml:id="nachwort-fn1"><p><bibl>Müller, Neumann:
-                                        <title level="m">Der Nachlass Arthur Schnitzlers</title>,
-                                    S.&#8239;38</bibl>.</p></footNote></quote>
+                        nicht entbehren.«<note type="footnote" xml:id="nachwort-fn1"
+                                    ><p><bibl>Müller, Neumann: <title level="m">Der Nachlass Arthur
+                                        Schnitzlers</title>, S.&#8239;38</bibl>.</p></note></quote>
                 </p>
                 <p><?latex \noindent ?>Interesse daran kann nur von jemanden kommen, der sich mit
                     den Schattenseiten der Kultur beschäftigen mag. Diese negative Dokumentation
@@ -369,43 +383,43 @@
                         type="org" ref="#29796">Observer</rs> (<rs type="org" ref="#29796">Alex
                         Weigl’s Unternehmen für Zeitungs-Ausschnitte</rs>). Derart trug er
                     zeitlebens geschätzte 30.000 Kritiken und Besprechungen zusammen, in denen er
-                    und sein Werk ausführlich besprochen wurden oder zumindest umfänglicher Erwähnung
-                            fanden.<footNote><p>Die Abonnements waren kostspielig, was sich auch aus
-                            den Beschwerden <rs type="person" ref="#2121">Schnitzler</rs>s ableiten
-                            lässt, in denen er sich beklagt, dass ihm Texte mit nur seinem Namen
-                            zugeschickt wurden.</p></footNote> Die Sammlung bildet einmal mehr die
-                    Ordnungskriterien desjenigen ab, der sie anlegte. Sie ist grob eingeteilt in
-                    Werke, allgemeine Aufsätze, Erwähnungen und Ungeordnetes. Zwar sind auch
-                    Abdrucke eigener Werke, öffentliche Äußerungen und Interviews enthalten, aber
-                    dass er diesen Manifestationen keine eigene Relevanz zugestand, ist an ihrer
-                    weitgehend zufälligen Platzierung zu erkennen, wozu sie gerade passt. Aus dem
-                    weiteren Schicksal dieser Sammlung geht hervor, dass auch die Erben nicht viel
-                    von ihr hielten. <rs type="person" ref="#2173">Olga Schnitzler</rs> – die
-                    geschiedene Frau und nicht der <rs type="person" ref="#12692" subtype="implied"
-                        >Sohn</rs> und Alleinerbe – schenkte sie an den Universitätsprofessor <rs
-                        type="person" ref="#64019">Henry B. Garland</rs> von der <rs type="org"
-                        ref="#64017">University of Exeter</rs>. Erst nach dessen Tod, ein Jahrzehnt
-                    nach der Emeritierung, wurde die Sammlung öffentlich zugänglich, indem sie in
-                    Besitz der dortigen Universitätsbibliothek kam, wo sie bis heute aufbewahrt
-                    wird. Der eigentliche zentrale Nachlassort, die <rs type="org" ref="#29355"
-                        >Cambridge University Library</rs>, hatte zuvor die Überlassung
-                        abgelehnt.<footNote xml:id="nachwort_exeter"><p><bibl>Lorenzo Bellettini,
-                                Christian Staufenbiel: <title level="a">The Schnitzler Nachlass.
-                                    Saved by a Cambridge Student</title>. In: <title level="m"
-                                    >Schnitzler’s Hidden Manuscripts</title>. Hg. L.&#160;B. und
-                                Peter Hutchinson. Oxford u.&#8239;a.: <publisher>Peter
-                                    Lang</publisher><space unit="chars" quantity="1"
-                                    /><date>2010</date>, S.&#8239;11–21, hier S.&#8239;19</bibl>. In
-                            weiterer Folge wurde, wegen dem Säurefraß des Zeitungspapieres, in den
-                            1980er-Jahre eine Sicherung von 26.000 Seiten auf Microfiche
-                            vorgenommen. Eine Kopie davon wurde wiederum dem Editionsteam des <rs
-                                type="work" ref="#33243">Tagebuchs</rs> zur Verfügung gestellt.
-                            Diese Kopie wurde vor Kurzem digitalisiert und steht, mit Volltextsuche,
-                            seit <date>2019</date> unter <ref
+                    und sein Werk ausführlich besprochen wurden oder zumindest umfänglicher
+                    Erwähnung fanden.<note type="footnote"><p>Die Abonnements waren kostspielig, was
+                            sich auch aus den Beschwerden <rs type="person" ref="#2121"
+                                >Schnitzler</rs>s ableiten lässt, in denen er sich beklagt, dass ihm
+                            Texte mit nur seinem Namen zugeschickt wurden.</p></note> Die Sammlung
+                    bildet einmal mehr die Ordnungskriterien desjenigen ab, der sie anlegte. Sie ist
+                    grob eingeteilt in Werke, allgemeine Aufsätze, Erwähnungen und Ungeordnetes.
+                    Zwar sind auch Abdrucke eigener Werke, öffentliche Äußerungen und Interviews
+                    enthalten, aber dass er diesen Manifestationen keine eigene Relevanz zugestand,
+                    ist an ihrer weitgehend zufälligen Platzierung zu erkennen, wozu sie gerade
+                    passt. Aus dem weiteren Schicksal dieser Sammlung geht hervor, dass auch die
+                    Erben nicht viel von ihr hielten. <rs type="person" ref="#2173">Olga
+                        Schnitzler</rs> – die geschiedene Frau und nicht der <rs type="person"
+                        ref="#12692" subtype="implied">Sohn</rs> und Alleinerbe – schenkte sie an
+                    den Universitätsprofessor <rs type="person" ref="#64019">Henry B. Garland</rs>
+                    von der <rs type="org" ref="#64017">University of Exeter</rs>. Erst nach dessen
+                    Tod, ein Jahrzehnt nach der Emeritierung, wurde die Sammlung öffentlich
+                    zugänglich, indem sie in Besitz der dortigen Universitätsbibliothek kam, wo sie
+                    bis heute aufbewahrt wird. Der eigentliche zentrale Nachlassort, die <rs
+                        type="org" ref="#29355">Cambridge University Library</rs>, hatte zuvor die
+                    Überlassung abgelehnt.<note type="footnote" xml:id="nachwort_exeter"
+                                ><p><bibl>Lorenzo Bellettini, Christian Staufenbiel: <title
+                                    level="a">The Schnitzler Nachlass. Saved by a Cambridge
+                                    Student</title>. In: <title level="m">Schnitzler’s Hidden
+                                    Manuscripts</title>. Hg. L.&#160;B. und Peter Hutchinson. Oxford
+                                u.&#8239;a.: <publisher>Peter Lang</publisher><space unit="chars"
+                                    quantity="1"/><date>2010</date>, S.&#8239;11–21, hier
+                                S.&#8239;19</bibl>. In weiterer Folge wurde, wegen dem Säurefraß des
+                            Zeitungspapieres, in den 1980er-Jahre eine Sicherung von 26.000 Seiten
+                            auf Microfiche vorgenommen. Eine Kopie davon wurde wiederum dem
+                            Editionsteam des <rs type="work" ref="#33243">Tagebuchs</rs> zur
+                            Verfügung gestellt. Diese Kopie wurde vor Kurzem digitalisiert und
+                            steht, mit Volltextsuche, seit <date>2019</date> unter <ref
                                 target="https://schnitzler-zeitungen.acdh.oeaw.ac.at/" type="url"/>
                             frei zur Verfügung. Als Hinweisgeber für Interviews und Rundfragen
                             unverzichtbar, hätte die vorliegende Edition ohne diese Sammlung so
-                            nicht erscheinen können.</p></footNote></p>
+                            nicht erscheinen können.</p></note></p>
                 <p><rs type="person" ref="#2121">Schnitzler</rs>s Vorstellungen von seinem Nachlass
                     entsprach einem Zeitgeschmack. Ein Leuchtturmprojekt, das die deutsche
                     Literaturwissenschaft zu seinen Lebzeiten mit großem Aufwand betrieb, war die
@@ -427,42 +441,43 @@
                     mediengeschichtlichen Gründen wie der Verbreitung des Telefons, zur Folge, dass
                     viele von <rs type="person" ref="#2121">Schnitzler</rs>s beruflichen
                     Korrespondenzen die Leserinnen und Leser der Nachwelt bereits mitdenken und
-                    damit stets etwas Verhaltenes haben.<footNote><p>Zur Problematik der geänderten
-                            Briefkultur um 1900 vgl. <bibl>Jörg Schuster: <title level="m"
-                                    >»Kunstleben«. Zur Kulturpoetik des Briefs um 1900 –
+                    damit stets etwas Verhaltenes haben.<note type="footnote"><p>Zur Problematik der
+                            geänderten Briefkultur um 1900 vgl. <bibl>Jörg Schuster: <title
+                                    level="m">»Kunstleben«. Zur Kulturpoetik des Briefs um 1900 –
                                     Korrespondenzen Hugo von Hofmannsthals und Rainer Maria
                                     Rilkes</title>. Paderborn: <publisher>Fink</publisher>
-                                2014.</bibl></p></footNote> Natürlich korrespondierte er nicht mit
+                                2014.</bibl></p></note> Natürlich korrespondierte er nicht mit
                     Zeitgenossen für die Nachwelt, aber sie war ihm, wie der Nachlass zeigt, ein
                     Bezugspunkt. Grundlegender noch: <rs type="person" ref="#2121">Schnitzler</rs>
                     akzeptierte, dass es ein legitimes Interesse an seiner Person gab, das über sein
                     künstlerisches Werk hinausging, befürwortete und förderte dies, wenngleich er es
-                    für die Nachgeborenen vorbehielt. Dass der Ruhm zu Lebzeiten in wenigen Jahren erlosch, wäre ihm
-                    vermutlich gleichgültig gewesen, wenn er es mitbekommen hätte.</p>
+                    für die Nachgeborenen vorbehielt. Dass der Ruhm zu Lebzeiten in wenigen Jahren
+                    erlosch, wäre ihm vermutlich gleichgültig gewesen, wenn er es mitbekommen
+                    hätte.</p>
                 <p>Ungeachtet dessen, wie wichtig es ihm war, berühmt zu sein – sein Ruhm zu
                     Lebzeiten war eine bedeutende Größe. Sucht man nach Indikatoren, um ihn zu
                     messen, gäbe es verschiedene Ansätze. So könnte man ihn mit der Anzahl der
                     Aufführungen seiner Dramen quantifizieren. Die Stücke waren wenige Jahre,
                     nachdem er als Literat in Erscheinung zu treten begann, ein Fixum auf der
-                    internationalen Bühne.<footNote><p>Einen umfassenderen Überblick über die
-                            zeitgenössische Rezeption gibt Julia Ilgner in: <bibl><title level="m"
-                                    >Schnitzler-Handbuch. Leben – Werk – Wirkung</title>. Hg. v.
-                                Michael Scheffel, Wolfgang Lukas und Christoph Jürgensen. Stuttgart:
-                                    <publisher>Metzler</publisher> 2014,
-                            S.&#8239;347–350</bibl>.</p></footNote> Seine Erzählungen und Romane
+                    internationalen Bühne.<note type="footnote"><p>Einen umfassenderen Überblick
+                            über die zeitgenössische Rezeption gibt Julia Ilgner in: <bibl><title
+                                    level="m">Schnitzler-Handbuch. Leben – Werk – Wirkung</title>.
+                                Hg. v. Michael Scheffel, Wolfgang Lukas und Christoph Jürgensen.
+                                Stuttgart: <publisher>Metzler</publisher> 2014,
+                                S.&#8239;347–350</bibl>.</p></note> Seine Erzählungen und Romane
                     verkauften sich gut und wurden mehrfach übersetzt. Man könnte mit den Quellen
                     der vorliegenden Edition das wachsende Interesse an Interviews berücksichtigen.
                     Eine weitere Zugangsweise bezieht sich auf die Literaturpreise und
-                            -skandale.<footNote><p>Zu <rs type="person" ref="#2121">Schnitzler</rs>
-                            und dem Skandal erschienen vor Kurzem mehrere Einzelstudien in:
-                                    <bibl><title level="m">Die Ökonomie des Skandals. Gesellschaft,
-                                    Sexualität und Judentum bei Arthur Schnitzler</title></bibl>
-                                (<bibl>Hg. Carl Niekerk und Margrit Vogt.
-                                    <pubPlace>Göttingen</pubPlace>:
+                        -skandale.<note type="footnote"><p>Zu <rs type="person" ref="#2121"
+                                >Schnitzler</rs> und dem Skandal erschienen vor Kurzem mehrere
+                            Einzelstudien in: <bibl><title level="m">Die Ökonomie des Skandals.
+                                    Gesellschaft, Sexualität und Judentum bei Arthur
+                                    Schnitzler</title></bibl> (<bibl>Hg. Carl Niekerk und Margrit
+                                Vogt. <pubPlace>Göttingen</pubPlace>:
                                     <publisher>Wallstein</publisher><space unit="chars" quantity="1"
                                     /><date>2020</date></bibl>). Der Fokus liegt dabei auf den
                             Skandalen im literarischen Œuvre, während die biografischen
-                            Implikationen weitgehend beiseite gelassen werden.</p></footNote> Sie
+                            Implikationen weitgehend beiseite gelassen werden.</p></note> Sie
                     ergeben folgende Lebensstationen, die nach dem ersten großen Erfolg mit der <rs
                         type="work" ref="#29917">Liebelei</rs> am <rs type="org" ref="#36247"
                         >Burgtheater</rs><space unit="chars" quantity="1"/><date>1895</date>
@@ -525,7 +540,10 @@
                     ohne einander existieren. So wird jeder Preis von der antisemitischen Presse als
                     Skandal empfunden. Die Polarisierung ist Teil dessen, was <rs type="person"
                         ref="#2121">Schnitzler</rs>s Ruhm zu Lebzeiten ausmachte. Damit ist sie eine
-                    vom Nachruhm (mit den Polen ›Erinnerung‹ und ›Vergessen‹) zu unterscheidende Problemstellung.</p>
+                    vom Nachruhm (mit den Polen ›Erinnerung‹ und ›Vergessen‹) zu unterscheidende
+                    Problemstellung.</p>
+            </div>
+            <div>
                 <head type="sub">Ein Großer auf dem Buchmarkt</head>
                 <p>Um <date>1907</date>/<date>1908</date> schreibt <rs type="person" ref="#2121"
                         >Schnitzler</rs>: <quote>»Dichter führen bekanntlich ein gesegnetes Dasein.
@@ -534,10 +552,9 @@
                         flüstern, werden interviewt, haben das Recht, Rundfragen zu beantworten und
                         die Marken zu sammeln, die ihnen von unvorsichtigen Autographensammlern als
                         Retourporto eingesandt werden. Für all das müssen sie sich eigentlich nur
-                        eine ernstere Unannehmlichkeit gefallen lassen:
-                                        Kritik.«<footNote><p><bibl><title>Aphorismen und
-                                        Betrachtungen</title>,
-                        S.&#8239;399</bibl>.</p></footNote></quote></p>
+                        eine ernstere Unannehmlichkeit gefallen lassen: Kritik.«<note
+                            type="footnote"><p><bibl><title>Aphorismen und Betrachtungen</title>,
+                                    S.&#8239;399</bibl>.</p></note></quote></p>
                 <p><?latex \noindent ?>Was er hier in einem ironischen Ton vermittelt, behandelt den
                     Epochenumbruch, der in der Zeit, kurz bevor <rs type="person" ref="#2121"
                         >Schnitzler</rs> geboren wurde, begann, und sich zunehmend beschleunigte.
@@ -553,70 +570,70 @@
                     gefunden werden: Politik, Erfindungen, Sport und Theater, aber auch Aristokratie
                     und Reichtum. ›Prominente‹ wurden ausgehandelt, die sich als Ware auf dem
                     Nachrichtenmarkt behaupten konnten. Dabei bekam Persönlichkeit einen höheren
-                    Marktwert als Charakter. Aus Anhängern wurden Fans.<footNote><p><bibl>Vgl. Amy
-                                Henderson: <title level="a">Media and the Rise of Celebrity
-                                    Culture</title>. In: <title level="j">OAH Magazine of
+                    Marktwert als Charakter. Aus Anhängern wurden Fans.<note type="footnote"
+                                ><p><bibl>Vgl. Amy Henderson: <title level="a">Media and the Rise of
+                                    Celebrity Culture</title>. In: <title level="j">OAH Magazine of
                                     History</title>, Bd.&#8239;6, Nr.&#8239;4, <date>Frühling
-                                    1992</date>, S.&#8239;49–54</bibl>.</p></footNote></p>
+                                    1992</date>, S.&#8239;49–54</bibl>.</p></note></p>
                 <p>Das Umfeld veränderte sich dadurch grundlegend, in dem ein Schriftsteller oder
                     eine Schriftstellerin den Beruf ausüben konnten. Nunmehr war es nicht mehr nur
                     die Werkausgabe, die das Bild eines Autors für die Öffentlichkeit zusammenfügte.
-                    Die Art und Weise, wie eine Person medial konstruiert werden konnte, explodierte im
-                    19. Jahrhundert. Fotografie, Tonaufnahme, Interview verbreiteten sich, später
+                    Die Art und Weise, wie eine Person medial konstruiert werden konnte, explodierte
+                    im 19. Jahrhundert. Fotografie, Tonaufnahme, Interview verbreiteten sich, später
                     kam die mobile Filmkamera dazu. Jede dieser Weisen versuchte, Nähe und Intimität
                     zum Objekt herzustellen und das über räumliche und zeitliche Beschränkungen zu
                     transportieren. Dramatischer ausgedrückt: Je größer die gesellschaftliche
-                    Öffentlichkeit, desto mehr wuchs das Bedürfnis nach Intimität.<footNote><p>Die
-                            hier und im Folgenden angesprochenen Themen, Fragestellungen und
-                            Argumentationen sind mehrfach Überlegungen verpflichtet, die Rebecca
-                            Roach in <anchor type="label" xml:id="fnroach"/><bibl><title level="m"
-                                    >Literature und the Rise of the Interview</title>
-                                    (<publisher>Oxford University Press</publisher><space
-                                    unit="chars" quantity="1"/><date>2018</date>)</bibl> ausführt,
-                            ohne dass die strukturellen Anleihen als Zitat gekennzeichnet werden
-                            können.</p></footNote><space unit="chars" quantity="1"/>Als <rs
-                        type="person" ref="#2121">Schnitzler</rs> auf die Welt kam, hatte <rs
-                        type="place" ref="#50">Wien</rs> unter einer Million Einwohnerinnen und
-                    Einwohner. Innerhalb von fünfzig Jahren verdoppelte sich die Bevölkerungszahl
-                    und stieg zu einem bis heute nicht wieder erreichten Höchststand von mehr als
-                    zwei Millionen. In diesem von Wachstum, Wanderbewegungen und Wandel geprägten
-                    Umfeld unternahm er es, sich seinen Unterhalt mit künstlerischer Tätigkeit zu
-                    verdienen.</p>
+                    Öffentlichkeit, desto mehr wuchs das Bedürfnis nach Intimität.<note
+                        type="footnote"><p>Die hier und im Folgenden angesprochenen Themen,
+                            Fragestellungen und Argumentationen sind mehrfach Überlegungen
+                            verpflichtet, die Rebecca Roach in <anchor type="label" xml:id="fnroach"
+                                    /><bibl><title level="m">Literature und the Rise of the
+                                    Interview</title> (<publisher>Oxford University
+                                    Press</publisher><space unit="chars" quantity="1"
+                                    /><date>2018</date>)</bibl> ausführt, ohne dass die
+                            strukturellen Anleihen als Zitat gekennzeichnet werden
+                        können.</p></note><space unit="chars" quantity="1"/>Als <rs type="person"
+                        ref="#2121">Schnitzler</rs> auf die Welt kam, hatte <rs type="place"
+                        ref="#50">Wien</rs> unter einer Million Einwohnerinnen und Einwohner.
+                    Innerhalb von fünfzig Jahren verdoppelte sich die Bevölkerungszahl und stieg zu
+                    einem bis heute nicht wieder erreichten Höchststand von mehr als zwei Millionen.
+                    In diesem von Wachstum, Wanderbewegungen und Wandel geprägten Umfeld unternahm
+                    er es, sich seinen Unterhalt mit künstlerischer Tätigkeit zu verdienen.</p>
                 <p>Die Dynamik eröffnete für Autorinnen und Autoren ein Handlungsfeld, in dem sowohl
                     die eingenommenen Positionen charakterisierten, wie jene, die nicht betreten
                     werden. Man konnte die Rolle eines politischen und kulturellen Kommentators
                     besetzen, oder als Prophet, Kassandra, moralische Instanz, Zeitdiagnostiker,
-                    Gesellschaftspsychologe auftreten. In seinem
-                    Nachlass hat <rs type="person" ref="#2121">Schnitzler</rs> eine Antwort auf den
-                    Vorwurf hinterlassen, sich nicht zu Zeitproblemen zu äußern. »<quote>Es ist
-                        nicht Sache des Dichters zu Problemen einer bestimmten Zeit Stellung zu
-                        nehmen. Er kann die Probleme wählen, die ihm belieben. Oder auch gar keine
-                        Probleme, sondern nur Gestalten und
-                                    Situationen.</quote>«<footNote><p><bibl><publisher>Cambridge
-                                    University Library</publisher>, A&#8239;7,4 Kritik und
-                                Fälschung</bibl></p></footNote> Mit dem nachgeschobenen Satz
-                    positioniert er sich als Zeitdiagnostiker.<footNote xml:id="nachwort-typolog"
-                            ><p>Die Parallele zu der literarischen Werkentstehung aus der Typologie,
-                            bedürfte eines genaueren Blicks, <ref target="#I096_L_typologie"
-                                type="pointer"/><anchor type="label" xml:id="E_nachwort_typologien"
-                            /></p></footNote> Die brieflichen Absagen, die <rs type="person"
-                        ref="#2121">Schnitzler</rs> dem Journalisten <rs type="person" ref="#2553"
-                        >Hermann Menkes</rs> über Jahre schickte, können prototypisch verstanden
-                    werden. Einerseits, weil sie das Ideal des nicht engagierten Schriftstellers
-                    aussprechen, andererseits, weil sie den Journalisten zeigen, der sich dadurch
-                    nicht abhalten lässt, denn er kennt das Spiel. Deswegen fragt er trotzdem immer
-                    wieder an. Er weiß, dass das eine die Haltung ist, das andere das gelebte Leben
-                        (<ref type="pointer" target="#I039"/>, <ref type="pointer" target="#I008"/>,
-                        <ref type="pointer" target="#I014"/>, <ref type="pointer" target="#M170"
-                    />):</p>
+                    Gesellschaftspsychologe auftreten. In seinem Nachlass hat <rs type="person"
+                        ref="#2121">Schnitzler</rs> eine Antwort auf den Vorwurf hinterlassen, sich
+                    nicht zu Zeitproblemen zu äußern. »<quote>Es ist nicht Sache des Dichters zu
+                        Problemen einer bestimmten Zeit Stellung zu nehmen. Er kann die Probleme
+                        wählen, die ihm belieben. Oder auch gar keine Probleme, sondern nur
+                        Gestalten und Situationen.</quote>«<note type="footnote"
+                                    ><p><bibl><publisher>Cambridge University Library</publisher>,
+                                A&#8239;7,4 Kritik und Fälschung</bibl></p></note> Mit dem
+                    nachgeschobenen Satz positioniert er sich als Zeitdiagnostiker.<note
+                        type="footnote" xml:id="nachwort-typolog"><p>Die Parallele zu der
+                            literarischen Werkentstehung aus der Typologie, bedürfte eines genaueren
+                            Blicks, <ref target="#I096_L_typologie" type="pointer"/><anchor
+                                type="label" xml:id="E_nachwort_typologien"/></p></note> Die
+                    brieflichen Absagen, die <rs type="person" ref="#2121">Schnitzler</rs> dem
+                    Journalisten <rs type="person" ref="#2553">Hermann Menkes</rs> über Jahre
+                    schickte, können prototypisch verstanden werden. Einerseits, weil sie das Ideal
+                    des nicht engagierten Schriftstellers aussprechen, andererseits, weil sie den
+                    Journalisten zeigen, der sich dadurch nicht abhalten lässt, denn er kennt das
+                    Spiel. Deswegen fragt er trotzdem immer wieder an. Er weiß, dass das eine die
+                    Haltung ist, das andere das gelebte Leben (<ref type="pointer" target="#I039"/>,
+                        <ref type="pointer" target="#I008"/>, <ref type="pointer" target="#I014"/>,
+                        <ref type="pointer" target="#M170"/>):</p>
                 <p rend="inline">
                     <quote>»Auch mit meinen nächsten Bekannten spreche ich niemals über die
                         Arbeiten, mit denen ich eben beschäftigt bin und über meine literarischen
                         Projekte. Da werden Sie doch nicht im Ernst von mir verlangen, dass ich der
                         Oeffentlichkeit davon Mitteilung mache.«
-                            (<date>19.&#160;12.&#160;1912</date>)<footNote xml:id="fn_menkes"><p>Die
-                                Durchschläge von <rs type="person" ref="#2121">Schnitzler</rs>s
-                                getippten Briefen im <bibl><publisher>Deutschen Literaturarchiv
+                            (<date>19.&#160;12.&#160;1912</date>)<note type="footnote"
+                            xml:id="fn_menkes"><p>Die Durchschläge von <rs type="person" ref="#2121"
+                                    >Schnitzler</rs>s getippten Briefen im
+                                        <bibl><publisher>Deutschen Literaturarchiv
                                         Marbach</publisher>, HS.1985.1.1407</bibl>. Zu <rs
                                     type="person" ref="#2553">Menkes</rs>’ <hi rend="italics">home
                                     stories</hi><space unit="chars" quantity="1"/><bibl>vgl. Ursula
@@ -624,7 +641,7 @@
                                         Wiener Künstlern und Sängerinnen</title>. In: <title
                                         level="j">Hofmannsthal Jahrbuch</title>, Jg.&#160;24, <date
                                         when="2016">2016</date>,
-                            S.&#160;8–132</bibl>.</p></footNote></quote>
+                        S.&#160;8–132</bibl>.</p></note></quote>
                 </p>
                 <p rend="inline">
                     <quote>»So gern ich Sie wieder einmal sprechen möchte, von dem freundlichst
@@ -654,17 +671,16 @@
                     wieder kommuniziert werden muss, ist ein weites Land. Deswegen benötigte er eine
                     Präsenz, die diesen Spagat erlaubt. Als Geste wählte er für sein Betragen einen
                     »Cool Conduct«, wie es Marie Kolkenbrock genannt hat: Er entschied sich
-                    mitzumachen, um dann seine Nichtzugehörigkeit zu
-                                thematisieren.<footNote><p><bibl>Marie Kolkenbrock: <title level="a"
-                                    >Saved Face, Defended Place: Arthur Schnitzler’s Posture of
-                                    Detachment and the Codes of Cool Conduct</title>. In: <title
-                                    level="j">Austrian Studies</title>, Bd.&#160;27 (Placing
-                                Schnitzler), <date>2019</date>,
-                        S.&#8239;13–28</bibl>.</p></footNote> Kolkenbrock verwendet den Begriff
-                    »detachment«, um seine Abgrenzung zu beschreiben und zeigt, wie <rs
-                        type="person" ref="#2121">Schnitzler</rs> sich nicht direkt als ›Jude‹ und
-                    ›Österreicher‹ positionierte, sondern durch Anpassungen und wechselnde
-                    Zuschreibungen ein beständiges Rollenspiel betrieb.</p>
+                    mitzumachen, um dann seine Nichtzugehörigkeit zu thematisieren.<note
+                        type="footnote"><p><bibl>Marie Kolkenbrock: <title level="a">Saved Face,
+                                    Defended Place: Arthur Schnitzler’s Posture of Detachment and
+                                    the Codes of Cool Conduct</title>. In: <title level="j">Austrian
+                                    Studies</title>, Bd.&#160;27 (Placing Schnitzler),
+                                    <date>2019</date>, S.&#8239;13–28</bibl>.</p></note> Kolkenbrock
+                    verwendet den Begriff »detachment«, um seine Abgrenzung zu beschreiben und
+                    zeigt, wie <rs type="person" ref="#2121">Schnitzler</rs> sich nicht direkt als
+                    ›Jude‹ und ›Österreicher‹ positionierte, sondern durch Anpassungen und
+                    wechselnde Zuschreibungen ein beständiges Rollenspiel betrieb.</p>
                 <p>Die Wahrnehmung <rs type="person" ref="#2121">Schnitzler</rs>s als distanziert
                     erlaubt einen bedeutsamen Wechsel in der Betrachtungsweise. Nicht die fehlende
                     Teilhabe ist bestimmend, sondern die ständigen Bewegungen, die nötig sind, wenn
@@ -675,17 +691,19 @@
                     begegnete, können so befreit werden von den negativen Konnotationen, dass es
                     sich bei ihnen um Fehler, Momente der Unachtsamkeit und Fallen handeln würde,
                     die ihm passiert sind oder gestellt wurden und die ihm jedenfalls nicht recht
-                            waren.<footNote><p>Es ist jeweils eine Film- und eine Tonaufnahme
-                            überliefert. Das Audiodokument vom <ref type="schnitzlerDiary"
-                                target="1907-03-19" subtype="date-only"/> kann online in der
-                            Österreichischen Mediathek (<ref type="url"
+                        waren.<note type="footnote"><p>Es ist jeweils eine Film- und eine
+                            Tonaufnahme überliefert. Das Audiodokument vom <ref
+                                type="schnitzlerDiary" target="1907-03-19" subtype="date-only"/>
+                            kann online in der Österreichischen Mediathek (<ref type="url"
                                 target="https://www.mediathek.at"/>) angehört werden. Der
                             Wochenschaubericht zum <ref target="1923-05-17" type="schnitzlerDiary"
                                 subtype="date-only"/> findet sich mit den Suchbegriffen »Arthur
                             Schnitzler Stockholm« auf <ref type="url" target="https://youtube.com"
-                            />.</p></footNote> Sie sind darum nicht als Quellen mit geringem
+                            />.</p></note> Sie sind darum nicht als Quellen mit geringem
                     Wahrheitsgehalt abzutun, sondern gehören als Teil seiner öffentlichen Wirkung
                     zum biografischen, kulturellen und literarischen Werk.</p>
+            </div>
+            <div>
                 <head type="sub">Wofür er mit seinem Namen steht</head>
                 <p>Mit den Texten der vorliegenden Edition lassen sich Achsen kategorisieren, um die
                     sich sein Handeln gruppierte und sich Bilder und Wahrnehmungen der öffentlichen
@@ -745,40 +763,40 @@
                     späteren Überarbeitungen kennt. Es schien ihm wichtig, dass seine Texte keine
                     volatile, zeitbehaftete Gestalt einnahmen.</p>
                 <p>Die Äußerungen über »Schund und Schmutz« wurden <date>1929</date> teilweise in
-                    einer deutschen Lesben-Zeitschrift nachgedruckt.<footNote><p><bibl><title
-                                    level="a">Drei Fragen – drei Antworten</title>. In: <rs
-                                    type="work" ref="#64021">Liebende Frauen. Wochenschrift des
+                    einer deutschen Lesben-Zeitschrift nachgedruckt.<note type="footnote"
+                                    ><p><bibl><title level="a">Drei Fragen – drei Antworten</title>.
+                                In: <rs type="work" ref="#64021">Liebende Frauen. Wochenschrift des
                                     »Deutschen Freundschafts-Verbandes«</rs>, Jg.&#8239;4,
                                 Nr.&#8239;48, <date>ca. Dezember 1929</date>.
-                            S.&#8239;1–2</bibl>.</p></footNote> Das stellt die eine bekannte
-                    Ausnahme dar, als seine Ansichten für einen gesellschaftlich umkämpften Bereich
-                    nutzbar gemacht wurden. Ansonsten findet sich <rs type="person" ref="#2121"
+                            S.&#8239;1–2</bibl>.</p></note> Das stellt die eine bekannte Ausnahme
+                    dar, als seine Ansichten für einen gesellschaftlich umkämpften Bereich nutzbar
+                    gemacht wurden. Ansonsten findet sich <rs type="person" ref="#2121"
                         >Schnitzler</rs>s Name nicht auf der Seite von Reformbewegungen. Seine
                     Befürwortung der Legalisierung von Homosexualität findet sich in einem Aufruf
                     zwischen mehreren hundert Prominenten <ref target="#E_textauswahl_L_homosex"
-                        type="pointer"/>.<footNote><p>Im privaten Bereich dürfte Homosexualität für
-                            ihn unproblematisch gewesen sein. Den deutlichsten Hinweis gibt seine
-                            Freundschaft mit <rs type="person" ref="#10986">Otto Brahm</rs>, der
-                            seine homosexuellen Neigungen lebte; <ref type="schnitzlerDiary"
-                                subtype="cf" target="1925-12-11"/>. Auch im Umgang mit <rs
-                                type="person" ref="#10765">Leopold Andrian</rs>, <rs type="person"
-                                ref="#12254">Robert Michel</rs> und dem Paar <rs type="person"
-                                ref="#9881">Franz Xaver Setzer</rs> und <rs type="person"
-                                ref="#11423">Alfred Gerasch</rs> finden sich keine Spuren davon,
-                            dass die sexuelle Orientierung irgendwie störte.</p></footNote> Im Feld
-                    der Frauenemanzipationsbewegungen hatte er keine Bedeutung und bildete keinen
-                            Bezugspunkt.<footNote><p>Eine personelle Verbindungslinie kann mit <rs
-                                type="person" ref="#3784">Lotte Glas/Pohl</rs> hergestellt werden,
-                            die in seinem <rs type="work" ref="#33243">Tagebuch</rs> mehrfach
-                            Erwähnung findet und von der er für »Therese Golowski« in <rs
-                                type="work" ref="#29923">Der Weg ins Freie</rs> Züge
-                        entlehnte.</p></footNote> Fasst man seine öffentlichen Positionierungen zu
-                    »Frauenfrage«, »Frauenwahlrecht« oder zu Themen der Identitäts- und
-                    Genderpolitik zusammen, so scheint dies für ihn durch den Satz »<quote>Es gibt
-                        kein Geschlecht in der Welt des Geistes</quote>«<space unit="chars"
-                        quantity="1"/><ref type="pointer" target="#I072_L_geschlecht"/> erledigt zu
-                    sein. Dabei wurde ihm vom Feuilleton mehrfach die Rolle als Sprachrohr von
-                    Frauen (in ihrer sexistischen Verallgemeinerung »die Frau« <ref
+                        type="pointer"/>.<note type="footnote"><p>Im privaten Bereich dürfte
+                            Homosexualität für ihn unproblematisch gewesen sein. Den deutlichsten
+                            Hinweis gibt seine Freundschaft mit <rs type="person" ref="#10986">Otto
+                                Brahm</rs>, der seine homosexuellen Neigungen lebte; <ref
+                                type="schnitzlerDiary" subtype="cf" target="1925-12-11"/>. Auch im
+                            Umgang mit <rs type="person" ref="#10765">Leopold Andrian</rs>, <rs
+                                type="person" ref="#12254">Robert Michel</rs> und dem Paar <rs
+                                type="person" ref="#9881">Franz Xaver Setzer</rs> und <rs
+                                type="person" ref="#11423">Alfred Gerasch</rs> finden sich keine
+                            Spuren davon, dass die sexuelle Orientierung irgendwie
+                        störte.</p></note> Im Feld der Frauenemanzipationsbewegungen hatte er keine
+                    Bedeutung und bildete keinen Bezugspunkt.<note type="footnote"><p>Eine
+                            personelle Verbindungslinie kann mit <rs type="person" ref="#3784">Lotte
+                                Glas/Pohl</rs> hergestellt werden, die in seinem <rs type="work"
+                                ref="#33243">Tagebuch</rs> mehrfach Erwähnung findet und von der er
+                            für »Therese Golowski« in <rs type="work" ref="#29923">Der Weg ins
+                                Freie</rs> Züge entlehnte.</p></note> Fasst man seine öffentlichen
+                    Positionierungen zu »Frauenfrage«, »Frauenwahlrecht« oder zu Themen der
+                    Identitäts- und Genderpolitik zusammen, so scheint dies für ihn durch den Satz
+                        »<quote>Es gibt kein Geschlecht in der Welt des Geistes</quote>«<space
+                        unit="chars" quantity="1"/><ref type="pointer" target="#I072_L_geschlecht"/>
+                    erledigt zu sein. Dabei wurde ihm vom Feuilleton mehrfach die Rolle als
+                    Sprachrohr von Frauen (in ihrer sexistischen Verallgemeinerung »die Frau« <ref
                         target="#I096_L_frauen" type="pointer"/>) angetragen <ref type="pointer"
                         target="#I072_L_frauen"/>. Der Aufhänger ist stets, ihn als »Dichter der
                     Liebe« <ref type="pointer" target="#I179_L_liebe"/>, <ref type="pointer"
@@ -843,6 +861,8 @@
                     gering blieb. Durch die Modulierung seiner Aussage je nach Herkunft des
                     Gegenübers zeigt er sich an den Abstandsreglern spielend, die gelegentlich
                     durchaus mehr Intimität zulassen als gewöhnlich.</p>
+            </div>
+            <div>
                 <head type="sub">Worüber nicht gesprochen wird</head>
                 <p>Zur Tagespolitik nimmt <rs type="person" ref="#2121">Schnitzler</rs> öffentlich
                     weitgehend keine Stellung. Privat tat er das durchaus, es geht also um den
@@ -851,68 +871,69 @@
                             >Fin-de-Siècle Vienna. Politics and Culture</title></bibl>
                         (<date>1961</date>) die Bürgersöhne, aus denen Jung-Wien gebildet wurde, als
                     apolitisch sah, die sich in Dandytum und Ästhetizismus flohen. Das wurde
-                    mehrfach revidiert und widerlegt,<footNote><p><bibl>Vgl. Dagmar Lorenz: <title
-                                    level="m">Wiener Moderne</title>. 2., aktualisierte und
-                                überarbeitete Auflage. Stuttgart, Weimar: <publisher>J.&#8239;B.
+                    mehrfach revidiert und widerlegt,<note type="footnote"><p><bibl>Vgl. Dagmar
+                                Lorenz: <title level="m">Wiener Moderne</title>. 2., aktualisierte
+                                und überarbeitete Auflage. Stuttgart, Weimar: <publisher>J.&#8239;B.
                                     Metzler</publisher><space unit="chars" quantity="1"
-                                    /><date>2007</date>, S.&#8239;6–8.</bibl></p></footNote> es kann
-                    vor allem nicht als Aussage über ein ganzes Schaffensleben gelegt werden. Gerade
-                    der erste Weltkrieg führte dazu, dass viele von <rs type="person" ref="#2121"
+                                    /><date>2007</date>, S.&#8239;6–8.</bibl></p></note> es kann vor
+                    allem nicht als Aussage über ein ganzes Schaffensleben gelegt werden. Gerade der
+                    erste Weltkrieg führte dazu, dass viele von <rs type="person" ref="#2121"
                         >Schnitzler</rs>s Weggefährten sich durch politische Propagandatätigkeit und
-                    Euphorie hervortaten.<footNote><p><bibl>Vgl. das 3. Kapitel (»Kriegsbeginn und
-                                Habsburgs Ende. Von der Militarisierung zur Demobilisierung der
-                                Literatur (1914–1924)« in: Barbara Beßlich: <title level="m">Das
-                                    Junge Wien im Alter. Spätwerke (neben) der Moderne
-                                    (1905–1938)</title>. Wien, Köln, Weimar:
+                    Euphorie hervortaten.<note type="footnote"><p><bibl>Vgl. das 3. Kapitel
+                                (»Kriegsbeginn und Habsburgs Ende. Von der Militarisierung zur
+                                Demobilisierung der Literatur (1914–1924)« in: Barbara Beßlich:
+                                    <title level="m">Das Junge Wien im Alter. Spätwerke (neben) der
+                                    Moderne (1905–1938)</title>. Wien, Köln, Weimar:
                                     <publisher>Böhlau</publisher><space unit="chars" quantity="1"
-                                    /><date>2021</date>, S.&#8239;109–166</bibl>.</p></footNote>
+                                    /><date>2021</date>, S.&#8239;109–166</bibl>.</p></note>
                 </p>
                 <p>Die Forschung hat sich mehrfach mit der Frage seines Schweigens während des
-                    Weltkrieges auseinandergesetzt.<footNote><p>Zuletzt: <bibl>Olga García: <title
-                                    level="a">»Wer etwas zu sagen hat, trete vor und schweige«. Das
-                                    pazifistische Schweigen Arthur Schnitzlers</title>. In: <title
-                                    level="m">Retornos / Rückkehr. La Primera Guerra Mundial en el
-                                    contexto hispano-alemán. Der erste Weltkrieg im
-                                    deutsch-spanischen Kontext</title>. Hg. Heidi Grünewald
-                                u.&#8239;a. Osnabrück: <publisher>V <c rendition="#kaufmannsund"/> R
-                                    unipress</publisher><space unit="chars" quantity="1"
-                                    /><date>2015</date>, S.&#8239;135–144.</bibl> und
-                                <bibl>Aleksandr V. Belobratov: <title level="a">Arthur Schnitzler
-                                    und Alexander Kuprin. Schweigen und Sprechen im Krieg</title>.
-                                In: <title level="m">Frieden und Krieg im mitteleuropäischen Raum:
-                                    historisches Gedächtnis und literarische Reflexion</title>. Hg.
-                                Milan Tvrdík und Harald Haslmayr. Wien: <publisher> new academic
-                                    press</publisher><space unit="chars" quantity="1"
-                                    /><date>2017</date>, S.&#8239;199-210</bibl>.</p></footNote>
-                    Auch <rs type="person" ref="#11988">Karl Kraus</rs> fand Lobesworte für <rs
-                        type="person" ref="#2121">Schnitzler</rs>: <quote type="poem">»Sein Wort vom Sterben wog
+                    Weltkrieges auseinandergesetzt.<note type="footnote"><p>Zuletzt: <bibl>Olga
+                                García: <title level="a">»Wer etwas zu sagen hat, trete vor und
+                                    schweige«. Das pazifistische Schweigen Arthur
+                                    Schnitzlers</title>. In: <title level="m">Retornos / Rückkehr.
+                                    La Primera Guerra Mundial en el contexto hispano-alemán. Der
+                                    erste Weltkrieg im deutsch-spanischen Kontext</title>. Hg. Heidi
+                                Grünewald u.&#8239;a. Osnabrück: <publisher>V <c
+                                        rendition="#kaufmannsund"/> R unipress</publisher><space
+                                    unit="chars" quantity="1"/><date>2015</date>,
+                                S.&#8239;135–144.</bibl> und <bibl>Aleksandr V. Belobratov: <title
+                                    level="a">Arthur Schnitzler und Alexander Kuprin. Schweigen und
+                                    Sprechen im Krieg</title>. In: <title level="m">Frieden und
+                                    Krieg im mitteleuropäischen Raum: historisches Gedächtnis und
+                                    literarische Reflexion</title>. Hg. Milan Tvrdík und Harald
+                                Haslmayr. Wien: <publisher> new academic press</publisher><space
+                                    unit="chars" quantity="1"/><date>2017</date>,
+                                S.&#8239;199-210</bibl>.</p></note> Auch <rs type="person"
+                        ref="#11988">Karl Kraus</rs> fand Lobesworte für <rs type="person"
+                        ref="#2121">Schnitzler</rs>: <quote type="poem">»Sein Wort vom Sterben wog
                         nicht schwer,<lb/>Doch wo viel Freinde, ist viel Ehr:<lb/>er hat in
-                        Schlachten und Siegen<lb/>geschwiegen«.<footNote><p><bibl><rs type="person"
-                                        ref="#11988">Karl Kraus</rs>: <title level="m">Worte in
-                                        Versen. III</title>. Leipzig: <publisher>Verlag der
-                                        Schriften von Karl Kraus</publisher><space unit="chars"
+                        Schlachten und Siegen<lb/>geschwiegen«.<note type="footnote"><p><bibl><rs
+                                        type="person" ref="#11988">Karl Kraus</rs>: <title level="m"
+                                        >Worte in Versen. III</title>. Leipzig: <publisher>Verlag
+                                        der Schriften von Karl Kraus</publisher><space unit="chars"
                                         quantity="1"/><date>1918</date>, S.&#8239;28</bibl>. <rs
                                     type="person" ref="#11988">Kraus</rs> entschied sich ein paar
                                 Jahre später, anlässlich der Machtergreifung <rs type="person"
                                     ref="#11715">Hitlers</rs> und damit einer ähnlich
-                                allgemein-politischen Situation, zu
-                        schweigen.</p></footNote></quote> Dass <rs type="person" ref="#2121"
-                        >Schnitzler</rs> nicht an der Kriegseuphorie teilnahm, hatte soziale ebenso
-                    wie finanzielle Konsequenzen und war keinesfalls ›einfach‹. Indem er sich nicht
-                    für aufmunternde Reden und Durchhalteparolen eignete, entzog er sich auf einer
-                    symbolischen Ebene wissentlich dem Zeitgeschmack. Dieses Schweigen und damit
-                    einhergehend den Verzicht auf den Kontakt zur allgemeinen Stimmung, findet einen
-                    Ausdruck darin, dass wenige der hier vorgelegten Dokumente die Zeit des »großen
-                    Krieges« behandeln. Die zwei wichtigsten Beiträge sind Proteste, in denen er
-                    sich gegen Behauptungen wehrt, die ihm fälschlich unterstellt wurden <ref
-                        type="pointer" target="#P080"/>, <ref type="pointer" target="#P111"/>. Zwei
-                    weitere, die vor dem Krieg und an seinem Ende stehen, sind in ihrem Kontrast
-                    bemerkenswert. <date>1910</date> scheint sein Name auf einem Aufruf zur
-                    Abrüstung der Worte im Umgang <rs type="place" ref="#41240">Österreichs</rs> mit
-                        <rs type="place" ref="#40306">Italien</rs> auf <ref target="#M120"
-                        type="pointer"/>. Er tritt – auch das eine politische Position – als unbedingter Pazifist in Erscheinung. Am Ende
-                    des Krieges steht im <date>November 1918</date> sein Name auf einem Plakat, in
-                    dem die Bürger von <rs type="person" ref="#2121">Schnitzler</rs>s Wohnbezirk
+                                allgemein-politischen Situation, zu schweigen.</p></note></quote>
+                    Dass <rs type="person" ref="#2121">Schnitzler</rs> nicht an der Kriegseuphorie
+                    teilnahm, hatte soziale ebenso wie finanzielle Konsequenzen und war keinesfalls
+                    ›einfach‹. Indem er sich nicht für aufmunternde Reden und Durchhalteparolen
+                    eignete, entzog er sich auf einer symbolischen Ebene wissentlich dem
+                    Zeitgeschmack. Dieses Schweigen und damit einhergehend den Verzicht auf den
+                    Kontakt zur allgemeinen Stimmung, findet einen Ausdruck darin, dass wenige der
+                    hier vorgelegten Dokumente die Zeit des »großen Krieges« behandeln. Die zwei
+                    wichtigsten Beiträge sind Proteste, in denen er sich gegen Behauptungen wehrt,
+                    die ihm fälschlich unterstellt wurden <ref type="pointer" target="#P080"/>, <ref
+                        type="pointer" target="#P111"/>. Zwei weitere, die vor dem Krieg und an
+                    seinem Ende stehen, sind in ihrem Kontrast bemerkenswert. <date>1910</date>
+                    scheint sein Name auf einem Aufruf zur Abrüstung der Worte im Umgang <rs
+                        type="place" ref="#41240">Österreichs</rs> mit <rs type="place" ref="#40306"
+                        >Italien</rs> auf <ref target="#M120" type="pointer"/>. Er tritt – auch das
+                    eine politische Position – als unbedingter Pazifist in Erscheinung. Am Ende des
+                    Krieges steht im <date>November 1918</date> sein Name auf einem Plakat, in dem
+                    die Bürger von <rs type="person" ref="#2121">Schnitzler</rs>s Wohnbezirk
                     angesprochen werden, sich einer Bürgerwehr anzuschließen. <rs type="person"
                         ref="#2121">Schnitzler</rs>s Name findet sich hier neben dem des Antisemiten
                     und <rs type="person" ref="#3561">Lueger</rs>-Parteigängers <rs type="person"
@@ -937,20 +958,23 @@
                     Sanitätssoldaten endete. In der Sache war sich der Autor des <rs type="work"
                         ref="#29853">Lieutenant Gustl</rs> sicher, wie er <rs type="person"
                         ref="#10815">Bahr</rs> schrieb: »<quote>Über die Sache selbst ist ja kaum
-                        was zu sagen – selten lag ein Fall klarer zu Tage.</quote>«<footNote><p><rs
-                                type="person" ref="#2121">Schnitzler</rs> an <rs type="person"
-                                ref="#10815">Bahr</rs>, <date>26.&#160;6.&#160;1901</date>,
-                                    <bibl><title level="m">Briefwechsel</title> Bahr/Schnitzler,
-                                S.&#8239;211</bibl></p></footNote> Die Strategie, den Aufforderungen
-                    zur Stellungnahme vor dem Militärgericht nicht nachzukommen, entstand durch eine
+                        was zu sagen – selten lag ein Fall klarer zu Tage.</quote>«<note
+                        type="footnote"><p><rs type="person" ref="#2121">Schnitzler</rs> an <rs
+                                type="person" ref="#10815">Bahr</rs>,
+                                <date>26.&#160;6.&#160;1901</date>, <bibl><title level="m"
+                                    >Briefwechsel</title> Bahr/Schnitzler,
+                        S.&#8239;211</bibl></p></note> Die Strategie, den Aufforderungen zur
+                    Stellungnahme vor dem Militärgericht nicht nachzukommen, entstand durch eine
                     Rechtsberatung durch den Juristen und ehemaligen Direktor des <rs type="org"
                         ref="#36247">Burgtheater</rs>s, <rs type="person" ref="#11036">Max
-                        Burckhard</rs>.<footNote><p><bibl>Ebd., S.&#8239;467</bibl></p></footNote>
-                    Es kann dieser Verzicht auf die Chance zur Rechtfertigung prägend für weitere
-                    Skandale gewesen sein oder es kann eine erste Situation gewesen sein, nach
-                    bestehenden Vorstellungen zu handeln. In jedem Fall zeigt er, dass <rs
-                        type="person" ref="#2121">Schnitzler</rs>s Eingriffe nicht impulsiv waren
-                    und strategischen und sachlichen Überlegungen folgten.</p>
+                        Burckhard</rs>.<note type="footnote"><p><bibl>Ebd.,
+                        S.&#8239;467</bibl></p></note> Es kann dieser Verzicht auf die Chance zur
+                    Rechtfertigung prägend für weitere Skandale gewesen sein oder es kann eine erste
+                    Situation gewesen sein, nach bestehenden Vorstellungen zu handeln. In jedem Fall
+                    zeigt er, dass <rs type="person" ref="#2121">Schnitzler</rs>s Eingriffe nicht
+                    impulsiv waren und strategischen und sachlichen Überlegungen folgten.</p>
+            </div>
+            <div>
                 <head type="sub">Die Ruhe zu bewahren fällt schwer</head>
                 <p>In seinem <rs type="work" ref="#33243">Tagebuch</rs> drückt er die Ambivalenz
                     seines Berühmtseins folgendermaßen aus: <quote>»Das Malheur ist – daß das
@@ -976,11 +1000,12 @@
                         >Schnitzler</rs> notwendig war, um ein solches Außenbild zu erwecken, wie es
                     prototypisch von <rs type="person" ref="#11527">Stefan Großmann</rs> beschrieben
                     wird. Dieser beginnt seine Schilderung mit einer Kinderfotografie <rs
-                        type="person" ref="#2121">Schnitzler</rs>s, die er einmal zu sehen bekam.<footNote>
+                        type="person" ref="#2121">Schnitzler</rs>s, die er einmal zu sehen
+                        bekam.<note type="footnote">
                         <p>Es dürfte sich um das Foto handeln, das im Bildarchiv der
                                     <bibl><publisher>Österreichischen
                                 Nationalbibliothek</publisher>, Signatur AS 1B</bibl>, aufbewahrt
-                            wird.</p></footNote> Er sah »<quote>einen sanftmütigen, lieben
+                            wird.</p></note> Er sah »<quote>einen sanftmütigen, lieben
                         Jungen</quote>« im Samtanzug: <quote>»[…] das war kein Junge, der mit
                         anderen Rangen sich auf der Straße herumbalgte, das war kein Bub, der je ein
                         Loch im Strumpf oder einen Fleck auf der Hose gehabt hat. Der Samtanzug
@@ -989,16 +1014,18 @@
                         der Samtanzug von <rs type="person" ref="#2121">Schnitzler</rs> untrennbar
                         geworden. Er hat nie die rauhen und rohen Konflikte gekannt, er ist nie
                         ordinär geworden, aber auch die große wilde Naturkraft hat nie aus ihm
-                                        gesprochen.«<footNote><p><bibl><rs type="work" ref="#65629"
+                            gesprochen.«<note type="footnote"><p><bibl><rs type="work" ref="#65629"
                                         >Schnitzler</rs>. In: <rs type="work" ref="#46493">Das
                                         Tage-Buch</rs>, Jg.&#160;2, H.&#160;13,
                                         <date>2.&#8239;4.&#8239;1921</date>, S.&#8239;402–404, hier
-                                    402</bibl>.</p></footNote></quote>
+                                    402</bibl>.</p></note></quote>
                 </p>
                 <figure>
                     <graphic url="./images/sechsjaehriger" width="4cm"/>
                     <caption>Schnitzler als Sechsjähriger</caption>
                 </figure>
+            </div>
+            <div>
                 <head type="sub">Öffentlicher Widerspruch</head>
                 <p>Umfänglicher als das Schweigen während des Krieges, das einzuhalten fordernd war,
                     dürfte zeitlebens der Umgang mit dem wachsenden Antisemitismus gewesen sein. Von
@@ -1017,21 +1044,22 @@
                         type="person" ref="#2121">Schnitzler</rs>s, <rs type="work" ref="#33005"
                         >Anti-semitism, a Healthy Influence</rs>, wird ihm die Behauptung
                     untergeschoben, der Antisemitismus würde erst dem Judentum zu seiner Identität
-                    verhelfen <ref type="pointer" target="#I032"/>.<footNote><p><anchor type="label"
-                                xml:id="fnriedmannh"/>Von Bettina Riedmann stammt die bislang
-                            wichtigste Auswertung von Interviews mit <rs type="person" ref="#2121"
-                                >Schnitzler</rs> im Zuge einer Forschungsarbeit. Sie behandelt
-                            ausführlich die falschen Aussagen in diesem Interview. Ihr unterläuft
-                            aber der Fehler, den italienischsprachigen Nachdruck als eigenes
-                            Interview zu rezipieren. (<bibl>Bettina Riedmann: <title>»Ich bin Jude,
-                                    Österreicher, Deutscher«. Judentum in Arthur Schnitzlers
-                                    Tagebüchern und Briefen</title>. Tübingen: <publisher>Max
-                                    Niemeyer</publisher> 2002 (<title level="s">Conditio
-                                    judaica</title> 36), S.&#8239;395–408</bibl>.)</p></footNote>
-                    Hingegen hat <rs type="person" ref="#2121">Schnitzler</rs> ein Protestschreiben
-                    verfasst, das gar nicht auf die falschen Aussagen eingeht, sondern eine
-                    allgemeine Klarstellung unternimmt: Er gebe keine Interviews, Genuines von ihm
-                    gebe es nur, wenn er seinen Namen darunter setze.</p>
+                    verhelfen <ref type="pointer" target="#I032"/>.<note type="footnote"><p><anchor
+                                type="label" xml:id="fnriedmannh"/>Von Bettina Riedmann stammt die
+                            bislang wichtigste Auswertung von Interviews mit <rs type="person"
+                                ref="#2121">Schnitzler</rs> im Zuge einer Forschungsarbeit. Sie
+                            behandelt ausführlich die falschen Aussagen in diesem Interview. Ihr
+                            unterläuft aber der Fehler, den italienischsprachigen Nachdruck als
+                            eigenes Interview zu rezipieren. (<bibl>Bettina Riedmann: <title>»Ich
+                                    bin Jude, Österreicher, Deutscher«. Judentum in Arthur
+                                    Schnitzlers Tagebüchern und Briefen</title>. Tübingen:
+                                    <publisher>Max Niemeyer</publisher> 2002 (<title level="s"
+                                    >Conditio judaica</title> 36),
+                        S.&#8239;395–408</bibl>.)</p></note> Hingegen hat <rs type="person"
+                        ref="#2121">Schnitzler</rs> ein Protestschreiben verfasst, das gar nicht auf
+                    die falschen Aussagen eingeht, sondern eine allgemeine Klarstellung unternimmt:
+                    Er gebe keine Interviews, Genuines von ihm gebe es nur, wenn er seinen Namen
+                    darunter setze.</p>
                 <p>An seinen Leserbriefen lässt sich erkennen, wann er es für wert hält, sich
                     öffentlich zu distanzieren. Das erste nachweisbare Protestschreiben entstand
                     just wegen eines Interviews, das <rs type="person" ref="#2121">Schnitzler</rs>
@@ -1049,15 +1077,15 @@
                         Einspruch erhob</quote>«. Der betreffende Bericht erschien am
                         <date>17.&#8239;5.&#8239;1888</date> und listete <rs type="person"
                         ref="#2121">Schnitzler</rs>s Namen neben dem anderer Journalisten, nicht
-                    aber <rs type="person" ref="#23566">Rosenbergs</rs>.<footNote><p><bibl><rs
-                                    type="work" ref="#88691">Die Post</rs>, Jg.&#8239;23,
-                                Nr.&#8239;134, <date>17.&#8239;5.&#8239;1888</date>,
+                    aber <rs type="person" ref="#23566">Rosenbergs</rs>.<note type="footnote"
+                                    ><p><bibl><rs type="work" ref="#88691">Die Post</rs>,
+                                Jg.&#8239;23, Nr.&#8239;134, <date>17.&#8239;5.&#8239;1888</date>,
                                 S.&#8239;2</bibl>. Im Brief <rs type="person" ref="#23566"
                                 >Rosenberg</rs>s an <rs type="person" ref="#2121">Schnitzler</rs>
                             vom selben Tag ist es dieser, der <rs type="person" ref="#2121"
                                 >Schnitzler</rs> zum Verfassen eines Protestes auffordert.
                                     (<bibl><publisher>DLA</publisher>,
-                        HS.1985.1.04321</bibl>)</p></footNote> Das als Reaktion abgefasste
+                        HS.1985.1.04321</bibl>)</p></note> Das als Reaktion abgefasste
                     Protestschreiben konnte nicht nachgewiesen werden und dürfte nicht abgedruckt
                     worden sein.</p>
                 <p>Wenn <rs type="person" ref="#2121">Schnitzler</rs> protestiert, ist eine
@@ -1083,26 +1111,26 @@
                         >Äußerung für<space unit="chars" quantity="1"/><rs type="person"
                             ref="#12961">Toller</rs></hi> wahrnehmbar ist. Auch <rs type="person"
                         ref="#10863">Richard Beer-Hofmann</rs> lässt einen inhaltlich vergleichbaren
-                    Widerspruch einrücken, doch ist dieser in seinem Anliegen
-                                    klarer.<footNote><p><bibl><rs type="work" ref="#33155">Der
-                                    Protest aus Wien gegen Tollers Hinrichtung</rs>. In: <rs
-                                    type="work" ref="#36374">Neue Freie Presse</rs>,
-                                Nr.&#160;19.685, <date>14.&#160;6.&#160;1919</date>,
-                                S.&#8239;5</bibl>.</p></footNote><space unit="chars" quantity="1"/>
+                    Widerspruch einrücken, doch ist dieser in seinem Anliegen klarer.<note
+                        type="footnote"><p><bibl><rs type="work" ref="#33155">Der Protest aus Wien
+                                    gegen Tollers Hinrichtung</rs>. In: <rs type="work" ref="#36374"
+                                    >Neue Freie Presse</rs>, Nr.&#160;19.685,
+                                    <date>14.&#160;6.&#160;1919</date>,
+                        S.&#8239;5</bibl>.</p></note><space unit="chars" quantity="1"/>
                     <rs type="person" ref="#10815">Bahr</rs>s Reaktion geht ebenfalls zur
                     allgemeinen Aussage über, verknüpft diese aber elegant mit der Tatsache, dass er
-                                nachträglich<footNote><p><bibl>Ebd.</bibl></p></footNote> doch noch
+                        nachträglich<note type="footnote"><p><bibl>Ebd.</bibl></p></note> doch noch
                     gefragt worden war:</p>
                 <p rend="inline">
                     <quote>»[…] ich bin eher gekränkt, daß man mich erst gefragt hat, daß man mich
                         überhaupt zu fragen erst für nötig hielt. Und ich ermächtige hiemit ein für
                         allemal jedermann, hinfort meinen Namen, ohne mich erst lange zu fragen,
                         unter jeden Protest gegen jeden Mord zu setzen, wem immer auch dieser Mord
-                        gilt […]«<footNote><p><bibl><rs type="work" ref="#64048">Tagebuch.
-                                        15.&#160;Juni</rs>. In: <rs type="work" ref="#36376">Neues
-                                        Wiener Journal</rs>, Jg.&#160;27, Nr.&#160;9.222,
-                                        <date>6.&#160;7.&#160;1919</date>,
-                            S.&#8239;6</bibl>.</p></footNote></quote>
+                        gilt […]«<note type="footnote"><p><bibl><rs type="work" ref="#64048"
+                                        >Tagebuch. 15.&#160;Juni</rs>. In: <rs type="work"
+                                        ref="#36376">Neues Wiener Journal</rs>, Jg.&#160;27,
+                                    Nr.&#160;9.222, <date>6.&#160;7.&#160;1919</date>,
+                                    S.&#8239;6</bibl>.</p></note></quote>
                 </p>
                 <p>Die Idee eines »Berichtigungsbureaus«, die <rs type="person" ref="#2121"
                         >Schnitzler</rs> am <ref target="1907-01-13" type="schnitzlerDiary"
@@ -1114,13 +1142,14 @@
                     die Zugänge, wie sehr sie Privates zur Verfügung stellen: <rs type="person"
                         ref="#11988">Kraus</rs> fast gar nicht, <rs type="person" ref="#2121"
                         >Schnitzler</rs>, der den Bedarf der Nachwelt an biografischen Dokumenten
-                    propagiert, speist die gegenwärtigen Wünsche in einer allgemeinen Form ab.<footNote><p>Welches
-                        Verständnis von Autorschaft diese Anerkennung von biografischen Zeugnissen
-                        für die Nachwelt bedeutet, wäre genauer zu untersuchen. Als These geäußert sei
-                    die Gleichbehandlung mit Vorbildern des Literaturkanons.</p></footNote> Seine
-                    eigene Familie ist weitgehend tabu, es »<quote>genügt wohl zu erwähnen, dass
-                        mein <rs type="person" ref="#12692" subtype="implied">Sohn</rs> Schauspieler
-                        in <rs type="place" ref="#168">Berlin</rs> und meine <rs type="person"
+                    propagiert, speist die gegenwärtigen Wünsche in einer allgemeinen Form ab.<note
+                        type="footnote"><p>Welches Verständnis von Autorschaft diese Anerkennung von
+                            biografischen Zeugnissen für die Nachwelt bedeutet, wäre genauer zu
+                            untersuchen. Als These geäußert sei die Gleichbehandlung mit Vorbildern
+                            des Literaturkanons.</p></note> Seine eigene Familie ist weitgehend
+                    tabu, es »<quote>genügt wohl zu erwähnen, dass mein <rs type="person"
+                            ref="#12692" subtype="implied">Sohn</rs> Schauspieler in <rs
+                            type="place" ref="#168">Berlin</rs> und meine <rs type="person"
                             ref="#2238" subtype="implied">Tochter</rs> in <rs type="place"
                             ref="#40306">Italien</rs> verheiratet ist.</quote>« <ref type="pointer"
                         target="#I072_L_genuegtWohl"/> Als <rs type="person" ref="#3109">Kurt
@@ -1140,17 +1169,19 @@
                     seinem kleinen <rs type="person" ref="#12692" subtype="implied">Sohn</rs>
                     spazieren geht und freundschaftlich plaudert <ref target="#K_I020-2"
                         type="pointer"/>.</p>
+            </div>
+            <div>
                 <head>Werkstattgespräch ohne Werk</head>
-                <p>Während Zugang zum Privatleben weitgehend der Nachwelt vorbehalten bleibt, wird zumindest die
-                    Wohnsituation inszeniert und präsentiert. Dabei geht es nicht nur darum, dem
-                    Zeitungspublikum Intimität vorzugaukeln. Psychologisch lässt sich die zunehmende
-                    Suche nach dem Intimen als Antwort auf die wachsende Öffentlichkeit, die
-                    zunehmend wahrnehmbare Distanz zwischen den Dingen beschreiben Es geht auch
+                <p>Während Zugang zum Privatleben weitgehend der Nachwelt vorbehalten bleibt, wird
+                    zumindest die Wohnsituation inszeniert und präsentiert. Dabei geht es nicht nur
+                    darum, dem Zeitungspublikum Intimität vorzugaukeln. Psychologisch lässt sich die
+                    zunehmende Suche nach dem Intimen als Antwort auf die wachsende Öffentlichkeit,
+                    die zunehmend wahrnehmbare Distanz zwischen den Dingen beschreiben Es geht auch
                     darum, dass das Private und Enge als Ort inszeniert wird, an dem Wahrheit und
-                    Authentizität vorherrschen.<footNote><p><bibl>Rebbecca Roach: <title level="m"
-                                    >Literature and the Rise of the Interview</title>, wie Anm. <ref
-                                    target="#fnroach" type="footnotemarkpointer"/>,
-                                S.&#8239;16.</bibl></p></footNote></p>
+                    Authentizität vorherrschen.<note type="footnote"><p><bibl>Rebbecca Roach: <title
+                                    level="m">Literature and the Rise of the Interview</title>, wie
+                                Anm. <ref target="#fnroach" type="footnotemarkpointer"/>,
+                                S.&#8239;16.</bibl></p></note></p>
                 <p>Das Interview präsentiert sich in dieser Bewegung als die Gattung der Moderne,
                     die verspricht, das Lesepublikum zum stillen Zeugen eines Gesprächs machen zu
                     können. Mit der <hi rend="italics">home story</hi> wird das Interieur zum
@@ -1170,29 +1201,29 @@
                     sich die Eltern trauen. Die Familie bezog eine gemeinsame Wohnung in einem
                     Neubau in der <rs type="place" ref="#133">Spöttelgasse&#8239;7</rs> (seit
                         <date>1918</date><space unit="chars" quantity="1"/><rs type="place"
-                        ref="#133">Edmund-Weiß-Gasse</rs>).<footNote><p>Die genaue Wohnung <rs
-                                type="person" ref="#2121">Schnitzler</rs>s lässt sich ermitteln,
-                            indem man eine Fotografie (<bibl><publisher>Österreichische
+                        ref="#133">Edmund-Weiß-Gasse</rs>).<note type="footnote"><p>Die genaue
+                            Wohnung <rs type="person" ref="#2121">Schnitzler</rs>s lässt sich
+                            ermitteln, indem man eine Fotografie (<bibl><publisher>Österreichische
                                     Nationalbibliothek, Bildarchiv</publisher>,
                                 AS&#8239;104&#8239;B</bibl>), das einen der Balkone auf der linken
                             Fassadenseite zeigt, mit folgender Textstelle in Verbindung bringt: <ref
-                                type="pointer" target="#K_I102-1"/>.</p></footNote> Diese Wohnung
-                    ist fotografisch und anderweitig schlecht dokumentiert, weswegen die Interviews
-                    bedeutsame Hinweise geben.<footNote><p>Zum Interieur in <rs type="person"
-                                ref="#2121">Schnitzler</rs>s Wohnstätten siehe Julia Ilgners und
-                            meinen Beitrag: <bibl><title level="a">»My house is my Nachtkastl«. Ein
-                                    chronologisches Inventar der Kunstobjekte Arthur
-                                    Schnitzlers</title>. In: <title level="m">Arthur Schnitzler und
-                                    die bildende Kunst</title>. Hg. Achim Aurnhammer und Dieter
-                                Martin. Würzburg: <publisher>Ergon</publisher><space unit="chars"
-                                    quantity="1"/><date>2021</date>, S.&#8239;95–151 (<title
-                                    level="s">Akten des Arthur Schnitzler-Archivs der Universität
-                                    Freiburg</title>, 7)</bibl>.</p></footNote></p>
+                                type="pointer" target="#K_I102-1"/>.</p></note> Diese Wohnung ist
+                    fotografisch und anderweitig schlecht dokumentiert, weswegen die Interviews
+                    bedeutsame Hinweise geben.<note type="footnote"><p>Zum Interieur in <rs
+                                type="person" ref="#2121">Schnitzler</rs>s Wohnstätten siehe Julia
+                            Ilgners und meinen Beitrag: <bibl><title level="a">»My house is my
+                                    Nachtkastl«. Ein chronologisches Inventar der Kunstobjekte
+                                    Arthur Schnitzlers</title>. In: <title level="m">Arthur
+                                    Schnitzler und die bildende Kunst</title>. Hg. Achim Aurnhammer
+                                und Dieter Martin. Würzburg: <publisher>Ergon</publisher><space
+                                    unit="chars" quantity="1"/><date>2021</date>, S.&#8239;95–151
+                                    (<title level="s">Akten des Arthur Schnitzler-Archivs der
+                                    Universität Freiburg</title>, 7)</bibl>.</p></note></p>
                 <p>Durch die Geburt von <rs type="person" ref="#2238">Lili</rs><space unit="chars"
                         quantity="1"/>am <date>13.&#8239;9.&#8239;1909</date> wurde der Platz in der
                     bisherigen Wohnung zu eng und nach ein wenig Suche kaufte die Familie <rs
                         type="person" ref="#2121 #2173">Schnitzler</rs> ein 400 Meter entferntes
-                                Haus.<footNote><p><bibl>Vgl. Gerhard Hubmann: <title level="a"
+                        Haus.<note type="footnote"><p><bibl>Vgl. Gerhard Hubmann: <title level="a"
                                     >»Schwankende häusliche Stimmung«. Mit Arthur Schnitzler beim
                                     Villenkauf</title>. In: <title level="m">»So schön kann
                                     Wissenschaft sein!« Mit Kronprinz Rudolf im Unterricht, mit
@@ -1201,14 +1232,14 @@
                                     Hamann.</title> Geöffnet und hg. von Marcel Atze unter Mitarbeit
                                 von Kyra Waldner. Wien: <publisher>Wienbibliothek</publisher><space
                                     unit="chars" quantity="1"/><date>2017</date>,
-                                S.&#8239;220–236</bibl>.</p></footNote> Die Villa in der <rs
+                                S.&#8239;220–236</bibl>.</p></note> Die Villa in der <rs
                         type="place" ref="#150">Sternwartestraße&#8239;71</rs> besaß schon von den
                     Vorbesitzern her eine (bis heute erhaltene) Bauernstube und wurde nun im
-                        »Alt-<rs type="place" ref="#50">Wien</rs>er Stil«
-                            eingerichtet.<footNote><p>Damit gemeint ist ein Wohnstil, der das
-                            historische <rs type="place" ref="#50">Wien</rs> vor den
-                            Stadterweiterungen, dem Schleifen der Basteien und vor dem
-                            Ringstraßenbau evozierte.</p></footNote></p>
+                        »Alt-<rs type="place" ref="#50">Wien</rs>er Stil« eingerichtet.<note
+                        type="footnote"><p>Damit gemeint ist ein Wohnstil, der das historische <rs
+                                type="place" ref="#50">Wien</rs> vor den Stadterweiterungen, dem
+                            Schleifen der Basteien und vor dem Ringstraßenbau
+                    evozierte.</p></note></p>
                 <p>Vergleicht man diese Wohnsituation mit den anderen Schriftstellern, mit denen er
                     in der Öffentlichkeit gerne in Verbindung gesehen wurde, fällt die
                     Sonderstellung auf: <rs type="person" ref="#10863">Beer-Hofmann</rs> und <rs
@@ -1235,21 +1266,20 @@
                         >Sternwartestraße&#160;71</rs> steht bis zu seinem Tod als seine Anschrift
                     im <rs type="place" ref="#50">Wien</rs>er Adressverzeichnis <rs type="work"
                         ref="#32580">Lehmann’s Allgemeiner Wohnungs-Anzeiger</rs>. Nur zum eigenen
-                    Telefonanschluss, der zum Jahresbeginn <date>1912</date> installiert
-                                    wurde,<footNote><p><bibl><ref target="1912-01-27"
-                                    type="schnitzlerDiary" subtype="Cf"
-                        >.</ref></bibl></p></footNote> legte er sich in den letzten Jahren eine
-                    Geheimnummer zu.<footNote><p><bibl>Vgl. <title level="m"
-                                    >schnitzler-briefe</title>, L02535 und
-                        L02543</bibl></p></footNote> Dass das nötig wurde, dazu mag das erste und
+                    Telefonanschluss, der zum Jahresbeginn <date>1912</date> installiert wurde,<note
+                        type="footnote"><p><bibl><ref target="1912-01-27" type="schnitzlerDiary"
+                                    subtype="Cf">.</ref></bibl></p></note> legte er sich in den
+                    letzten Jahren eine Geheimnummer zu.<note type="footnote"><p><bibl>Vgl. <title
+                                    level="m">schnitzler-briefe</title>, L02535 und
+                            L02543</bibl></p></note> Dass das nötig wurde, dazu mag das erste und
                     einzige Telefoninterview beigetragen haben, das mit ihm gemacht wurde <ref
                         type="pointer" target="#I065"/>. Denkt man an seine sonstige Zurückhaltung,
                     überrascht es, wie sehr das Haus zur Repräsentation diente. Er ließ eine
                     Fotografie von sich und seiner Familie auf der Gartenseite des Hauses aufnehmen
                     und als Postkarte herstellen. Diese benützte er bis zumindest <date>1918</date>
-                    für Nachrichten.<footNote><p><bibl>Vgl. Arthur Schnitzler an Richard
+                    für Nachrichten.<note type="footnote"><p><bibl>Vgl. Arthur Schnitzler an Richard
                                 Beer-Hofmann, <date>26.&#8239;8.&#8239;1918</date>, <title level="m"
-                                    >schnitzler-briefe</title>, L02301</bibl></p></footNote></p>
+                                    >schnitzler-briefe</title>, L02301</bibl></p></note></p>
                 <p>Abgesehen von wenigen im Garten geführten Gesprächen, nahmen die Reporterinnen
                     und Reporter in seinem Arbeitszimmer Platz. Dieser lag im ersten Stock. Im
                     Erdgeschoss hätte es noch einen Salon, im Untergeschoss besagte Bauernstube
@@ -1263,6 +1293,8 @@
                     das Verlangen, bei der Werkentstehung über die Schulter schauen zu können,
                     unbefriedigt. <rs type="person" ref="#2121">Schnitzler</rs> wahrte die Distanz
                     und ließ sich nicht beim Arbeiten zuschauen.</p>
+            </div>
+            <div>
                 <head type="sub">Die Gegenwart in Schach halten</head>
                 <p>Interviews sind in mehrfacher Hinsicht relevante Texte. Als Paratexte vermitteln
                     sie auktoriales Wissen über Werke, das sich nicht in diesen selbst findet.
@@ -1342,38 +1374,37 @@
                         <rs type="org" ref="#39399">Internationalen klinischen Rundschau</rs>. Das
                     machte ihn vertraut mit dem Tagesgeschäft von Lückenfüllern und Platzhaltern und
                     dürfte ihn auch praktisch gelehrt haben, dass nie ein leerer Platz bleiben
-                            durfte.<footNote><p>Vgl. <bibl><rs type="person" ref="#2121">Arthur
-                                    Schnitzler</rs>: <title level="m">Medizinische
-                                Schriften</title>. Hg. Horst Thomé. Wien, Darmstadt:
+                        durfte.<note type="footnote"><p>Vgl. <bibl><rs type="person" ref="#2121"
+                                    >Arthur Schnitzler</rs>: <title level="m">Medizinische
+                                    Schriften</title>. Hg. Horst Thomé. Wien, Darmstadt:
                                     <publisher>Zsolnay</publisher><space unit="chars" quantity="1"
-                                    /><date when="1988">1988</date></bibl>.</p></footNote> Nach dem
-                    Tod des Vaters und dem Beschluss, die Medizin an den Nagel zu hängen, gab es den
+                                    /><date when="1988">1988</date></bibl>.</p></note> Nach dem Tod
+                    des Vaters und dem Beschluss, die Medizin an den Nagel zu hängen, gab es den
                     Versuch, regelmäßig Buchrezensionen für die <rs type="org" ref="#29442"
-                        >Frankfurter Zeitung</rs> zu verfassen.<footNote><p>Vgl. die Briefe <rs
-                                type="person" ref="#11485">Paul Goldmann</rs>s an <rs type="person"
-                                ref="#2121">Schnitzler</rs> vom
+                        >Frankfurter Zeitung</rs> zu verfassen.<note type="footnote"><p>Vgl. die
+                            Briefe <rs type="person" ref="#11485">Paul Goldmann</rs>s an <rs
+                                type="person" ref="#2121">Schnitzler</rs> vom
                                 <date>21.&#8239;9.&#8239;[1894]</date> und
                                 <date>11.&#8239;11.&#8239;[1894]</date>, <bibl><title level="m"
-                                    >schnitzler-briefe</title>, </bibl>L02614 und
-                        L02620.</p></footNote> Doch dazu kam es nicht und so bleiben die
-                        <date>1891</date> während weniger Wochen veröffentlichten vier Besprechungen
-                    von literarischen Werken (<ref target="#M158_L_anfangv" type="pointer"/>) die
-                    einzigen zu Lebzeiten. An diesen lässt sich vor allem lernen – wie Konstanze
-                    Fliedl urteilte&#8239;–, »wie man es als Kritiker besser zu machen hätte«.
-                    Weitere im Nachlass überlieferte Aussagen berücksichtigend arbeitete sie heraus,
-                    welche impliziten ästhetischen Überlegungen in <rs type="person" ref="#2121"
-                        >Schnitzler</rs>s Literaturkritik kenntlich
-                                werden.<footNote><p><bibl>Konstanze Fliedl: <title level="a">»Der
-                                    von mir doch gewiß sehr geschätzte Autor«. Arthur Schnitzler als
-                                    Kritiker</title>. In: <title level="j">Studia austriaca</title>,
-                                Jg.&#8239;1, <date>1992</date>, S.&#8239;89–105, hier
-                                S.&#8239;90</bibl>. Für die Öffentlichkeit hielt sich <rs
-                                type="person" ref="#2121">Schnitzler</rs> von der tagesaktuellen
-                            Tätigkeit fern. Der vermutlich einzige Hinweis zu Lebzeiten zu den
-                            Literaturrezensionen findet sich in einer Gratulation <rs type="person"
-                                ref="#10815">Bahr</rs>s zum 60. Geburtstag, vgl. <bibl><title
-                                    level="m">Briefwechsel</title> Bahr/Schnitzler,
-                                S.&#8239;553</bibl>.</p></footNote><space unit="chars" quantity="1"/>
+                                    >schnitzler-briefe</title>, </bibl>L02614 und L02620.</p></note>
+                    Doch dazu kam es nicht und so bleiben die <date>1891</date> während weniger
+                    Wochen veröffentlichten vier Besprechungen von literarischen Werken (<ref
+                        target="#M158_L_anfangv" type="pointer"/>) die einzigen zu Lebzeiten. An
+                    diesen lässt sich vor allem lernen – wie Konstanze Fliedl urteilte&#8239;–, »wie
+                    man es als Kritiker besser zu machen hätte«. Weitere im Nachlass überlieferte
+                    Aussagen berücksichtigend arbeitete sie heraus, welche impliziten ästhetischen
+                    Überlegungen in <rs type="person" ref="#2121">Schnitzler</rs>s Literaturkritik
+                    kenntlich werden.<note type="footnote"><p><bibl>Konstanze Fliedl: <title
+                                    level="a">»Der von mir doch gewiß sehr geschätzte Autor«. Arthur
+                                    Schnitzler als Kritiker</title>. In: <title level="j">Studia
+                                    austriaca</title>, Jg.&#8239;1, <date>1992</date>,
+                                S.&#8239;89–105, hier S.&#8239;90</bibl>. Für die Öffentlichkeit
+                            hielt sich <rs type="person" ref="#2121">Schnitzler</rs> von der
+                            tagesaktuellen Tätigkeit fern. Der vermutlich einzige Hinweis zu
+                            Lebzeiten zu den Literaturrezensionen findet sich in einer Gratulation
+                                <rs type="person" ref="#10815">Bahr</rs>s zum 60. Geburtstag, vgl.
+                                    <bibl><title level="m">Briefwechsel</title> Bahr/Schnitzler,
+                                S.&#8239;553</bibl>.</p></note><space unit="chars" quantity="1"/>
                     <rs type="person" ref="#2121">Schnitzler</rs>s auf diese Weise entstandenen
                     Texte sind zurecht weitgehend zu vernachlässigen und die formalen Mittel, die er
                     bei seinen Gebrauchstexten benutzt, wirken repetetiv und formelhaft.</p>
@@ -1388,25 +1419,28 @@
                     Alleinstellungsmerkmal herstellt: Das ›Richtige‹ komme von ihm, das schreibe er
                     selbst, die anderen wären dazu nicht in der Lage <ref
                         target="#I016_geschriebenes" type="pointer"/>.</p>
+            </div>
+            <div>
                 <head type="sub">Die Öffnung zur Öffentlichkeit</head>
                 <p>Das Interview ist, was die Urheberschaft anbelangt, eine ambivalente Gattung.
                     Wenn Aussagen und Zitate von <rs type="person" ref="#2121">Schnitzler</rs> von
-                    einem Dritten wiedergegeben werden, wer ist dann der Urheber?<footNote><p>Auf
-                            dem Titelblatt der vorliegenden Edition steht <rs type="person"
-                                ref="#2121">Schnitzler</rs>s Name, das Problem von einem Extrem ins
-                            andere verschiebend.</p></footNote><space unit="chars" quantity="1"/><rs
-                        type="person" ref="#2121">Schnitzler</rs> hätte mit einem aufgeweichten
-                    Konzept von Autorschaft wenig anfangen können. Jener Bereich, bei dem er in den
-                    vorliegenden Interviews und Meinungen am engagiertesten wirkt, behandelt
-                    bezeichnenderweise das ›geistige Eigentum‹. Mehrfach bringt er den Vergleich, es
-                    müsse dem materiellen Eigentum gleichgestellt werden <ref type="pointer"
-                        target="#K_I044-6"/>, <ref type="pointer" target="#I071_L_K_Urheberrecht"/>.
-                    Das ist einerseits eine Positionierung gegenüber der Abschaffung jeglichen
-                    Eigentums (und klare Ablehnung des Kommunismus). Andererseits weist das
-                    vielleicht den statischen Besitz als die Essenz seines öffentlichen Auftrittes
-                    aus. In der Abgrenzung seiner Person, in der Inszenierung seines Eigenheims und
-                    in der Unveränderlichkeit seines Werks kann eine gemeinsame Statik des
-                    Beständigen und des Besitzes ausgemacht werden.</p>
+                    einem Dritten wiedergegeben werden, wer ist dann der Urheber?<note
+                        type="footnote"><p>Auf dem Titelblatt der vorliegenden Edition steht <rs
+                                type="person" ref="#2121">Schnitzler</rs>s Name, das Problem von
+                            einem Extrem ins andere verschiebend.</p></note><space unit="chars"
+                        quantity="1"/><rs type="person" ref="#2121">Schnitzler</rs> hätte mit einem
+                    aufgeweichten Konzept von Autorschaft wenig anfangen können. Jener Bereich, bei
+                    dem er in den vorliegenden Interviews und Meinungen am engagiertesten wirkt,
+                    behandelt bezeichnenderweise das ›geistige Eigentum‹. Mehrfach bringt er den
+                    Vergleich, es müsse dem materiellen Eigentum gleichgestellt werden <ref
+                        type="pointer" target="#K_I044-6"/>, <ref type="pointer"
+                        target="#I071_L_K_Urheberrecht"/>. Das ist einerseits eine Positionierung
+                    gegenüber der Abschaffung jeglichen Eigentums (und klare Ablehnung des
+                    Kommunismus). Andererseits weist das vielleicht den statischen Besitz als die
+                    Essenz seines öffentlichen Auftrittes aus. In der Abgrenzung seiner Person, in
+                    der Inszenierung seines Eigenheims und in der Unveränderlichkeit seines Werks
+                    kann eine gemeinsame Statik des Beständigen und des Besitzes ausgemacht
+                    werden.</p>
                 <p>Den in diesem Bereich im eigentlichen Sinne konservativen ästhetischen,
                     weltanschaulichen und praktischen Interessen <rs type="person" ref="#2121"
                         >Schnitzler</rs>s steht das Konzept einer Öffentlichkeit gegenüber, das
@@ -1468,10 +1502,10 @@
                     vertreten. Damit endet das Interesse nicht, der Nachdruck eines Interviews aus
                         <rs type="place" ref="#39944">Havanna</rs><space unit="chars" quantity="1"
                         /><ref type="pointer" target="#I070_B_L_Kuba"/> und eine abgelehnte Anfrage
-                    aus <rs type="place" ref="#604">Australien</rs><footNote><p><bibl><title
-                                    level="m">Briefe</title> II, S.&#8239;521.</bibl></p></footNote>
-                    belegen eindrücklich, dass er für Zeitungsredaktionen der ganzen westlichen
-                    Hemisphäre relevant war.</p>
+                    aus <rs type="place" ref="#604">Australien</rs><note type="footnote"
+                                    ><p><bibl><title level="m">Briefe</title> II,
+                                S.&#8239;521.</bibl></p></note> belegen eindrücklich, dass er für
+                    Zeitungsredaktionen der ganzen westlichen Hemisphäre relevant war.</p>
                 <p>
                     <space dim="vertical" quantity="1" unit="paragraphs"/>
                 </p>
@@ -1490,7 +1524,7 @@
                 <p>Die vorliegende Edition hätte ohne die Großtat der Veröffentlichung des <rs
                         type="work" ref="#33243">Tagebuchs</rs> nicht unternommen werden können,
                     insofern viele Texte nur durch die darin enthaltenen Hinweise gefunden werden
-                            konnten.<footNote><p>Die Forschung hat die Interviews weitgehend
+                        konnten.<note type="footnote"><p>Die Forschung hat die Interviews weitgehend
                             unberücksichtigt gelassen. Die bislang umfänglichste Zusammenstellung
                             sind vier Texte, die <date>1981</date> anlässlich einer Ausstellung der
                             Wiener Festwochen in <bibl><title level="m">A.&#160;S.
@@ -1501,8 +1535,8 @@
                             Dänemark und zum Judentum, wie Anm. <ref target="#fnriedmannh"
                                 type="footnotemarkpointer"/>. Als Vorabveröffentlichung erschienen
                             die ungarischsprachigen Interviews <date>2020</date> im
-                                <bibl>Hofmannsthal-Jahrbuch</bibl>.</p></footNote> Sie weist
-                    zugleich darüber hinaus, wenn die Innenperspektive <rs type="person" ref="#2121"
+                                <bibl>Hofmannsthal-Jahrbuch</bibl>.</p></note> Sie weist zugleich
+                    darüber hinaus, wenn die Innenperspektive <rs type="person" ref="#2121"
                         >Schnitzler</rs>s um den Dialog mit den Zeitgenossinnen und Zeitgenossen
                     erweitert wird. </p>
             </div>

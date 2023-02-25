@@ -1,9 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xml:id="E_textauswahl">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="E_textauswahl">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="s">Arthur Schnitzler: Interviews</title>
+                <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.«
+                    Interviews, Meinungen, Proteste (1891–1931)</title>
                 <title level="a">Zur Textauswahl</title>
                 <author>Müller, Martin Anton</author>
                 <editor>
@@ -27,6 +31,9 @@
             <seriesStmt>
                 <p>Machine-Readable Transcriptions of the Interviews of Arthur Schnitzler</p>
             </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
         </fileDesc>
         <profileDesc>
             <langUsage>
@@ -88,7 +95,7 @@
                 <p>
                     <list>
                         <item>Die medizinischen Schriften, da sie bereits gedruckt
-                                vorliegen.<footNote xml:id="e_textauswahl_medi">
+                                vorliegen.<note xml:id="e_textauswahl_medi" type="footnote">
                                 <p><bibl><rs type="person" ref="#2121">Arthur Schnitzler</rs>:
                                             <title level="m">Medizinische Schriften</title>. Hg.
                                         Horst Thomé. Wien, Darmstadt:
@@ -96,7 +103,7 @@
                                             quantity="1"/><date when="1988">1988</date></bibl>.
                                     Teilweise sind die Texte auch abgedruckt in <bibl><title
                                             level="m">Aspekte und Akzente</title></bibl>.</p>
-                            </footNote> Neuerlich ediert wird nur <rs type="work" ref="#30983">Der
+                            </note> Neuerlich ediert wird nur <rs type="work" ref="#30983">Der
                                 Fall Jacobsohn</rs><space unit="chars" quantity="1"/><ref
                                 type="pointer" target="#M057"/>, ein Text, der sich nicht an ein
                             medizinisches Fachpublikum, sondern aus der Sicht eines Mediziners an
@@ -104,7 +111,7 @@
                         <item><rs type="work" ref="#35757">Über die Physiologie des Schaffens</rs>.
                             Der zentrale Werkstatt-Text wurde seit seinem Erstdruck an Weihnachten
                             wenige Wochen nach seinem Tod mehrfach publiziert, erschien aber nicht
-                            zu Lebzeiten.<footNote xml:id="e_textauswahl_langen"><p>Demungeachtet
+                            zu Lebzeiten.<note xml:id="e_textauswahl_langen" type="footnote"><p>Demungeachtet
                                     lässt sich zumindest in ganz geringem Maße schon eine
                                     Verbreitung des Texts nachweisen. <rs type="person" ref="#2121"
                                         >Schnitzler</rs> hatte den Text <date>1903</date><space
@@ -120,20 +127,20 @@
                                     >Schnitzler</rs>s Text plagiierte. <rs type="person" ref="#2121"
                                         >Schnitzler</rs> war empört. (<bibl><publisher>DLA
                                             Marbach</publisher>,
-                                HS.1985.1.213</bibl>)</p></footNote></item>
-                        <item>Persönliche Erinnerungen an Schnitzler.<footNote
-                                xml:id="e_textauswahl_besuche"><p>Ebenfalls teilweise in
+                                HS.1985.1.213</bibl>)</p></note></item>
+                        <item>Persönliche Erinnerungen an Schnitzler.<note
+                                xml:id="e_textauswahl_besuche" type="footnote"><p>Ebenfalls teilweise in
                                             <bibl><title level="m">Aspekte und
-                                        Akzente</title>.</bibl>.</p></footNote></item>
+                                        Akzente</title>.</bibl>.</p></note></item>
                         <item>Schilderungen von Besuchen bei <rs type="person" ref="#2121"
-                                >Schnitzler</rs> in privaten Aufzeichnungen.<footNote
-                                xml:id="e_textauswahl_besuche"><p><bibl>Martin Anton Müller: <title
+                                >Schnitzler</rs> in privaten Aufzeichnungen.<note
+                                xml:id="e_textauswahl_besuche2" type="footnote"><p><bibl>Martin Anton Müller: <title
                                             level="a">Besuche bei Arthur Schnitzler. Private
                                             Aufzeichnungen von Albert Ehrenstein, Victor Klemperer
                                             und Robert Adam</title>. In: <title level="j"
                                             >Hofmannsthal-Jahrbuch. Zur europäischen
                                         Moderne</title>, Bd.&#160;27 (<date>2019</date>),
-                                        S.&#8239;131–163.</bibl></p></footNote></item>
+                                        S.&#8239;131–163.</bibl></p></note></item>
                         <item>Satirische Stilimitationen, die erkennbar nicht von <rs type="person"
                                 ref="#2121">Schnitzler</rs> verfasst sind.</item>
                         <item>Bei zu Lebzeiten veröffentlichten Briefen und Korrespondenzen werden
@@ -143,7 +150,7 @@
                                 type="person" ref="#12809">Adolf Sonnenthal</rs>, <rs type="person"
                                 ref="#11673">Theodor Herzl</rs> und <rs type="person" ref="#2147"
                                 >Peter Altenberg</rs>.</item>
-                        <item>Literaturwissenschaftliche Editionen von Briefen.<footNote>
+                        <item>Literaturwissenschaftliche Editionen von Briefen.<note type="footnote">
                                 <p>Das betrifft zwei Texte: <bibl><rs type="person" ref="#4412">Otto
                                             Schinnerer</rs>: <rs type="work" ref="#63183">Schnitzler
                                             and the Military Censorship. Unpublished
@@ -154,9 +161,9 @@
                                             ref="#63185">Unveröffentlichte Schnitzler-Briefe über
                                             die »Leutnant-Gustl«-Affäre. Eine Sensation vor dreißig
                                             Jahren</rs>. In: <rs type="work" ref="#36376">Neues
-                                            Wiener Journal</rs>, Jg.&#160;39, Nr. 13.624,
+                                            Wiener Journal</rs>, Jg.&#160;39, Nr. 13.624, <date>26.&#160;10.&#160;1931</date>,
                                         S.&#8239;4</bibl>.</p>
-                            </footNote></item>
+                            </note></item>
                     </list>
                 </p>
                 <p><?latex \noindent ?>Verzichtet wird zudem auf einfache Meldungen und
@@ -174,12 +181,12 @@
                     <list>
                         <item>Denkmal für <rs type="person" ref="#10772">Ludwig Anzengruber</rs>
                                 (<date>1899</date>), gezeichnet von über 150
-                                Kulturschaffenden<footNote xml:id="e_textauswahl_fnmahler"
+                                Kulturschaffenden<note xml:id="e_textauswahl_fnmahler" type="footnote"
                                             ><p><bibl><publisher>Wienbibliothek</publisher>,
-                                        Signatur E-287622.</bibl></p></footNote></item>
+                                        Signatur E-287622.</bibl></p></note></item>
                         <item><anchor type="label" xml:id="E_textauswahl_L_homosex"/>Petition, die
                             Strafbarkeit von Homosexualität aufzuheben (1899), über 600
-                                Unterzeichner.<footNote xml:id="e_textauswahl_fnhomos">
+                                Unterzeichner.<note xml:id="e_textauswahl_fnhomos" type="footnote">
                                 <p><bibl><rs type="work" ref="#63870">Petition an die gesetzgebenden
                                             Körperschaften des deutschen Reiches behufs Abänderung
                                             des §&#8239;175 des R.-Str.-G.-B.</rs> In: <rs
@@ -187,44 +194,44 @@
                                             Zwischenstufen mit besonderer Berücksichtigung der
                                             Homosexualität</rs>, Jg.&#160;1, <date>1899</date>,
                                         S.&#8239;239–269</bibl></p>
-                            </footNote></item>
+                            </note></item>
                         <item>Aufruf zur Hilfe für <rs type="person" ref="#24052">Franz
-                                Schamann</rs> (<date>1906</date>)<footNote
-                                xml:id="e_textauswahl_scham"><p><bibl>vgl. <rs type="work"
+                                Schamann</rs> (<date>1906</date>)<note
+                                xml:id="e_textauswahl_scham" type="footnote"><p><bibl>vgl. <rs type="work"
                                             ref="#41321">Neues Wiener Tagblatt</rs>, Jg.&#160;40,
                                         Nr.&#160;190, <date>12.&#160;7.&#160;1906</date>,
                                         S.&#8239;4</bibl>. <rs type="person" ref="#2121"
                                         >Schnitzler</rs> erfuhr erst am <ref target="1906-11-03"
                                         type="schnitzlerDiary" subtype="date-only"/>, dass seine
-                                    Unterschrift dafür verwendet wurde.</p></footNote></item>
+                                    Unterschrift dafür verwendet wurde.</p></note></item>
                         <item>Wiener Dankadresse anlässlich der zehnjährigen Tätigkeit <rs
                                 type="person" ref="#12163">Gustav Mahler</rs>s an der <rs type="org"
-                                ref="#36687">Wiener Oper</rs> (<date>1907</date>)<footNote
-                                xml:id="e_textauswahl_fnmahler"><p><bibl>vgl. <rs type="work"
+                                ref="#36687">Wiener Oper</rs> (<date>1907</date>)<note
+                                xml:id="e_textauswahl_fnmahler3" type="footnote"><p><bibl>vgl. <rs type="work"
                                             ref="#61194">Deutsches Volksblatt</rs>, Jg.&#160;19,
                                         Nr.&#160;6606, <date>25.&#160;5.&#160;1907</date>,
-                                        S.&#8239;7</bibl>.</p></footNote></item>
+                                        S.&#8239;7</bibl>.</p></note></item>
                         <item>Hilfe für <rs type="person" ref="#9239">Alfons Petzold</rs>
-                                (<date>1911</date>)<footNote xml:id="e_textauswahl_petz"
+                                (<date>1911</date>)<note xml:id="e_textauswahl_petz" type="footnote"
                                             ><p><bibl><rs type="work" ref="#36374">Neue Freie
                                             Presse</rs>, Nr.&#160;16.750,
                                             <date>9.&#160;4.&#160;1911</date>, Morgenblatt,
-                                        S.&#8239;8</bibl>.</p></footNote></item>
+                                        S.&#8239;8</bibl>.</p></note></item>
                         <item>Hilfe für <rs type="person" ref="#13068">Frank Wedekind</rs>
-                                (<date>1911</date>)<footNote xml:id="e_textauswahl_wedek"
+                                (<date>1911</date>)<note xml:id="e_textauswahl_wedek" type="footnote"
                                             ><p><bibl><rs type="work" ref="#61441">Die Aktion</rs>,
                                         Jg.&#160;1, Nr.&#160;17, <date>12.&#160;6.&#160;1911</date>,
-                                        S.&#8239;531–532</bibl>.</p></footNote></item>
+                                        S.&#8239;531–532</bibl>.</p></note></item>
                         <item>Aufruf mit Kritik an der Verwendung der Gelder der <rs type="org"
-                                ref="#41852">Deutschen Schillerstiftung</rs><footNote
-                                xml:id="e_textauswahl_schillers"><p><bibl>vgl. <rs type="person"
+                                ref="#41852">Deutschen Schillerstiftung</rs><note
+                                xml:id="e_textauswahl_schillers" type="footnote"><p><bibl>vgl. <rs type="person"
                                             ref="#11148">Richard Dehmel</rs> an <rs type="person"
                                             ref="#2121">Schnitzler</rs>,
                                             <date>14.&#160;8.&#160;1912</date>, <title level="m"
-                                            >schnitzler-briefe</title>, L02084</bibl></p></footNote>
+                                            >schnitzler-briefe</title>, L02084</bibl></p></note>
                         </item>
                         <item>Hilfe für <rs type="person" ref="#11763">Arno Holz</rs>
-                                (<date>1913</date>)<footNote xml:id="e_textauswahl_holz"
+                                (<date>1913</date>)<note xml:id="e_textauswahl_holz" type="footnote"
                                         ><p><bibl>vgl. Martin Anton Müller: <title level="m">Hermann
                                             Bahr – Textverzeichnis</title>. Weimar:
                                             <publisher>VDG</publisher><space unit="chars"
@@ -232,17 +239,17 @@
                                     Zumindest ein Formulierungsvorschlag <rs type="person"
                                         ref="#2121">Schnitzler</rs>s wurde berücksichtigt,
                                         <bibl>vgl. <title level="m">Briefwechsel</title>
-                                        Bahr/Schnitzler, S.&#8239;751</bibl>.</p></footNote></item>
+                                        Bahr/Schnitzler, S.&#8239;751</bibl>.</p></note></item>
                         <item>Schriftsteller gegen Zensurentscheidungen über Stücke von <rs
                                 type="person" ref="#12640">René Schickele</rs> und <rs type="person"
-                                ref="#6660">Paul Claudel</rs> (<date>1918</date>)<footNote
-                                xml:id="e_textauswahl_schirft"><p><bibl><rs type="work" ref="#41289"
+                                ref="#6660">Paul Claudel</rs> (<date>1918</date>)<note
+                                xml:id="e_textauswahl_schirft" type="footnote"><p><bibl><rs type="work" ref="#41289"
                                             >Berliner Börsen-Courier</rs>, Jg.&#160;50, Nr.&#160;59,
                                             <date>5.&#160;2.&#160;1918</date>, Morgen-Ausgabe,
-                                        Beilage, S.&#8239;6</bibl>.</p></footNote></item>
+                                        Beilage, S.&#8239;6</bibl>.</p></note></item>
                         <item>Barbusses »Händedruck« an die internationalen Geistesarbeiter zur
-                            Zusammenarbeit für den Frieden (<date>1919</date>)<footNote
-                                xml:id="e_textauswahl_barbusse"><p>Zustimmendes Telegramm mit <rs
+                            Zusammenarbeit für den Frieden (<date>1919</date>)<note
+                                xml:id="e_textauswahl_barbusse" type="footnote"><p>Zustimmendes Telegramm mit <rs
                                         type="person" ref="#2121">Schnitzler</rs>s Namen erwähnt in:
                                             <bibl><rs type="person" ref="#61735">Maurice Pujo</rs>:
                                             <rs type="work" ref="#61743">Les Aimées de
@@ -254,28 +261,28 @@
                                             <date>27.&#160;2.&#160;1919</date>, Erstes Morgenblatt,
                                         S.&#8239;1</bibl>,<space unit="chars" quantity="1"/>
                                     <ref target="1919-02-16" type="schnitzlerDiary" subtype="cf"
-                                    /></p></footNote></item>
-                        <item>Gegen die Verbürokratisierung der Theater (<date>1919</date>)<footNote
-                                xml:id="e_textauswahl_theaterräte"><p><bibl><rs type="work"
+                                    /></p></note></item>
+                        <item>Gegen die Verbürokratisierung der Theater (<date>1919</date>)<note
+                                xml:id="e_textauswahl_theaterräte" type="footnote"><p><bibl><rs type="work"
                                             ref="#52605">Vossische Zeitung</rs>, Nr.&#160;254,
                                             <date>20.&#160;5.&#160;1919</date>, Abend-Ausgabe,
-                                        S.&#8239;2</bibl>.</p></footNote>
+                                        S.&#8239;2</bibl>.</p></note>
                         </item>
                         <item>Aufruf, die bolschewistischen Machthaber sollen politische Gefangene
-                            entlassen (<date>1926</date>)<footNote xml:id="e_textauswahl_russg">
+                            entlassen (<date>1926</date>)<note xml:id="e_textauswahl_russg" type="footnote">
                                 <p>
                                     <bibl>vgl. den Brief <rs type="person" ref="#2121"
                                             >Schnitzler</rs>s an <rs type="person" ref="#62781"
                                             >Isaac Levine</rs>, <date>14.&#160;4.&#160;1926</date>,
                                         abgedruckt bei Lindken, <title level="m">Aspekte und
                                             Akzente</title>, S.&#8239;400</bibl>. </p>
-                            </footNote></item>
+                            </note></item>
                         <item>Hilfe für <rs type="person" ref="#17929">Ludwig Hatvany</rs>
-                                (<date>1928</date>)<footNote xml:id="e_textauswahl_hatv"
+                                (<date>1928</date>)<note xml:id="e_textauswahl_hatv" type="footnote"
                                             ><p><bibl><rs type="work" ref="#41289">Berliner
                                             Börsen-Courier</rs>, <date>4.&#160;2.&#160;1928</date>;
                                             <ref target="1928-02-11" subtype="cf"
-                                            type="schnitzlerDiary"/></bibl></p></footNote></item>
+                                            type="schnitzlerDiary"/></bibl></p></note></item>
                     </list>
                 </p>
                 <p>Zwei Fälle sind, da nur wenige Personen beteiligt sind, aufgenommen: die
@@ -291,7 +298,7 @@
                         type="pointer"/> (<date>1925</date>). Die Aphorismen für das <rs type="work"
                         ref="#61170">Liber Amicorum Romain Rolland</rs> (<date>1926</date>) werden
                     nicht aufgenommen, da sich kein nachvollziehbarer Bezug zu <rs type="person"
-                        ref="#12543">Rolland</rs> herstellen lässt.<footNote><p><bibl><rs
+                        ref="#12543">Rolland</rs> herstellen lässt.<note type="footnote"><p><bibl><rs
                                     type="person" ref="#2121">Arthur Schnitzler</rs>: <rs
                                     type="work" ref="#61183">Bemerkungen</rs>. In: <rs type="work"
                                     ref="#61170">Liber Amicorum Romain Rolland</rs>. Sexagenario ex
@@ -299,7 +306,7 @@
                                 curaverunt edendum Maxim Gorki, Georges Duhamel, Stefan Zweig.
                                 Zürich, Leipzig: <publisher>Rotapfel-Verlag</publisher><space
                                     unit="chars" quantity="1"/><date>1926</date>,
-                                S.&#8239;325–326</bibl>.</p></footNote> Die Aphorismen zum <rs
+                                S.&#8239;325–326</bibl>.</p></note> Die Aphorismen zum <rs
                         type="work" ref="#33247">Zauberberg</rs> (<date>1925</date>) <ref
                         target="#M073" type="pointer"/> wiederum sehr wohl, da sie mit einer
                     anlassbezogenen, persönlichen Einleitung versehenen sind. In gleicher Weise wird
@@ -334,12 +341,12 @@
                     vollständige Korrespondenzstück gebracht. Auf genauere bibliografische Angaben
                     dieser Quellen wurde verzichtet. Sofern es sich nicht um ein veröffentlichtes
                     Zitat aus dem <rs type="work" ref="#33243">Tagebuch</rs>, aus <bibl><title
-                            level="m">schnitzler-briefe</title></bibl> oder
-                    aus einem der beiden voluminösen Briefauswahlausgaben handelt (<bibl><title
-                            level="m">Briefe</title> I (1875–1912)</bibl> und <bibl><title level="m"
-                            >Briefe</title> II (1913–1931)</bibl>), lässt sich mit dem
-                    Handschriftenkatalog Kallías des <bibl><publisher>Deutschen Literaturarchiv
-                            Marbach</publisher></bibl> der Verwahrort bestimmen.</p>
+                            level="m">schnitzler-briefe</title></bibl> oder aus einem der beiden
+                    voluminösen Briefauswahlausgaben handelt (<bibl><title level="m">Briefe</title>
+                        I (1875–1912)</bibl> und <bibl><title level="m">Briefe</title> II
+                        (1913–1931)</bibl>), lässt sich mit dem Handschriftenkatalog Kallías des
+                            <bibl><publisher>Deutschen Literaturarchiv Marbach</publisher></bibl>
+                    der Verwahrort bestimmen.</p>
             </div>
         </body>
     </text>

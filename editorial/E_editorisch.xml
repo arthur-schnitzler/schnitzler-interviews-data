@@ -1,9 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xml:id="E_editorisch">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  xml:id="E_editorisch">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="s">Arthur Schnitzler: Interviews</title>
+                <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
                 <title level="a">Editorische Richtlinien</title>
                 <author>Müller, Martin Anton</author>
                 <editor>
@@ -27,6 +30,9 @@
             <seriesStmt>
                 <p>Machine-Readable Transcriptions of the Interviews of Arthur Schnitzler</p>
             </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
         </fileDesc>
         <profileDesc>
             <langUsage>
@@ -40,8 +46,8 @@
     <text type="text">
         <body>
             <div type="writingSession" n="1">
-                <p>Die Geschwindigkeit, in der Zeitungen gesetzt wurden, erhöhte auch die Zahl der
-                    sinnentstellenden Druckfehler. Offensichtliche Fehler werden korrigiert und
+                <p>Die Geschwindigkeit, in der Zeitungen gesetzt wurden, sorgte für eine höhere Zahl
+                    sinnentstellender Druckfehler. Offensichtliche Fehler werden korrigiert und
                     durch das nachstehende Verzeichnis ausgewiesen. Das inkludiert falsch
                     geschriebene Realia in fremdsprachigen Texten wie falsche Personennamen oder
                     Werktitel. Nicht eingegriffen wird bei zulässiger orthographischer Varianz. Der
@@ -85,13 +91,12 @@
                         (»<date>15.&#8239;5.&#8239;1862</date>«).</p>
                 <p>Kürzungen der Texte betreffen vor allem Textteile, die sich eindeutig <hi
                         rend="italics">nicht</hi> auf <rs type="person" ref="#2121">Schnitzler</rs>
-                    beziehen. Das betrifft vor allem die weiteren Antworten bei Rundfragen. Soweit
+                    beziehen. Das tritt vor allem bei weiteren Antworten bei Rundfragen auf. Soweit
                     nicht über drei Dutzend Namen betroffen sind, werden im Kommentar die
                     Verfasserinnen und Verfasser genannt, mit denen <rs type="person" ref="#2121"
                         >Schnitzler</rs> hier auftritt. Kürzungen zwischen wiedergegebenen
                     Textteilen sind durch »{[}<c rendition="#dots" n="3"/>{]}« markiert, weitere
-                    Hinweise auf die Art des Eingriffs finden sich im jeweiligen Kommentar eines
-                    Texts.</p>
+                    Hinweise auf die Art des Eingriffs finden sich im jeweiligen Kommentarteil.</p>
                 <p>Bilder werden unmittelbar vor den Text platziert.</p>
                 <p>Stillschweigend übergangen werden ausgeschlagende Buchstaben, wenn anzunehmen
                     ist, dass dieser Fehler nur einen Teil der Auflage betroffen hat. Bei
@@ -107,7 +112,7 @@
                     Textstufe angenommen, innerhalb derer zwischen Getipptem und Handschriftlichem
                     nicht mehr differenziert wird. Praktisch bedeutet das, dass ein beim Tippvorgang
                     gelöschtes Wort (üblicherweise durch »xxxx«) oder ein handschriftlich von der
-                    Schreibkraft ergänzter Buchstabe nicht wiedergegeben wird. Alle Streichungen in
+                    Schreibkraft ergänzter Buchstabe nicht hervorgehoben dargestellt wird. Alle Streichungen in
                     der Wiedergabe von Typoskripten können damit der Überarbeitung durch den
                     Verfasser zugeordnet werden.</p>
                 <p>Die Aufgaben des Kommentars sind vielfältig, nicht nur das Erläutern von
@@ -145,6 +150,8 @@
                     Ungerechtigkeit, dass unbezahlte Arbeit übergangen wurde, wird fortgeschrieben,
                     wenn Frauen ohne nähere Bezeichnung bleiben, obwohl vermutlich ein allgemein
                     hinzugefügtes »Hausfrau« mehr Gerechtigkeit bedeutet hätte.</p>
+            </div>
+            <div type="writingSession" n="2">
                 <head type="sub">Diakritische Darstellung</head>
                 <list type="simple-gloss">
                     <label>
@@ -181,7 +188,7 @@
                     <label>
                         <supplied>Beispiel</supplied>
                     </label>
-                    <item>Ergänzungen der Herausgeber</item>
+                    <item>Ergänzung des Herausgebers</item>
                     <label>{[}<c rendition="#dots" n="3"/>{]}</label>
                     <item>Auslassung eines Textteils</item>
                 </list>
