@@ -8,9 +8,9 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#60276">[Abonnentenwerbung The Jewish Tribune],
-               11.&#8239;4.&#8239;1924</title>
-            <author ref="#2121">Schnitzler, Arthur</author>
+            <title level="a" ref="#pmb60276">[Abonnentenwerbung The Jewish Tribune],
+               11. 4. 1924</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -30,12 +30,12 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title level="a" ref="#60276">[Subskriptionswerbung]</title>
+                     <title level="a" ref="#pmb60276">[Subskriptionswerbung]</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#60274">The Jewish Tribune</title>
+                     <title level="j" ref="#pmb60274">The Jewish Tribune</title>
                      <imprint>
-                        <date when="1924-04-11" n="1">11.&#8239;4.&#8239;1924</date>
+                        <date when="1924-04-11" n="1">11. 4. 1924</date>
                      </imprint>
                      <biblScope unit="jg">43</biblScope>
                      <biblScope unit="pp">[2, Umschlag]</biblScope>
@@ -55,8 +55,6 @@
          <change who="KH" when="2021-11-12">Durchsicht</change>
       </revisionDesc>
    </teiHeader>
-   <!--   https://archive.org/details/DieSchaubuehne2-1906-1/page/n460/mode/2up
--->
    <text type="article">
       <body>
          <div type="image">
@@ -69,13 +67,13 @@
          </div>
          <div type="original" xml:lang="en-US">
             <p>What <hi rend="bold">Dr. Arthur Schnitzler</hi>, one of the foremost Jews in the
-               world, <anchor type="commentary" xml:id="K_I140-12"/>writes<note type="commentary" xml:id="K_I140-12h">Diese Anzeige ist untypisch für <rs type="person" ref="#2121">Schnitzler</rs>, so dass die Vermutung einer Fälschung nahe liegt.</note> of
-                  <rs type="work" ref="#60274">
+               world, <anchor type="commentary" xml:id="K_I140-12"/>writes<note type="commentary" xml:id="K_I140-12h">Diese Anzeige ist untypisch für <rs type="person" ref="#pmb2121">Schnitzler</rs>, so dass die Vermutung einer Fälschung nahe liegt.</note> of
+                  <rs type="work" ref="#pmb60274">
                   <hi rend="capitals">The Jewish Tribune</hi>
                </rs>
             </p>
             <p rend="inline">
-               <rs type="work" ref="#60274">
+               <rs type="work" ref="#pmb60274">
                   <hi rend="capitals">The Jewish Tribune</hi>
                </rs> appears to me to be an extremely useful, valuable and splendidly led enterprise
                which has assumed a task of wide scope which it also accomplishes – the task of
@@ -88,11 +86,11 @@
                <space dim="vertical" quantity="1" unit="lines"/>
             </p>
             <p>
-               <rs type="work" ref="#60274">The Jewish Tribune<lb/>and Hebrew Standard</rs>
+               <rs type="work" ref="#pmb60274">The Jewish Tribune<lb/>and Hebrew Standard</rs>
             </p>
             <p>The American Jewish Weekly</p>
             <p>
-               <rs type="place" ref="#60279">Marbridge Building, New York</rs>
+               <rs type="place" ref="#pmb60279">Marbridge Building, New York</rs>
             </p>
             <p>Herewith is <c rendition="#dollar"/> 4 for one year’s <anchor type="commentary" xml:id="K_I140-1"/>subscription<note type="commentary" xml:id="K_I140-1h">Dieser
                   Teil des Umschlags enthält Zeilen für die Angabe von Namen und Adresse, die
@@ -100,5 +98,77 @@
                for two years.</p>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb60274">
+               <title>The Jewish Tribune and Hebrew Standard</title>
+               <date from="1922-01-01" to="1927-07-02">1922  – 1927</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60274/</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Zeitschrift</note>
+            </bibl>
+            <bibl xml:id="pmb60276">
+               <title>[Subskriptionswerbung The Jewish Tribune]</title>
+               <author ref="pmb2121" role="hat-einen-beitrag-geschaffen-zu">Schnitzler, Arthur</author>
+               <date when="1924-04-11">1924-04-11</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60276/</idno>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb60279">
+               <placeName>Marbridge Building</placeName>
+               <desc type="entity_type">Gebäude (K.GBD)</desc>
+               <desc type="entity_type_id">24</desc>
+               <location type="coords">
+                  <geo>40,75 -73,987222</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb44053">New York City</placeName>
+                  <geo>40,71427 -74,00597</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60279/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q6755272</idno>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

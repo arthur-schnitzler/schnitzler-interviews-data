@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="M056">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="M056">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#33135">Roy Temple House: The Writer and His Daily Bread,
-               18.&#8239;10.&#8239;1931</title>
-            <author ref="#29075">House, Roy Temple</author>
+            <title level="a" ref="#pmb33135">Roy Temple House: The Writer and His Daily Bread,
+               18. 10. 1931</title>
+            <author ref="#pmb29075">House, Roy Temple</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -28,13 +30,13 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#29075">House, Roy Temple</author>
-                     <title level="a" ref="#33135">The Writer and His Daily Bread</title>
+                     <author ref="#pmb29075">House, Roy Temple</author>
+                     <title level="a" ref="#pmb33135">The Writer and His Daily Bread</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#58538">New York Herald Tribune</title>
+                     <title level="j" ref="#pmb58538">New York Herald Tribune</title>
                      <imprint>
-                        <date when="1931-10-18" n="1">18.&#8239;10.&#8239;1931</date>
+                        <date when="1931-10-18" n="1">18. 10. 1931</date>
                      </imprint>
                      <biblScope unit="vol">91</biblScope>
                      <biblScope unit="nr">31.017</biblScope>
@@ -62,54 +64,43 @@
             <figure>
                <graphic url="./images/1931-10-18-bread.jpg" width="7cm"/>
             </figure>
-            <caption>»Books Are a Luxury« (Drawing by <rs type="person" ref="#59407">Alan
+            <caption>»Books Are a Luxury« (Drawing by <rs type="person" ref="#pmb59407">Alan
                Dunn</rs>)</caption>
          </div>
          <div type="original" xml:lang="en-US">
             <head>The Writer and his Daily Bread</head>
             <head type="sub">By Roy Temple House</head>
             <head type="sub">
-               <hi rend="italics">Editor of the international book review quarterly »<rs type="org"
-                     ref="#29457">Books Abroad</rs>«</hi>
+               <hi rend="italics">Editor of the international book review quarterly »<rs type="org" ref="#pmb29457">Books Abroad</rs>«</hi>
             </head>
-            <p>In my editorial capacity I receive a great deal of <rs type="place" ref="#468"
-                  >European</rs> mail. Every few days of late have been learning by letter or from
+            <p>In my editorial capacity I receive a great deal of <rs type="place" ref="#pmb468">European</rs> mail. Every few days of late have been learning by letter or from
                the foreign press that another Continental publishing company has gone to the wall.
-               An old <rs type="place" ref="#151">German</rs> publishing house writes: »Have you any
-               suggestions as to how the <rs type="place" ref="#175">American</rs> sale of our books
-               can be stimulated? <rs type="place" ref="#151">German</rs>s have almost completely
-               stopped buying books.« The head of some of the solidest <rs type="place" ref="#151"
-                  >German</rs> firms remarks in a burst of confidence that for the first time since
+               An old <rs type="place" ref="#pmb151">German</rs> publishing house writes: »Have you any
+               suggestions as to how the <rs type="place" ref="#pmb175">American</rs> sale of our books
+               can be stimulated? <rs type="place" ref="#pmb151">German</rs>s have almost completely
+               stopped buying books.« The head of some of the solidest <rs type="place" ref="#pmb151">German</rs> firms remarks in a burst of confidence that for the first time since
                his childhood he could not afford a summer vacation this season. A mild deprivation
-               compared to the case of the <rs type="place" ref="#166">French</rs>
+               compared to the case of the <rs type="place" ref="#pmb166">French</rs>
                <space unit="chars" quantity="1"/>
                <anchor type="commentary" xml:id="K_implied_58317"/>
-               <rs type="person" ref="#58317" subtype="implied">novelist</rs>
+               <rs type="person" ref="#pmb58317" subtype="implied">novelist</rs>
                <note type="commentary" xml:id="K_implied_58317h">nicht identifiziert</note> who died
-               of starvation a year or two ago and that of the once-famous <rs type="place"
-                  ref="#43430">Czech</rs>
+               of starvation a year or two ago and that of the once-famous <rs type="place" ref="#pmb43430">Czech</rs>
                <space unit="chars" quantity="1"/>
                <anchor type="commentary" xml:id="KT142-1"/>
-               <rs type="person" ref="#5281" subtype="implied">dramatist</rs>
-               <note type="commentary" xml:id="KT142-1h">der in <rs type="place" ref="#955"
-                     >Teplitz</rs> geborene <rs type="person" ref="#5281"
-                  >Dietzenschmidt</rs></note> who is subsisting on charity. Books are a luxury, and
-               everybody in central <rs type="place" ref="#468">Europe</rs> who has lived from the
+               <rs type="person" ref="#pmb5281" subtype="implied">dramatist</rs>
+               <note type="commentary" xml:id="KT142-1h">der in <rs type="place" ref="#pmb955">Teplitz</rs> geborene <rs type="person" ref="#pmb5281">Dietzenschmidt</rs>
+               </note> who is subsisting on charity. Books are a luxury, and
+               everybody in central <rs type="place" ref="#pmb468">Europe</rs> who has lived from the
                making or the selling of books is living narrowly at present.</p>
-            <p>In the course of considerable correspondence on the subject I have received from <rs
-                  type="place" ref="#468">Europe</rs> some very interesting <anchor
-                  type="commentary" xml:id="K_M056-1"/>comment<note type="commentary"
-                  xml:id="K_M056-1h">Die Beiträge erschienen in folgender Reihe: <rs type="person"
-                     ref="#5277">Leon Lemonnier</rs>, <rs type="person" ref="#29080">Luc
-                     Durtain</rs>, <rs type="person" ref="#11367">Gustav Frenssen</rs>, <rs
-                     type="person" ref="#2121">Schnitzler</rs>, <rs type="person" ref="#12345"
-                     >Robert Neumann</rs> und <rs type="person" ref="#5272">W. E. Süskind</rs>.
-               </note>, signed now and then with a name which carries weight. <gap
-                  reason="outOfScope" unit="lines" quantity="10"/>
+            <p>In the course of considerable correspondence on the subject I have received from <rs type="place" ref="#pmb468">Europe</rs> some very interesting <anchor type="commentary" xml:id="K_M056-1"/>comment<note type="commentary" xml:id="K_M056-1h">Die Beiträge erschienen in folgender Reihe: <rs type="person" ref="#pmb5277">Leon Lemonnier</rs>, <rs type="person" ref="#pmb29080">Luc
+                     Durtain</rs>, <rs type="person" ref="#pmb11367">Gustav Frenssen</rs>, <rs type="person" ref="#pmb2121">Schnitzler</rs>, <rs type="person" ref="#pmb12345">Robert Neumann</rs> und <rs type="person" ref="#pmb5272">W. E. Süskind</rs>.
+               </note>, signed now and then with a name which carries weight. <gap reason="outOfScope" unit="lines" quantity="10"/>
                <!-- Im Absatz gekürzt XXXX: The problem is less serious in <rs type="place" ref="#166">France</rs> than in some other countries, but even there
                the author’s couch is no bed of roses. The thoughtful <rs type="person" subtype="implied" ref="#5277">author</rs> of »<rs type="work" ref="#33137">La vie
                   d’Oscar Wilde</rs>« and of several books which deal with the perplexities of the
-               literary profession, wrote me a little while ago: --></p>
+               literary profession, wrote me a little while ago: -->
+            </p>
             <!--<p>
                <space dim="vertical" unit="line" quantity="1"/>
             </p>
@@ -194,9 +185,11 @@
             <p>
                <space dim="vertical" unit="line" quantity="1"/>
             </p>-->
-            <p><gap reason="outOfScope" unit="paragraphs" quantity="20"/></p>
-            <p>The wisest and kindest of living <rs type="place" ref="#41240">Austrian</rs> Writers
-               has concrete suggestions. Dr. <rs type="person" ref="#2121">Arthur Schnitzler</rs>
+            <p>
+               <gap reason="outOfScope" unit="paragraphs" quantity="20"/>
+            </p>
+            <p>The wisest and kindest of living <rs type="place" ref="#pmb41240">Austrian</rs> Writers
+               has concrete suggestions. Dr. <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>
                writes:</p>
             <p>
                <space dim="vertical" unit="line" quantity="1"/>
@@ -204,7 +197,9 @@
             <p>
                <c rendition="#dots" n="4"/>»The shortest and simplest means of helping the situation
                is by direct aid to the needy writers. More important – and in a higher sense –
-               would, of course, be a <anchor type="commentary" xml:id="K_M056-11"/>reform of the copyright law<note type='commentary' xml:id="K_M056-11h"><ref type="pointer" target="#I044" subtype="cf"/></note>, or at least a careful observance
+               would, of course, be a <anchor type="commentary" xml:id="K_M056-11"/>reform of the copyright law<note type="commentary" xml:id="K_M056-11h">
+                  <ref type="pointer" target="#I044" subtype="cf"/>
+               </note>, or at least a careful observance
                of the existing law, which, as you know, is not now the case. It is unfortunately
                true that spiritual property has never been put on the same plane before the law as
                material property, and so it is constantly happening that direct infractions of
@@ -216,12 +211,16 @@
                paid respectably<c rendition="#dots" n="4"/>
             </p>
             <p rend="inline">»Cordially, <signed>
-                  <rs type="person" ref="#2121"><hi rend="capitals">Arthur Schnitzler</hi></rs>.«</signed>
+                  <rs type="person" ref="#pmb2121">
+                     <hi rend="capitals">Arthur Schnitzler</hi>
+                  </rs>.«</signed>
             </p>
             <p>
                <space dim="vertical" unit="line" quantity="1"/>
             </p>
-            <p><gap reason="outOfScope" unit="paragraphs" quantity="20"/></p>
+            <p>
+               <gap reason="outOfScope" unit="paragraphs" quantity="20"/>
+            </p>
             <!--<p>
                <space dim="vertical" unit="line" quantity="1"/>
             </p>
@@ -264,15 +263,532 @@
             <p rend="inline">»With best wishes. <signed>
                   <rs type="person" ref="#5272">W. E. SUSKIND</rs>.«</signed>
             </p>-->
-           
-            <p>Readers who may be inclined to offer financial assistance to <rs type="place"
-                  ref="#151">German</rs> or <rs type="place" ref="#41240">Austrian</rs> writers who
-               are in financial straits may make contacts with the <rs type="org" ref="#29337"
-                  >Schutzverband Deutscher Schriftsteller</rs>, <rs type="place" ref="#1056">Berlin
-                  W. 50, Nürnbergerstrasse 8</rs>, or with the <rs type="org" ref="#29458"
-                  >Schutzverband Deutscher Schriftsteller in Oesterreich</rs>, <rs type="place"
-                  ref="#1055">Wien, Annagasse 5</rs>.</p>
+            <p>Readers who may be inclined to offer financial assistance to <rs type="place" ref="#pmb151">German</rs> or <rs type="place" ref="#pmb41240">Austrian</rs> writers who
+               are in financial straits may make contacts with the <rs type="org" ref="#pmb29337">Schutzverband Deutscher Schriftsteller</rs>, <rs type="place" ref="#pmb1056">Berlin
+                  W. 50, Nürnbergerstrasse 8</rs>, or with the <rs type="org" ref="#pmb29458">Schutzverband Deutscher Schriftsteller in Oesterreich</rs>, <rs type="place" ref="#pmb1055">Wien, Annagasse 5</rs>.</p>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb29075">
+               <persName>
+                  <forename>Roy Temple</forename>
+                  <surname>House</surname>
+               </persName>
+               <birth>
+                  <date when="1878-05-26">26.05.1878</date>
+                  <settlement ref="pmb48540">
+                     <placeName type="pref">Lexington</placeName>
+                     <location>
+                        <geo>37,98869 -84,47772</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1963-12-04">04.12.1963</date>
+                  <settlement ref="pmb49797">
+                     <placeName type="pref">Oklahoma City</placeName>
+                     <location>
+                        <geo>35,46756 -97,51643</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb119">Herausgeber/Herausgeberin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29075/</idno>
+            </person>
+            <person xml:id="pmb59407">
+               <persName>
+                  <forename>Alan</forename>
+                  <surname>Dunn</surname>
+               </persName>
+               <birth>
+                  <date when="1900-08-11">1900-08-11</date>
+                  <settlement ref="pmb59408">
+                     <placeName type="pref">Belmar</placeName>
+                     <location>
+                        <geo>40,17845 -74,0218</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1974-05-01">Mai 1974</date>
+                  <settlement ref="pmb45767">
+                     <placeName type="pref">Manhattan</placeName>
+                     <location>
+                        <geo>40,78343 -73,96625</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb332">Karikaturist/Karikaturistin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/59407/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2830497</idno>
+            </person>
+            <person xml:id="pmb58317">
+               <persName>
+                  <surname>?? [Französischer Schriftsteller, am Hungertod gestorben]</surname>
+               </persName>
+               <death>
+                  <date when="1928-01-01">um 1928</date>
+               </death>
+               <sex value="male"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58317/</idno>
+            </person>
+            <person xml:id="pmb5281">
+               <persName>
+                  <surname>Dietzenschmidt</surname>
+               </persName>
+               <persName type="person_geburtsname-vorname">Anton</persName>
+               <persName type="person_geburtsname_nachname">Franz Schmid</persName>
+               <birth>
+                  <date when="1893-12-21">21.12.1893</date>
+                  <settlement ref="pmb955">
+                     <placeName type="pref">Teplice</placeName>
+                     <location>
+                        <geo>50,6404 13,82451</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1955-01-17">17.01.1955</date>
+                  <settlement ref="pmb55376">
+                     <placeName type="pref">Esslingen am Neckar</placeName>
+                     <location>
+                        <geo>48,73961 9,30473</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/105306134</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5281/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1224263</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Dietzenschmidt</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb5281.html</idno>
+            </person>
+            <person xml:id="pmb5277">
+               <persName>
+                  <forename>Léon</forename>
+                  <surname>Lemonnier</surname>
+               </persName>
+               <birth>
+                  <date when="1890-07-11">1890-07-11</date>
+                  <settlement ref="pmb55374">
+                     <placeName type="pref">Rouen</placeName>
+                     <location>
+                        <geo>49,44313 1,09932</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1953-07-02" notAfter="1953-12-31">1953</date>
+                  <settlement ref="pmb182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/1051650720</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5277/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q3271150</idno>
+            </person>
+            <person xml:id="pmb29080">
+               <persName>
+                  <forename>Luc</forename>
+                  <surname>Durtain</surname>
+               </persName>
+               <persName type="person_geburtsname-vorname">André</persName>
+               <persName type="person_geburtsname_nachname">Nepveu</persName>
+               <birth>
+                  <date when="1881-03-10">10.03.1881</date>
+                  <settlement ref="pmb182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1959-01-29">29.01.1959</date>
+                  <settlement ref="pmb182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29080/</idno>
+            </person>
+            <person xml:id="pmb11367">
+               <persName>
+                  <forename>Gustav</forename>
+                  <surname>Frenssen</surname>
+               </persName>
+               <birth>
+                  <date when="1863-10-19">19.10.1863</date>
+                  <settlement ref="pmb49215">
+                     <placeName type="pref">Barlt</placeName>
+                     <location>
+                        <geo>54,01667 9,05</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1945-04-11">11.04.1945</date>
+                  <settlement ref="pmb49215">
+                     <placeName type="pref">Barlt</placeName>
+                     <location>
+                        <geo>54,01667 9,05</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15168</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118535269</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11367/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11367.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp45184</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q75171</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Gustav_Frenssen</idno>
+            </person>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb12345">
+               <persName>
+                  <forename>Robert</forename>
+                  <surname>Neumann</surname>
+               </persName>
+               <birth>
+                  <date when="1897-05-22">22.05.1897</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1975-01-03">03.01.1975</date>
+                  <settlement ref="pmb45258">
+                     <placeName type="pref">München</placeName>
+                     <location>
+                        <geo>48,13743 11,57549</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18422</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118587331</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12345/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp52362</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q89922</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Robert_Neumann_(Schriftsteller)</idno>
+            </person>
+            <person xml:id="pmb5272">
+               <persName>
+                  <forename>Wilhelm Emanuel</forename>
+                  <surname>Süskind</surname>
+               </persName>
+               <birth>
+                  <date when="1901-06-10">10.06.1901</date>
+                  <settlement ref="pmb55372">
+                     <placeName type="pref">Weilheim</placeName>
+                     <location>
+                        <geo>47,84147 11,15484</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1970-04-17">17.04.1970</date>
+                  <settlement ref="pmb44493">
+                     <placeName type="pref">Tutzing</placeName>
+                     <location>
+                        <geo>47,90938 11,2803</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118757695</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5272/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q105612</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wilhelm_Emanuel_S%C3%BCskind</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb33135">
+               <title>The Writer and His Daily Bread</title>
+               <title type="werk_bibliografische-angabe">New York Herald Tribune, 18. 10. 1931</title>
+               <author ref="pmb29075" role="hat-geschaffen">House, Roy Temple</author>
+               <date when="1931-10-18">18.10.1931</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33135/</idno>
+               <note type="work_kind">Umfrage</note>
+            </bibl>
+            <bibl xml:id="pmb58538">
+               <title>New York Herald Tribune</title>
+               <date from="1924-01-01" to="1966-07-02">1924  – 1966</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58538/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q532494</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb468">
+               <placeName>Europa</placeName>
+               <desc type="entity_type">Kontinent (A.KNT)</desc>
+               <desc type="entity_type_id">49</desc>
+               <location type="coords">
+                  <geo>48,69096 9,14062</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q46</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/6255148/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb468.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/468/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb468</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb468</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb468.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Europa</idno>
+            </place>
+            <place xml:id="pmb151">
+               <placeName>Deutschland</placeName>
+               <placeName type="alternative-name">Bundesrepublik Deutschland</placeName>
+               <placeName type="alternative-name">West Germany</placeName>
+               <placeName type="alternative-name">Federal Republic of Germany</placeName>
+               <placeName type="legacy-name-merge">Germany</placeName>
+               <desc type="entity_type">Land (A.LND)</desc>
+               <desc type="entity_type_id">38</desc>
+               <location type="coords">
+                  <geo>51,5 10,5</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb468">Europa</placeName>
+                  <geo>48,69096 9,14062</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q183</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb151.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2921044/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/151/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/39639/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43456/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb151</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb151</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb151.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Deutschland</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/119923/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4011882-4</idno>
+            </place>
+            <place xml:id="pmb175">
+               <placeName>Amerika</placeName>
+               <desc type="entity_type">Kontinent (A.KNT)</desc>
+               <desc type="entity_type_id">49</desc>
+               <location type="coords">
+                  <geo>32,530833 -117,02</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/6255149/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb175.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/175/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb175</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb175</idno>
+            </place>
+            <place xml:id="pmb166">
+               <placeName>Frankreich</placeName>
+               <placeName type="alternative-name">France</placeName>
+               <desc type="entity_type">Land (A.LND)</desc>
+               <desc type="entity_type_id">38</desc>
+               <location type="coords">
+                  <geo>46,0 2,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb468">Europa</placeName>
+                  <geo>48,69096 9,14062</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q142</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb166.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3017382/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/166/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb166</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb166.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Frankreich</idno>
+            </place>
+            <place xml:id="pmb43430">
+               <placeName>Tschechische Republik</placeName>
+               <placeName type="legacy-name-merge">Tschechien</placeName>
+               <placeName type="alternative-name">Bohemia</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1411</desc>
+               <location type="coords">
+                  <geo>49,75 15,0</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3077311/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33977/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43430/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb43430</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb43430.html</idno>
+            </place>
+            <place xml:id="pmb955">
+               <placeName>Teplice</placeName>
+               <placeName type="alternative-name">Teplitz-Schönau</placeName>
+               <placeName type="legacy-name-merge">Teplitz</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>50,6404 13,82451</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb43430">Tschechische Republik</placeName>
+                  <geo>49,75 15,0</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q146342</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb955.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/955/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/6042/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/53377/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3064288/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb955</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb955</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb955.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/98088/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4059481-6</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Teplice</idno>
+            </place>
+            <place xml:id="pmb41240">
+               <placeName>Österreich</placeName>
+               <placeName type="alternative-name">Republik Österreich</placeName>
+               <placeName type="alternative-name">Republic of Austria</placeName>
+               <placeName type="legacy-name-merge">Deutsch Österreich</placeName>
+               <placeName type="legacy-name-merge">Altoesterreich</placeName>
+               <desc type="entity_type">http://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb687">Österreich-Ungarn</placeName>
+                  <geo>48,4054 16,4887</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2782113/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41240/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41240</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb41240</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92143/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92203/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92143.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92203.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb41240.html</idno>
+            </place>
+            <place xml:id="pmb1056">
+               <placeName>Nürnbergerstraße</placeName>
+               <desc type="entity_type">Straße (K.STR)</desc>
+               <desc type="entity_type_id">26</desc>
+               <location type="coords">
+                  <geo>52,5007 13,33673</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb168">Berlin</placeName>
+                  <geo>52,52437 13,41053</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1056/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb1056</idno>
+            </place>
+            <place xml:id="pmb1055">
+               <placeName>Annagasse</placeName>
+               <desc type="entity_type">Straße (K.STR)</desc>
+               <desc type="entity_type_id">26</desc>
+               <location type="coords">
+                  <geo>48,20452 16,37132</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1055/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb1055.html</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb29457">
+               <orgName>Books Abroad</orgName>
+               <desc type="entity_type">Zeitschriftenredaktion</desc>
+               <desc type="entity_type_id">973</desc>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29457/</idno>
+            </org>
+            <org xml:id="pmb29337">
+               <orgName>Schutzverband deutscher Schriftsteller</orgName>
+               <desc type="entity_type">Verein</desc>
+               <desc type="entity_type_id">974</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb45258">München</placeName>
+                  <geo>48,13743 11,57549</geo>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4127793-4</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/38129/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/45258/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2867714/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb45258</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb45258</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb45258.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1726</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/M%C3%BCnchen</idno>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29337.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29337/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb29337</idno>
+            </org>
+            <org xml:id="pmb29458">
+               <orgName>Schutzverband deutscher Schriftsteller in Österreich</orgName>
+               <desc type="entity_type">Interessensvertretung</desc>
+               <desc type="entity_type_id">999</desc>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29458/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q22693877</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Schutzverband_Deutscher_Schriftsteller_in_%C3%96sterreich</idno>
+               <note type="apis_dates">
+                  <date from="1914-01-01" to="1938-07-02">1914  – 1938</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

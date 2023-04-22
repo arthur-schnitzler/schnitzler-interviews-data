@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="P105">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="P105">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#58372">Die Erklärung des Verfassers,
-               16.&#8239;9.&#8239;1900</title>
-            <author ref="#2121">Schnitzler, Arthur</author>
+            <title level="a" ref="#pmb58372">Die Erklärung des Verfassers,
+               16. 9. 1900</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -28,13 +30,13 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#2121">Schnitzler, Arthur</author>
-                     <title level="a" ref="#58372">Die Erklärung des Verfassers</title>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <title level="a" ref="#pmb58372">Die Erklärung des Verfassers</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#41202">Arbeiter-Zeitung</title>
+                     <title level="j" ref="#pmb41202">Arbeiter-Zeitung</title>
                      <imprint>
-                        <date when="1900-09-16" n="1">16.&#8239;9.&#8239;1900</date>
+                        <date when="1900-09-16" n="1">16. 9. 1900</date>
                      </imprint>
                      <biblScope unit="vol">12</biblScope>
                      <biblScope unit="nr">254</biblScope>
@@ -60,84 +62,66 @@
          <div type="original">
             <head>Die Erklärung des Verfassers.</head>
             <p>Herr Arthur <hi rend="spaced_out">Schnitzler</hi> ersucht uns um Aufnahme folgender
-               Erwiderung auf die <anchor type="commentary" xml:id="K_I105-1"/>Erklärung<note
-                  type="commentary" xml:id="K_I105-1h">Die <rs type="work" ref="#58372">Erklärung
+               Erwiderung auf die <anchor type="commentary" xml:id="K_I105-1"/>Erklärung<note type="commentary" xml:id="K_I105-1h">Die <rs type="work" ref="#pmb58372">Erklärung
                      des Verfassers</rs> erscheint als dritter Debattenbeitrag über die Aufnahme von
-                     <rs type="work" ref="#29857">Der Schleier der Beatrice</rs> auf den Spielplan
-                  des <rs type="org" ref="#36247">Burgtheater</rs>s. Nachdem der Direktor <rs
-                     type="person" ref="#12671">Paul Schlenther</rs> im Winter prinzipiell zugesagt
+                     <rs type="work" ref="#pmb29857">Der Schleier der Beatrice</rs> auf den Spielplan
+                  des <rs type="org" ref="#pmb36247">Burgtheater</rs>s. Nachdem der Direktor <rs type="person" ref="#pmb12671">Paul Schlenther</rs> im Winter prinzipiell zugesagt
                   hatte, zog er diese Zusage im <date>Juni</date> zurück. Daraufhin erschien am
-                     <date>14.&#8239;9.&#8239;1900</date> in den meisten Tageszeitungen eine
-                  gemeinsame <rs type="work" ref="#31345">Erklärung</rs> (neu abgedruckt in <bibl>
-                     <title level="m">Bahr/Schnitzler</title> 177–181</bibl>) des Großteils der <rs
-                     type="place" ref="#50">Wien</rs>er Theaterkritiker, die <rs
-                     type="person" ref="#12671">Schlenther</rs> vorwarfen, durch seinen
-                  Gesinnungswandel die Geschäftsinteressen <rs type="person" ref="#2121"
-                     >Schnitzler</rs>s geschädigt zu haben, da dieser in der Zwischenzeit sein Stück an
-                  anderem Ort zur Uraufführung hätte bringen lassen können. Auf diesen Vorwurf reagierte <rs
-                     type="person" ref="#12671">Schlenther</rs>, indem er die verspätete
+                     <date>14. 9. 1900</date> in den meisten Tageszeitungen eine
+                  gemeinsame <rs type="work" ref="#pmb31345">Erklärung</rs> (neu abgedruckt in <bibl>
+                     <title level="m">Bahr/Schnitzler</title> 177–181</bibl>) des Großteils der <rs type="place" ref="#pmb50">Wien</rs>er Theaterkritiker, die <rs type="person" ref="#pmb12671">Schlenther</rs> vorwarfen, durch seinen
+                  Gesinnungswandel die Geschäftsinteressen <rs type="person" ref="#pmb2121">Schnitzler</rs>s geschädigt zu haben, da dieser in der Zwischenzeit sein Stück an
+                  anderem Ort zur Uraufführung hätte bringen lassen können. Auf diesen Vorwurf reagierte <rs type="person" ref="#pmb12671">Schlenther</rs>, indem er die verspätete
                   Zurückweisung des Stücks damit begründete, dass sich die Probleme der Inszenierung
                   erst bei einer zweiten und dritten Durcharbeitung des Stückes gezeigt hätten (<bibl>
-                     <rs type="work" ref="#58375">Eine Erklärung des Burgtheaterdirektors</rs>, in:
-                        <rs type="work" ref="#41202">Arbeiter-Zeitung</rs>, Jg.&#8239;12,
-                     Nr.&#8239;253, <date>15.&#8239;9.&#8239;1900</date>, S.&#8239;8</bibl>). Auf
-                  diese Äußerung <rs type="person" ref="#12671">Schlenther</rs>s antwortet <rs
-                     type="person" ref="#2121">Schnitzler</rs>.</note> des Herrn Dr. <rs
-                  type="person" ref="#12671">Schlenther</rs>:</p>
-            <p><space dim="vertical" quantity="1" unit="paragraphs"/></p>
-            <p rend="inline">Ich war genöthigt, den Herrn <rs type="person" ref="#12671"
-                  subtype="implied">Direktor</rs> vor ein kategorisches Ja oder Nein zu stellen, um
-               Klarheit über das Schicksal eines <rs type="work" ref="#29857" subtype="implied"
-                  >Stückes</rs> zu erhalten, an dessen Aufführung ich nach dem Brief vom
-                  <date>17.&#160;Juni</date> mit ebenso viel Recht zu zweifeln begann, als ich
+                     <rs type="work" ref="#pmb58375">Eine Erklärung des Burgtheaterdirektors</rs>, in:
+                        <rs type="work" ref="#pmb41202">Arbeiter-Zeitung</rs>, Jg. 12,
+                     Nr. 253, <date>15. 9. 1900</date>, S. 8</bibl>). Auf
+                  diese Äußerung <rs type="person" ref="#pmb12671">Schlenther</rs>s antwortet <rs type="person" ref="#pmb2121">Schnitzler</rs>.</note> des Herrn Dr. <rs type="person" ref="#pmb12671">Schlenther</rs>:</p>
+            <p>
+               <space dim="vertical" quantity="1" unit="paragraphs"/>
+            </p>
+            <p rend="inline">Ich war genöthigt, den Herrn <rs type="person" ref="#pmb12671" subtype="implied">Direktor</rs> vor ein kategorisches Ja oder Nein zu stellen, um
+               Klarheit über das Schicksal eines <rs type="work" ref="#pmb29857" subtype="implied">Stückes</rs> zu erhalten, an dessen Aufführung ich nach dem Brief vom
+                  <date>17. Juni</date> mit ebenso viel Recht zu zweifeln begann, als ich
                dessen Annahme, nach dem Brief vom <date>13. Februar</date>, bis
-                  <date>17.&#160;Juni</date> für vollkommen gesichert halten mußte. Denn erst am
-                  <date>17.&#160;Juni</date> gab mir Herr Direktor <rs type="person" ref="#12671"
-                  >Schlenther</rs> das Erstaufführungsrecht meines Stückes, das ich am
-                  <date>14.&#160;Februar</date> ertheilt, mit folgenden Worten zurück: »Jedenfalls
+                  <date>17. Juni</date> für vollkommen gesichert halten mußte. Denn erst am
+                  <date>17. Juni</date> gab mir Herr Direktor <rs type="person" ref="#pmb12671">Schlenther</rs> das Erstaufführungsrecht meines Stückes, das ich am
+                  <date>14. Februar</date> ertheilt, mit folgenden Worten zurück: »Jedenfalls
                muß ich bei dem vorläufigen Resultat stehen bleiben, daß ich mich zu einem bestimmten
                Termin der Aufführung nicht verpflichten kann und daher <hi rend="spaced_out">lieber
                   auf das Recht der ersten Vorführung verzichte<c rendition="#dots" n="3"/>
                </hi>« Und ferner: »Natürlich könnte ich dann <hi rend="spaced_out">meinen Anspruch
                   auf die allererste Aufführung nicht mehr aufrechterhalten</hi>. Ich müßte es mir
-               selbstverständlich gefallen lassen, daß eventuell <rs type="place" ref="#168"
-                  >Berlin</rs> oder <rs type="place" ref="#45258">München</rs> vorangehen.« Um am
-                  <date>17.&#160;Juni</date> ein Erstaufführungsrecht zurückzugeben, mußte der Herr
-               Direktor <rs type="person" ref="#12671">Schlenther</rs> logischerweise selbst vier
+               selbstverständlich gefallen lassen, daß eventuell <rs type="place" ref="#pmb168">Berlin</rs> oder <rs type="place" ref="#pmb45258">München</rs> vorangehen.« Um am
+                  <date>17. Juni</date> ein Erstaufführungsrecht zurückzugeben, mußte der Herr
+               Direktor <rs type="person" ref="#pmb12671">Schlenther</rs> logischerweise selbst vier
                Monate lang der Ansicht gewesen sein, dieses Recht zu besitzen. Denn es ist
-               vollkommen unerfindlich, wie man die Ansprüche auf das Erstaufführungsrecht eines <rs
-                  type="work" ref="#29857" subtype="implied">Stückes</rs> aufgeben kann, das man
+               vollkommen unerfindlich, wie man die Ansprüche auf das Erstaufführungsrecht eines <rs type="work" ref="#pmb29857" subtype="implied">Stückes</rs> aufgeben kann, das man
                überhaupt niemals angenommen haben will.</p>
             <p rend="right">
                <hi rend="spaced_out">Arthur Schnitzler</hi>.</p>
-            <p><space dim="vertical" quantity="1" unit="paragraphs"/></p>
-            <p>Wenn wir recht verstehen, hat der <rs type="person" ref="#12671" subtype="implied"
-                  >Direktor</rs> das <rs type="work" ref="#29857" subtype="implied">Stück</rs>
+            <p>
+               <space dim="vertical" quantity="1" unit="paragraphs"/>
+            </p>
+            <p>Wenn wir recht verstehen, hat der <rs type="person" ref="#pmb12671" subtype="implied">Direktor</rs> das <rs type="work" ref="#pmb29857" subtype="implied">Stück</rs>
                sozusagen prinzipiell angenommen, ohne sich aber zu einem bestimmten Termin der
                Aufführung verpflichten zu wollen. Maßgebend ist da der Brief vom 13. Februar; aber
-               dieser ist doch nicht ganz so, daß der Verfasser die Annahme des <rs type="work"
-                  ref="#29857" subtype="implied">Stückes</rs> »für vollkommen gesichert halten
+               dieser ist doch nicht ganz so, daß der Verfasser die Annahme des <rs type="work" ref="#pmb29857" subtype="implied">Stückes</rs> »für vollkommen gesichert halten
                konnte«. Aber darauf kommt es auch nicht an. Nicht ob es sehr wahrscheinlich war oder
-               weniger, daß das <rs type="work" ref="#29857" subtype="implied">Stück</rs> angenommen
-               werden wird, das heißt daß sich der <rs type="person" ref="#12671" subtype="implied"
-                  >Direktor</rs> zu einem bestimmten Termin verpflichten werde, sondern <hi
-                  rend="spaced_out">das</hi> ist die Frage: ob die Annahme des <rs type="work"
-                  ref="#29857" subtype="implied">Stückes</rs>
+               weniger, daß das <rs type="work" ref="#pmb29857" subtype="implied">Stück</rs> angenommen
+               werden wird, das heißt daß sich der <rs type="person" ref="#pmb12671" subtype="implied">Direktor</rs> zu einem bestimmten Termin verpflichten werde, sondern <hi rend="spaced_out">das</hi> ist die Frage: ob die Annahme des <rs type="work" ref="#pmb29857" subtype="implied">Stückes</rs>
                <space unit="chars" quantity="1"/>
                <hi rend="spaced_out">vollzogen</hi> war. Das war sie aber nicht, und Herr Schnitzler
                ist mehr in seinen Erwartungen getäuscht, als in seinem – juristischen – Rechte
-               gekränkt worden. Da aber der <rs type="person" ref="#12671" subtype="implied"
-                  >Direktor</rs> seine Bedenken mit <hi rend="spaced_out">sachlichen</hi> Gründen
+               gekränkt worden. Da aber der <rs type="person" ref="#pmb12671" subtype="implied">Direktor</rs> seine Bedenken mit <hi rend="spaced_out">sachlichen</hi> Gründen
                belegte, so erscheint der Weg, den Herr Schnitzler gewählt hat, um seine Sache vor
                die Oeffentlichkeit zu bringen – in Form eines Protestes von nur einseitig
                informirten und zum Theile auch ziemlich <anchor type="commentary" xml:id="K_I105-2"/>
-               <rs type="person" subtype="implied" ref="#10815 #2150 #2416 #11707 #2167 #12816"
-                  >inkompetenten Leuten</rs>
-               <note type="commentary" xml:id="K_I105-2h">Die Verfasser der Protestnote waren <rs
-                     type="person" ref="#10815">Hermann Bahr</rs>, <rs type="person" ref="#2150"
-                     >Julius Bauer</rs>, <rs type="person" ref="#2416">Jakob Julius David</rs>, <rs
-                     type="person" ref="#11707">Robert Hirschfeld</rs>, <rs type="person"
-                     ref="#2167">Felix Salten</rs> und <rs type="person" ref="#12816">Ludwig
+               <rs type="person"
+                   subtype="implied"
+                   ref="#pmb10815 #pmb2150 #pmb2416 #pmb11707 #pmb2167 #pmb12816">inkompetenten Leuten</rs>
+               <note type="commentary" xml:id="K_I105-2h">Die Verfasser der Protestnote waren <rs type="person" ref="#pmb10815">Hermann Bahr</rs>, <rs type="person" ref="#pmb2150">Julius Bauer</rs>, <rs type="person" ref="#pmb2416">Jakob Julius David</rs>, <rs type="person" ref="#pmb11707">Robert Hirschfeld</rs>, <rs type="person" ref="#pmb2167">Felix Salten</rs> und <rs type="person" ref="#pmb12816">Ludwig
                      Speidel</rs>.</note> –, weder als nothwendig noch als angemessen. Es ist so,
                als ob man künstlich eine »Affaire« schaffen hätte wollen; für Leute, die nichts zu
                thun haben, scheint es auch eine geworden zu sein. Herr Schnitzler hat es durch sein
@@ -146,16 +130,529 @@
          </div>
          <div type="biographical">
             <div1>
-               <ref target="1900-09-15" type="schnitzlerDiary"/>
-               <quote>Jesuitische <rs type="work" ref="#58375" subtype="implied">Gegenerklärung</rs>
+               <ref target="1900-09-15" type="schnitzler-tagebuch"/>
+               <quote>Jesuitische <rs type="work" ref="#pmb58375" subtype="implied">Gegenerklärung</rs>
                   <space unit="chars" quantity="1"/>
-                  <rs type="person" ref="#12671">Schlenther</rs>s.</quote>
+                  <rs type="person" ref="#pmb12671">Schlenther</rs>s.</quote>
             </div1>
             <div1>
-               <ref target="1900-09-16" type="schnitzlerDiary"/>
+               <ref target="1900-09-16" type="schnitzler-tagebuch"/>
                <quote>Meine Gegenerklärung.</quote>
             </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb12671">
+               <persName>
+                  <forename>Paul</forename>
+                  <surname>Schlenther</surname>
+               </persName>
+               <birth>
+                  <date when="1854-08-20">20.08.1854</date>
+                  <settlement ref="pmb48092">
+                     <placeName type="pref">Chernyakhovsk</placeName>
+                     <location>
+                        <geo>54,63345 21,81557</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1916-04-30">30.04.1916</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+               <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19724</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118795112</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12671.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12671/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12671</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb12671</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp51242</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x002851cc</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q194574</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Paul_Schlenther</idno>
+            </person>
+            <person xml:id="pmb10815">
+               <persName>
+                  <forename>Hermann</forename>
+                  <surname>Bahr</surname>
+               </persName>
+               <birth>
+                  <date when="1863-07-19">19.07.1863</date>
+                  <settlement ref="pmb332">
+                     <placeName type="pref">Linz</placeName>
+                     <location>
+                        <geo>48,3 14,28333</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1934-01-15">15.01.1934</date>
+                  <settlement ref="pmb45258">
+                     <placeName type="pref">München</placeName>
+                     <location>
+                        <geo>48,13743 11,57549</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10815.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10815/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10815</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10815.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb10815</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp45908</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00280efa</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q94034</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hermann_Bahr</idno>
+               <idno type="URL" subtype="dx">https://dx.doi.org/10.1553/0x0001f7bb</idno>
+            </person>
+            <person xml:id="pmb2150">
+               <persName>
+                  <forename>Julius</forename>
+                  <surname>Bauer</surname>
+               </persName>
+               <birth>
+                  <date when="1853-10-15">15.10.1853</date>
+                  <settlement ref="pmb49199">
+                     <placeName type="pref">Szigetvár</placeName>
+                     <location>
+                        <geo>46,04865 17,80554</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1941-06-11">11.06.1941</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116085274</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13471</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2150.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2150/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2150</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp47236</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00280f56</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q14548950</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Julius_Bauer_(Journalist)</idno>
+               <idno type="URL" subtype="dx">https://dx.doi.org/10.1553/0x0001f7ff</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2150.html</idno>
+            </person>
+            <person xml:id="pmb2416">
+               <persName>
+                  <forename>Jakob Julius</forename>
+                  <surname>David</surname>
+               </persName>
+               <birth>
+                  <date when="1859-02-06">1859-02-06</date>
+                  <settlement ref="pmb64475">
+                     <placeName type="pref">Hranice</placeName>
+                     <location>
+                        <geo>49,56018 17,70413</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1906-11-20">1906-11-20</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118671103</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14363</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2416.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2416/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2416</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2416.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46593</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x0028128b</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q877506</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Jakob_Julius_David</idno>
+            </person>
+            <person xml:id="pmb11707">
+               <persName>
+                  <forename>Robert</forename>
+                  <surname>Hirschfeld</surname>
+               </persName>
+               <persName type="person_pseudonym">L. A. Terne</persName>
+               <birth>
+                  <date when="1857-09-17">17.09.1857</date>
+                  <settlement ref="pmb39803">
+                     <placeName type="pref">Žďár nad Sázavou</placeName>
+                     <location>
+                        <geo>49,5 16,03333</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1914-04-02">02.04.1914</date>
+                  <settlement ref="pmb30">
+                     <placeName type="pref">Salzburg</placeName>
+                     <location>
+                        <geo>47,80067 13,04532</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <occupation ref="pmb201">Kritiker/Kritikerin &gt;&gt; Musikkritiker/Musikkritikerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16228</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/119060620</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11707.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11707/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11707</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp52345</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00281e66</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2157560</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Robert_Hirschfeld</idno>
+               <idno type="URL" subtype="dx">https://dx.doi.org/10.1553/0x0001d17d</idno>
+            </person>
+            <person xml:id="pmb2167">
+               <persName>
+                  <forename>Felix</forename>
+                  <surname>Salten</surname>
+               </persName>
+               <persName type="person_geburtsname-vorname">Siegmund</persName>
+               <persName type="person_geburtsname_nachname">Salzmann</persName>
+               <persName type="legacy-name-merge">Salzmann, Siegmund</persName>
+               <birth>
+                  <date when="1869-09-06">06.09.1869</date>
+                  <settlement ref="pmb43471">
+                     <placeName type="pref">Budapest</placeName>
+                     <location>
+                        <geo>47,49835 19,04045</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1945-10-08">08.10.1945</date>
+                  <settlement ref="pmb484">
+                     <placeName type="pref">Zürich</placeName>
+                     <location>
+                        <geo>47,37174 8,54226</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118840819</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2167.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2167/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19542</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2167</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb2167</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43175</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0204</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284367</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q163747</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Felix_Salten</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2167.html</idno>
+            </person>
+            <person xml:id="pmb12816">
+               <persName>
+                  <forename>Ludwig</forename>
+                  <surname>Speidel</surname>
+               </persName>
+               <birth>
+                  <date when="1830-04-11">1830-04-11</date>
+                  <settlement ref="pmb39966">
+                     <placeName type="pref">Ulm</placeName>
+                     <location>
+                        <geo>48,39841 9,99155</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1906-02-03">1906-02-03</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20243</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117482684</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12816.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12816/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12816</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb12816</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49331</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1875043</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ludwig_Speidel</idno>
+               <idno type="URL" subtype="dx">https://dx.doi.org/10.1553/0x0001e2ea</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284caa</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb58372">
+               <title>Die Erklärung des Verfassers</title>
+               <title type="werk_link-anno">https://anno.onb.ac.at/cgi-content/anno?aid=aze&amp;datum=19000916&amp;seite=8&amp;zoom=33</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1900-09-16">1900-09-16</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58372/</idno>
+               <note type="work_kind">Brief &gt;&gt; Öffentlicher Brief &gt;&gt; Leserbrief</note>
+            </bibl>
+            <bibl xml:id="pmb29857">
+               <title>Der Schleier der Beatrice. Schauspiel in fünf Akten</title>
+               <title type="werk_arbeitstitel">Shawl</title>
+               <title type="werk_link">http://anno.onb.ac.at/cgi-content/anno-buch?apm=0&amp;aid=601&amp;teil=0111&amp;seite=00000001&amp;zoom=2</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date>1900-12-01</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.13</idno>
+               <idno type="URL" subtype="">http://anno.onb.ac.at/cgi-content/anno-buch?apm=0&amp;aid=601&amp;teil=0303&amp;seite=00000215&amp;zoom=2</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29857.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29857/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29857</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29857.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q97515407</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_Schleier_der_Beatrice</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb31345">
+               <title>Erklärung [Schleier der Beatrice]</title>
+               <title type="x_zum-loschen-markiert">X</title>
+               <title type="werk_bibliografische-angabe">Hermann Bahr, Julius Bauer, J. J. David, Robert Hirschfeld, Felix Salten und Ludwig Speidel: Erklärung. In: Neues Wiener Tagblatt [u. a.], Jg. 34, Nr. 252, 14.  9.  1900, S. 9–10</title>
+               <title type="werk_link-anno">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19000914&amp;seite=9&amp;zoom=33</title>
+               <author ref="pmb10815" role="hat-geschaffen">Bahr, Hermann</author>
+               <author ref="pmb2167" role="hat-geschaffen">Salten, Felix</author>
+               <author ref="pmb2150" role="hat-geschaffen">Bauer, Julius</author>
+               <author ref="pmb11707" role="hat-geschaffen">Hirschfeld, Robert</author>
+               <author ref="pmb12816" role="hat-geschaffen">Speidel, Ludwig</author>
+               <author ref="pmb2416" role="hat-geschaffen">David, Jakob Julius</author>
+               <date>1900-09-14</date>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31345.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31345/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb31345</idno>
+               <note type="work_kind">Protestschreiben</note>
+            </bibl>
+            <bibl xml:id="pmb58375">
+               <title>Eine Erklärung des Burgtheaterdirektors</title>
+               <title type="werk_link-anno">https://anno.onb.ac.at/cgi-content/anno?aid=aze&amp;datum=19000915&amp;seite=8&amp;zoom=51</title>
+               <author ref="pmb12671" role="hat-geschaffen">Schlenther, Paul</author>
+               <date when="1900-09-15">1900-09-15</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58375/</idno>
+               <note type="work_kind">Brief &gt;&gt; Öffentlicher Brief &gt;&gt; Leserbrief</note>
+            </bibl>
+            <bibl xml:id="pmb41202">
+               <title>Arbeiter-Zeitung</title>
+               <title type="werk_link">http://anno.onb.ac.at/cgi-content/anno?apm=0&amp;aid=aze</title>
+               <author ref="pmb59249" role="hat-herausgegeben">Kovanda, Václav</author>
+               <date to="1991-10-31">12.7.1881  – 31.10.1991</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41202/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41202</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb41202</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q627083</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arbeiter-Zeitung</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+            <place xml:id="pmb168">
+               <placeName>Berlin</placeName>
+               <placeName type="alternative-name">Hauptstadt Berlin</placeName>
+               <placeName type="alternative-name">Barlīn</placeName>
+               <placeName type="alternative-name">Reichshauptstadt Berlin</placeName>
+               <placeName type="alternative-name">Berolino</placeName>
+               <placeName type="legacy-name-merge">B-n</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPLC</desc>
+               <desc type="entity_type_id">1418</desc>
+               <location type="coords">
+                  <geo>52,52437 13,41053</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb151">Deutschland</placeName>
+                  <geo>51,5 10,5</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb168</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92171.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
+            </place>
+            <place xml:id="pmb45258">
+               <placeName>München</placeName>
+               <placeName type="legacy-name-merge">München?</placeName>
+               <placeName type="legacy-name-merge">Munich</placeName>
+               <placeName type="alternative-name">Monacho</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPLA</desc>
+               <desc type="entity_type_id">1415</desc>
+               <location type="coords">
+                  <geo>48,13743 11,57549</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb314">Bayern</placeName>
+                  <geo>49,0 11,5</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb151">Deutschland</placeName>
+                  <geo>51,5 10,5</geo>
+               </location>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4127793-4</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/38129/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/45258/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2867714/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb45258</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb45258</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb45258.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1726</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/M%C3%BCnchen</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb36247">
+               <orgName>Burgtheater</orgName>
+               <orgName type="alternative-name">Burgtheater GmbH</orgName>
+               <desc type="entity_type">Theater</desc>
+               <desc type="entity_type_id">1012</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb51.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36789/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51010/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2775259/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb51</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb51</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb14">Burgtheater</placeName>
+                  <geo>48,210333 16,361139</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb14.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/14/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb14</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb14.html</idno>
+                  <idno type="URL" subtype="geonames">https://www.geonames.org/6354992/</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb44649">Schlosstheater Schönbrunn</placeName>
+                  <geo>48,186667 16,3125</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44649/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb44649</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2244724</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Schlosstheater_Sch%C3%B6nbrunn</idno>
+               </location>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/38633-9</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36247/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36247</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb36247</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q308720</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Burgtheater</idno>
+               <note type="apis_dates">
+                  <date notBefore="1852-01-01" when="1852-07-01">1852</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

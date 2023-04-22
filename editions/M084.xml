@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="M084">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="M084">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#58388">Ein Brief Artur Schnitzlers an den Herausgeber des Neuen
-               Wiener Journals, 31.&#8239;5.&#8239;1925</title>
-            <author ref="#2121">Schnitzler, Arthur</author>
+            <title level="a" ref="#pmb58388">Ein Brief Artur Schnitzlers an den Herausgeber des Neuen
+               Wiener Journals, 31. 5. 1925</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -28,14 +30,14 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#2121">Schnitzler, Arthur</author>
-                     <title level="a" ref="#58388">Ein Brief Artur Schnitzlers an den Herausgeber
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <title level="a" ref="#pmb58388">Ein Brief Artur Schnitzlers an den Herausgeber
                         des Neuen Wiener Journals J. Lippowitz</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#36376">Neues Wiener Journal</title>
+                     <title level="j" ref="#pmb36376">Neues Wiener Journal</title>
                      <imprint>
-                        <date when="1925-05-31" n="1">31.&#8239;5.&#8239;1925</date>
+                        <date when="1925-05-31" n="1">31. 5. 1925</date>
                      </imprint>
                      <biblScope unit="jg">33</biblScope>
                      <biblScope unit="nr">11.324</biblScope>
@@ -59,22 +61,17 @@
    <text type="text">
       <body>
          <div type="original">
-            <head>Ein Brief Arthur Schnitzlers an den Herausgeber des »<rs type="work" ref="#36376"
-                  >Neuen Wiener Journal</rs>s« <rs type="person" ref="#4054">J.
+            <head>Ein Brief Arthur Schnitzlers an den Herausgeber des »<rs type="work" ref="#pmb36376">Neuen Wiener Journal</rs>s« <rs type="person" ref="#pmb4054">J.
                Lippowitz</rs>.</head>
-            <p>Wir wollten bei unserer Enquete über die <anchor type="commentary" xml:id="K_M084-4"
-               />Anregungen des Dr. <rs type="person" ref="#58102">Kürschner</rs><note
-                  type="commentary" xml:id="K_M084-4h">Der von einer Jury vergebene <rs type="org"
-                     ref="#63386">Lippowitz-Preis der »Concordia«</rs> wurde <date>1925</date> an <rs
-                     type="person" ref="#58102">Arthur Kürschner</rs> für seinen Essay <rs
-                     type="work" ref="#63383">Abbau des Rassen- und Klassenhasses. Schaffet ein
-                     internationales Schulamt</rs> (<bibl><rs type="work" ref="#36376">Neues Wiener
-                        Journal</rs>, Jg.&#8239;33, Nr.&#8239;11.303,
-                        <date>10.&#8239;5.&#8239;1925</date>, S.&#8239;1–2</bibl>) zuerkannt. Darin
+            <p>Wir wollten bei unserer Enquete über die <anchor type="commentary" xml:id="K_M084-4"/>Anregungen des Dr. <rs type="person" ref="#pmb58102">Kürschner</rs>
+               <note type="commentary" xml:id="K_M084-4h">Der von einer Jury vergebene <rs type="org" ref="#pmb63386">Lippowitz-Preis der »Concordia«</rs> wurde <date>1925</date> an <rs type="person" ref="#pmb58102">Arthur Kürschner</rs> für seinen Essay <rs type="work" ref="#pmb63383">Abbau des Rassen- und Klassenhasses. Schaffet ein
+                     internationales Schulamt</rs> (<bibl>
+                     <rs type="work" ref="#pmb36376">Neues Wiener
+                        Journal</rs>, Jg. 33, Nr. 11.303,
+                        <date>10. 5. 1925</date>, S. 1–2</bibl>) zuerkannt. Darin
                forderte dieser eine supranationale Einrichtung, die Volksbildung und Schulstoff auf 
-               eine <rs type="place" ref="#468">europäische</rs> Ebene hebt.</note>
-               den illustren Namen Arthur Schnitzlers nicht missen. Unser Mitarbeiter <rs
-                  type="person" ref="#2553">Hermann Menkes</rs> wandte sich an den Dichter mit der
+               eine <rs type="place" ref="#pmb468">europäische</rs> Ebene hebt.</note>
+               den illustren Namen Arthur Schnitzlers nicht missen. Unser Mitarbeiter <rs type="person" ref="#pmb2553">Hermann Menkes</rs> wandte sich an den Dichter mit der
                Bitte, sich über die wichtige Frage zu äußern. Schnitzler lehnte ab, indem er
                erklärte, daß er sich grundsätzlich an Zeitungsrundfragen nicht beteilige. Darauf
                schrieb ihm unser Herausgeber, daß es sich hier nicht um eine der gewöhnlichen
@@ -89,21 +86,19 @@
                <date>23. Mai 1925</date>. </p>
             <p>Sehr verehrter Herr Chefredakteur!</p>
             <p>Auf Ihr liebenswürdiges Schreiben vom <date>9. d. M.</date>, in dem Sie mich, wie
-               vorher schon <rs type="person" ref="#2553">Hermann Menkes</rs>, ersuchen, mich in
-               irgendeiner Weise zu der Anregung des Dr. <rs type="person" ref="#58102"
-                  >Kürschner</rs> zu äußern, erlaube ich mir zu erwidern, daß ich auf einem anderen
+               vorher schon <rs type="person" ref="#pmb2553">Hermann Menkes</rs>, ersuchen, mich in
+               irgendeiner Weise zu der Anregung des Dr. <rs type="person" ref="#pmb58102">Kürschner</rs> zu äußern, erlaube ich mir zu erwidern, daß ich auf einem anderen
                prinzipiellen Standpunkt stehe als Sie, verehrter Herr Chefredakteur. Sie präzisieren
                den Ihren dahin, daß die »prominentesten unter den literarischen Führern geradezu die
                moralische Verpflichtung haben, bei einer so bedeutsamen kulturellen Aktion (wie es
-               die Enquete über die <rs type="person" ref="#58102">Kürschner</rs>sche Idee sei, ein
-               internationales Schulamt in <rs type="place" ref="#562">Genf</rs> zu schaffen etc.
+               die Enquete über die <rs type="person" ref="#pmb58102">Kürschner</rs>sche Idee sei, ein
+               internationales Schulamt in <rs type="place" ref="#pmb562">Genf</rs> zu schaffen etc.
                etc.) nicht abseits zu stehen. Ich bin demgegenüber vor allem der Meinung, daß es
                keineswegs ein »Abseitsstehen« bedeutet, wenn man es vermeidet, öffentlich das Wort
                zu irgendeiner kulturell noch so bedeutsamen Frage zu ergreifen; ferner bestreite ich
                mit aller Entschiedenheit die von Ihnen behauptete »moralische Verpflichtung« eines
                freien Schriftstellers, in irgendeinem Falle »nicht abseits« zu stehen. Nichts wäre
-               leichter und wohlfeiler, als sich zu der <rs type="person" ref="#58102"
-                  >Kürschner</rs>schen Idee mit ein paar Worten, sei es völlig zustimmend und
+               leichter und wohlfeiler, als sich zu der <rs type="person" ref="#pmb58102">Kürschner</rs>schen Idee mit ein paar Worten, sei es völlig zustimmend und
                hoffnungsvoll, sei es (in Hinsicht auf den Erfolg, der von ihm vorgeschlagenen
                Aktion) skeptisch zu äußern – ich aber für meinen Teil empfände es vor allem als
                höchst prätentiös, wenn ich mich zu einer solchen Sache überhaupt äußern wollte, ohne
@@ -119,9 +114,7 @@
                Anschauung dramatisch, episch, essayistisch, aphoristisch zum Ausdruck zu bringen den
                Wunsch hege. Ich muß nicht erst betonen, daß diese Worte weder eine Stellungnahme
                gegen Enqueten im allgemeinen, noch eine solche gegen die von Ihnen veranstaltete
-               Enquete, noch gar eine gegen den vorzüglichen <rs
-                  type="work" ref="#63383" subtype="implied">Artikel</rs> von Dr. <rs type="person"
-                  ref="#58102">Kürschner</rs> zu bedeuten haben, sondern daß ich nur mit aller
+               Enquete, noch gar eine gegen den vorzüglichen <rs type="work" ref="#pmb63383" subtype="implied">Artikel</rs> von Dr. <rs type="person" ref="#pmb58102">Kürschner</rs> zu bedeuten haben, sondern daß ich nur mit aller
                Entschiedenheit das Bestehen einer moralischen Verpflichtung in Abrede stelle, mich
                an irgendeiner Enquete zu beteiligen, Meinungen abzugeben, mich kritisch zu äußern,
                kurz irgendwo und sei es im allerrespektabelsten Kreise, und über irgendein Problem,
@@ -142,20 +135,299 @@
          </div>
          <div type="biographical">
             <div1>
-               <bibl>Schnitzler an <rs type="person" ref="#2553">Hermann Menkes</rs>,
-                     <date>18.&#8239;5.&#8239;1925</date></bibl>
-               <quote><p><date>18.&#8239;5.&#8239;1925</date>.</p><p>Verehrtester Herr
-                     Menkes.</p><p>Gewiss ist es rein technisch genommen nicht schwer zehn Zeilen zu
+               <bibl>Schnitzler an <rs type="person" ref="#pmb2553">Hermann Menkes</rs>,
+                     <date>18. 5. 1925</date>
+               </bibl>
+               <quote>
+                  <p>
+                     <date>18. 5. 1925</date>.</p>
+                  <p>Verehrtester Herr
+                     Menkes.</p>
+                  <p>Gewiss ist es rein technisch genommen nicht schwer zehn Zeilen zu
                      schreiben, aber Sie wissen ja, dass ich öffentlich nicht als Kritiker
                      aufzutreten pflege, <anchor type="label" xml:id="M084_B_L_dergleichen"/>Rundfragen und dergleichen nicht beantworte und so bitte
                      ich Sie auch diesmal freundlichst verzichten zu wollen und im übrigen meiner
-                     alten Sympathie und Hochschätzung versichert zu sein.</p><p>Herzlichst
-                     grüssend</p><p>Ihr aufrichtig ergebener</p><p>Herrn <rs type="person"
-                        ref="#2553">Hermann Menkes</rs>, <rs type="org" ref="#29320">Neues Wr.
-                        Journal</rs>, <rs type="place" ref="#52670">Wien&#160;I.
-                        Biberstr.&#160;5</rs>.</p></quote>
+                     alten Sympathie und Hochschätzung versichert zu sein.</p>
+                  <p>Herzlichst
+                     grüssend</p>
+                  <p>Ihr aufrichtig ergebener</p>
+                  <p>Herrn <rs type="person" ref="#pmb2553">Hermann Menkes</rs>, <rs type="org" ref="#pmb29320">Neues Wr.
+                        Journal</rs>, <rs type="place" ref="#pmb52670">Wien I.
+                        Biberstr. 5</rs>.</p>
+               </quote>
             </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb4054">
+               <persName>
+                  <forename>Jakob</forename>
+                  <surname>Lippowitz</surname>
+               </persName>
+               <birth>
+                  <date when="1865-10-09">09.10.1865</date>
+                  <settlement ref="pmb864">
+                     <placeName type="pref">Leipzig</placeName>
+                     <location>
+                        <geo>51,33962 12,37129</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1934-07-04">04.07.1934</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/139319417</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17583</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb4054.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4054/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb4054</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46698</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=L#DWpers0153</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00282a3c</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q29534024</idno>
+            </person>
+            <person xml:id="pmb58102">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Kürschner</surname>
+               </persName>
+               <birth>
+                  <date when="1902-01-01">1901/1902</date>
+               </birth>
+               <death>
+                  <date when="1939-03-01">März 1939</date>
+                  <settlement ref="pmb906">
+                     <placeName type="pref">Taormina</placeName>
+                     <location>
+                        <geo>37,85358 15,28851</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb115">Dramaturg/Dramaturgin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58102/</idno>
+            </person>
+            <person xml:id="pmb2553">
+               <persName>
+                  <forename>Hermann</forename>
+                  <surname>Menkes</surname>
+               </persName>
+               <birth>
+                  <date when="1869-07-15">15.07.1869</date>
+                  <settlement ref="pmb53820">
+                     <placeName type="pref">Brody (Ukraine)</placeName>
+                     <location>
+                        <geo>50,08791 25,15027</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-06-11">11.06.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116882239</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18078</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2553.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2553/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q94875149</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hermann_Menkes</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb36376">
+               <title>Neues Wiener Journal</title>
+               <title type="werk_link-anno">http://anno.onb.ac.at/cgi-content/anno?aid=nwj</title>
+               <author ref="pmb36371" role="hat-einen-beitrag-geschaffen-zu">Papp, Desiderius</author>
+               <author ref="pmb10815" role="hat-einen-beitrag-geschaffen-zu">Bahr, Hermann</author>
+               <date to="1939-01-01">1893  – 1939</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36376/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36376</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb36376</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+            <bibl xml:id="pmb63383">
+               <title>Abbau des Rassen- und Klassenhasses. Schaffet ein internationales Schulamt</title>
+               <title type="werk_link-anno">https://anno.onb.ac.at/cgi-content/anno?aid=nwj&amp;datum=19250510&amp;seite=1&amp;zoom=33&amp;query=%22kürschner%22&amp;ref=anno-search</title>
+               <author ref="pmb58102" role="hat-geschaffen">Kürschner, Arthur</author>
+               <date>1925-05-10</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63383/</idno>
+               <note type="work_kind">Epik &gt;&gt; Aufsatz</note>
+            </bibl>
+            <bibl xml:id="pmb58388">
+               <title>Ein Brief Artur Schnitzlers an den Herausgeber des Neuen Wiener Journals</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1925-05-31">1925-05-31</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58388/</idno>
+               <note type="work_kind">Brief &gt;&gt; Öffentlicher Brief &gt;&gt; Leserbrief</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb468">
+               <placeName>Europa</placeName>
+               <desc type="entity_type">Kontinent (A.KNT)</desc>
+               <desc type="entity_type_id">49</desc>
+               <location type="coords">
+                  <geo>48,69096 9,14062</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q46</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/6255148/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb468.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/468/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb468</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb468</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb468.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Europa</idno>
+            </place>
+            <place xml:id="pmb562">
+               <placeName>Genf</placeName>
+               <placeName type="legacy-name-merge">Drize, Kreis Genf</placeName>
+               <placeName type="legacy-name-merge">Geneva</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>46,20222 6,14569</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb43435">Schweiz</placeName>
+                  <geo>47,00016 8,01427</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q71</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb562.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/562/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/22973/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb562</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64309/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2660646/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb562</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb562.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/99397/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4020137-5</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Genf</idno>
+            </place>
+            <place xml:id="pmb52670">
+               <placeName>Biberstraße</placeName>
+               <desc type="entity_type">Straße (K.STR)</desc>
+               <desc type="entity_type_id">26</desc>
+               <location type="coords">
+                  <geo>48,209725072054226 16,381223898207065</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/52670/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb52670</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb63386">
+               <orgName>Lippowitz-Preis der »Concordia«</orgName>
+               <desc type="entity_type">Literaturpreis</desc>
+               <desc type="entity_type_id">993</desc>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63386/</idno>
+            </org>
+            <org xml:id="pmb29320">
+               <orgName>Neues Wiener Journal</orgName>
+               <orgName type="werk_link-anno">http://anno.onb.ac.at/info/nwj_info.htm</orgName>
+               <desc type="entity_type">Tageszeitungsredaktion</desc>
+               <desc type="entity_type_id">972</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb1270">Nussdorfer Straße</placeName>
+                  <geo>48,22921 16,35461</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1270/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb1270</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb52670">Biberstraße</placeName>
+                  <geo>48,209725072054226 16,381223898207065</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/52670/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb52670</idno>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29320.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29320/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29320</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb29320</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1980429</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Neues_Wiener_Journal</idno>
+               <note type="apis_dates">
+                  <date from="1893-01-01" to="1939-07-02">1893  – 1939</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

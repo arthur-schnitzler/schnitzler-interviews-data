@@ -3212,10 +3212,10 @@
          </xsl:otherwise>
       </xsl:choose>
       <xsl:choose>
-         <xsl:when test="ref[@type = 'schnitzlerDiary']">
+         <xsl:when test="ref[@type = 'schnitzler-tagebuch']">
             <xsl:text>\emph{Tagebuch}, </xsl:text>
             <xsl:value-of select="
-                  format-date(ref[@type = 'schnitzlerDiary']/@target,
+                  format-date(ref[@type = 'schnitzler-tagebuch']/@target,
                   '[D1].{\,}[M1].{\,}[Y0001]')"/>
             <xsl:text>: </xsl:text>
          </xsl:when>
@@ -5631,7 +5631,7 @@
       <xsl:value-of select="substring-after(@target, '#')"/>
       <xsl:text>}</xsl:text>
    </xsl:template>
-   <xsl:template match="ref[@type = 'schnitzlerDiary']">
+   <xsl:template match="ref[@type = 'schnitzler-tagebuch']">
       <xsl:if test="not(@subtype = 'date-only')">
          <xsl:choose>
             <xsl:when test="@subtype = 'see'">

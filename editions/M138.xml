@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="M138">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="M138">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#60214">Zwei Fragen und ihre Beantwortung,
-               1.&#8239;1.&#8239;1925</title>
-            <author ref="#2121">Schnitzler, Arthur</author>
+            <title level="a" ref="#pmb60214">Zwei Fragen und ihre Beantwortung,
+               1. 1. 1925</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -28,16 +30,16 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title level="a" ref="#60214">Zwei Fragen und ihre Beantwortung</title>
+                     <title level="a" ref="#pmb60214">Zwei Fragen und ihre Beantwortung</title>
                   </analytic>
                   <monogr>
-                     <title level="m" ref="#60258">Almanach auf das Jahr 1925</title>
+                     <title level="m" ref="#pmb60258">Almanach auf das Jahr 1925</title>
                      <imprint>
                         <publisher>Bukum</publisher>
                         <pubPlace>Wien</pubPlace>
                         <date when="1925-01-01" n="1">1925</date>
                      </imprint>
-                     <biblScope unit="pp">41–53, hier S.&#8239;51</biblScope>
+                     <biblScope unit="pp">41–53, hier S. 51</biblScope>
                   </monogr>
                </biblStruct>
                <biblStruct>
@@ -45,9 +47,9 @@
                      <title level="a">Das beste Buch</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#60214">Neues Wiener Journal</title>
+                     <title level="j" ref="#pmb60214">Neues Wiener Journal</title>
                      <imprint>
-                        <date when="1925-01-01">1.&#8239;1.&#8239;1925</date>
+                        <date when="1925-01-01">1. 1. 1925</date>
                      </imprint>
                      <biblScope unit="jg">33</biblScope>
                      <biblScope unit="nr">11.176</biblScope>
@@ -83,55 +85,1291 @@
          <change who="MAM" when="2021-12-15">Durchsicht mit Almanach</change>
       </revisionDesc>
    </teiHeader>
-   <!-- https://anno.onb.ac.at/cgi-content/anno?aid=nwj&datum=19250101&seite=10&zoom=33&query=%22voltaire%2Bschnitzler%22~4&ref=anno-search -->
    <text type="article">
       <body>
          <div type="original">
-            <head><anchor type="commentary" xml:id="K_I138-1"/>Zwei Fragen und ihre
-                  Beantwortung<note type="commentary" xml:id="K_I138-1h">Neben <rs type="person"
-                     ref="#2121">Schnitzler</rs> stammen die Antworten von: <rs type="person"
-                     ref="#10788">Raoul Auernheimer</rs>, <rs type="person" ref="#4752">Max
-                     Beckmann</rs>, <rs type="person" ref="#14110">Richard Arnold Bermann</rs>, <rs
-                     type="person" ref="#10955">Franz Blei</rs>, <rs type="person" ref="#11002"
-                     >Felix Braun</rs>, <rs type="person" ref="#6441">Max Brod</rs>, <rs
-                     type="person" ref="#6927">Kasimir Edschmid</rs>, <rs type="person" ref="#6964"
-                     >Anton von Eiselsberg</rs>, <rs type="person" ref="#11265">Paul Ernst</rs>, <rs
-                     type="person" ref="#11488">Rudolf Goldscheid</rs>, <rs type="person"
-                     ref="#11679">Hermann Hesse</rs>, <rs type="person" ref="#11749">Arthur
-                     Holitscher</rs>, <rs type="person" ref="#11813">Siegfried Jacobsohn</rs>, <rs
-                     type="person" ref="#8190">Hermann von Keyserling</rs>, <rs type="person"
-                     ref="#8363">Anton Kuh</rs>, <rs type="person" ref="#8673">Ernst Lissauer</rs>,
-                     <rs type="person" ref="#8729">Emil Lucka</rs>, <rs type="person" ref="#12126"
-                     >Emil Ludwig</rs>, <rs type="person" ref="#4061">Maria Mayer</rs>, <rs
-                     type="person" ref="#28711">Julius Meinl</rs>, <rs type="person" ref="#12225"
-                     >Max Mell</rs>, <rs type="person" ref="#12248">Gustav Meyrink</rs>, <rs
-                     type="person" ref="#8994">Robert Musil</rs>, <rs type="person" ref="#12540">Ida
-                     Roland</rs>, <rs type="person" ref="#12640">René Schickele</rs>, <rs
-                     type="person" ref="#9730">Wilhelm Schmidtbonn</rs>, <rs type="person"
-                     ref="#12685">Oscar A. H. Schmitz</rs>, <rs type="person" ref="#60247">Hermann
-                     Struck</rs>, <rs type="person" ref="#10478">Ernst Weiss</rs>, <rs type="person"
-                     ref="#13122">Anton Wildgans</rs>, <rs type="person" ref="#13208">Arnold
-                     Zweig</rs> und <rs type="person" ref="#13212">Stefan Zweig</rs>.</note></head>
-            <p rend="center"><hi rend="spaced_out">Die Fragen:</hi></p>
-            <p>1.&#160;Welches Buch des Jahres hat auf Sie den stärksten Eindruck
-               gemacht?<lb/>2.&#160;Wodurch ist Ihrer Meinung nach dieser Eindruck begründet?</p>
+            <head>
+               <anchor type="commentary" xml:id="K_I138-1"/>Zwei Fragen und ihre
+                  Beantwortung<note type="commentary" xml:id="K_I138-1h">Neben <rs type="person" ref="#pmb2121">Schnitzler</rs> stammen die Antworten von: <rs type="person" ref="#pmb10788">Raoul Auernheimer</rs>, <rs type="person" ref="#pmb4752">Max
+                     Beckmann</rs>, <rs type="person" ref="#pmb14110">Richard Arnold Bermann</rs>, <rs type="person" ref="#pmb10955">Franz Blei</rs>, <rs type="person" ref="#pmb11002">Felix Braun</rs>, <rs type="person" ref="#pmb6441">Max Brod</rs>, <rs type="person" ref="#pmb6927">Kasimir Edschmid</rs>, <rs type="person" ref="#pmb6964">Anton von Eiselsberg</rs>, <rs type="person" ref="#pmb11265">Paul Ernst</rs>, <rs type="person" ref="#pmb11488">Rudolf Goldscheid</rs>, <rs type="person" ref="#pmb11679">Hermann Hesse</rs>, <rs type="person" ref="#pmb11749">Arthur
+                     Holitscher</rs>, <rs type="person" ref="#pmb11813">Siegfried Jacobsohn</rs>, <rs type="person" ref="#pmb8190">Hermann von Keyserling</rs>, <rs type="person" ref="#pmb8363">Anton Kuh</rs>, <rs type="person" ref="#pmb8673">Ernst Lissauer</rs>,
+                     <rs type="person" ref="#pmb8729">Emil Lucka</rs>, <rs type="person" ref="#pmb12126">Emil Ludwig</rs>, <rs type="person" ref="#pmb4061">Maria Mayer</rs>, <rs type="person" ref="#pmb28711">Julius Meinl</rs>, <rs type="person" ref="#pmb12225">Max Mell</rs>, <rs type="person" ref="#pmb12248">Gustav Meyrink</rs>, <rs type="person" ref="#pmb8994">Robert Musil</rs>, <rs type="person" ref="#pmb12540">Ida
+                     Roland</rs>, <rs type="person" ref="#pmb12640">René Schickele</rs>, <rs type="person" ref="#pmb9730">Wilhelm Schmidtbonn</rs>, <rs type="person" ref="#pmb12685">Oscar A. H. Schmitz</rs>, <rs type="person" ref="#pmb60247">Hermann
+                     Struck</rs>, <rs type="person" ref="#pmb10478">Ernst Weiss</rs>, <rs type="person" ref="#pmb13122">Anton Wildgans</rs>, <rs type="person" ref="#pmb13208">Arnold
+                     Zweig</rs> und <rs type="person" ref="#pmb13212">Stefan Zweig</rs>.</note>
+            </head>
+            <p rend="center">
+               <hi rend="spaced_out">Die Fragen:</hi>
+            </p>
+            <p>1. Welches Buch des Jahres hat auf Sie den stärksten Eindruck
+               gemacht?<lb/>2. Wodurch ist Ihrer Meinung nach dieser Eindruck begründet?</p>
             <p>
                <gap reason="outOfScope" unit="paragraphs" quantity="30"/>
             </p>
-            <p><space dim="vertical" unit="lines" quantity="1"/></p>
+            <p>
+               <space dim="vertical" unit="lines" quantity="1"/>
+            </p>
             <p>Stärkster Bucheindruck dieses Jahres:</p>
-            <p rend="center"><hi rend="antiqua">
-                  <rs type="person" ref="#10992">Brandes</rs>: <anchor type="commentary"
-                     xml:id="K_I138-2"/>
-                  <rs type="work" ref="#33237">Voltaire</rs>
-                  <note type="commentary" xml:id="K_I138-2h">Die Lektüre dauerte vom <ref
-                        target="1924-02-08" type="schnitzlerDiary" subtype="date-only"/> bis zum
-                        <ref target="1924-05-07" type="schnitzlerDiary" subtype="date-only"/>, wobei
-                     sich <rs type="person" ref="#2121">Schnitzler</rs> erst drei Tage später den
-                     Abschluss notiert und dazu: »<quote>wunderbares Buch</quote>«.</note>.</hi></p>
+            <p rend="center">
+               <hi rend="antiqua">
+                  <rs type="person" ref="#pmb10992">Brandes</rs>: <anchor type="commentary" xml:id="K_I138-2"/>
+                  <rs type="work" ref="#pmb33237">Voltaire</rs>
+                  <note type="commentary" xml:id="K_I138-2h">Die Lektüre dauerte vom <ref target="1924-02-08" type="schnitzler-tagebuch" subtype="date-only"/> bis zum
+                        <ref target="1924-05-07" type="schnitzler-tagebuch" subtype="date-only"/>, wobei
+                     sich <rs type="person" ref="#pmb2121">Schnitzler</rs> erst drei Tage später den
+                     Abschluss notiert und dazu: »<quote>wunderbares Buch</quote>«.</note>.</hi>
+            </p>
             <p rend="right">
                <hi rend="antiqua">Arthur Schnitzler</hi>.</p>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb10788">
+               <persName>
+                  <forename>Raoul</forename>
+                  <surname>Auernheimer</surname>
+               </persName>
+               <birth>
+                  <date when="1876-04-15">15.04.1876</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1948-01-06">06.01.1948</date>
+                  <settlement ref="pmb47770">
+                     <placeName type="pref">Oakland</placeName>
+                     <location>
+                        <geo>37,80437 -122,2708</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13305</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505033</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10788.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10788/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10788</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10788.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb10788</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp52017</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00280eba</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q85479</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Raoul_Auernheimer</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb10788.html</idno>
+            </person>
+            <person xml:id="pmb4752">
+               <persName>
+                  <forename>Max</forename>
+                  <surname>Beckmann</surname>
+               </persName>
+               <birth>
+                  <date when="1884-02-12">1884-02-12</date>
+                  <settlement ref="pmb864">
+                     <placeName type="pref">Leipzig</placeName>
+                     <location>
+                        <geo>51,33962 12,37129</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1950-12-27">1950-12-27</date>
+                  <settlement ref="pmb44053">
+                     <placeName type="pref">New York City</placeName>
+                     <location>
+                        <geo>40,71427 -74,00597</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb110">Bildender Künstler/Bildende Künstlerin &gt;&gt; Maler/Malerin</occupation>
+               <occupation ref="pmb136">Bildender Künstler/Bildende Künstlerin &gt;&gt; Grafiker/Grafikerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118508210</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb4752.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4752/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q164683</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Max_Beckmann</idno>
+            </person>
+            <person xml:id="pmb14110">
+               <persName>
+                  <forename>Richard Arnold</forename>
+                  <surname>Bermann</surname>
+               </persName>
+               <persName type="person_pseudonym">Arnold Höllriegel</persName>
+               <birth>
+                  <date when="1883-04-24">24.04.1883</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1939-09-03">03.09.1939</date>
+                  <settlement ref="pmb60998">
+                     <placeName type="pref">Saratoga Springs</placeName>
+                     <location>
+                        <geo>43,08313 -73,78457</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13657</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/14110/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/119292254/about</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Richard_Arnold_Bermann</idno>
+            </person>
+            <person xml:id="pmb10955">
+               <persName>
+                  <forename>Franz</forename>
+                  <surname>Blei</surname>
+               </persName>
+               <birth>
+                  <date when="1871-01-18">18.01.1871</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1942-07-10">10.07.1942</date>
+                  <settlement ref="pmb61006">
+                     <placeName type="pref">Westbury</placeName>
+                     <location>
+                        <geo>40,75566 -73,58763</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13774</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118511653</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10955.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10955/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10955</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10955.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb10955</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43457</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q85517</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Franz_Blei</idno>
+               <idno type="URL" subtype="dx">https://dx.doi.org/10.1553/0x0001f8c1</idno>
+            </person>
+            <person xml:id="pmb11002">
+               <persName>
+                  <forename>Felix</forename>
+                  <surname>Braun</surname>
+               </persName>
+               <birth>
+                  <date when="1885-11-04">04.11.1885</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1973-11-29">29.11.1973</date>
+                  <settlement ref="pmb865">
+                     <placeName type="pref">Klosterneuburg</placeName>
+                     <location>
+                        <geo>48,30521 16,32522</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13929</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118514598</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11002.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11002/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11002</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43156</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q89416</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Felix_Braun</idno>
+            </person>
+            <person xml:id="pmb6441">
+               <persName>
+                  <forename>Max</forename>
+                  <surname>Brod</surname>
+               </persName>
+               <birth>
+                  <date when="1884-05-27">27.05.1884</date>
+                  <settlement ref="pmb652">
+                     <placeName type="pref">Prag</placeName>
+                     <location>
+                        <geo>50,08333 14,46667</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1968-12-20">20.12.1968</date>
+                  <settlement ref="pmb45970">
+                     <placeName type="pref">Tel Aviv</placeName>
+                     <location>
+                        <geo>32,08088 34,78057</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13987</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118515624</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/6441/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6441.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49910</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=B#DWpers2031</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q28480</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Max_Brod</idno>
+               <idno type="URL" subtype="dx">https://dx.doi.org/10.1553/0x0001f962</idno>
+            </person>
+            <person xml:id="pmb6927">
+               <persName>
+                  <forename>Kasimir</forename>
+                  <surname>Edschmid</surname>
+               </persName>
+               <birth>
+                  <date when="1890-10-05">05.10.1890</date>
+                  <settlement ref="pmb834">
+                     <placeName type="pref">Darmstadt</placeName>
+                     <location>
+                        <geo>49,87167 8,65027</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1966-08-31">31.08.1966</date>
+                  <settlement ref="pmb61018">
+                     <placeName type="pref">Vulpera</placeName>
+                     <location>
+                        <geo>46,78631 10,28346</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14619</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118687859</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb6927.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/6927/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb6927.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp47702</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q69428</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Kasimir_Edschmid</idno>
+            </person>
+            <person xml:id="pmb6964">
+               <persName>
+                  <forename>Anton von</forename>
+                  <surname>Eiselsberg</surname>
+               </persName>
+               <birth>
+                  <date when="1860-07-31">31.07.1860</date>
+                  <settlement ref="pmb44105">
+                     <placeName type="pref">Steinhaus</placeName>
+                     <location>
+                        <geo>48,11614 14,0189</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1939-10-25">25.10.1939</date>
+                  <settlement ref="pmb58821">
+                     <placeName type="pref">St. Valentin</placeName>
+                     <location>
+                        <geo>48,16973 14,53569</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb364">Mediziner/Medizinerin &gt;&gt; Chirurg/Chirurgin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14676</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116426357</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/6964/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp41030</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00281401</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q87939</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Anton_von_Eiselsberg</idno>
+            </person>
+            <person xml:id="pmb11265">
+               <persName>
+                  <forename>Paul</forename>
+                  <surname>Ernst</surname>
+               </persName>
+               <birth>
+                  <date when="1866-03-07">07.03.1866</date>
+                  <settlement ref="pmb49770">
+                     <placeName type="pref">Elbingerode</placeName>
+                     <location>
+                        <geo>51,77039 10,80557</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1933-05-13">13.05.1933</date>
+                  <settlement ref="pmb36316">
+                     <placeName type="pref">Sankt Georgen an der Stiefing</placeName>
+                     <location>
+                        <geo>46,87333 15,57972</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14804</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118530909</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11265.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11265/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11265</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11265.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp51200</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q72557</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Paul_Ernst</idno>
+            </person>
+            <person xml:id="pmb11488">
+               <persName>
+                  <forename>Rudolf</forename>
+                  <surname>Goldscheid</surname>
+               </persName>
+               <birth>
+                  <date when="1870-08-12">12.08.1870</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-31">31.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb154">Philosoph/Philosophin</occupation>
+               <occupation ref="pmb237">Publizist/Publizistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15533</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116754796</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11488.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11488/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp44541</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x0028183e</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q88967</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Rudolf_Goldscheid</idno>
+            </person>
+            <person xml:id="pmb11679">
+               <persName>
+                  <forename>Hermann</forename>
+                  <surname>Hesse</surname>
+               </persName>
+               <persName type="person_pseudonym">Emil Sinclair</persName>
+               <birth>
+                  <date when="1877-07-02">02.07.1877</date>
+                  <settlement ref="pmb61044">
+                     <placeName type="pref">Calw</placeName>
+                     <location>
+                        <geo>48,71419 8,74031</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1962-08-09">09.08.1962</date>
+                  <settlement ref="pmb48721">
+                     <placeName type="pref">Montagnola</placeName>
+                     <location>
+                        <geo>45,98323 8,91786</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16171</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/11855042X</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11679.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11679/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11679</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11679.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp45926</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q25973</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hermann_Hesse</idno>
+            </person>
+            <person xml:id="pmb11749">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Holitscher</surname>
+               </persName>
+               <birth>
+                  <date when="1869-08-22">22.08.1869</date>
+                  <settlement ref="pmb43471">
+                     <placeName type="pref">Budapest</placeName>
+                     <location>
+                        <geo>47,49835 19,04045</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1941-10-14">14.10.1941</date>
+                  <settlement ref="pmb562">
+                     <placeName type="pref">Genf</placeName>
+                     <location>
+                        <geo>46,20222 6,14569</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16323</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118973096</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11749.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11749/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11749.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38481</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00281a92</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q214623</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Holitscher</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11749.html</idno>
+            </person>
+            <person xml:id="pmb11813">
+               <persName>
+                  <forename>Siegfried</forename>
+                  <surname>Jacobsohn</surname>
+               </persName>
+               <birth>
+                  <date when="1881-01-28">28.01.1881</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1926-12-03">03.12.1926</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+               <occupation ref="pmb237">Publizist/Publizistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16477</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118556371</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11813.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11813/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11813</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11813</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp53253</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q66477</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Siegfried_Jacobsohn</idno>
+            </person>
+            <person xml:id="pmb8190">
+               <persName>
+                  <forename>Hermann von</forename>
+                  <surname>Keyserling</surname>
+               </persName>
+               <birth>
+                  <date when="1880-07-20">20.07.1880</date>
+                  <settlement ref="pmb47652">
+                     <placeName type="pref">Kaisma</placeName>
+                     <location>
+                        <geo>58,68972 24,78833</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1946-04-26">26.04.1946</date>
+                  <settlement ref="pmb867">
+                     <placeName type="pref">Innsbruck</placeName>
+                     <location>
+                        <geo>47,28433 11,37706</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb154">Philosoph/Philosophin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16831</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118722158</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/8190/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb8190</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=K#DWpers0127</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp47801</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q60690</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hermann_Graf_Keyserling</idno>
+            </person>
+            <person xml:id="pmb8363">
+               <persName>
+                  <forename>Anton</forename>
+                  <surname>Kuh</surname>
+               </persName>
+               <birth>
+                  <date when="1890-07-12">12.07.1890</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1941-01-18">18.01.1941</date>
+                  <settlement ref="pmb44053">
+                     <placeName type="pref">New York City</placeName>
+                     <location>
+                        <geo>40,71427 -74,00597</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17179</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/119302616</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/8363/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb8363</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38353</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x002dda41</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q88062</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Anton_Kuh</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb8363.html</idno>
+            </person>
+            <person xml:id="pmb8673">
+               <persName>
+                  <forename>Ernst</forename>
+                  <surname>Lissauer</surname>
+               </persName>
+               <birth>
+                  <date when="1882-12-10">10.12.1882</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1937-12-10">10.12.1937</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17587</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118780166</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/8673/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb8673</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp42830</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00282a48</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q72165</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ernst_Lissauer</idno>
+            </person>
+            <person xml:id="pmb8729">
+               <persName>
+                  <forename>Emil</forename>
+                  <surname>Lucka</surname>
+               </persName>
+               <birth>
+                  <date when="1877-05-11">11.05.1877</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1941-12-15">15.12.1941</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17719</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117261521</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/8729/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8729.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49382</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00282b5f</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1336463</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Emil_Lucka</idno>
+            </person>
+            <person xml:id="pmb12126">
+               <persName>
+                  <forename>Emil</forename>
+                  <surname>Ludwig</surname>
+               </persName>
+               <birth>
+                  <date when="1881-01-25">25.01.1881</date>
+                  <settlement ref="pmb677">
+                     <placeName type="pref">Breslau</placeName>
+                     <location>
+                        <geo>51,10773 17,03533</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1948-09-17">17.09.1948</date>
+                  <settlement ref="pmb49872">
+                     <placeName type="pref">Ascona</placeName>
+                     <location>
+                        <geo>46,15451 8,77327</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17726</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118780778</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12126/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12126</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12126.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb12126</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp42631</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=L#DWpers0157</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q58836</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Emil_Ludwig</idno>
+            </person>
+            <person xml:id="pmb4061">
+               <persName>
+                  <forename>Maria</forename>
+                  <surname>Mayer</surname>
+               </persName>
+               <birth>
+                  <date when="1877-07-07">07.07.1877</date>
+                  <settlement ref="pmb30">
+                     <placeName type="pref">Salzburg</placeName>
+                     <location>
+                        <geo>47,80067 13,04532</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1958-04-18">18.04.1958</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117547212</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18020</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb4061.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4061/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49663</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q94753975</idno>
+            </person>
+            <person xml:id="pmb28711">
+               <persName>
+                  <forename>Julius (II.)</forename>
+                  <surname>Meinl</surname>
+               </persName>
+               <birth>
+                  <date when="1869-01-18">1869-01-18</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1944-05-16">1944-05-16</date>
+                  <settlement ref="pmb61087">
+                     <placeName type="pref">Alt-Prerau</placeName>
+                     <location>
+                        <geo>48,78306 16,46667</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb946">Großkaufmann/Großkauffrau</occupation>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb28711.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/28711/</idno>
+            </person>
+            <person xml:id="pmb12225">
+               <persName>
+                  <forename>Max</forename>
+                  <surname>Mell</surname>
+               </persName>
+               <birth>
+                  <date when="1882-11-10">10.11.1882</date>
+                  <settlement ref="pmb49947">
+                     <placeName type="pref">Maribor</placeName>
+                     <location>
+                        <geo>46,55472 15,64667</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1971-12-13">13.12.1971</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18057</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118580566</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12225.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12225/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12225</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12225.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49948</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q90074</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Max_Mell</idno>
+            </person>
+            <person xml:id="pmb12248">
+               <persName>
+                  <forename>Gustav</forename>
+                  <surname>Meyrink</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Meyer</persName>
+               <birth>
+                  <date when="1868-01-19">19.01.1868</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1932-12-04">04.12.1932</date>
+                  <settlement ref="pmb40951">
+                     <placeName type="pref">Starnberg</placeName>
+                     <location>
+                        <geo>48,00193 11,34416</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18133</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118582046</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12248.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12248/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12248</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12248.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb12248</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp45204</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x002832a2</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q78511</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Gustav_Meyrink</idno>
+            </person>
+            <person xml:id="pmb8994">
+               <persName>
+                  <forename>Robert</forename>
+                  <surname>Musil</surname>
+               </persName>
+               <birth>
+                  <date when="1880-11-06">06.11.1880</date>
+                  <settlement ref="pmb875">
+                     <placeName type="pref">Klagenfurt</placeName>
+                     <location>
+                        <geo>46,63333 14,3</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1942-04-15">15.04.1942</date>
+                  <settlement ref="pmb562">
+                     <placeName type="pref">Genf</placeName>
+                     <location>
+                        <geo>46,20222 6,14569</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb458">Ingenieur/Ingenieurin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18333</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118585916</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/8994/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8994.html</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x002831fc</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q78487</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Robert_Musil</idno>
+            </person>
+            <person xml:id="pmb12540">
+               <persName>
+                  <forename>Ida</forename>
+                  <surname>Roland</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Klausner</persName>
+               <persName type="person_ehename_nachname">Coudenhove-Kalergi</persName>
+               <birth>
+                  <date when="1881-02-18">18.02.1881</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1951-03-27">27.03.1951</date>
+                  <settlement ref="pmb54926">
+                     <placeName type="pref">Nyon</placeName>
+                     <location>
+                        <geo>46,38318 6,23955</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19331</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116057513</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12540.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12540/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12540</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46412</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q88615</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ida_Roland</idno>
+            </person>
+            <person xml:id="pmb12640">
+               <persName>
+                  <forename>René</forename>
+                  <surname>Schickele</surname>
+               </persName>
+               <persName type="legacy-name-merge">Schickele, René</persName>
+               <birth>
+                  <date when="1883-08-04">04.08.1883</date>
+                  <settlement ref="pmb55839">
+                     <placeName type="pref">Obernai</placeName>
+                     <location>
+                        <geo>48,46313 7,481</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1940-01-31">31.01.1940</date>
+                  <settlement ref="pmb49600">
+                     <placeName type="pref">Vence</placeName>
+                     <location>
+                        <geo>43,72254 7,11183</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb116">Übersetzer/Übersetzerin</occupation>
+               <occupation ref="pmb385">Pazifist/Pazifistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19676</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/11860743X</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12640.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12640/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/38923/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12640.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb12640</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp52121</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q69322</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ren%C3%A9_Schickele</idno>
+            </person>
+            <person xml:id="pmb9730">
+               <persName>
+                  <forename>Wilhelm</forename>
+                  <surname>Schmidtbonn</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Schmidt</persName>
+               <birth>
+                  <date when="1876-02-06">06.02.1876</date>
+                  <settlement ref="pmb913">
+                     <placeName type="pref">Bonn</placeName>
+                     <location>
+                        <geo>50,73438 7,09549</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1952-07-03">03.07.1952</date>
+                  <settlement ref="pmb61093">
+                     <placeName type="pref">Bad Godesberg</placeName>
+                     <location>
+                        <geo>50,68457 7,15393</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19773</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609009</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/9730/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2574912</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wilhelm_Schmidtbonn</idno>
+            </person>
+            <person xml:id="pmb12685">
+               <persName>
+                  <forename>Oscar A. H.</forename>
+                  <surname>Schmitz</surname>
+               </persName>
+               <birth>
+                  <date when="1873-04-16">16.04.1873</date>
+                  <settlement ref="pmb54155">
+                     <placeName type="pref">Bad Homburg</placeName>
+                     <location>
+                        <geo>50,22683 8,61816</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-12-17">17.12.1931</date>
+                  <settlement ref="pmb146">
+                     <placeName type="pref">Frankfurt am Main</placeName>
+                     <location>
+                        <geo>50,11552 8,68417</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19779</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/119328267</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12685.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12685/</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284382</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp50736</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q126733</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Oscar_A._H._Schmitz</idno>
+            </person>
+            <person xml:id="pmb60247">
+               <persName>
+                  <forename>Hermann</forename>
+                  <surname>Struck</surname>
+               </persName>
+               <persName type="namensvariante">Chaim Aharon ben David</persName>
+               <birth>
+                  <date when="1876-03-06">1876-03-06</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1944-01-11">1944-01-11</date>
+                  <settlement ref="pmb55980">
+                     <placeName type="pref">Haifa</placeName>
+                     <location>
+                        <geo>32,81841 34,9885</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb110">Bildender Künstler/Bildende Künstlerin &gt;&gt; Maler/Malerin</occupation>
+               <occupation ref="pmb331">Bildender Künstler/Bildende Künstlerin &gt;&gt; Zeichner/Zeichnerin</occupation>
+               <occupation ref="pmb422">Bildender Künstler/Bildende Künstlerin &gt;&gt; Lithograf/Lithografin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60247/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/119515865</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q473771</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hermann_Struck_(Maler)</idno>
+            </person>
+            <person xml:id="pmb10478">
+               <persName>
+                  <forename>Ernst</forename>
+                  <surname>Weiss</surname>
+               </persName>
+               <birth>
+                  <date when="1882-08-28">28.08.1882</date>
+                  <settlement ref="pmb833">
+                     <placeName type="pref">Brünn</placeName>
+                     <location>
+                        <geo>49,19522 16,60796</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1940-06-15">15.06.1940</date>
+                  <settlement ref="pmb182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21195</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118630458</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10478/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10478.html</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x003afc92</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp42869</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q112153</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ernst_Wei%C3%9F_(Schriftsteller)</idno>
+            </person>
+            <person xml:id="pmb13122">
+               <persName>
+                  <forename>Anton</forename>
+                  <surname>Wildgans</surname>
+               </persName>
+               <birth>
+                  <date when="1881-04-17">17.04.1881</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1932-05-03">03.05.1932</date>
+                  <settlement ref="pmb968">
+                     <placeName type="pref">Mödling</placeName>
+                     <location>
+                        <geo>48,08605 16,28921</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb102">Wissenschaftler/Wissenschaftlerin &gt;&gt; Rechtswissenschaftler/Rechtswissenschaftlerin</occupation>
+               <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21328</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118632841</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb13122.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/13122/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13122.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb13122</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38379</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q84894</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Anton_Wildgans</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb13122.html</idno>
+            </person>
+            <person xml:id="pmb13208">
+               <persName>
+                  <forename>Arnold</forename>
+                  <surname>Zweig</surname>
+               </persName>
+               <birth>
+                  <date when="1887-11-10">10.11.1887</date>
+                  <settlement ref="pmb61145">
+                     <placeName type="pref">Głogów</placeName>
+                     <location>
+                        <geo>51,66361 16,0845</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1968-11-26">26.11.1968</date>
+                  <settlement ref="pmb13210">
+                     <placeName type="pref">Berlin (Ost)</placeName>
+                     <location>
+                        <geo>52,522044 13,406775</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21610</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118637452</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb13208.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/13208/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13208.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38453</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q75868</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arnold_Zweig</idno>
+            </person>
+            <person xml:id="pmb13212">
+               <persName>
+                  <forename>Stefan</forename>
+                  <surname>Zweig</surname>
+               </persName>
+               <birth>
+                  <date when="1881-11-28">28.11.1881</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1942-02-23">23.02.1942</date>
+                  <settlement ref="pmb46774">
+                     <placeName type="pref">Petrópolis</placeName>
+                     <location>
+                        <geo>-22,505 -43,17861</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21614</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118637479</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb13212.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/13212/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb13212</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13212.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb13212</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp53600</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q78491</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Stefan_Zweig</idno>
+               <idno type="URL" subtype="dx">https://dx.doi.org/10.1553/0x0001e7ce</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb13212.html</idno>
+            </person>
+            <person xml:id="pmb10992">
+               <persName>
+                  <forename>Georg</forename>
+                  <surname>Brandes</surname>
+               </persName>
+               <birth>
+                  <date when="1842-02-04">04.02.1842</date>
+                  <settlement ref="pmb36300">
+                     <placeName type="pref">Kopenhagen</placeName>
+                     <location>
+                        <geo>55,67594 12,56553</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1927-02-19">19.02.1927</date>
+                  <settlement ref="pmb36300">
+                     <placeName type="pref">Kopenhagen</placeName>
+                     <location>
+                        <geo>55,67594 12,56553</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13920</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118514326</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10992.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10992/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10992</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10992.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp44279</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q316045</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Georg_Brandes</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb33237">
+               <title>Voltaire und sein Jahrhundert</title>
+               <author ref="pmb10992" role="hat-geschaffen">Brandes, Georg</author>
+               <date from="1916-01-01" to="1917-07-02">1916  – 1917</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33237/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33237</idno>
+               <note type="work_kind">Geschichtswerk</note>
+            </bibl>
+            <bibl xml:id="pmb60214">
+               <title>Zwei Fragen und ihre Beantwortung</title>
+               <title type="namensvariante">Das beste Buch</title>
+               <author ref="pmb2121" role="hat-einen-beitrag-geschaffen-zu">Schnitzler, Arthur</author>
+               <author ref="pmb10788" role="hat-einen-beitrag-geschaffen-zu">Auernheimer, Raoul</author>
+               <author ref="pmb10955" role="hat-einen-beitrag-geschaffen-zu">Blei, Franz</author>
+               <author ref="pmb6441" role="hat-einen-beitrag-geschaffen-zu">Brod, Max</author>
+               <author ref="pmb6964" role="hat-einen-beitrag-geschaffen-zu">Eiselsberg, Anton von</author>
+               <author ref="pmb11679" role="hat-einen-beitrag-geschaffen-zu">Hesse, Hermann</author>
+               <author ref="pmb8190" role="hat-einen-beitrag-geschaffen-zu">Keyserling, Hermann von</author>
+               <author ref="pmb8363" role="hat-einen-beitrag-geschaffen-zu">Kuh, Anton</author>
+               <author ref="pmb12248" role="hat-einen-beitrag-geschaffen-zu">Meyrink, Gustav</author>
+               <author ref="pmb12640" role="hat-einen-beitrag-geschaffen-zu">Schickele, René</author>
+               <author ref="pmb13122" role="hat-einen-beitrag-geschaffen-zu">Wildgans, Anton</author>
+               <author ref="pmb14110" role="hat-einen-beitrag-geschaffen-zu">Bermann, Richard Arnold</author>
+               <author ref="pmb4752" role="hat-einen-beitrag-geschaffen-zu">Beckmann, Max</author>
+               <author ref="pmb11002" role="hat-einen-beitrag-geschaffen-zu">Braun, Felix</author>
+               <author ref="pmb6927" role="hat-einen-beitrag-geschaffen-zu">Edschmid, Kasimir</author>
+               <author ref="pmb11265" role="hat-einen-beitrag-geschaffen-zu">Ernst, Paul</author>
+               <author ref="pmb11488" role="hat-einen-beitrag-geschaffen-zu">Goldscheid, Rudolf</author>
+               <author ref="pmb11749" role="hat-einen-beitrag-geschaffen-zu">Holitscher, Arthur</author>
+               <author ref="pmb11813" role="hat-einen-beitrag-geschaffen-zu">Jacobsohn, Siegfried</author>
+               <author ref="pmb8673" role="hat-einen-beitrag-geschaffen-zu">Lissauer, Ernst</author>
+               <author ref="pmb8729" role="hat-einen-beitrag-geschaffen-zu">Lucka, Emil</author>
+               <author ref="pmb12126" role="hat-einen-beitrag-geschaffen-zu">Ludwig, Emil</author>
+               <author ref="pmb4061" role="hat-einen-beitrag-geschaffen-zu">Mayer, Maria</author>
+               <author ref="pmb28711" role="hat-einen-beitrag-geschaffen-zu">Meinl, Julius (II.)</author>
+               <author ref="pmb12225" role="hat-einen-beitrag-geschaffen-zu">Mell, Max</author>
+               <author ref="pmb8994" role="hat-einen-beitrag-geschaffen-zu">Musil, Robert</author>
+               <author ref="pmb12540" role="hat-einen-beitrag-geschaffen-zu">Roland, Ida</author>
+               <author ref="pmb9730" role="hat-einen-beitrag-geschaffen-zu">Schmidtbonn, Wilhelm</author>
+               <author ref="pmb12685" role="hat-einen-beitrag-geschaffen-zu">Schmitz, Oscar A. H.</author>
+               <author ref="pmb60247" role="hat-einen-beitrag-geschaffen-zu">Struck, Hermann</author>
+               <author ref="pmb10478" role="hat-einen-beitrag-geschaffen-zu">Weiss, Ernst</author>
+               <author ref="pmb13208" role="hat-einen-beitrag-geschaffen-zu">Zweig, Arnold</author>
+               <author ref="pmb13212" role="hat-einen-beitrag-geschaffen-zu">Zweig, Stefan</author>
+               <date when="1925-01-01">1925-01-01</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60214/</idno>
+               <note type="work_kind">Umfrage</note>
+            </bibl>
+            <bibl xml:id="pmb60258">
+               <title>Almanach auf das Jahr 1925</title>
+               <date notBefore="1925-01-01" when="1925-07-02">1925</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60258/</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Zeitschrift</note>
+            </bibl>
+         </listBibl>
+      </back>
    </text>
 </TEI>

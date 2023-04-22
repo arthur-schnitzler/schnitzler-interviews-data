@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="M154">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="M154">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#61403">Von der Naturschutzparkbewegung,
-               20.&#8239;7.&#8239;1912</title>
-            <author ref="#2121">Schnitzler, Arthur</author>
+            <title level="a" ref="#pmb61403">Von der Naturschutzparkbewegung,
+               20. 7. 1912</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -28,13 +30,13 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#2121">Schnitzler, Arthur</author>
-                     <title level="a" ref="#61403">Von der Naturschutzparkbewegung</title>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <title level="a" ref="#pmb61403">Von der Naturschutzparkbewegung</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#61408">Die Lese</title>
+                     <title level="j" ref="#pmb61408">Die Lese</title>
                      <imprint>
-                        <date when="1912-07-20" n="1">20.&#8239;7.&#8239;1912</date>
+                        <date when="1912-07-20" n="1">20. 7. 1912</date>
                      </imprint>
                      <biblScope unit="jg">3</biblScope>
                      <biblScope unit="nr">29</biblScope>
@@ -57,14 +59,10 @@
    <text type="article">
       <body>
          <div type="original">
-            <head><anchor type="commentary" xml:id="K_M154-2"/>Von der Naturschutzparkbewegung<note
-                  type="commentary" xml:id="K_M154-2h">Der lange Einleitungstext wurde von <rs
-                     type="person" ref="#61404">Theodor Etzel</rs> verfasst. Die weiteren Antworten
-                  stammen von <rs type="person" ref="#12551">Peter Rosegger</rs>, <rs type="person"
-                     ref="#11061">Wilhelm Bölsche</rs>, Graf <rs type="person" ref="#10670">Zeppelin</rs>, <rs type="person" ref="#13055">Jakob Wassermann</rs>, <rs
-                     type="person" ref="#10815">Hermann Bahr</rs>, dann folgt die von <rs
-                     type="person" ref="#2121">Schnitzler</rs>, zuletzt jene von <rs type="person"
-                     ref="#11740">Hugo von Hofmannsthal</rs>.</note></head>
+            <head>
+               <anchor type="commentary" xml:id="K_M154-2"/>Von der Naturschutzparkbewegung<note type="commentary" xml:id="K_M154-2h">Der lange Einleitungstext wurde von <rs type="person" ref="#pmb61404">Theodor Etzel</rs> verfasst. Die weiteren Antworten
+                  stammen von <rs type="person" ref="#pmb12551">Peter Rosegger</rs>, <rs type="person" ref="#pmb11061">Wilhelm Bölsche</rs>, Graf <rs type="person" ref="#pmb10670">Zeppelin</rs>, <rs type="person" ref="#pmb13055">Jakob Wassermann</rs>, <rs type="person" ref="#pmb10815">Hermann Bahr</rs>, dann folgt die von <rs type="person" ref="#pmb2121">Schnitzler</rs>, zuletzt jene von <rs type="person" ref="#pmb11740">Hugo von Hofmannsthal</rs>.</note>
+            </head>
             <p>Das Verhältnis unseres heutigen Geschlechtes zur Natur ist ein anderes als das
                unserer Väter und Vorväter. Unsere Ahnen lebten begreiflicherweise der Natur näher
                als wir, und zwar einer ursprünglichen Natur, in der es noch Urwälder gab und
@@ -90,51 +88,44 @@
                freundlicher Garten geworden war, ein fruchtbares Ernteland: wir stehen vor neuen,
                eindringlicheren Empfindungen, vor einer neuen Rückkehr zur Natur in einem noch
                stärkeren Sinne als je zuvor. Die Natur ist uns nicht nur ein Garten der Erholung,
-               ein Nährboden für neue Kraft; sie ist uns für Leib und Seele wieder als <hi
-                  rend="spaced_out">der</hi> Quell unseres ganzen Lebens bewußt geworden.</p>
+               ein Nährboden für neue Kraft; sie ist uns für Leib und Seele wieder als <hi rend="spaced_out">der</hi> Quell unseres ganzen Lebens bewußt geworden.</p>
             <p>Darum muß uns die Natur in ursprünglichem Zustande erhalten bleiben. Darum ist uns
                die Naturschutzparkbewegung so wertvoll, weil sie noch rechtzeitig imstande ist, uns
                solche unberührte Natur zu erhalten.</p>
-            <p>Als wir, einige wenige entschlossene Männer, vor etwa zwei Jahren in <rs type="place"
-                  ref="#45258">München</rs>, den »<rs type="org" ref="#61421">Verein
-                  Naturschutzpark</rs>«, gründeten, der jetzt seinen Sitz in <rs type="place"
-                  ref="#872">Stuttgart</rs> hat, wagten wir allerdings nicht an so große und
+            <p>Als wir, einige wenige entschlossene Männer, vor etwa zwei Jahren in <rs type="place" ref="#pmb45258">München</rs>, den »<rs type="org" ref="#pmb61421">Verein
+                  Naturschutzpark</rs>«, gründeten, der jetzt seinen Sitz in <rs type="place" ref="#pmb872">Stuttgart</rs> hat, wagten wir allerdings nicht an so große und
                schnelle Erfolge zu denken. Heute bin ich stolz darauf, Mitgründer zu sein, denn der
                Verein umfaßt jetzt 14.000 Mitglieder, besitzt ein Vermögen von über 1 Million Mark,
                besitzt 8000 preußische Morgen Land und ist im Begriff, einen noch größeren
                Aufschwung zu nehmen.</p>
             <p>Es sollen drei große Naturschutzparke geschaffen werden, in denen die Natur in
-               unverfälschtem Zustande erhalten bleibt, »ohne Nutzung, ohne Axt, ohne Schuß«. <rs
-                  type="place" ref="#175">Amerika</rs> hat sich bekanntlich schon solche Gebiete
-               gesichert, und neuerdings sind die <rs type="place" ref="#43435">Schweiz</rs> und <rs
-                  type="place" ref="#44335">Schweden</rs> nachgefolgt. Die drei deutschen Parke sind
+               unverfälschtem Zustande erhalten bleibt, »ohne Nutzung, ohne Axt, ohne Schuß«. <rs type="place" ref="#pmb175">Amerika</rs> hat sich bekanntlich schon solche Gebiete
+               gesichert, und neuerdings sind die <rs type="place" ref="#pmb43435">Schweiz</rs> und <rs type="place" ref="#pmb44335">Schweden</rs> nachgefolgt. Die drei deutschen Parke sind
                geplant, einer im Tiefland, der andere im Mittelgebirge, der dritte im Hochgebirge.
-               Der Park in der Ebene liegt in der <rs type="place" ref="#61428">Lüneburger
-                  Haide</rs> und umfaßt eins der herrlichsten Stücke der ganzen Haide am <rs
-                  type="place" ref="#61430">Wilseder Berg</rs> mit dem <rs type="place" ref="#61433"
-                  >Toten-Grund</rs>; dieser Park, von dem schon 20 Quadratkilometer erworben sind,
+               Der Park in der Ebene liegt in der <rs type="place" ref="#pmb61428">Lüneburger
+                  Haide</rs> und umfaßt eins der herrlichsten Stücke der ganzen Haide am <rs type="place" ref="#pmb61430">Wilseder Berg</rs> mit dem <rs type="place" ref="#pmb61433">Toten-Grund</rs>; dieser Park, von dem schon 20 Quadratkilometer erworben sind,
                wird auf das Zehnfache abgerundet werden. Als Hochlandspark ist zunächst ein Gebiet
-               von etwa 40 Quadratkilometer in <rs type="place" ref="#17">Obersteiermark</rs>
-               gesichert, in den <rs type="place" ref="#61436">Niedern Tauern</rs>, bei <rs
-                  type="place" ref="#35496">Schladming</rs>, das der Unterzeichnete selber für den
+               von etwa 40 Quadratkilometer in <rs type="place" ref="#pmb17">Obersteiermark</rs>
+               gesichert, in den <rs type="place" ref="#pmb61436">Niedern Tauern</rs>, bei <rs type="place" ref="#pmb35496">Schladming</rs>, das der Unterzeichnete selber für den
                Verein mitpachten half; auch dieses Gebiet soll weit größer abgerundet werden. Der
-               Mittelgebirgspark ist für <rs type="place" ref="#314">Bayern</rs> geplant, kann aber
+               Mittelgebirgspark ist für <rs type="place" ref="#pmb314">Bayern</rs> geplant, kann aber
                erst nach dem gesicherten Ausbau der andern in Angriff genommen werden.</p>
             <p>Alle Freunde der Natur unter den Mitgliedern der Lesegemeinde, die in der jetzigen
                Sommerzeit auf ihren Reisen und Wanderungen und bei ihrem Ferienaufenthalt draußen in
-               der Natur so recht den Segen der Natur empfinden, mögen dabei auch an den »<rs
-                  type="org" ref="#61421">Verein Naturschutzpark</rs>« denken und etwas zum Gelingen
+               der Natur so recht den Segen der Natur empfinden, mögen dabei auch an den »<rs type="org" ref="#pmb61421">Verein Naturschutzpark</rs>« denken und etwas zum Gelingen
                dieser großen kulturfördernden Bestrebungen beitragen.</p>
             <p>Es mögen einige Stimmen bekannter Männer über die Bewegung folgen.</p>
             <p rend="right">
                <hi rend="spaced_out">Der </hi>
                <hi rend="spaced_out">
-                  <rs type="person" ref="#61404" subtype="implied">Herausgeber</rs>
+                  <rs type="person" ref="#pmb61404" subtype="implied">Herausgeber</rs>
                </hi>.</p>
             <p>
                <gap reason="outOfScope" unit="paragraphs" quantity="30"/>
             </p>
-            <p><space dim="vertical" unit="lines" quantity="1"/></p>
+            <p>
+               <space dim="vertical" unit="lines" quantity="1"/>
+            </p>
             <p>Die schöne Idee des Naturschutzparkes wird nirgends Gegner, kaum irgendwo
                Gleichgiltige finden. Hier ist keinerlei Gelegenheit zu dem freundlichst gewünschten
                »Aphorismus«, sondern nur zu einem sehr herzlichen Ja.</p>
@@ -142,5 +133,587 @@
                <hi rend="spaced_out">Arthur Schnitzler</hi>.</p>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb61404">
+               <persName>
+                  <forename>Theodor</forename>
+                  <surname>Etzel</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Schulze</persName>
+               <birth>
+                  <date when="1873-01-09">1873-01-09</date>
+               </birth>
+               <death>
+                  <date when="1930-09-03">1930-09-03</date>
+                  <settlement ref="pmb61412">
+                     <placeName type="pref">Bad Aibling</placeName>
+                     <location>
+                        <geo>47,8638 12,01055</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb119">Herausgeber/Herausgeberin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/61404/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116586109</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q16003144</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Theodor_Etzel</idno>
+            </person>
+            <person xml:id="pmb12551">
+               <persName>
+                  <forename>Peter</forename>
+                  <surname>Rosegger</surname>
+               </persName>
+               <birth>
+                  <date when="1843-07-31">31.07.1843</date>
+                  <settlement ref="pmb64690">
+                     <placeName type="pref">Alpl</placeName>
+                     <location>
+                        <geo>47,50239 15,63659</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1918-06-26">26.06.1918</date>
+                  <settlement ref="pmb36189">
+                     <placeName type="pref">Krieglach</placeName>
+                     <location>
+                        <geo>47,54728 15,56248</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19354</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118602667</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12551.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12551/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12551</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12551.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp52473</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q93841</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Peter_Rosegger</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284301</idno>
+            </person>
+            <person xml:id="pmb11061">
+               <persName>
+                  <forename>Wilhelm</forename>
+                  <surname>Bölsche</surname>
+               </persName>
+               <persName type="person_geburtsname-vorname">Wilhelm Karl Eduard</persName>
+               <birth>
+                  <date when="1861-01-02">02.01.1861</date>
+                  <settlement ref="pmb145">
+                     <placeName type="pref">Köln</placeName>
+                     <location>
+                        <geo>50,93835 6,95427</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1939-08-31">31.08.1939</date>
+                  <settlement ref="pmb34528">
+                     <placeName type="pref">Szklarska Poręba</placeName>
+                     <location>
+                        <geo>50,82567 15,52274</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb237">Publizist/Publizistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13838</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118512706</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11061.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11061/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11061</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp55486</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q69727</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wilhelm_B%C3%B6lsche_(Schriftsteller)</idno>
+            </person>
+            <person xml:id="pmb10670">
+               <persName>
+                  <forename>Ferdinand von</forename>
+                  <surname>Zeppelin</surname>
+               </persName>
+               <birth>
+                  <date when="1838-07-08">08.07.1838</date>
+                  <settlement ref="pmb849">
+                     <placeName type="pref">Konstanz</placeName>
+                     <location>
+                        <geo>47,66033 9,17582</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1917-03-08">08.03.1917</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb495">Aviatiker/Aviatikerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21540</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118636545</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10670/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp44785</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q75780</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ferdinand_von_Zeppelin</idno>
+            </person>
+            <person xml:id="pmb13055">
+               <persName>
+                  <forename>Jakob</forename>
+                  <surname>Wassermann</surname>
+               </persName>
+               <persName type="person_pseudonym">–rm–</persName>
+               <birth>
+                  <date when="1873-03-10">10.03.1873</date>
+                  <settlement ref="pmb40508">
+                     <placeName type="pref">Fürth</placeName>
+                     <location>
+                        <geo>49,47593 10,98856</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1934-01-01">01.01.1934</date>
+                  <settlement ref="pmb34401">
+                     <placeName type="pref">Altaussee</placeName>
+                     <location>
+                        <geo>47,6698 13,78453</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21107</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118629387</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb13055.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/13055/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb13055</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13055.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46707</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x003afbb2</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q60369</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Jakob_Wassermann</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb13055.html</idno>
+            </person>
+            <person xml:id="pmb10815">
+               <persName>
+                  <forename>Hermann</forename>
+                  <surname>Bahr</surname>
+               </persName>
+               <birth>
+                  <date when="1863-07-19">19.07.1863</date>
+                  <settlement ref="pmb332">
+                     <placeName type="pref">Linz</placeName>
+                     <location>
+                        <geo>48,3 14,28333</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1934-01-15">15.01.1934</date>
+                  <settlement ref="pmb45258">
+                     <placeName type="pref">München</placeName>
+                     <location>
+                        <geo>48,13743 11,57549</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10815.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10815/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10815</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10815.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb10815</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp45908</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00280efa</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q94034</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hermann_Bahr</idno>
+               <idno type="URL" subtype="dx">https://dx.doi.org/10.1553/0x0001f7bb</idno>
+            </person>
+            <person xml:id="pmb11740">
+               <persName>
+                  <forename>Hugo von</forename>
+                  <surname>Hofmannsthal</surname>
+               </persName>
+               <persName type="person_pseudonym">Loris</persName>
+               <persName type="person_pseudonym">Theophil Morren</persName>
+               <persName type="namensvariante">Hofmannsthal, Hugo</persName>
+               <birth>
+                  <date when="1874-02-01">1874-02-01</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1929-07-15">1929-07-15</date>
+                  <settlement ref="pmb173">
+                     <placeName type="pref">Rodaun</placeName>
+                     <location>
+                        <geo>48,132793312328 16,256152195922</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16293</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118552759</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11740.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11740/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11740</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11740</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46353</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00281a55</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q51513</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hugo_von_Hofmannsthal</idno>
+               <idno type="URL" subtype="dx">https://dx.doi.org/10.1553/0x0001d1cc</idno>
+               <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_42.html</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11740.html</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb61403">
+               <title>Von der Naturschutzparkbewegung</title>
+               <author ref="pmb61404" role="hat-herausgegeben">Etzel, Theodor</author>
+               <author ref="pmb12551" role="hat-einen-beitrag-geschaffen-zu">Rosegger, Peter</author>
+               <author ref="pmb11061" role="hat-einen-beitrag-geschaffen-zu">Bölsche, Wilhelm</author>
+               <author ref="pmb10670" role="hat-einen-beitrag-geschaffen-zu">Zeppelin, Ferdinand von</author>
+               <author ref="pmb13055" role="hat-einen-beitrag-geschaffen-zu">Wassermann, Jakob</author>
+               <author ref="pmb10815" role="hat-einen-beitrag-geschaffen-zu">Bahr, Hermann</author>
+               <author ref="pmb2121" role="hat-einen-beitrag-geschaffen-zu">Schnitzler, Arthur</author>
+               <author ref="pmb11740" role="hat-einen-beitrag-geschaffen-zu">Hofmannsthal, Hugo von</author>
+               <date>1912-07-20</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/61403/</idno>
+               <note type="work_kind">Umfrage</note>
+            </bibl>
+            <bibl xml:id="pmb61408">
+               <title>Die Lese. Literarische Zeitung für das Deutsche Volk</title>
+               <title type="werk_link">https://ld.zdb-services.de/resource/1387940-6</title>
+               <title type="namensvariante">Die Lese. Wochenschrift für das deutsche Volk</title>
+               <author ref="pmb61404" role="hat-herausgegeben">Etzel, Theodor</author>
+               <date from="1910-01-01" to="1912-07-01">1910  – 1912</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/61408/</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Zeitschrift</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb45258">
+               <placeName>München</placeName>
+               <placeName type="legacy-name-merge">München?</placeName>
+               <placeName type="legacy-name-merge">Munich</placeName>
+               <placeName type="alternative-name">Monacho</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPLA</desc>
+               <desc type="entity_type_id">1415</desc>
+               <location type="coords">
+                  <geo>48,13743 11,57549</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb314">Bayern</placeName>
+                  <geo>49,0 11,5</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb151">Deutschland</placeName>
+                  <geo>51,5 10,5</geo>
+               </location>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4127793-4</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/38129/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/45258/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2867714/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb45258</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb45258</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb45258.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1726</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/M%C3%BCnchen</idno>
+            </place>
+            <place xml:id="pmb872">
+               <placeName>Stuttgart</placeName>
+               <placeName type="alternative-name">Stoccarda</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,78232 9,17702</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb151">Deutschland</placeName>
+                  <geo>51,5 10,5</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1022</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4058282-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb872.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/872/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/39915/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb872</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64261/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2825297/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb872.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Stuttgart</idno>
+            </place>
+            <place xml:id="pmb175">
+               <placeName>Amerika</placeName>
+               <desc type="entity_type">Kontinent (A.KNT)</desc>
+               <desc type="entity_type_id">49</desc>
+               <location type="coords">
+                  <geo>32,530833 -117,02</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/6255149/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb175.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/175/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb175</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb175</idno>
+            </place>
+            <place xml:id="pmb43435">
+               <placeName>Schweiz</placeName>
+               <placeName type="alternative-name">Schweizerische Eidgenossenschaft</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1411</desc>
+               <location type="coords">
+                  <geo>47,00016 8,01427</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb34006.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2658434/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/34006/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43435/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb43435</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb43435</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb43435.html</idno>
+            </place>
+            <place xml:id="pmb44335">
+               <placeName>Schweden</placeName>
+               <placeName type="alternative-name">Kingdom of Sweden</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1411</desc>
+               <location type="coords">
+                  <geo>62,0 15,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb745">Skandinavien</placeName>
+                  <geo>63,0 25,0</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q34</idno>
+               <idno type="URL" subtype="geonames">https://www.geonames.org/2661886</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb244.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/244/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/40699/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44335/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2661886/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb44335</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb44335.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Schweden</idno>
+            </place>
+            <place xml:id="pmb61428">
+               <placeName>Lüneburger Heide</placeName>
+               <placeName type="alternative-name">Lüneburg Heath</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#L.RGN</desc>
+               <desc type="entity_type_id">1555</desc>
+               <location type="coords">
+                  <geo>53,0 10,08333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb151">Deutschland</placeName>
+                  <geo>51,5 10,5</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/61428/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2875111/</idno>
+            </place>
+            <place xml:id="pmb61430">
+               <placeName>Wilseder Berg</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#T.HLL</desc>
+               <desc type="entity_type_id">1729</desc>
+               <location type="coords">
+                  <geo>53,1677 9,9392</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb61428">Lüneburger Heide</placeName>
+                  <geo>53,0 10,08333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb151">Deutschland</placeName>
+                  <geo>51,5 10,5</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/61430/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2808433/</idno>
+            </place>
+            <place xml:id="pmb61433">
+               <placeName>Totengrund</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#T.VAL</desc>
+               <desc type="entity_type_id">1532</desc>
+               <location type="coords">
+                  <geo>53,15626 9,97236</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb61430">Wilseder Berg</placeName>
+                  <geo>53,1677 9,9392</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb151">Deutschland</placeName>
+                  <geo>51,5 10,5</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/61433/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/11281620/</idno>
+            </place>
+            <place xml:id="pmb17">
+               <placeName>Steiermark</placeName>
+               <desc type="entity_type">Teil eines Landes (A.LNDX)</desc>
+               <desc type="entity_type_id">13</desc>
+               <location type="coords">
+                  <geo>47,38 15,7925</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2764581/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb17.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/17/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb17</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb17.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q41358</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Steiermark</idno>
+            </place>
+            <place xml:id="pmb61436">
+               <placeName>Niedere Tauern</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#T.MTS</desc>
+               <desc type="entity_type_id">1620</desc>
+               <location type="coords">
+                  <geo>47,3 14,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb17">Steiermark</placeName>
+                  <geo>47,38 15,7925</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/61436/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2770596/</idno>
+            </place>
+            <place xml:id="pmb35496">
+               <placeName>Schladming</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>47,39655 13,67761</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/7873506/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35496/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb35496</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb35496</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91681/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91681.html</idno>
+            </place>
+            <place xml:id="pmb314">
+               <placeName>Bayern</placeName>
+               <desc type="entity_type">Teil eines Landes (A.LNDX)</desc>
+               <desc type="entity_type_id">13</desc>
+               <location type="coords">
+                  <geo>49,0 11,5</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q980</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2951839/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb314.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/314/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb314</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb314.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Bayern</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb61421">
+               <orgName>Verein Naturschutzpark</orgName>
+               <desc type="entity_type">Verein &gt;&gt; Umweltschutzverein</desc>
+               <desc type="entity_type_id">1777</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb45258">München</placeName>
+                  <geo>48,13743 11,57549</geo>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4127793-4</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/38129/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/45258/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2867714/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb45258</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb45258</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb45258.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1726</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/M%C3%BCnchen</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb872">Stuttgart</placeName>
+                  <geo>48,78232 9,17702</geo>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1022</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4058282-6</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb872.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/872/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/39915/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb872</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64261/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2825297/</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb872.html</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Stuttgart</idno>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/61421/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q787736</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Verein_Naturschutzpark</idno>
+               <note type="apis_dates">
+                  <date notBefore="1909-01-01" when="1909-07-02">1909</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

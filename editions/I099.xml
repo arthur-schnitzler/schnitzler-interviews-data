@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I099">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="I099">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#56290">Vilma Lengyel [=V. Erdelyi]: Beszélgetés Schnitzler Arthurral,
-               7.&#8239;3.&#8239;1926</title>
-            <author ref="#18855">Lengyel, Vilma</author>
+            <title level="a" ref="#pmb56290">Vilma Lengyel [=V. Erdelyi]: Beszélgetés Schnitzler Arthurral,
+               7. 3. 1926</title>
+            <author ref="#pmb18855">Lengyel, Vilma</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -28,13 +30,13 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#18855">Lengyel [=V. Erdelyi], Vilma</author>
-                     <title level="a" ref="#56290">Beszélgetés Schnitzler Arthurral</title>
+                     <author ref="#pmb18855">Lengyel [=V. Erdelyi], Vilma</author>
+                     <title level="a" ref="#pmb56290">Beszélgetés Schnitzler Arthurral</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#56292">Délmagyarország</title>
+                     <title level="j" ref="#pmb56292">Délmagyarország</title>
                      <imprint>
-                        <date when="1926-03-07" n="1">7.&#8239;3.&#8239;1926</date>
+                        <date when="1926-03-07" n="1">7. 3. 1926</date>
                      </imprint>
                      <biblScope unit="pp">5</biblScope>
                   </monogr>
@@ -72,328 +74,253 @@
          <div type="original" xml:lang="hu-HU">
             <head>Beszélgetés Schnitzler Arthurral.</head>
             <p>
-               <rs type="place" ref="#50">Bécs</rs>nek sajátságos atmoszférája van. A világváros
+               <rs type="place" ref="#pmb50">Bécs</rs>nek sajátságos atmoszférája van. A világváros
                külsőséges, tündéri fénye, a pazar mulatóalkalmak korhü dekadenciája, a turistáskodás
                pirospozsgás, trappoló rugalmassága, a müvészet és tudomány csendes elvonultsága, a
                nyárspolgár megható családszeretete és a kalandvágy könnyelmü szerelmeskedése
                mind-mind úgy élnek egymás mellett, mint két inseperable, akik meghalnak, ha párjukat
-               elvesztették. Minden <rs type="place" ref="#50">bécs</rs>iben megvannak ezek a
+               elvesztették. Minden <rs type="place" ref="#pmb50">bécs</rs>iben megvannak ezek a
                tulajdonságok, ezek a vágyak, kinél nagyobb, kinél kisebb mértékben, mindegyik a
                város kiválasztott gyermekének tartja magát, das weaner Kind, akit az Isten is
                jókedvében teremtett. A szomoruság könnyei még le sem peregtek, már is felejtve
                vannak és a vigalom pohara még ki sem ürült és a melancholia már bontogatja fekete
-               zászlóját. A halál és szerelem játéka úgy kergetődzik a <rs type="place" ref="#50"
-                  >bécs</rs>i szivében, mint a tavaszi szellő az első pillangóval. Felejthetetlenül
+               zászlóját. A halál és szerelem játéka úgy kergetődzik a <rs type="place" ref="#pmb50">bécs</rs>i szivében, mint a tavaszi szellő az első pillangóval. Felejthetetlenül
                kedvesek, hóbortosak, könnyelmüek, jószivüek, megértők és szolidárisak.</p>
             <p>Ami azonban a nép gyermekében öntudatlanul élt és él, azt az ösztön hatalmas
-               sugalmazásával a <rs type="place" ref="#50">bécs</rs>i tehetségek, akár muzsikusok
+               sugalmazásával a <rs type="place" ref="#pmb50">bécs</rs>i tehetségek, akár muzsikusok
                voltak, akár irók, költők, vagy müvészek, a saját beszédes formájukkal mindig
-               megörökitették. <rs type="place" ref="#50">Bécs</rs> benne volt: akár <rs
-                  type="person" ref="#12303">Mozart</rs>
+               megörökitették. <rs type="place" ref="#pmb50">Bécs</rs> benne volt: akár <rs type="person" ref="#pmb12303">Mozart</rs>
                <space unit="chars" quantity="1"/>
-               <rs type="work" ref="#56668">varázsfuvolája szólt</rs>, akár <rs type="person"
-                  ref="#12867">Strauss</rs> valcere, vagy ha <rs type="person" ref="#10948"
-                  >Bittner</rs>
+               <rs type="work" ref="#pmb56668">varázsfuvolája szólt</rs>, akár <rs type="person" ref="#pmb12867">Strauss</rs> valcere, vagy ha <rs type="person" ref="#pmb10948">Bittner</rs>
                <space unit="chars" quantity="1"/>
-               <rs type="work" ref="#57951">Te Deuma</rs> zug fel az orgonán, vagy <rs type="person"
-                  ref="#2121">Arthur Schnitzler</rs> novelláiból mosolyog elő. A problémák itt
+               <rs type="work" ref="#pmb57951">Te Deuma</rs> zug fel az orgonán, vagy <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> novelláiból mosolyog elő. A problémák itt
                megkönnyebbülnek, a mélység a felületre szökik, megfürdik a napfény derüjében és már
                nem is probléma, világos, természetes, csak annak a gondolatnak kell hinni, amit a
-               szivünk diktál. És nincsen igazuk a <rs type="place" ref="#50">bécs</rs>ieknek? Nem
-               ez az egyetlen helyes igazság? <rs type="person" ref="#2121">Arthur Schnitzler</rs>
-               legalább minden munkájában ezt akarja bizonyitani és Arthur <rs type="person"
-                  ref="#2121">Schnitzler</rs>t ma a bécsi lélek legmélyebb ismerőjének, legjobb
-               orvosának, de legvakabb szeretőjének is kell tartani. <rs type="place" ref="#50"
-                  >Bécs</rs>ben a zugfodrászmühelyek elkeseredett habverői épp ugy ábrándoznak és
-               hódolnak <rs type="person" ref="#2121">Arthur Schnitzler</rs> munkáinak, mint a felső
+               szivünk diktál. És nincsen igazuk a <rs type="place" ref="#pmb50">bécs</rs>ieknek? Nem
+               ez az egyetlen helyes igazság? <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>
+               legalább minden munkájában ezt akarja bizonyitani és Arthur <rs type="person" ref="#pmb2121">Schnitzler</rs>t ma a bécsi lélek legmélyebb ismerőjének, legjobb
+               orvosának, de legvakabb szeretőjének is kell tartani. <rs type="place" ref="#pmb50">Bécs</rs>ben a zugfodrászmühelyek elkeseredett habverői épp ugy ábrándoznak és
+               hódolnak <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> munkáinak, mint a felső
                tizezer selyempizsamás urai és hölgyei. A villamosban kis varrólányok ölében,
-               teadélutánokon, cobolyprémek rejtekeiben <rs type="person" ref="#2121"
-                  >Schnitzler</rs>-könyvek találhatók. Vajjon miért? Mert <rs type="person"
-                  ref="#2121">Schnitzler</rs> könyvei tükröt tartanak <rs type="place" ref="#50"
-                  >Bécs</rs>re és ebben a tükörben mindenki fölismerheti magát.</p>
+               teadélutánokon, cobolyprémek rejtekeiben <rs type="person" ref="#pmb2121">Schnitzler</rs>-könyvek találhatók. Vajjon miért? Mert <rs type="person" ref="#pmb2121">Schnitzler</rs> könyvei tükröt tartanak <rs type="place" ref="#pmb50">Bécs</rs>re és ebben a tükörben mindenki fölismerheti magát.</p>
             <p>
-               <rs type="place" ref="#50">Bécs</rs>i ismerőseim körében a legirigyeltebb voltam azon
-               a napon, amikor a hires <rs type="person" ref="#2121">Arthur Schnitzler</rs>rel
-               együtt ebédeltem. Egy nagynevü <rs type="place" ref="#50">bécs</rs>i professzornál
+               <rs type="place" ref="#pmb50">Bécs</rs>i ismerőseim körében a legirigyeltebb voltam azon
+               a napon, amikor a hires <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>rel
+               együtt ebédeltem. Egy nagynevü <rs type="place" ref="#pmb50">bécs</rs>i professzornál
                ketten voltunk hivatalosak. A pompás ebédlőben azon a délen leeresztett függönyök és
                teljes villanyfény fogadott. Eleinte nem értettem ezt a furcsa szokást. Sütött a nap,
                aminek örülni kellett volna, ehelyett azonban óvatosan elzártak minden benevető
                sugárocskát, dehát tájékozatlan ember jól teszi, ha óvatos, nem sokat érdeklődik,
-               mert könnyen blamirozza magát. <rs type="person" ref="#2121">Schnitzler</rs> kicsi
+               mert könnyen blamirozza magát. <rs type="person" ref="#pmb2121">Schnitzler</rs> kicsi
                alakja, fehér orvosszakálla, mélyen ülő szürke szemei teljesen lekötöttek. Élénken
-               érdeklődött <rs type="place" ref="#35512">Magyarország</rs> iránt. <rs type="place"
-                  ref="#46376">Szeged</rs><space unit="chars" quantity="1"/>
-               <c rendition="#dots" n="3"/> hol is fekszik <c rendition="#dots" n="3"/> a <rs
-                  type="place" ref="#56493">Tisza</rs><space unit="chars" quantity="1"/>
+               érdeklődött <rs type="place" ref="#pmb35512">Magyarország</rs> iránt. <rs type="place" ref="#pmb46376">Szeged</rs>
+               <space unit="chars" quantity="1"/>
+               <c rendition="#dots" n="3"/> hol is fekszik <c rendition="#dots" n="3"/> a <rs type="place" ref="#pmb56493">Tisza</rs>
+               <space unit="chars" quantity="1"/>
                <c rendition="#dots" n="3"/> igen halpaprikás, gulyás. Nagyszerü, emlékezett arra,
                hogy egyszer Pécsett fölolvasást tartott, elrontotta a gyomrát, rosszul volt, dühében
                a nagy vendégszeretet ezer ételcsodái között megevett egy nagy tál gulyást és azonnal
-               egészséges lett. Szép, szép, mondogatta, de csak egy napig, lejönne <rs type="place"
-                  ref="#46376">Szeged</rs>re is egy <rs type="person" ref="#2121"
-               >Schnitzler</rs>-premierre, hogy megnézze a <rs type="place" ref="#56493"
-               >Tiszát</rs>. Kedvet akartam csinálni, elmeséltem, hogy futott idáig <rs
-                  type="person" ref="#58042">Szabó Dezső</rs>, hogy látogatott le <rs type="person"
-                  ref="#58050">Móricz Zsigmond</rs> és hogy itt élt pályája kezdetén <rs
-                  type="person" ref="#58072">Mikszáth Kálmán</rs>. Nem értem el a várt hatást. <rs
-                  type="person" ref="#2121">Schnitzler</rs> egytől sem olvasott semmit, nem ismeri
-                  <rs type="person" ref="#58062">Karinthyt</rs>, <rs type="person" ref="#58067"
-                  >Kosztolányit</rs>, de olvasta <rs type="person" ref="#58041">Adyt</rs>. Már-már
-               elvesztettem minden reményemet, hogy a <rs type="place" ref="#35512">magyar</rs>
-               tehetségek egy nevén végre lehorgonyozhatjuk magunkat, amikor megemlitette <rs
-                  type="person" ref="#21558">Molnár Ferenc</rs> nevét. Óvatosan beszélt <rs
-                  type="person" ref="#21558">Molnár</rs>ról, mint minden iró, aki ugy fél az
-               interjutól, mint <rs type="person" ref="#2121">Schnitzler</rs>. A professzor <anchor
-                  type="textConst" xml:id="T_T030185-2"/>rosszallólag<note type="textConst"
-                  xml:id="T_T030185-2h"><quote>rosszalólag</quote></note> rázta a fejét. A <rs
-                  type="work" ref="#56613">Riviera</rs> igazán nem ad aktualitást ennek a névnek –
-               mondta –, <rs type="place" ref="#50">Bécs</rs>ben nem tetszett, de <rs type="person"
-                  ref="#2121">Schnitzler</rs> nem hagyta <rs type="person" ref="#21558"
-               >Molnár</rs>t, talán kissé találva is érezte magát, mert az élet hangulatainak a
+               egészséges lett. Szép, szép, mondogatta, de csak egy napig, lejönne <rs type="place" ref="#pmb46376">Szeged</rs>re is egy <rs type="person" ref="#pmb2121">Schnitzler</rs>-premierre, hogy megnézze a <rs type="place" ref="#pmb56493">Tiszát</rs>. Kedvet akartam csinálni, elmeséltem, hogy futott idáig <rs type="person" ref="#pmb58042">Szabó Dezső</rs>, hogy látogatott le <rs type="person" ref="#pmb58050">Móricz Zsigmond</rs> és hogy itt élt pályája kezdetén <rs type="person" ref="#pmb58072">Mikszáth Kálmán</rs>. Nem értem el a várt hatást. <rs type="person" ref="#pmb2121">Schnitzler</rs> egytől sem olvasott semmit, nem ismeri
+                  <rs type="person" ref="#pmb58062">Karinthyt</rs>, <rs type="person" ref="#pmb58067">Kosztolányit</rs>, de olvasta <rs type="person" ref="#pmb58041">Adyt</rs>. Már-már
+               elvesztettem minden reményemet, hogy a <rs type="place" ref="#pmb35512">magyar</rs>
+               tehetségek egy nevén végre lehorgonyozhatjuk magunkat, amikor megemlitette <rs type="person" ref="#pmb21558">Molnár Ferenc</rs> nevét. Óvatosan beszélt <rs type="person" ref="#pmb21558">Molnár</rs>ról, mint minden iró, aki ugy fél az
+               interjutól, mint <rs type="person" ref="#pmb2121">Schnitzler</rs>. A professzor <anchor type="textConst" xml:id="T_T030185-2"/>rosszallólag<note type="textConst" xml:id="T_T030185-2h">
+                  <quote>rosszalólag</quote>
+               </note> rázta a fejét. A <rs type="work" ref="#pmb56613">Riviera</rs> igazán nem ad aktualitást ennek a névnek –
+               mondta –, <rs type="place" ref="#pmb50">Bécs</rs>ben nem tetszett, de <rs type="person" ref="#pmb2121">Schnitzler</rs> nem hagyta <rs type="person" ref="#pmb21558">Molnár</rs>t, talán kissé találva is érezte magát, mert az élet hangulatainak a
                cselekvések központjába való illesztésével testvérek ők mind a ketten, csak mig az
-               egyik Pest szemével néz, addig a másik <rs type="place" ref="#50">Bécs</rs>
+               egyik Pest szemével néz, addig a másik <rs type="place" ref="#pmb50">Bécs</rs>
                tekintetével Iát.</p>
-            <p>– Ha <rs type="person" ref="#21558">Molnár</rs> se többet, se kevesebbet nem irt
-               volna, mint a <rs type="work" ref="#56659">Liliom</rs>ot, az is elég lett volna
+            <p>– Ha <rs type="person" ref="#pmb21558">Molnár</rs> se többet, se kevesebbet nem irt
+               volna, mint a <rs type="work" ref="#pmb56659">Liliom</rs>ot, az is elég lett volna
                ahhoz, hogy nagy költőnek tartsam.</p>
-            <p>Ez volt az egyetlen kijelentése <rs type="person" ref="#2121">Schnitzler</rs>nek,
-               amellyel őszintén, szivből megmondta véleményét egy <rs type="place" ref="#35512"
-                  >magyar</rs> iróról.</p>
-            <p>Az ebéd már vége felé közeledett, a beszélgetés intimre fordult. <rs type="person"
-                  ref="#2121">Schnitzler</rs> nem tagadta meg magát, hiszen nővel beszélt, hát a
+            <p>Ez volt az egyetlen kijelentése <rs type="person" ref="#pmb2121">Schnitzler</rs>nek,
+               amellyel őszintén, szivből megmondta véleményét egy <rs type="place" ref="#pmb35512">magyar</rs> iróról.</p>
+            <p>Az ebéd már vége felé közeledett, a beszélgetés intimre fordult. <rs type="person" ref="#pmb2121">Schnitzler</rs> nem tagadta meg magát, hiszen nővel beszélt, hát a
                bubifrizuráról is szó esett. Minden nő, aki még kontyot hord – mondotta – a fej
                harmoniáját bontja meg. Én minden nőnek csak a bubifrizurát ajánlhatom. Mindenesetre
-               érdekes, gondoltam és igyekeztem <rs type="person" ref="#12327">Hans Müller</rs>re és
-               legújabb darabjára, a <rs type="work" ref="#57949">Veroniká</rs>ra forditani a
-               beszélgetést, de mind hiába, <rs type="person" ref="#2121">Schnitzler</rs> ugyanolyan
+               érdekes, gondoltam és igyekeztem <rs type="person" ref="#pmb12327">Hans Müller</rs>re és
+               legújabb darabjára, a <rs type="work" ref="#pmb57949">Veroniká</rs>ra forditani a
+               beszélgetést, de mind hiába, <rs type="person" ref="#pmb2121">Schnitzler</rs> ugyanolyan
                jó diplomata, mint amilyen jó iró, nem nyilatkozik és ha mond véleményt, olyan
                mosolyba csomagolja, hogy nem, vagy csak nehezen lehet észrevenni, a fontosat
                tartja-e közhelynek, vagy a széljegyzeteiben van egy vallomása.</p>
-            <p>Már <rs type="person" ref="#3603">Csehovnál</rs>, <rs type="person" ref="#4006"
-                  >Dosztojevszkynél</rs> tartottunk, amikor a háziasszony, aki egyébként <rs
-                  type="person" ref="#2121">Schnitzler</rs> huga, nyugtalanul tekintgetett az
+            <p>Már <rs type="person" ref="#pmb3603">Csehovnál</rs>, <rs type="person" ref="#pmb4006">Dosztojevszkynél</rs> tartottunk, amikor a háziasszony, aki egyébként <rs type="person" ref="#pmb2121">Schnitzler</rs> huga, nyugtalanul tekintgetett az
                ablakra. A napot még a legnagyobb erőfeszités árán sem lehetett kiszoritani a
                szobából. Elkezdte hát kérlelni bátyját:</p>
-            <p>– De oly szépen süt, sokkal világosabb, mint a villany, nem <anchor type="textConst"
-                  xml:id="T_T030185-1"/>olthatom<note type="textConst" xml:id="T_T030185-1h"
-                     ><quote>oldhatom</quote></note> még el a lámpát?</p>
+            <p>– De oly szépen süt, sokkal világosabb, mint a villany, nem <anchor type="textConst" xml:id="T_T030185-1"/>olthatom<note type="textConst" xml:id="T_T030185-1h">
+                  <quote>oldhatom</quote>
+               </note> még el a lámpát?</p>
             <p>– Nem, – volt a válasz – nem tudok villany nélkül meglenni</p>
             <p>– De hát olyan furcsa ez a világitás.</p>
             <p>– Dann dreh' die Sonne ab. – (<anchor type="commentary" xml:id="K_I099-23"/>Akkor
                csavard el a napot.<note type="commentary" xml:id="K_I099-23h">misslungene
                   Übersetzung</note>)</p>
-            <p>Ez <rs type="person" ref="#2121">Arthur Schnitzler</rs>, akinek fejedelmi
+            <p>Ez <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>, akinek fejedelmi
                gesztusainál csak egyszerü emberi szive a hatalmasabb hatalom. Ezért bálványozzák a
-                  <rs type="place" ref="#50">bécs</rs>iek és ezért volt nagy élmény a vele való
+                  <rs type="place" ref="#pmb50">bécs</rs>iek és ezért volt nagy élmény a vele való
                együttlét.</p>
             <p rend="right">
                <hi rend="italics">Lengyel Vilma</hi>.</p>
          </div>
          <div type="translation">
-            <head>Gespräch mit <rs type="person" ref="#2121">Arthur Schnitzler</rs>.</head>
+            <head>Gespräch mit <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>.</head>
             <p>
-               <rs type="place" ref="#50">Wien</rs> hat eine eigentümliche Atmosphäre. Der
+               <rs type="place" ref="#pmb50">Wien</rs> hat eine eigentümliche Atmosphäre. Der
                äußerliche, entzückende Glanz der Metropole, die epochengetreue Dekadenz des
                prächtigen Vergnügungsangebots, die Dynamik und Lebensfreude touristischer
                Streifzüge, die stille Weltabgeschiedenheit der Kunst und der Wissenschaft, die
                rührende Familienliebe des Spießbürgers und die verkommene Liebelei des Abenteurers,
                die untrennbar voneinander existieren und die sterben müssen, sobald sie ihre
-               jeweilige Entsprechung verlieren. Jedem <rs type="place" ref="#50">Wien</rs>er wohnen
+               jeweilige Entsprechung verlieren. Jedem <rs type="place" ref="#pmb50">Wien</rs>er wohnen
                diese Eigenschaften inne, diese Sehnsüchte, dem einen in größerem, dem anderen in
-               kleinerem Ausmaß; so hält sich jeder für das auserwählte Kind der Stadt, für das <rs
-                  type="place" ref="#50">Wean</rs>er Kind, das von Gott in bester Laune geschaffen
+               kleinerem Ausmaß; so hält sich jeder für das auserwählte Kind der Stadt, für das <rs type="place" ref="#pmb50">Wean</rs>er Kind, das von Gott in bester Laune geschaffen
                worden ist. Tränen der Wehmut sind kaum herabgelaufen, schon sind sie vergessen, und
                der Becher des Vergnügens ist noch nicht geleert, schon ist die Melancholie im
                Begriff, ihr schwarzes Tuch zu entfalten. Der Tod und die Liebe spielen so Fangen im
-               Herzen der <rs type="place" ref="#50">Wien</rs>er wie die Frühlingsbrise mit dem
-               ersten Schmetterling. Unvergesslich nett und schrullig sind die <rs type="place"
-                  ref="#50">Wien</rs>er, leichtsinnig, gutherzig, verständnisvoll und
+               Herzen der <rs type="place" ref="#pmb50">Wien</rs>er wie die Frühlingsbrise mit dem
+               ersten Schmetterling. Unvergesslich nett und schrullig sind die <rs type="place" ref="#pmb50">Wien</rs>er, leichtsinnig, gutherzig, verständnisvoll und
                solidarisch.</p>
             <p>Was aber dem einfachen Kind des Volkes (seit je und auch heute noch) unreflektiert
-               innewohnt und wirkt, das haben <rs type="place" ref="#50">Wien</rs>er Talente – ob
+               innewohnt und wirkt, das haben <rs type="place" ref="#pmb50">Wien</rs>er Talente – ob
                Musiker, Schriftsteller, Dichter oder Künstler –, den mächtigen Eingaben der
-               Intuition folgend, immer schon in ihren gehaltvollsten Werken verewigt. <rs
-                  type="place" ref="#50">Wien</rs> wohnte den Dingen inne: Ob <rs type="person"
-                  ref="#12303">Mozart</rs>s <rs type="work" ref="#56668">Zauberflöte</rs> oder ein
-               Walzer von <rs type="person" ref="#12867">Strauss</rs> erklingt, oder <anchor
-                  xml:id="K_import_69" type="commentary"/>
-               <rs type="person" ref="#10948">Bittner</rs>s <rs type="work" ref="#57951">Te
+               Intuition folgend, immer schon in ihren gehaltvollsten Werken verewigt. <rs type="place" ref="#pmb50">Wien</rs> wohnte den Dingen inne: Ob <rs type="person" ref="#pmb12303">Mozart</rs>s <rs type="work" ref="#pmb56668">Zauberflöte</rs> oder ein
+               Walzer von <rs type="person" ref="#pmb12867">Strauss</rs> erklingt, oder <anchor xml:id="K_import_69" type="commentary"/>
+               <rs type="person" ref="#pmb10948">Bittner</rs>s <rs type="work" ref="#pmb57951">Te
                   Deum</rs>
                <note type="commentary" xml:id="K_import_69h">
-                  <rs type="person" ref="#10948">Julius Bittner</rs> war ein zeitgenössischer <rs
-                     type="place" ref="#50">Wien</rs>er Komponist, Journalist und Jurist. Dessen <rs
-                     type="work" ref="#57951">Große Messe mit Te Deum für Soli, gemischten Chor,
-                     großes Orchester und Orgel</rs> wurde am <date>6.&#8239;3.&#8239;1926</date> im <rs
-                     type="place" ref="#562">Großen Konzerthaussaal</rs> in <rs type="place"
-                     ref="#50">Wien</rs> uraufgeführt.</note> auf der Orgel ertönt oder ob es eben
-               aus den Novellen <rs type="person" ref="#2121">Arthur Schnitzler</rs>s hervorlächelt.
+                  <rs type="person" ref="#pmb10948">Julius Bittner</rs> war ein zeitgenössischer <rs type="place" ref="#pmb50">Wien</rs>er Komponist, Journalist und Jurist. Dessen <rs type="work" ref="#pmb57951">Große Messe mit Te Deum für Soli, gemischten Chor,
+                     großes Orchester und Orgel</rs> wurde am <date>6. 3. 1926</date> im <rs type="place" ref="#pmb562">Großen Konzerthaussaal</rs> in <rs type="place" ref="#pmb50">Wien</rs> uraufgeführt.</note> auf der Orgel ertönt oder ob es eben
+               aus den Novellen <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>s hervorlächelt.
                Die Probleme verlieren hier ihr drückendes Gewicht, die Tiefe offenbart sich an der
                Oberfläche, nimmt ein Bad im heiteren Sonnenlicht und schon ist es kein Problem mehr;
                es ist klar und natürlich; wir brauchen nur dem Gedanken Glauben zu schenken, der
-               unserem Herzen entspringt. Und haben die <rs type="place" ref="#50">Wien</rs>er etwa
+               unserem Herzen entspringt. Und haben die <rs type="place" ref="#pmb50">Wien</rs>er etwa
                nicht recht? Ist das denn nicht die einzige richtige Wahrheit? Das will zumindest in
-               jedem seiner Werke <rs type="person" ref="#2121">Arthur Schnitzler</rs> beweisen, und
-               man muss <rs type="person" ref="#2121">Arthur Schnitzler</rs> heute für den am
+               jedem seiner Werke <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> beweisen, und
+               man muss <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> heute für den am
                tiefsten schürfenden Kenner und besten Arzt, aber auch den blindesten Liebhaber der
-                  <rs type="place" ref="#50">Wien</rs>er Seele halten. Die verbitterten und
-               verzagten Barbiere, die in den abseitigsten Frisörläden <rs type="place" ref="#50"
-                  >Wien</rs>s Schaum anrühren, hängen Traumbildern nach und huldigen <rs
-                  type="person" ref="#2121">Schnitzler</rs>s Werken genauso wie im oberen
+                  <rs type="place" ref="#pmb50">Wien</rs>er Seele halten. Die verbitterten und
+               verzagten Barbiere, die in den abseitigsten Frisörläden <rs type="place" ref="#pmb50">Wien</rs>s Schaum anrühren, hängen Traumbildern nach und huldigen <rs type="person" ref="#pmb2121">Schnitzler</rs>s Werken genauso wie im oberen
                Zehntausend die Herren und Damen im Seidenpyjama. Auf dem Schoß der kleinen
-               Näherinnen in der Straßenbahn und beim Nachmittagstee liegen Bücher von <rs
-                  type="person" ref="#2121">Schnitzler</rs>; in den Falten der Zobelfelle stecken
-               Bücher von <rs type="person" ref="#2121">Schnitzler</rs>. Warum wohl? Denn <rs
-                  type="person" ref="#2121">Schnitzler</rs>s Bücher halten <rs type="place"
-                  ref="#50">Wien</rs> einen Spiegel vor und in diesem Spiegel kann sich ein jeder
+               Näherinnen in der Straßenbahn und beim Nachmittagstee liegen Bücher von <rs type="person" ref="#pmb2121">Schnitzler</rs>; in den Falten der Zobelfelle stecken
+               Bücher von <rs type="person" ref="#pmb2121">Schnitzler</rs>. Warum wohl? Denn <rs type="person" ref="#pmb2121">Schnitzler</rs>s Bücher halten <rs type="place" ref="#pmb50">Wien</rs> einen Spiegel vor und in diesem Spiegel kann sich ein jeder
                wiedererkennen.</p>
-            <p>Im Kreise meiner <rs type="place" ref="#50">Wien</rs>er Bekannten war ich die am
-               meisten beneidete Person, als ich zusammen mit <rs type="person" ref="#2121">Arthur
+            <p>Im Kreise meiner <rs type="place" ref="#pmb50">Wien</rs>er Bekannten war ich die am
+               meisten beneidete Person, als ich zusammen mit <rs type="person" ref="#pmb2121">Arthur
                   Schnitzler</rs> zu Mittag gegessen habe. Wir waren zu zweit bei einem sehr
-               angesehenen <rs type="place" ref="#50">Wien</rs>er <anchor type="commentary"
-                  xml:id="K_implied_2284"/>
-               <rs type="person" ref="#2284" subtype="implied">Professor</rs>
+               angesehenen <rs type="place" ref="#pmb50">Wien</rs>er <anchor type="commentary" xml:id="K_implied_2284"/>
+               <rs type="person" ref="#pmb2284" subtype="implied">Professor</rs>
                <note type="commentary" xml:id="K_implied_2284h">
-                  <rs type="person" ref="#2284">Markus Hajek</rs>, <rs type="person" ref="#2121"
-                     >Schnitzler</rs>s Schwager</note> eingeladen. Im prächtigen Speisezimmer
+                  <rs type="person" ref="#pmb2284">Markus Hajek</rs>, <rs type="person" ref="#pmb2121">Schnitzler</rs>s Schwager</note> eingeladen. Im prächtigen Speisezimmer
                empfingen uns am nämlichen Mittag zugezogene Gardinen und taghelle elektrische
                Beleuchtung. Zunächst verstand ich diesen seltsamen Brauch nicht. Es schien die
                Sonne; darüber hätte man sich doch freuen müssen. Statt dessen versperrte man
                sorgfältig den Weg eines jeden kleinen hereinlachenden Strahls; ein unkundiger Mensch
                tut aber besser daran, vorsichtig zu sein und nicht allzu viel zu fragen, um sich
-               nicht zu blamieren. <rs type="person" ref="#2121">Schnitzler</rs>s kleine Figur, sein
-               weißer Doktorbart, seine tiefsitzenden <anchor type="commentary" xml:id="K_I099-123"
-               />grauen Augen<note type="commentary" xml:id="K_I099-123h"><ref target="#L_I102_augen"
-                     type="pointer"/></note> haben mich gänzlich gebannt. Er zeigte lebhaftes
-               Interesse für <rs type="place" ref="#35512">Ungarn</rs>. <anchor xml:id="K_import_70"
-                  type="commentary"/>
-               <rs type="place" ref="#46376">Szeged</rs>
-               <note type="commentary" xml:id="K_import_70h">Südungarische Stadt, vom <rs
-                     type="place" ref="#56493">Theiß</rs>, dem längsten Nebenfluss der Donau,
+               nicht zu blamieren. <rs type="person" ref="#pmb2121">Schnitzler</rs>s kleine Figur, sein
+               weißer Doktorbart, seine tiefsitzenden <anchor type="commentary" xml:id="K_I099-123"/>grauen Augen<note type="commentary" xml:id="K_I099-123h">
+                  <ref target="#L_I102_augen" type="pointer"/>
+               </note> haben mich gänzlich gebannt. Er zeigte lebhaftes
+               Interesse für <rs type="place" ref="#pmb35512">Ungarn</rs>. <anchor xml:id="K_import_70" type="commentary"/>
+               <rs type="place" ref="#pmb46376">Szeged</rs>
+               <note type="commentary" xml:id="K_import_70h">Südungarische Stadt, vom <rs type="place" ref="#pmb56493">Theiß</rs>, dem längsten Nebenfluss der Donau,
                   durchflossen. Bei der Volkszählung <date>1910</date> wurden 118.000 Einwohner
                   gezählt. Bekannt für seine Fischspeisen und das Szegediner Gulasch (mit
                   Sauerkraut), wobei letzteres den Namen nicht vom Ort, sondern vom Schriftsteller
-                     <rs type="person" ref="#58056">József Székely</rs> haben dürfte.</note><space unit="chars" quantity="1"/>
-               <c rendition="#dots" n="3"/> wo liegt’s denn nur <c rendition="#dots" n="3"/> der <rs
-                  type="place" ref="#56493">Theiß</rs><space unit="chars" quantity="1"/>
+                     <rs type="person" ref="#pmb58056">József Székely</rs> haben dürfte.</note>
+               <space unit="chars" quantity="1"/>
+               <c rendition="#dots" n="3"/> wo liegt’s denn nur <c rendition="#dots" n="3"/> der <rs type="place" ref="#pmb56493">Theiß</rs>
+               <space unit="chars" quantity="1"/>
                <c rendition="#dots" n="3"/> oh ja, Paprika-Fisch, Gulaschsuppe. Wunderbar, er
                entsann sich, einmal in <anchor xml:id="K_import_71" type="commentary"/>
-               <rs type="place" ref="#41801">Pécs</rs> eine Autorenlesung<note type="commentary"
-                  xml:id="K_import_71h">
-                  <rs type="person" ref="#2121">Schnitzler</rs> hat nie in <rs type="place"
-                     ref="#41801">Pécs</rs> (deutsch: <rs type="place" ref="#41801"
-                  >Fünfkirchen</rs>) gelesen. Auf welche andere Lesung sich die Anekdote bezieht,
-                  konnte nicht ermittelt werden. (<anchor type="label" xml:id="I099_L_gulyas"></anchor>›Gulyas‹ kommt nur zweimal im <rs type="work"
-                     ref="#33243">Tagebuch</rs> vor, jeweils in anderem Zusammenhang.)</note> gehabt
+               <rs type="place" ref="#pmb41801">Pécs</rs> eine Autorenlesung<note type="commentary" xml:id="K_import_71h">
+                  <rs type="person" ref="#pmb2121">Schnitzler</rs> hat nie in <rs type="place" ref="#pmb41801">Pécs</rs> (deutsch: <rs type="place" ref="#pmb41801">Fünfkirchen</rs>) gelesen. Auf welche andere Lesung sich die Anekdote bezieht,
+                  konnte nicht ermittelt werden. (<anchor type="label" xml:id="I099_L_gulyas"/>›Gulyas‹ kommt nur zweimal im <rs type="work" ref="#pmb33243">Tagebuch</rs> vor, jeweils in anderem Zusammenhang.)</note> gehabt
                zu haben. Er hatte sich den Magen verdorben, er war sehr unpässlich, da hat er quasi
                aus Wut von den tausend wunderbaren Gerichten, die ihm die Gastfreundschaft zur
                Verfügung stellte, einen großen Teller Gulaschsuppe gegessen und war im Nu wieder
-               genesen. Schön, schön, sagte er, aber bloß für einen Tag. Er würde gern auch nach <rs
-                  type="place" ref="#46376">Szeged</rs> kommen, für eine <rs type="person"
-                  ref="#2121">Schnitzler</rs>-Premiere, um sich den <rs type="place" ref="#56493"
-                  >Theiß</rs> anzusehen. Da wollte ich ihm Mut machen, ich erzählte, wie <anchor
-                  xml:id="K_import_72" type="commentary"/>
-               <rs type="person" ref="#58042">Dezső Szabó</rs> dorthin gelaufen<note
-                  type="commentary" xml:id="K_import_72h">In der zweiten Hälfte des Jahres <date>1924</date> verbrachte <rs type="person"
-                     ref="#58042">Szabó</rs> ein halbes Jahr in <rs type="place" ref="#182"
-                     >Paris</rs>, brach dann aber überraschend auf, um den <date>April</date> und
-                     <date>Mai</date> in <rs type="place" ref="#46376">Szeged</rs> zu
-                  verbringen.</note> war, wie <rs type="person" ref="#58050">Zsigmond Móricz</rs>
+               genesen. Schön, schön, sagte er, aber bloß für einen Tag. Er würde gern auch nach <rs type="place" ref="#pmb46376">Szeged</rs> kommen, für eine <rs type="person" ref="#pmb2121">Schnitzler</rs>-Premiere, um sich den <rs type="place" ref="#pmb56493">Theiß</rs> anzusehen. Da wollte ich ihm Mut machen, ich erzählte, wie <anchor xml:id="K_import_72" type="commentary"/>
+               <rs type="person" ref="#pmb58042">Dezső Szabó</rs> dorthin gelaufen<note type="commentary" xml:id="K_import_72h">In der zweiten Hälfte des Jahres <date>1924</date> verbrachte <rs type="person" ref="#pmb58042">Szabó</rs> ein halbes Jahr in <rs type="place" ref="#pmb182">Paris</rs>, brach dann aber überraschend auf, um den <date>April</date> und
+                     <date>Mai</date> in <rs type="place" ref="#pmb46376">Szeged</rs> zu
+                  verbringen.</note> war, wie <rs type="person" ref="#pmb58050">Zsigmond Móricz</rs>
                die Stadt besucht hatte und dass <anchor xml:id="K_import_74" type="commentary"/>
-               <rs type="person" ref="#58072">Kálmán Mikszáth</rs>
+               <rs type="person" ref="#pmb58072">Kálmán Mikszáth</rs>
                <note type="commentary" xml:id="K_import_74h">In seiner
-                  <bibl><title level="m">Leseliste</title></bibl> nennt <rs type="person" ref="#2121">Schnitzler</rs> just <rs
-                     type="person" ref="#58072">Mikszáth</rs> mit einem <date>1898</date> auf
-                  Deutsch erschienenen Werk (<rs type="work" ref="#58077">Sankt Peters
-                     Regenschirm</rs>). Ansonsten weist sie neun Autoren aus, darunter <rs
-                     type="person" ref="#21558">Molnár</rs>. Ausschließlich von <rs type="person"
-                        ref="#18956">Mór Jókai</rs> werden mehrere Titel genannt, insgesamt elf. <bibl><title level="m">Leseliste</title> 142–143</bibl>.</note> am Anfang seiner
+                  <bibl>
+                     <title level="m">Leseliste</title>
+                  </bibl> nennt <rs type="person" ref="#pmb2121">Schnitzler</rs> just <rs type="person" ref="#pmb58072">Mikszáth</rs> mit einem <date>1898</date> auf
+                  Deutsch erschienenen Werk (<rs type="work" ref="#pmb58077">Sankt Peters
+                     Regenschirm</rs>). Ansonsten weist sie neun Autoren aus, darunter <rs type="person" ref="#pmb21558">Molnár</rs>. Ausschließlich von <rs type="person" ref="#pmb18956">Mór Jókai</rs> werden mehrere Titel genannt, insgesamt elf. <bibl>
+                     <title level="m">Leseliste</title> 142–143</bibl>.</note> am Anfang seiner
                Schriftstellerlaufbahn dort gelebt hat. Ich erreichte die erhoffte Wirkung nicht. Von
-               keinem der Besagten hatte <rs type="person" ref="#2121">Schnitzler</rs> je etwas
-               gelesen, er kennt <rs type="person" ref="#58062">Karinthy</rs> nicht, <rs
-                  type="person" ref="#58067">Kosztolányi</rs> nicht, er habe aber <anchor
-                  xml:id="K_import_77" type="commentary"/>
-               <rs type="person" ref="#58041">Ady</rs> gelesen.<note type="commentary"
-                  xml:id="K_import_77h">Eine Lektüre
-                  durch <rs type="person" ref="#2121">Schnitzler</rs> lässt sich nicht
+               keinem der Besagten hatte <rs type="person" ref="#pmb2121">Schnitzler</rs> je etwas
+               gelesen, er kennt <rs type="person" ref="#pmb58062">Karinthy</rs> nicht, <rs type="person" ref="#pmb58067">Kosztolányi</rs> nicht, er habe aber <anchor xml:id="K_import_77" type="commentary"/>
+               <rs type="person" ref="#pmb58041">Ady</rs> gelesen.<note type="commentary" xml:id="K_import_77h">Eine Lektüre
+                  durch <rs type="person" ref="#pmb2121">Schnitzler</rs> lässt sich nicht
                   belegen.</note> Ich habe schon fast jegliche Hoffnung verloren, dass wir in einem
                von den Namen der ungarischen Talente endlich einen Anknüpfungspunkt finden könnten,
-               da erwähnte er den Namen von <rs type="person" ref="#21558">Ferenc Molnár</rs>.
-               Nachdenklich sprach er über <rs type="person" ref="#21558">Molnár</rs>, wie es ein
-               Schriftsteller tut, der sich so wie <rs type="person" ref="#2121">Schnitzler</rs> vor
-               dem Interview fürchtet. Der Professor schüttelte unwillig den Kopf. <rs type="work"
-                  ref="#56613">Riviera</rs> lasse <rs type="person" ref="#21558">Molnár</rs>s Namen
-               nicht wirklich in Mode kommen – sagte er –. In <rs type="place" ref="#50">Wien</rs>
-               erntete es Missfallen, doch <rs type="person" ref="#2121">Schnitzler</rs> verteidigte
+               da erwähnte er den Namen von <rs type="person" ref="#pmb21558">Ferenc Molnár</rs>.
+               Nachdenklich sprach er über <rs type="person" ref="#pmb21558">Molnár</rs>, wie es ein
+               Schriftsteller tut, der sich so wie <rs type="person" ref="#pmb2121">Schnitzler</rs> vor
+               dem Interview fürchtet. Der Professor schüttelte unwillig den Kopf. <rs type="work" ref="#pmb56613">Riviera</rs> lasse <rs type="person" ref="#pmb21558">Molnár</rs>s Namen
+               nicht wirklich in Mode kommen – sagte er –. In <rs type="place" ref="#pmb50">Wien</rs>
+               erntete es Missfallen, doch <rs type="person" ref="#pmb2121">Schnitzler</rs> verteidigte
                   <anchor xml:id="K_import_78" type="commentary"/>
-               <rs type="person" ref="#21558">Molnár</rs>
+               <rs type="person" ref="#pmb21558">Molnár</rs>
                <note type="commentary" xml:id="K_import_78h">
-                  <rs type="person" ref="#21558">Franz Molnár</rs>, Schriftsteller und der
+                  <rs type="person" ref="#pmb21558">Franz Molnár</rs>, Schriftsteller und der
                   erfolgreichste ungarische Dramatiker seiner Generation. In den 1920er Jahren
-                  konnte er nicht in gleichem Maße an die früheren Erfolge anschließen. <rs
-                     type="work" ref="#56613">Riviera</rs> erlebte am <date>23.&#8239;12.&#8239;1925</date> im
-                  von <rs type="person" ref="#12504">Max Reinhardt</rs> geleiteten <rs type="org"
-                     ref="#39689">Theater in der Josefstadt</rs> seine deutschsprachige
-                  Uraufführung. (<bibl>Vgl. <rs type="person" ref="#6097">Béla Balázs</rs>: <rs
-                        type="work" ref="#56615">Riviera. Ein Spiel von Franz Molnar</rs>. In: <rs
-                        type="work" ref="#41560">Der Tag</rs>, Jg.&#8239;4, Nr.&#8239;1.103,
-                        <date>25.&#8239;12.&#8239;1925</date>, S.&#8239;9-10</bibl> und <bibl>
-                     <rs type="person" ref="#11771">Rudolf Holzer</rs>: <rs type="work" ref="#56619"
-                        >»Riviera«. Ein Spiel von Franz Molnar. Erstaufführung im Theater in der
-                        Josefstadt</rs>. In: <rs type="work" ref="#41265">Wiener Zeitung</rs>,
-                     Jg.&#8239;222, Nr.&#8239;295, <date>29.&#8239;12.&#8239;1925</date>, S.&#8239;1–2</bibl>.) <rs type="person"
-                     ref="#2121">Schnitzler</rs> kannte <rs type="person" ref="#21558">Molnár</rs>
+                  konnte er nicht in gleichem Maße an die früheren Erfolge anschließen. <rs type="work" ref="#pmb56613">Riviera</rs> erlebte am <date>23. 12. 1925</date> im
+                  von <rs type="person" ref="#pmb12504">Max Reinhardt</rs> geleiteten <rs type="org" ref="#pmb39689">Theater in der Josefstadt</rs> seine deutschsprachige
+                  Uraufführung. (<bibl>Vgl. <rs type="person" ref="#pmb6097">Béla Balázs</rs>: <rs type="work" ref="#pmb56615">Riviera. Ein Spiel von Franz Molnar</rs>. In: <rs type="work" ref="#pmb41560">Der Tag</rs>, Jg. 4, Nr. 1.103,
+                        <date>25. 12. 1925</date>, S. 9-10</bibl> und <bibl>
+                     <rs type="person" ref="#pmb11771">Rudolf Holzer</rs>: <rs type="work" ref="#pmb56619">»Riviera«. Ein Spiel von Franz Molnar. Erstaufführung im Theater in der
+                        Josefstadt</rs>. In: <rs type="work" ref="#pmb41265">Wiener Zeitung</rs>,
+                     Jg. 222, Nr. 295, <date>29. 12. 1925</date>, S. 1–2</bibl>.) <rs type="person" ref="#pmb2121">Schnitzler</rs> kannte <rs type="person" ref="#pmb21558">Molnár</rs>
                   persönlich, besuchte aber die Aufführung nicht. Eine Kenntnis des Stückes lässt
                   sich nicht nachweisen, sehr wohl aber die eines Dutzends weiterer.</note>. Mag
                sein, dass er sich dabei selbst einigermaßen angesprochen gefühlt hat, denn beide, er
-               und <rs type="person" ref="#21558">Molnár</rs>, sind darin Brüder, dass sie beide die
+               und <rs type="person" ref="#pmb21558">Molnár</rs>, sind darin Brüder, dass sie beide die
                Stimmungen des Lebens im Zentrum der Handlung festhalten, bloß dass der eine mit dem
-                  <rs type="place" ref="#43471">Pester</rs> Auge blickt, während der andere einen
-                  <rs type="place" ref="#50">Wien</rs>er Blick verwendet.</p>
-            <p>– Hätte <rs type="person" ref="#21558">Molnár</rs> nichts als <anchor
-                  xml:id="K_import_79" type="commentary"/>
-               <rs type="work" ref="#56659">Liliom</rs>
+                  <rs type="place" ref="#pmb43471">Pester</rs> Auge blickt, während der andere einen
+                  <rs type="place" ref="#pmb50">Wien</rs>er Blick verwendet.</p>
+            <p>– Hätte <rs type="person" ref="#pmb21558">Molnár</rs> nichts als <anchor xml:id="K_import_79" type="commentary"/>
+               <rs type="work" ref="#pmb56659">Liliom</rs>
                <note type="commentary" xml:id="K_import_79h">
-                  <rs type="person" ref="#21558">Molnár</rs>s erfolgreichstes Stück, erstmals in <rs
-                     type="place" ref="#43471">Budapest</rs> am <date>7.&#8239;12.&#8239;1909</date> und seit
-                     <date>1912</date> auch regelmäßig an deutschen Bühnen aufgeführt. <rs
-                     type="person" ref="#2121">Schnitzler</rs> sah es bei einer Inszenierung am
-                     <date>10.&#8239;1.&#8239;1924</date> am <rs type="org" ref="#39666">Raimundtheater</rs>,
-                  bei der auch sein Sohn <rs type="person" ref="#12692">Heinrich</rs> in einer
+                  <rs type="person" ref="#pmb21558">Molnár</rs>s erfolgreichstes Stück, erstmals in <rs type="place" ref="#pmb43471">Budapest</rs> am <date>7. 12. 1909</date> und seit
+                     <date>1912</date> auch regelmäßig an deutschen Bühnen aufgeführt. <rs type="person" ref="#pmb2121">Schnitzler</rs> sah es bei einer Inszenierung am
+                     <date>10. 1. 1924</date> am <rs type="org" ref="#pmb39666">Raimundtheater</rs>,
+                  bei der auch sein Sohn <rs type="person" ref="#pmb12692">Heinrich</rs> in einer
                   kleinen Rolle auftrat.</note> geschrieben, das allein würde mir ausreichen, ihn
                für einen großen Dichter zu halten.</p>
-            <p>Das war die einzige Aussage von <rs type="person" ref="#2121">Schnitzler</rs>, in der
+            <p>Das war die einzige Aussage von <rs type="person" ref="#pmb2121">Schnitzler</rs>, in der
                er aufrichtig und von Herzen seine Meinung über einen ungarischen Schriftsteller
                ausgedrückt hat.</p>
             <p>Das Mittagessen neigte sich schon seinem Ende zu, das Gespräch nahm eine Wendung ins
-               privatere. <rs type="person" ref="#2121">Schnitzler</rs> verleugnete sich nicht,
+               privatere. <rs type="person" ref="#pmb2121">Schnitzler</rs> verleugnete sich nicht,
                sprach er doch mit einer Frau;<ref type="question" target="#q097"/> also kam die Rede
                auch auf den Bubikopf. Jede Frau, die noch einen Haarknoten trägt – meinte er –
                zerstört die Harmonie der Kopfform. Ich kann nur jeder Frau den Bubikopf empfehlen.
-               Allerdings interessant, dachte ich bei mir und versuchte das Gespräch auf <anchor
-                  xml:id="K_import_80" type="commentary"/>
-               <rs type="person" ref="#12327">Hans Müller</rs> und dessen Stück <rs type="work"
-                  ref="#57949">Veronika</rs>
+               Allerdings interessant, dachte ich bei mir und versuchte das Gespräch auf <anchor xml:id="K_import_80" type="commentary"/>
+               <rs type="person" ref="#pmb12327">Hans Müller</rs> und dessen Stück <rs type="work" ref="#pmb57949">Veronika</rs>
                <note type="commentary" xml:id="K_import_80h">
-                  <rs type="person" ref="#12327">Hans Müller-Einigen</rs>: <rs type="work"
-                     ref="#57949">Veronika. Ein Stück Alltag in vier Akten</rs> wurde am
-                     <date>11.&#8239;2.&#8239;1926</date> im <rs type="org" ref="#36430">Deutschen
-                     Volkstheater</rs> uraufgeführt. <rs type="person" ref="#2121">Schnitzler</rs>
-                  besuchte die Aufführung nicht, aber sah am <date>13.&#8239;6.&#8239;1927</date> – über ein
+                  <rs type="person" ref="#pmb12327">Hans Müller-Einigen</rs>: <rs type="work" ref="#pmb57949">Veronika. Ein Stück Alltag in vier Akten</rs> wurde am
+                     <date>11. 2. 1926</date> im <rs type="org" ref="#pmb36430">Deutschen
+                     Volkstheater</rs> uraufgeführt. <rs type="person" ref="#pmb2121">Schnitzler</rs>
+                  besuchte die Aufführung nicht, aber sah am <date>13. 6. 1927</date> – über ein
                   Jahr nach diesem Interview –, eine Verfilmung, jedoch ohne sich weiter darüber zu
-                  äußern. </note> zu lenken, aber vergebens: <rs type="person" ref="#2121"
-                  >Schnitzler</rs> ist ein ebenso guter Diplomat wie Schriftsteller; er macht keine
+                  äußern. </note> zu lenken, aber vergebens: <rs type="person" ref="#pmb2121">Schnitzler</rs> ist ein ebenso guter Diplomat wie Schriftsteller; er macht keine
                klaren Aussagen und wenn er eine Meinung äußert, dann versteckt er diese in einem
                Lächeln, so dass man gar nicht oder nur schwerlich herausbekommen kann, ob er das
                Wichtige für einen Gemeinplatz hält – oder in einer Randbemerkung ein Bekenntnis
                macht.</p>
-            <p>Wir sind nun bei <rs type="person" ref="#3603">Čechov</rs> und <rs type="person"
-                  ref="#4006">Dostojewski</rs> angelangt, als unsere Gastgeberin, übrigens <rs
-                  type="person" ref="#2121">Schnitzler</rs>s jüngere <anchor xml:id="K_import_81"
-                  type="commentary"/>
-               <rs type="person" ref="#2461" subtype="implied">Schwester</rs>
+            <p>Wir sind nun bei <rs type="person" ref="#pmb3603">Čechov</rs> und <rs type="person" ref="#pmb4006">Dostojewski</rs> angelangt, als unsere Gastgeberin, übrigens <rs type="person" ref="#pmb2121">Schnitzler</rs>s jüngere <anchor xml:id="K_import_81" type="commentary"/>
+               <rs type="person" ref="#pmb2461" subtype="implied">Schwester</rs>
                <note type="commentary" xml:id="K_import_81h">
-                  <rs type="person" ref="#2121">Schnitzler</rs> war der Erstgeborene, er hatte einen
-                  drei Jahre jüngeren <rs type="person" ref="#12698" subtype="implied">Bruder</rs>
-                  und – mit <rs type="person" ref="#2461">Gisela</rs> – eine fünf Jahre jüngere
+                  <rs type="person" ref="#pmb2121">Schnitzler</rs> war der Erstgeborene, er hatte einen
+                  drei Jahre jüngeren <rs type="person" ref="#pmb12698" subtype="implied">Bruder</rs>
+                  und – mit <rs type="person" ref="#pmb2461">Gisela</rs> – eine fünf Jahre jüngere
                   Schwester.</note>, mehrmals unruhig zum Fenster blickte. Die Sonne ließ sich
                selbst bei der größten Anstrengung nicht aus dem Zimmer aussperren. Also fing sie an,
                auf ihren Bruder einzureden:</p>
@@ -401,29 +328,1398 @@
                darf ich nicht vielleicht die Lampe ausschalten?</p>
             <p>– Nein – lautete die Antwort –, ich kann das Lampenlicht nicht missen.</p>
             <p>– Aber diese Beleuchtung ist so sonderbar.</p>
-            <p>– <anchor xml:id="K_import_82" type="commentary"/>Dann dreh’ die Sonne ab.<note
-                  type="commentary" xml:id="K_import_82h">Als Ausspruch wirkt es dem anekdotischen
-                  »Geh mir ein wenig aus der Sonne« nachgebildet, das <rs type="person" ref="#3718"
-                     >Diogenes</rs> sich von <rs type="person" ref="#13309">Alexander dem
-                     Großen</rs> gewünscht haben soll. Eine negative Einstellung <rs type="person"
-                     ref="#2121">Schnitzler</rs>s zum Tageslicht ist absonsten nicht tradiert.</note>
+            <p>– <anchor xml:id="K_import_82" type="commentary"/>Dann dreh’ die Sonne ab.<note type="commentary" xml:id="K_import_82h">Als Ausspruch wirkt es dem anekdotischen
+                  »Geh mir ein wenig aus der Sonne« nachgebildet, das <rs type="person" ref="#pmb3718">Diogenes</rs> sich von <rs type="person" ref="#pmb13309">Alexander dem
+                     Großen</rs> gewünscht haben soll. Eine negative Einstellung <rs type="person" ref="#pmb2121">Schnitzler</rs>s zum Tageslicht ist absonsten nicht tradiert.</note>
             </p>
-            <p>Das ist also <rs type="person" ref="#2121">Arthur Schnitzler</rs>; nur sein einfaches
+            <p>Das ist also <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>; nur sein einfaches
                Menschenherz ist eine noch mächtigere Macht als seine fürstlichen Gesten. Deshalb
-               vergöttern ihn die <rs type="place" ref="#50">Wien</rs>er und deshalb war das
+               vergöttern ihn die <rs type="place" ref="#pmb50">Wien</rs>er und deshalb war das
                Beisammensein mit ihm ein so großes Erlebnis.</p>
             <p rend="right">
                <hi rend="italics">Vilma Lengyel</hi>.</p>
          </div>
          <div type="biographical">
             <div1>
-               <ref target="1926-02-26" type="schnitzlerDiary"/>
-               <quote>Bei <rs type="person" ref="#2284 #2461">Hajeks</rs> gegessen. Frau <rs
-                     type="person" ref="#18855">Jenő-Erdely</rs> (Verwandte), aus <rs type="place"
-                     ref="#46376">Szegedin</rs>, die mich schon s. Z. interviewen und übersetzen
+               <ref target="1926-02-26" type="schnitzler-tagebuch"/>
+               <quote>Bei <rs type="person" ref="#pmb2284 #pmb2461">Hajeks</rs> gegessen. Frau <rs type="person" ref="#pmb18855">Jenő-Erdely</rs> (Verwandte), aus <rs type="place" ref="#pmb46376">Szegedin</rs>, die mich schon s. Z. interviewen und übersetzen
                   wollte.</quote>
             </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb18855">
+               <persName>
+                  <forename>Vilma Irma</forename>
+                  <surname>Erdelyi</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Lengyel</persName>
+               <birth>
+                  <date when="1893-06-09">09.6.1893</date>
+                  <settlement ref="pmb46376">
+                     <placeName type="pref">Szeged</placeName>
+                     <location>
+                        <geo>46,253 20,14824</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1945-07-02" notAfter="1945-12-31">1945</date>
+                  <settlement ref="pmb42269">
+                     <placeName type="pref">Strasshof an der Nordbahn</placeName>
+                     <location>
+                        <geo>48,31584 16,65021</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16536</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/18855/</idno>
+            </person>
+            <person xml:id="pmb12303">
+               <persName>
+                  <forename>Wolfgang Amadeus</forename>
+                  <surname>Mozart</surname>
+               </persName>
+               <birth>
+                  <date when="1756-01-27">27.01.1756</date>
+                  <settlement ref="pmb30">
+                     <placeName type="pref">Salzburg</placeName>
+                     <location>
+                        <geo>47,80067 13,04532</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1791-12-05">05.12.1791</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb129">Komponist/Komponistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18282</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118584596</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12303.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12303/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12303</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb12303</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp55699</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q254</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart</idno>
+               <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_13.html</idno>
+            </person>
+            <person xml:id="pmb12867">
+               <persName>
+                  <forename>Johann</forename>
+                  <surname>Strauss</surname>
+               </persName>
+               <persName type="person_rufname">Sohn</persName>
+               <birth>
+                  <date when="1825-10-25">25.10.1825</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1899-06-03">03.06.1899</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb129">Komponist/Komponistin</occupation>
+               <occupation ref="pmb131">Dirigent/Dirigentin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20505</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/11861908X</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12867.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12867/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12867</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb12867</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46949</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q83309</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Johann_Strauss_(Sohn)</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284fe5</idno>
+            </person>
+            <person xml:id="pmb10948">
+               <persName>
+                  <forename>Julius</forename>
+                  <surname>Bittner</surname>
+               </persName>
+               <birth>
+                  <date when="1874-04-09">09.04.1874</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1939-01-09">09.01.1939</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb129">Komponist/Komponistin</occupation>
+               <occupation ref="pmb160">Richter/Richterin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13754</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118663593</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10948.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10948/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10948</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp47238</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x0028105e</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q668969</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Julius_Bittner</idno>
+               <idno type="URL" subtype="dx">https://dx.doi.org/10.1553/0x0001f8ae</idno>
+            </person>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb58042">
+               <persName>
+                  <forename>Dezső</forename>
+                  <surname>Szabó</surname>
+               </persName>
+               <birth>
+                  <date when="1879-06-10">1879-06-10</date>
+                  <settlement ref="pmb56149">
+                     <placeName type="pref">Cluj-Napoca</placeName>
+                     <location>
+                        <geo>46,76667 23,6</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1945-01-13">1945-01-13</date>
+                  <settlement ref="pmb43471">
+                     <placeName type="pref">Budapest</placeName>
+                     <location>
+                        <geo>47,49835 19,04045</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb237">Publizist/Publizistin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58042/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/119041669</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x002cb0ac</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q920991</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Dezs%C5%91_Szab%C3%B3_(Schriftsteller)</idno>
+            </person>
+            <person xml:id="pmb58050">
+               <persName>
+                  <forename>Zsigmond</forename>
+                  <surname>Móricz</surname>
+               </persName>
+               <birth>
+                  <date when="1879-07-02">1879-07-02</date>
+                  <settlement ref="pmb58052">
+                     <placeName type="pref">Tiszacsécse</placeName>
+                     <location>
+                        <geo>48,11031 22,74647</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1942-09-04">1942-09-04</date>
+                  <settlement ref="pmb43471">
+                     <placeName type="pref">Budapest</placeName>
+                     <location>
+                        <geo>47,49835 19,04045</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58050/</idno>
+            </person>
+            <person xml:id="pmb58072">
+               <persName>
+                  <forename>Kálmán</forename>
+                  <surname>Mikszáth</surname>
+               </persName>
+               <persName type="legacy-name-merge">Mikszáth, Kálmán</persName>
+               <birth>
+                  <date when="1847-01-16">1847-01-16</date>
+                  <settlement ref="pmb58073">
+                     <placeName type="pref">Sklabiná</placeName>
+                     <location>
+                        <geo>48,15842 19,35797</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1910-05-28">1910-05-28</date>
+                  <settlement ref="pmb43471">
+                     <placeName type="pref">Budapest</placeName>
+                     <location>
+                        <geo>47,49835 19,04045</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb95">Politiker/Politikerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <occupation ref="pmb1708">Zeitungsredakteur/Zeitungsredakteurin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58072/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/11912369X</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65054/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb65054.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q350552</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/K%C3%A1lm%C3%A1n_Miksz%C3%A1th</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00282ffc</idno>
+            </person>
+            <person xml:id="pmb58062">
+               <persName>
+                  <forename>Frigyes</forename>
+                  <surname>Karinthy</surname>
+               </persName>
+               <birth>
+                  <date when="1887-06-25">1887-06-25</date>
+                  <settlement ref="pmb43471">
+                     <placeName type="pref">Budapest</placeName>
+                     <location>
+                        <geo>47,49835 19,04045</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1938-08-29">1938-08-29</date>
+                  <settlement ref="pmb58065">
+                     <placeName type="pref">Siófok</placeName>
+                     <location>
+                        <geo>46,90413 18,058</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb391">Autor/Autorin &gt;&gt; Drehbuchautor/Drehbuchautorin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58062/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118882635</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q366325</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Frigyes_Karinthy</idno>
+            </person>
+            <person xml:id="pmb58067">
+               <persName>
+                  <forename>Dezső</forename>
+                  <surname>Kosztolányi</surname>
+               </persName>
+               <birth>
+                  <date when="1885-03-29">1885-03-29</date>
+                  <settlement ref="pmb58070">
+                     <placeName type="pref">Subotica</placeName>
+                     <location>
+                        <geo>46,1 19,66667</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1936-11-03">1936-11-03</date>
+                  <settlement ref="pmb43471">
+                     <placeName type="pref">Budapest</placeName>
+                     <location>
+                        <geo>47,49835 19,04045</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58067/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118565753</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q27610</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Dezs%C5%91_Kosztol%C3%A1nyi</idno>
+            </person>
+            <person xml:id="pmb58041">
+               <persName>
+                  <forename>Endre</forename>
+                  <surname>Ady</surname>
+               </persName>
+               <persName type="legacy-name-merge">Ady, Endre</persName>
+               <birth>
+                  <date when="1877-11-22">1877-11-22</date>
+                  <settlement ref="pmb61475">
+                     <placeName type="pref">Ady Endre</placeName>
+                     <location>
+                        <geo>47,58333 22,61667</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1919-01-27">1919-01-27</date>
+                  <settlement ref="pmb43471">
+                     <placeName type="pref">Budapest</placeName>
+                     <location>
+                        <geo>47,49835 19,04045</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <occupation ref="pmb1275">Lyriker/Lyrikerin</occupation>
+               <occupation ref="pmb2098">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58041/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/94482/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118643894</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00280dd4</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q211392</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Endre_Ady</idno>
+            </person>
+            <person xml:id="pmb21558">
+               <persName>
+                  <forename>Ferenc</forename>
+                  <surname>Molnár</surname>
+               </persName>
+               <persName type="legacy-name-merge">Molnár, Ferenc</persName>
+               <persName type="person_geburtsname_nachname">Neumann</persName>
+               <birth>
+                  <date when="1878-01-12">12.01.1878</date>
+                  <settlement ref="pmb43471">
+                     <placeName type="pref">Budapest</placeName>
+                     <location>
+                        <geo>47,49835 19,04045</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1952-04-01">01.04.1952</date>
+                  <settlement ref="pmb44053">
+                     <placeName type="pref">New York City</placeName>
+                     <location>
+                        <geo>40,71427 -74,00597</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18225</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/21558/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118734598</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb21558.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43547</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q296809</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ferenc_Moln%C3%A1r</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb21558.html</idno>
+            </person>
+            <person xml:id="pmb12327">
+               <persName>
+                  <forename>Hans</forename>
+                  <surname>Müller</surname>
+               </persName>
+               <persName type="person_pseudonym">Müller-Einigen</persName>
+               <persName type="person_geburtsname-vorname">Hanns</persName>
+               <birth>
+                  <date when="1882-10-25">25.10.1882</date>
+                  <settlement ref="pmb833">
+                     <placeName type="pref">Brünn</placeName>
+                     <location>
+                        <geo>49,19522 16,60796</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1950-03-08">08.03.1950</date>
+                  <settlement ref="pmb57836">
+                     <placeName type="pref">Einigen</placeName>
+                     <location>
+                        <geo>46,70801 7,6483</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb102">Wissenschaftler/Wissenschaftlerin &gt;&gt; Rechtswissenschaftler/Rechtswissenschaftlerin</occupation>
+               <occupation ref="pmb104">Regisseur/Regisseurin</occupation>
+               <occupation ref="pmb391">Autor/Autorin &gt;&gt; Drehbuchautor/Drehbuchautorin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18297</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/119054329</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12327.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12327/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12327.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb12327</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp45448</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x0028319d</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q86900</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hans_M%C3%BCller-Einigen</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb12327.html</idno>
+            </person>
+            <person xml:id="pmb3603">
+               <persName>
+                  <forename>Anton Pavlovič</forename>
+                  <surname>Čechov</surname>
+               </persName>
+               <persName type="legacy-name-merge">Tschechow, Anton P.</persName>
+               <birth>
+                  <date when="1860-01-17">1860-01-17</date>
+                  <settlement ref="pmb48627">
+                     <placeName type="pref">Taganrog</placeName>
+                     <location>
+                        <geo>47,23617 38,89688</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1904-07-15">1904-07-15</date>
+                  <settlement ref="pmb39498">
+                     <placeName type="pref">Badenweiler</placeName>
+                     <location>
+                        <geo>47,80266 7,67618</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118638289</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3603.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3603/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20823</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb3603</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb3603.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38372</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q5685</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Anton_Pawlowitsch_Tschechow</idno>
+            </person>
+            <person xml:id="pmb4006">
+               <persName>
+                  <forename>Fjodor Mihajlovič</forename>
+                  <surname>Dostojevskij</surname>
+               </persName>
+               <persName type="legacy-name-merge">Dostojewski, Fjodor M.</persName>
+               <persName type="legacy-name-merge">Dostojewski, Fjodor</persName>
+               <birth>
+                  <date when="1821-11-11">11.11.1821</date>
+                  <settlement ref="pmb869">
+                     <placeName type="pref">Moskau</placeName>
+                     <location>
+                        <geo>55,76167 37,60667</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1881-02-09">09.02.1881</date>
+                  <settlement ref="pmb433">
+                     <placeName type="pref">Sankt Petersburg</placeName>
+                     <location>
+                        <geo>59,93863 30,31413</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118527053</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4006/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14500</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb4006</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb4006.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb4006</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=D#DWpers0047</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q991</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43055</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Fjodor_Michailowitsch_Dostojewski</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/121641/</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb121641.html</idno>
+            </person>
+            <person xml:id="pmb2284">
+               <persName>
+                  <forename>Markus</forename>
+                  <surname>Hajek</surname>
+               </persName>
+               <birth>
+                  <date when="1861-11-25">25.11.1861</date>
+                  <settlement ref="pmb46727">
+                     <placeName type="pref">Vršac</placeName>
+                     <location>
+                        <geo>45,11667 21,30361</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1941-04-04">04.04.1941</date>
+                  <settlement ref="pmb224">
+                     <placeName type="pref">London</placeName>
+                     <location>
+                        <geo>51,50853 -0,12574</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <occupation ref="pmb132">Mediziner/Medizinerin &gt;&gt; Laryngologe/Laryngologin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/143163604</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15855</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2284.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2284/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2284</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp41135</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00281bd9</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q11770400</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Markus_Hajek</idno>
+            </person>
+            <person xml:id="pmb58056">
+               <persName>
+                  <forename>József</forename>
+                  <surname>Székely</surname>
+               </persName>
+               <persName type="legacy-name-merge">Szekely, Josef</persName>
+               <birth>
+                  <date when="1825-03-01">1825-03-01</date>
+                  <settlement ref="pmb58060">
+                     <placeName type="pref">Debrecen</placeName>
+                     <location>
+                        <geo>47,53167 21,62444</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1895-09-14">1895-09-14</date>
+                  <settlement ref="pmb43471">
+                     <placeName type="pref">Budapest</placeName>
+                     <location>
+                        <geo>47,49835 19,04045</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <occupation ref="pmb134">Historiker/Historikerin</occupation>
+               <occupation ref="pmb399">Archivar/Archivarin</occupation>
+               <occupation ref="pmb1639">Jurist/Juristin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58055/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58056/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/12211468X</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q781246</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/J%C3%B3zsef_Sz%C3%A9kely</idno>
+            </person>
+            <person xml:id="pmb18956">
+               <persName>
+                  <forename>Maurus</forename>
+                  <surname>Jókai</surname>
+               </persName>
+               <persName type="person_rufname">Mór</persName>
+               <birth>
+                  <date when="1825-02-18">18.02.1825</date>
+                  <settlement ref="pmb61071">
+                     <placeName type="pref">Komárno</placeName>
+                     <location>
+                        <geo>47,76356 18,12263</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1904-05-05">05.05.1904</date>
+                  <settlement ref="pmb43471">
+                     <placeName type="pref">Budapest</placeName>
+                     <location>
+                        <geo>47,49835 19,04045</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16567</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/18956/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118985418</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb18956.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q379621</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/M%C3%B3r_J%C3%B3kai</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x0028203f</idno>
+            </person>
+            <person xml:id="pmb12504">
+               <persName>
+                  <forename>Max</forename>
+                  <surname>Reinhardt</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Goldmann</persName>
+               <birth>
+                  <date when="1873-09-09">09.09.1873</date>
+                  <settlement ref="pmb662">
+                     <placeName type="pref">Baden bei Wien</placeName>
+                     <location>
+                        <geo>48,00543 16,23264</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1943-10-30">30.10.1943</date>
+                  <settlement ref="pmb44053">
+                     <placeName type="pref">New York City</placeName>
+                     <location>
+                        <geo>40,71427 -74,00597</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+               <occupation ref="pmb104">Regisseur/Regisseurin</occupation>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19154</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118599380</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12504.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12504/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12504</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb12504</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49966</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=R#DWpers0195</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x002840f0</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q78639</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Max_Reinhardt</idno>
+               <idno type="URL" subtype="dx">https://dx.doi.org/10.1553/0x0001decb</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb12504.html</idno>
+            </person>
+            <person xml:id="pmb6097">
+               <persName>
+                  <forename>Béla</forename>
+                  <surname>Balázs</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Bauer</persName>
+               <persName type="person_geburtsname-vorname">Herbert</persName>
+               <birth>
+                  <date when="1884-08-04">04.08.1884</date>
+                  <settlement ref="pmb46376">
+                     <placeName type="pref">Szeged</placeName>
+                     <location>
+                        <geo>46,253 20,14824</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1949-05-17">17.05.1949</date>
+                  <settlement ref="pmb43471">
+                     <placeName type="pref">Budapest</placeName>
+                     <location>
+                        <geo>47,49835 19,04045</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <occupation ref="pmb395">Filmtheoretiker/Filmtheoretikerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13384</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/119010305</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/6097/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp39011</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q469963</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/B%C3%A9la_Bal%C3%A1zs</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb6097.html</idno>
+            </person>
+            <person xml:id="pmb11771">
+               <persName>
+                  <forename>Rudolf</forename>
+                  <surname>Holzer</surname>
+               </persName>
+               <birth>
+                  <date when="1875-07-28">28.07.1875</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1965-07-17">17.07.1965</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16339</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116972254</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11771.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11771/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11771</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11771</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp52576</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q22138491</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Rudolf_Holzer</idno>
+            </person>
+            <person xml:id="pmb12692">
+               <persName>
+                  <forename>Heinrich</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1902-08-09">09.08.1902</date>
+                  <settlement ref="pmb75">
+                     <placeName type="pref">Hinterbrühl</placeName>
+                     <location>
+                        <geo>48,08611 16,24809</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1982-07-12">12.07.1982</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb104">Regisseur/Regisseurin</occupation>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19822</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116848510</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12692.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12692/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12692</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1598804</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Heinrich_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb12692.html</idno>
+            </person>
+            <person xml:id="pmb2461">
+               <persName>
+                  <forename>Gisela</forename>
+                  <surname>Hajek</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Schnitzler</persName>
+               <birth>
+                  <date when="1867-12-20">20.12.1867</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1953-02-03">03.02.1953</date>
+                  <settlement ref="pmb893">
+                     <placeName type="pref">Cambridge</placeName>
+                     <location>
+                        <geo>52,2 0,11667</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/1011705532</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15854</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2461.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2461/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2461</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q94745555</idno>
+            </person>
+            <person xml:id="pmb12698">
+               <persName>
+                  <forename>Julius</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1865-07-13">13.07.1865</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1939-06-29">29.06.1939</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb364">Mediziner/Medizinerin &gt;&gt; Chirurg/Chirurgin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19827</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116848693</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12698.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12698/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12698</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp41303</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284419</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1712956</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Julius_Schnitzler_(Mediziner)</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb12698.html</idno>
+            </person>
+            <person xml:id="pmb3718">
+               <persName>
+                  <surname>Diogenes</surname>
+               </persName>
+               <birth>
+                  <date>um 410 v. u. Z.</date>
+                  <settlement ref="pmb60039">
+                     <placeName type="pref">Sinop</placeName>
+                     <location>
+                        <geo>42,02683 35,16253</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date>um 323 v. u. Z.</date>
+                  <settlement ref="pmb61016">
+                     <placeName type="pref">Korinth</placeName>
+                     <location>
+                        <geo>37,94007 22,9513</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb154">Philosoph/Philosophin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118525867</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3718.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3718/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q59180</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Diogenes_von_Sinope</idno>
+            </person>
+            <person xml:id="pmb13309">
+               <persName>
+                  <surname>Alexander der Große</surname>
+               </persName>
+               <persName type="legacy-name-merge">Alexander III., Makedonien, König, -</persName>
+               <birth>
+                  <date when="0001-01-01">356? v. u. Z.</date>
+                  <settlement ref="pmb60992">
+                     <placeName type="pref">Pella</placeName>
+                     <location>
+                        <geo>40,76169 22,52637</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="0001-01-01">13.6.323 v. u. Z.</date>
+                  <settlement ref="pmb1261">
+                     <placeName type="pref">Babylon</placeName>
+                     <location>
+                        <geo>32,542 44,421</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb327">Regent/Regentin</occupation>
+               <occupation ref="pmb574">Heerführer/Heerführerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13146</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/13309/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp37970</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/94024/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118501828</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=A#DWpers0002</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q8409</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Alexander_der_Gro%C3%9Fe</idno>
+               <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/alexander-der-grosse.html</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb56668">
+               <title>Die Zauberflöte</title>
+               <author ref="pmb12303" role="hat-geschaffen">Mozart, Wolfgang Amadeus</author>
+               <date notBefore="1791-01-01" when="1791-07-02">1791</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/56668/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb56668.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q5064</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Die_Zauberfl%C3%B6te</idno>
+               <note type="work_kind">Musikstück &gt;&gt; Oper</note>
+            </bibl>
+            <bibl xml:id="pmb57951">
+               <title>Große Messe mit Te Deum für Soli, gemischten Chor, großes Orchester und Orgel</title>
+               <author ref="pmb10948" role="hat-geschaffen">Bittner, Julius</author>
+               <date when="1926-03-06">1926-03-06</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/57951/</idno>
+               <note type="work_kind">Musikstück</note>
+            </bibl>
+            <bibl xml:id="pmb56613">
+               <title>Riviera</title>
+               <author ref="pmb21558" role="hat-geschaffen">Molnár, Ferenc</author>
+               <date notBefore="1926-01-01" when="1926-07-02">1926</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/56613/</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb56659">
+               <title>Liliom</title>
+               <author ref="pmb21558" role="hat-geschaffen">Molnár, Ferenc</author>
+               <author ref="pmb2989" role="hat-ubersetzt">Polgar, Alfred</author>
+               <date when="1909-12-07">1909-12-07</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/56659/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb56659.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb57949">
+               <title>Veronika. Ein Stück Alltag in vier Akten</title>
+               <author ref="pmb12327" role="hat-geschaffen">Müller, Hans</author>
+               <date notBefore="1926-01-01" when="1926-07-02">1926</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/57949/</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb33243">
+               <title>Tagebuch</title>
+               <title type="werk_link">https://schnitzler-tagebuch.acdh.oeaw.ac.at</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <author ref="pmb119261" role="hat-herausgegeben">Braunwarth, Peter Michael</author>
+               <author ref="pmb65504" role="hat-herausgegeben">Urbach, Reinhard</author>
+               <date to="2000-01-01">1981  – 2000</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33243/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33243</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33243.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q108122826</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Tagebuch_(Schnitzler)</idno>
+               <note type="work_kind">Tagebuch</note>
+            </bibl>
+            <bibl xml:id="pmb58077">
+               <title>Sankt Peters Regenschirm</title>
+               <author ref="pmb58072" role="hat-geschaffen">Mikszáth, Kálmán</author>
+               <date notBefore="1895-01-01" when="1895-07-02">1895</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58077/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb58077.html</idno>
+               <note type="work_kind">Roman</note>
+            </bibl>
+            <bibl xml:id="pmb56615">
+               <title>Riviera. Ein Spiel von Franz Molnar</title>
+               <title type="werk_bibliografische-angabe">Der Tag, Jg. 4, Nr. 1103, 25.12.1925, S. 9–10</title>
+               <author ref="pmb6097" role="hat-geschaffen">Balázs, Béla</author>
+               <date when="1925-12-25">1925-12-25</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/56615/</idno>
+               <note type="work_kind">Rezension</note>
+            </bibl>
+            <bibl xml:id="pmb41560">
+               <title>Der Tag</title>
+               <date to="1934-07-02">19.12.1900  – 1934</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41560/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41560</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb41560</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q31842725</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_Tag_(1900%E2%80%931934)</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+            <bibl xml:id="pmb56619">
+               <title>»Riviera«. Ein Spiel von Franz Molnar. Erstaufführung im Theater in der Josefstadt</title>
+               <title type="werk_bibliografische-angabe">Wiener Zeitung, Jg. 222, Nr. 295, 29.12.1925, S. 1–2</title>
+               <author ref="pmb11771" role="hat-geschaffen">Holzer, Rudolf</author>
+               <date>1925-12-29</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/56619/</idno>
+               <note type="work_kind">Rezension</note>
+            </bibl>
+            <bibl xml:id="pmb41265">
+               <title>Wiener Zeitung</title>
+               <title type="werk_link">http://anno.onb.ac.at/cgi-content/anno?aid=wrz</title>
+               <date when="1703-01-01">1703</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41265/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb41265</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+            <bibl xml:id="pmb56290">
+               <title>Gespräch mit Arthur Schnitzler</title>
+               <title type="werk_bibliografische-angabe">Vilma Lengyel, Beszélgetés Schnitzler Arthurral. In: Délmagyarország, 7. 3. 1926, S. 5.</title>
+               <title type="namensvariante">Beszélgetés Schnitzler Arthurral</title>
+               <author ref="pmb18855" role="hat-geschaffen">Erdelyi, Vilma Irma</author>
+               <date when="1926-03-07">1926-03-07</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/56290/</idno>
+               <note type="work_kind">Interview</note>
+            </bibl>
+            <bibl xml:id="pmb56292">
+               <title>Délmagyarország</title>
+               <title type="legacy-name-merge">Délmagyarország</title>
+               <date notBefore="1910-01-01" when="1910-07-02">1910</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/56292/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/56446/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q986828</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+            <place xml:id="pmb35512">
+               <placeName>Ungarn</placeName>
+               <placeName type="alternative-name">Republic of Hungary</placeName>
+               <placeName type="legacy-name-merge">Hungary</placeName>
+               <desc type="entity_type">http://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>47,0 20,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb687">Österreich-Ungarn</placeName>
+                  <geo>48,4054 16,4887</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q28</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb167.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/719819/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35512/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb35512</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb35512.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ungarn</idno>
+            </place>
+            <place xml:id="pmb46376">
+               <placeName>Szeged</placeName>
+               <placeName type="alternative-name">Szegedin</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPLA</desc>
+               <desc type="entity_type_id">1415</desc>
+               <location type="coords">
+                  <geo>46,253 20,14824</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb42264">Csongrád megye</placeName>
+                  <geo>46,41667 20,25</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb35512">Ungarn</placeName>
+                  <geo>47,0 20,0</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/6098/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/42265/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/46376/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/715429/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb46376.html</idno>
+            </place>
+            <place xml:id="pmb56493">
+               <placeName>Theiß</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#H.STM</desc>
+               <desc type="entity_type_id">1577</desc>
+               <location type="coords">
+                  <geo>45,13806 20,2775</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb264">Serbien</placeName>
+                  <geo>43,951583 20,933333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb34478">Slowakei</placeName>
+                  <geo>48,66667 19,5</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb666">Ukraine</placeName>
+                  <geo>49,0 32,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb35512">Ungarn</placeName>
+                  <geo>47,0 20,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb378">Rumänien</placeName>
+                  <geo>46,0 25,0</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/56493/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/691517/</idno>
+            </place>
+            <place xml:id="pmb562">
+               <placeName>Genf</placeName>
+               <placeName type="legacy-name-merge">Drize, Kreis Genf</placeName>
+               <placeName type="legacy-name-merge">Geneva</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>46,20222 6,14569</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb43435">Schweiz</placeName>
+                  <geo>47,00016 8,01427</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q71</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb562.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/562/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/22973/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb562</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64309/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2660646/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb562</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb562.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/99397/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4020137-5</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Genf</idno>
+            </place>
+            <place xml:id="pmb41801">
+               <placeName>Pécs</placeName>
+               <placeName type="alternative-name">Fünfkirchen</placeName>
+               <desc type="entity_type">http://www.geonames.org/ontology#P.PPLA</desc>
+               <desc type="entity_type_id">1108</desc>
+               <location type="coords">
+                  <geo>46,08333 18,23333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41800">Baranya</placeName>
+                  <geo>46,08333 18,25</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb35512">Ungarn</placeName>
+                  <geo>47,0 20,0</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3046526/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41801/</idno>
+            </place>
+            <place xml:id="pmb182">
+               <placeName>Paris</placeName>
+               <placeName type="alternative-name">P'ariz</placeName>
+               <placeName type="alternative-name">Pariž</placeName>
+               <placeName type="alternative-name">Parisius</placeName>
+               <placeName type="alternative-name">Île-de-France</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,85341 2,3488</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb166">Frankreich</placeName>
+                  <geo>46,0 2,0</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb182.html</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4044660-8</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/182/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb182</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64183/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2988507/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb182</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb182.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q90</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Paris</idno>
+            </place>
+            <place xml:id="pmb43471">
+               <placeName>Budapest</placeName>
+               <placeName type="legacy-name-merge">Buda</placeName>
+               <placeName type="alternative-name">Königl. Freie Hauptstadt Ofen</placeName>
+               <placeName type="legacy-name-merge">Ofen</placeName>
+               <placeName type="alternative-name">Altofen</placeName>
+               <placeName type="legacy-name-merge">Pest (Stadt)</placeName>
+               <placeName type="legacy-name-merge">Óbuda</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPLC</desc>
+               <desc type="entity_type_id">1418</desc>
+               <location type="coords">
+                  <geo>47,49835 19,04045</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb35512">Ungarn</placeName>
+                  <geo>47,0 20,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb43471">Budapest</placeName>
+                  <geo>47,49835 19,04045</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1781</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb464.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3054643/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4008684-7</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/9867/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/42014/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43471/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43797/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb43471</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/62463/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64169/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/88759/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb43471</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb43471.html</idno>
+               <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1781</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Budapest</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb39689">
+               <orgName>Theater in der Josefstadt</orgName>
+               <orgName type="alternative-name">Josefstädtisches Theater</orgName>
+               <orgName type="legacy-name-merge">Theater in der Josefstadt</orgName>
+               <desc type="entity_type">Theater</desc>
+               <desc type="entity_type_id">1012</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb58">VIII., Josefstadt</placeName>
+                  <geo>48,21126 16,34706</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2775027/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4108158-4</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb58.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/15566/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb58</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb58</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb58.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q256778</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Josefstadt_(Wien)</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb40">Theater in der Josefstadt</placeName>
+                  <geo>48,209583 16,351111</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb40.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/40/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb40</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92311/</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92311.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q167619</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Theater_in_der_Josefstadt</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb51915">Josefstädter Straße</placeName>
+                  <geo>48,20995865037859 16,347448769410484</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51915/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb51915</idno>
+               </location>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/251387-0</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/39689/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb39689</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb39689</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q113470585</idno>
+               <note type="apis_dates">
+                  <date notBefore="1788-01-01" when="1788-07-01">1788</date>
+               </note>
+            </org>
+            <org xml:id="pmb39666">
+               <orgName>Raimund-Theater</orgName>
+               <orgName type="alternative-name">Raimund Theater</orgName>
+               <desc type="entity_type">Theater</desc>
+               <desc type="entity_type_id">1012</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb56">VI., Mariahilf</placeName>
+                  <geo>48,19522 16,35032</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2771932/</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb56.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/56/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb56</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb56</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb56.html</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb77">Raimund-Theater</placeName>
+                  <geo>48,192222 16,339722</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb77.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/77/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb77</idno>
+               </location>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4538143-4</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/39666/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q688568</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Raimundtheater</idno>
+               <note type="apis_dates">
+                  <date when="1893-01-01">1893</date>
+               </note>
+            </org>
+            <org xml:id="pmb36430">
+               <orgName>Volkstheater</orgName>
+               <orgName type="namensvariante">Deutsches Volkstheater</orgName>
+               <desc type="entity_type">Theater</desc>
+               <desc type="entity_type_id">1012</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb20">Volkstheater</placeName>
+                  <geo>48,205142 16,3566</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb20.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb20</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb20</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92202/</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92202.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q688555</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Volkstheater_(Wien)</idno>
+               </location>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/146313-5</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36430/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36430</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb36430</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q113044679</idno>
+               <note type="apis_dates">
+                  <date notBefore="1889-01-01" when="1889-07-02">1889</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

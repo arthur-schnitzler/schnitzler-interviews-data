@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="M148">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="M148">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#36012">Tolstoi, [Oktober 1908?, unveröffentlicht]</title>
-            <author ref="#2121">Schnitzler, Arthur</author>
+            <title level="a" ref="#pmb36012">Tolstoi, [Oktober 1908?, unveröffentlicht]</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -43,12 +45,12 @@
                </witness>
             </listWit>
             <listBibl>
-               <biblStruct  corresp="apundbe">
+               <biblStruct corresp="apundbe">
                   <analytic>
-                     <title level="a" ref="#36012">Tolstoi</title>
+                     <title level="a" ref="#pmb36012">Tolstoi</title>
                   </analytic>
                   <monogr>
-                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Aphorismen und Betrachtungen</title>
                      <editor>Hg. Robert O. Weiss</editor>
                      <imprint>
@@ -76,26 +78,22 @@
       <body>
          <div type="original">
             <head>
-               <rs type="person" ref="#3739">Tolstoi</rs>
+               <rs type="person" ref="#pmb3739">Tolstoi</rs>
             </head>
             <head type="sub">(Antwort auf eine Rundfrage, nicht eingesandt)</head>
-            <p>Ich bewundere <rs type="person" ref="#3739">Tolstoi</rs>s Werke und liebe manche von
-               ihnen; besonders »<rs type="work" ref="#34996">Krieg und Frieden</rs>«, »<rs
-                  type="work" ref="#60953">die Kosaken</rs>« und die »<anchor type="commentary"
-                  xml:id="K_R148-1"/>
-               <rs type="work" ref="#60955">Soldatengeschichten</rs>
+            <p>Ich bewundere <rs type="person" ref="#pmb3739">Tolstoi</rs>s Werke und liebe manche von
+               ihnen; besonders »<rs type="work" ref="#pmb34996">Krieg und Frieden</rs>«, »<rs type="work" ref="#pmb60953">die Kosaken</rs>« und die »<anchor type="commentary" xml:id="K_R148-1"/>
+               <rs type="work" ref="#pmb60955">Soldatengeschichten</rs>
                <note type="commentary" xml:id="K_R148-1h">Es dürfte sich um diese Zusammenstellung
                   handeln: <bibl>
-                     <rs type="person" ref="#3739">Leo Tolstoi</rs>: <rs type="work" ref="#60955"
-                        >Russische Soldatengeschichten und kleine Erzählungen</rs>. Aus dem
-                     Russischen übertragen von Dr. <rs type="person" ref="#60957">Hermann
+                     <rs type="person" ref="#pmb3739">Leo Tolstoi</rs>: <rs type="work" ref="#pmb60955">Russische Soldatengeschichten und kleine Erzählungen</rs>. Aus dem
+                     Russischen übertragen von Dr. <rs type="person" ref="#pmb60957">Hermann
                         Roskoschny</rs>. Leipzig: <publisher>Greßner <c rendition="#kaufmannsund"/>
                         Schramm</publisher>
                      <space unit="chars" quantity="1"/>
                      <date>1887</date>
                   </bibl>.</note>«.</p>
-            <p>Über die kunsttheoretischen und religions-philosophischen Schriften <rs type="person"
-                  ref="#3739">Tolstoi</rs>s kann ich mich kaum äussern, da ich nicht alle und manche
+            <p>Über die kunsttheoretischen und religions-philosophischen Schriften <rs type="person" ref="#pmb3739">Tolstoi</rs>s kann ich mich kaum äussern, da ich nicht alle und manche
                nur im Auszug gelesen habe. Doch muss ich gestehen, dass die <subst>
                   <del rend="strikethrough">Ideen</del>
                   <add place="above">Ansichten</add>
@@ -106,8 +104,7 @@
                möglichen Ideen <subst>
                   <del rend="strikethrough">, das heisst,</del>
                   <add place="mixed">und damit <unclear>aber</unclear> die</add>
-               </subst> Fähigkeit <del rend="strikethrough">alle Ideen zu begreifen</del>, sie <del
-                  rend="strikethrough">also</del> auch <del rend="strikethrough">nötigenfalls</del>
+               </subst> Fähigkeit <del rend="strikethrough">alle Ideen zu begreifen</del>, sie <del rend="strikethrough">also</del> auch <del rend="strikethrough">nötigenfalls</del>
                selbst auszusprechen oder durch <add place="above">die</add> von mir erfundenen <subst>
                   <del rend="strikethrough">Figuren</del>
                   <add place="above">Gestalten</add>
@@ -119,19 +116,14 @@
                <subst>
                   <del rend="strikethrough">Und s</del>
                   <add place="inline">S</add>
-               </subst>cheint <add place="above">übrigens</add> nicht der Fall <rs type="person"
-                  ref="#3739">Tolstoi</rs>
+               </subst>cheint <add place="above">übrigens</add> nicht der Fall <rs type="person" ref="#pmb3739">Tolstoi</rs>
                <space unit="chars" quantity="1"/>
-               <del rend="strikethrough">selbst</del> die relative Gleichgültigkeit aller <add
-                  place="above">Ideen, aller</add> theoretischen Erwägungen zu beweisen? Haben ihn
+               <del rend="strikethrough">selbst</del> die relative Gleichgültigkeit aller <add place="above">Ideen, aller</add> theoretischen Erwägungen zu beweisen? Haben ihn
                seine blasphemischen Ansichten über die Kunst gehindert Kunstwerke hohen Ranges zu
                schaffen? <subst>
                   <del rend="strikethrough">Und g</del>
                   <add place="inline">G</add>
-               </subst>ibt es <del rend="strikethrough">nur</del> einen <add place="above"
-                  >einzigen</add> Menschen, den <rs type="person" ref="#3739">Tolstoi</rs> von <rs
-                  type="person" ref="#2412">Shakespeare</rs> oder von <rs type="person" ref="#3739"
-                  >Tolstoi</rs>
+               </subst>ibt es <del rend="strikethrough">nur</del> einen <add place="above">einzigen</add> Menschen, den <rs type="person" ref="#pmb3739">Tolstoi</rs> von <rs type="person" ref="#pmb2412">Shakespeare</rs> oder von <rs type="person" ref="#pmb3739">Tolstoi</rs>
                <space unit="chars" quantity="1"/>
                <add place="above">selbst</add> abwendig gemacht hätte? Was mir einen Dichter wert
                macht sind immer die Gestalten, die er in sich trägt<add place="inline">,</add> und
@@ -140,35 +132,345 @@
                Rhythmus gewaltiger getönt <subst>
                   <del rend="overwritten">hat</del>
                   <add place="inline">hätte</add>
-               </subst> als der Dichter <rs type="person" ref="#3739">Tolstoi</rs>.</p>
+               </subst> als der Dichter <rs type="person" ref="#pmb3739">Tolstoi</rs>.</p>
          </div>
          <div type="biographical">
             <div1>
                <bibl>
-                  <rs type="person" ref="#26937">Zinaida Vengerowa</rs> an Schnitzler,
-                     <date>1.&#8239;10.&#8239;[1908]</date>
+                  <rs type="person" ref="#pmb26937">Zinaida Vengerowa</rs> an Schnitzler,
+                     <date>1. 10. [1908]</date>
                </bibl>
-               <quote>Ich sende Ihnen das Rundschreiben des <rs type="person" ref="#3739"
-                     >Tolstoi</rs>comité in <rs type="place" ref="#433">Petersburg</rs> – obgleich,
+               <quote>Ich sende Ihnen das Rundschreiben des <rs type="person" ref="#pmb3739">Tolstoi</rs>comité in <rs type="place" ref="#pmb433">Petersburg</rs> – obgleich,
                   wie ich glaube, Sie schon ein solches erhalten haben. Das Comité hat mich schon
-                  vor lange beauftragt Sie um einen Beitrag für das <rs type="work" ref="#60961"
-                     >Tolstoialmanach</rs> zu bitten – schickte aber erst jetzt das Rundschreiben.
+                  vor lange beauftragt Sie um einen Beitrag für das <rs type="work" ref="#pmb60961">Tolstoialmanach</rs> zu bitten – schickte aber erst jetzt das Rundschreiben.
                   Deshalb die Verzögerung. Jedenfalls ist noch Zeit bis zu <date>25 Oktober</date> -
                   u. wenn Sie schon bis jetzt nicht etwas eingesandt haben, hoffe ich daß Sie es
-                  jetzt thun werden. Das Buch soll <rs type="place" ref="#468">Europa</rs>s Gedanken
-                  über <rs type="person" ref="#3739">Tolstoi</rs> bringen – deshalb ist es so sehr
-                  zu wünschen daß keiner der Schriftsteller die wir in <rs type="place" ref="#34438"
-                     >Rußland</rs> hochschätzen, fehlt. Man hofft also sehr auf Ihre
+                  jetzt thun werden. Das Buch soll <rs type="place" ref="#pmb468">Europa</rs>s Gedanken
+                  über <rs type="person" ref="#pmb3739">Tolstoi</rs> bringen – deshalb ist es so sehr
+                  zu wünschen daß keiner der Schriftsteller die wir in <rs type="place" ref="#pmb34438">Rußland</rs> hochschätzen, fehlt. Man hofft also sehr auf Ihre
                   Mitwirkung.</quote>
             </div1>
             <div1>
-               <bibl><rs type="person" ref="#2121">Schnitzler</rs> an <rs type="person" ref="#26937">Zinaida Vengerowa</rs>,
-                     <date>8.&#8239;10.&#8239;1908</date></bibl>
-               <quote>Ob ich über <rs type="person" ref="#3739">Tolstoi</rs> etwas
+               <bibl>
+                  <rs type="person" ref="#pmb2121">Schnitzler</rs> an <rs type="person" ref="#pmb26937">Zinaida Vengerowa</rs>,
+                     <date>8. 10. 1908</date>
+               </bibl>
+               <quote>Ob ich über <rs type="person" ref="#pmb3739">Tolstoi</rs> etwas
                      einsende<supplied>n</supplied> werde, weiss ich noch nicht. Mir liegen diese
                   Sachen so gar nicht<c rendition="#dots" n="2"/> Ich werde übrigens sehn.</quote>
             </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb3739">
+               <persName>
+                  <forename>Leo N. von</forename>
+                  <surname>Tolstoi</surname>
+               </persName>
+               <birth>
+                  <date when="1828-09-09">9.09.1828</date>
+                  <settlement ref="pmb59327">
+                     <placeName type="pref">Yasnaya Polyana</placeName>
+                     <location>
+                        <geo>54,06858 37,52439</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1910-11-20">20.11.1910</date>
+                  <settlement ref="pmb59329">
+                     <placeName type="pref">Lev Tolstoy</placeName>
+                     <location>
+                        <geo>53,21344 39,44604</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/11864291X</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20772</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3739.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3739/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb3739</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb3739.html</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=T#DWpers0234</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp48747</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q7243</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Lew_Nikolajewitsch_Tolstoi</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb3739.html</idno>
+            </person>
+            <person xml:id="pmb60957">
+               <persName>
+                  <forename>Hermann</forename>
+                  <surname>Roskoschny</surname>
+               </persName>
+               <birth>
+                  <date when="1845-11-23">1845-11-23</date>
+                  <settlement ref="pmb652">
+                     <placeName type="pref">Prag</placeName>
+                     <location>
+                        <geo>50,08333 14,46667</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1896-11-08">1896-11-08</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb116">Übersetzer/Übersetzerin</occupation>
+               <occupation ref="pmb144">Verleger/Verlegerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60957/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116627840</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1601566</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hermann_Roskoschny</idno>
+            </person>
+            <person xml:id="pmb2412">
+               <persName>
+                  <forename>William</forename>
+                  <surname>Shakespeare</surname>
+               </persName>
+               <birth>
+                  <date when="1564-04-23">23.4.1564?</date>
+                  <settlement ref="pmb49870">
+                     <placeName type="pref">Stratford-upon-Avon</placeName>
+                     <location>
+                        <geo>52,19166 -1,70734</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1616-05-03">03.05.1616</date>
+                  <settlement ref="pmb49870">
+                     <placeName type="pref">Stratford-upon-Avon</placeName>
+                     <location>
+                        <geo>52,19166 -1,70734</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <occupation ref="pmb727">Schriftsteller/Schriftstellerin &gt;&gt; Dramatiker/Dramatikerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118613723</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20078</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2412.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2412/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2412</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2412.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb2412</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp55589</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0220</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q692</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/William_Shakespeare</idno>
+               <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/shakespeare-william.html</idno>
+               <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_10.html</idno>
+            </person>
+            <person xml:id="pmb26937">
+               <persName>
+                  <forename>Zinaida A.</forename>
+                  <surname>Vengerova</surname>
+               </persName>
+               <persName type="legacy-name-merge">Wengerowa, Zinaida</persName>
+               <persName type="person_verwitwet">Minskij</persName>
+               <persName type="namensvariante">Wengerowa</persName>
+               <persName type="person_rufname">Zina</persName>
+               <birth>
+                  <date when="1867-04-18">18.04.1867</date>
+                  <settlement ref="pmb61127">
+                     <placeName type="pref">Suomenlinna</placeName>
+                     <location>
+                        <geo>60,14784 24,98561</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1941-06-29">29.06.1941</date>
+                  <settlement ref="pmb44053">
+                     <placeName type="pref">New York City</placeName>
+                     <location>
+                        <geo>40,71427 -74,00597</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+               <occupation ref="pmb116">Übersetzer/Übersetzerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21232</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb26937.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/26937/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb26937</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/119141035</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q4107063</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb34996">
+               <title>Krieg und Frieden</title>
+               <title type="namensvariante">Война и миръ</title>
+               <author ref="pmb3739" role="hat-geschaffen">Tolstoi, Leo N. von</author>
+               <date from="1863-01-01" to="1867-07-02">1863  – 1867</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/34996/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb34996</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb34996.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb34996.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q161531</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Krieg_und_Frieden</idno>
+               <note type="work_kind">Roman</note>
+            </bibl>
+            <bibl xml:id="pmb60953">
+               <title>Die Kosaken</title>
+               <author ref="pmb3739" role="hat-geschaffen">Tolstoi, Leo N. von</author>
+               <date notBefore="1863-01-01" when="1863-07-02">1863</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60953/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1214043</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Die_Kosaken</idno>
+               <note type="work_kind">Novelle</note>
+            </bibl>
+            <bibl xml:id="pmb60955">
+               <title>Russische Soldatengeschichten und kleine Erzählungen</title>
+               <title type="werk_link">https://babel.hathitrust.org/cgi/pt?id=wu.89101142685&amp;view=1up&amp;seq=1</title>
+               <author ref="pmb3739" role="hat-geschaffen">Tolstoi, Leo N. von</author>
+               <author ref="pmb60957" role="hat-ubersetzt">Roskoschny, Hermann</author>
+               <date notBefore="1887-01-01" when="1887-07-02">1887</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60955/</idno>
+               <note type="work_kind">Textsammlung &gt;&gt; Erzählsammlung</note>
+            </bibl>
+            <bibl xml:id="pmb60961">
+               <title>Internationaler Tolstoi Almanach</title>
+               <title type="namensvariante">Международный Толстовский Альманах</title>
+               <author ref="pmb87856" role="hat-herausgegeben">Sergěenko, Petr Alekseevich</author>
+               <date notBefore="1909-01-01" when="1909-07-02">1909</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60961/</idno>
+               <note type="work_kind">Textsammlung</note>
+            </bibl>
+            <bibl xml:id="pmb36012">
+               <title>Tolstoi</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date notBefore="1967-01-01" when="1967-07-02">1967</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36012/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb36012.html</idno>
+               <note type="work_kind">Umfrageteilnahme</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb433">
+               <placeName>Sankt Petersburg</placeName>
+               <placeName type="legacy-name-merge">St. Petersburg</placeName>
+               <placeName type="legacy-name-merge">Petersburg</placeName>
+               <placeName type="legacy-name-merge">St Petersburg</placeName>
+               <placeName type="legacy-name-merge">Leningrad</placeName>
+               <placeName type="alternative-name">St.-Petersburg</placeName>
+               <placeName type="alternative-name">Peterburg</placeName>
+               <placeName type="alternative-name">Saint Petersburg</placeName>
+               <placeName type="alternative-name">Petrograd</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>59,93863 30,31413</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb34438">Russland</placeName>
+                  <geo>60,0 100,0</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q656</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb433.html</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4267026-3</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/433/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/19875/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb433</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64405/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/498817/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb433.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Sankt_Petersburg</idno>
+            </place>
+            <place xml:id="pmb468">
+               <placeName>Europa</placeName>
+               <desc type="entity_type">Kontinent (A.KNT)</desc>
+               <desc type="entity_type_id">49</desc>
+               <location type="coords">
+                  <geo>48,69096 9,14062</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q46</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/6255148/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb468.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/468/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb468</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb468</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb468.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Europa</idno>
+            </place>
+            <place xml:id="pmb34438">
+               <placeName>Russland</placeName>
+               <placeName type="alternative-name">Russische Föderation</placeName>
+               <placeName type="alternative-name">Russian Federation</placeName>
+               <placeName type="alternative-name">Russian Soviet Federated Socialist Republic</placeName>
+               <placeName type="alternative-name">Russian Soviet Federative Socialist Republic</placeName>
+               <placeName type="alternative-name">Russian Socialist Federative Soviet Republic</placeName>
+               <placeName type="legacy-name-merge">Russia</placeName>
+               <placeName type="legacy-name-merge">Rußland</placeName>
+               <desc type="entity_type">http://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>60,0 100,0</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43976/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2017370/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/14117/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/34438/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb34438</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb34438</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb34438.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/119245/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4076899-5</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q159</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Russland</idno>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

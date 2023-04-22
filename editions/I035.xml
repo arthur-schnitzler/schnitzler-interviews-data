@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I035">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="I035">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#33011">Henriette Célarié: Impressions de Vienne,
-               1.&#8239;10.&#8239;1921</title>
-            <author ref="#29023">Célarié, Henriette</author>
+            <title level="a" ref="#pmb33011">Henriette Célarié: Impressions de Vienne,
+               1. 10. 1921</title>
+            <author ref="#pmb29023">Célarié, Henriette</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -28,13 +30,13 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#29023">Célarié, Henriette</author>
-                     <title level="a" ref="#33011">Impressions de Vienne</title>
+                     <author ref="#pmb29023">Célarié, Henriette</author>
+                     <title level="a" ref="#pmb33011">Impressions de Vienne</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#58335">Revue des Deux Mondes</title>
+                     <title level="j" ref="#pmb58335">Revue des Deux Mondes</title>
                      <imprint>
-                        <date when="1921-10-01" n="1">1.&#8239;10.&#8239;1921</date>
+                        <date when="1921-10-01" n="1">1. 10. 1921</date>
                      </imprint>
                      <biblScope unit="jg">91</biblScope>
                      <biblScope unit="vol">65</biblScope>
@@ -55,32 +57,33 @@
          <change who="KH" when="2021-10-19">Durchsicht</change>
       </revisionDesc>
    </teiHeader>
-   <!-- https://fr.wikisource.org/wiki/Page:Revue_des_Deux_Mondes_-_1921_-_tome_65.djvu/663 -->
    <text type="text">
       <body>
          <div type="original" xml:lang="fr-FR">
-            <head>Impressions de <rs type="place" ref="#50">Vienne</rs></head>
+            <head>Impressions de <rs type="place" ref="#pmb50">Vienne</rs>
+            </head>
             <p rend="center">
                <gap reason="outOfScope" unit="lines" quantity="99"/>
             </p>
-            <p>On a souvent comparé le <rs type="place" ref="#8">
+            <p>On a souvent comparé le <rs type="place" ref="#pmb8">
                   <hi rend="italics">Prater</hi>
-               </rs> à notre <rs type="place" ref="#611">Bois de Boulogne</rs>. C’est aussi, du
-               moins vers son entrée, quelque chose comme la <rs type="place" ref="#1041">foire de
+               </rs> à notre <rs type="place" ref="#pmb611">Bois de Boulogne</rs>. C’est aussi, du
+               moins vers son entrée, quelque chose comme la <rs type="place" ref="#pmb1041">foire de
                   Neuilly</rs>. Jadis les archiducs ne dédaignaient pas d’y aller faire un tour;
                mais les archiducs sont en exil. Aujourd’hui, parmi les piétons, il n’y a que du
                peuple, du tout petit peuple. Sur le bord des allées, des marchandes débitent des
                gâteaux à la poussière et des saucisses à la moutarde. Il fait beau, des nuages
                légers, soyeux, voilent agréablement le soleil.</p>
-            <p>Les jeunes filles et les enfants se sont déguisées en <hi rend="italics"
-                  >Dirndl</hi><hi rend="superscript">1</hi>; c’est la mode, quand vient l’été: jupe
+            <p>Les jeunes filles et les enfants se sont déguisées en <hi rend="italics">Dirndl</hi>
+               <hi rend="superscript">1</hi>; c’est la mode, quand vient l’été: jupe
                à fleurettes Pompadour, boléro qui s’échancre sur une chemisette blanche et petit
                tablier de couleur éclatante: rouge coquelicot, vert pré, violet-évêque. Tout ce
                monde achète des confiseries et de la charcuterie. Aux »montagnes-russes«, les
                voitures sont prises d’assaut. Dans les descentes vertigineuses, les tabliers pourpre
                et leurs frères les tabliers épinard sont comme fous de joie et poussent des cris
                   aigus<c rendition="#dots" n="3"/> Demain, ce sera <hi rend="italics">lundi
-                  bleu</hi><hi rend="superscript">2</hi>. Le travail ne recommencera qu’à onze
+                  bleu</hi>
+               <hi rend="superscript">2</hi>. Le travail ne recommencera qu’à onze
                heures. La vie est courte. Amusons-nous<c rendition="#dots" n="3"/> Cependant, rappel
                de la guerre, des soldats mutilés mendient ou vendent des allumettes. L’un exhibe son
                moignon, l’autre ses pieds articulés; un troisième est aveugle. On leur donne, mais
@@ -90,39 +93,39 @@
                passent, attelés de fins trotteurs superbement harnachés. Leurs mors, leurs
                gourmettes étincellent. Sur leur poitrail ondulent d’étroites et longues courroies
                blanches. </p>
-            <p>La <hi rend="italics">Suesse Mædel</hi><hi rend="superscript">3</hi> se promène
+            <p>La <hi rend="italics">Suesse Mædel</hi>
+               <hi rend="superscript">3</hi> se promène
                lentement avec son ami. La gentillesse de cette <hi rend="italics">grisette</hi>
-               anime les promenades. Sans elle, <rs type="place" ref="#50">Vienne</rs> ne serait
-               plus <rs type="place" ref="#50">Vienne</rs>. Avec un rien, elle s’habille<pb/>
-                  plaisamment<c rendition="#dots" n="3"/> Mieux qu’aucun, <rs type="person"
-                  ref="#2121">Arthur Schnitzler</rs>, l’auteur dramatique, a su la dépeindre: »Elle
+               anime les promenades. Sans elle, <rs type="place" ref="#pmb50">Vienne</rs> ne serait
+               plus <rs type="place" ref="#pmb50">Vienne</rs>. Avec un rien, elle s’habille<pb/>
+                  plaisamment<c rendition="#dots" n="3"/> Mieux qu’aucun, <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>, l’auteur dramatique, a su la dépeindre: »Elle
                a dix-sept ou dix-huit ans<c rendition="#dots" n="3"/> Elle est blonde et encore
                   mince<c rendition="#dots" n="3"/> Elle n’est pas d’une beauté fascinante, elle
                n’est pas d’une intelligence transcendante; mais elle a le charme d’un soir de
                   printemps<c rendition="#dots" n="3"/>« Toujours sentimentale, elle a, depuis la
-               guerre, perdu sa qualité essentielle: le désintéressement. <rs type="person"
-                  ref="#2121">Schnitzler</rs> lui-même le reconnaît. Comme je lui parlais de la <hi
-                  rend="italics">Suesse Mædel</hi>: – Que voulez-vous? me dit-il, la vie est chère<c
-                  rendition="#dots" n="3"/> les bas de soie aussi<c rendition="#dots" n="3"/>
+               guerre, perdu sa qualité essentielle: le désintéressement. <rs type="person" ref="#pmb2121">Schnitzler</rs> lui-même le reconnaît. Comme je lui parlais de la <hi rend="italics">Suesse Mædel</hi>: – Que voulez-vous? me dit-il, la vie est chère<c rendition="#dots" n="3"/> les bas de soie aussi<c rendition="#dots" n="3"/>
             </p>
             <p rend="center">
                <c rendition="#ornament"/>
             </p>
-            <p><hi rend="superscript">1</hi> Paysanne des Alpes.<lb/>
-            <hi rend="superscript">2</hi> Tous les lundis sont bleus; mais il n’y a qu’un
+            <p>
+               <hi rend="superscript">1</hi> Paysanne des Alpes.<lb/>
+               <hi rend="superscript">2</hi> Tous les lundis sont bleus; mais il n’y a qu’un
                dimanche <hi rend="italics">doré</hi>: celui qui précède Noël, à cause des
                acquisitions qu’on y fuit; et un seul jeudi vert: le jeudi-saint, parce que, ce
-               jour-là, on ne doit manger que des légumes verts.<lb/><hi rend="superscript">3</hi> Littéralement: la jeune fille sucrée.</p>
+               jour-là, on ne doit manger que des légumes verts.<lb/>
+               <hi rend="superscript">3</hi> Littéralement: la jeune fille sucrée.</p>
          </div>
          <div type="translation">
-            <head>Eindrücke aus <rs type="place" ref="#50">Wien</rs></head>
+            <head>Eindrücke aus <rs type="place" ref="#pmb50">Wien</rs>
+            </head>
             <p rend="center">
                <gap reason="outOfScope" unit="lines" quantity="99"/>
             </p>
-            <p>Oft wurde der <rs type="place" ref="#8">
+            <p>Oft wurde der <rs type="place" ref="#pmb8">
                   <hi rend="italics">Prater</hi>
-               </rs> mit unserem <rs type="place" ref="#611">Bois de Boulogne</rs> verglichen.
-               Zumindest beim Eingang gemahnt er auch an den <rs type="place" ref="#1041">Jahrmarkt
+               </rs> mit unserem <rs type="place" ref="#pmb611">Bois de Boulogne</rs> verglichen.
+               Zumindest beim Eingang gemahnt er auch an den <rs type="place" ref="#pmb1041">Jahrmarkt
                   von Neuilly</rs>. Früher scheuten sich Erzherzöge nicht, hierher zu gehen; aber
                die Erzherzöge sind im Exil. Heute gibt es unter den Fußgängern nur Volk, einfachstes
                Volk. Am Rande der Alleen verkaufen Händler süße Brötchen und Senfwürste. Das Wetter
@@ -133,51 +136,261 @@
                Schürze in einer leuchtenden Farbe: mohnrot, wiesengrün, bischofsviolett. All diese
                Leute kaufen Süßigkeiten und Aufschnitt. Die Wagen der »Achterbahn« werden gestürmt.
                Bei den schwindelerregenden Abfahrten sind die lila Schürzen und ihre Brüder, die
-               Spinatschürzen, verrückt vor Freude und stoßen laute Schreie aus<c rendition="#dots"
-                  n="3"/> Morgen ist der <hi rend="italics">Blaue Montag</hi><hi rend="superscript">2</hi>. Die Arbeit wird erst um elf Uhr wieder aufgenommen. Das Leben ist kurz.
+               Spinatschürzen, verrückt vor Freude und stoßen laute Schreie aus<c rendition="#dots" n="3"/> Morgen ist der <hi rend="italics">Blaue Montag</hi>
+               <hi rend="superscript">2</hi>. Die Arbeit wird erst um elf Uhr wieder aufgenommen. Das Leben ist kurz.
                Lasst uns Spaß haben<c rendition="#dots" n="3"/> Und doch, Erinnerung an den Krieg,
                die verstümmelten Soldaten betteln oder verkaufen Streichhölzer. Einer zeigt sein
                Kinn, ein anderer seine Fußgelenke, ein dritter ist blind. Man gibt ihnen, aber nicht
                viel: Das Mitgefühl schwindet.</p>
             <p>Wir treten unter die Kastanienbäume der Hauptallee. Das herrliche Licht dieses
-               Junitages verleiht allem, was es berührt, ein wunderbares Ansehen. <anchor
-                  type="commentary" xml:id="K_I035-1"/>Tilbury<note type="commentary"
-                  xml:id="K_I035-1h">einspännige und einachsige Kutsche</note>s ziehen vorbei,
+               Junitages verleiht allem, was es berührt, ein wunderbares Ansehen. <anchor type="commentary" xml:id="K_I035-1"/>Tilbury<note type="commentary" xml:id="K_I035-1h">einspännige und einachsige Kutsche</note>s ziehen vorbei,
                vorgespannt sind fein herausgeputzte Traber. Ihre Gebisse und Zaumzeuge glänzen. An
                der Brust winden sich lange, schmale weiße Bänder.</p>
-            <p>Das <hi rend="italics">süße Mädel</hi><hi rend="superscript">3</hi> spaziert gemütlich mit ihrem Freund. Die Zärtlichkeit dieser <hi
-                  rend="italics">Grisette</hi> belebt die Spaziergänge. Ohne sie wäre <rs
-                  type="place" ref="#50">Wien</rs> nicht mehr <rs type="place" ref="#50">Wien</rs>.
+            <p>Das <hi rend="italics">süße Mädel</hi>
+               <hi rend="superscript">3</hi> spaziert gemütlich mit ihrem Freund. Die Zärtlichkeit dieser <hi rend="italics">Grisette</hi> belebt die Spaziergänge. Ohne sie wäre <rs type="place" ref="#pmb50">Wien</rs> nicht mehr <rs type="place" ref="#pmb50">Wien</rs>.
                Mit einem Nichts kann sie sich hübsch anziehen<c rendition="#dots" n="3"/>
-               <space unit="chars" quantity="1"/>Der Dramatiker <rs type="person" ref="#2121">Arthur
+               <space unit="chars" quantity="1"/>Der Dramatiker <rs type="person" ref="#pmb2121">Arthur
                   Schnitzler</rs> beschrieb sie besser als jeder andere: »Sie ist siebzehn oder
-               achtzehn Jahre alt<c rendition="#dots" n="3"/> Sie ist blond und immer noch schlank<c
-                  rendition="#dots" n="3"/> Sie ist nicht faszinierend schön, sie ist nicht
-               überragend intelligent, aber sie hat den Charme eines Frühlingsabends<c
-                  rendition="#dots" n="3"/>« Sie war schon immer sentimental, aber seit dem Krieg
-               hat sie ihre wesentliche Eigenschaft verloren: die Uneigennützigkeit. <rs
-                  type="person" ref="#2121">Schnitzler</rs> selbst erkennt dies an. Als ich mit ihm
+               achtzehn Jahre alt<c rendition="#dots" n="3"/> Sie ist blond und immer noch schlank<c rendition="#dots" n="3"/> Sie ist nicht faszinierend schön, sie ist nicht
+               überragend intelligent, aber sie hat den Charme eines Frühlingsabends<c rendition="#dots" n="3"/>« Sie war schon immer sentimental, aber seit dem Krieg
+               hat sie ihre wesentliche Eigenschaft verloren: die Uneigennützigkeit. <rs type="person" ref="#pmb2121">Schnitzler</rs> selbst erkennt dies an. Als ich mit ihm
                über <hi rend="italics">Süße Mädl</hi> sprach: – Was erwartest du? sagte er zu mir,
-               das Leben ist teuer<c rendition="#dots" n="3"/> Seidenstrümpfe auch<c
-                  rendition="#dots" n="3"/>
+               das Leben ist teuer<c rendition="#dots" n="3"/> Seidenstrümpfe auch<c rendition="#dots" n="3"/>
             </p>
             <p rend="center">
                <c rendition="#ornament"/>
             </p>
-            <p><hi rend="superscript">1</hi> Bäuerin aus den Alpen.<lb/><hi rend="superscript">2</hi> Alle Montage sind blau; aber nur ein Sonntag ist <hi rend="italics"
-               >vergoldet</hi>: der vor Weihnachten, aufgrund der Einkäufe, die man macht;
+            <p>
+               <hi rend="superscript">1</hi> Bäuerin aus den Alpen.<lb/>
+               <hi rend="superscript">2</hi> Alle Montage sind blau; aber nur ein Sonntag ist <hi rend="italics">vergoldet</hi>: der vor Weihnachten, aufgrund der Einkäufe, die man macht;
                und nur ein Gründonnerstag: an dem Tag dürfen nur grüne Gemüse verzehrt
-               werden.<lb/><hi rend="superscript">3</hi> Wörtlich: das junge, süße Mädchen.</p>
+               werden.<lb/>
+               <hi rend="superscript">3</hi> Wörtlich: das junge, süße Mädchen.</p>
          </div>
          <div type="biographical">
             <div1>
-               <bibl>Arthur an <rs type="person" ref="#2173">Olga Schnitzler</rs>, <date>8.&#8239;7.&#8239;1921</date>
+               <bibl>Arthur an <rs type="person" ref="#pmb2173">Olga Schnitzler</rs>, <date>8. 7. 1921</date>
                </bibl>
-               <quote>eine <rs type="person" ref="#29023" subtype="implied">Dame</rs> von der <rs
-                     type="org" ref="#29426">Revue des deux mondes</rs> interviewte mich
+               <quote>eine <rs type="person" ref="#pmb29023" subtype="implied">Dame</rs> von der <rs type="org" ref="#pmb29426">Revue des deux mondes</rs> interviewte mich
                   hinterrücks.</quote>
             </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb29023">
+               <persName>
+                  <forename>Henriette</forename>
+                  <surname>Celarié</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Lemoine</persName>
+               <birth>
+                  <date when="1872-05-03">03.05.1872</date>
+                  <settlement ref="pmb60494">
+                     <placeName type="pref">Reims</placeName>
+                     <location>
+                        <geo>49,26526 4,02853</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1958-08-06">06.08.1958</date>
+                  <settlement ref="pmb182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29023/</idno>
+            </person>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb2173">
+               <persName>
+                  <forename>Olga</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Gussmann</persName>
+               <persName type="person_pseudonym">Dina Marius</persName>
+               <persName type="legacy-name-merge">Schnitzler, Olga</persName>
+               <birth>
+                  <date when="1882-01-17">17.01.1882</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1970-01-13">13.01.1970</date>
+                  <settlement ref="pmb885">
+                     <placeName type="pref">Lugano</placeName>
+                     <location>
+                        <geo>46,01008 8,96004</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <occupation ref="pmb107">Sänger/Sängerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116848723</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2173.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2173/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19832</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2173</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp50811</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q55884531</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2173.html</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb33011">
+               <title>Impressions de Vienne</title>
+               <title type="werk_bibliografische-angabe">Revue des Deux Mondes, 1. 10. 1921</title>
+               <author ref="pmb29023" role="hat-geschaffen">Celarié, Henriette</author>
+               <date when="1921-10-01">01.10.1921</date>
+               <idno type="URL" subtype="fr">https://fr.wikisource.org/wiki/Page:Revue_des_Deux_Mondes_-_1921_-_tome_65.djvu/663</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33011/</idno>
+               <note type="work_kind">Text</note>
+            </bibl>
+            <bibl xml:id="pmb58335">
+               <title>Revue des Deux Mondes</title>
+               <date notBefore="1829-01-01" when="1829-07-02">1829</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58335/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1569226</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Revue_des_Deux_Mondes</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Zeitschrift</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+            <place xml:id="pmb8">
+               <placeName>Prater</placeName>
+               <desc type="entity_type">Grünanlage (K.GRN)</desc>
+               <desc type="entity_type_id">9</desc>
+               <location type="coords">
+                  <geo>48,194558 16,430054</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb52">II., Leopoldstadt</placeName>
+                  <geo>48,21667 16,4</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb8.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/8/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb8</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q264752</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wiener_Prater</idno>
+            </place>
+            <place xml:id="pmb611">
+               <placeName>Bois de Boulogne</placeName>
+               <desc type="entity_type">Park (K.PRK)</desc>
+               <desc type="entity_type_id">19</desc>
+               <location type="coords">
+                  <geo>48,866667 2,250278</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb182">Paris</placeName>
+                  <geo>48,85341 2,3488</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q209626</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3032063/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb611.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/611/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb611</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Bois_de_Boulogne</idno>
+            </place>
+            <place xml:id="pmb1041">
+               <placeName>Jahrmarkt</placeName>
+               <desc type="entity_type">Markt (K.MRK)</desc>
+               <desc type="entity_type_id">81</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb36749">Neuilly-sur-Seine</placeName>
+                  <geo>48,8846 2,26965</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1041/</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb29426">
+               <orgName>Revue des Deux Mondes</orgName>
+               <desc type="entity_type">Zeitschriftenredaktion</desc>
+               <desc type="entity_type_id">973</desc>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29426/</idno>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

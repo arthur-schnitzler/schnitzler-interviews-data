@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="M062">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="M062">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#33195">Schnitzler: Der Burgtheaterring der »Concordia«,
-               30.&#8239;5.&#8239;1926</title>
-            <author ref="#2121">Schnitzler, Arthur</author>
-            <author ref="#5320">Wilbrandt-Baudius, Auguste</author>
+            <title level="a" ref="#pmb33195">Schnitzler: Der Burgtheaterring der »Concordia«,
+               30. 5. 1926</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
+            <author ref="#pmb5320">Wilbrandt-Baudius, Auguste</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -29,13 +31,13 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title level="a" ref="#33195">Der Burgtheaterring der »Concordia«. Dankbriefe
+                     <title level="a" ref="#pmb33195">Der Burgtheaterring der »Concordia«. Dankbriefe
                         von Frau Wilbrandt-Baudius und Artur Schnitzler</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#36376">Neues Wiener Journal</title>
+                     <title level="j" ref="#pmb36376">Neues Wiener Journal</title>
                      <imprint>
-                        <date when="1926-05-30" n="1">30.&#8239;5.&#8239;1926</date>
+                        <date when="1926-05-30" n="1">30. 5. 1926</date>
                      </imprint>
                      <biblScope unit="jg">34</biblScope>
                      <biblScope unit="nr">11.680</biblScope>
@@ -56,36 +58,26 @@
          <change who="KH" when="2021-10-27">Durchsicht</change>
       </revisionDesc>
    </teiHeader>
-   <!-- http://anno.onb.ac.at/cgi-content/anno?aid=nwj&datum=19260530&seite=5&zoom=33 -->
    <text type="text">
       <body>
          <div type="original">
-            <head>Der <rs type="org" ref="#29268">Burgtheaterring</rs> der »<rs type="org"
-                  ref="#29752">Concordia</rs>«</head>
-            <head type="sub">Dankbriefe von Frau <rs type="person" ref="#5320"
-                  >Wilbrandt-Baudius</rs> und <rs type="person" ref="#2121">Artur
+            <head>Der <rs type="org" ref="#pmb29268">Burgtheaterring</rs> der »<rs type="org" ref="#pmb29752">Concordia</rs>«</head>
+            <head type="sub">Dankbriefe von Frau <rs type="person" ref="#pmb5320">Wilbrandt-Baudius</rs> und <rs type="person" ref="#pmb2121">Artur
                Schnitzler</rs>.</head>
-            <p rend="inline">Der vom Herausgeber des »<rs type="org" ref="#29320">Neuen Wiener
-                  Journals</rs>« <rs type="person" ref="#4054">J. Lippowitz</rs> gestiftete <rs
-                  type="org" ref="#29268">Burgtheaterring</rs> ist in diesem Jahre bekanntlich Frau
-                  <rs type="person" ref="#5320">Wilbrandt-Baudius</rs> und <rs type="person"
-                  ref="#2121">Artur Schnitzler</rs> zuerkannt worden. Die feierliche Ueberreichung
+            <p rend="inline">Der vom Herausgeber des »<rs type="org" ref="#pmb29320">Neuen Wiener
+                  Journals</rs>« <rs type="person" ref="#pmb4054">J. Lippowitz</rs> gestiftete <rs type="org" ref="#pmb29268">Burgtheaterring</rs> ist in diesem Jahre bekanntlich Frau
+                  <rs type="person" ref="#pmb5320">Wilbrandt-Baudius</rs> und <rs type="person" ref="#pmb2121">Artur Schnitzler</rs> zuerkannt worden. Die feierliche Ueberreichung
                erfolgt sofort nach Fertigstellung der Ringe, die noch von Künstlerhand ausgeführten
-               Modellen im Atelier der bekannten Juwelierfirma <rs type="org" ref="#29468"
-                  >Köchert</rs> angefertigt werden. Inzwischen hat der Präsident der »<rs type="org"
-                  ref="#29752">Concordia</rs>«, Herr Dr. <rs type="person" ref="#13088">Edmund
-                  Wengraf</rs>, den mit dem <rs type="org" ref="#29268">Burgtheaterring</rs>
+               Modellen im Atelier der bekannten Juwelierfirma <rs type="org" ref="#pmb29468">Köchert</rs> angefertigt werden. Inzwischen hat der Präsident der »<rs type="org" ref="#pmb29752">Concordia</rs>«, Herr Dr. <rs type="person" ref="#pmb13088">Edmund
+                  Wengraf</rs>, den mit dem <rs type="org" ref="#pmb29268">Burgtheaterring</rs>
                Ausgezeichneten offiziell Mitteilung von dieser Ehrung gemacht und darauf die
                folgenden Dankschreiben erhalten:</p>
             <head type="sub">Brief der Frau <hi rend="spaced_out">Wilbrandt-Baudius</hi>:</head>
             <p rend="right">
-               <rs type="place" ref="#50">Wien</rs>, <date>24. April 1926</date>.</p>
-            <p>Dem Journalisten- und Schriftstellerverein »<rs type="org" ref="#29752"
-                  >Concordia</rs>« sage ich meinen besten Dank für den schönen Brief, der mir die
+               <rs type="place" ref="#pmb50">Wien</rs>, <date>24. April 1926</date>.</p>
+            <p>Dem Journalisten- und Schriftstellerverein »<rs type="org" ref="#pmb29752">Concordia</rs>« sage ich meinen besten Dank für den schönen Brief, der mir die
                Ehrengabe eines Ringes verheißt. Sie wird mir eine doppelt liebe Erinnerung sein:</p>
-            <p>sowohl an das 150jährige Jubiläum unseres <rs type="org" ref="#36247"
-                  >Burgtheaters</rs>, wie auch an Ihren hochgeschätzten Verein »<rs type="org"
-                  ref="#29752">Concordia</rs>«.</p>
+            <p>sowohl an das 150jährige Jubiläum unseres <rs type="org" ref="#pmb36247">Burgtheaters</rs>, wie auch an Ihren hochgeschätzten Verein »<rs type="org" ref="#pmb29752">Concordia</rs>«.</p>
             <p rend="center">Ihre ergebene</p>
             <p rend="right">Auguste Wilbrandt <anchor type="commentary" xml:id="KT148-1"/>
                <hi rend="antiqua">e. h.</hi>
@@ -96,20 +88,18 @@
             <p rend="right">
                <date>22. Mai 1926</date>.</p>
             <p rend="center">Sehr verehrter Herr Präsident!</p>
-            <p>Ich war fünf Wochen lang <anchor type="commentary" xml:id="KT148-2"/>verreist<note
-                  type="commentary" xml:id="KT148-2h">Er kam am <date>20.&#8239;5.&#8239;1926</date> von einer
-                  Kreuzfahrt durch das <rs ref="#41016" type="place">westliche Mittelmeer</rs> und
-                  bis <rs type="place" ref="#506">Hamburg</rs> zurück.</note>, so komme ich erst
-               heute dazu, Ihr liebenswürdiges Schreiben vom <date>23. April d.&#160;J.</date> zu
+            <p>Ich war fünf Wochen lang <anchor type="commentary" xml:id="KT148-2"/>verreist<note type="commentary" xml:id="KT148-2h">Er kam am <date>20. 5. 1926</date> von einer
+                  Kreuzfahrt durch das <rs ref="#pmb41016" type="place">westliche Mittelmeer</rs> und
+                  bis <rs type="place" ref="#pmb506">Hamburg</rs> zurück.</note>, so komme ich erst
+               heute dazu, Ihr liebenswürdiges Schreiben vom <date>23. April d. J.</date> zu
                beantworten, in dem Sie mir von der sehr ehrenvollen Auszeichnung freundliche
-               Mitteilung machen, deren die »<rs type="org" ref="#29752">Concordia</rs>« mich durch
-               die Verleihung des <rs type="org" ref="#29268">Burgtheaterringes</rs> für würdig
+               Mitteilung machen, deren die »<rs type="org" ref="#pmb29752">Concordia</rs>« mich durch
+               die Verleihung des <rs type="org" ref="#pmb29268">Burgtheaterringes</rs> für würdig
                erachtet hat. Da der tatsächliche Empfang des Ringes, so hoch auch sein Kunstwert
                sein möge, zu meiner herzlichen Freude über die bei der ersten Verleihung auf mich
                entfallene Wahl kaum noch etwas wird beitragen können, erscheint es wohl nicht
-               verfrüht, wenn ich mir schon heute erlaube, Ihnen, verehrter Herr <rs type="person"
-                  ref="#13088" subtype="implied">Präsident</rs>, und den anderen werten Herren der
-                  »<rs type="org" ref="#29752">Concordia</rs>«, Herrn <rs type="person" ref="#4054">
+               verfrüht, wenn ich mir schon heute erlaube, Ihnen, verehrter Herr <rs type="person" ref="#pmb13088" subtype="implied">Präsident</rs>, und den anderen werten Herren der
+                  »<rs type="org" ref="#pmb29752">Concordia</rs>«, Herrn <rs type="person" ref="#pmb4054">
                   <hi rend="spaced_out">Lippowitz</hi>
                </rs> vor allem, meinen aufrichtigen Dank auszusprechen und bin mit dem Ausdruck
                vorzüglichster Hochschätzung und den allerschönsten Grüßen für Sie, verehrter Herr
@@ -117,14 +107,425 @@
             <p rend="center">Ihr sehr ergebener</p>
             <p rend="right">Artur Schnitzler <hi rend="antiqua">e. h.</hi>
             </p>
-            <p>Herrn Dr. <rs type="person" ref="#13088">Edmund Wengraf</rs>,</p>
-            <p>Präsident der »<rs type="org" ref="#29752">Concordia</rs>«,</p>
+            <p>Herrn Dr. <rs type="person" ref="#pmb13088">Edmund Wengraf</rs>,</p>
+            <p>Präsident der »<rs type="org" ref="#pmb29752">Concordia</rs>«,</p>
             <p>
-               <rs type="place" ref="#50">Wien, I.</rs>,</p>
+               <rs type="place" ref="#pmb50">Wien, I.</rs>,</p>
             <p>
-               <rs type="place" ref="#35">Rudolfsplatz 12.</rs>
+               <rs type="place" ref="#pmb35">Rudolfsplatz 12.</rs>
             </p>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb5320">
+               <persName>
+                  <forename>Auguste</forename>
+                  <surname>Wilbrandt-Baudius</surname>
+               </persName>
+               <birth>
+                  <date when="1843-06-01">01.06.1843</date>
+                  <settlement ref="pmb49008">
+                     <placeName type="pref">Zwickau</placeName>
+                     <location>
+                        <geo>50,72724 12,48839</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1937-03-30">30.03.1937</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117378186</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21320</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5320/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38594</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q767195</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Auguste_Wilbrandt-Baudius</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00280f49</idno>
+            </person>
+            <person xml:id="pmb4054">
+               <persName>
+                  <forename>Jakob</forename>
+                  <surname>Lippowitz</surname>
+               </persName>
+               <birth>
+                  <date when="1865-10-09">09.10.1865</date>
+                  <settlement ref="pmb864">
+                     <placeName type="pref">Leipzig</placeName>
+                     <location>
+                        <geo>51,33962 12,37129</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1934-07-04">04.07.1934</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/139319417</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17583</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb4054.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4054/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb4054</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46698</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=L#DWpers0153</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00282a3c</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q29534024</idno>
+            </person>
+            <person xml:id="pmb13088">
+               <persName>
+                  <forename>Edmund</forename>
+                  <surname>Wengraf</surname>
+               </persName>
+               <birth>
+                  <date when="1860-01-09">09.01.1860</date>
+                  <settlement ref="pmb40412">
+                     <placeName type="pref">Mikulov</placeName>
+                     <location>
+                        <geo>48,80556 16,6378</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1933-12-08">08.12.1933</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21234</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/1026090660</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb13088.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/13088/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb13088</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb13088</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp42299</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x003afce4</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q59551583</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb33195">
+               <title>Der Burgtheaterring der »Concordia«. Dankbriefe von Frau Wilbrandt-Baudius und Artur Schnitzler</title>
+               <title type="legacy-name-merge">Der Burgtheaterring der »Concordia«. Dankbriefe von Frau Wilbrandt-Baudius und Artur Schnitzler</title>
+               <title type="werk_bibliografische-angabe">Neues Wiener Journal, 30. 5. 1926 </title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <author ref="pmb5320" role="hat-geschaffen">Wilbrandt-Baudius, Auguste</author>
+               <date when="1926-05-30">30.05.1926</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33195/</idno>
+               <note type="work_kind">Text</note>
+            </bibl>
+            <bibl xml:id="pmb36376">
+               <title>Neues Wiener Journal</title>
+               <title type="werk_link-anno">http://anno.onb.ac.at/cgi-content/anno?aid=nwj</title>
+               <author ref="pmb36371" role="hat-einen-beitrag-geschaffen-zu">Papp, Desiderius</author>
+               <author ref="pmb10815" role="hat-einen-beitrag-geschaffen-zu">Bahr, Hermann</author>
+               <date to="1939-01-01">1893  – 1939</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36376/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36376</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb36376</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+            <place xml:id="pmb41016">
+               <placeName>Mittelmeer</placeName>
+               <desc type="entity_type">Meer (N.MER)</desc>
+               <desc type="entity_type_id">65</desc>
+               <location type="coords">
+                  <geo>35,0 18,0</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41016/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41016</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q4918</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Mittelmeer</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/363196/</idno>
+            </place>
+            <place xml:id="pmb506">
+               <placeName>Hamburg</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>53,57532 10,01534</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb151">Deutschland</placeName>
+                  <geo>51,5 10,5</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1055</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb506.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/506/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44883/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4023118-5</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb506</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64301/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2911298/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb506</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb506.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hamburg</idno>
+            </place>
+            <place xml:id="pmb35">
+               <placeName>Rudolfsplatz</placeName>
+               <placeName type="legacy-name-merge">Rudolfspl.</placeName>
+               <desc type="entity_type">Platz (K.PLT)</desc>
+               <desc type="entity_type_id">21</desc>
+               <location type="coords">
+                  <geo>48,21429 16,37192</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb35.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb35</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92498/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92498.html</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb29268">
+               <orgName>Burgtheaterring</orgName>
+               <desc type="entity_type">Theaterpreis</desc>
+               <desc type="entity_type_id">996</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29268.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29268/</idno>
+            </org>
+            <org xml:id="pmb29752">
+               <orgName>Concordia</orgName>
+               <orgName type="werk_link">https://concordia.at/</orgName>
+               <orgName type="legacy-name-merge">Concordia Presseverein</orgName>
+               <desc type="entity_type">Verein &gt;&gt; Schriftstellerverein</desc>
+               <desc type="entity_type_id">1017</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb51.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36789/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51010/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2775259/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb51</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb51</idno>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29752.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29752/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29752</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb29752</idno>
+            </org>
+            <org xml:id="pmb29320">
+               <orgName>Neues Wiener Journal</orgName>
+               <orgName type="werk_link-anno">http://anno.onb.ac.at/info/nwj_info.htm</orgName>
+               <desc type="entity_type">Tageszeitungsredaktion</desc>
+               <desc type="entity_type_id">972</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb1270">Nussdorfer Straße</placeName>
+                  <geo>48,22921 16,35461</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1270/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb1270</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb52670">Biberstraße</placeName>
+                  <geo>48,209725072054226 16,381223898207065</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/52670/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb52670</idno>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29320.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29320/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29320</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb29320</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1980429</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Neues_Wiener_Journal</idno>
+               <note type="apis_dates">
+                  <date from="1893-01-01" to="1939-07-02">1893  – 1939</date>
+               </note>
+            </org>
+            <org xml:id="pmb29468">
+               <orgName>A. E. Köchert</orgName>
+               <desc type="entity_type">Juwelier</desc>
+               <desc type="entity_type_id">1021</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb51.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36789/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51010/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2775259/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb51</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb51</idno>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29468/</idno>
+            </org>
+            <org xml:id="pmb36247">
+               <orgName>Burgtheater</orgName>
+               <orgName type="alternative-name">Burgtheater GmbH</orgName>
+               <desc type="entity_type">Theater</desc>
+               <desc type="entity_type_id">1012</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb51.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36789/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51010/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2775259/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb51</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb51</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb14">Burgtheater</placeName>
+                  <geo>48,210333 16,361139</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb14.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/14/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb14</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb14.html</idno>
+                  <idno type="URL" subtype="geonames">https://www.geonames.org/6354992/</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb44649">Schlosstheater Schönbrunn</placeName>
+                  <geo>48,186667 16,3125</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44649/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb44649</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2244724</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Schlosstheater_Sch%C3%B6nbrunn</idno>
+               </location>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/38633-9</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36247/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36247</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb36247</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q308720</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Burgtheater</idno>
+               <note type="apis_dates">
+                  <date notBefore="1852-01-01" when="1852-07-01">1852</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

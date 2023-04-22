@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="M175">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="M175">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#63146">Leo Feld: Komödie der Irrungen,
-               20.&#8239;4.&#8239;1924</title>
-            <author ref="#18308">Feld, Leo</author>
+            <title level="a" ref="#pmb63146">Leo Feld: Komödie der Irrungen,
+               20. 4. 1924</title>
+            <author ref="#pmb18308">Feld, Leo</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -28,13 +30,13 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#18308">Feld, Leo</author>
-                     <title level="a" ref="#63146">Komödie der Irrungen</title>
+                     <author ref="#pmb18308">Feld, Leo</author>
+                     <title level="a" ref="#pmb63146">Komödie der Irrungen</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#36376">Neues Wiener Journal</title>
+                     <title level="j" ref="#pmb36376">Neues Wiener Journal</title>
                      <imprint>
-                        <date when="1924-04-20" n="1">20.&#8239;4.&#8239;1924</date>
+                        <date when="1924-04-20" n="1">20. 4. 1924</date>
                      </imprint>
                      <biblScope unit="jg">32</biblScope>
                      <biblScope unit="nr">19.927, Morgenblatt</biblScope>
@@ -54,18 +56,16 @@
          <change who="MAM" when="2022-01-18">Index check</change>
       </revisionDesc>
    </teiHeader>
-   <!-- https://anno.onb.ac.at/cgi-content/anno?aid=nwj&datum=19240420&seite=18&zoom=33 -->
    <text type="article">
       <body>
          <div type="original">
             <head>Komödie der Irrungen</head>
             <head type="sub">Von</head>
             <head type="sub">Leo Feld.</head>
-            <p>Man erweist mir seit einiger Zeit die Ehre, mich mit <rs type="person" ref="#2121"
-                  >Artur Schnitzler</rs> zu verwechseln. Auf der Straße, im Theater, auf der
+            <p>Man erweist mir seit einiger Zeit die Ehre, mich mit <rs type="person" ref="#pmb2121">Artur Schnitzler</rs> zu verwechseln. Auf der Straße, im Theater, auf der
                Elektrischen – es passiert mir fortwährend. Man spricht mich mit seinem Namen an, man
                grüßt, blickt, tuschelt, kurz man benimmt sich gegen mich, als ob ich der berühmte
-               Dichter der »<rs type="work" ref="#29917">Liebelei</rs>« wäre.</p>
+               Dichter der »<rs type="work" ref="#pmb29917">Liebelei</rs>« wäre.</p>
             <p>Das ist eine Auszeichnung, vielleicht sogar eine Schmeichelei, aber sicherlich kein
                Vergnügen. Wirklich nicht.</p>
             <p>Es ist nicht angenehm, wenn man den Leuten immer wieder versichern muß, daß man nur
@@ -73,30 +73,29 @@
                Minister macht es vielleicht Spaß, wenn man ihn für seinen Hofrat hält. Aber der
                Hofrat fährt unweigerlich zusammen, wenn ein schmeichlerisches »Exzellenz« seine
                subalternen Ohren umflüstert.</p>
-            <p>Dabei ist es weder <rs type="person" ref="#2121">Artur Schnitzler</rs> noch mir, noch
+            <p>Dabei ist es weder <rs type="person" ref="#pmb2121">Artur Schnitzler</rs> noch mir, noch
                irgend jemandem, der uns genau kennt, jemals klar geworden, warum uns die Leute
-               verwechseln. <rs type="person" ref="#2121">Schnitzler</rs> hat wundervolle <anchor
-                  type="commentary" xml:id="K_M175-4"/>blaue Augen<note type="commentary"
-                  xml:id="K_M175-4h"><ref type="pointer" target="#L_I102_augen"/></note>, schönes,
+               verwechseln. <rs type="person" ref="#pmb2121">Schnitzler</rs> hat wundervolle <anchor type="commentary" xml:id="K_M175-4"/>blaue Augen<note type="commentary" xml:id="K_M175-4h">
+                  <ref type="pointer" target="#L_I102_augen"/>
+               </note>, schönes,
                ach, noch so blondes Haar, ein ausgesprochen französisch konturiertes Gesicht – es
                ist rätselhaft, daß sich die Leute da auf eine Aehnlichkeit kaprizieren. Ich kann es
-               mir nur mit dem begreiflichen Wunsche erklären, daß sie mit <hi rend="spaced_out"
-                  >einem</hi><space unit="chars" quantity="1"/><rs type="person" ref="#2121"
-                  >Schnitzler</rs> nicht genug haben wollen.</p>
+               mir nur mit dem begreiflichen Wunsche erklären, daß sie mit <hi rend="spaced_out">einem</hi>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="#pmb2121">Schnitzler</rs> nicht genug haben wollen.</p>
             <p>Immerhin, bis vor kurzem konnte man sich solche Unfälle gefallen lassen. Sie waren
                nicht gar so aufregend. Es war allerdings nicht sehr angenehm für den Dichter, wenn
-               er plötzlich von der <rs type="org" ref="#63157">Volksoper</rs> angerufen wurde, was
+               er plötzlich von der <rs type="org" ref="#pmb63157">Volksoper</rs> angerufen wurde, was
                er von der Direktion wünsche und er sich absolut nicht entsinnen konnte, jemals etwas
                von ihr gewünscht zu haben. Er konnte freilich nicht wissen, daß ich in den
-               Vormittagsstunden desselben Tages den Direktor <rs type="person" ref="#21056"
-                  >Markowsky</rs> vergebens gesucht hatte, weil ich ihn für einen Freund
+               Vormittagsstunden desselben Tages den Direktor <rs type="person" ref="#pmb21056">Markowsky</rs> vergebens gesucht hatte, weil ich ihn für einen Freund
                interessieren wollte. Noch verdrießlicher mag es ihm gewesen sein, als er eines Tages
-               aus <rs type="place" ref="#44322">Schärding</rs>, einem lieben, verrunzelten Städchen
-               am <rs type="place" ref="#63153">Inn</rs>, einen vorwurfsvollen Brief erhielt, es sei
+               aus <rs type="place" ref="#pmb44322">Schärding</rs>, einem lieben, verrunzelten Städchen
+               am <rs type="place" ref="#pmb63153">Inn</rs>, einen vorwurfsvollen Brief erhielt, es sei
                nicht schön von ihm, daß er einmal in einen so weltfernen Winkel verschlagen, für
                seine alten Freunde dort nicht eine Viertelstunde übrig habe. Was wußte ich, als ich
                den einsamen Platz der Stadt durchquerte, daß mich hinter den geschlossenen
-               Fensterläden grollende Blicke verfolgten&#8239;–!</p>
+               Fensterläden grollende Blicke verfolgten –!</p>
             <p>Das waren noch harmlose Mißverständnisse. Die kann jeder halbwegs geübte Schwankautor
                erfinden. Bedenklicher wurde es, als der Dichter selbst anfing, mich mit sich zu
                verwechseln. Wenn er das Parkett eines Theaters betrat und mir mit einem höchst
@@ -104,97 +103,90 @@
                gewußt.« Oder, wenn ich ihm auf der Elektrischen meinen Platz respektvoll abtreten
                wollte und er mit wohlwollender Logik ablehnte: »Ob Sie oder ich sitzen, das ist doch
                ganz egal.«</p>
-            <p>Es gibt eine reizende <anchor type="commentary" xml:id="K_M175-5"/><rs type="work"
-                  ref="#63168">Novelle aus dem Quattrocento</rs><note type="commentary"
-                  xml:id="K_M175-5h"><rs type="person" ref="#63164">Antonio Manetti</rs>: <rs
-                     type="work" ref="#63168">Die Novelle vom dicken Zimmermann</rs></note>, die
+            <p>Es gibt eine reizende <anchor type="commentary" xml:id="K_M175-5"/>
+               <rs type="work" ref="#pmb63168">Novelle aus dem Quattrocento</rs>
+               <note type="commentary" xml:id="K_M175-5h">
+                  <rs type="person" ref="#pmb63164">Antonio Manetti</rs>: <rs type="work" ref="#pmb63168">Die Novelle vom dicken Zimmermann</rs>
+               </note>, die
                einen verwegenen Künstlerstreich schildert. Ein paar übermütige junge Leute wollen
                einem braven Holzschnitzer einreden, er sei ein anderer; er sei nicht er selbst. Sie
                tun das mit einem so systematischen Raffinement, daß der arme Teufel ganz verwirrt
-               wird. Er wehrt sich und wehrt sich&#8239;–</p>
+               wird. Er wehrt sich und wehrt sich –</p>
             <p>Ich wehre mich auch. Ich lasse mir nicht einreden, daß ich nicht mehr ich bin. Das
                sind Grundtatsachen des Lebens, von denen sich ein ordentlicher Mensch nicht loslösen
-               will. Es ist ja sehr unklug, gewiß, es ist entschieden viel vorteilhafter, <rs
-                  type="person" ref="#2121">Artur Schnitzler</rs> zu sein – aber in solchen Dingen
+               will. Es ist ja sehr unklug, gewiß, es ist entschieden viel vorteilhafter, <rs type="person" ref="#pmb2121">Artur Schnitzler</rs> zu sein – aber in solchen Dingen
                ist man nun einmal unverständig konservativ. Obwohl es einem manchmal wirklich schwer
                gemacht wird, noch an seine eigene Existenz zu glauben.</p>
-            <p>Vor einigen Wochen erhielt ich von <rs type="person" ref="#2121">Artur
+            <p>Vor einigen Wochen erhielt ich von <rs type="person" ref="#pmb2121">Artur
                   Schnitzler</rs> einen Brief. Seinem Blatt lag ein zierliches Kuvert bei, das die
                Visitenkarte einer Dame umschloß. Das Kuvert trug die genaue Adresse des Dichters:
-               Herrn Dr. <rs type="person" ref="#2121">Artur Schnitzler</rs>, <rs type="place"
-                  ref="#50">Wien</rs>, etc., etc.; und auf der Karte stand unter dem Namen der Dame
+               Herrn Dr. <rs type="person" ref="#pmb2121">Artur Schnitzler</rs>, <rs type="place" ref="#pmb50">Wien</rs>, etc., etc.; und auf der Karte stand unter dem Namen der Dame
                mit sehr deutlichen und unableugbaren Buchstaben: <c rendition="#dots" n="3"/> bittet
                Herrn Dr. Leo Feld um ein Autogramm.</p>
-            <p>Als ich das las, begann mein Hirn sich etwas zu drehen. Eine Bitte an <rs
-                  type="person" ref="#2121">Artur Schnitzler</rs>, die an mich um ein Autogramm
-               gerichtet war&#8239;–? Die Welt ist doch noch schwerer zu erklären, als die
+            <p>Als ich das las, begann mein Hirn sich etwas zu drehen. Eine Bitte an <rs type="person" ref="#pmb2121">Artur Schnitzler</rs>, die an mich um ein Autogramm
+               gerichtet war –? Die Welt ist doch noch schwerer zu erklären, als die
                Philosophen meinen.</p>
             <p>Und bei diesem Billett lag ein ebenso ratloses Blatt des Dichters:</p>
-            <p><space unit="lines" quantity="1" dim="vertical"/></p>
+            <p>
+               <space unit="lines" quantity="1" dim="vertical"/>
+            </p>
             <p rend="center">Lieber Doktor Feld!</p>
             <p rend="inline">Das – geht denn doch schon zu weit. Bin ich ein Pseudonym von Ihnen
                oder Sie von mir?</p>
-            <p rend="right">Herzlichst Ihr <rs type="person" ref="#2121">Artur Schnitzler</rs>.</p>
-            <p><space unit="lines" quantity="1" dim="vertical"/></p>
+            <p rend="right">Herzlichst Ihr <rs type="person" ref="#pmb2121">Artur Schnitzler</rs>.</p>
+            <p>
+               <space unit="lines" quantity="1" dim="vertical"/>
+            </p>
             <p>Ich gestehe, daß ich vor diesem Problem ganz hilflos war. Ungefähr wie der Held der
-                  <rs type="work" ref="#63168" subtype="implied">Renaissancenovelle</rs>, der die
+                  <rs type="work" ref="#pmb63168" subtype="implied">Renaissancenovelle</rs>, der die
                Schlinge immer näher um seinen Hals fühlt.</p>
             <p>Und dann mit dem Aufgebot eines fabelhaften Scharfsinns und eines grandiosen
                Erinnerungsvermögens kombinierte ich:</p>
-            <p>Ich hatte auf einer Redoute einer Dame, die mich als <rs type="person" ref="#2121"
-                  >Artur Schnitzler</rs> ansprach, gewissenhaft meinen Namen genannt.
+            <p>Ich hatte auf einer Redoute einer Dame, die mich als <rs type="person" ref="#pmb2121">Artur Schnitzler</rs> ansprach, gewissenhaft meinen Namen genannt.
                Selbstverständlich sogleich und sehr bußfertig. Sie hatte diese Selbstbescheidung
                lächelnd entgegengenommen und sich auch mit dieser zweiten Besetzung zufrieden
                gegeben. Anscheinend. Aber nun schickte sie dem Dichter diese Karte, die ihm sagen
                sollte: Ich bin ja doch nicht so dumm, wie Du meinst, und den Schwindel mit dem Herrn
-               Dr. L.&#8239;F. glaube ich Dir nicht, mein Lieber<c rendition="#dots" n="3"/></p>
+               Dr. L. F. glaube ich Dir nicht, mein Lieber<c rendition="#dots" n="3"/>
+            </p>
             <p>Was soll man machen, wenn die Leute so witzig sind? Oder vielmehr, nein: meine
-               Existenz scheint sich in einen Witz zu sublimieren. Denn wenn es wahr ist, wie es <rs
-                  type="person" ref="#10788">Raoul Auernheimer</rs> einmal so hübsch formulierte,
+               Existenz scheint sich in einen Witz zu sublimieren. Denn wenn es wahr ist, wie es <rs type="person" ref="#pmb10788">Raoul Auernheimer</rs> einmal so hübsch formulierte,
                daß <anchor type="commentary" xml:id="K_M175-1"/>der Witz eine Wahrheit ist, die man
-               gerade in diesem Augenblick nicht erwartete<note type="commentary" xml:id="K_M175-1h"
-                     ><bibl>vgl. <rs type="person" ref="#10788">Auernheimers</rs> Beitrag in: <rs
-                        type="work" ref="#63547">Aus dem Reich der Schminke und der Tinte.
-                        Aphorismen und Karikaturen</rs>. Zum Besten der Pensions-Anstalt des <rs
-                           type="org" ref="#36430">Deutschen Volkstheaters</rs> und für den <rs type="org"
-                              ref="#29205">österreichischen Bühnenverein</rs> herausgegeben von Dr. <rs
-                           type="person" ref="#11308">Richard Fellner</rs>, <rs type="person" ref="#18489">Hans Homma</rs>
-                        und <rs type="person" ref="#11848">Heinrich Kadelburg</rs>. <rs type="place"
-                           ref="#50">Wien</rs>: Selbstverlag <rs type="org" ref="#36430">Deutsches
-                        Volkstheater</rs><space unit="chars" quantity="1"/><date>1907</date>,
-                     S.&#8239;2</bibl>: »<quote>Was ist der Witz? Eine Wahrheit dort, wo man sie
-                     am wenigsten erwartet hätte. Nur wahrheitsliebende Menschen sind witzig.</quote>«</note> –&#8239;– du lieber Gott, ich fange an, eine höchst
+               gerade in diesem Augenblick nicht erwartete<note type="commentary" xml:id="K_M175-1h">
+                  <bibl>vgl. <rs type="person" ref="#pmb10788">Auernheimers</rs> Beitrag in: <rs type="work" ref="#pmb63547">Aus dem Reich der Schminke und der Tinte.
+                        Aphorismen und Karikaturen</rs>. Zum Besten der Pensions-Anstalt des <rs type="org" ref="#pmb36430">Deutschen Volkstheaters</rs> und für den <rs type="org" ref="#pmb29205">österreichischen Bühnenverein</rs> herausgegeben von Dr. <rs type="person" ref="#pmb11308">Richard Fellner</rs>, <rs type="person" ref="#pmb18489">Hans Homma</rs>
+                        und <rs type="person" ref="#pmb11848">Heinrich Kadelburg</rs>. <rs type="place" ref="#pmb50">Wien</rs>: Selbstverlag <rs type="org" ref="#pmb36430">Deutsches
+                        Volkstheater</rs>
+                     <space unit="chars" quantity="1"/>
+                     <date>1907</date>,
+                     S. 2</bibl>: »<quote>Was ist der Witz? Eine Wahrheit dort, wo man sie
+                     am wenigsten erwartet hätte. Nur wahrheitsliebende Menschen sind witzig.</quote>«</note> – – du lieber Gott, ich fange an, eine höchst
                unerwartete Wahrheit zu werden! Eine wirklich witzige Wahrheit. Denn ich bin
                unwahrscheinlich und wirklich zugleich.</p>
             <p>Die Sache beginnt sehr, sehr peinlich zu werden. Es gibt Situationen, in denen man
                den Kopf verlieren kann. Nach einer Premiere trat ich neulich mit einem befreundeten
-               Schauspieler aus dem Bühnentürl des <rs type="org" ref="#36430">Deutschen
+               Schauspieler aus dem Bühnentürl des <rs type="org" ref="#pmb36430">Deutschen
                   Volkstheaters</rs>. Dort wartete, wie das bei Premieren so üblich ist, ein
                stattliches Häuflein junger Enthusiasten. Als sie meiner ansichtig wurden, schrien
-               sie sofort unisono: »Hoch <rs type="person" ref="#2121">Schnitzler</rs>!« Das war mir
+               sie sofort unisono: »Hoch <rs type="person" ref="#pmb2121">Schnitzler</rs>!« Das war mir
                doch zuviel. Ovationen einer begeisterten Menge zu empfangen, das grenzt an Betrug.
-               Und in meiner Erregung brüllte ich ziemlich unbesonnen: »Ich bin ja nicht der <rs
-                  type="person" ref="#2121">Schnitzler</rs>, ihr Trottel!« Jetzt erwartete ich,
+               Und in meiner Erregung brüllte ich ziemlich unbesonnen: »Ich bin ja nicht der <rs type="person" ref="#pmb2121">Schnitzler</rs>, ihr Trottel!« Jetzt erwartete ich,
                gelyncht zu werden. Statt dessen sagte einer der Vordersten der offenbar über seine
                Jahre gebildet war, seelenruhig: »Dös macht aa nix. Hoch Föld!«</p>
             <p>Uebrigens der Unfug hat auch seine Vorteile. Oder vielmehr: er hätte sie. Denn bei
-               einer halbwegs merkantilen Veranlagung könnte ich ein glänzender <rs type="person"
-                  ref="#2121">Schnitzler</rs>-Schieber werden. Ich finde, daß ich mir ein zwar
-               arbeitsloses aber ganz korrektes Einkommen leichtsinnig entgehen lasse. <rs
-                  type="person" ref="#2121">Artur Schnitzler</rs> sollte mir eine sehr erhebliche
+               einer halbwegs merkantilen Veranlagung könnte ich ein glänzender <rs type="person" ref="#pmb2121">Schnitzler</rs>-Schieber werden. Ich finde, daß ich mir ein zwar
+               arbeitsloses aber ganz korrektes Einkommen leichtsinnig entgehen lasse. <rs type="person" ref="#pmb2121">Artur Schnitzler</rs> sollte mir eine sehr erhebliche
                Rente aussetzen; denn sein persönliches Ansehen, sein Ruf und seine Schätzung in der
                Stadt liegen in meinen Händen. Es ist gar nicht auszudenken, wie ich ihn
                kompromittieren könnte! Zum Beispiel – und auch viel harmloser. Denn wenn ich mir ein
-               Auto nehme, dann sagen die Leute: »Natürlich, der <rs type="person" ref="#2121"
-                  >Schnitzler</rs>! Bei den Auflagen seiner Bücher!« Und wenn ich meinen alten Hut
-               aussetze, dann versichern sie: »Die Stücke vom <rs type="person" ref="#2121"
-                  >Schnitzler</rs> ziehen offenbar auch nicht mehr. Wenn man so einen Hut trägt
+               Auto nehme, dann sagen die Leute: »Natürlich, der <rs type="person" ref="#pmb2121">Schnitzler</rs>! Bei den Auflagen seiner Bücher!« Und wenn ich meinen alten Hut
+               aussetze, dann versichern sie: »Die Stücke vom <rs type="person" ref="#pmb2121">Schnitzler</rs> ziehen offenbar auch nicht mehr. Wenn man so einen Hut trägt
                –!«</p>
             <p>Aber, wie gesagt, mir fehlt jede großzügige Begabung. Ich bleibe ein kleiner
-               Unternehmer in <rs type="person" ref="#2121">Schnitzler</rs>-Verwechslung und dieser
+               Unternehmer in <rs type="person" ref="#pmb2121">Schnitzler</rs>-Verwechslung und dieser
                mesquine Betrieb rentiert sich absolut nicht. Offen gestanden, ich zahle drauf dabei.
-               Ich trage schwer am Kopf <rs type="person" ref="#2121">Artur Schnitzler</rs>s. Es ist
-               eben kein Vergnügen, ein <rs type="person" ref="#2121">Artur Schnitzler</rs> im
+               Ich trage schwer am Kopf <rs type="person" ref="#pmb2121">Artur Schnitzler</rs>s. Es ist
+               eben kein Vergnügen, ein <rs type="person" ref="#pmb2121">Artur Schnitzler</rs> im
                übertragenen Wirkungskreis zu sein. Und ich kann mir denken, daß man auf diesem Wege
                ein verärgerter und gehässiger Mensch wird. Nur hat es mein Schicksal da doch gut mit
                mir gemeint. Vom Neid erlöst nur eins: die Liebe. Und mit einem verehrten und lieben
@@ -203,11 +195,538 @@
          </div>
          <div type="biographical">
             <div1>
-               <ref target="1924-04-20" type="schnitzlerDiary"/>
-               <quote>Im n.&#160;W.&#160;J. ein sehr netter Artikel von <rs type="person"
-                     ref="#18308">Leo Feld</rs> über die ewigen Verwechslungen zwischen ihm und
-                  mir.</quote></div1>
+               <ref target="1924-04-20" type="schnitzler-tagebuch"/>
+               <quote>Im n. W. J. ein sehr netter Artikel von <rs type="person" ref="#pmb18308">Leo Feld</rs> über die ewigen Verwechslungen zwischen ihm und
+                  mir.</quote>
+            </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb18308">
+               <persName>
+                  <forename>Leo</forename>
+                  <surname>Feld</surname>
+               </persName>
+               <persName type="person_pseudonym">Leo Feld</persName>
+               <persName type="person_geburtsname_nachname">Hirschfeld</persName>
+               <persName type="legacy-name-merge">Feld, Leo</persName>
+               <birth>
+                  <date when="1869-02-14">14.02.1869</date>
+                  <settlement ref="pmb868">
+                     <placeName type="pref">Augsburg</placeName>
+                     <location>
+                        <geo>48,37154 10,89851</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1924-09-05">05.09.1924</date>
+                  <settlement ref="pmb263">
+                     <placeName type="pref">Florenz</placeName>
+                     <location>
+                        <geo>43,77925 11,24626</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb116">Übersetzer/Übersetzerin</occupation>
+               <occupation ref="pmb131">Dirigent/Dirigentin</occupation>
+               <occupation ref="pmb1535">Librettist/Librettistin</occupation>
+               <occupation ref="pmb2134">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14923</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb18308.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/18308/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb18308</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/96974/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116495545</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00281e64</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp48742</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q89341</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Leo_Feld</idno>
+               <idno type="URL" subtype="dx">https://dx.doi.org/10.1553/0x0001d17c</idno>
+            </person>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb21056">
+               <persName>
+                  <forename>August</forename>
+                  <surname>Markowsky</surname>
+               </persName>
+               <birth>
+                  <date when="1880-08-08">08.08.1880</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1939-09-29">29.09.1939</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb104">Regisseur/Regisseurin</occupation>
+               <occupation ref="pmb107">Sänger/Sängerin</occupation>
+               <occupation ref="pmb715">Theaterdirektor/Theaterdirektorin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17913</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/21056/</idno>
+            </person>
+            <person xml:id="pmb63164">
+               <persName>
+                  <forename>Antonio</forename>
+                  <surname>Manetti</surname>
+               </persName>
+               <birth>
+                  <date when="1423-07-06">1423-07-06</date>
+                  <settlement ref="pmb263">
+                     <placeName type="pref">Florenz</placeName>
+                     <location>
+                        <geo>43,77925 11,24626</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1497-05-26">1497-05-26</date>
+                  <settlement ref="pmb263">
+                     <placeName type="pref">Florenz</placeName>
+                     <location>
+                        <geo>43,77925 11,24626</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb185">Architekt/Architektin</occupation>
+               <occupation ref="pmb293">Mathematiker/Mathematikerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63164/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/119062879</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q3619807</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Antonio_Manetti_(Architekt)</idno>
+            </person>
+            <person xml:id="pmb10788">
+               <persName>
+                  <forename>Raoul</forename>
+                  <surname>Auernheimer</surname>
+               </persName>
+               <birth>
+                  <date when="1876-04-15">15.04.1876</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1948-01-06">06.01.1948</date>
+                  <settlement ref="pmb47770">
+                     <placeName type="pref">Oakland</placeName>
+                     <location>
+                        <geo>37,80437 -122,2708</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13305</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505033</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10788.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10788/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10788</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10788.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb10788</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp52017</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00280eba</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q85479</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Raoul_Auernheimer</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb10788.html</idno>
+            </person>
+            <person xml:id="pmb11308">
+               <persName>
+                  <forename>Richard</forename>
+                  <surname>Fellner</surname>
+               </persName>
+               <birth>
+                  <date when="1861-01-13">13.01.1861</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1910-07-17">17.07.1910</date>
+                  <settlement ref="pmb45244">
+                     <placeName type="pref">Bad Gleichenberg</placeName>
+                     <location>
+                        <geo>46,87556 15,90861</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+               <occupation ref="pmb104">Regisseur/Regisseurin</occupation>
+               <occupation ref="pmb115">Dramaturg/Dramaturgin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14939</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116460407</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11308.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11308/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43185</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q55674495</idno>
+            </person>
+            <person xml:id="pmb18489">
+               <persName>
+                  <forename>Hans</forename>
+                  <surname>Homma</surname>
+               </persName>
+               <birth>
+                  <date when="1874-04-22">22.04.1874</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1943-05-08">08.05.1943</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16342</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/18489/</idno>
+            </person>
+            <person xml:id="pmb11848">
+               <persName>
+                  <forename>Heinrich</forename>
+                  <surname>Kadelburg</surname>
+               </persName>
+               <birth>
+                  <date when="1856-02-14">14.02.1856</date>
+                  <settlement ref="pmb43471">
+                     <placeName type="pref">Budapest</placeName>
+                     <location>
+                        <geo>47,49835 19,04045</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1910-07-13">13.07.1910</date>
+                  <settlement ref="pmb772">
+                     <placeName type="pref">Marienbad</placeName>
+                     <location>
+                        <geo>49,96115 12,72872</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb104">Regisseur/Regisseurin</occupation>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16621</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116012242</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11848.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11848/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11848</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x002820be</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q18625374</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Heinrich_Kadelburg</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb29917">
+               <title>Liebelei. Schauspiel in drei Akten</title>
+               <title type="werk_link">https://www.deutschestextarchiv.de/book/show/schnitzler_liebelei_1896</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date>1895-10-09</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.27</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1823758</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-liebelei</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/31062</idno>
+               <idno type="URL" subtype="deutschestextarchiv">http://www.deutschestextarchiv.de/book/show/schnitzler_liebelei_1896</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29917.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29917/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29917</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29917.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Liebelei</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb63168">
+               <title>Novelle vom dicken Zimmermann</title>
+               <title type="namensvariante">Novella del Grasso Legnajulo</title>
+               <author ref="pmb63164" role="hat-geschaffen">Manetti, Antonio</author>
+               <date when="1599-01-01">15. Jhdt.</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63168/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q3879046</idno>
+               <note type="work_kind">Novelle</note>
+            </bibl>
+            <bibl xml:id="pmb63547">
+               <title>Aus dem Reich der Schminke und der Tinte. Aphorismen und Karikaturen</title>
+               <author ref="pmb11308" role="hat-herausgegeben">Fellner, Richard</author>
+               <author ref="pmb2121" role="hat-einen-beitrag-geschaffen-zu">Schnitzler, Arthur</author>
+               <author ref="pmb10815" role="hat-einen-beitrag-geschaffen-zu">Bahr, Hermann</author>
+               <author ref="pmb10788" role="hat-einen-beitrag-geschaffen-zu">Auernheimer, Raoul</author>
+               <author ref="pmb18489" role="hat-herausgegeben">Homma, Hans</author>
+               <author ref="pmb11848" role="hat-herausgegeben">Kadelburg, Heinrich</author>
+               <author ref="pmb9706" role="hat-einen-beitrag-geschaffen-zu">Schlenther, Paula</author>
+               <author ref="pmb9706" role="hat-einen-beitrag-geschaffen-zu">Schlenther, Paula</author>
+               <author ref="pmb12671" role="hat-einen-beitrag-geschaffen-zu">Schlenther, Paul</author>
+               <author ref="pmb12671" role="hat-einen-beitrag-geschaffen-zu">Schlenther, Paul</author>
+               <author ref="pmb21733" role="hat-einen-beitrag-geschaffen-zu">Sommerstorff, Otto</author>
+               <date notBefore="1907-01-01" when="1907-07-02">1907</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63547/</idno>
+               <note type="work_kind">Textsammlung</note>
+            </bibl>
+            <bibl xml:id="pmb63146">
+               <title>Komödie der Irrungen</title>
+               <author ref="pmb18308" role="hat-geschaffen">Feld, Leo</author>
+               <date when="1924-04-20">1924-04-20</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63146/</idno>
+               <note type="work_kind">Glosse</note>
+            </bibl>
+            <bibl xml:id="pmb36376">
+               <title>Neues Wiener Journal</title>
+               <title type="werk_link-anno">http://anno.onb.ac.at/cgi-content/anno?aid=nwj</title>
+               <author ref="pmb36371" role="hat-einen-beitrag-geschaffen-zu">Papp, Desiderius</author>
+               <author ref="pmb10815" role="hat-einen-beitrag-geschaffen-zu">Bahr, Hermann</author>
+               <date to="1939-01-01">1893  – 1939</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36376/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36376</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb36376</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb44322">
+               <placeName>Schärding</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPLA2</desc>
+               <desc type="entity_type_id">1419</desc>
+               <location type="coords">
+                  <geo>48,45294 13,43722</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44322/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2766155/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb44322</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb44322.html</idno>
+            </place>
+            <place xml:id="pmb63153">
+               <placeName>Inn</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#H.STM</desc>
+               <desc type="entity_type_id">1577</desc>
+               <location type="coords">
+                  <geo>48,57161 13,4625</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb44322">Schärding</placeName>
+                  <geo>48,45294 13,43722</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb867">Innsbruck</placeName>
+                  <geo>47,28433 11,37706</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63153/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2775280/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb63153.html</idno>
+            </place>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb63157">
+               <orgName>Volksoper Wien</orgName>
+               <orgName type="alternative-name">Volksoper Vienna</orgName>
+               <orgName type="alternative-name">Staatliche Wiener Volksoper</orgName>
+               <orgName type="alternative-name">Wiener Volksoper</orgName>
+               <orgName type="alternative-name">Vienna Volksoper</orgName>
+               <orgName type="alternative-name">Volksoper (Wien)</orgName>
+               <desc type="entity_type">Oper</desc>
+               <desc type="entity_type_id">1479</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb59">IX., Alsergrund</placeName>
+                  <geo>48,22387 16,35641</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2782729/</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb59.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/59/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb59</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb59</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb618">Kaiserjubiläum-Stadttheater</placeName>
+                  <geo>48,224472 16,350361</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb618.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/618/</idno>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63157/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/1212284-1</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q113070627</idno>
+               <note type="apis_dates">
+                  <date from="1904-01-01" to="1929-07-02">1904  – 1929</date>
+               </note>
+            </org>
+            <org xml:id="pmb36430">
+               <orgName>Volkstheater</orgName>
+               <orgName type="namensvariante">Deutsches Volkstheater</orgName>
+               <desc type="entity_type">Theater</desc>
+               <desc type="entity_type_id">1012</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb20">Volkstheater</placeName>
+                  <geo>48,205142 16,3566</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb20.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb20</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb20</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92202/</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92202.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q688555</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Volkstheater_(Wien)</idno>
+               </location>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/146313-5</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36430/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36430</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb36430</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q113044679</idno>
+               <note type="apis_dates">
+                  <date notBefore="1889-01-01" when="1889-07-02">1889</date>
+               </note>
+            </org>
+            <org xml:id="pmb29205">
+               <orgName>Deutschösterreichischer Bühnenverein</orgName>
+               <orgName type="namensvariante">Verein deutscher Bühnenmitglieder Österreichs</orgName>
+               <orgName type="namensvariante">Österreichischer Bühnenverein</orgName>
+               <desc type="entity_type">Verein</desc>
+               <desc type="entity_type_id">974</desc>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29205.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29205/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63568/</idno>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

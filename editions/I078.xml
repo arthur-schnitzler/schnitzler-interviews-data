@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I078">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="I078">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#58268">Der neueste »Reigen«-Skandal,
-               17.&#8239;2.&#8239;1921</title>
+            <title level="a" ref="#pmb58268">Der neueste »Reigen«-Skandal,
+               17. 2. 1921</title>
             <author/>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -28,10 +30,10 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title level="a" ref="#58268">Der neueste »Reigen«-Skandal</title>
+                     <title level="a" ref="#pmb58268">Der neueste »Reigen«-Skandal</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#36376">Neues Wiener Journal</title>
+                     <title level="j" ref="#pmb36376">Neues Wiener Journal</title>
                      <imprint>
                         <date when="1921-02-17" n="1">17. 2. 1921</date>
                      </imprint>
@@ -45,7 +47,7 @@
                      <title level="a">Große Skandale bei der »Reigen«-Aufführung</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#41321">Neues Wiener Tagblatt</title>
+                     <title level="j" ref="#pmb41321">Neues Wiener Tagblatt</title>
                      <imprint>
                         <date when="1921-02-17" n="1">17. 2. 1921</date>
                      </imprint>
@@ -68,58 +70,47 @@
          <change who="KH" when="2021-10-19">Durchsicht</change>
       </revisionDesc>
    </teiHeader>
-   <!-- https://anno.onb.ac.at/cgi-content/anno?aid=nwj&datum=19210217&seite=12&zoom=89 -->
    <text type="text">
       <body>
          <div type="original">
-            <head>Der neueste »<rs type="work" ref="#29855">Reigen</rs>«-Skandal.</head>
-            <head type="sub">Der gestrige Sturm auf die <rs type="place" ref="#633"
-                  >Kammerspiele</rs>. – Wo war die Polizei? – Dr. Schnitzler bei der Vorstellung. –
+            <head>Der neueste »<rs type="work" ref="#pmb29855">Reigen</rs>«-Skandal.</head>
+            <head type="sub">Der gestrige Sturm auf die <rs type="place" ref="#pmb633">Kammerspiele</rs>. – Wo war die Polizei? – Dr. Schnitzler bei der Vorstellung. –
                Ein endgültiges polizeiliches Verbot?</head>
-            <p>Die gestrigen Szenen vor den <rs type="place" ref="#633">Kammerspielen</rs> werden
+            <p>Die gestrigen Szenen vor den <rs type="place" ref="#pmb633">Kammerspielen</rs> werden
                vermutlich nicht ohne Folgen bleiben. Es ist nicht unwahrscheinlich, daß das
                Polizeipräsidium heute vormittag im eigenen Wirkungskreis, unbekümmert um die
                zwischen Wien-Land und Regierung schwebenden Differenzen, aus
-               sicherheitspolizeilichen Gründen die Fortsetzung der Aufführungen des »<rs
-                  type="work" ref="#29855">Reigen</rs>« in den <rs type="place" ref="#633"
-                  >Kammerspielen</rs> verbieten und der nun seit einer Woche dauernden Diskussion in
+               sicherheitspolizeilichen Gründen die Fortsetzung der Aufführungen des »<rs type="work" ref="#pmb29855">Reigen</rs>« in den <rs type="place" ref="#pmb633">Kammerspielen</rs> verbieten und der nun seit einer Woche dauernden Diskussion in
                der Oeffentlichkeit ein Ende zu machen versuchen wird. Es ist ebenso fraglos, daß,
-               wenn eine solche Verfügung der Polizei <anchor type="commentary" xml:id="K_I078-3"
-                  />erfließen<note type="commentary" xml:id="K_I078-3h">österreichische Amtssprache:
+               wenn eine solche Verfügung der Polizei <anchor type="commentary" xml:id="K_I078-3"/>erfließen<note type="commentary" xml:id="K_I078-3h">österreichische Amtssprache:
                   daraus hervorgehen</note> sollte, diese von jenen Stellen, die für die Freiheit
-               des Wortes und gegen den <anchor type="commentary" xml:id="K_I078-4"/>Mucker<note
-                  type="commentary" xml:id="K_I078-4h">abschätziger Ausdruck für einen bigotten
+               des Wortes und gegen den <anchor type="commentary" xml:id="K_I078-4"/>Mucker<note type="commentary" xml:id="K_I078-4h">abschätziger Ausdruck für einen bigotten
                   Frömmler</note>terror der Straße kämpfen, nicht widerspruchslos hingenommen werden
                wird. Der Gründe, die die Sozialdemokraten veranlassen könnten, die gestrigen
-               Demonstrationen als eine <hi rend="antiqua"><anchor type="commentary"
-                     xml:id="K_I078-9"/>vis major<note type="commentary" xml:id="K_I078-9h"
-                     >lateinisch: höhere Gewalt</note></hi> für die Polizei gelten zu lassen, gibt
+               Demonstrationen als eine <hi rend="antiqua">
+                  <anchor type="commentary" xml:id="K_I078-9"/>vis major<note type="commentary" xml:id="K_I078-9h">lateinisch: höhere Gewalt</note>
+               </hi> für die Polizei gelten zu lassen, gibt
                es genug: es ist schon heute ziemlich einwandfrei festgestellt, daß diese Skandale
                von langer Hand vorbereitet wurden, ohne daß sich die Polizei veranlaßt gesehen
                hätte, die nötigen Gegenmaßnahmen zu treffen.</p>
             <p>In gestrigen Versammlungen, die mit den Skandalmachern nichts gemein hatten, konnte
-               man schon in den ersten Nachmittagstunden hören, daß heute beim »<rs type="work"
-                  ref="#29855">Reigen</rs>« etwas los sein werde.</p>
+               man schon in den ersten Nachmittagstunden hören, daß heute beim »<rs type="work" ref="#pmb29855">Reigen</rs>« etwas los sein werde.</p>
             <p>Es ist <hi rend="spaced_out">unwahr</hi>, wenn ein offiziöser Bericht versichert, daß
                sich unmittelbar vor der Vorstellung vor dem Theater keinerlei Ansammlungen gebildet
-               hatten und daß der Einbruch von etwa 150 Menschen in den Theatersaal <hi
-                  rend="spaced_out">ganz plötzlich</hi> und unvermittelt kam. Es ist weiter wahr,
-               daß in einer nachmittags im alten Rathaus abgehaltenen Versammlung des <hi
-                  rend="spaced_out">Antisemitenbundes</hi> und der <hi rend="spaced_out"
-                  >Frontkämpfervereinigung</hi>, zu der die Polizei selbstverständlich Zutritt
+               hatten und daß der Einbruch von etwa 150 Menschen in den Theatersaal <hi rend="spaced_out">ganz plötzlich</hi> und unvermittelt kam. Es ist weiter wahr,
+               daß in einer nachmittags im alten Rathaus abgehaltenen Versammlung des <hi rend="spaced_out">Antisemitenbundes</hi> und der <hi rend="spaced_out">Frontkämpfervereinigung</hi>, zu der die Polizei selbstverständlich Zutritt
                hatte, <hi rend="spaced_out">ganz offen von einem festgelegten Plan, von seinen
-                  einzelnen Details gesprochen wurde</hi>, die Abendvorstellung des »<rs type="work"
-                  ref="#29855">
+                  einzelnen Details gesprochen wurde</hi>, die Abendvorstellung des »<rs type="work" ref="#pmb29855">
                   <hi rend="spaced_out">Reigen</hi>
                </rs>« zu stören, <hi rend="spaced_out">ohne Schonung gegen das Gebäude und das
-                  Theaterpublikum vorzugehen</hi> und auf diese Weise gewaltsam den Schluß der »<rs
-                  type="work" ref="#29855">Reigen</rs>«-Aufführungen zu erzwingen. Dr. Artur
+                  Theaterpublikum vorzugehen</hi> und auf diese Weise gewaltsam den Schluß der »<rs type="work" ref="#pmb29855">Reigen</rs>«-Aufführungen zu erzwingen. Dr. Artur
                Schnitzler, der gestern abend zum Beginn der Vorstellung ins Theater kam, wurde, als
-               er das Haus betrat, von einer <anchor type="commentary" xml:id="K_I078-11"/><rs
-                  type="person" subtype="implied" ref="#18348">Schauspielerin</rs><note
-                  type="commentary" xml:id="K_I078-11h"><rs ref="#18348" type="person">Nelly
-                     Hochwald</rs></note> mit der Bemerkung apostrophiert: »<hi rend="spaced_out"
-                  >Gerade heute kommen Sie ins Theater?</hi>« Dies in einem Augenblick, in dem von
+               er das Haus betrat, von einer <anchor type="commentary" xml:id="K_I078-11"/>
+               <rs type="person" subtype="implied" ref="#pmb18348">Schauspielerin</rs>
+               <note type="commentary" xml:id="K_I078-11h">
+                  <rs ref="#pmb18348" type="person">Nelly
+                     Hochwald</rs>
+               </note> mit der Bemerkung apostrophiert: »<hi rend="spaced_out">Gerade heute kommen Sie ins Theater?</hi>« Dies in einem Augenblick, in dem von
                einem Skandal im Theater noch keine Spur war. <hi rend="spaced_out">Und all das soll
                   die Polizei nicht gewußt haben</hi>, und all dies soll sie nicht veranlaßt haben,
                   <hi rend="spaced_out">mehr als die obligaten fünf Mann vor und im Theater postiert
@@ -130,48 +121,53 @@
                Vorwand für das Verbot zu haben, <hi rend="spaced_out">ist da von keiner Seite daran
                   gedacht worden, daß Leben und Sicherheit der im Theater anwesenden Besucher durch
                   Exzesse von derartiger Brutalität, auf das Ernsteste gefährdet waren.</hi> Und
-               glaubt die Polizei nicht, daß sie unbekümmert um ihre Auffassung über <hi
-                  rend="spaced_out">Moral und Unmoral des »</hi>
-               <rs type="work" ref="#29855">
+               glaubt die Polizei nicht, daß sie unbekümmert um ihre Auffassung über <hi rend="spaced_out">Moral und Unmoral des »</hi>
+               <rs type="work" ref="#pmb29855">
                   <hi rend="spaced_out">Reigen</hi>
                </rs>
-               <hi rend="spaced_out">« verpflichtet ist</hi>, alles zu <hi rend="spaced_out"
-                  >unternehmen</hi>, um in <hi rend="spaced_out">solchen Fällen Leben und Gesundheit
+               <hi rend="spaced_out">« verpflichtet ist</hi>, alles zu <hi rend="spaced_out">unternehmen</hi>, um in <hi rend="spaced_out">solchen Fällen Leben und Gesundheit
                   von Wiener Staatsbürgern zu schützen?</hi>
             </p>
             <p>Es wird also mit dem glatten Verbot der Polizei keineswegs sein Bewenden haben. Wir
                können es also erleben, daß der <hi rend="spaced_out">öffentliche Krawall</hi>, der
-               nun laut und lang genug angedauert hat, nun abgeflaut war, <hi rend="spaced_out"
-                  >ausgerechnet wegen des »</hi>
-               <rs type="work" ref="#29855">
+               nun laut und lang genug angedauert hat, nun abgeflaut war, <hi rend="spaced_out">ausgerechnet wegen des »</hi>
+               <rs type="work" ref="#pmb29855">
                   <hi rend="spaced_out">Reigen</hi>
                </rs>
                <hi rend="spaced_out">« neuerlich angeht</hi>. Daß übrigens aller Anlaß besteht,
                diesen Terror der Straße in diesem Fall nicht ohne weiters gelten zu lassen, kann man
                all denen nachfühlen, die sich dagegen zur Wehre setzen. Man braucht lediglich das
-                  <hi rend="spaced_out">Nationale</hi> jener anzusehen, die, natürlich »<hi
-                  rend="spaced_out">moralisch entrüstet</hi>«, in den Theatersaal eindrangen und
-               dann von der Polizei verhaftet wurden: Ein <anchor type="commentary" xml:id="K_I078-5"/><rs type="person" ref="#63472" subtype="implied"><hi rend="spaced_out"
-                  >Schuhmachergehilfe</hi></rs>, ein <rs type="person" ref="#63480" subtype="implied"><hi rend="spaced_out">Tapezierergehilfe</hi></rs>, ein
-               <hi rend="spaced_out">Kommis</hi>, ein <rs type="person" subtype="implied" ref="#63482"><hi rend="spaced_out"
-                  >Handelsakademiker</hi></rs> und ein <rs type="person" ref="#63484"><hi rend="spaced_out">Zahntechnikerlehrling</hi></rs><note type='commentary' xml:id="K_I078-5h"><ref type="pointer" target="#K_M114-4"/></note>.
+                  <hi rend="spaced_out">Nationale</hi> jener anzusehen, die, natürlich »<hi rend="spaced_out">moralisch entrüstet</hi>«, in den Theatersaal eindrangen und
+               dann von der Polizei verhaftet wurden: Ein <anchor type="commentary" xml:id="K_I078-5"/>
+               <rs type="person" ref="#pmb63472" subtype="implied">
+                  <hi rend="spaced_out">Schuhmachergehilfe</hi>
+               </rs>, ein <rs type="person" ref="#pmb63480" subtype="implied">
+                  <hi rend="spaced_out">Tapezierergehilfe</hi>
+               </rs>, ein
+               <hi rend="spaced_out">Kommis</hi>, ein <rs type="person" subtype="implied" ref="#pmb63482">
+                  <hi rend="spaced_out">Handelsakademiker</hi>
+               </rs> und ein <rs type="person" ref="#pmb63484">
+                  <hi rend="spaced_out">Zahntechnikerlehrling</hi>
+               </rs>
+               <note type="commentary" xml:id="K_I078-5h">
+                  <ref type="pointer" target="#K_M114-4"/>
+               </note>.
                Diese also schöpften aus ihrer literarischen Bildung, aus ihrer moralischen
-               Weltanschauung Mut und Kraft, sich an die Spitze einer Demonstration zu stellen, <hi
-                  rend="spaced_out">die nicht mehr und nicht weniger zum Ziel hat, als ein Theater
+               Weltanschauung Mut und Kraft, sich an die Spitze einer Demonstration zu stellen, <hi rend="spaced_out">die nicht mehr und nicht weniger zum Ziel hat, als ein Theater
                   klein und krumm zu hauen, unbekümmert um das, was dabei mit den Leuten drin
                   geschieht</hi>. Die Demonstranten, die plötzlich da waren und durch die offenen
                Türen ins Theater stürmten, entblödeten sich nicht, <hi rend="spaced_out">die
                   schweren Sessel aus den Logen und von den Galerien auf das in wilder Panik
-                  flüchtende Publikum zu werfen</hi> und dadurch selbstverständlich eine <hi
-                  rend="spaced_out">Anzahl von Leuten zu verletzen</hi>. Sie unterließen es nicht,
+                  flüchtende Publikum zu werfen</hi> und dadurch selbstverständlich eine <hi rend="spaced_out">Anzahl von Leuten zu verletzen</hi>. Sie unterließen es nicht,
                sich vor die Eingangs- und Ausgangstür zu stellen, um zu verhindern, daß die
-               davonlaufenden Leute das Freie erreichen. Sie leisteten sich den Spaß, <hi
-                  rend="spaced_out">den Besuchern, die in wilder Flucht davonliefen, »das Bein« zu
+               davonlaufenden Leute das Freie erreichen. Sie leisteten sich den Spaß, <hi rend="spaced_out">den Besuchern, die in wilder Flucht davonliefen, »das Bein« zu
                   stellen und gröhlend und lachend sich an dem Bilde zu erfreuen, das die auf dem
                   Boden </hi>
                <anchor type="textConst" xml:id="T_I078-1"/>
                <hi rend="spaced_out">liegenden</hi>
-               <note type="textConst" xml:id="T_I078-1h"><quote>liegende</quote></note>
+               <note type="textConst" xml:id="T_I078-1h">
+                  <quote>liegende</quote>
+               </note>
                <hi rend="spaced_out"> über- und aufeinanderpurzelnden Menschen ihnen boten.</hi>
             </p>
             <p>Diese Kultur, diese Moral ist wenig geeignet, als Sittenrichter oder als
@@ -180,54 +176,46 @@
                besondere Beratungen pflegt, entschließen wird. Ob sie es vorziehen wird, mit
                geringen Mitteln – sie brauchte bloß ihren Wachekordon um zehn Mann zu stärken, also
                ungefähr den fünften Teil der Mannschaft bei irgendeiner überflüssigen Razzia
-               aufzubieten – um derartige Skandale unmöglich zu machen oder aber, ob sie das <hi
-                  rend="spaced_out">billigere und sicherlich gewissen Kreisen erwünschtere Mittel
+               aufzubieten – um derartige Skandale unmöglich zu machen oder aber, ob sie das <hi rend="spaced_out">billigere und sicherlich gewissen Kreisen erwünschtere Mittel
                   wählen wird, die Vorstellungen zu verbieten.</hi>
             </p>
             <head type="sub">
                <anchor type="commentary" xml:id="K_I078-1"/>Artur Schnitzler über die
                   Demonstrationen<note type="commentary" xml:id="K_I078-1h">Dieser Teil des Textes
-                  ist wortident im <rs type="work" ref="#36376">Neuen Wiener Journal</rs> und im <rs
-                     type="work" ref="#41321">Neuen Wiener Tagblatt</rs> erschienen, was als Hinweis
-                  genommen werden kann, dass es über die Nachrichtenagentur <rs type="org"
-                     ref="#29453">Correspondenz Willhelm</rs> verbreitet worden war.</note>.</head>
+                  ist wortident im <rs type="work" ref="#pmb36376">Neuen Wiener Journal</rs> und im <rs type="work" ref="#pmb41321">Neuen Wiener Tagblatt</rs> erschienen, was als Hinweis
+                  genommen werden kann, dass es über die Nachrichtenagentur <rs type="org" ref="#pmb29453">Correspondenz Willhelm</rs> verbreitet worden war.</note>.</head>
             <p>Dr. <hi rend="spaced_out">Schnitzler</hi>, der gestern im Theater anwesend war,
                äußerte sich <ref type="question" target="#q037"/>zu einem Journalisten über den
                Skandal folgendermaßen:</p>
-            <p>»Ich kam während des fünften Bildes zufällig in das Theater, um mit Direktor <rs
-                  type="person" ref="#4040">
+            <p>»Ich kam während des fünften Bildes zufällig in das Theater, um mit Direktor <rs type="person" ref="#pmb4040">
                   <hi rend="spaced_out">Bernau</hi>
                </rs> einige Einzelheiten zu besprechen. Schon beim Betreten der Bühne rief mir eine
-               <rs type="person" ref="#18348" subtype="implied">Schauspielerin</rs> zu: »Gerade heute kommen Sie?«
+               <rs type="person" ref="#pmb18348" subtype="implied">Schauspielerin</rs> zu: »Gerade heute kommen Sie?«
                Ich fragte erstaunt, ob heute ein so besonderer Tag sei, und in diesem Augenblicke
                hörte ich schon von der Bühne her und auch von der Straße <hi rend="spaced_out">ein
                   wüstes Getöse</hi>. Die Zuschauer flüchteten auf die Bühne und suchten von dort
                schreckensbleich einen Ausgang zu erreichen. Inzwischen waren von den Bühnenarbeitern
                schon die Hydranten in Tätigkeit gesetzt worden, um die eindringenden Demonstranten
                von der Bühne zu verdrängen. Die Garderoben der Schauspielerinnen waren völlig unter
-               Wasser, ebenso wie die Bühne. Das Publikum und die Demonstranten <hi
-                  rend="spaced_out">hämmerten gegen den eisernen Vorhang</hi>, um auf die Bühne zu
+               Wasser, ebenso wie die Bühne. Das Publikum und die Demonstranten <hi rend="spaced_out">hämmerten gegen den eisernen Vorhang</hi>, um auf die Bühne zu
                gelangen, dieser hielt aber stand.</p>
             <p>Weder den Schauspielern noch mir ist irgend etwas geschehen, aber ich kann kaum
                genügend scharfe Worte finden, um das Vorgehen der Eindringlinge zu geißeln. Meine
                Empörung ist wohl um so berechtigter, als die Demonstranten ohne Rücksicht auf die
                unten weilenden Personen <hi rend="spaced_out">die schweren Logenbänke von der
                   Galerie in das Parterre stürzten</hi>: jede einzelne dieser Bänke hätte genügt,
-               einen Menschen zu <anchor type="textConst" xml:id="T_I078-12"/>erschlagen.«<note
-                  type="textConst" xml:id="T_I078-12h"><quote>erschlagen.</quote></note>
+               einen Menschen zu <anchor type="textConst" xml:id="T_I078-12"/>erschlagen.«<note type="textConst" xml:id="T_I078-12h">
+                  <quote>erschlagen.</quote>
+               </note>
             </p>
             <head type="sub">Die gefährdete Garderobe.</head>
             <head type="sub">Worauf es die Moralhelden abgesehen hatten.</head>
-            <p>Von einem Augenzeugen der Skandale in den <rs type="place" ref="#633"
-                  >Kammerspielen</rs> wird uns noch folgendes mitgeteilt:</p>
-            <p>Es besteht kein Zweifel, daß der Großteil der Demonstranten bei den gestrigen »<rs
-                  type="work" ref="#29855">Reigen</rs>-«Aufführungen weniger von der Absicht
-               geleitet war, ihrer Erbitterung über die »Unmoral« Ausdruck zu geben, <hi
-                  rend="spaced_out">als von dem Verlangen</hi>, diese willkommene Gelegenheit zu
+            <p>Von einem Augenzeugen der Skandale in den <rs type="place" ref="#pmb633">Kammerspielen</rs> wird uns noch folgendes mitgeteilt:</p>
+            <p>Es besteht kein Zweifel, daß der Großteil der Demonstranten bei den gestrigen »<rs type="work" ref="#pmb29855">Reigen</rs>-«Aufführungen weniger von der Absicht
+               geleitet war, ihrer Erbitterung über die »Unmoral« Ausdruck zu geben, <hi rend="spaced_out">als von dem Verlangen</hi>, diese willkommene Gelegenheit zu
                benutzen, um die Garderoben im Rummel zu plündern. Nur der Geistesgegenwart eines im
                Theater anwesenden <hi rend="spaced_out">Oberleutnants der Wehrmacht</hi>, der die
-               Situation sofort erkannt und mit Hilfe von Billeteuren und Garderobehelfern <hi
-                  rend="spaced_out">diese dem Zugriff der Demonstranten sperrte</hi>, ist es zu
+               Situation sofort erkannt und mit Hilfe von Billeteuren und Garderobehelfern <hi rend="spaced_out">diese dem Zugriff der Demonstranten sperrte</hi>, ist es zu
                danken, daß den Besuchern der Vorstellung nicht auch die Ueberkleider abgenommen
                wurden. <hi rend="spaced_out">Verstreute Schmuckstücke</hi>, die nach der Räumung des
                Theatersaales, vor allem im Parkett, gefunden wurden, sprechen dafür, daß sich viele
@@ -235,5 +223,201 @@
                den Schmuck vom Leibe zu reißen.</p>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb18348">
+               <persName>
+                  <forename>Nelly</forename>
+                  <surname>Hochwald</surname>
+               </persName>
+               <birth>
+                  <date when="1892-01-23">23.01.1892</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1974-10-15">15.10.1974</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16246</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/18348/</idno>
+            </person>
+            <person xml:id="pmb63472">
+               <persName>
+                  <surname>?? [Schuhmachergehilfe, verhaftet bei Reigen-Vorstellung, 16.2.1921]</surname>
+               </persName>
+               <sex value="male"/>
+               <occupation ref="pmb1878">Hilfsarbeiter/Hilfsarbeiterin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63472/</idno>
+            </person>
+            <person xml:id="pmb63480">
+               <persName>
+                  <surname>?? [Tapezierergehilfe, verhaftet bei Reigen-Vorstellung 1921]</surname>
+               </persName>
+               <sex value="male"/>
+               <occupation ref="pmb1878">Hilfsarbeiter/Hilfsarbeiterin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63480/</idno>
+            </person>
+            <person xml:id="pmb63482">
+               <persName>
+                  <surname>?? [Kommis, verhaftet bei Reigen-Vorstellung, 16.2.1921]</surname>
+               </persName>
+               <sex value="male"/>
+               <occupation ref="pmb610">Angestellter/Angestellte &gt;&gt; Handelsangestellter/Handelsangestellte</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63482/</idno>
+            </person>
+            <person xml:id="pmb63484">
+               <persName>
+                  <surname>?? [Zahntechnikerlehrling, verhaftet bei Reigen-Vorstellung, 16.2.1921]</surname>
+               </persName>
+               <sex value="male"/>
+               <occupation ref="pmb1879">Lehrling/Lehrling</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63484/</idno>
+            </person>
+            <person xml:id="pmb4040">
+               <persName>
+                  <forename>Alfred</forename>
+                  <surname>Bernau</surname>
+               </persName>
+               <birth>
+                  <date when="1879-03-06">06.03.1879</date>
+                  <settlement ref="pmb58755">
+                     <placeName type="pref">Engers</placeName>
+                     <location>
+                        <geo>50,43106 7,54415</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1950-08-20">20.08.1950</date>
+                  <settlement ref="pmb61000">
+                     <placeName type="pref">Sankt Wolfgang im Salzkammergut</placeName>
+                     <location>
+                        <geo>47,73932 13,44666</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116137118</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13663</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb4040.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4040/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb4040</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb4040</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp39116</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2644704</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Alfred_Bernau</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb29855">
+               <title>Reigen. Zehn Dialoge</title>
+               <title type="werk_link">https://www.digital.wienbibliothek.at/wbrobv/content/pageview/2587756</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1900-01-01">1900</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.32</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1414190</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-reigen</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/33309</idno>
+               <idno type="URL" subtype="deutschestextarchiv">http://www.deutschestextarchiv.de/book/show/schnitzler_reigen_1903</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29855.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29855/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29855</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29855.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb36376">
+               <title>Neues Wiener Journal</title>
+               <title type="werk_link-anno">http://anno.onb.ac.at/cgi-content/anno?aid=nwj</title>
+               <author ref="pmb36371" role="hat-einen-beitrag-geschaffen-zu">Papp, Desiderius</author>
+               <author ref="pmb10815" role="hat-einen-beitrag-geschaffen-zu">Bahr, Hermann</author>
+               <date to="1939-01-01">1893  – 1939</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36376/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36376</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb36376</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+            <bibl xml:id="pmb41321">
+               <title>Neues Wiener Tagblatt</title>
+               <title type="werk_link">http://anno.onb.ac.at/cgi-content/anno?aid=nwg</title>
+               <title type="namensvariante">Neues Wiener Abendblatt</title>
+               <date to="1945-01-01">1867  – 1945</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41321/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41321</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb41321</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1654066</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Neues_Wiener_Tagblatt</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+            <bibl xml:id="pmb58268">
+               <title>Der neueste »Reigen«-Skandal</title>
+               <date when="1921-02-17">1921-02-17</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58268/</idno>
+               <note type="work_kind">Zeitungsbericht</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb633">
+               <placeName>Kammerspiele Wien</placeName>
+               <placeName type="namensvariante">Residenzbühne</placeName>
+               <desc type="entity_type">Theater (K.THE)</desc>
+               <desc type="entity_type_id">4</desc>
+               <location type="coords">
+                  <geo>48,211111 16,375833</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb633.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/633/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb633</idno>
+               <note type="apis_dates">
+                  <date notBefore="1910-01-01" when="1910-07-02">1910</date>
+               </note>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb29453">
+               <orgName>Korrespondenz Wilhelm</orgName>
+               <desc type="entity_type">Feuilletonkorrespondenz</desc>
+               <desc type="entity_type_id">1019</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29453/</idno>
+               <note type="apis_dates">
+                  <date when="1865-11-01">1865-11-01</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

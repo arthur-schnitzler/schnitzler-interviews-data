@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="P059">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="P059">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#33183">Ein gefälschter Brief Artur Schnitzlers,
-               16.&#8239;11.&#8239;1926</title>
-            <author ref="#2121">Schnitzler, Arthur</author>
+            <title level="a" ref="#pmb33183">Ein gefälschter Brief Artur Schnitzlers,
+               16. 11. 1926</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -28,14 +30,14 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#2121">Schnitzler, Arthur</author>
-                     <title level="a" ref="#33183">Ein gefälschter Brief Artur Schnitzlers. Die
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <title level="a" ref="#pmb33183">Ein gefälschter Brief Artur Schnitzlers. Die
                         abgelehnte Einladung nach Budapest</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#36376">Neues Wiener Journal</title>
+                     <title level="j" ref="#pmb36376">Neues Wiener Journal</title>
                      <imprint>
-                        <date when="1926-11-16" n="1">16.&#8239;11.&#8239;1926</date>
+                        <date when="1926-11-16" n="1">16. 11. 1926</date>
                      </imprint>
                      <biblScope unit="jg">34</biblScope>
                      <biblScope unit="nr">11.848</biblScope>
@@ -44,13 +46,13 @@
                </biblStruct>
                <biblStruct>
                   <analytic>
-                     <author ref="#2121">Schnitzler, Arthur</author>
-                     <title level="a" ref="#33183">Ein apokrypher Brief Arthur Schnitzlers</title>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <title level="a" ref="#pmb33183">Ein apokrypher Brief Arthur Schnitzlers</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#36374">Neue Freie Presse</title>
+                     <title level="j" ref="#pmb36374">Neue Freie Presse</title>
                      <imprint>
-                        <date when="1926-11-16" n="1">16.&#8239;11.&#8239;1926</date>
+                        <date when="1926-11-16" n="1">16. 11. 1926</date>
                      </imprint>
                      <biblScope unit="nr">22.332, Morgenblatt</biblScope>
                      <biblScope unit="pp">6</biblScope>
@@ -70,127 +72,568 @@
          <change who="KH" when="2021-10-27">Durchsicht</change>
       </revisionDesc>
    </teiHeader>
-   <!-- http://anno.onb.ac.at/cgi-content/anno?aid=nwj&datum=19261116&seite=4 -->
    <text type="text">
       <body>
          <div type="original">
             <head>Ein gefälschter Brief Artur Schnitzlers.</head>
-            <head type="sub">Die abgelehnte Einladung nach <rs type="place" ref="#43471"
-                  >Budapest</rs>.</head>
-            <head type="sub">Originalbericht des <rs type="org" ref="#29320">Neuen Wiener
+            <head type="sub">Die abgelehnte Einladung nach <rs type="place" ref="#pmb43471">Budapest</rs>.</head>
+            <head type="sub">Originalbericht des <rs type="org" ref="#pmb29320">Neuen Wiener
                   Journals</rs>
             </head>
-            <p>Artur Schnitzler ersucht uns um Aufnahme folgender <anchor type="commentary"
-                  xml:id="K_I059-1"/>Zeilen<note type="commentary" xml:id="K_I059-1h">Der
-                  Durchschlag des getippten Briefes im Nachlass <rs type="person" ref="#2121"
-                     >Schnitzler</rs>s weicht inhaltlich nur geringfügig von der gedruckten Fassung
+            <p>Artur Schnitzler ersucht uns um Aufnahme folgender <anchor type="commentary" xml:id="K_I059-1"/>Zeilen<note type="commentary" xml:id="K_I059-1h">Der
+                  Durchschlag des getippten Briefes im Nachlass <rs type="person" ref="#pmb2121">Schnitzler</rs>s weicht inhaltlich nur geringfügig von der gedruckten Fassung
                   ab, enthält aber einen zusätzlichen letzten Absatz: »<quote>Die Redaktionen, die
                      jener Mystifikation Raum gegeben haben, werden höflichst ersucht auch dieser
                      meiner Berichtigung Aufnahme zu gewähren.</quote>«</note>:</p>
-            <p>»Man sendet mir eine Anzahl ziemlich gleichlautender <anchor type="commentary"
-                  xml:id="KT145-3"/>Zeitungsnotizen<note type="commentary" xml:id="KT145-3h">Pars
-                  pro toto kann die Meldung in <rs type="org" ref="#29466">Die Stunde</rs> vom
-                     <date>10.&#8239;11.&#8239;1926</date> genommen werden: »<quote>
-                     <rs type="person" ref="#2121">Arthur Schnitzler</rs>s Absage an <rs
-                        type="place" ref="#43471">Budapest</rs> / Aus <rs type="place" ref="#43471">
+            <p>»Man sendet mir eine Anzahl ziemlich gleichlautender <anchor type="commentary" xml:id="KT145-3"/>Zeitungsnotizen<note type="commentary" xml:id="KT145-3h">Pars
+                  pro toto kann die Meldung in <rs type="org" ref="#pmb29466">Die Stunde</rs> vom
+                     <date>10. 11. 1926</date> genommen werden: »<quote>
+                     <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>s Absage an <rs type="place" ref="#pmb43471">Budapest</rs> / Aus <rs type="place" ref="#pmb43471">
                         <hi rend="spaced_out">Budapest</hi>
-                     </rs> wird uns gemeldet: / Ein hiesiges Konzertbureau richtete an <rs
-                        type="person" ref="#2121">Arthur <hi rend="spaced_out">Schnitzler</hi>
-                     </rs> die höfliche Aufforderung, im Laufe des Monates November nach <rs
-                        type="place" ref="#43471">Budapest</rs> zu kommen und in der <rs
-                        type="place" ref="#1067">Musikakademie</rs> einen Vortrag zu halten. Darauf
-                     erhielt das Konzertbureau von <rs type="person" ref="#2121">Arthur
+                     </rs> wird uns gemeldet: / Ein hiesiges Konzertbureau richtete an <rs type="person" ref="#pmb2121">Arthur <hi rend="spaced_out">Schnitzler</hi>
+                     </rs> die höfliche Aufforderung, im Laufe des Monates November nach <rs type="place" ref="#pmb43471">Budapest</rs> zu kommen und in der <rs type="place" ref="#pmb1067">Musikakademie</rs> einen Vortrag zu halten. Darauf
+                     erhielt das Konzertbureau von <rs type="person" ref="#pmb2121">Arthur
                         Schnitzler</rs> folgende Antwort: ›Sehr geehrter Herr! Ich erlaube mir
-                     höflich mitzuteilen, daß ich in <rs type="place" ref="#43471">Budapest</rs>
+                     höflich mitzuteilen, daß ich in <rs type="place" ref="#pmb43471">Budapest</rs>
                      prinzipiell keinen Vortrag halte, umso weniger, als mir der vorjährige Fall
-                     noch lebhaft in Erinnerung ist. Man hat mich in <rs type="place" ref="#43471"
-                        >Budapest</rs> ganz einfach als einen pornographischen Schriftsteller
-                     hingestellt, es kann daher keine Rede davon sein, daß ich in <rs type="place"
-                        ref="#43471">Budapest</rs> einen Vortrag halte. Hochachtungsvoll <rs
-                        type="person" ref="#2121">Arthur Schnitzler</rs>.« / (Wie erinnerlich wurde
-                        <rs type="person" ref="#2121">Schnitzler</rs>s ›<rs type="work" ref="#29855"
-                        >Reigen</rs>‹, dessen Aufführung im vorigen Jahr im <rs type="place"
-                        ref="#1066">Innerstädter Theater</rs> angesetzt war, von der Polizei
-                     verboten.)</quote>« (<bibl>Jg.&#8239;4, Nr.&#160;1.103, S.&#8239;7</bibl>.) Den Ursprung
-                  dürfte die Falschmeldung in <rs type="work" ref="#58240">Pesti Napló</rs> genommen
+                     noch lebhaft in Erinnerung ist. Man hat mich in <rs type="place" ref="#pmb43471">Budapest</rs> ganz einfach als einen pornographischen Schriftsteller
+                     hingestellt, es kann daher keine Rede davon sein, daß ich in <rs type="place" ref="#pmb43471">Budapest</rs> einen Vortrag halte. Hochachtungsvoll <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>.« / (Wie erinnerlich wurde
+                        <rs type="person" ref="#pmb2121">Schnitzler</rs>s ›<rs type="work" ref="#pmb29855">Reigen</rs>‹, dessen Aufführung im vorigen Jahr im <rs type="place" ref="#pmb1066">Innerstädter Theater</rs> angesetzt war, von der Polizei
+                     verboten.)</quote>« (<bibl>Jg. 4, Nr. 1.103, S. 7</bibl>.) Den Ursprung
+                  dürfte die Falschmeldung in <rs type="work" ref="#pmb58240">Pesti Napló</rs> genommen
                   haben (<bibl>
-                     <rs type="work" ref="#58243">»Nem vagyok kíváncsi Budapestre« – írja Arthur
-                        Schnitzler</rs>, Nr.&#160;254, <date>9.&#8239;11.&#8239;1926</date>,
-                     S.&#8239;4</bibl>).</note> ein, in denen ein Brief mit meiner Unterschrift, den
+                     <rs type="work" ref="#pmb58243">»Nem vagyok kíváncsi Budapestre« – írja Arthur
+                        Schnitzler</rs>, Nr. 254, <date>9. 11. 1926</date>,
+                     S. 4</bibl>).</note> ein, in denen ein Brief mit meiner Unterschrift, den
                ich niemals geschrieben habe, vollinhaltlich – und da und dort sogar ›wörtlich‹ –
                zitiert wird. In diesem angeblich von mir geschriebenen Briefe motiviere ich die
-               Ablehnung einer Vorlesung in <rs type="place" ref="#43471">Budapest</rs> damit, daß
+               Ablehnung einer Vorlesung in <rs type="place" ref="#pmb43471">Budapest</rs> damit, daß
                man mich dort als ›pornographischen Schriftsteller hingestellt habe‹. In Wahrheit
                verhält es sich so, daß die letzte an mich ergangene Einladung zu einer Vorlesung in
-                  <rs type="place" ref="#43471">Budapest</rs> wenige Tage vor der beabsichtigten
-               Aufführung des ›<rs type="work" ref="#29855">Reigen</rs>‹ (es wird wohl ein Jahr
-               seither her sein) mündlich <anchor type="commentary" xml:id="KT145-1"/>erfolgte<note
-                  type="commentary" xml:id="KT145-1h">
-                  <ref target="1926-03-16" type="schnitzlerDiary" subtype="cf"/>: »<quote>
-                     <p>Ein Herr <rs type="person" ref="#12107">Lorant</rs> (<rs type="place"
-                           ref="#43471">Budapest</rs>) sowie <rs type="person" ref="#16236"
-                           >Finkelstein</rs> (<rs type="place" ref="#644">Galizien</rs>) wollen mich
+                  <rs type="place" ref="#pmb43471">Budapest</rs> wenige Tage vor der beabsichtigten
+               Aufführung des ›<rs type="work" ref="#pmb29855">Reigen</rs>‹ (es wird wohl ein Jahr
+               seither her sein) mündlich <anchor type="commentary" xml:id="KT145-1"/>erfolgte<note type="commentary" xml:id="KT145-1h">
+                  <ref target="1926-03-16" type="schnitzler-tagebuch" subtype="cf"/>: »<quote>
+                     <p>Ein Herr <rs type="person" ref="#pmb12107">Lorant</rs> (<rs type="place" ref="#pmb43471">Budapest</rs>) sowie <rs type="person" ref="#pmb16236">Finkelstein</rs> (<rs type="place" ref="#pmb644">Galizien</rs>) wollen mich
                         interviewen.</p>
                      <p>
-                        <rs type="person" ref="#12107">Je Lorant</rs> lädt mich zu einer Vorlesung
-                           <rs type="place" ref="#43471">Budapest</rs> – Director <rs type="person"
-                           ref="#16973">Gellert</rs> zur Première <rs type="work" ref="#29855"
-                           >Reigen</rs>
+                        <rs type="person" ref="#pmb12107">Je Lorant</rs> lädt mich zu einer Vorlesung
+                           <rs type="place" ref="#pmb43471">Budapest</rs> – Director <rs type="person" ref="#pmb16973">Gellert</rs> zur Première <rs type="work" ref="#pmb29855">Reigen</rs>
                         <space unit="chars" quantity="1"/>
-                        <rs type="place" ref="#43471">Budapest</rs>, zugleich bei dieser Gelegenheit
+                        <rs type="place" ref="#pmb43471">Budapest</rs>, zugleich bei dieser Gelegenheit
                         im Theater ein paar Worte zu sprechen!–</p>
-                     <p>Dir. <rs type="person" ref="#16973">Gellert</rs> lädt mich zur Prem. <rs
-                           type="work" ref="#29855">Reigen</rs> –</p></quote>«</note>, und zwar, wenn ich mich recht erinnere, durch eine dem
-               betreffenden Theater nahestehende <rs type="person" ref="#12107" subtype="implied"
-                  >Persönlichkeit</rs>, also zu einem Zeitpunkt, wo von einem <anchor
-                  type="commentary" xml:id="KT145-2"/>Zensurverbot<note type="commentary"
-                  xml:id="KT145-2h">Dieses wurde am <date>23.&#8239;3.&#8239;1926</date> ausgesprochen (<bibl>
-                     <rs type="org" ref="#29329">Berliner Tageblatt</rs>, Jg.&#8239;55, Nr.&#8239;140,
-                        <date>24.&#8239;3.&#8239;1926</date>, Morgen-Ausgabe, S.&#8239;3</bibl>).</note> des ›<rs
-                  type="work" ref="#29855">Reigen</rs>‹ mir wenigstens noch nichts bekannt war. Ich
-               habe diese Einladung (wie so manche vorher, sowohl aus <rs type="place" ref="#43471"
-                  >Budapest</rs> wie aus anderen Städten) ohne Angabe bestimmter Gründe, in diesem
+                     <p>Dir. <rs type="person" ref="#pmb16973">Gellert</rs> lädt mich zur Prem. <rs type="work" ref="#pmb29855">Reigen</rs> –</p>
+                  </quote>«</note>, und zwar, wenn ich mich recht erinnere, durch eine dem
+               betreffenden Theater nahestehende <rs type="person" ref="#pmb12107" subtype="implied">Persönlichkeit</rs>, also zu einem Zeitpunkt, wo von einem <anchor type="commentary" xml:id="KT145-2"/>Zensurverbot<note type="commentary" xml:id="KT145-2h">Dieses wurde am <date>23. 3. 1926</date> ausgesprochen (<bibl>
+                     <rs type="org" ref="#pmb29329">Berliner Tageblatt</rs>, Jg. 55, Nr. 140,
+                        <date>24. 3. 1926</date>, Morgen-Ausgabe, S. 3</bibl>).</note> des ›<rs type="work" ref="#pmb29855">Reigen</rs>‹ mir wenigstens noch nichts bekannt war. Ich
+               habe diese Einladung (wie so manche vorher, sowohl aus <rs type="place" ref="#pmb43471">Budapest</rs> wie aus anderen Städten) ohne Angabe bestimmter Gründe, in diesem
                Falle mündlich, in einem Gespräch von Angesicht zu Angesicht, abgelehnt. Jener
                veröffentlichte Brief stammt also nicht von meiner Hand, ist der Form und dem Inhalt
                nach apokryph und die in den mir vorliegenden Zeitungsnotizen nicht genannte
                Konzertagentur sollte wohl ein Interesse daran haben, den Hersteller der Fälschung zu
                ermitteln. Ich brauche nicht hinzuzufügen, daß mein inneres und äußeres Verhältnis zu
                irgendeiner Stadt durch die Auffassung oder Maßnahmen ihrer Behörden gegenüber mir
-               und meinen Werken nicht im geringsten bestimmt werden könnte. <signed>Artur <hi
-                     rend="spaced_out">Schnitzler</hi>.«</signed>
+               und meinen Werken nicht im geringsten bestimmt werden könnte. <signed>Artur <hi rend="spaced_out">Schnitzler</hi>.«</signed>
             </p>
          </div>
          <div type="biographical">
             <div1>
-               <ref type="schnitzlerDiary" target="1926-11-15"/>
-               <quote>Dict. <rs type="work" ref="#30817">Therese</rs>; sowie Brief u. a.
-                  Berichtigung an die <rs type="org" ref="#29453">Corresp. Wilhelm</rs>; wegen eines
+               <ref type="schnitzler-tagebuch" target="1926-11-15"/>
+               <quote>Dict. <rs type="work" ref="#pmb30817">Therese</rs>; sowie Brief u. a.
+                  Berichtigung an die <rs type="org" ref="#pmb29453">Corresp. Wilhelm</rs>; wegen eines
                   in den Zeitungen veröffentlichten Briefes von mir, den ich nie geschrieben, in dem
-                  ich eine Einladung Vorlesung <rs type="place" ref="#43471">Budapest</rs> ablehne
-                  mit der Begründung dass man mich dort (Verbot <rs type="work" ref="#29855"
-                     >Reigen</rs>) für einen pornogr. Schriftsteller halte.–</quote>
+                  ich eine Einladung Vorlesung <rs type="place" ref="#pmb43471">Budapest</rs> ablehne
+                  mit der Begründung dass man mich dort (Verbot <rs type="work" ref="#pmb29855">Reigen</rs>) für einen pornogr. Schriftsteller halte.–</quote>
             </div1>
             <div1>
-               <bibl><rs type="person" ref="#2121">Schnitzler</rs> an <rs type="person" ref="#59691"
-                     >Richard Wilhelm</rs>, <date>15.&#8239;11.&#8239;1926</date>
+               <bibl>
+                  <rs type="person" ref="#pmb2121">Schnitzler</rs> an <rs type="person" ref="#pmb59691">Richard Wilhelm</rs>, <date>15. 11. 1926</date>
                </bibl>
                <quote>
                   <p>
-                     <date>15.&#8239;11.&#8239;1926</date>.</p>
+                     <date>15. 11. 1926</date>.</p>
                   <p>Sehr geehrter Herr Regierungsrat.</p>
                   <p>Beigeschlossen die Erklärung über die ich heute Früh mündlich mit Ihnen
                      gesprochen habe und die ich in angemessener Weise zu versenden bitte. In einer
-                     der mir vorliegenden Notizen wird ›<rs type="work" ref="#58240">Pesty
+                     der mir vorliegenden Notizen wird ›<rs type="work" ref="#pmb58240">Pesty
                         Naplo</rs>‹ als dasjenige Blatt genannt, in dem der Brief, ›mein
                      Brief‹&#x2028; zur Veröffentlichung gelangt ist. An diese Zeitung &#x2028;bitte
                      ich also jedesfalls auch eine Abschrift &#x2028;meiner Erklärung senden zu
                      lassen.</p>
                   <p>Mit verbindlichem Dank und Gruss</p>
                   <p>&#x2028;Ihr aufrichtig ergebener</p>
-                  <p>Herrn Regierungsrsrat Wilhelm, &#x2028;<rs type="org" ref="#29453"
-                        >Korrespondenz Wilhelm</rs>,&#x2028; <rs type="place" ref="#50">Wien</rs>.</p></quote>
+                  <p>Herrn Regierungsrsrat Wilhelm, &#x2028;<rs type="org" ref="#pmb29453">Korrespondenz Wilhelm</rs>,&#x2028; <rs type="place" ref="#pmb50">Wien</rs>.</p>
+               </quote>
             </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb12107">
+               <persName>
+                  <forename>Stefan</forename>
+                  <surname>Lorant</surname>
+               </persName>
+               <birth>
+                  <date when="1901-02-22">22.02.1901</date>
+                  <settlement ref="pmb43471">
+                     <placeName type="pref">Budapest</placeName>
+                     <location>
+                        <geo>47,49835 19,04045</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1997-11-14">14.11.1997</date>
+                  <settlement ref="pmb47949">
+                     <placeName type="pref">Rochester</placeName>
+                     <location>
+                        <geo>44,02163 -92,4699</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17682</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/11880085X</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12107/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2336993</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Stefan_Lorant</idno>
+            </person>
+            <person xml:id="pmb16236">
+               <persName>
+                  <forename>Zeev F.</forename>
+                  <surname>Finkelstein</surname>
+               </persName>
+               <birth>
+                  <date when="1886-02-13">13.02.1886</date>
+                  <settlement ref="pmb46224">
+                     <placeName type="pref">Lviv</placeName>
+                     <location>
+                        <geo>49,83826 24,02324</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1959-07-02" notAfter="1959-12-31">1959</date>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14984</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/16236/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb16236</idno>
+            </person>
+            <person xml:id="pmb16973">
+               <persName>
+                  <forename>Josef</forename>
+                  <surname>Gellert</surname>
+               </persName>
+               <persName type="namensvariante">Goldberg</persName>
+               <birth>
+                  <date when="1874-02-16">16.02.1874</date>
+                  <settlement ref="pmb61033">
+                     <placeName type="pref">Dubno</placeName>
+                     <location>
+                        <geo>50,41694 25,73432</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1942-05-28">28.05.1942</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15381</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/16973/</idno>
+            </person>
+            <person xml:id="pmb59691">
+               <persName>
+                  <forename>Richard</forename>
+                  <surname>Wilhelm</surname>
+               </persName>
+               <birth>
+                  <date when="1870-05-04">1870-05-04</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <sex value="male"/>
+               <occupation ref="pmb119">Herausgeber/Herausgeberin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/59691/</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb29855">
+               <title>Reigen. Zehn Dialoge</title>
+               <title type="werk_link">https://www.digital.wienbibliothek.at/wbrobv/content/pageview/2587756</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1900-01-01">1900</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.32</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1414190</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-reigen</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/33309</idno>
+               <idno type="URL" subtype="deutschestextarchiv">http://www.deutschestextarchiv.de/book/show/schnitzler_reigen_1903</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29855.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29855/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29855</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29855.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb58240">
+               <title>Pesti Napló</title>
+               <date from="1850-01-01" to="1939-07-02">1850  – 1939</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58240/</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+            <bibl xml:id="pmb58243">
+               <title>»Nem vagyok kíváncsi Budapestre« – írja Arthur Schnitzler</title>
+               <date when="1926-11-09">1926-11-09</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58243/</idno>
+               <note type="work_kind">Zeitungsbericht</note>
+            </bibl>
+            <bibl xml:id="pmb30817">
+               <title>Therese. Chronik eines Frauenlebens</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1928-01-01">1928</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.02.44</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q699088</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30817.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30817/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30817</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30817.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Therese._Chronik_eines_Frauenlebens</idno>
+               <note type="work_kind">Roman</note>
+            </bibl>
+            <bibl xml:id="pmb33183">
+               <title>Ein gefälschter Brief Artur Schnitzlers. Die abgelehnte Einladung nach Budapest</title>
+               <title type="werk_bibliografische-angabe">Neues Wiener Journal, 16. 11. 1926</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1926-11-16">16.11.1926</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33183/</idno>
+               <note type="work_kind">Text</note>
+            </bibl>
+            <bibl xml:id="pmb36376">
+               <title>Neues Wiener Journal</title>
+               <title type="werk_link-anno">http://anno.onb.ac.at/cgi-content/anno?aid=nwj</title>
+               <author ref="pmb36371" role="hat-einen-beitrag-geschaffen-zu">Papp, Desiderius</author>
+               <author ref="pmb10815" role="hat-einen-beitrag-geschaffen-zu">Bahr, Hermann</author>
+               <date to="1939-01-01">1893  – 1939</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36376/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36376</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb36376</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+            <bibl xml:id="pmb36374">
+               <title>Neue Freie Presse</title>
+               <title type="werk_link-anno">http://anno.onb.ac.at/cgi-content/anno?aid=nfp</title>
+               <author ref="pmb10875" role="hat-herausgegeben">Benedikt, Moriz</author>
+               <author ref="pmb10872" role="hat-herausgegeben">Benedikt, Ernst</author>
+               <author ref="pmb10809" role="hat-herausgegeben">Bacher, Eduard</author>
+               <date from="1864-01-01" to="1939-07-02">1864  – 1939</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36374/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36374</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb36374</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb43471">
+               <placeName>Budapest</placeName>
+               <placeName type="legacy-name-merge">Buda</placeName>
+               <placeName type="alternative-name">Königl. Freie Hauptstadt Ofen</placeName>
+               <placeName type="legacy-name-merge">Ofen</placeName>
+               <placeName type="alternative-name">Altofen</placeName>
+               <placeName type="legacy-name-merge">Pest (Stadt)</placeName>
+               <placeName type="legacy-name-merge">Óbuda</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPLC</desc>
+               <desc type="entity_type_id">1418</desc>
+               <location type="coords">
+                  <geo>47,49835 19,04045</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb35512">Ungarn</placeName>
+                  <geo>47,0 20,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb43471">Budapest</placeName>
+                  <geo>47,49835 19,04045</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1781</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb464.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3054643/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4008684-7</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/9867/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/42014/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43471/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43797/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb43471</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/62463/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64169/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/88759/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb43471</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb43471.html</idno>
+               <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1781</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Budapest</idno>
+            </place>
+            <place xml:id="pmb1067">
+               <placeName>Franz-Liszt-Musikakademie</placeName>
+               <desc type="entity_type">Kunsthochschule (K.KHS)</desc>
+               <desc type="entity_type_id">82</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb43471">Budapest</placeName>
+                  <geo>47,49835 19,04045</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1067/</idno>
+            </place>
+            <place xml:id="pmb1066">
+               <placeName>Belvárosi Színház</placeName>
+               <placeName type="namensvariante">Innerstädtisches Theater</placeName>
+               <desc type="entity_type">Theater (K.THE)</desc>
+               <desc type="entity_type_id">4</desc>
+               <location type="coords">
+                  <geo>47,49524405682697 19,059920816046013</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb43471">Budapest</placeName>
+                  <geo>47,49835 19,04045</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1066/</idno>
+            </place>
+            <place xml:id="pmb644">
+               <placeName>Galizien</placeName>
+               <desc type="entity_type">Region</desc>
+               <desc type="entity_type_id">47</desc>
+               <location type="coords">
+                  <geo>49,521 23,245</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb313">Polen</placeName>
+                  <geo>52,0 20,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb666">Ukraine</placeName>
+                  <geo>49,0 32,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb687">Österreich-Ungarn</placeName>
+                  <geo>48,4054 16,4887</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q180086</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb644.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/644/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb644</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb644.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Galizien</idno>
+            </place>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb29320">
+               <orgName>Neues Wiener Journal</orgName>
+               <orgName type="werk_link-anno">http://anno.onb.ac.at/info/nwj_info.htm</orgName>
+               <desc type="entity_type">Tageszeitungsredaktion</desc>
+               <desc type="entity_type_id">972</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb1270">Nussdorfer Straße</placeName>
+                  <geo>48,22921 16,35461</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1270/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb1270</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb52670">Biberstraße</placeName>
+                  <geo>48,209725072054226 16,381223898207065</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/52670/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb52670</idno>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29320.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29320/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29320</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb29320</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1980429</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Neues_Wiener_Journal</idno>
+               <note type="apis_dates">
+                  <date from="1893-01-01" to="1939-07-02">1893  – 1939</date>
+               </note>
+            </org>
+            <org xml:id="pmb29466">
+               <orgName>Pesti Napló</orgName>
+               <desc type="entity_type">Tageszeitungsredaktion</desc>
+               <desc type="entity_type_id">972</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb43471">Budapest</placeName>
+                  <geo>47,49835 19,04045</geo>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1781</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb464.html</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/3054643/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4008684-7</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/9867/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/42014/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43471/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43797/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb43471</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/62463/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64169/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/88759/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb43471</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb43471.html</idno>
+                  <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1781</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Budapest</idno>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29466/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb29466</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q947009</idno>
+            </org>
+            <org xml:id="pmb29329">
+               <orgName>Berliner Tageblatt</orgName>
+               <desc type="entity_type">Tageszeitungsredaktion</desc>
+               <desc type="entity_type_id">972</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb168">Berlin</placeName>
+                  <geo>52,52437 13,41053</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb168</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92171.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29329.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29329/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29329</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb29329</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q455014</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berliner_Tageblatt</idno>
+            </org>
+            <org xml:id="pmb29453">
+               <orgName>Korrespondenz Wilhelm</orgName>
+               <desc type="entity_type">Feuilletonkorrespondenz</desc>
+               <desc type="entity_type_id">1019</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29453/</idno>
+               <note type="apis_dates">
+                  <date when="1865-11-01">1865-11-01</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

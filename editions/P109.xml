@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="P109">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="P109">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#58428">[»Reigen« nicht verfilmt], 30.&#8239;9.&#8239;1920</title>
-            <author ref="#2121">Schnitzler, Arthur</author>
+            <title level="a" ref="#pmb58428">[»Reigen« nicht verfilmt], 30. 9. 1920</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -27,13 +29,13 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#2121">Schnitzler, Arthur</author>
-                     <title level="a" ref="#58428">[»Reigen« nicht verfilmt]</title>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <title level="a" ref="#pmb58428">[»Reigen« nicht verfilmt]</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#36376">Neues Wiener Journal</title>
+                     <title level="j" ref="#pmb36376">Neues Wiener Journal</title>
                      <imprint>
-                        <date when="1920-09-30" n="1">30.&#8239;9.&#8239;1920</date>
+                        <date when="1920-09-30" n="1">30. 9. 1920</date>
                      </imprint>
                      <biblScope unit="jg">28</biblScope>
                      <biblScope unit="nr">9.664</biblScope>
@@ -54,40 +56,185 @@
          <change who="KH" when="2021-10-18">Durchsicht</change>
       </revisionDesc>
    </teiHeader>
-   <!-- https://anno.onb.ac.at/cgi-content/anno?aid=nwj&datum=19200930&seite=8&zoom=33 -->
    <text type="article">
       <body>
          <div type="original">
-            <head><supplied><rs
-               type="work" ref="#58431">Der Reigen</rs> keine Verfilmung von <rs
-                  type="work" ref="#29855">Reigen</rs></supplied></head>
+            <head>
+               <supplied>
+                  <rs type="work" ref="#pmb58431">Der Reigen</rs> keine Verfilmung von <rs type="work" ref="#pmb29855">Reigen</rs>
+               </supplied>
+            </head>
             <p>* Dr. Artur <hi rend="spaced_out">Schnitzler</hi> bittet uns um Aufnahme folgender
-               Verwahrung: »Einige Kinotheater kündigen die Aufführung eines Filmwerkes ›<rs
-                  type="work" ref="#58431">
+               Verwahrung: »Einige Kinotheater kündigen die Aufführung eines Filmwerkes ›<rs type="work" ref="#pmb58431">
                   <hi rend="spaced_out">Der Reigen</hi>
                </rs>‹ an, mit dem Zusatze ›nach Schnitzlers Roman‹. Ich stelle hiemit fest, daß der
-               Film ›<rs type="work" ref="#58431">Der Reigen</rs>‹ mit meiner Szenenreihe ›<rs
-                  type="work" ref="#29855">Reigen</rs>‹ nichts weiter gemein hat, als den Titel, der
+               Film ›<rs type="work" ref="#pmb58431">Der Reigen</rs>‹ mit meiner Szenenreihe ›<rs type="work" ref="#pmb29855">Reigen</rs>‹ nichts weiter gemein hat, als den Titel, der
                allerdings durch den Vorgesetzten Artikel sozusagen geändert erscheint. Da diese
-               Aenderung keineswegs genügte, um, wie vielleicht auch der mir unbekannte <anchor
-                  type="commentary" xml:id="K_P109-4"/><rs type="person" subtype="implied"
-                  ref="#9181">Richard Oswald</rs><note type="commentary" xml:id="K_P109-4h"><rs
-                     type="person" ref="#9181">Verfasser</rs></note> des Filmwerkes ›<rs type="work"
-                  ref="#58431">Der Reigen</rs>‹ vorauszusehen in der Lage war, Verwechslungen mit
+               Aenderung keineswegs genügte, um, wie vielleicht auch der mir unbekannte <anchor type="commentary" xml:id="K_P109-4"/>
+               <rs type="person" subtype="implied" ref="#pmb9181">Richard Oswald</rs>
+               <note type="commentary" xml:id="K_P109-4h">
+                  <rs type="person" ref="#pmb9181">Verfasser</rs>
+               </note> des Filmwerkes ›<rs type="work" ref="#pmb58431">Der Reigen</rs>‹ vorauszusehen in der Lage war, Verwechslungen mit
                der von mir verfaßten Szenenreihe und eine gelegentliche mißverständliche Benutzung
                meines Namens auszuschließen, behalte ich mir weitere Schritte in dieser
                Angelegenheit vor. <hi rend="spaced_out">Artur Schnitzler</hi>.«</p>
          </div>
          <div type="biographical">
             <div1>
-               <ref target="1920-09-29" type="schnitzlerDiary"/>
-               <quote>Vm. <rs type="org" ref="#29453">Corr. Wilhelm</rs>,– eine ›Verwahrung‹
-                  einrücken, weil in den Kinos ein Film ›<rs type="work" ref="#58431">Der
-                     Reigen</rs>‹ gespielt wird, der mit meinem ›<rs type="work" ref="#29855"
-                     >Reigen</rs>‹ nichts zu thun hat, ›nach dem Roman S.s‹. (Wahrscheinlich Specul.
+               <ref target="1920-09-29" type="schnitzler-tagebuch"/>
+               <quote>Vm. <rs type="org" ref="#pmb29453">Corr. Wilhelm</rs>,– eine ›Verwahrung‹
+                  einrücken, weil in den Kinos ein Film ›<rs type="work" ref="#pmb58431">Der
+                     Reigen</rs>‹ gespielt wird, der mit meinem ›<rs type="work" ref="#pmb29855">Reigen</rs>‹ nichts zu thun hat, ›nach dem Roman S.s‹. (Wahrscheinlich Specul.
                   des Verfassers.)</quote>
             </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb9181">
+               <persName>
+                  <forename>Richard</forename>
+                  <surname>Oswald</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Ornstein</persName>
+               <birth>
+                  <date when="1880-11-05">05.11.1880</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1963-09-11">11.09.1963</date>
+                  <settlement ref="pmb863">
+                     <placeName type="pref">Düsseldorf</placeName>
+                     <location>
+                        <geo>51,22172 6,77616</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18605</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118787322</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/9181/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp52195</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q78874</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Richard_Oswald</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb9181.html</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb58431">
+               <title>Der Reigen</title>
+               <author ref="pmb9181" role="hat-geschaffen">Oswald, Richard</author>
+               <date notBefore="1920-01-01" when="1920-07-01">1920</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58431/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb58431.html</idno>
+               <note type="work_kind">Film</note>
+            </bibl>
+            <bibl xml:id="pmb29855">
+               <title>Reigen. Zehn Dialoge</title>
+               <title type="werk_link">https://www.digital.wienbibliothek.at/wbrobv/content/pageview/2587756</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1900-01-01">1900</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.32</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1414190</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-reigen</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/33309</idno>
+               <idno type="URL" subtype="deutschestextarchiv">http://www.deutschestextarchiv.de/book/show/schnitzler_reigen_1903</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29855.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29855/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29855</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29855.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb58428">
+               <title>[»Reigen« nicht verfilmt]</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1920-09-30">1920-09-30</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58428/</idno>
+               <note type="work_kind">Brief &gt;&gt; Öffentlicher Brief &gt;&gt; Leserbrief</note>
+            </bibl>
+            <bibl xml:id="pmb36376">
+               <title>Neues Wiener Journal</title>
+               <title type="werk_link-anno">http://anno.onb.ac.at/cgi-content/anno?aid=nwj</title>
+               <author ref="pmb36371" role="hat-einen-beitrag-geschaffen-zu">Papp, Desiderius</author>
+               <author ref="pmb10815" role="hat-einen-beitrag-geschaffen-zu">Bahr, Hermann</author>
+               <date to="1939-01-01">1893  – 1939</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36376/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36376</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb36376</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listOrg>
+            <org xml:id="pmb29453">
+               <orgName>Korrespondenz Wilhelm</orgName>
+               <desc type="entity_type">Feuilletonkorrespondenz</desc>
+               <desc type="entity_type_id">1019</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29453/</idno>
+               <note type="apis_dates">
+                  <date when="1865-11-01">1865-11-01</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

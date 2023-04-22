@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="M158">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="M158">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#61791">Professor Sylvan’s junge Ehe, 15.&#8239;4.&#8239;1891</title>
-            <author ref="#2121">Schnitzler, Arthur</author>
+            <title level="a" ref="#pmb61791">Professor Sylvan’s junge Ehe, 15. 4. 1891</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -27,13 +29,13 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#2121">A.&#160;Sch.</author>
-                     <title level="a" ref="#61791">Professor Sylvan’s junge Ehe</title>
+                     <author ref="#pmb2121">A. Sch.</author>
+                     <title level="a" ref="#pmb61791">Professor Sylvan’s junge Ehe</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#35942">Moderne Rundschau</title>
+                     <title level="j" ref="#pmb35942">Moderne Rundschau</title>
                      <imprint>
-                        <date when="1891-04-15" n="1">15.&#8239;4.&#8239;1891</date>
+                        <date when="1891-04-15" n="1">15. 4. 1891</date>
                      </imprint>
                      <biblScope unit="vol">3</biblScope>
                      <biblScope unit="nr">2</biblScope>
@@ -56,51 +58,420 @@
    <text type="article">
       <body>
          <div type="original">
-            <p><anchor type="label" xml:id="M158_L_anfangv"/><hi rend="bold"><rs type="work" ref="#61781"><anchor type="commentary"
-                        xml:id="K_M158-1"/>Professor Sylvan’s junge Ehe<note type="commentary"
-                        xml:id="K_M158-1h">Das Buch ist eine biobliografische Seltenheit und lässt
-                        sich nur in der <bibl><publisher>British Library</publisher></bibl>
-                        nachweisen. <rs type="person" ref="#2167">Felix
+            <p>
+               <anchor type="label" xml:id="M158_L_anfangv"/>
+               <hi rend="bold">
+                  <rs type="work" ref="#pmb61781">
+                     <anchor type="commentary" xml:id="K_M158-1"/>Professor Sylvan’s junge Ehe<note type="commentary" xml:id="K_M158-1h">Das Buch ist eine biobliografische Seltenheit und lässt
+                        sich nur in der <bibl>
+                           <publisher>British Library</publisher>
+                        </bibl>
+                        nachweisen. <rs type="person" ref="#pmb2167">Felix
                            Salten</rs> bespricht es um die selbe Zeit auf inhaltlich ziemlich die gleiche Weise
-                         (<bibl><rs type="person" ref="#2167">f.&#160;s.</rs>: <rs
-                              type="work" ref="#61787">»Professor Sylvan’s junge Ehe«</rs>. In: <rs
-                              type="work" ref="#41466">Allgemeinen Kunst-Chronik</rs>, Bd.&#160;15,
-                           Nr.&#160;9, <date>2. April-Heft&#8239;1891</date>,
-                        S.&#8239;258</bibl>).</note> und andere Novellen</rs></hi>. Von <rs
-                  type="person" ref="#18468"><hi rend="spaced_out">Alexandrine von <anchor
-                        type="textConst" xml:id="T_M158-1"/>Holmblad<note type="textConst"
-                        xml:id="T_M158-1h"><quote>Holenblad</quote></note></hi></rs>. (<rs
-                  type="place" ref="#866">Dresden</rs> und <rs type="place" ref="#864">Leipzig</rs>,
-                  <rs type="org" ref="#29771">E. Pierson’s Verlag</rs>.) Martha, Sylvan’s
-               jugendliche Frau, <anchor type="textConst" xml:id="T_M158-3"/>Natascha<note
-                  type="textConst" xml:id="T_M158-3h"><quote>Natasche</quote></note>, die Tochter
-               der armen Witwe, und das Ladenmädchen Malchen – die <anchor type="textConst"
-                  xml:id="T_M158-2"/>Heldinnen<note type="textConst" xml:id="T_M158-2h"
-                     ><quote>Heldinen</quote></note> der drei Novellen, sind lauter Engel; so viel
+                         (<bibl>
+                           <rs type="person" ref="#pmb2167">f. s.</rs>: <rs type="work" ref="#pmb61787">»Professor Sylvan’s junge Ehe«</rs>. In: <rs type="work" ref="#pmb41466">Allgemeinen Kunst-Chronik</rs>, Bd. 15,
+                           Nr. 9, <date>2. April-Heft 1891</date>,
+                        S. 258</bibl>).</note> und andere Novellen</rs>
+               </hi>. Von <rs type="person" ref="#pmb18468">
+                  <hi rend="spaced_out">Alexandrine von <anchor type="textConst" xml:id="T_M158-1"/>Holmblad<note type="textConst" xml:id="T_M158-1h">
+                        <quote>Holenblad</quote>
+                     </note>
+                  </hi>
+               </rs>. (<rs type="place" ref="#pmb866">Dresden</rs> und <rs type="place" ref="#pmb864">Leipzig</rs>,
+                  <rs type="org" ref="#pmb29771">E. Pierson’s Verlag</rs>.) Martha, Sylvan’s
+               jugendliche Frau, <anchor type="textConst" xml:id="T_M158-3"/>Natascha<note type="textConst" xml:id="T_M158-3h">
+                  <quote>Natasche</quote>
+               </note>, die Tochter
+               der armen Witwe, und das Ladenmädchen Malchen – die <anchor type="textConst" xml:id="T_M158-2"/>Heldinnen<note type="textConst" xml:id="T_M158-2h">
+                  <quote>Heldinen</quote>
+               </note> der drei Novellen, sind lauter Engel; so viel
                Selbstverleugnung und Güte haben wir selbst in einem deutschen Novellenbuch schon
                lange nicht gefunden. Die zwei ersten Geschichten sind langweilig und überdies recht
                schlecht geschrieben. Dabei ein fadenscheiniger Humor, der kindlich sein will und
-               dabei immer nur kindisch ist. Viel hübscher erzählt ist die dritte Novelle »<rs
-                  type="work" ref="#61784">Das Malchen</rs>«, in der ein einfacher und rührender
+               dabei immer nur kindisch ist. Viel hübscher erzählt ist die dritte Novelle »<rs type="work" ref="#pmb61784">Das Malchen</rs>«, in der ein einfacher und rührender
                Stoff zwar ohne psychologische Tiefe, aber recht gemüthvoll und ansprechend
                dargestellt wird.</p>
             <p rend="right">A. Sch.</p>
          </div>
          <div type="biographical">
             <div1>
-               <ref target="1891-06-21" type="schnitzlerDiary"/>
-               <quote><p>In der <rs type="work" ref="#35942">Mod. Rsch.</rs> waren bisher 4 kleine
+               <ref target="1891-06-21" type="schnitzler-tagebuch"/>
+               <quote>
+                  <p>In der <rs type="work" ref="#pmb35942">Mod. Rsch.</rs> waren bisher 4 kleine
                   Kritiken von mir:</p>
-                  <p>über ›<rs type="work" ref="#61800">Medeabild</rs>‹ von <rs type="person"
-                     ref="#18053">Heitmüller</rs>,</p>
-                  <p><rs type="work" ref="#61781">Prof. Sylvan</rs> von <rs type="person"
-                     ref="#18468">Holmblad</rs></p>
-                  <p><rs type="work" ref="#61767">Hieroglyphen des Lebens</rs> von <rs type="person"
-                     ref="#7253">Alfr. Friedmann</rs></p>
-                  <p><rs type="work" ref="#31901">Friedensengel</rs> von <rs type="person"
-                     ref="#4287">Singer</rs>.</p></quote>
+                  <p>über ›<rs type="work" ref="#pmb61800">Medeabild</rs>‹ von <rs type="person" ref="#pmb18053">Heitmüller</rs>,</p>
+                  <p>
+                     <rs type="work" ref="#pmb61781">Prof. Sylvan</rs> von <rs type="person" ref="#pmb18468">Holmblad</rs>
+                  </p>
+                  <p>
+                     <rs type="work" ref="#pmb61767">Hieroglyphen des Lebens</rs> von <rs type="person" ref="#pmb7253">Alfr. Friedmann</rs>
+                  </p>
+                  <p>
+                     <rs type="work" ref="#pmb31901">Friedensengel</rs> von <rs type="person" ref="#pmb4287">Singer</rs>.</p>
+               </quote>
             </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb2167">
+               <persName>
+                  <forename>Felix</forename>
+                  <surname>Salten</surname>
+               </persName>
+               <persName type="person_geburtsname-vorname">Siegmund</persName>
+               <persName type="person_geburtsname_nachname">Salzmann</persName>
+               <persName type="legacy-name-merge">Salzmann, Siegmund</persName>
+               <birth>
+                  <date when="1869-09-06">06.09.1869</date>
+                  <settlement ref="pmb43471">
+                     <placeName type="pref">Budapest</placeName>
+                     <location>
+                        <geo>47,49835 19,04045</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1945-10-08">08.10.1945</date>
+                  <settlement ref="pmb484">
+                     <placeName type="pref">Zürich</placeName>
+                     <location>
+                        <geo>47,37174 8,54226</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118840819</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2167.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2167/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19542</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2167</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb2167</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43175</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0204</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284367</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q163747</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Felix_Salten</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2167.html</idno>
+            </person>
+            <person xml:id="pmb18468">
+               <persName>
+                  <forename>Alexandrine von</forename>
+                  <surname>Holmblad</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Weyrauch</persName>
+               <sex value="female"/>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16320</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/18468/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb18468.html</idno>
+            </person>
+            <person xml:id="pmb18053">
+               <persName>
+                  <forename>Franz Ferdinand</forename>
+                  <surname>Heitmüller</surname>
+               </persName>
+               <birth>
+                  <date when="1864-03-16">16.03.1864</date>
+                  <settlement ref="pmb506">
+                     <placeName type="pref">Hamburg</placeName>
+                     <location>
+                        <geo>53,57532 10,01534</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1919-03-30">30.03.1919</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16055</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/18053/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116678623/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb18053.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q55674690</idno>
+            </person>
+            <person xml:id="pmb7253">
+               <persName>
+                  <forename>Alfred</forename>
+                  <surname>Friedmann</surname>
+               </persName>
+               <birth>
+                  <date when="1845-10-26">26.10.1845</date>
+                  <settlement ref="pmb146">
+                     <placeName type="pref">Frankfurt am Main</placeName>
+                     <location>
+                        <geo>50,11552 8,68417</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1923-02-13">13.02.1923</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15227</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116802014</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/7253/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7253.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2644982</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Alfred_Friedmann_(Schriftsteller)</idno>
+            </person>
+            <person xml:id="pmb4287">
+               <persName>
+                  <forename>Maximilian</forename>
+                  <surname>Singer</surname>
+               </persName>
+               <birth>
+                  <date notBefore="1857-01-01" when="1857-07-02" notAfter="1857-12-31">1857</date>
+                  <settlement ref="pmb45906">
+                     <placeName type="pref">Lipnik Górny</placeName>
+                     <location>
+                        <geo>49,82569 19,08849</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1928-07-01" notAfter="1928-12-31">1928</date>
+                  <settlement ref="pmb652">
+                     <placeName type="pref">Prag</placeName>
+                     <location>
+                        <geo>50,08333 14,46667</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb240">Lehrer/Lehrerin</occupation>
+               <occupation ref="pmb1535">Librettist/Librettistin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117402516</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20137</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4287/</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284aa8</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q94855258</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb61781">
+               <title>Professor Sylvan’s junge Ehe und andere Novellen</title>
+               <author ref="pmb18468" role="hat-geschaffen">Holmblad, Alexandrine von</author>
+               <date when="1891-04-02">1891-04-02</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/61781/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb61781.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb61781.html</idno>
+               <note type="work_kind">Textsammlung &gt;&gt; Novellensammlung</note>
+            </bibl>
+            <bibl xml:id="pmb61787">
+               <title>»Professor Sylvan’s junge Ehe«</title>
+               <title type="werk_link-anno">https://anno.onb.ac.at/cgi-content/anno?aid=okc&amp;datum=18910415&amp;query=%22alexandrine+von+holmblad%22&amp;ref=anno-search&amp;seite=20</title>
+               <author ref="pmb2167" role="hat-unter-einem-kurzel-veroffentlicht">Salten, Felix</author>
+               <date>1891-04-15</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/61787/</idno>
+               <note type="work_kind">Rezension</note>
+            </bibl>
+            <bibl xml:id="pmb41466">
+               <title>Allgemeine Kunst-Chronik</title>
+               <title type="werk_link">http://anno.onb.ac.at/cgi-content/anno?aid=okc</title>
+               <date to="1896-01-01">1881  – 1896</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41466/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41466</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Zeitschrift</note>
+            </bibl>
+            <bibl xml:id="pmb61784">
+               <title>Das Malchen</title>
+               <author ref="pmb18468" role="hat-geschaffen">Holmblad, Alexandrine von</author>
+               <date when="1891-04-02">1891-04-02</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/61784/</idno>
+               <note type="work_kind">Novelle</note>
+            </bibl>
+            <bibl xml:id="pmb35942">
+               <title>Moderne Rundschau</title>
+               <title type="werk_link">https://babel.hathitrust.org/cgi/pt?id=njp.32101064246596&amp;view=1up&amp;seq=17&amp;skin=2021</title>
+               <author ref="pmb10815" role="hat-einen-beitrag-geschaffen-zu">Bahr, Hermann</author>
+               <author ref="pmb2121" role="hat-einen-beitrag-geschaffen-zu">Schnitzler, Arthur</author>
+               <author ref="pmb11740" role="hat-einen-beitrag-geschaffen-zu">Hofmannsthal, Hugo von</author>
+               <author ref="pmb2563" role="hat-herausgegeben">Kafka, Eduard Michael</author>
+               <author ref="pmb18870" role="hat-herausgegeben">Joachim, Jaques</author>
+               <date to="1891-12-31">1.4.1891  – 31.12.1891</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35942/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb35942</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Zeitschrift</note>
+            </bibl>
+            <bibl xml:id="pmb61800">
+               <title>Das Medeabild. Drama in einem Aufzuge</title>
+               <author ref="pmb18053" role="hat-geschaffen">Heitmüller, Franz Ferdinand</author>
+               <date notBefore="1891-01-01" when="1891-07-02">1891</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/61800/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb61800.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb61800.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Einakter</note>
+            </bibl>
+            <bibl xml:id="pmb61767">
+               <title>Hieroglyphen des Lebens. Novellen und Skizzen</title>
+               <author ref="pmb7253" role="hat-geschaffen">Friedmann, Alfred</author>
+               <date notBefore="1891-01-01" when="1891-07-02">1891</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/61767/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb61767.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb61767.html</idno>
+               <note type="work_kind">Textsammlung</note>
+            </bibl>
+            <bibl xml:id="pmb31901">
+               <title>Der Friedensengel. Schauspiel in einem Aufzuge</title>
+               <author ref="pmb4287" role="hat-geschaffen">Singer, Maximilian</author>
+               <date notBefore="1891-01-01" when="1891-07-02">1891</date>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31901.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31901/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31901.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Einakter</note>
+            </bibl>
+            <bibl xml:id="pmb61791">
+               <title>Professor Sylvan’s junge Ehe</title>
+               <author ref="pmb2121" role="hat-unter-einem-kurzel-veroffentlicht">Schnitzler, Arthur</author>
+               <date when="1891-04-15">1891-04-15</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/61791/</idno>
+               <note type="work_kind">Rezension</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb866">
+               <placeName>Dresden</placeName>
+               <placeName type="alternative-name">Landeshauptstadt Dresden</placeName>
+               <placeName type="legacy-name-merge">Kreisfreie Stadt Dresden</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>51,0833 13,7666</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb151">Deutschland</placeName>
+                  <geo>51,5 10,5</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1731</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4012995-0</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb866.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/866/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/39739/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb866</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64187/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2935020/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb866</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/90550/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2935022/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90550.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Dresden</idno>
+            </place>
+            <place xml:id="pmb864">
+               <placeName>Leipzig</placeName>
+               <placeName type="alternative-name">Gross-Leipzig</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>51,33962 12,37129</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2079</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2879139/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb864.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/864/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44885/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4035206-7</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb864</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb864</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb864.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Leipzig</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb29771">
+               <orgName>E. Pierson’s Verlag</orgName>
+               <desc type="entity_type">Verlag</desc>
+               <desc type="entity_type_id">975</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb866">Dresden</placeName>
+                  <geo>51,0833 13,7666</geo>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1731</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4012995-0</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb866.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/866/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/39739/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb866</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64187/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2935020/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb866</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/90550/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2935022/</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90550.html</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Dresden</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb864">Leipzig</placeName>
+                  <geo>51,33962 12,37129</geo>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2079</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2879139/</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb864.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/864/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44885/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4035206-7</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb864</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb864</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb864.html</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Leipzig</idno>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29771.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29771/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29771</idno>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

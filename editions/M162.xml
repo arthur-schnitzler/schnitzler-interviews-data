@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="M162">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="M162">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#62510">[An Georg Reimers], September&#8239;1925</title>
-            <author ref="#2121">Schnitzler, Arthur</author>
+            <title level="a" ref="#pmb62510">[An Georg Reimers], September 1925</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -27,12 +29,12 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#2121">Schnitzler, Arthur</author>
-                     <title level="a" ref="#62510">[An Georg Reimers]</title>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <title level="a" ref="#pmb62510">[An Georg Reimers]</title>
                   </analytic>
                   <monogr>
-                     <title level="m" ref="#62506">Georg Reimers. Festschrift zu seinem
-                        vierzigjährigen Burgtheaterjubiläum 1885&#160;1925.</title>
+                     <title level="m" ref="#pmb62506">Georg Reimers. Festschrift zu seinem
+                        vierzigjährigen Burgtheaterjubiläum 1885 1925.</title>
                      <imprint>
                         <date when="1925-01-09" n="1">September 1925</date>
                         <publisher>Reinhold-Verlag</publisher>
@@ -54,11 +56,10 @@
                      </imprint>
                      <biblScope unit="pp">61</biblScope>
                   </monogr>
-                  
                </biblStruct>
                <biblStruct corresp="ASB2">
                   <monogr>
-                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefe 1913–1931</title>
                      <editor>Hg. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und
                         Heinrich Schnitzler</editor>
@@ -92,39 +93,227 @@
          </div>
          <div type="original">
             <head>Georg Reimers. Festschrift zu seinem
-               vierzigjährigen Burgtheaterjubiläum 1885&#160;1925.</head>
-            <p><gap reason="outOfScope" unit="paragraphs" quantity="20"/></p>
-            <p rend="right"><anchor type="commentary" xml:id="K_M162-2"/><rs type="place" ref="#50"
-                  >Wien</rs><note type="commentary" xml:id="K_M162-2h">Im <date>September
+               vierzigjährigen Burgtheaterjubiläum 1885 1925.</head>
+            <p>
+               <gap reason="outOfScope" unit="paragraphs" quantity="20"/>
+            </p>
+            <p rend="right">
+               <anchor type="commentary" xml:id="K_M162-2"/>
+               <rs type="place" ref="#pmb50">Wien</rs>
+               <note type="commentary" xml:id="K_M162-2h">Im <date>September
                      1925</date> fanden mehrere Feierlichkeiten anlässlich des vierzigsten
-                  Bühnenjubiläums des Schauspielers <rs type="person" ref="#12498">Georg
+                  Bühnenjubiläums des Schauspielers <rs type="person" ref="#pmb12498">Georg
                      Reimers</rs> statt. Die Festschrift besteht aus Faksimiles der verschiedenen
-                  Gratulationen. <rs type="person" ref="#2121">Schnitzler</rs> verwendet für seinen
+                  Gratulationen. <rs type="person" ref="#pmb2121">Schnitzler</rs> verwendet für seinen
                   Beitrag (wie seit <date>1906</date> durchwegs in seinen Briefen üblich) eine
                   lateinische Schreibschrift. Abschrift war dem Druck keine beigegeben. </note>,
                   <date>Juli 1925</date>.</p>
-            <p>Kaum ein Jahr ist es her, mein verehrter Herr <rs type="person" ref="#12498">Georg
-                  Reimers</rs>, dass ich, der Ihnen als <rs type="org" ref="#36247"
-               >Burgtheater</rs>-Autor und als einfacher Theaterbesucher schon so oft zu Danke
-               verpflichtet war, die Freude hatte, Sie wieder einmal in einer meiner <anchor
-                  type="commentary" xml:id="K_M162-1"/><rs type="work" subtype="implied"
-                  ref="#30205">Stücke</rs><note type="commentary" xml:id="K_M162-1h">Er bezieht sich
-                  auf die Uraufführung von <rs type="work" ref="#30205">Komödie der Verführung</rs> am
-                     <ref target="1924-10-11" type="schnitzlerDiary" subtype="date-only"/> am <rs
-                     type="org" ref="#36247">Burgtheater</rs>.</note> zu sehen, in einer Rolle, die,
+            <p>Kaum ein Jahr ist es her, mein verehrter Herr <rs type="person" ref="#pmb12498">Georg
+                  Reimers</rs>, dass ich, der Ihnen als <rs type="org" ref="#pmb36247">Burgtheater</rs>-Autor und als einfacher Theaterbesucher schon so oft zu Danke
+               verpflichtet war, die Freude hatte, Sie wieder einmal in einer meiner <anchor type="commentary" xml:id="K_M162-1"/>
+               <rs type="work" subtype="implied" ref="#pmb30205">Stücke</rs>
+               <note type="commentary" xml:id="K_M162-1h">Er bezieht sich
+                  auf die Uraufführung von <rs type="work" ref="#pmb30205">Komödie der Verführung</rs> am
+                     <ref target="1924-10-11" type="schnitzler-tagebuch" subtype="date-only"/> am <rs type="org" ref="#pmb36247">Burgtheater</rs>.</note> zu sehen, in einer Rolle, die,
                wie man<unclear>che</unclear> fanden, Ihnen »auf den Leib« geschrieben war. Doch so
-               köstlich und herzerweichend Sie den <rs type="work" subtype="implied" ref="#30205"
-                  >Eligius Fenz</rs> spielten, &#8239;– ich möchte den Schauspieler <rs type="person"
-                  ref="#12498">Georg Reimers</rs> gegenüber dem Kammersänger <rs type="work"
-                  subtype="implied" ref="#30205">Fenz</rs> sehr entschieden in Schutz nehmen – denn
+               köstlich und herzerweichend Sie den <rs type="work" subtype="implied" ref="#pmb30205">Eligius Fenz</rs> spielten,  – ich möchte den Schauspieler <rs type="person" ref="#pmb12498">Georg Reimers</rs> gegenüber dem Kammersänger <rs type="work" subtype="implied" ref="#pmb30205">Fenz</rs> sehr entschieden in Schutz nehmen – denn
                in jenem ist glücklicherweise all das wahr geworden und wahr geblieben, was dieser –
                wenn ich ihn richtig beurtheile – sich großentheils nur eingebildet haben dürfte.
-               Sie, <rs type="person" ref="#12498">Georg Reimers</rs> stehen heute wirklich auf der
-               Höhe Ihrer Kunst – und auf der Höhe Ihres Lebens&#8239;–; und au<unclear>f</unclear>
+               Sie, <rs type="person" ref="#pmb12498">Georg Reimers</rs> stehen heute wirklich auf der
+               Höhe Ihrer Kunst – und auf der Höhe Ihres Lebens –; und au<unclear>f</unclear>
                der gleichen Höhe hoffen wir Sie noch lange Jahre sehen und bewundern zu dürfen.</p>
             <p rend="inline">Mit den wärmsten Glückwünschen<lb/>Ihr</p>
             <p rend="right">Arthur Schnitzler</p>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb12498">
+               <persName>
+                  <forename>Georg</forename>
+                  <surname>Reimers</surname>
+               </persName>
+               <birth>
+                  <date when="1860-04-04">04.04.1860</date>
+                  <settlement ref="pmb1259">
+                     <placeName type="pref">Altona</placeName>
+                     <location>
+                        <geo>53,5725 9,8262</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1936-04-15">15.04.1936</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19139</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/11641488X</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12498.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12498/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12498</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp52080</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x002840e8</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1505717</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Georg_Reimers</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb30205">
+               <title>Komödie der Verführung. In drei Akten</title>
+               <title type="werk_link">https://www.schnitzler-edition.net/genetisch?openWorkInfo=10049#werkinfo-10049</title>
+               <title type="werk_arbeitstitel">Der Verführer</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date notBefore="1924-01-01" when="1924-07-01">1924</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.23</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/38146</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30205.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30205/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30205</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30205.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb62510">
+               <title>[An Georg Reimers]</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1925-09-01">1925-09-01</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/62510/</idno>
+               <note type="work_kind">Brief &gt;&gt; Öffentlicher Brief</note>
+            </bibl>
+            <bibl xml:id="pmb62506">
+               <title>Georg Reimers. Festschrift zu seinem vierzigjährigen Burgtheaterjubiläum</title>
+               <author ref="pmb2121" role="hat-einen-beitrag-geschaffen-zu">Schnitzler, Arthur</author>
+               <author ref="pmb10815" role="hat-einen-beitrag-geschaffen-zu">Bahr, Hermann</author>
+               <date>1925-09-01</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/62506/</idno>
+               <note type="work_kind">Festschrift</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb36247">
+               <orgName>Burgtheater</orgName>
+               <orgName type="alternative-name">Burgtheater GmbH</orgName>
+               <desc type="entity_type">Theater</desc>
+               <desc type="entity_type_id">1012</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb51.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36789/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51010/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2775259/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb51</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb51</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb14">Burgtheater</placeName>
+                  <geo>48,210333 16,361139</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb14.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/14/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb14</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb14.html</idno>
+                  <idno type="URL" subtype="geonames">https://www.geonames.org/6354992/</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb44649">Schlosstheater Schönbrunn</placeName>
+                  <geo>48,186667 16,3125</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44649/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb44649</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2244724</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Schlosstheater_Sch%C3%B6nbrunn</idno>
+               </location>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/38633-9</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36247/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36247</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb36247</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q308720</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Burgtheater</idno>
+               <note type="apis_dates">
+                  <date notBefore="1852-01-01" when="1852-07-01">1852</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

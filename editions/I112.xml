@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I112">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="I112">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#58498">[Franz Goldstein]: Eine Morgenstunde bei Arthur
-               Schnitzler, 4.&#8239;1.&#8239;1928</title>
-            <author ref="#5295">Goldstein, Franz</author>
+            <title level="a" ref="#pmb58498">[Franz Goldstein]: Eine Morgenstunde bei Arthur
+               Schnitzler, 4. 1. 1928</title>
+            <author ref="#pmb5295">Goldstein, Franz</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -28,15 +30,15 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#5295">[Franz Goldstein]</author>
-                     <title level="a" ref="#58498">Eine Morgenstunde bei Arthur Schnitzler. Kein
+                     <author ref="#pmb5295">[Franz Goldstein]</author>
+                     <title level="a" ref="#pmb58498">Eine Morgenstunde bei Arthur Schnitzler. Kein
                         Interview</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#58513">Buch- und Kunstrevue. Gratisbeilage der
+                     <title level="j" ref="#pmb58513">Buch- und Kunstrevue. Gratisbeilage der
                         »Wirtschaftskorrespondenz für Polen«</title>
                      <imprint>
-                        <date when="1928-01-04" n="1">4.&#8239;1.&#8239;1928</date>
+                        <date when="1928-01-04" n="1">4. 1. 1928</date>
                      </imprint>
                      <biblScope unit="pp">[1]</biblScope>
                   </monogr>
@@ -58,37 +60,35 @@
    <text type="text">
       <body>
          <div type="original">
-            <head>Eine Morgenstunde bei <rs type="person" ref="#2121">Arthur Schnitzler</rs>.</head>
+            <head>Eine Morgenstunde bei <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>.</head>
             <head type="sub">
                <hi rend="spaced_out">Kein</hi> Interview</head>
-            <p>Sylvestermorgen, 10° unter Null, strahlende Sonne und blauer Himmel über <rs
-                  type="place" ref="#50">Wien</rs>. Von <rs type="place" ref="#63">Hietzing</rs>
-               schweift der Blick über hügelige Landschaft, man könnte wähnen, in den <rs
-                  type="place" ref="#58500">Harz</rs> versetzt zu sein. Die Luft ist klar, wie in
-               den Bergen. Von der wunderschönen Villa des Dichters im <anchor type="commentary" xml:id="K_I112-77"/><rs type="place" ref="#533"
-                  >Währinger Cottage</rs><note type='commentary' xml:id="K_I112-77h"><ref type="pointer" target="#I013_L_cottage"></ref></note>, mitten im Park, aus, sieht das unbewehrte Auge bis zum
-                  <rs type="place" ref="#189">Semmering</rs>.</p>
-            <p>In diesen Zeitläuften hat <rs type="person" ref="#2121">Arthur Schnitzler</rs> Sinn
+            <p>Sylvestermorgen, 10° unter Null, strahlende Sonne und blauer Himmel über <rs type="place" ref="#pmb50">Wien</rs>. Von <rs type="place" ref="#pmb63">Hietzing</rs>
+               schweift der Blick über hügelige Landschaft, man könnte wähnen, in den <rs type="place" ref="#pmb58500">Harz</rs> versetzt zu sein. Die Luft ist klar, wie in
+               den Bergen. Von der wunderschönen Villa des Dichters im <anchor type="commentary" xml:id="K_I112-77"/>
+               <rs type="place" ref="#pmb533">Währinger Cottage</rs>
+               <note type="commentary" xml:id="K_I112-77h">
+                  <ref type="pointer" target="#I013_L_cottage"/>
+               </note>, mitten im Park, aus, sieht das unbewehrte Auge bis zum
+                  <rs type="place" ref="#pmb189">Semmering</rs>.</p>
+            <p>In diesen Zeitläuften hat <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> Sinn
                und Bild des Dichters zu wahren gewußt, wie kaum ein anderer. Der herrliche Kopf, aus
                dem im Gespräch ein <anchor type="commentary" xml:id="K_I112-123"/>blaues
-                  Augenpaar<note type="commentary" xml:id="K_I112-123h"><ref target="#L_I102_augen"
-                     type="pointer"/></note> das Gegenüber durchleuchtet, wie die Sonnenstrahlen in
+                  Augenpaar<note type="commentary" xml:id="K_I112-123h">
+                  <ref target="#L_I102_augen" type="pointer"/>
+               </note> das Gegenüber durchleuchtet, wie die Sonnenstrahlen in
                zwei Fjorden wiederstrahlen, erschiene verehrungswürdig, selbst wenn man nichts
-               wüßte, wer <rs type="person" ref="#2121">Arthur Schnitzler</rs> ist.</p>
-            <p>Ob man von der <rs type="place" ref="#49137" subtype="implied">oberschlesischen
-                     <anchor type="commentary" xml:id="K_I112-1"/>Heimat<note type="commentary"
-                     xml:id="K_I112-1h">Sein Geburtsort war <rs type="place" ref="#49137"
-                        >Katowice</rs>.</note>
-               </rs> erzählt oder der Dichter sich im Anschluß an die Lektüre der <rs type="work"
-                  ref="#58510">Tagebücher</rs>
+               wüßte, wer <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> ist.</p>
+            <p>Ob man von der <rs type="place" ref="#pmb49137" subtype="implied">oberschlesischen
+                     <anchor type="commentary" xml:id="K_I112-1"/>Heimat<note type="commentary" xml:id="K_I112-1h">Sein Geburtsort war <rs type="place" ref="#pmb49137">Katowice</rs>.</note>
+               </rs> erzählt oder der Dichter sich im Anschluß an die Lektüre der <rs type="work" ref="#pmb58510">Tagebücher</rs>
                <space unit="chars" quantity="1"/>
-               <rs type="person" ref="#11673">Theodor Herzl</rs>’s erinnert, Persönliches mitteilt
+               <rs type="person" ref="#pmb11673">Theodor Herzl</rs>’s erinnert, Persönliches mitteilt
                und wie stets bedeutsam urteilt, ob er die Bewunderung für sein neuestes Werk, das
-               man vor wenigen Tagen dankbar empfing, das weise »<rs type="work" ref="#30053">
+               man vor wenigen Tagen dankbar empfing, das weise »<rs type="work" ref="#pmb30053">
                   <hi rend="spaced_out">Buch der Sprüche und Bedenken</hi>
                </rs>« wahrhaft rührend bescheiden, wie es nur das Genie sein kann, fast schüchtern
-               abwehrt, wie er sprühend und in jugendlichem Feuer über <rs type="person" ref="#8049"
-                  >James Joyce</rs>, die Dinge des Theaters handelt und auf Bitten von eigenen
+               abwehrt, wie er sprühend und in jugendlichem Feuer über <rs type="person" ref="#pmb8049">James Joyce</rs>, die Dinge des Theaters handelt und auf Bitten von eigenen
                Plänen berichtet, wie er teil hat an allem, was uns bewegt, das ist menschlich so
                groß und erschütternd, daß es mir als inferior erschiene, ein Interview daraus zu
                schleimen.</p>
@@ -97,13 +97,346 @@
          </div>
          <div type="biographical">
             <div1>
-               <ref type="schnitzlerDiary" target="1927-12-31"/>
-               <quote>Vm. Dr. <rs type="person" ref="#5295">Goldstein</rs> aus <rs type="place"
-                     ref="#49137">Kattowitz</rs>, Herausgeber der <rs type="org" ref="#29333"
-                     >Kattowitzer Zeitung</rs>; literar. beflissener und respektvoll herzlicher
+               <ref type="schnitzler-tagebuch" target="1927-12-31"/>
+               <quote>Vm. Dr. <rs type="person" ref="#pmb5295">Goldstein</rs> aus <rs type="place" ref="#pmb49137">Kattowitz</rs>, Herausgeber der <rs type="org" ref="#pmb29333">Kattowitzer Zeitung</rs>; literar. beflissener und respektvoll herzlicher
                   junger Mann.</quote>
             </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb5295">
+               <persName>
+                  <forename>Franz</forename>
+                  <surname>Goldstein</surname>
+               </persName>
+               <persName type="legacy-name-merge">Goldstein, Franz</persName>
+               <birth>
+                  <date when="1898-12-09">1898-12-09</date>
+                  <settlement ref="pmb49137">
+                     <placeName type="pref">Katowice</placeName>
+                     <location>
+                        <geo>50,25841 19,02754</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1982-07-02" notAfter="1982-12-31">1982</date>
+                  <settlement ref="pmb5297">
+                     <placeName type="pref">Jerusalem</placeName>
+                     <location>
+                        <geo>31,76904 35,21633</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116757140</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15551</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5295/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/17210/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q94881594</idno>
+            </person>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb11673">
+               <persName>
+                  <forename>Theodor</forename>
+                  <surname>Herzl</surname>
+               </persName>
+               <birth>
+                  <date when="1860-05-02">1860-05-02</date>
+                  <settlement ref="pmb43471">
+                     <placeName type="pref">Budapest</placeName>
+                     <location>
+                        <geo>47,49835 19,04045</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1904-07-03">1904-07-03</date>
+                  <settlement ref="pmb470">
+                     <placeName type="pref">Edlach</placeName>
+                     <location>
+                        <geo>47,69255 15,80915</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16165</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118550241</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11673.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11673/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11673</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11673.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11673</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp41891</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00281de3</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44003</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Theodor_Herzl</idno>
+            </person>
+            <person xml:id="pmb8049">
+               <persName>
+                  <forename>James</forename>
+                  <surname>Joyce</surname>
+               </persName>
+               <birth>
+                  <date when="1882-02-02">02.02.1882</date>
+                  <settlement ref="pmb1267">
+                     <placeName type="pref">Dublin</placeName>
+                     <location>
+                        <geo>53,3469 -6,2794</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1941-01-13">13.01.1941</date>
+                  <settlement ref="pmb484">
+                     <placeName type="pref">Zürich</placeName>
+                     <location>
+                        <geo>47,37174 8,54226</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16591</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118558501</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/8049/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8049.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q6882</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/James_Joyce</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb58510">
+               <title>Theodor Herzl’s Tagebücher. 1895–1904</title>
+               <title type="werk_link">https://sammlungen.ub.uni-frankfurt.de/freimann/urn/urn:nbn:de:hebis:30:1-146009</title>
+               <author ref="pmb11673" role="hat-geschaffen">Herzl, Theodor</author>
+               <date notBefore="1922-01-01" when="1922-07-02">1922</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58510/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb58510.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb58510</idno>
+               <note type="work_kind">Tagebuch</note>
+            </bibl>
+            <bibl xml:id="pmb30053">
+               <title>Buch der Sprüche und Bedenken</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1927-01-01">1927</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.03.02</idno>
+               <idno type="URL" subtype="literature">http://www.literature.at/viewer.alo?objid=12112</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30053.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30053/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30053</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30053.html</idno>
+               <note type="work_kind">Textsammlung &gt;&gt; Aphorismensammlung</note>
+            </bibl>
+            <bibl xml:id="pmb58498">
+               <title>Eine Morgenstunde bei Arthur Schnitzler. Kein Interview</title>
+               <author ref="pmb5295" role="hat-geschaffen">Goldstein, Franz</author>
+               <date>1928-01-04</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58498/</idno>
+               <note type="work_kind">Interview</note>
+            </bibl>
+            <bibl xml:id="pmb58513">
+               <title>Buch- und Kunstrevue. Gratisbeilage der »Wirtschaftskorrespondenz für Polen«</title>
+               <date>None</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58513/</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Zeitschrift</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+            <place xml:id="pmb63">
+               <placeName>XIII., Hietzing</placeName>
+               <placeName type="legacy-name-merge">Hietzing</placeName>
+               <desc type="entity_type">Bezirk (A.BZK)</desc>
+               <desc type="entity_type_id">25</desc>
+               <location type="coords">
+                  <geo>48,17547 16,29101</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2776420/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb63.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb63</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb63</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb63.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/102317/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4113911-2</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q636910</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hietzing</idno>
+            </place>
+            <place xml:id="pmb58500">
+               <placeName>Harz</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#T.MTS</desc>
+               <desc type="entity_type_id">1620</desc>
+               <location type="coords">
+                  <geo>51,75619 10,63462</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb151">Deutschland</placeName>
+                  <geo>51,5 10,5</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58500/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2909965/</idno>
+            </place>
+            <place xml:id="pmb533">
+               <placeName>Währinger Cottage</placeName>
+               <desc type="entity_type">Teil eines besiedelten Ortes (A.BSOX)</desc>
+               <desc type="entity_type_id">18</desc>
+               <location type="coords">
+                  <geo>48,233056 16,341944</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb68">XVIII., Währing</placeName>
+                  <geo>48,23333 16,31667</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb533.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/533/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb533</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1136683</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Cottageviertel</idno>
+            </place>
+            <place xml:id="pmb189">
+               <placeName>Semmering</placeName>
+               <placeName type="alternative-name">Gemeinde Semmering</placeName>
+               <placeName type="alternative-name">Semmering-Semmering-Kurort</placeName>
+               <placeName type="alternative-name">Kurort Semmering</placeName>
+               <placeName type="alternative-name">Semmering-Kurort</placeName>
+               <placeName type="alternative-name">Heilklimatischer Höhenluftkurort Semmering</placeName>
+               <placeName type="alternative-name">Semmering- Kurort Semmering</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>47,64224 15,8241</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/7873001/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb189.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/189/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb189</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91735/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91735.html</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4054504-0</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q659891</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Semmering_(Nieder%C3%B6sterreich)</idno>
+            </place>
+            <place xml:id="pmb49137">
+               <placeName>Katowice</placeName>
+               <placeName type="alternative-name">Kattowitz</placeName>
+               <placeName type="legacy-name-merge">Kattowiz/Katowice</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPLA</desc>
+               <desc type="entity_type_id">1415</desc>
+               <location type="coords">
+                  <geo>50,25841 19,02754</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb313">Polen</placeName>
+                  <geo>52,0 20,0</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1063/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29334/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/49137/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3096472/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb49137.html</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb29333">
+               <orgName>Kattowitzer Zeitung</orgName>
+               <desc type="entity_type">Tageszeitungsredaktion</desc>
+               <desc type="entity_type_id">972</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb49137">Katowice</placeName>
+                  <geo>50,25841 19,02754</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1063/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29334/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/49137/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/3096472/</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb49137.html</idno>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29333.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29333/</idno>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

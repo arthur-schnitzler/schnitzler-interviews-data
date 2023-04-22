@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="P141">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="P141">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#60625">An den Morgen, nicht abgeschickt, Dezember 1910</title>
-            <author ref="#2121">Schnitzler, Arthur</author>
+            <title level="a" ref="#pmb60625">An den Morgen, nicht abgeschickt, Dezember 1910</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -61,19 +63,16 @@
             <p rend="right">
                <date>Dezember 910</date>
             </p>
-            <head>(An den <rs type="org" ref="#29398">Morgen</rs>)</head>
+            <head>(An den <rs type="org" ref="#pmb29398">Morgen</rs>)</head>
             <head type="sub">nicht abg.–</head>
             <p>Sie sind so freundlich mich aufzufordern auf die verschiedenen Erläuterungen meines
                Werks eine eigene Darstellung meiner Auffassungen in Ihrem Blatte zu veröffentlichen.
                Leider <subst>
                   <del rend="strikethrough">kann</del>
                   <add place="inline">vermag</add>
-               </subst> ich <add place="above">nicht</add> dieser Aufforderung <del
-                  rend="strikethrough">nicht</del> Folge leisten. Dass ein <hi rend="underline"
-                  n="1">Autor nach einer Premiere die Verlockung spürt sich gegen kritische
+               </subst> ich <add place="above">nicht</add> dieser Aufforderung <del rend="strikethrough">nicht</del> Folge leisten. Dass ein <hi rend="underline" n="1">Autor nach einer Premiere die Verlockung spürt sich gegen kritische
                   Aeusserungen aufzulehnen</hi> ist gewiss ein<add place="inline">e</add> ebenso
-                  häufige<del rend="strikethrough">r</del> als natürliche<del rend="strikethrough"
-                  >r</del>
+                  häufige<del rend="strikethrough">r</del> als natürliche<del rend="strikethrough">r</del>
                <space unit="chars" quantity="1"/>
                <subst>
                   <del rend="strikethrough">Vorgang</del>
@@ -94,8 +93,7 @@
                </subst>. Da es ja sein Beruf, ja fast seine Standesehre erfordert das letzte Wort zu
                behalten, während es wieder der Beruf des Autors ist neue Werke zu schreiben. An
                dieser vortrefflichen Einteilung sollte meines Erachtens nichts geändert werden.</p>
-            <p>Noch begreiflicher ist der Kitzel ungenaue oder falsche Darstellungen zu bericht<add
-                  place="inline">ig</add>en. Doch auch hievon hält sich der Dichter besser zurück.
+            <p>Noch begreiflicher ist der Kitzel ungenaue oder falsche Darstellungen zu bericht<add place="inline">ig</add>en. Doch auch hievon hält sich der Dichter besser zurück.
                Denn Unwahrheiten auch auf diesem Gebiete haben ein so kurzes Leben, dass <subst>
                   <del rend="strikethrough">kein</del>
                   <add place="above">kaum je ein</add>
@@ -116,16 +114,12 @@
                   <del rend="strikethrough">Rezensionen</del>
                   <add place="above">Kritik</add>
                </subst> im allgemeinen <hi rend="underline" n="1">nicht</hi> weiter als bis an die
-                  <hi rend="underline" n="1">Nerven des Autors</hi>. Und auch diese <add
-                  place="above">Wirkung</add> wird umso geringer sein je mehr <subst>
+                  <hi rend="underline" n="1">Nerven des Autors</hi>. Und auch diese <add place="above">Wirkung</add> wird umso geringer sein je mehr <subst>
                   <del rend="strikethrough">er</del>
                   <add place="above">der Autor</add>
-               </subst> von der Wahrheit des <rs type="person" ref="#12816">Speidel</rs>’schen
-               Satzes durchdrungen ist: Dass <pb/>ein <anchor type="commentary" xml:id="P141-1"
-               />Feuilleton die Unsterblichkeit eines Tages<note type="commentary" xml:id="P141-1h"
-                  >Der Satz fiel auf einem Bankett anlässlich von <rs type="person" ref="#12816"
-                     >Ludwig Speidel</rs>s 70. Geburtstag. In seiner Dankesrede, gehalten am
-                     <date>17.&#8239;4.&#8239;1900</date>, endete er mit: »<quote>Das Feuilleton ist
+               </subst> von der Wahrheit des <rs type="person" ref="#pmb12816">Speidel</rs>’schen
+               Satzes durchdrungen ist: Dass <pb/>ein <anchor type="commentary" xml:id="P141-1"/>Feuilleton die Unsterblichkeit eines Tages<note type="commentary" xml:id="P141-1h">Der Satz fiel auf einem Bankett anlässlich von <rs type="person" ref="#pmb12816">Ludwig Speidel</rs>s 70. Geburtstag. In seiner Dankesrede, gehalten am
+                     <date>17. 4. 1900</date>, endete er mit: »<quote>Das Feuilleton ist
                      die Unsterblichkeit eines Tages</quote>«.</note> bedeute. Und da die
                Unsterblichkeit eines Theaterstücks, selbst im Falle eines Misserfolgs, länger zu
                währen pflegt, so ist der Autor noch immer besser dran als der Rezensent, was ja <subst>
@@ -143,8 +137,7 @@
                innewohnt. Es gibt kaum etwas Gespenstischeres als der Aufzug längst verstorbener
                Kritiken über noch lebendige Theaterstücke. <add place="above">Dies nur
                   nebenbei.</add>- Jedenfalls finde ich <add place="inline">daß</add> bei so
-               eminenten Vorteil<add place="inline">en</add> des Autors gegenüber dem Kritiker <del
-                  rend="strikethrough">kann</del> jener wohl <subst>
+               eminenten Vorteil<add place="inline">en</add> des Autors gegenüber dem Kritiker <del rend="strikethrough">kann</del> jener wohl <subst>
                   <del rend="strikethrough">das Eine</del>
                   <add place="above">die eine Misslichkeit</add>
                </subst> auf sich nehmen <add place="above">sollte, auch</add> in solchen Fällen zu
@@ -160,5 +153,118 @@
             </p>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb12816">
+               <persName>
+                  <forename>Ludwig</forename>
+                  <surname>Speidel</surname>
+               </persName>
+               <birth>
+                  <date when="1830-04-11">1830-04-11</date>
+                  <settlement ref="pmb39966">
+                     <placeName type="pref">Ulm</placeName>
+                     <location>
+                        <geo>48,39841 9,99155</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1906-02-03">1906-02-03</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20243</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117482684</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12816.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12816/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12816</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb12816</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49331</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1875043</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ludwig_Speidel</idno>
+               <idno type="URL" subtype="dx">https://dx.doi.org/10.1553/0x0001e2ea</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284caa</idno>
+            </person>
+         </listPerson>
+         <listOrg>
+            <org xml:id="pmb29398">
+               <orgName>Der Morgen. Wiener Montagsblatt</orgName>
+               <orgName type="werk_link">http://anno.onb.ac.at/cgi-content/anno?apm=0&amp;aid=dmo</orgName>
+               <desc type="entity_type">Zeitschriftenredaktion</desc>
+               <desc type="entity_type_id">973</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29398.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29398/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb29398</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q58323774</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_Morgen._Wiener_Montagblatt</idno>
+               <note type="apis_dates">
+                  <date from="1910-01-01" to="1938-07-02">1910  – 1938</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

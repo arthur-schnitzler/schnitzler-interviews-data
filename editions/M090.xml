@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" 
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
      xml:id="M090">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#58384">Ein Brief Arthur Schnitzlers an eine Nürnbergerin,
-               29.&#8239;10.&#8239;1931</title>
-            <author ref="#2121">Schnitzler, Arthur</author>
+            <title level="a" ref="#pmb58384">Ein Brief Arthur Schnitzlers an eine Nürnbergerin,
+               29. 10. 1931</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -29,13 +30,13 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title level="a" ref="#58384">Ein Brief Arthur Schnitzlers an eine
+                     <title level="a" ref="#pmb58384">Ein Brief Arthur Schnitzlers an eine
                         Nürnbergerin</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#58386">Nürnberger Anzeiger</title>
+                     <title level="j" ref="#pmb58386">Nürnberger Anzeiger</title>
                      <imprint>
-                        <date when="1931-10-29" n="1">29.&#8239;10.&#8239;1931</date>
+                        <date when="1931-10-29" n="1">29. 10. 1931</date>
                      </imprint>
                      <biblScope unit="nr">254</biblScope>
                   </monogr>
@@ -58,33 +59,35 @@
       <body>
          <div type="original">
             <head>Ein Brief Arthur Schnitzlers an eine Nürnbergerin</head>
-            <p>Gar mancher, der Schnitzlers »<rs type="work" ref="#29935">Anatol</rs>« gelesen hat,
+            <p>Gar mancher, der Schnitzlers »<rs type="work" ref="#pmb29935">Anatol</rs>« gelesen hat,
                wunderte sich über die den 7 modernen Szenen vorausgeschickte <anchor type="commentary" xml:id="K_implied_30967"/>
-               <rs type="work" ref="#30967">Einleitung</rs>
-               <note type="commentary" xml:id="K_implied_30967h">Die <rs type="work" ref="#30967">Einleitung</rs> hatte <rs type="person" ref="#11740">Hugo von
-                     Hofmannsthal</rs> unter dem Pseudonym <rs type="person" ref="#11740">Loris</rs>
-                  beigesteuert.</note> von <rs type="person" ref="#11740">Loris Hofmannsthal</rs>,
+               <rs type="work" ref="#pmb30967">Einleitung</rs>
+               <note type="commentary" xml:id="K_implied_30967h">Die <rs type="work" ref="#pmb30967">Einleitung</rs> hatte <rs type="person" ref="#pmb11740">Hugo von
+                     Hofmannsthal</rs> unter dem Pseudonym <rs type="person" ref="#pmb11740">Loris</rs>
+                  beigesteuert.</note> von <rs type="person" ref="#pmb11740">Loris Hofmannsthal</rs>,
                die, als reines Rokokostimmungsbild, so wenig zu diesen realistischen Begebenheiten
                aus unseren Tagen zu passen scheint. Dies Problem beschäftigte auch vor vielen Jahren
                eine jugendliche Verehrerin des Dichters und – ungeniert wie die Jungen nun einmal
-               sind – setzte sie sich hin und fragte bei <rs type="person" ref="#2121">Schnitzler</rs> ganz einfach nach den Motiven dieser Zusammenstellung an, die sie
+               sind – setzte sie sich hin und fragte bei <rs type="person" ref="#pmb2121">Schnitzler</rs> ganz einfach nach den Motiven dieser Zusammenstellung an, die sie
                sich trotz allen Grübelns nicht erklären könne. Hier die postwendend eingelaufene,
                eigenhändig geschriebene Antwort, die hiemit zum ersten Male veröffentlicht wird:</p>
-            <p><space dim="vertical" quantity="1" unit="paragraphs"/></p>
+            <p>
+               <space dim="vertical" quantity="1" unit="paragraphs"/>
+            </p>
             <p rend="inline">Verehrtes Fräulein, grübeln Sie nicht weiter. Der Zusammenhang zwischen
-               dem Einleitungsgedicht von <rs type="person" ref="#11740">Loris</rs> und den sieben
-               Szenen des <rs type="work" ref="#29935">Anatol</rs> ist ein ganz loser, in einer
-               Stimmung begründeter. Vielleicht könnte man sagen: wenn der <rs type="work" ref="#29935">Anatol</rs> vor 100 Jahren geschrieben worden wäre sollte man ihn in
-               den von <rs type="person" ref="#11740">Loris</rs> gedichteten
+               dem Einleitungsgedicht von <rs type="person" ref="#pmb11740">Loris</rs> und den sieben
+               Szenen des <rs type="work" ref="#pmb29935">Anatol</rs> ist ein ganz loser, in einer
+               Stimmung begründeter. Vielleicht könnte man sagen: wenn der <rs type="work" ref="#pmb29935">Anatol</rs> vor 100 Jahren geschrieben worden wäre sollte man ihn in
+               den von <rs type="person" ref="#pmb11740">Loris</rs> gedichteten
                   Angaben spielen. Aber auch das ist schon zu grob ausgedrückt
                und daher kaum wahr. Vielleicht würden Sie auch einen Zusammenhang spüren, wenn Sie
-               sich einmal in <rs type="place" ref="#21799">Schönbrunn</rs>, dem Park bei <rs type="place" ref="#50">Wien</rs>, auf eine der steinernen Bänke setzten und
-               beispielsweise »<rs type="work" ref="#30159">Agonie</rs>« läsen. Aber wenn Sie einmal
+               sich einmal in <rs type="place" ref="#pmb21799">Schönbrunn</rs>, dem Park bei <rs type="place" ref="#pmb50">Wien</rs>, auf eine der steinernen Bänke setzten und
+               beispielsweise »<rs type="work" ref="#pmb30159">Agonie</rs>« läsen. Aber wenn Sie einmal
                auf so einer Bank sitzen werden, haben Sie hoffentlich was Gescheiteres zu tun.</p>
             <p rend="inline">Vielmals grüßend</p>
             <p rend="right">Arthur Schnitzler.</p>
             <p rend="inline">
-               <rs type="place" ref="#50">
+               <rs type="place" ref="#pmb50">
                   <hi rend="spaced_out">Wien</hi>
                </rs>
                <hi rend="spaced_out">, </hi>
@@ -93,14 +96,211 @@
                </date>
                <hi rend="spaced_out">.</hi>
             </p>
-            <p><space dim="vertical" quantity="1" unit="paragraphs"/></p>
+            <p>
+               <space dim="vertical" quantity="1" unit="paragraphs"/>
+            </p>
             <p>Beglückt hob die Empfängerin diesen Brief auf; als sie viele Jahre später einmal nach
-                  <rs type="place" ref="#50">Wien</rs> reiste, da nahm sie den <rs type="work" ref="#29935">Anatol</rs> mit und las, auf einer steinernen Bank im <rs type="place" ref="#21799">Schönbrunner Park</rs> sitzend, den ganzen Band durch.
+                  <rs type="place" ref="#pmb50">Wien</rs> reiste, da nahm sie den <rs type="work" ref="#pmb29935">Anatol</rs> mit und las, auf einer steinernen Bank im <rs type="place" ref="#pmb21799">Schönbrunner Park</rs> sitzend, den ganzen Band durch.
                Und obwohl sie keine Dichterin war, spürte sie leise den inneren Zusammenhang
-               zwischen <rs type="person" ref="#11740">Loris</rs>’ Kavalieren des <hi rend="antiqua">
-                  <anchor type="textConst" xml:id="T_I090-1"/>ancien<note type="textConst" xml:id="T_I090-1h"><quote>ancien</quote></note> regime</hi>
-               und <rs type="person" ref="#2121">Schnitzler</rs>s modernem Helden.</p>
+               zwischen <rs type="person" ref="#pmb11740">Loris</rs>’ Kavalieren des <hi rend="antiqua">
+                  <anchor type="textConst" xml:id="T_I090-1"/>ancien<note type="textConst" xml:id="T_I090-1h">
+                     <quote>ancien</quote>
+                  </note> regime</hi>
+               und <rs type="person" ref="#pmb2121">Schnitzler</rs>s modernem Helden.</p>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb11740">
+               <persName>
+                  <forename>Hugo von</forename>
+                  <surname>Hofmannsthal</surname>
+               </persName>
+               <persName type="person_pseudonym">Loris</persName>
+               <persName type="person_pseudonym">Theophil Morren</persName>
+               <persName type="namensvariante">Hofmannsthal, Hugo</persName>
+               <birth>
+                  <date when="1874-02-01">1874-02-01</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1929-07-15">1929-07-15</date>
+                  <settlement ref="pmb173">
+                     <placeName type="pref">Rodaun</placeName>
+                     <location>
+                        <geo>48,132793312328 16,256152195922</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16293</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118552759</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11740.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11740/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11740</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11740</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46353</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00281a55</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q51513</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hugo_von_Hofmannsthal</idno>
+               <idno type="URL" subtype="dx">https://dx.doi.org/10.1553/0x0001d1cc</idno>
+               <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_42.html</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11740.html</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb29935">
+               <title>Anatol</title>
+               <title type="werk_bibliografische-angabe">Arthur Schnitzler: Anatol. Berlin: Bibliographisches Bureau 1892, vordatiert auf 1893</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <author ref="pmb28645" role="hat-illustriert">Coschell, Moritz</author>
+               <author ref="pmb11740" role="hat-ein-vorwortnachwort-verfasst-zu">Hofmannsthal, Hugo von</author>
+               <date>1892-10-29</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.03</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q487409</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-anatol</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/32630</idno>
+               <idno type="URL" subtype="deutschestextarchiv">http://www.deutschestextarchiv.de/book/view/schnitzler_anatol_1893</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29935.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29935/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29935</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29935.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Anatol_(Schauspiel)</idno>
+               <note type="work_kind">Drama &gt;&gt; Einakterzyklus</note>
+            </bibl>
+            <bibl xml:id="pmb30967">
+               <title>Einleitung</title>
+               <title type="person_pseudonym">Loris</title>
+               <author ref="pmb11740" role="hat-unter-pseudonym-geschrieben">Hofmannsthal, Hugo von</author>
+               <date when="1892-01-01">1892</date>
+               <idno type="URL" subtype="deutschestextarchiv">http://www.deutschestextarchiv.de/book/view/schnitzler_anatol_1893?p=13</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30967.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30967/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30967</idno>
+               <note type="work_kind">Gedicht</note>
+            </bibl>
+            <bibl xml:id="pmb30159">
+               <title>Agonie</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1892-01-01">1892</date>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/30731</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30159.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30159/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30159</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30159.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Einakter</note>
+            </bibl>
+            <bibl xml:id="pmb58384">
+               <title>Ein Brief Arthur Schnitzlers an eine Nürnbergerin</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1931-10-29">1931-10-29</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58384/</idno>
+               <note type="work_kind">Zeitungsbericht</note>
+            </bibl>
+            <bibl xml:id="pmb58386">
+               <title>Nürnberger Anzeiger</title>
+               <date from="1923-01-01" to="1931-07-02">1923  – 1931</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58386/</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb21799">
+               <placeName>Schloß Schönbrunn</placeName>
+               <placeName type="legacy-name-merge">Wien-Schönbrunn</placeName>
+               <placeName type="legacy-name-merge">Schönbrunn</placeName>
+               <desc type="entity_type">Schloss (K.SLS)</desc>
+               <desc type="entity_type_id">41</desc>
+               <location type="coords">
+                  <geo>48,18479 16,31227</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb63">XIII., Hietzing</placeName>
+                  <geo>48,17547 16,29101</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/21799/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb21799</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb21799</idno>
+            </place>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

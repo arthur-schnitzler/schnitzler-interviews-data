@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I118">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="I118">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#58867">Haagen [Falkenfleth]: Arthur Schnitzler i København.&#8239;En
+            <title level="a" ref="#pmb58867">Haagen [Falkenfleth]: Arthur Schnitzler i København. En
                Samtale med den berømte østerrigkse Forfatter, 11. 5. 1923</title>
-            <author ref="#16086">Falkenfleth, Haagen</author>
+            <author ref="#pmb16086">Falkenfleth, Haagen</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -28,14 +30,14 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#16086">Falkenfleth, Haagen</author>
-                     <title level="a" ref="#58867">Arthur Schnitzler i København. En Samtale med den
+                     <author ref="#pmb16086">Falkenfleth, Haagen</author>
+                     <title level="a" ref="#pmb58867">Arthur Schnitzler i København. En Samtale med den
                         berømte østerrigkse Forfatter</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#58869">Nationaltidene</title>
+                     <title level="j" ref="#pmb58869">Nationaltidene</title>
                      <imprint>
-                        <date when="1923-05-11" n="3">11.&#8239;5.&#8239;1923</date>
+                        <date when="1923-05-11" n="3">11. 5. 1923</date>
                      </imprint>
                      <biblScope unit="pp">6–7</biblScope>
                   </monogr>
@@ -61,94 +63,77 @@
                <graphic url="./images/1923_nationaltidene.jpg" width="5cm"/>
             </figure>
             <caption>
-               <rs type="person" ref="#2121">Arthur Schnitzler</rs>
+               <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>
             </caption>
          </div>
          <div type="original" xml:lang="dk-DK">
             <head>
-               <rs type="person" ref="#2121">Arthur Schnitzler</rs> i <rs type="place" ref="#36300"
-                  >København</rs>.</head>
-            <head type="sub">En Samtale med den berømte <rs type="place" ref="#41240"
-                  >østerrigske</rs> Forfatter.</head>
-            <p>De er velkommen paa Hotel <rs type="place" ref="#58094">Phøniks</rs> om en Time,
-               sagde den <rs type="place" ref="#41240">østerrigske</rs> Forfatter, <rs type="person"
-                  ref="#2121">
+               <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> i <rs type="place" ref="#pmb36300">København</rs>.</head>
+            <head type="sub">En Samtale med den berømte <rs type="place" ref="#pmb41240">østerrigske</rs> Forfatter.</head>
+            <p>De er velkommen paa Hotel <rs type="place" ref="#pmb58094">Phøniks</rs> om en Time,
+               sagde den <rs type="place" ref="#pmb41240">østerrigske</rs> Forfatter, <rs type="person" ref="#pmb2121">
                   <hi rend="italics">Arthur Schnitzler</hi>
-               </rs>, da han i Aftes steg ud af Toget fra <rs type="place" ref="#168">Berlin</rs>,
-               hvor han havde gjort et Par Dages Ophold paa Vejen hertil fra <rs type="place"
-                  ref="#50">Wien</rs>.</p>
-            <p>Han sagde det til alle dem, der var mødt paa <rs type="place" ref="#58656"
-                  subtype="implied">Banegaarden</rs> for at hilse paa ham – til Forfatterforeningens
-               Formand, <rs type="person" ref="#12251">
+               </rs>, da han i Aftes steg ud af Toget fra <rs type="place" ref="#pmb168">Berlin</rs>,
+               hvor han havde gjort et Par Dages Ophold paa Vejen hertil fra <rs type="place" ref="#pmb50">Wien</rs>.</p>
+            <p>Han sagde det til alle dem, der var mødt paa <rs type="place" ref="#pmb58656" subtype="implied">Banegaarden</rs> for at hilse paa ham – til Forfatterforeningens
+               Formand, <rs type="person" ref="#pmb12251">
                   <hi rend="italics">Sophus Michaëlis</hi>
-               </rs>, til Næstformanden i <rs type="org" ref="#29482">Studentersamfundets</rs>
-               Bestyrelse, cand. mag. <rs type="person" ref="#58959">
+               </rs>, til Næstformanden i <rs type="org" ref="#pmb29482">Studentersamfundets</rs>
+               Bestyrelse, cand. mag. <rs type="person" ref="#pmb58959">
                   <hi rend="italics">Huus</hi>
                </rs> og til Journalisterne; og paa Slaget Otte samledes i hans Hotelværelse et helt
-               lille Selskab med <rs type="org" ref="#29482">Studentersamfundets</rs> Formand,
-               Professor <rs type="person" ref="#17793">
+               lille Selskab med <rs type="org" ref="#pmb29482">Studentersamfundets</rs> Formand,
+               Professor <rs type="person" ref="#pmb17793">
                   <hi rend="italics">L. L. Hammerich</hi>
-               </rs> og <rs type="person" subtype="implied" ref="#17789">Frue</rs> i Spidsen. <rs
-                  type="person" ref="#17789" subtype="implied">Fruen</rs> bragte <rs type="person"
-                  ref="#2121">Schnitzler</rs> en stor Buket frisk udsprungne Grene som en Hilsen fra
+               </rs> og <rs type="person" subtype="implied" ref="#pmb17789">Frue</rs> i Spidsen. <rs type="person" ref="#pmb17789" subtype="implied">Fruen</rs> bragte <rs type="person" ref="#pmb2121">Schnitzler</rs> en stor Buket frisk udsprungne Grene som en Hilsen fra
                den danske Bøgeskov, hvortil han smilende sagde, at nu kom Skoven til ham, og i
                Morgen vilde han aflægge den et Genbesøg.</p>
             <p>– Og jeg glæder mig til Gensynet med den, sagde han – for det er tredie Gang jeg er
-               her i <rs type="place" ref="#43570">Danmark</rs>, og jeg kender baade <rs
-                  type="place" ref="#958">Skodsborg</rs> og <rs type="place" ref="#959"
-                  >Marienlyst</rs>. Jeg har endogsaa gjort Udflugter til <rs type="place"
-                  ref="#36140">Hveen</rs> og <rs type="place" ref="#58871">Kullen</rs>, og jeg
-               husker maaske allerbedst <rs type="place" ref="#44252">Gilleleje</rs>. Nu trænger jeg
-               haardt til Ro og vil snarest derop i <rs type="place" ref="#1154">Nordsjællands</rs>
-               Skove – forhaabentlig venter der mig ingen Festligheder her i <rs type="place"
-                  ref="#36300">København</rs>.</p>
+               her i <rs type="place" ref="#pmb43570">Danmark</rs>, og jeg kender baade <rs type="place" ref="#pmb958">Skodsborg</rs> og <rs type="place" ref="#pmb959">Marienlyst</rs>. Jeg har endogsaa gjort Udflugter til <rs type="place" ref="#pmb36140">Hveen</rs> og <rs type="place" ref="#pmb58871">Kullen</rs>, og jeg
+               husker maaske allerbedst <rs type="place" ref="#pmb44252">Gilleleje</rs>. Nu trænger jeg
+               haardt til Ro og vil snarest derop i <rs type="place" ref="#pmb1154">Nordsjællands</rs>
+               Skove – forhaabentlig venter der mig ingen Festligheder her i <rs type="place" ref="#pmb36300">København</rs>.</p>
             <p>Man gjorde ham opmærksom paa, at der er et helt stort Program for hans Besøg her,
                skønt det kun kommer til at vare fem, seks Dage. I Morgen, Lørdag, skal han læse op
-               af sine Værker i <rs type="org" ref="#29482">Studentersamfundet</rs>, hvis Gæst han
-               er. <rs type="org" ref="#58975">Forfatterforeningen</rs> vil lave en Frokost til Ære
-               for ham. Det <rs type="place" ref="#1079">kgl. Teater</rs> vil give hans Lystspil,
-                  »<rs type="work" ref="#31429">Den store Scene</rs>«, og han er indbudt til at
+               af sine Værker i <rs type="org" ref="#pmb29482">Studentersamfundet</rs>, hvis Gæst han
+               er. <rs type="org" ref="#pmb58975">Forfatterforeningen</rs> vil lave en Frokost til Ære
+               for ham. Det <rs type="place" ref="#pmb1079">kgl. Teater</rs> vil give hans Lystspil,
+                  »<rs type="work" ref="#pmb31429">Den store Scene</rs>«, og han er indbudt til at
                overvære Opførelsen, som finder Sted paa Tirsdag paa hans enogtres Aars Fødselsdag –
                kort sagt, der bliver ikke megen Fred.</p>
             <p>– Og jeg, som netop troede, jeg skulde undgaa denne Fødselsdag ved at rejse bort fra
-                  <rs type="place" ref="#50">Wien</rs>! udbrød han. Det er ikke morsomt at holde
+                  <rs type="place" ref="#pmb50">Wien</rs>! udbrød han. Det er ikke morsomt at holde
                Fødselsdag, naar man bliver ældre. Men Taler og egentlige Fester slipper jeg dog vel
                for! Jeg er det modsatte af et festligt Menneske.</p>
             <p>Men jeg er under alle Omstændigheder glad for, at jeg er kommet herop. Jeg har altid
-               følt mig draget mod Norden, langt mere end mod <rs type="place" ref="#40306"
-                  >Italien</rs> og de andre sydlige Lande. Heroppe befinder jeg mig vel – om det er
+               følt mig draget mod Norden, langt mere end mod <rs type="place" ref="#pmb40306">Italien</rs> og de andre sydlige Lande. Heroppe befinder jeg mig vel – om det er
                Luften, eller hvad det er, véd jeg ikke, men blot jeg kom ind paa det danske
-               Gesandtskabskontor i <rs type="place" ref="#50">Wien</rs> for at faa ordnet mit Pas,
+               Gesandtskabskontor i <rs type="place" ref="#pmb50">Wien</rs> for at faa ordnet mit Pas,
                fik jeg denne Følelse af Velbehag. Nu, efter Krigen, kommer der ogsaa det til, at her
                er en Fristat – et Sted, hvor man kan aande roligt. Jeg har ogsaa mange Venner
                her.</p>
-            <p>En af de bedste, <rs type="person" ref="#2357">
+            <p>En af de bedste, <rs type="person" ref="#pmb2357">
                   <hi rend="italics">Peter Nansen</hi>
                </rs>, som jeg følte mig i aandeligt Slægtskab med, er jo desværre død. Personlig har
                jeg ikke været meget sammen med ham; men jeg satte stor Pris paa ham, og hans Bøger
                var nogle af de første Bud, jeg fik fra den nye Litteratur.</p>
             <p>– Havde De ikke selv skrevet en Del, da De læste hans første Bøger? spurgte vi.</p>
-            <p>– Skrevet havde jeg nok, men der var ikke udkommet noget videre af mig, svarede <rs
-                  type="person" ref="#2121">Schnitzler</rs>. Jeg var ikke helt ung, over tredive
+            <p>– Skrevet havde jeg nok, men der var ikke udkommet noget videre af mig, svarede <rs type="person" ref="#pmb2121">Schnitzler</rs>. Jeg var ikke helt ung, over tredive
                Aar, da jeg traadte frem for Offentligheden som Forfatter. Forinden var jeg Læge – og
-               det er jeg da paa en Maade stadig, ligesom min <rs type="person" subtype="implied"
-                  ref="#12695">Fader</rs> og min <rs type="person" ref="#2473" subtype="implied"
-                  >Bedstefader</rs> var det, og som min <rs type="person" subtype="implied"
-                  ref="#12698">Broder</rs> og min <rs type="person" ref="#2284">Svoger</rs> og flere
+               det er jeg da paa en Maade stadig, ligesom min <rs type="person" subtype="implied" ref="#pmb12695">Fader</rs> og min <rs type="person" ref="#pmb2473" subtype="implied">Bedstefader</rs> var det, og som min <rs type="person" subtype="implied" ref="#pmb12698">Broder</rs> og min <rs type="person" ref="#pmb2284">Svoger</rs> og flere
                af mine Slægtninge er det. Vi danner en hel Lægefamilie, og jeg har aldrig
                fuldstændig sluppet Medicinen.</p>
             <p>– Hvorfor skriver De Deres Bøger? spurgte en af Gæsterne.</p>
-            <p>– Det er meget svært at svare paa, smilte <rs type="person" ref="#2121"
-                  >Schnitzler</rs>. – Bevidst skriver jeg ingen Tendensbøger, der har noget bestemt
+            <p>– Det er meget svært at svare paa, smilte <rs type="person" ref="#pmb2121">Schnitzler</rs>. – Bevidst skriver jeg ingen Tendensbøger, der har noget bestemt
                Formaal. Jeg skriver for at skildre Mennesker og forme Skikkelser. Undertiden kan det
                ikke undgaas, at mine egne Meninger og Anskuelser kommer frem i det, disse Skikkelser
                siger og foretager sig – men jeg gør dem ikke bevidst til Talerør for mine
                Anskuelser, hverken naar jeg skriver Romaner eller Skuespil.</p>
             <p>– De har heller ikke ladet Dem inspirere direkte af Krigen eller af den sørgelige
                Tid, der er fulgt efter den, til noget Værk?</p>
-            <p>– Nej, svarede <rs type="person" ref="#2121">Schnitzler</rs> alvorligt – det har jeg
-               ikke, skønt jeg har opholdt mig i <rs type="place" ref="#50">Wien</rs> hele Tiden.
-               Først i Fjor var jeg en Tur i <rs type="place" ref="#44016">Holland</rs>.</p>
+            <p>– Nej, svarede <rs type="person" ref="#pmb2121">Schnitzler</rs> alvorligt – det har jeg
+               ikke, skønt jeg har opholdt mig i <rs type="place" ref="#pmb50">Wien</rs> hele Tiden.
+               Først i Fjor var jeg en Tur i <rs type="place" ref="#pmb44016">Holland</rs>.</p>
             <p>Jeg selv har intet lidt og kan ikke klage; men det har været tungt at se paa de
                andre, især paa Middelstanden. Arbejderne har ikke lidt saa meget – paa enkelte
                Punkter har de endogsaa forbedret deres Kaar – men den store Mellemklasse af
@@ -157,15 +142,15 @@
             <p>En vis Udvikling har Omvæltningerne dog nok ført med sig.</p>
             <p>– Ogsaa i Litteraturen? spurgte vi.</p>
             <p>
-               <rs type="person" ref="#2121">Schnitzler</rs>s kloge og meget bevægelige Ansigt med
+               <rs type="person" ref="#pmb2121">Schnitzler</rs>s kloge og meget bevægelige Ansigt med
                de store, smukke og regelmæssige Træk, som er indrammede af et kraftigt Kunstnerhaar
                og et graasprængt, busket Skæg, fortrak sig i en lille ironisk Grimace:</p>
             <p>– Litteraturen har ikke haft det godt i Tiden efter Krigens Udbrud. Naar Folk køber
-               Bøger nu i <rs type="place" ref="#50">Wien</rs>, er det – selv om der naturligvis
+               Bøger nu i <rs type="place" ref="#pmb50">Wien</rs>, er det – selv om der naturligvis
                findes mange Undtagelser – mest for de flotte Bogbinds Skyld; og naar de gaar i
                Teatret, er det for at more sig og vise sig. Det rigtigt dannede Publikum har ikke
                Raad til den Slags – i det højeste til at sidde oppe i Galeriet.</p>
-            <p>Der fortælles i <rs type="place" ref="#50">Wien</rs> Historier om de »nye Rige«, som
+            <p>Der fortælles i <rs type="place" ref="#pmb50">Wien</rs> Historier om de »nye Rige«, som
                kommer ind hos Boghandleren, ser paa Luksusbindene og siger: »Vil De sende mig den
                Række«. De køber Bøger ligesom andet Møbeludstyr til deres Leilighed. Og der
                fortælles om Tilskuere, som medbringer Øl, de trækker op og drikker i en Loge i
@@ -179,29 +164,27 @@
             <p>– Hvilke af Deres Skrifter læser De op her?</p>
             <p>– Programmet er endnu ikke endelig fastsat. Jeg tænker, at jeg læser et Par Timer,
                med en Pause iberegnet. Det plejer jeg; og som Regel begynder jeg med en Novelle, saa
-               kommer en Enakter fra »<rs type="work" ref="#29935">Anatole</rs>«-Serien og tilsidst
+               kommer en Enakter fra »<rs type="work" ref="#pmb29935">Anatole</rs>«-Serien og tilsidst
                et Par mindre Fortællinger.</p>
             <p>– De har megen Øvelse i at læse op?</p>
-            <p>– I <rs type="place" ref="#50">Wien</rs> har jeg ofte læst op for Arbejderne og i
+            <p>– I <rs type="place" ref="#pmb50">Wien</rs> har jeg ofte læst op for Arbejderne og i
                andre folkeoplysende Foreninger. Undertiden har jeg ogsaa givet offentlige
                Oplæsningsaftener dér – men det er ellers mest paa Rejser, jeg oplæser de af mine
                Ting, der egner sig til det.</p>
             <p>
-               <rs type="person" ref="#2121">Arthur Schnitzler</rs> er sikkert en dygtig Oplæser. Vi
+               <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> er sikkert en dygtig Oplæser. Vi
                fik et Begreb om, hvordan han læser, da han, før vi tog Afsked, fortalte, at hans
                store Koffert og en lille Toilettekoffert var blevet stjaalet fra hans aflaasede
-               Hotelværelse i <rs type="place" ref="#168">Berlin</rs>.</p>
+               Hotelværelse i <rs type="place" ref="#pmb168">Berlin</rs>.</p>
             <p>– Jeg kan som en anden Sherlock Holmes se det hele for mig – hvordan Tyven har baaret
                sig ad, sagde han smilende – for han har haft saa travlt, at han ikke havde faaet et
                Par af mine Ejendele med, som stod paa den anden Side af Døren. Han har ialt kun haft
                ti Sekunder til at tage Kofferterne og fjerne sig med dem. Han har aabnet med en
                falsk Nøgle, stukket Haanden ind saadan –!</p>
-            <p>Og saa fremstillede <rs type="person" ref="#2121">Schnitzler</rs> hele Tyveriet som
+            <p>Og saa fremstillede <rs type="person" ref="#pmb2121">Schnitzler</rs> hele Tyveriet som
                paa et Teater, morsomt og levende.</p>
             <p>– I Morgen Formiddag maa jeg ud og købe nye Klæder og Toilettesager, lo han – for jeg
-               maa vaskes og klædes om før Oplæsningen. Hvorledes faar jeg Tid til at komme til <rs
-                  type="place" ref="#958">Skodsborg</rs>, <rs type="place" ref="#959"
-                  >Marienlyst</rs>, <rs type="place" ref="#44252">Gilleleje</rs>, alle de skønne
+               maa vaskes og klædes om før Oplæsningen. Hvorledes faar jeg Tid til at komme til <rs type="place" ref="#pmb958">Skodsborg</rs>, <rs type="place" ref="#pmb959">Marienlyst</rs>, <rs type="place" ref="#pmb44252">Gilleleje</rs>, alle de skønne
                Steder, jeg har skildret i flere af mine Bøger, og som jeg glæder mig saa meget til
                at fornye Bekendtskabet med!</p>
             <p rend="right">
@@ -209,97 +192,80 @@
          </div>
          <div type="translation">
             <head>
-               <rs type="person" ref="#2121">Arthur Schnitzler</rs> in <rs type="place" ref="#36300"
-                  >Kopenhagen</rs>.</head>
-            <head type="sub">Ein Gespräch mit dem berühmten <rs type="place" ref="#41240"
-                  >österreichischen</rs> Schriftsteller.</head>
-            <p>In einer Stunde sind Sie im <rs type="place" ref="#58094">Hotel Phönix</rs>
-               willkommen, sagte der <rs type="place" ref="#41240">österreichische</rs>
-               Schriftsteller <rs type="person" ref="#2121">Arthur Schnitzler</rs>, als er gestern
-               abend aus dem Zug aus <rs type="place" ref="#168">Berlin</rs> stieg, wo er sich auf
-               dem Weg aus <rs type="place" ref="#50">Wien</rs> hierher einige Tage aufgehalten
+               <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> in <rs type="place" ref="#pmb36300">Kopenhagen</rs>.</head>
+            <head type="sub">Ein Gespräch mit dem berühmten <rs type="place" ref="#pmb41240">österreichischen</rs> Schriftsteller.</head>
+            <p>In einer Stunde sind Sie im <rs type="place" ref="#pmb58094">Hotel Phönix</rs>
+               willkommen, sagte der <rs type="place" ref="#pmb41240">österreichische</rs>
+               Schriftsteller <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>, als er gestern
+               abend aus dem Zug aus <rs type="place" ref="#pmb168">Berlin</rs> stieg, wo er sich auf
+               dem Weg aus <rs type="place" ref="#pmb50">Wien</rs> hierher einige Tage aufgehalten
                hatte.</p>
-            <p>Er sagte das zu allen, die sich am <rs type="place" ref="#58656" subtype="implied"
-                  >Bahnhof</rs> eingefunden hatten, um ihn zu begrüßen – zum Vorsitzenden der
-               Schriftstellervereinigung <rs type="person" ref="#12251">Sophus Michaëlis</rs>, zum
-               stellvertretenden Vorsitzenden der <rs type="org" ref="#29482"
-                  >Studentenvereinigung</rs>, cand. mag. <rs type="person" ref="#58959">Huus</rs>
+            <p>Er sagte das zu allen, die sich am <rs type="place" ref="#pmb58656" subtype="implied">Bahnhof</rs> eingefunden hatten, um ihn zu begrüßen – zum Vorsitzenden der
+               Schriftstellervereinigung <rs type="person" ref="#pmb12251">Sophus Michaëlis</rs>, zum
+               stellvertretenden Vorsitzenden der <rs type="org" ref="#pmb29482">Studentenvereinigung</rs>, cand. mag. <rs type="person" ref="#pmb58959">Huus</rs>
                und zu den Journalisten; und um Schlag acht Uhr versammelte sich in seinem
-               Hotelzimmer eine kleine Runde mit dem Vorsitzenden der <rs type="org" ref="#29482"
-                  >Studentenvereinigung</rs> Professor <rs type="person" ref="#17793">L. L.
-                  Hammerich</rs> und seiner <anchor type="commentary" xml:id="K_I118-118"/><rs
-                  type="person" ref="#17789" subtype="implied">Frau</rs><note type="commentary"
-                  xml:id="K_I118-118h"><rs type="person" ref="#17789">Clara Augusta
-                  Hammerich</rs></note> an der Spitze. Die <rs type="person" ref="#17789"
-                  subtype="implied">Frau</rs> brachte <rs type="person" ref="#2121">Schnitzler</rs>
-               ein Bukett frisch gesprießter Zweige als Gruß aus dem <rs type="place" ref="#43570"
-                  >dänischen</rs> Buchenwald, wozu er lächelnd sagte, dass nun der Wald zu ihm käme,
+               Hotelzimmer eine kleine Runde mit dem Vorsitzenden der <rs type="org" ref="#pmb29482">Studentenvereinigung</rs> Professor <rs type="person" ref="#pmb17793">L. L.
+                  Hammerich</rs> und seiner <anchor type="commentary" xml:id="K_I118-118"/>
+               <rs type="person" ref="#pmb17789" subtype="implied">Frau</rs>
+               <note type="commentary" xml:id="K_I118-118h">
+                  <rs type="person" ref="#pmb17789">Clara Augusta
+                  Hammerich</rs>
+               </note> an der Spitze. Die <rs type="person" ref="#pmb17789" subtype="implied">Frau</rs> brachte <rs type="person" ref="#pmb2121">Schnitzler</rs>
+               ein Bukett frisch gesprießter Zweige als Gruß aus dem <rs type="place" ref="#pmb43570">dänischen</rs> Buchenwald, wozu er lächelnd sagte, dass nun der Wald zu ihm käme,
                und er morgen einen Gegenbesuch abstatten werde.</p>
             <p>– Und ich freue mich auf ein Wiedersehen mit ihm, sagte er – denn das ist mein
-                  <anchor type="commentary" xml:id="K_I118-1"/>drittes Mal<note type="commentary"
-                  xml:id="K_I118-1h">nach <date>1896</date> und <date>1906</date>
-               </note> hier in <rs type="place" ref="#43570">Dänemark</rs>, und ich kenne sowohl <rs
-                  type="place" ref="#958">Skodsborg</rs> als auch <rs type="place" ref="#959"
-                  >Marienlyst</rs>. Ich habe auch Ausflüge nach <rs type="place" ref="#36140"
-                  >Hveen</rs> und <rs type="place" ref="#58871">Kullen</rs> gemacht, und vielleicht
-               am besten erinnere ich mich an <rs type="place" ref="#44252">Gilleleje</rs>. Nun
-               brauche ich dringend Ruhe und möchte baldigst hinauf in die Wälder <rs type="place"
-                  ref="#1154">Nordseelands</rs> – hoffentlich erwarten mich keine Festlichkeiten
-               hier in <rs type="place" ref="#36300">Kopenhagen</rs>.</p>
+                  <anchor type="commentary" xml:id="K_I118-1"/>drittes Mal<note type="commentary" xml:id="K_I118-1h">nach <date>1896</date> und <date>1906</date>
+               </note> hier in <rs type="place" ref="#pmb43570">Dänemark</rs>, und ich kenne sowohl <rs type="place" ref="#pmb958">Skodsborg</rs> als auch <rs type="place" ref="#pmb959">Marienlyst</rs>. Ich habe auch Ausflüge nach <rs type="place" ref="#pmb36140">Hveen</rs> und <rs type="place" ref="#pmb58871">Kullen</rs> gemacht, und vielleicht
+               am besten erinnere ich mich an <rs type="place" ref="#pmb44252">Gilleleje</rs>. Nun
+               brauche ich dringend Ruhe und möchte baldigst hinauf in die Wälder <rs type="place" ref="#pmb1154">Nordseelands</rs> – hoffentlich erwarten mich keine Festlichkeiten
+               hier in <rs type="place" ref="#pmb36300">Kopenhagen</rs>.</p>
             <p>Man machte ihn aufmerksam, dass ein ganz großes Programm für seinen Besuch anstünde,
                obwohl dieser nur fünf, sechs Tage dauern würde. Morgen, Samstag, wird er als Gast
-               der <rs type="org" ref="#29482">Studentenvereinigung</rs> aus seinen Werken lesen.
-               Die <rs type="org" ref="#58975">Schriftstellervereinigung</rs> wird zu seinen Ehren
-               ein <anchor type="commentary" xml:id="K_I118-11"/>Mittagessen<note type="commentary"
-                  xml:id="K_I118-11h">aus <rs type="person" ref="#2121">Schnitzler</rs>s Sicht ein
-                  Frühstück, <ref target="1923-05-13" type="schnitzlerDiary" subtype="cf"/>
-               </note> abhalten. Das <rs type="place" ref="#1079">königliche Theater</rs> wird sein
-               Lustspiel »<rs type="work" ref="#31429">Große Szene</rs>« geben, und er ist
+               der <rs type="org" ref="#pmb29482">Studentenvereinigung</rs> aus seinen Werken lesen.
+               Die <rs type="org" ref="#pmb58975">Schriftstellervereinigung</rs> wird zu seinen Ehren
+               ein <anchor type="commentary" xml:id="K_I118-11"/>Mittagessen<note type="commentary" xml:id="K_I118-11h">aus <rs type="person" ref="#pmb2121">Schnitzler</rs>s Sicht ein
+                  Frühstück, <ref target="1923-05-13" type="schnitzler-tagebuch" subtype="cf"/>
+               </note> abhalten. Das <rs type="place" ref="#pmb1079">königliche Theater</rs> wird sein
+               Lustspiel »<rs type="work" ref="#pmb31429">Große Szene</rs>« geben, und er ist
                eingeladen, der Aufführung am Dienstag, seinem einundsechzigsten Geburtstag,
                beizuwohnen – kurz gesagt, es bleibt nicht viel Friede.</p>
             <p>– Und ich, der ich gerade dachte, ich könne diesem Geburtstag entgehen, indem ich aus
-                  <rs type="place" ref="#50">Wien</rs> fortreise! rief er aus. Es ist nicht lustig,
+                  <rs type="place" ref="#pmb50">Wien</rs> fortreise! rief er aus. Es ist nicht lustig,
                Geburtstag zu feiern, wenn man älter wird. Aber Reden und eigentlichen Feiern entgehe
                ich doch! Ich bin das Gegenteil eines feierlichen Menschen.</p>
             <p>Aber ich bin unter allen Umständen darüber froh, dass ich gerade hier herauf gekommen
-               bin. Der Norden hat mich immer angezogen, viel mehr als <rs type="place" ref="#40306"
-                  >Italien</rs> oder andere südliche Länder. Hier heroben geht es mir gut – ob das
+               bin. Der Norden hat mich immer angezogen, viel mehr als <rs type="place" ref="#pmb40306">Italien</rs> oder andere südliche Länder. Hier heroben geht es mir gut – ob das
                die Luft ist oder was auch immer, weiß ich nicht, aber schon beim Betreten der
-               Räumlichkeiten der <rs type="place" ref="#43570">dänischen</rs> Gesandtschaft in <rs
-                  type="place" ref="#50">Wien</rs>, um meine Passangelegenheiten zu regeln, bekam
+               Räumlichkeiten der <rs type="place" ref="#pmb43570">dänischen</rs> Gesandtschaft in <rs type="place" ref="#pmb50">Wien</rs>, um meine Passangelegenheiten zu regeln, bekam
                ich dieses Gefühl des Wohlbehagens. Nun, nach dem Krieg, kommt auch dazu, dass hier
                ein Freistaat ist – ein Ort, an dem man ruhig atmen kann. Ich habe auch viele Freunde
                hier.</p>
             <p>Einer der besten war <hi rend="italics">
-               <rs type="person" ref="#2357">Peter Nansen</rs></hi>, ich fühlte mich
+                  <rs type="person" ref="#pmb2357">Peter Nansen</rs>
+               </hi>, ich fühlte mich
                ihm geistig verwandt, er ist leider schon tot. Persönlich war ich gar nicht viel mit
                ihm zusammen; aber ich habe ihn hoch geschätzt, und seine Bücher gehörten zu den
                ersten Boten, die ich von der neuen Literatur erhielt.</p>
             <p>
                <ref type="question" target="#q068"/>– Haben Sie nicht selbst einiges geschrieben,
-               als Sie seine <anchor type="commentary" xml:id="K_I118-12"/>ersten Bücher<note
-                  type="commentary" xml:id="K_I118-12h">
-                  <rs type="person" ref="#2121">Schnitzler</rs>s Lektüre von <rs type="person"
-                     ref="#2357">Nansen</rs>s literarischem Werk vor der persönlichen Begegnung am
-                     <ref target="1896-08-03" type="schnitzlerDiary" subtype="date-only"/> lässt
+               als Sie seine <anchor type="commentary" xml:id="K_I118-12"/>ersten Bücher<note type="commentary" xml:id="K_I118-12h">
+                  <rs type="person" ref="#pmb2121">Schnitzler</rs>s Lektüre von <rs type="person" ref="#pmb2357">Nansen</rs>s literarischem Werk vor der persönlichen Begegnung am
+                     <ref target="1896-08-03" type="schnitzler-tagebuch" subtype="date-only"/> lässt
                   sich nicht bestimmen.</note> lasen? fragten wir.</p>
             <p>– Geschrieben habe ich genug, aber es war von mir nichts weiter erschienen,
-               antwortete <rs type="person" ref="#2121">Schnitzler</rs>. Ich war nicht ganz jung,
+               antwortete <rs type="person" ref="#pmb2121">Schnitzler</rs>. Ich war nicht ganz jung,
                über dreißig Jahre, als ich als Schriftsteller an die Öffentlichkeit trat. Davor war
-               ich Arzt – und das bin ich ja auf eine Art noch immer, wie es mein <rs type="person"
-                  subtype="implied" ref="#12695">Vater</rs> und mein <anchor type="commentary"
-                  xml:id="K_I118-124"/><rs type="person" ref="#2473" subtype="implied"
-                  >Großvater</rs><note type="commentary" xml:id="K_I118-124h"><rs type="person"
-                     ref="#2473">Philipp Markbreiter</rs></note> waren, und wie es mein <rs
-                  type="person" subtype="implied" ref="#12698">Bruder</rs> und mein <rs
-                  type="person" subtype="implied" ref="#2284">Schwager</rs> und mehrere meiner
+               ich Arzt – und das bin ich ja auf eine Art noch immer, wie es mein <rs type="person" subtype="implied" ref="#pmb12695">Vater</rs> und mein <anchor type="commentary" xml:id="K_I118-124"/>
+               <rs type="person" ref="#pmb2473" subtype="implied">Großvater</rs>
+               <note type="commentary" xml:id="K_I118-124h">
+                  <rs type="person" ref="#pmb2473">Philipp Markbreiter</rs>
+               </note> waren, und wie es mein <rs type="person" subtype="implied" ref="#pmb12698">Bruder</rs> und mein <rs type="person" subtype="implied" ref="#pmb2284">Schwager</rs> und mehrere meiner
                Verwandten sind. Wir bilden eine ganze Ärztefamilie, und ich bin der Medizin nie ganz
                entkommen.</p>
             <p>
                <ref type="question" target="#q069"/>– Warum schreiben Sie Ihre Bücher? fragte einer
                der Gäste.</p>
-            <p>– Das ist sehr schwer zu beantworten, lächelte <rs type="person" ref="#2121"
-                  >Schnitzler</rs>. –  Bewusst schreibe ich keine Tendenzbücher, die einen
+            <p>– Das ist sehr schwer zu beantworten, lächelte <rs type="person" ref="#pmb2121">Schnitzler</rs>. –  Bewusst schreibe ich keine Tendenzbücher, die einen
                bestimmten Zweck verfolgen. Ich schreibe, um Menschen zu schildern und Figuren zu
                formen. Manchmal lässt es sich nicht vermeiden, dass meine eigenen Meinungen und
                Anschauungen sich in dem zeigen, was diese Figuren sagen und unternehmen – aber ich
@@ -308,10 +274,9 @@
             <p>
                <ref type="question" target="#q050"/>– Der Krieg oder die darauffolgende triste Zeit
                hat sie nicht zu einem Werk inspiriert?</p>
-            <p>– Nein, antwortete <rs type="person" ref="#2121">Schnitzler</rs> ernst – das hat sie
-               nicht, obwohl ich mich die ganze Zeit in <rs type="place" ref="#50">Wien</rs>
-               aufgehalten habe. Erst letztes Jahr bin ich nach <rs type="place" ref="#44016"
-                  >Holland</rs> gereist.</p>
+            <p>– Nein, antwortete <rs type="person" ref="#pmb2121">Schnitzler</rs> ernst – das hat sie
+               nicht, obwohl ich mich die ganze Zeit in <rs type="place" ref="#pmb50">Wien</rs>
+               aufgehalten habe. Erst letztes Jahr bin ich nach <rs type="place" ref="#pmb44016">Holland</rs> gereist.</p>
             <p>Ich habe selbst nichts erlitten und kann nicht klagen; aber es war sehr schwer, die
                anderen anzusehen, besonders den Mittelstand. Die Arbeiter haben ja nicht so sehr
                gelitten – in einzelnen Punkten haben sie sogar ihre Verhältnisse verbessert – aber
@@ -321,17 +286,17 @@
             <p>
                <ref type="question" target="#q070"/>– Auch in der Literatur? fragten wir.</p>
             <p>
-               <rs type="person" ref="#2121">Schnitzler</rs>s kluges und sehr ergreifendes Gesicht
+               <rs type="person" ref="#pmb2121">Schnitzler</rs>s kluges und sehr ergreifendes Gesicht
                mit den großen, schönen und regelmäßigen Zügen, eingerahmt von kräftigem Künstlerhaar
                und einem graugesprengten buschigen Bart, verzog sich zu einer kleinen ironischen
                Grimasse:</p>
             <p>– Die Literatur hat es in den Jahren nach Kriegsausbruch nicht gut gehabt. Wenn die
-               Leute in <rs type="place" ref="#50">Wien</rs> nun Bücher kaufen, ist das – obwohl es
+               Leute in <rs type="place" ref="#pmb50">Wien</rs> nun Bücher kaufen, ist das – obwohl es
                selbstverständlich viele Ausnahmen gibt – meist wegen der hübschen Einbände; und wenn
                sie ins Theater gehen, ist das, um sich zu unterhalten und sich zu zeigen. Das
                richtig gebildete Publikum kann sich das nicht leisten – höchstens um oben in der
                Galerie zu sitzen.</p>
-            <p>In <rs type="place" ref="#50">Wien</rs> erzählt man Geschichten über die
+            <p>In <rs type="place" ref="#pmb50">Wien</rs> erzählt man Geschichten über die
                »Neureichen«, die zum Buchhändler kommen, Luxuseinbände sehen und sagen »Wollen Sie
                mir diese Reihe schicken«. Sie kaufen Bücher wie andere Möbeleinrichtungen für ihre
                Wohnung. Und man erzählt von Zuschauern, die Bier mitbringen, das sie zapfen und in
@@ -348,19 +313,18 @@
                vorlesen?</p>
             <p>– Das Programm ist noch nicht endgültig festgelegt. Ich denke, ich werde ein paar
                Stunden lesen, eine Pause eingerechnet. So handhabe ich das; und in der Regel beginne
-               ich mit einer Novelle, dann kommt ein Einakter aus der »<rs type="work" ref="#29935"
-                  >Anatol</rs>«-Reihe und schließlich ein paar kleinere Erzählungen.</p>
+               ich mit einer Novelle, dann kommt ein Einakter aus der »<rs type="work" ref="#pmb29935">Anatol</rs>«-Reihe und schließlich ein paar kleinere Erzählungen.</p>
             <p>
                <ref type="question" target="#q071"/>– Haben Sie viel Übung darin, vorzutragen?</p>
-            <p>– In <rs type="place" ref="#50">Wien</rs> habe ich oft für Arbeiter und in anderen
+            <p>– In <rs type="place" ref="#pmb50">Wien</rs> habe ich oft für Arbeiter und in anderen
                volksbildenden Vereinigungen gelesen. Manchmal habe ich auch dort öffentliche
                Vortragsabende gegeben – aber sonst ist es meist auf Reisen, dass ich jene meiner
                Sachen, die sich am besten dazu eignen, vorlese.</p>
             <p>
-               <rs type="person" ref="#2121">Arthur Schnitzler</rs> ist sicherlich ein guter
+               <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> ist sicherlich ein guter
                Vorleser. Wir bekamen eine Vorstellung davon, wie er liest, als er, bevor wir uns
                verabschiedeten, erzählte, dass sein großer Koffer und ein kleiner Toilettekoffer aus
-               seinem abgesperrten Hotelzimmer in <rs type="place" ref="#168">Berlin</rs> gestohlen
+               seinem abgesperrten Hotelzimmer in <rs type="place" ref="#pmb168">Berlin</rs> gestohlen
                worden waren.</p>
             <p>– Ich kann das Ganze wie ein zweiter Sherlock Holmes vor mir sehen – wie der Dieb
                vorgegangen ist, sagte er lächelnd – weil er es so eilig hatte, dass er ein paar
@@ -368,12 +332,11 @@
                Er hatte alles in allem nur zehn Sekunden, um die Koffer zu nehmen und sich damit zu
                entfernen. Er hat mit einem falschen Schlüssel geöffnet, die Hand hineingesteckt und
                sodann –!</p>
-            <p>Derart stellte <rs type="person" ref="#2121">Schnitzler</rs> den ganzen Diebstahl wie
+            <p>Derart stellte <rs type="person" ref="#pmb2121">Schnitzler</rs> den ganzen Diebstahl wie
                auf einem Theater dar, amüsant und lebendig.</p>
             <p>– Morgen vormittag muss ich hinaus und neue Kleider und Toilettesachen kaufen, lachte
                er – weil ich mich vor der Lesung waschen und umkleiden muss. Wie soll ich die Zeit
-               finden, nach <rs type="place" ref="#958">Skodsborg</rs>, <rs type="place" ref="#959"
-                  >Marienlyst</rs>, <rs type="place" ref="#44252">Gilleleje</rs>, all’ die schönen
+               finden, nach <rs type="place" ref="#pmb958">Skodsborg</rs>, <rs type="place" ref="#pmb959">Marienlyst</rs>, <rs type="place" ref="#pmb44252">Gilleleje</rs>, all’ die schönen
                Orte, die ich in mehreren meiner Bücher geschildert habe, zu kommen, und auf deren
                erneuerte Bekanntschaft ich mich so freue!</p>
             <p rend="right">
@@ -381,19 +344,909 @@
          </div>
          <div type="biographical">
             <div1>
-               <ref target="1923-05-10" type="schnitzlerDiary"/>
-               <quote>In <rs type="place" ref="#36300">Kopenhagen</rs> erwarten mich 4 Photogr., die
-                  mich abconterfeien,– ich fühle mich gleichgiltig gegen die Lächerlichkeit. <rs
-                     type="person" ref="#12251">Sophus Michaelis</rs> ist da, Herr <rs type="person"
-                     ref="#58959">Huus</rs> vom <rs type="org" ref="#29482">Stud. Verein</rs>, <rs
-                     type="person" ref="#26030">Thomsen</rs>; die Journalisten <rs type="person"
-                     ref="#13737">Barföd</rs>, <rs type="person" ref="#23112">Rechendorff</rs>, <rs
-                     type="person" ref="#26494">Vogel-Jörgensen</rs>, <rs type="person" ref="#16086"
-                     >Falkenfleth</rs>;– <rs type="person" ref="#58959">Huus</rs> fährt uns ins
-                  Hotel ›<rs type="place" ref="#58094">Phönix</rs>‹.– Eine halbe Stunde sind die
+               <ref target="1923-05-10" type="schnitzler-tagebuch"/>
+               <quote>In <rs type="place" ref="#pmb36300">Kopenhagen</rs> erwarten mich 4 Photogr., die
+                  mich abconterfeien,– ich fühle mich gleichgiltig gegen die Lächerlichkeit. <rs type="person" ref="#pmb12251">Sophus Michaelis</rs> ist da, Herr <rs type="person" ref="#pmb58959">Huus</rs> vom <rs type="org" ref="#pmb29482">Stud. Verein</rs>, <rs type="person" ref="#pmb26030">Thomsen</rs>; die Journalisten <rs type="person" ref="#pmb13737">Barföd</rs>, <rs type="person" ref="#pmb23112">Rechendorff</rs>, <rs type="person" ref="#pmb26494">Vogel-Jörgensen</rs>, <rs type="person" ref="#pmb16086">Falkenfleth</rs>;– <rs type="person" ref="#pmb58959">Huus</rs> fährt uns ins
+                  Hotel ›<rs type="place" ref="#pmb58094">Phönix</rs>‹.– Eine halbe Stunde sind die
                   vier Journalisten da; schmerzloses gemeinsames Interview.–</quote>
             </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb16086">
+               <persName>
+                  <forename>Haagen</forename>
+                  <surname>Falkenfleth</surname>
+               </persName>
+               <persName type="legacy-name-merge">Haagen</persName>
+               <birth>
+                  <date when="1875-02-04">04.02.1875</date>
+                  <settlement ref="pmb36300">
+                     <placeName type="pref">Kopenhagen</placeName>
+                     <location>
+                        <geo>55,67594 12,56553</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1957-12-31">1957-12-31</date>
+                  <settlement ref="pmb36300">
+                     <placeName type="pref">Kopenhagen</placeName>
+                     <location>
+                        <geo>55,67594 12,56553</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14880</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/16086/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58865/</idno>
+            </person>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb12251">
+               <persName>
+                  <forename>Sophus</forename>
+                  <surname>Michaëlis</surname>
+               </persName>
+               <birth>
+                  <date when="1865-05-14">14.05.1865</date>
+                  <settlement ref="pmb43569">
+                     <placeName type="pref">Odense</placeName>
+                     <location>
+                        <geo>55,39594 10,38831</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1932-01-28">28.01.1932</date>
+                  <settlement ref="pmb36300">
+                     <placeName type="pref">Kopenhagen</placeName>
+                     <location>
+                        <geo>55,67594 12,56553</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18142</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/130116653</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12251/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12251.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q543536</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Sophus_Micha%C3%ABlis</idno>
+            </person>
+            <person xml:id="pmb58959">
+               <persName>
+                  <forename>Hans Christian</forename>
+                  <surname>Huus</surname>
+               </persName>
+               <persName type="legacy-name-merge">Hinis</persName>
+               <birth>
+                  <date when="1893-10-11">1893-10-11</date>
+                  <settlement ref="pmb57941">
+                     <placeName type="pref">Roskilde</placeName>
+                     <location>
+                        <geo>55,64152 12,08035</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1967-01-02">1967-01-02</date>
+                  <settlement ref="pmb36300">
+                     <placeName type="pref">Kopenhagen</placeName>
+                     <location>
+                        <geo>55,67594 12,56553</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb116">Übersetzer/Übersetzerin</occupation>
+               <occupation ref="pmb247">Bibliothekar/Bibliothekarin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16205</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/18282/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58959/</idno>
+            </person>
+            <person xml:id="pmb17793">
+               <persName>
+                  <forename>Louis Leonor</forename>
+                  <surname>Hammerich</surname>
+               </persName>
+               <birth>
+                  <date when="1892-07-31">31.07.1892</date>
+                  <settlement ref="pmb36300">
+                     <placeName type="pref">Kopenhagen</placeName>
+                     <location>
+                        <geo>55,67594 12,56553</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1975-11-11">11.11.1975</date>
+                  <settlement ref="pmb58631">
+                     <placeName type="pref">Hørsholm</placeName>
+                     <location>
+                        <geo>55,88098 12,50111</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15885</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/17793/</idno>
+            </person>
+            <person xml:id="pmb17789">
+               <persName>
+                  <forename>Clara Augusta</forename>
+                  <surname>Hammerich</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Flensborg</persName>
+               <birth>
+                  <date when="1894-06-12">12.06.1894</date>
+                  <settlement ref="pmb57941">
+                     <placeName type="pref">Roskilde</placeName>
+                     <location>
+                        <geo>55,64152 12,08035</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1972-05-14">14.05.1972</date>
+                  <settlement ref="pmb61035">
+                     <placeName type="pref">Hilleröd</placeName>
+                     <location>
+                        <geo>48,46225 13,34777</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb116">Übersetzer/Übersetzerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15884</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/17789/</idno>
+            </person>
+            <person xml:id="pmb2357">
+               <persName>
+                  <forename>Peter</forename>
+                  <surname>Nansen</surname>
+               </persName>
+               <birth>
+                  <date when="1861-01-20">20.01.1861</date>
+                  <settlement ref="pmb36300">
+                     <placeName type="pref">Kopenhagen</placeName>
+                     <location>
+                        <geo>55,67594 12,56553</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1918-07-31">31.07.1918</date>
+                  <settlement ref="pmb53802">
+                     <placeName type="pref">Mariager</placeName>
+                     <location>
+                        <geo>56,64985 9,97515</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <occupation ref="pmb144">Verleger/Verlegerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116882670</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18355</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2357.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2357/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2357</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2357.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp51398</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q4349086</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Peter_Nansen</idno>
+            </person>
+            <person xml:id="pmb12695">
+               <persName>
+                  <forename>Johann</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <persName type="person_geburtsname-vorname">János</persName>
+               <birth>
+                  <date when="1835-04-10">10.04.1835</date>
+                  <settlement ref="pmb45549">
+                     <placeName type="pref">Nagykanizsa</placeName>
+                     <location>
+                        <geo>46,45347 16,99104</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1893-05-02">02.05.1893</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb132">Mediziner/Medizinerin &gt;&gt; Laryngologe/Laryngologin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19824</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116848669</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12695.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12695/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12695</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46937</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q86302</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Johann_Schnitzler</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284418</idno>
+            </person>
+            <person xml:id="pmb2473">
+               <persName>
+                  <forename>Phillip</forename>
+                  <surname>Markbreiter</surname>
+               </persName>
+               <birth>
+                  <date when="1811-01-01">01.01.1811</date>
+                  <settlement ref="pmb53814">
+                     <placeName type="pref">Rajka</placeName>
+                     <location>
+                        <geo>47,99643 17,19821</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1892-07-13">13.07.1892</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/139657037</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2473.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2473/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2473</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q55855801</idno>
+            </person>
+            <person xml:id="pmb12698">
+               <persName>
+                  <forename>Julius</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1865-07-13">13.07.1865</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1939-06-29">29.06.1939</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb364">Mediziner/Medizinerin &gt;&gt; Chirurg/Chirurgin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19827</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116848693</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12698.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12698/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12698</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp41303</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284419</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1712956</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Julius_Schnitzler_(Mediziner)</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb12698.html</idno>
+            </person>
+            <person xml:id="pmb2284">
+               <persName>
+                  <forename>Markus</forename>
+                  <surname>Hajek</surname>
+               </persName>
+               <birth>
+                  <date when="1861-11-25">25.11.1861</date>
+                  <settlement ref="pmb46727">
+                     <placeName type="pref">Vršac</placeName>
+                     <location>
+                        <geo>45,11667 21,30361</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1941-04-04">04.04.1941</date>
+                  <settlement ref="pmb224">
+                     <placeName type="pref">London</placeName>
+                     <location>
+                        <geo>51,50853 -0,12574</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <occupation ref="pmb132">Mediziner/Medizinerin &gt;&gt; Laryngologe/Laryngologin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/143163604</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15855</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2284.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2284/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2284</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp41135</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00281bd9</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q11770400</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Markus_Hajek</idno>
+            </person>
+            <person xml:id="pmb26030">
+               <persName>
+                  <forename>Niels Thingberg</forename>
+                  <surname>Thomsen</surname>
+               </persName>
+               <birth>
+                  <date when="1879-12-13">1879-12-13</date>
+                  <settlement ref="pmb58980">
+                     <placeName type="pref">Lemvig</placeName>
+                     <location>
+                        <geo>56,54856 8,31019</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1933-04-12">1933-04-12</date>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb116">Übersetzer/Übersetzerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20724</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/26030/</idno>
+            </person>
+            <person xml:id="pmb13737">
+               <persName>
+                  <forename>Viggo Andreas</forename>
+                  <surname>Barfoed</surname>
+               </persName>
+               <birth>
+                  <date when="1895-12-31">31.12.1895</date>
+                  <settlement ref="pmb47872">
+                     <placeName type="pref">Hyllested Skovgårde</placeName>
+                     <location>
+                        <geo>56,26432 10,79212</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1948-12-14">14.12.1948</date>
+                  <settlement ref="pmb58986">
+                     <placeName type="pref">Hellerup</placeName>
+                     <location>
+                        <geo>55,73204 12,57093</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13421</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/13737/</idno>
+            </person>
+            <person xml:id="pmb23112">
+               <persName>
+                  <forename>Henrik</forename>
+                  <surname>Rechendorff</surname>
+               </persName>
+               <persName type="person_pseudonym">Ucello</persName>
+               <sex value="male"/>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19084</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/23112/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58626/</idno>
+            </person>
+            <person xml:id="pmb26494">
+               <persName>
+                  <forename>Torkild</forename>
+                  <surname>Vogel-Jörgensen</surname>
+               </persName>
+               <persName type="person_pseudonym">Thor</persName>
+               <birth>
+                  <date when="1891-06-29">29.06.1891</date>
+                  <settlement ref="pmb58988">
+                     <placeName type="pref">Svendborg</placeName>
+                     <location>
+                        <geo>55,05982 10,60677</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1972-10-04">04.10.1972</date>
+                  <settlement ref="pmb58986">
+                     <placeName type="pref">Hellerup</placeName>
+                     <location>
+                        <geo>55,73204 12,57093</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20981</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/26494/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58649/</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb31429">
+               <title>Große Szene</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1915-01-01">1915</date>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/38149</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31429.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31429/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb31429</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31429.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Einakter</note>
+            </bibl>
+            <bibl xml:id="pmb29935">
+               <title>Anatol</title>
+               <title type="werk_bibliografische-angabe">Arthur Schnitzler: Anatol. Berlin: Bibliographisches Bureau 1892, vordatiert auf 1893</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <author ref="pmb28645" role="hat-illustriert">Coschell, Moritz</author>
+               <author ref="pmb11740" role="hat-ein-vorwortnachwort-verfasst-zu">Hofmannsthal, Hugo von</author>
+               <date>1892-10-29</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.03</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q487409</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-anatol</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/32630</idno>
+               <idno type="URL" subtype="deutschestextarchiv">http://www.deutschestextarchiv.de/book/view/schnitzler_anatol_1893</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29935.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29935/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29935</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29935.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Anatol_(Schauspiel)</idno>
+               <note type="work_kind">Drama &gt;&gt; Einakterzyklus</note>
+            </bibl>
+            <bibl xml:id="pmb58867">
+               <title>Arthur Schnitzler i København. En Samtale med den berømte østerrigkse Forfatter</title>
+               <author ref="pmb16086" role="hat-geschaffen">Falkenfleth, Haagen</author>
+               <date when="1923-05-11">1923-05-11</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58867/</idno>
+               <note type="work_kind">Interview</note>
+            </bibl>
+            <bibl xml:id="pmb58869">
+               <title>Nationaltidene</title>
+               <date to="1961-09-03">1876-03-18  – 1961-09-03</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58869/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q10594813</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb36300">
+               <placeName>Kopenhagen</placeName>
+               <placeName type="alternative-name">Copenhagen</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>55,67594 12,56553</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb43570">Dänemark</placeName>
+                  <geo>56,0 10,0</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1748</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb36300.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36300/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36300</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58083/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4032399-7</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64393/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2618425/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb36300</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb36300.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Kopenhagen</idno>
+            </place>
+            <place xml:id="pmb41240">
+               <placeName>Österreich</placeName>
+               <placeName type="alternative-name">Republik Österreich</placeName>
+               <placeName type="alternative-name">Republic of Austria</placeName>
+               <placeName type="legacy-name-merge">Deutsch Österreich</placeName>
+               <placeName type="legacy-name-merge">Altoesterreich</placeName>
+               <desc type="entity_type">http://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb687">Österreich-Ungarn</placeName>
+                  <geo>48,4054 16,4887</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2782113/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41240/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41240</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb41240</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92143/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92203/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92143.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92203.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb41240.html</idno>
+            </place>
+            <place xml:id="pmb58094">
+               <placeName>Hotel Phönix</placeName>
+               <desc type="entity_type">Hotel (K.HTL)</desc>
+               <desc type="entity_type_id">12</desc>
+               <location type="coords">
+                  <geo>55,68301054011226 12,588912857735648</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb36300">Kopenhagen</placeName>
+                  <geo>55,67594 12,56553</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58094/</idno>
+            </place>
+            <place xml:id="pmb168">
+               <placeName>Berlin</placeName>
+               <placeName type="alternative-name">Hauptstadt Berlin</placeName>
+               <placeName type="alternative-name">Barlīn</placeName>
+               <placeName type="alternative-name">Reichshauptstadt Berlin</placeName>
+               <placeName type="alternative-name">Berolino</placeName>
+               <placeName type="legacy-name-merge">B-n</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPLC</desc>
+               <desc type="entity_type_id">1418</desc>
+               <location type="coords">
+                  <geo>52,52437 13,41053</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb151">Deutschland</placeName>
+                  <geo>51,5 10,5</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb168</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92171.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
+            </place>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+            <place xml:id="pmb58656">
+               <placeName>Københavns Hovedbanegård</placeName>
+               <desc type="entity_type">Bahnhofsgebäude (K.BHF)</desc>
+               <desc type="entity_type_id">32</desc>
+               <location type="coords">
+                  <geo>55,6725 12,564167</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb36300">Kopenhagen</placeName>
+                  <geo>55,67594 12,56553</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58656/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1495052</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/K%C3%B8benhavns_Hovedbaneg%C3%A5rd</idno>
+               <note type="apis_dates">
+                  <date notBefore="1847-01-01" when="1847-07-02">1847</date>
+               </note>
+            </place>
+            <place xml:id="pmb43570">
+               <placeName>Dänemark</placeName>
+               <placeName type="legacy-name-merge">Denmark</placeName>
+               <placeName type="alternative-name">Kingdom of Denmark</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1411</desc>
+               <location type="coords">
+                  <geo>56,0 10,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb745">Skandinavien</placeName>
+                  <geo>63,0 25,0</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q35</idno>
+               <idno type="URL" subtype="geonames">https://www.geonames.org/2623032</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb434.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2623032/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/434/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/39525/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43570/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb43570</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb43570.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/D%C3%A4nemark</idno>
+            </place>
+            <place xml:id="pmb958">
+               <placeName>Skodsborg</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>55,8225 12,57324</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb43570">Dänemark</placeName>
+                  <geo>56,0 10,0</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q7061201</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2613685/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb958.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/958/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb958</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb958.html</idno>
+            </place>
+            <place xml:id="pmb959">
+               <placeName>Marienlyst</placeName>
+               <desc type="entity_type">Schloss (K.SLS)</desc>
+               <desc type="entity_type_id">41</desc>
+               <location type="coords">
+                  <geo>56,042028 12,601917</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb43570">Dänemark</placeName>
+                  <geo>56,0 10,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb726">Helsingør</placeName>
+                  <geo>56,03606 12,6136</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q359027</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb959.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/959/</idno>
+               <idno type="URL" subtype="geonames">https://www.geonames.org/2617052/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb959</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91213/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2617052/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb959.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Schloss_Marienlyst</idno>
+            </place>
+            <place xml:id="pmb36140">
+               <placeName>Ven</placeName>
+               <desc type="entity_type">Insel (N.INS)</desc>
+               <desc type="entity_type_id">57</desc>
+               <location type="coords">
+                  <geo>55,90806 12,69778</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb36142">Skåne</placeName>
+                  <geo>55,98333 13,5</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb44335">Schweden</placeName>
+                  <geo>62,0 15,0</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36140/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36140</idno>
+            </place>
+            <place xml:id="pmb58871">
+               <placeName>Kullen</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPL</desc>
+               <desc type="entity_type_id">1412</desc>
+               <location type="coords">
+                  <geo>55,78333 13,1</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb44335">Schweden</placeName>
+                  <geo>62,0 15,0</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58871/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2698835/</idno>
+            </place>
+            <place xml:id="pmb44252">
+               <placeName>Gilleleje</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPL</desc>
+               <desc type="entity_type_id">1412</desc>
+               <location type="coords">
+                  <geo>56,12196 12,31056</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb43570">Dänemark</placeName>
+                  <geo>56,0 10,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb1154">Seeland</placeName>
+                  <geo>55,504444 11,817222</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2687297</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1153/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44252/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2621471/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb44252</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb44252.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Gilleleje</idno>
+            </place>
+            <place xml:id="pmb1154">
+               <placeName>Seeland</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>55,504444 11,817222</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb43570">Dänemark</placeName>
+                  <geo>56,0 10,0</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2613979/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1154/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb1154</idno>
+            </place>
+            <place xml:id="pmb1079">
+               <placeName>Det Kongelige Teater</placeName>
+               <desc type="entity_type">Theater (K.THE)</desc>
+               <desc type="entity_type_id">4</desc>
+               <location type="coords">
+                  <geo>55,679629 12,586002</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb36300">Kopenhagen</placeName>
+                  <geo>55,67594 12,56553</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1079/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb1079</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q607681</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Det_Kongelige_Teater</idno>
+            </place>
+            <place xml:id="pmb40306">
+               <placeName>Italien</placeName>
+               <placeName type="alternative-name">Italian Republic</placeName>
+               <placeName type="alternative-name">Republic of Italy</placeName>
+               <placeName type="legacy-name-merge">Italy</placeName>
+               <desc type="entity_type">http://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>42,83333 12,83333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb468">Europa</placeName>
+                  <geo>48,69096 9,14062</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3175395/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/40306/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb40306</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb40306</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb40306.html</idno>
+            </place>
+            <place xml:id="pmb44016">
+               <placeName>Niederlande</placeName>
+               <placeName type="alternative-name">Kingdom of the Netherlands</placeName>
+               <placeName type="alternative-name">Holland</placeName>
+               <placeName type="alternative-name">The Netherlands</placeName>
+               <placeName type="legacy-name-merge">Netherlands</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1411</desc>
+               <location type="coords">
+                  <geo>52,25 5,75</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://www.geonames.org/2750405</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb188.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44016/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2750405/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/188/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35629/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb44016</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb44016.html</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb29482">
+               <orgName>Studentersamfundet</orgName>
+               <desc type="entity_type">Verein &gt;&gt; Studierenvereinigung</desc>
+               <desc type="entity_type_id">1024</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb36300">Kopenhagen</placeName>
+                  <geo>55,67594 12,56553</geo>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1748</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb36300.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36300/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36300</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58083/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4032399-7</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64393/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2618425/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb36300</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb36300.html</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Kopenhagen</idno>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29482/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29482</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q10682311</idno>
+               <note type="apis_dates">
+                  <date notBefore="1882-01-01" when="1882-07-02">1882</date>
+               </note>
+            </org>
+            <org xml:id="pmb58975">
+               <orgName>Dansk forfatterforening</orgName>
+               <desc type="entity_type">Autorenverband</desc>
+               <desc type="entity_type_id">1015</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb36300">Kopenhagen</placeName>
+                  <geo>55,67594 12,56553</geo>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1748</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb36300.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36300/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36300</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58083/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4032399-7</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64393/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2618425/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb36300</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb36300.html</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Kopenhagen</idno>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58975/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q10466695</idno>
+               <note type="apis_dates">
+                  <date notBefore="1894-01-01" when="1894-07-02">1894</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

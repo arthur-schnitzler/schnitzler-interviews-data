@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I100">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="I100">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#56444">Jób Paál: Schnitzler Artur utolsó interjuja,
-               25.&#8239;10.&#8239;1931</title>
-            <author ref="#5134">Paál, Jób</author>
+            <title level="a" ref="#pmb56444">Jób Paál: Schnitzler Artur utolsó interjuja,
+               25. 10. 1931</title>
+            <author ref="#pmb5134">Paál, Jób</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -28,13 +30,13 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#5134">Paál, Jób</author>
-                     <title level="a" ref="#56444">Schnitzler Artur utolsó interjuja</title>
+                     <author ref="#pmb5134">Paál, Jób</author>
+                     <title level="a" ref="#pmb56444">Schnitzler Artur utolsó interjuja</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#56292">Délmagyarország</title>
+                     <title level="j" ref="#pmb56292">Délmagyarország</title>
                      <imprint>
-                        <date when="1931-10-25" n="1">25.&#8239;10.&#8239;1931</date>
+                        <date when="1931-10-25" n="1">25. 10. 1931</date>
                      </imprint>
                      <biblScope unit="jg">7</biblScope>
                      <biblScope unit="nr">24[3]</biblScope>
@@ -73,70 +75,64 @@
       <body>
          <div type="original" xml:lang="hu-HU">
             <head>
-               <rs type="person" ref="#2121">Schnitzler Artur</rs> utolsó interjuja</head>
+               <rs type="person" ref="#pmb2121">Schnitzler Artur</rs> utolsó interjuja</head>
             <p>
                <hi rend="bold">
-                  <rs type="place" ref="#56501">Tátraszéplak</rs>, <date>október 22</date>.</hi>
-               Megrendülve olvasom itt <rs type="place" ref="#56501">Tátraszéplakon</rs> a szomorú
-               hirt: <rs type="person" ref="#2121">Artur Schnitzler</rs>, az emberi élet igazi
-               meglátója és mesemondója <rs type="place" ref="#50">Bécs</rs>ben hirtelen meghalt
+                  <rs type="place" ref="#pmb56501">Tátraszéplak</rs>, <date>október 22</date>.</hi>
+               Megrendülve olvasom itt <rs type="place" ref="#pmb56501">Tátraszéplakon</rs> a szomorú
+               hirt: <rs type="person" ref="#pmb2121">Artur Schnitzler</rs>, az emberi élet igazi
+               meglátója és mesemondója <rs type="place" ref="#pmb50">Bécs</rs>ben hirtelen meghalt
                Előttem áll karakterisztikus profilja és kicsiny törékeny alakja, amely ha megjelenik
-               a <rs type="place" ref="#413">semmeringi hotelben</rs>, tiszteletet váltott ki
+               a <rs type="place" ref="#pmb413">semmeringi hotelben</rs>, tiszteletet váltott ki
                mindenkiből.</p>
             <p>
-               <rs type="person" ref="#2121">Schnitzler Arturhoz</rs> szoros szálak kapcsoltak.
-               Büszke vagyok arra, hogy én voltam az első ujságiró, akinek <rs type="person"
-                  ref="#2121">Artur Schnitzler</rs> interjut adott. Az interjúról meg volt a maga
+               <rs type="person" ref="#pmb2121">Schnitzler Arturhoz</rs> szoros szálak kapcsoltak.
+               Büszke vagyok arra, hogy én voltam az első ujságiró, akinek <rs type="person" ref="#pmb2121">Artur Schnitzler</rs> interjut adott. Az interjúról meg volt a maga
                véleménye. Most, amikor a költő földi maradványai órák mulva már az enyészeté
                lesznek, megvallom: amikor papirosra vetettem azt, amit mondott, féltem, hogy
-               megneheztel rám. De nem ez történt Megjelent az <rs type="work" ref="#32943"
-                  subtype="implied">interju</rs> nyomtatásban és két nap múlva dedikált könyvet
+               megneheztel rám. De nem ez történt Megjelent az <rs type="work" ref="#pmb32943" subtype="implied">interju</rs> nyomtatásban és két nap múlva dedikált könyvet
                kapott tőle a fiam. És hetek mulva, amikor szembe találkoztunk, barátságosan
                nyujtotta felém a jobbját.</p>
             <p>– A mi beszélgetésünk – mondotta akkor – nem indult interjunak. Ön nem jegyzett és
                mégis azt irta le, amit én mondottam. Ötven esztendeig nem adtam interjut senkinek.
-               Nem haragszom érte, hogy megirta. Olvasni tudott a lelkemben és jól estek a szavai<c
-                  rendition="#dots" n="3"/>
+               Nem haragszom érte, hogy megirta. Olvasni tudott a lelkemben és jól estek a szavai<c rendition="#dots" n="3"/>
             </p>
             <p>Azóta nem láttam.</p>
             <p rend="center">*</p>
             <p>
-               <rs type="person" ref="#23635">
+               <rs type="person" ref="#pmb23635">
                   <hi rend="spaced_out">Rostler</hi>
                </rs>
-               <hi rend="spaced_out">nak</hi> hivják a <rs type="place" ref="#413">semmeringi
-                  Südbahnhotel</rs> portását, régi és meghitt barátja volt a költőnek. Ez a <rs
-                  type="person" ref="#23635">Rostler</rs> talán annyi idő óta hotelportás, mint
-               amennyi idő óta iró <rs type="person" ref="#2121">Schnitzler Artur</rs>. Szerepel a
-               költő egyik darabjában is. Évekkel ezelőtt mutatta be <rs type="place" ref="#50"
-                  >Bécsben</rs> a <rs type="org" ref="#36247">Burgtheater</rs>
+               <hi rend="spaced_out">nak</hi> hivják a <rs type="place" ref="#pmb413">semmeringi
+                  Südbahnhotel</rs> portását, régi és meghitt barátja volt a költőnek. Ez a <rs type="person" ref="#pmb23635">Rostler</rs> talán annyi idő óta hotelportás, mint
+               amennyi idő óta iró <rs type="person" ref="#pmb2121">Schnitzler Artur</rs>. Szerepel a
+               költő egyik darabjában is. Évekkel ezelőtt mutatta be <rs type="place" ref="#pmb50">Bécsben</rs> a <rs type="org" ref="#pmb36247">Burgtheater</rs>
                <space unit="chars" quantity="1"/>
-               <rs type="person" ref="#2121">Schnitzler</rs> azóta hiressé vált darabját, a »<rs
-                  type="work" ref="#30207">Das weite Land</rs>«-ot – lehet ennek vagy husz
-               esztendeje – ebben a darabban szerepel a <rs type="person" ref="#23635">Rostler</rs>
-               is, amikor a bemutató volt, a szinész róla vette a maszkját. <rs type="person"
-                  ref="#23635">Rostlert</rs> kértem meg arra, eszközöljön ki nekem egy interjut. »Én
-               nem merek <rs type="person" ref="#2121">Schnitzler Artur</rs> ur elé menni az Ön
-               kivánságával« – mondotta <rs type="person" ref="#23635">Rostler</rs> barátom, amikor
+               <rs type="person" ref="#pmb2121">Schnitzler</rs> azóta hiressé vált darabját, a »<rs type="work" ref="#pmb30207">Das weite Land</rs>«-ot – lehet ennek vagy husz
+               esztendeje – ebben a darabban szerepel a <rs type="person" ref="#pmb23635">Rostler</rs>
+               is, amikor a bemutató volt, a szinész róla vette a maszkját. <rs type="person" ref="#pmb23635">Rostlert</rs> kértem meg arra, eszközöljön ki nekem egy interjut. »Én
+               nem merek <rs type="person" ref="#pmb2121">Schnitzler Artur</rs> ur elé menni az Ön
+               kivánságával« – mondotta <rs type="person" ref="#pmb23635">Rostler</rs> barátom, amikor
                közöltem vele merész tervemet – »tudom, hogy mindent lehet kivánni tőle, csak
-               interjut nem. <anchor type="textConst" xml:id="T_T030186-1"/>Meg<note
-                  type="textConst" xml:id="T_T030186-1h"><quote>Még</quote></note> félek, hogy
-               ilyen kivánsággal elzavarom a <rs type="place" ref="#413">Südbahnhotelből</rs>.
+               interjut nem. <anchor type="textConst" xml:id="T_T030186-1"/>Meg<note type="textConst" xml:id="T_T030186-1h">
+                  <quote>Még</quote>
+               </note> félek, hogy
+               ilyen kivánsággal elzavarom a <rs type="place" ref="#pmb413">Südbahnhotelből</rs>.
                Ellenben adok egy tanácsot. Irjon neki egy levelet, udvarias ember és arra biztosan
                fog válaszolni. És a válasza is interjú lehet!« Megfogadtam a tanácsot és betettem a
-               levelet <rs type="person" ref="#2121">Artur Schnitzler</rs> fiókjába. Délre már kezem
+               levelet <rs type="person" ref="#pmb2121">Artur Schnitzler</rs> fiókjába. Délre már kezem
                között volt a válasza. Szószerint <!-- sic! -->ezt irta nekem:</p>
             <p rend="inline">»Kedves Paál Ur, nagy örömet szerezne nekem az, ha Önt személyesen
                megismerhetném, szivesen beszélgetnék el Önnel, de ennek egy feltétele van: a mi
                beszélgetésünk <hi rend="spaced_out">minden vonatkozásában</hi> csak magántermészetü
                lehet, egy interjunak még csak a gondolata is kell, hogy távol álljon Öntől. Meg
                vagyok győződve arról, hogy megért engem. Kedves levelére ez a válaszom. Szivélyesen
-               köszönti igaz hive: <rs type="person" ref="#2121">Artur Schnitzler</rs>.«</p>
-            <p>Sok dolgom volt aznap és <rs type="person" ref="#2121">Schnitzlernek</rs> vendégei
+               köszönti igaz hive: <rs type="person" ref="#pmb2121">Artur Schnitzler</rs>.«</p>
+            <p>Sok dolgom volt aznap és <rs type="person" ref="#pmb2121">Schnitzlernek</rs> vendégei
                voltak. Estére reméltem a találkozást, de az iró már délután odajött hozzám. A hotel
                vörös szalonjában, amely az ebéd utáni szieszta idején elhagyatott, ütöttem fel a
                sátorfámat. Valamilyen riportot gépeltem, amikor valaki a vállamra tette a kezét.
-               Megfordultam: <rs type="person" ref="#2121">Artur Schnitzler</rs> állt mögöttem.
+               Megfordultam: <rs type="person" ref="#pmb2121">Artur Schnitzler</rs> állt mögöttem.
                Mosolyogva mondta:</p>
             <p>– Zavarom talán?</p>
             <p>– Boldog vagyok, hogy beszélhetek önnel, hogyan is zavarna, – és önkénytelenül
@@ -155,8 +151,7 @@
             <p>Beszélgetni kezdtünk és ebből a beszélgetésből született meg ujságirói munkásságomnak
                talán legérdekesebb interjuja.</p>
             <p rend="center">*</p>
-            <p>– Tudja, miért nem adok én interjut? – kezdte a beszélgetést <rs type="person"
-                  ref="#2121">Artur Schnitzler</rs>. – Azért, mert <hi rend="spaced_out">ősz inte
+            <p>– Tudja, miért nem adok én interjut? – kezdte a beszélgetést <rs type="person" ref="#pmb2121">Artur Schnitzler</rs>. – Azért, mert <hi rend="spaced_out">ősz inte
                   interjú nincsen</hi> a világon. Háromféle interjú van. A politikusé, a szinésznő
                <!-- sic!-->, és az iróé. A <hi rend="spaced_out">politikus soha nem őszinte</hi>,
                mindig az ellenkezőjét mondja annak, amire gondol. Soha nem beszél a szivéből azért,
@@ -199,29 +194,20 @@
                nyomdagép alá, amelyiket alaposan ismerek. Az én munkám az életből és az életnek
                   készül<c rendition="#dots" n="3"/>
             </p>
-            <p>Beszélgetésünk közben érkezett hozzánk a <rs type="person" ref="#5142"
-                  subtype="implied">fiam</rs>. Reszketve autogrammot kér a mestertől. »Hány
-               esztendős vagy gyermekem« – kérdezi <rs type="person" ref="#2121">Artur
-                  Schnitzler</rs>, a gyerek bátortalanul felel: »Tizenöt<c rendition="#dots" n="3"
-               />«</p>
-            <p>Elgondolkozik<c rendition="#dots" n="3"/> »<hi rend="spaced_out">Tizenöt <c
-                     rendition="#dots" n="3"/> szép idő <c rendition="#dots" n="3"/> amikor annyi
+            <p>Beszélgetésünk közben érkezett hozzánk a <rs type="person" ref="#pmb5142" subtype="implied">fiam</rs>. Reszketve autogrammot kér a mestertől. »Hány
+               esztendős vagy gyermekem« – kérdezi <rs type="person" ref="#pmb2121">Artur
+                  Schnitzler</rs>, a gyerek bátortalanul felel: »Tizenöt<c rendition="#dots" n="3"/>«</p>
+            <p>Elgondolkozik<c rendition="#dots" n="3"/> »<hi rend="spaced_out">Tizenöt <c rendition="#dots" n="3"/> szép idő <c rendition="#dots" n="3"/> amikor annyi
                   voltam, jelentek meg az első novelláim<c rendition="#dots" n="3"/>
-               </hi> Ha hazamegyek <rs type="place" ref="#50">Bécs</rs>be, elküldöm őket neked<c
-                  rendition="#dots" n="3"/>«</p>
+               </hi> Ha hazamegyek <rs type="place" ref="#pmb50">Bécs</rs>be, elküldöm őket neked<c rendition="#dots" n="3"/>«</p>
             <p>
-               <c rendition="#dots" n="3"/> El is küldte. Meleg ajánlással a <rs type="person"
-                  ref="#5142" subtype="implied">Tizenötévesnek</rs>
+               <c rendition="#dots" n="3"/> El is küldte. Meleg ajánlással a <rs type="person" ref="#pmb5142" subtype="implied">Tizenötévesnek</rs>
                <c rendition="#dots" n="3"/>
             </p>
             <p rend="center">*</p>
             <p>Kicsiny, fehérszakálu <!-- sic!--> csodálatosan kékszemü emberke volt. Büszke arra,
-               hogy <hi rend="spaced_out">magyaraszármazása</hi>. Az öregapja <rs type="place"
-                  ref="#45549">Nagykanizsán</rs> volt asztalos. Hires ember volt a mesterségében és
-                  <rs type="person" ref="#2121">Artur Schnitzler</rs> az idén akart <rs type="place"
-                  ref="#45549">Nagykanizsra</rs> utazni. Oda, ahonnan az apja, a hires <rs
-                  type="place" ref="#50">bécs</rs>i orvos egyszer mint szegény diák elindult <rs
-                  type="place" ref="#50">Bécs</rs>nek<c rendition="#dots" n="3"/> Nagyon szerette a
+               hogy <hi rend="spaced_out">magyaraszármazása</hi>. Az öregapja <rs type="place" ref="#pmb45549">Nagykanizsán</rs> volt asztalos. Hires ember volt a mesterségében és
+                  <rs type="person" ref="#pmb2121">Artur Schnitzler</rs> az idén akart <rs type="place" ref="#pmb45549">Nagykanizsra</rs> utazni. Oda, ahonnan az apja, a hires <rs type="place" ref="#pmb50">bécs</rs>i orvos egyszer mint szegény diák elindult <rs type="place" ref="#pmb50">Bécs</rs>nek<c rendition="#dots" n="3"/> Nagyon szerette a
                   hegyeket<c rendition="#dots" n="3"/> Órákig bámult a fenyőkre és csillogó
                szemekkel nézte, mit csinálnak a fürge mókusok.</p>
             <p rend="right">
@@ -230,87 +216,74 @@
          </div>
          <div type="translation">
             <head>
-               <rs type="person" ref="#2121">Arthur Schnitzler</rs>s letztes Interview</head>
+               <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>s letztes Interview</head>
             <p>
                <hi rend="bold">
                   <anchor xml:id="K_import_114" type="commentary"/>
-                  <rs type="place" ref="#56501">Tátraszéplak</rs>
-                  <note type="commentary" xml:id="K_import_114h">Kleiner Kurort in der <rs
-                        type="place" ref="#56515">Hohen Tatra in der Slowakei</rs>. Von <rs
-                        type="person" ref="#5134">Paál</rs> wird berichtet, dass er sich außerhalb
+                  <rs type="place" ref="#pmb56501">Tátraszéplak</rs>
+                  <note type="commentary" xml:id="K_import_114h">Kleiner Kurort in der <rs type="place" ref="#pmb56515">Hohen Tatra in der Slowakei</rs>. Von <rs type="person" ref="#pmb5134">Paál</rs> wird berichtet, dass er sich außerhalb
                      der Saison Kost und Logis erschnorrte, indem er dafür positiv über das
                      jeweilige Hotel berichtete (<bibl>
-                        <publisher>Amerika Magyar Világ</publisher>, Jg.&#8239;12, Nr.&#8239;43,
-                           <date>26.&#8239;10.&#8239;1975</date>, S.&#8239;8</bibl>).</note>, <date>22. Oktober</date>
-               </hi>. Tiefbetroffen lese ich hier in <rs type="place" ref="#56501">Tátraszéplak</rs>
-               die traurige Nachricht: <rs type="person" ref="#2121">Arthur Schnitzler</rs>, der
-               wahre Kenner und Erzähler des menschlichen Lebens, ist in <rs type="place" ref="#50"
-                  >Wien</rs> plötzlich gestorben. Ich sehe vor mir sein unverwechselbares Profil,
-               seine kleine, fragile Figur, die, sooft sie sich im <rs type="place" ref="#413"
-                  subtype="implied">Semmeringer Hotel</rs> sehen ließ, rundum Ehrfurcht
+                        <publisher>Amerika Magyar Világ</publisher>, Jg. 12, Nr. 43,
+                           <date>26. 10. 1975</date>, S. 8</bibl>).</note>, <date>22. Oktober</date>
+               </hi>. Tiefbetroffen lese ich hier in <rs type="place" ref="#pmb56501">Tátraszéplak</rs>
+               die traurige Nachricht: <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>, der
+               wahre Kenner und Erzähler des menschlichen Lebens, ist in <rs type="place" ref="#pmb50">Wien</rs> plötzlich gestorben. Ich sehe vor mir sein unverwechselbares Profil,
+               seine kleine, fragile Figur, die, sooft sie sich im <rs type="place" ref="#pmb413" subtype="implied">Semmeringer Hotel</rs> sehen ließ, rundum Ehrfurcht
                erweckte.</p>
-            <p>Ich war mit <rs type="person" ref="#2121">Arthur Schnitzler</rs>
+            <p>Ich war mit <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>
                <space unit="chars" quantity="1"/>
-               <anchor xml:id="K_import_115" type="commentary"/>eng verbunden<note type="commentary"
-                  xml:id="K_import_115h">Abgesehen von dem Treffen am <date>28.&#8239;7.&#8239;1931</date> gibt
+               <anchor xml:id="K_import_115" type="commentary"/>eng verbunden<note type="commentary" xml:id="K_import_115h">Abgesehen von dem Treffen am <date>28. 7. 1931</date> gibt
                   es keinen Hinweis, dass sich die beiden kannten.</note>. Ich bin stolz darauf, der
-               erste Journalist gewesen zu sein, dem <rs type="person" ref="#2121">Arthur
+               erste Journalist gewesen zu sein, dem <rs type="person" ref="#pmb2121">Arthur
                   Schnitzler</rs> ein Interview gegeben hatte. Über die Gattung Interview hatte er
                durchaus seine vorgefertigte Meinung. Jetzt, wo in wenigen Stunden seine sterblichen
                Überreste dem Zerfall überantwortet werden, gestehe ich: Als ich zu Papier brachte,
                was er gesagt hat, hatte ich Angst, er würde mir das verargen. Dies trat aber nicht
-               ein. Das <rs type="work" ref="#32943" subtype="implied">Interview</rs> war gedruckt
-               erschienen und zwei Tage später bekam mein <anchor type="commentary"
-                  xml:id="K_I100-11"/>
-               <rs type="person" ref="#5142" subtype="implied">Sohn</rs>
+               ein. Das <rs type="work" ref="#pmb32943" subtype="implied">Interview</rs> war gedruckt
+               erschienen und zwei Tage später bekam mein <anchor type="commentary" xml:id="K_I100-11"/>
+               <rs type="person" ref="#pmb5142" subtype="implied">Sohn</rs>
                <note type="commentary" xml:id="K_I100-11h">
-                  <rs type="person" ref="#5142">János Paál</rs>
+                  <rs type="person" ref="#pmb5142">János Paál</rs>
                </note> von ihm ein <anchor type="commentary" xml:id="K_I100-1"/>
-               <rs type="work" ref="#32460" subtype="implied">Buch</rs>
+               <rs type="work" ref="#pmb32460" subtype="implied">Buch</rs>
                <note type="commentary" xml:id="K_I100-1h">
-                  <rs type="work" ref="#32460">Die Frau des Weisen</rs> (<date>1898</date>), <ref
-                     target="#K_I016-11" type="pointer"/>
-               </note> mit Widmung. Und einige Wochen später, <anchor xml:id="K_import_116"
-                  type="commentary"/>als wir uns begegneten<note type="commentary"
-                  xml:id="K_import_116h">Dieses zweite Treffen lässt sich nicht belegen.</note>,
+                  <rs type="work" ref="#pmb32460">Die Frau des Weisen</rs> (<date>1898</date>), <ref target="#K_I016-11" type="pointer"/>
+               </note> mit Widmung. Und einige Wochen später, <anchor xml:id="K_import_116" type="commentary"/>als wir uns begegneten<note type="commentary" xml:id="K_import_116h">Dieses zweite Treffen lässt sich nicht belegen.</note>,
                reichte er mir freundlich seine Rechte.</p>
             <p>– Unser Gespräch – sagte er – war ursprünglich nicht für ein Interview bestimmt. Sie
                hatten sich keine Notizen gemacht und schrieben dann trotzdem das nieder, was ich
                gesagt hatte. Fünfzig Jahre lang habe ich niemandem je ein Interview gegeben. Ich
                nehm’s Ihnen nicht übel, dass Sie das Festgehaltene veröffentlicht haben. Sie konnten
-               in meiner Seele lesen und Ihre Worte wirkten wohltuend auf mich<c rendition="#dots"
-                  n="3"/>
+               in meiner Seele lesen und Ihre Worte wirkten wohltuend auf mich<c rendition="#dots" n="3"/>
             </p>
             <p>Seither habe ich ihn nie wieder getroffen.</p>
             <p rend="center">*</p>
-            <p><rs type="person" ref="#23635">
+            <p>
+               <rs type="person" ref="#pmb23635">
                   <hi rend="spaced_out">Rostler</hi>
-               </rs> ist der Name des Portiers des <rs type="place" ref="#413">Südbahnhotels in
-                  Semmering</rs>; er war ein alter, dem Dichter nahestehender Freund. Dieser <rs
-                  type="person" ref="#23635">Rostler</rs> ist möglicherweise ebenso lange
-               Hotelportier wie <rs type="person" ref="#2121">Arthur Schnitzler</rs> Schriftsteller
+               </rs> ist der Name des Portiers des <rs type="place" ref="#pmb413">Südbahnhotels in
+                  Semmering</rs>; er war ein alter, dem Dichter nahestehender Freund. Dieser <rs type="person" ref="#pmb23635">Rostler</rs> ist möglicherweise ebenso lange
+               Hotelportier wie <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> Schriftsteller
                war. Er tritt auch in einem Bühnenstück des Dichters auf. Vor Jahren – es mag sogar
-               schon zwanzig Jahre her sein – wurde <rs type="person" ref="#2121">Schnitzler</rs>s
-               mittlerweile berühmt gewordenes Stück »<rs type="work" ref="#30207">Das weite
-                  Land</rs>« im <rs type="org" ref="#36247">Wiener Burgtheater</rs> aufgeführt; in
-               diesem Stück tritt auch <rs type="person" ref="#23635">Rostler</rs> auf. Bei der
+               schon zwanzig Jahre her sein – wurde <rs type="person" ref="#pmb2121">Schnitzler</rs>s
+               mittlerweile berühmt gewordenes Stück »<rs type="work" ref="#pmb30207">Das weite
+                  Land</rs>« im <rs type="org" ref="#pmb36247">Wiener Burgtheater</rs> aufgeführt; in
+               diesem Stück tritt auch <rs type="person" ref="#pmb23635">Rostler</rs> auf. Bei der
                Premiere diente er zur <anchor xml:id="K_import_118" type="commentary"/>Vorlage für
                die Maske des Darstellers<note type="commentary" xml:id="K_import_118h">Der
-                  Schauspieler <rs type="person" ref="#12948">Hugo Thimig</rs> reiste für die Rolle
-                  des <rs type="work" ref="#30207" subtype="implied">Rosenstock</rs> zehn Tage vor
-                  der Uraufführung auf den <rs type="place" ref="#189">Semmering</rs>, um <rs
-                     type="person" ref="#23635">Rostler</rs> besser darstellen zu können (<bibl>vgl.
-                        <rs type="work" ref="#33243">Tagebuch</rs>, <date>1.&#8239;10.&#8239;1911</date>
-                  </bibl>).</note>. Ich habe nun <rs type="person" ref="#23635">Rostler</rs>
+                  Schauspieler <rs type="person" ref="#pmb12948">Hugo Thimig</rs> reiste für die Rolle
+                  des <rs type="work" ref="#pmb30207" subtype="implied">Rosenstock</rs> zehn Tage vor
+                  der Uraufführung auf den <rs type="place" ref="#pmb189">Semmering</rs>, um <rs type="person" ref="#pmb23635">Rostler</rs> besser darstellen zu können (<bibl>vgl.
+                        <rs type="work" ref="#pmb33243">Tagebuch</rs>, <date>1. 10. 1911</date>
+                  </bibl>).</note>. Ich habe nun <rs type="person" ref="#pmb23635">Rostler</rs>
                gebeten, für mich ein Interview zu erwirken. »Ich traue mich nicht mit Ihrem Wunsch
-               vor den Herrn <rs type="person" ref="#2121">Schnitzler</rs>« – sagte mein Freund <rs
-                  type="person" ref="#23635">Rostler</rs>, als ich ihm meinen kühnen Plan erzählte
+               vor den Herrn <rs type="person" ref="#pmb2121">Schnitzler</rs>« – sagte mein Freund <rs type="person" ref="#pmb23635">Rostler</rs>, als ich ihm meinen kühnen Plan erzählte
                –, »ich weiß doch, dass man alles von ihm erbitten darf, bloß kein Interview. Ich
-               befürchte sogar, ihn mit einem solchen Wunsch am Ende noch aus dem <rs type="place"
-                  ref="#413">Südbahnhotel</rs> zu verscheuchen. Ich rate Ihnen aber etwas. Schreiben
+               befürchte sogar, ihn mit einem solchen Wunsch am Ende noch aus dem <rs type="place" ref="#pmb413">Südbahnhotel</rs> zu verscheuchen. Ich rate Ihnen aber etwas. Schreiben
                Sie ihm einen Brief; er ist ein höflicher Mensch, er wird bestimmt antworten. Und
                auch seine Antwort könnte einem Interview gleichkommen!« Ich handelte dann auch dem
-               Rat gemäß und legte den Brief ins Fach von <rs type="person" ref="#2121">Arthur
+               Rat gemäß und legte den Brief ins Fach von <rs type="person" ref="#pmb2121">Arthur
                   Schnitzler</rs> Zu Mittag hielt ich seine Antwort in der Hand. So ist der Wortlaut
                seines Briefes:</p>
             <p rend="inline">Lieber Herr Paál, es würde mich sehr freuen, Sie persönlich
@@ -318,13 +291,12 @@
                strengen Bedingung allerdings, dass unser Gespräch in jeder Hinsicht privater Natur
                sein muss. Sie dürfen gar nicht erst an ein Interview denken. Ich bin überzeugt, dass
                Sie mich hierin verstehen. Das kann ich auf Ihren netten Brief erwidern. Herzlich
-               grüßt Sie Ihr ergebener <rs type="person" ref="#2121">Arthur Schnitzler</rs>.</p>
-            <p>Ich hatte am nämlichen Tag viel zu tun und <rs type="person" ref="#2121"
-                  >Schnitzler</rs> seinerseits hatte Besuch. Ich hoffte auf ein Treffen erst zu
+               grüßt Sie Ihr ergebener <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>.</p>
+            <p>Ich hatte am nämlichen Tag viel zu tun und <rs type="person" ref="#pmb2121">Schnitzler</rs> seinerseits hatte Besuch. Ich hoffte auf ein Treffen erst zu
                Abend, aber der Schriftsteller kam bereits am Nachmittag auf mich zu. Ich richtete
                mich im zur Zeit des Nachmittagsschläfchens menschenleeren Roten Salon des Hotels ein
                und tippte an irgendeiner Reportage, als jemand seine Hand auf meine Schulter legte.
-               Ich wandte mich um. Hinter mir stand <rs type="person" ref="#2121">Arthur
+               Ich wandte mich um. Hinter mir stand <rs type="person" ref="#pmb2121">Arthur
                   Schnitzler</rs>. Lächelnd sagte er:</p>
             <p>– Störe ich Sie etwa?</p>
             <p>– Wieso denn, ich bin ja froh, Sie sprechen zu dürfen – und mechanisch griff ich nach
@@ -337,8 +309,8 @@
                zog lachend einen goldenen Bleistift aus seiner Rocktasche hervor.</p>
             <p>– Wissen Sie, <anchor xml:id="K_import_120" type="commentary"/>wie viele
                   Bleistifte<note type="commentary" xml:id="K_import_120h">Die vielen Bleistifte
-                  erwähnt auch der Portier <rs type="person" ref="#23635">Karl Rostler</rs>.
-                     (<bibl>[O. V.]: <rs type="work" ref="#56450">Wie Schnitzler seine Menschen
+                  erwähnt auch der Portier <rs type="person" ref="#pmb23635">Karl Rostler</rs>.
+                     (<bibl>[O. V.]: <rs type="work" ref="#pmb56450">Wie Schnitzler seine Menschen
                         zeichnete</rs> 14</bibl>).</note> ich besitze? Ich selbst weiß es nicht.
                In jeder meiner Taschen muss sich mindestens einer befinden.</p>
             <p>Und lächelnd zog er die Bleistifte aus seinen Hosen-, Westen- und Rocktaschen; einen
@@ -348,11 +320,9 @@
             <p>Wir fingen uns zu unterhalten an und aus diesem Gespräch entstand dann das
                möglicherweise interessanteste Interview meiner Journalistenlaufbahn.</p>
             <p rend="center">*</p>
-            <p>– Wissen Sie, warum ich nie ein Interview gebe? – fing <rs type="person" ref="#2121"
-                  >Arthur Schnitzler</rs> an. – Weil es so etwas wie ein <hi rend="spaced_out">ehrliches Interview gar
+            <p>– Wissen Sie, warum ich nie ein Interview gebe? – fing <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> an. – Weil es so etwas wie ein <hi rend="spaced_out">ehrliches Interview gar
                nicht gibt</hi>. Es gibt dreierlei Arten des Interviews. <supplied>Ab hier folgt der Text
-                  der autorisierten deutschsprachigen Veröffentlichung aus dem <rs type="work"
-                     ref="#36376">Neuen Wiener Journal</rs>
+                  der autorisierten deutschsprachigen Veröffentlichung aus dem <rs type="work" ref="#pmb36376">Neuen Wiener Journal</rs>
                   <space unit="chars" quantity="1"/>
                   <ref type="pointer" target="#I016"/>.</supplied>
                <space unit="chars" quantity="1"/>
@@ -383,47 +353,565 @@
                <gap reason="outOfScope" quantity="1" unit="lines"/> Zuerst mache ich mir meine
                Notizen, aus denen diktiere ich in die Maschine; wenn aber das Diktat fertig ist,
                dann fängt meine eigentliche Arbeit an. Ich lasse nur Menschenleben in Druck gehen,
-               die ich genau kenne. Meine Arbeit ist aus Leben für das Leben gemacht<c
-                  rendition="#dots" n="3"/>
+               die ich genau kenne. Meine Arbeit ist aus Leben für das Leben gemacht<c rendition="#dots" n="3"/>
             </p>
-            <p>Während unseres Gesprächs kam mein <rs type="person" ref="#5142" subtype="implied"
-                  >Sohn</rs> zu uns. Vor Ehrfurcht zitternd bittet er den Meister um ein Autogramm.
-               »Wie alt bist du, mein <rs type="person" ref="#5142" subtype="implied">Sohn</rs>« –
-               fragt <rs type="person" ref="#2121">Arthur Schnitzler</rs>, schüchtern antwortet das
+            <p>Während unseres Gesprächs kam mein <rs type="person" ref="#pmb5142" subtype="implied">Sohn</rs> zu uns. Vor Ehrfurcht zitternd bittet er den Meister um ein Autogramm.
+               »Wie alt bist du, mein <rs type="person" ref="#pmb5142" subtype="implied">Sohn</rs>« –
+               fragt <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>, schüchtern antwortet das
                Kind. »Fünfzehn<c rendition="#dots" n="3"/>«</p>
             <p>
-               <rs type="person" ref="#2121">Schnitzler</rs> wird nachdenklich<c rendition="#dots"
-                  n="3"/> »<hi rend="spaced_out">Fünfzehn <c rendition="#dots" n="3"/> schönes Alter <c rendition="#dots"
-                  n="3"/> als ich so jung war, sind meine ersten Novellen erschienen<c
-                  rendition="#dots" n="3"/></hi> Wenn ich wieder zu Hause in <rs type="place" ref="#50"
-                  >Wien</rs> sein werde, schicke ich dir sie zu<c rendition="#dots" n="3"/>«</p>
+               <rs type="person" ref="#pmb2121">Schnitzler</rs> wird nachdenklich<c rendition="#dots" n="3"/> »<hi rend="spaced_out">Fünfzehn <c rendition="#dots" n="3"/> schönes Alter <c rendition="#dots" n="3"/> als ich so jung war, sind meine ersten Novellen erschienen<c rendition="#dots" n="3"/>
+               </hi> Wenn ich wieder zu Hause in <rs type="place" ref="#pmb50">Wien</rs> sein werde, schicke ich dir sie zu<c rendition="#dots" n="3"/>«</p>
             <p>
                <c rendition="#dots" n="3"/> Er verschickte sie dann auch wirklich. Mit einer
-               warmherzigen Widmung an den <rs type="person" ref="#5142" subtype="implied"
-                  >Fünfzehnjährigen</rs>
+               warmherzigen Widmung an den <rs type="person" ref="#pmb5142" subtype="implied">Fünfzehnjährigen</rs>
                <c rendition="#dots" n="3"/>
             </p>
             <p rend="center">*</p>
-            <p>Er war ein kleines, weißbärtiges Männlein mit wunderbar <anchor type="commentary"
-                  xml:id="K_I100-123"/>blauen Augen<note type="commentary" xml:id="K_I100-123h"><ref
-                     target="#L_I102_augen" type="pointer"/></note>. Er war stolz auf seine
-               <hi rend="spaced_out"><rs type="place" ref="#35512">ungarische</rs> Herkunft</hi>. Sein <anchor type="commentary" xml:id="K_implied_24427"/>
-               <rs type="person" subtype="implied" ref="#24427">Großvater</rs>
+            <p>Er war ein kleines, weißbärtiges Männlein mit wunderbar <anchor type="commentary" xml:id="K_I100-123"/>blauen Augen<note type="commentary" xml:id="K_I100-123h">
+                  <ref target="#L_I102_augen" type="pointer"/>
+               </note>. Er war stolz auf seine
+               <hi rend="spaced_out">
+                  <rs type="place" ref="#pmb35512">ungarische</rs> Herkunft</hi>. Sein <anchor type="commentary" xml:id="K_implied_24427"/>
+               <rs type="person" subtype="implied" ref="#pmb24427">Großvater</rs>
                <note type="commentary" xml:id="K_implied_24427h">
-                  <rs type="person" ref="#24427">Josef Schnitzler</rs>
-               </note> war Tischler in <rs type="place" ref="#45549">Nagykanizsa</rs> und berühmt in
-               seinem Fach. <rs type="person" ref="#2121">Arthur Schnitzler</rs> wollte in diesem
-               Jahr <rs type="place" ref="#45549">Nagykanizsa</rs> aufsuchen, den Ort, woher sein
-                  <rs type="person" ref="#12695" subtype="implied">Vater</rs>, der spätere berühmte
-                  <rs type="place" ref="#50">Wien</rs>er Arzt, einst als armer Student nach <rs
-                  type="place" ref="#50">Wien</rs> aufgebrochen war<c rendition="#dots" n="3"
-                  /><space unit="chars" quantity="1"/>
-               <rs type="person" ref="#2121">Schnitzler</rs> mochte die Berge sehr<c
-                  rendition="#dots" n="3"/> Stundenlang konnte er auf die Kiefern starren und dem
+                  <rs type="person" ref="#pmb24427">Josef Schnitzler</rs>
+               </note> war Tischler in <rs type="place" ref="#pmb45549">Nagykanizsa</rs> und berühmt in
+               seinem Fach. <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> wollte in diesem
+               Jahr <rs type="place" ref="#pmb45549">Nagykanizsa</rs> aufsuchen, den Ort, woher sein
+                  <rs type="person" ref="#pmb12695" subtype="implied">Vater</rs>, der spätere berühmte
+                  <rs type="place" ref="#pmb50">Wien</rs>er Arzt, einst als armer Student nach <rs type="place" ref="#pmb50">Wien</rs> aufgebrochen war<c rendition="#dots" n="3"/>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="#pmb2121">Schnitzler</rs> mochte die Berge sehr<c rendition="#dots" n="3"/> Stundenlang konnte er auf die Kiefern starren und dem
                Treiben der flinken Eichhörnchen zusehen.</p>
             <p rend="right">
                <hi rend="bold">Jób Paál</hi>.</p>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb5134">
+               <persName>
+                  <forename>Jób</forename>
+                  <surname>Paál</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Markus István Possel</persName>
+               <persName type="person_geburtsname_nachname">Possel</persName>
+               <persName type="legacy-name-merge">Paál, Jób</persName>
+               <birth>
+                  <date notBefore="1888-01-01" when="1888-07-01" notAfter="1888-12-31">1888</date>
+                  <settlement ref="pmb46476">
+                     <placeName type="pref">Tata</placeName>
+                     <location>
+                        <geo>47,65289 18,31838</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1962-07-02" notAfter="1962-12-31">1962</date>
+                  <settlement ref="pmb43471">
+                     <placeName type="pref">Budapest</placeName>
+                     <location>
+                        <geo>47,49835 19,04045</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/180963678</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18631</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5134/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/22411/</idno>
+            </person>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb23635">
+               <persName>
+                  <forename>Karl</forename>
+                  <surname>Rostler</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Rosenbaum</persName>
+               <birth>
+                  <date when="1872-04-20">20.04.1872</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1940-01-31">31.01.1940</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb771">Hotelportier/Hotelportierin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19410</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb23635.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/23635/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb23635</idno>
+            </person>
+            <person xml:id="pmb5142">
+               <persName>
+                  <forename>János</forename>
+                  <surname>Paál</surname>
+               </persName>
+               <birth>
+                  <date when="1916-08-24">24.08.1916</date>
+                  <settlement ref="pmb43471">
+                     <placeName type="pref">Budapest</placeName>
+                     <location>
+                        <geo>47,49835 19,04045</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="2010-03-25">25.03.2010</date>
+                  <settlement ref="pmb48369">
+                     <placeName type="pref">Dreieich</placeName>
+                     <location>
+                        <geo>50,01997 8,69611</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <occupation ref="pmb232">Psychoanalytiker/Psychoanalytikerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/132340127</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5142/</idno>
+            </person>
+            <person xml:id="pmb12948">
+               <persName>
+                  <forename>Hugo</forename>
+                  <surname>Thimig</surname>
+               </persName>
+               <birth>
+                  <date when="1854-06-16">16.06.1854</date>
+                  <settlement ref="pmb866">
+                     <placeName type="pref">Dresden</placeName>
+                     <location>
+                        <geo>51,0833 13,7666</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1944-09-24">24.09.1944</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20714</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/11875713X</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12948.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12948/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12948</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46351</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x0031110b</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q73355</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hugo_Thimig</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb12948.html</idno>
+            </person>
+            <person xml:id="pmb24427">
+               <persName>
+                  <forename>Josef</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <death>
+                  <date when="1863-01-30">30.01.1863</date>
+                  <settlement ref="pmb45549">
+                     <placeName type="pref">Nagykanizsa</placeName>
+                     <location>
+                        <geo>46,45347 16,99104</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb605">Tischler/Tischlerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19826</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/24427/</idno>
+            </person>
+            <person xml:id="pmb12695">
+               <persName>
+                  <forename>Johann</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <persName type="person_geburtsname-vorname">János</persName>
+               <birth>
+                  <date when="1835-04-10">10.04.1835</date>
+                  <settlement ref="pmb45549">
+                     <placeName type="pref">Nagykanizsa</placeName>
+                     <location>
+                        <geo>46,45347 16,99104</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1893-05-02">02.05.1893</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb132">Mediziner/Medizinerin &gt;&gt; Laryngologe/Laryngologin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19824</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116848669</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12695.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12695/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12695</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46937</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q86302</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Johann_Schnitzler</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284418</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb32943">
+               <title>Gespräch mit Artur Schnitzler</title>
+               <title type="werk_bibliografische-angabe">Neues Wiener Journal, 2. 8. 1931</title>
+               <author ref="pmb5134" role="hat-geschaffen">Paál, Jób</author>
+               <date when="1931-08-02">02.08.1931</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32943/</idno>
+               <note type="work_kind">Text</note>
+            </bibl>
+            <bibl xml:id="pmb30207">
+               <title>Das weite Land. Tragikomödie in fünf Akten</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1910-10-20">1910-10-20</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.06</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1171735</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-das-weite-land</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/32170</idno>
+               <idno type="URL" subtype="literature">http://www.literature.at/viewer.alo?objid=12113&amp;page=1&amp;viewmode=fullscreen</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30207.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30207/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30207</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30207.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Das_weite_Land</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+               <note type="references">Die russische Uraufführung am 20.10.1910 vor der deutschsprachigen</note>
+            </bibl>
+            <bibl xml:id="pmb32460">
+               <title>Die Frau des Weisen. Novelletten</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date>1898-05-03</date>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb32460.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32460/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb32460</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb32460.html</idno>
+               <note type="work_kind">Textsammlung &gt;&gt; Novellensammlung</note>
+            </bibl>
+            <bibl xml:id="pmb33243">
+               <title>Tagebuch</title>
+               <title type="werk_link">https://schnitzler-tagebuch.acdh.oeaw.ac.at</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <author ref="pmb119261" role="hat-herausgegeben">Braunwarth, Peter Michael</author>
+               <author ref="pmb65504" role="hat-herausgegeben">Urbach, Reinhard</author>
+               <date to="2000-01-01">1981  – 2000</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33243/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33243</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33243.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q108122826</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Tagebuch_(Schnitzler)</idno>
+               <note type="work_kind">Tagebuch</note>
+            </bibl>
+            <bibl xml:id="pmb56450">
+               <title>Wie Schnitzler seine Menschen zeichnete. Was der Portier vom Südbahnhotel am Semmering erzählt</title>
+               <title type="werk_link">https://anno.onb.ac.at/cgi-content/anno?aid=nwj&amp;datum=19311122&amp;seite=14&amp;zoom=33</title>
+               <date when="1931-11-22">1931-11-22</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/56450/</idno>
+               <note type="work_kind">Interview</note>
+            </bibl>
+            <bibl xml:id="pmb36376">
+               <title>Neues Wiener Journal</title>
+               <title type="werk_link-anno">http://anno.onb.ac.at/cgi-content/anno?aid=nwj</title>
+               <author ref="pmb36371" role="hat-einen-beitrag-geschaffen-zu">Papp, Desiderius</author>
+               <author ref="pmb10815" role="hat-einen-beitrag-geschaffen-zu">Bahr, Hermann</author>
+               <date to="1939-01-01">1893  – 1939</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36376/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36376</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb36376</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+            <bibl xml:id="pmb56444">
+               <title>Arthur Schnitzlers letztes Interview</title>
+               <title type="namensvariante">Schnitzler Artur utolsó interjuja</title>
+               <title type="werk_bibliografische-angabe">In: Délmagyarország, Jg. 7, Nr. 24[3], 25.10.1931, S. 6</title>
+               <author ref="pmb5134" role="hat-geschaffen">Paál, Jób</author>
+               <date when="1931-10-25">1931-10-25</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/56444/</idno>
+               <note type="work_kind">Interview</note>
+            </bibl>
+            <bibl xml:id="pmb56292">
+               <title>Délmagyarország</title>
+               <title type="legacy-name-merge">Délmagyarország</title>
+               <date notBefore="1910-01-01" when="1910-07-02">1910</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/56292/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/56446/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q986828</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb56501">
+               <placeName>Tatranská Polianka</placeName>
+               <placeName type="namensvariante">Tátraszéplak</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPL</desc>
+               <desc type="entity_type_id">1412</desc>
+               <location type="coords">
+                  <geo>49,12377 20,18643</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb34478">Slowakei</placeName>
+                  <geo>48,66667 19,5</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/56501/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/723396/</idno>
+            </place>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+            <place xml:id="pmb413">
+               <placeName>Südbahnhotel</placeName>
+               <desc type="entity_type">Hotel (K.HTL)</desc>
+               <desc type="entity_type_id">12</desc>
+               <location type="coords">
+                  <geo>47,647222 15,83</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb189">Semmering</placeName>
+                  <geo>47,64224 15,8241</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1610900</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb413.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/413/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb413</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/S%C3%BCdbahnhotel</idno>
+               <note type="apis_dates">
+                  <date notBefore="1882-01-01" when="1882-07-02">1882</date>
+               </note>
+            </place>
+            <place xml:id="pmb45549">
+               <placeName>Nagykanizsa</placeName>
+               <placeName type="legacy-name">Groß-Kanisza</placeName>
+               <placeName type="legacy-name-merge">Nagy-Kanisza</placeName>
+               <placeName type="legacy-name-merge">Nagy Kanisza</placeName>
+               <placeName type="legacy-name-merge">Nagykanisza</placeName>
+               <placeName type="legacy-name-merge">Nagy Kanizsa</placeName>
+               <placeName type="legacy-name-merge">Groß Kanizsa</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPL</desc>
+               <desc type="entity_type_id">1412</desc>
+               <location type="coords">
+                  <geo>46,45347 16,99104</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb35512">Ungarn</placeName>
+                  <geo>47,0 20,0</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1070/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/7796/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/17589/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/24119/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/24428/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/25818/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/27467/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/45549/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3047679/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb45549.html</idno>
+            </place>
+            <place xml:id="pmb56515">
+               <placeName>Hohe Tatra</placeName>
+               <placeName type="alternative-name">High Tatras</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#T.MTS</desc>
+               <desc type="entity_type_id">1620</desc>
+               <location type="coords">
+                  <geo>49,13815 20,21931</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb61147">Tatra</placeName>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb34478">Slowakei</placeName>
+                  <geo>48,66667 19,5</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/56515/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/723120/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb56515.html</idno>
+            </place>
+            <place xml:id="pmb189">
+               <placeName>Semmering</placeName>
+               <placeName type="alternative-name">Gemeinde Semmering</placeName>
+               <placeName type="alternative-name">Semmering-Semmering-Kurort</placeName>
+               <placeName type="alternative-name">Kurort Semmering</placeName>
+               <placeName type="alternative-name">Semmering-Kurort</placeName>
+               <placeName type="alternative-name">Heilklimatischer Höhenluftkurort Semmering</placeName>
+               <placeName type="alternative-name">Semmering- Kurort Semmering</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>47,64224 15,8241</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/7873001/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb189.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/189/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb189</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91735/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91735.html</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4054504-0</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q659891</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Semmering_(Nieder%C3%B6sterreich)</idno>
+            </place>
+            <place xml:id="pmb35512">
+               <placeName>Ungarn</placeName>
+               <placeName type="alternative-name">Republic of Hungary</placeName>
+               <placeName type="legacy-name-merge">Hungary</placeName>
+               <desc type="entity_type">http://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>47,0 20,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb687">Österreich-Ungarn</placeName>
+                  <geo>48,4054 16,4887</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q28</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb167.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/719819/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35512/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb35512</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb35512.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ungarn</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb36247">
+               <orgName>Burgtheater</orgName>
+               <orgName type="alternative-name">Burgtheater GmbH</orgName>
+               <desc type="entity_type">Theater</desc>
+               <desc type="entity_type_id">1012</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb51.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36789/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51010/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2775259/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb51</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb51</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb14">Burgtheater</placeName>
+                  <geo>48,210333 16,361139</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb14.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/14/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb14</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb14.html</idno>
+                  <idno type="URL" subtype="geonames">https://www.geonames.org/6354992/</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb44649">Schlosstheater Schönbrunn</placeName>
+                  <geo>48,186667 16,3125</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44649/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb44649</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2244724</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Schlosstheater_Sch%C3%B6nbrunn</idno>
+               </location>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/38633-9</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36247/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36247</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb36247</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q308720</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Burgtheater</idno>
+               <note type="apis_dates">
+                  <date notBefore="1852-01-01" when="1852-07-01">1852</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

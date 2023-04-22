@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I088">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="I088">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#58593">Reuben Brainin: Schnitzler, 26.&#8239;6.&#8239;1931</title>
-            <author ref="#14472">Brainin, Reuben</author>
+            <title level="a" ref="#pmb58593">Reuben Brainin: Schnitzler, 26. 6. 1931</title>
+            <author ref="#pmb14472">Brainin, Reuben</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -27,11 +29,11 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#14472">Brainin, Reuben</author>
-                     <title level="a" ref="#58593">Schnitzler</title>
+                     <author ref="#pmb14472">Brainin, Reuben</author>
+                     <title level="a" ref="#pmb58593">Schnitzler</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#58324">The Jewish Chronicle</title>
+                     <title level="j" ref="#pmb58324">The Jewish Chronicle</title>
                      <imprint>
                         <date when="1931-06-26" n="1">26. 6. 1931</date>
                      </imprint>
@@ -58,60 +60,51 @@
       <body>
          <div type="original" xml:lang="en-US">
             <head>
-               <rs type="person" ref="#2121">
+               <rs type="person" ref="#pmb2121">
                   <hi rend="capitals">Schnitzler</hi>
                </rs>
             </head>
-            <head type="sub">The Skeptic of <rs type="place" ref="#50">Vienna</rs>
+            <head type="sub">The Skeptic of <rs type="place" ref="#pmb50">Vienna</rs>
             </head>
             <head type="sub">By Reuben Brainin</head>
             <p>
                <hi rend="italics">The literary world is celebrating the seventieth year of Arthur
-                     <rs type="person" ref="#2121">Schnitzler</rs>, one of the foremost
+                     <rs type="person" ref="#pmb2121">Schnitzler</rs>, one of the foremost
                   story-tellers of our time. Reuben Brainin, dean of Hebrew literature, and a
-                     <anchor type="commentary" xml:id="K_I088-1"/>personal friend<note
-                     type="commentary" xml:id="K_I088-1h">Im <rs type="work" ref="#33243"
-                        >Tagebuch</rs> ist nur das in Folge erwähnte Treffen am <ref
-                        target="1903-10-02" type="schnitzlerDiary" subtype="date-only"/>
-                        festgehalten: »<quote>Brainin Nm., <rs type="place" ref="#34438">russ.</rs>
-                        Jude. Neu Hebr. Zeitschrift. Zustände in <rs type="place" ref="#34438"
-                           >Rußland</rs>.– Der jüd. Arbeiter, der (wie so viele) als Dachdecker der
-                           <rs type="place" ref="#34438">russ.</rs> Kirche das Kreuz anbringt und Kolnidre dazu singt.</quote>«</note> of
-                     <rs type="person" ref="#2121">Schnitzler</rs>, here gives an appreciation of
+                     <anchor type="commentary" xml:id="K_I088-1"/>personal friend<note type="commentary" xml:id="K_I088-1h">Im <rs type="work" ref="#pmb33243">Tagebuch</rs> ist nur das in Folge erwähnte Treffen am <ref target="1903-10-02" type="schnitzler-tagebuch" subtype="date-only"/>
+                        festgehalten: »<quote>Brainin Nm., <rs type="place" ref="#pmb34438">russ.</rs>
+                        Jude. Neu Hebr. Zeitschrift. Zustände in <rs type="place" ref="#pmb34438">Rußland</rs>.– Der jüd. Arbeiter, der (wie so viele) als Dachdecker der
+                           <rs type="place" ref="#pmb34438">russ.</rs> Kirche das Kreuz anbringt und Kolnidre dazu singt.</quote>«</note> of
+                     <rs type="person" ref="#pmb2121">Schnitzler</rs>, here gives an appreciation of
                   the Austrian Jewish author as he understands him – as a man, a writer and a Jew. –
                   The Editor.</hi>
             </p>
-            <p>At the beginning of the twentieth century <rs type="person" ref="#2121">Arthur
-                  Schnitzler</rs>’s most famous writings were his »<rs type="work" ref="#29935"
-                  >Anatol</rs>,« »<rs type="work" ref="#29917">Liebelei</rs>,« »<rs type="work"
-                  ref="#30117">Sterben</rs>,« »<rs type="work" ref="#29853">Leutenant Gustl</rs>.« A
+            <p>At the beginning of the twentieth century <rs type="person" ref="#pmb2121">Arthur
+                  Schnitzler</rs>’s most famous writings were his »<rs type="work" ref="#pmb29935">Anatol</rs>,« »<rs type="work" ref="#pmb29917">Liebelei</rs>,« »<rs type="work" ref="#pmb30117">Sterben</rs>,« »<rs type="work" ref="#pmb29853">Leutenant Gustl</rs>.« A
                light sort of writing, in form and in content. Dialogues: between people of elegant
                manners and wellmanicured ideas; between graceful and polite sentimentalists; between
                people disappointed in love but still hunting for the supreme thrill: between
                intellectual esthetes unfit for the hardships of life, with too soft hands and
                backbones; between women who avidly seek the perfect lover and try to escape the
                everyday drabness of their prosaic existence. And above the tribulations and often
-               petty tragedies of <rs type="person" ref="#2121">Schnitzler</rs>’s puppets there
+               petty tragedies of <rs type="person" ref="#pmb2121">Schnitzler</rs>’s puppets there
                always hung the cloud of inevitable death, which whipped them into life and yet, at
                the same time, paralyzed them. The thought of the end, which made them realize the
                futility of love and yet drove them on to find that elusive something which might
-               cheat the Grim Reaper of his victim. This is the essence of <rs type="person"
-                  ref="#2121">Schnitzler</rs>’s first literary decade. But to that should be added a
-               fine, skeptical, often ironic smile, the smile of <rs type="person" ref="#2121"
-                  >Arthur Schnitzler</rs> who, instead of pitying his contemporaries, just looks at
+               cheat the Grim Reaper of his victim. This is the essence of <rs type="person" ref="#pmb2121">Schnitzler</rs>’s first literary decade. But to that should be added a
+               fine, skeptical, often ironic smile, the smile of <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> who, instead of pitying his contemporaries, just looks at
                them sadly as they struggle against their fate. A smile that makes us weep.</p>
-            <p>I still remember my surprise when I met <rs type="person" ref="#2121">Arthur
-                  Schnitzler</rs> for the first time at <rs type="place" ref="#50">Vienna</rs>, in
+            <p>I still remember my surprise when I met <rs type="person" ref="#pmb2121">Arthur
+                  Schnitzler</rs> for the first time at <rs type="place" ref="#pmb50">Vienna</rs>, in
                   <date>September, 1903</date>. I had expected to find a snob, an elegant idler, a
-               middle-aged »<rs type="work" ref="#29935">Anatol</rs>.« His reputation – conceptions
+               middle-aged »<rs type="work" ref="#pmb29935">Anatol</rs>.« His reputation – conceptions
                of authors by readers are mostly misleading – was that of a polished, brilliant and
-               rather superficial literateur in his personal life. But the <rs type="person"
-                  ref="#2121">Schnitzler</rs> I met, then in his forties, impressed me much more as
-               a scholar than as a novelist in vogue. His medical training – <rs type="person"
-                  ref="#2121">Schnitzler</rs> is a graduate physician and for some years was
-               attached to a <rs type="place" ref="#50">Vienna</rs> hospital – had influenced him
-               strongly. His interest in <anchor type="textConst" xml:id="T_I088-1"/>psychology<note
-                  type="textConst" xml:id="T_I088-1h"><quote>psychoolgy</quote></note> was that of
+               rather superficial literateur in his personal life. But the <rs type="person" ref="#pmb2121">Schnitzler</rs> I met, then in his forties, impressed me much more as
+               a scholar than as a novelist in vogue. His medical training – <rs type="person" ref="#pmb2121">Schnitzler</rs> is a graduate physician and for some years was
+               attached to a <rs type="place" ref="#pmb50">Vienna</rs> hospital – had influenced him
+               strongly. His interest in <anchor type="textConst" xml:id="T_I088-1"/>psychology<note type="textConst" xml:id="T_I088-1h">
+                  <quote>psychoolgy</quote>
+               </note> was that of
                a man of science. When he spoke of people and of sociological currents it was in the
                language of a sober observer, a studious research worker and a pitiless prober. It
                had been his lot, as a physician, to handle a human species naked, without official
@@ -121,77 +114,63 @@
                the Jewish national consciousness. He modestly assumed the role of the listener eager
                to be informed. There were moments when he struck me as pedantic, rather too serious,
                almost solemn.</p>
-            <p>In later years, at subsequent meetings, my first impressions were merely confirmed<c
-                  rendition="#dots" n="3"/>
+            <p>In later years, at subsequent meetings, my first impressions were merely confirmed<c rendition="#dots" n="3"/>
                <space unit="chars" quantity="1"/>
-               <rs type="person" ref="#2121">Arthur Schnitzler</rs> the man was the very antithesis
-               of the dandy the intelligentsia of <rs type="place" ref="#468">Europe</rs> visualized
+               <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> the man was the very antithesis
+               of the dandy the intelligentsia of <rs type="place" ref="#pmb468">Europe</rs> visualized
                him. It was the old trap into which readers fall so readily – that of shaping the
                author in accordance with the personages or heroes of his works – which was
-               responsible for the distorted legend that had been created around <rs type="person"
-                  ref="#2121">Arthur Schnitzler</rs> the <rs type="place" ref="#50">Viennese</rs>
+               responsible for the distorted legend that had been created around <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> the <rs type="place" ref="#pmb50">Viennese</rs>
                author.</p>
-            <p>You will ask me: »But to what extent is <rs type="person" ref="#2121">Arthur
+            <p>You will ask me: »But to what extent is <rs type="person" ref="#pmb2121">Arthur
                   Schnitzler</rs> a Jew?« If you will forgive me – the question is rather
                unnecessary and petty. Jewishness cannot be measured in doses or percentages. And
-               surely not when it comes to a personality like <rs type="person" ref="#2121">Arthur
-                  Schnitzler</rs>, with so distinct an outlook upon life. Born at <rs type="place"
-                  ref="#50">Vienna</rs>, of what we are wont to call an assimilated family – his
-               father was a distinguished physician and a Professor at the <rs type="org"
-                  ref="#52775">University of Vienna</rs> – <rs type="person" ref="#2121">Arthur
+               surely not when it comes to a personality like <rs type="person" ref="#pmb2121">Arthur
+                  Schnitzler</rs>, with so distinct an outlook upon life. Born at <rs type="place" ref="#pmb50">Vienna</rs>, of what we are wont to call an assimilated family – his
+               father was a distinguished physician and a Professor at the <rs type="org" ref="#pmb52775">University of Vienna</rs> – <rs type="person" ref="#pmb2121">Arthur
                   Schnitzler</rs> although he personally did not experience any virulent
-               anti-Semitism, clearly recognized the anomalous position of the <rs type="place"
-                  ref="#41240">Austrian</rs> Jew. He pondered on the Jewish question long and
-               sincerely. He gathered material laboriously. When, <anchor type="commentary"
-                  xml:id="K_I088-12"/>a year before the world war<note type="commentary"
-                  xml:id="K_I088-12h">Die Uraufführung fand am <ref target="1912-11-28"
-                     type="schnitzlerDiary" subtype="date-only"/> statt.</note>, he published »<rs
-                  type="work" ref="#30203">Professor Bernhardi</rs>,« a play centering around a
-               medical <rs type="person" ref="#4216">Dreyfus</rs> case and exposing the anti-Semitic
-               tendencies in <rs type="place" ref="#50">Vienna</rs>’s medical and government
+               anti-Semitism, clearly recognized the anomalous position of the <rs type="place" ref="#pmb41240">Austrian</rs> Jew. He pondered on the Jewish question long and
+               sincerely. He gathered material laboriously. When, <anchor type="commentary" xml:id="K_I088-12"/>a year before the world war<note type="commentary" xml:id="K_I088-12h">Die Uraufführung fand am <ref target="1912-11-28" type="schnitzler-tagebuch" subtype="date-only"/> statt.</note>, he published »<rs type="work" ref="#pmb30203">Professor Bernhardi</rs>,« a play centering around a
+               medical <rs type="person" ref="#pmb4216">Dreyfus</rs> case and exposing the anti-Semitic
+               tendencies in <rs type="place" ref="#pmb50">Vienna</rs>’s medical and government
                circles, he stamped himself as a foe of the assimilationist movement.</p>
-            <p>But the story of <rs type="work" ref="#30203">Professor Bernhardi</rs> is told with
+            <p>But the story of <rs type="work" ref="#pmb30203">Professor Bernhardi</rs> is told with
                an ironic smile. No attempt is made to effect a reform; nor is the author inclined to
                let his indignation get the best of him. The last word before the curtain goes down
-               is characteristic of <rs type="person" ref="#2121">Schnitzler</rs>. Somehow it leaves
-               you doubtful as to whether <rs type="work" ref="#30203">Professor Bernhardi</rs>, who
+               is characteristic of <rs type="person" ref="#pmb2121">Schnitzler</rs>. Somehow it leaves
+               you doubtful as to whether <rs type="work" ref="#pmb30203">Professor Bernhardi</rs>, who
                was condemned to two months in jail because he forbade a priest to give absolution to
                a patient, was an idealist or merely a fool. None the less the play created a furore
-               and showed clearly where <rs type="person" ref="#2121">Schnitzler</rs> stood with
+               and showed clearly where <rs type="person" ref="#pmb2121">Schnitzler</rs> stood with
                regard to his Jewishness. No more ruthless caricature of the assimilated and
-               converted Jew has been written than <rs type="person" ref="#2121">Schnitzler</rs>’s
-                  »<rs type="work" ref="#30203">Professor Bernhardi</rs>.«</p>
-            <p>Thus <rs type="person" ref="#2121">Schnitzler</rs> is inscribed in the German
-               literary Who’s Who as a Jewish author, although – except in »<rs type="work"
-                  ref="#30203">Professor Bernhardi</rs>« and his novel »<rs type="work" ref="#29923"
-                  >Der Weg Ins Freie</rs>« – he has not concerned himself with Jewish questions. He
-               was satisfied to write of the <rs type="place" ref="#50">Viennese</rs>, of the
+               converted Jew has been written than <rs type="person" ref="#pmb2121">Schnitzler</rs>’s
+                  »<rs type="work" ref="#pmb30203">Professor Bernhardi</rs>.«</p>
+            <p>Thus <rs type="person" ref="#pmb2121">Schnitzler</rs> is inscribed in the German
+               literary Who’s Who as a Jewish author, although – except in »<rs type="work" ref="#pmb30203">Professor Bernhardi</rs>« and his novel »<rs type="work" ref="#pmb29923">Der Weg Ins Freie</rs>« – he has not concerned himself with Jewish questions. He
+               was satisfied to write of the <rs type="place" ref="#pmb50">Viennese</rs>, of the
                sentimental, romantic loves of half-baked girls, of elegant officers, of
                disillusioned servant girls, derailed doctors. After the war, it is true, he gave us
-                  »<rs type="work" ref="#42883">Casanova’s Homecoming</rs>,« a pseudo-historical
+                  »<rs type="work" ref="#pmb42883">Casanova’s Homecoming</rs>,« a pseudo-historical
                novel in which he reveals himself at the very acme of his creative talent and which
-               constitutes one of his rare excursions outside of <rs type="place" ref="#50"
-                  >Vienna</rs>.</p>
+               constitutes one of his rare excursions outside of <rs type="place" ref="#pmb50">Vienna</rs>.</p>
             <p>One cannot even attempt to condense so prolific an author and so genuine a
-               personality as <rs type="person" ref="#2121">Schnitzler</rs> into the framework of an
-               article. In contemporary literature <rs type="person" ref="#2121">Arthur
-                  Schnitzler</rs> is considered one of the great trio of which <rs type="person"
-                  ref="#11617">Gerhardt Hauptmann</rs> and <rs type="person" ref="#12176">Thomas
+               personality as <rs type="person" ref="#pmb2121">Schnitzler</rs> into the framework of an
+               article. In contemporary literature <rs type="person" ref="#pmb2121">Arthur
+                  Schnitzler</rs> is considered one of the great trio of which <rs type="person" ref="#pmb11617">Gerhardt Hauptmann</rs> and <rs type="person" ref="#pmb12176">Thomas
                   Mann</rs> are the other members. This despite the subject-matter of his works,
                which, as already mentioned, deal with rather superficial joys of life. For the
-               critical reader, however, there are always two stories in any <rs type="person"
-                  ref="#2121">Schnitzler</rs> book: One that plays in the foreground and is of
+               critical reader, however, there are always two stories in any <rs type="person" ref="#pmb2121">Schnitzler</rs> book: One that plays in the foreground and is of
                apparently only local interest and skin-deep significance: but in the background, if
-               one cares to delve deeper into <rs type="person" ref="#2121">Schnitzler</rs>’s
+               one cares to delve deeper into <rs type="person" ref="#pmb2121">Schnitzler</rs>’s
                stories, there is enacted the eternal human tragedy of man in search of love, in fear
                of death and in a fruitless struggle to liberate himself from the material and
                sensual world.</p>
-            <p>It is on this second plane that <rs type="person" ref="#2121">Arthur Schnitzler</rs>
-               reminds one of <rs type="person" ref="#4279">Anatole France</rs> – a skeptic to whom
+            <p>It is on this second plane that <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>
+               reminds one of <rs type="person" ref="#pmb4279">Anatole France</rs> – a skeptic to whom
                nothing human is foreign, an observer who finds the eternal problems in the everyday
                life of a harlot or a soldier just as tragic as the tribulations of a statesman or an
                artist.</p>
-            <p>As <rs type="person" ref="#2121">Schnitzler</rs> enters his seventieth year – a
+            <p>As <rs type="person" ref="#pmb2121">Schnitzler</rs> enters his seventieth year – a
                commanding figure who has managed to keep himself above all the petty political
                gibbering of Europe, whose creative output has always been marked by an artistocratic
                distinction that made it possible for him to say and discuss everything without ever
@@ -199,11 +178,510 @@
                professional man of letters in him. No jealousies, no best-seller attitude to
                literature. He hates, and always has hated, the literary charlatan who strives for
                effect and hastens to catch the latest literary vogue or school, hoping by means of
-               his ability to be up-to-date to squeeze through the narrow gate of immortality. <rs
-                  type="person" ref="#2121">Schnitzler</rs>’s books may not live much longer than
+               his ability to be up-to-date to squeeze through the narrow gate of immortality. <rs type="person" ref="#pmb2121">Schnitzler</rs>’s books may not live much longer than
                the first half of the twentieth century – but to us, his contemporaries, he is a
                vital, nay, inspiring personality and author.</p>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb14472">
+               <persName>
+                  <forename>Reuben</forename>
+                  <surname>Brainin</surname>
+               </persName>
+               <birth>
+                  <date when="1862-03-16">1862-03-16</date>
+                  <settlement ref="pmb54142">
+                     <placeName type="pref">Lyady</placeName>
+                     <location>
+                        <geo>54,6 31,171</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1939-11-30">1939-11-30</date>
+                  <settlement ref="pmb44053">
+                     <placeName type="pref">New York City</placeName>
+                     <location>
+                        <geo>40,71427 -74,00597</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13915</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/14472/</idno>
+            </person>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb4216">
+               <persName>
+                  <forename>Alfred</forename>
+                  <surname>Dreyfus</surname>
+               </persName>
+               <birth>
+                  <date when="1859-10-09">1859-10-09</date>
+                  <settlement ref="pmb58763">
+                     <placeName type="pref">Mulhouse</placeName>
+                     <location>
+                        <geo>47,75205 7,32866</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1935-07-12">1935-07-12</date>
+                  <settlement ref="pmb182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb619">Militär/Militärin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118527460</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14514</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb4216.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4216/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb4216</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38056</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q171826</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Alfred_Dreyfus</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb4216.html</idno>
+            </person>
+            <person xml:id="pmb11617">
+               <persName>
+                  <forename>Gerhart</forename>
+                  <surname>Hauptmann</surname>
+               </persName>
+               <birth>
+                  <date when="1862-11-15">15.11.1862</date>
+                  <settlement ref="pmb64427">
+                     <placeName type="pref">Szczawno-Zdrój</placeName>
+                     <location>
+                        <geo>50,79512 16,22375</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1946-06-06">06.06.1946</date>
+                  <settlement ref="pmb735">
+                     <placeName type="pref">Agnetendorf</placeName>
+                     <location>
+                        <geo>50,816944 15,609444</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15980</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118546937</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11617.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11617/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11617</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11617.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11617</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp44354</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=H#DWpers0097</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q43523</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Gerhart_Hauptmann</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11617.html</idno>
+            </person>
+            <person xml:id="pmb12176">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Mann</surname>
+               </persName>
+               <birth>
+                  <date when="1875-06-06">06.06.1875</date>
+                  <settlement ref="pmb884">
+                     <placeName type="pref">Lübeck</placeName>
+                     <location>
+                        <geo>53,86893 10,68729</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1955-08-12">12.08.1955</date>
+                  <settlement ref="pmb484">
+                     <placeName type="pref">Zürich</placeName>
+                     <location>
+                        <geo>47,37174 8,54226</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17838</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118577166</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12176.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12176/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12176</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12176.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb12176</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp54183</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=M#DWpers0161</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q37030</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Thomas_Mann</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb12176.html</idno>
+            </person>
+            <person xml:id="pmb4279">
+               <persName>
+                  <forename>Anatole</forename>
+                  <surname>France</surname>
+               </persName>
+               <persName type="person_geburtsname-vorname">François</persName>
+               <persName type="person_geburtsname_nachname">A. Thibault</persName>
+               <persName type="legacy-name-merge">France, Anatole</persName>
+               <birth>
+                  <date when="1844-04-16">16.04.1844</date>
+                  <settlement ref="pmb182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1924-10-12">12.10.1924</date>
+                  <settlement ref="pmb55966">
+                     <placeName type="pref">Saint-Cyr-sur-Loire</placeName>
+                     <location>
+                        <geo>47,4 0,66667</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118692445</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb4279.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4279/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15108</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb4279</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb4279.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38207</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q42443</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Anatole_France</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb33243">
+               <title>Tagebuch</title>
+               <title type="werk_link">https://schnitzler-tagebuch.acdh.oeaw.ac.at</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <author ref="pmb119261" role="hat-herausgegeben">Braunwarth, Peter Michael</author>
+               <author ref="pmb65504" role="hat-herausgegeben">Urbach, Reinhard</author>
+               <date to="2000-01-01">1981  – 2000</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33243/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33243</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33243.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q108122826</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Tagebuch_(Schnitzler)</idno>
+               <note type="work_kind">Tagebuch</note>
+            </bibl>
+            <bibl xml:id="pmb29935">
+               <title>Anatol</title>
+               <title type="werk_bibliografische-angabe">Arthur Schnitzler: Anatol. Berlin: Bibliographisches Bureau 1892, vordatiert auf 1893</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <author ref="pmb28645" role="hat-illustriert">Coschell, Moritz</author>
+               <author ref="pmb11740" role="hat-ein-vorwortnachwort-verfasst-zu">Hofmannsthal, Hugo von</author>
+               <date>1892-10-29</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.03</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q487409</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-anatol</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/32630</idno>
+               <idno type="URL" subtype="deutschestextarchiv">http://www.deutschestextarchiv.de/book/view/schnitzler_anatol_1893</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29935.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29935/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29935</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29935.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Anatol_(Schauspiel)</idno>
+               <note type="work_kind">Drama &gt;&gt; Einakterzyklus</note>
+            </bibl>
+            <bibl xml:id="pmb29917">
+               <title>Liebelei. Schauspiel in drei Akten</title>
+               <title type="werk_link">https://www.deutschestextarchiv.de/book/show/schnitzler_liebelei_1896</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date>1895-10-09</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.27</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1823758</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-liebelei</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/31062</idno>
+               <idno type="URL" subtype="deutschestextarchiv">http://www.deutschestextarchiv.de/book/show/schnitzler_liebelei_1896</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29917.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29917/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29917</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29917.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Liebelei</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb30117">
+               <title>Sterben. Novelle</title>
+               <title type="werk_bibliografische-angabe">Neue Deutsche Rundschau, Jg. 5, H. 10–12, Oktober–Dezember 1894</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date to="1894-12-01">1894-10-01  – 1894-12-01</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.02.43</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2345387</idno>
+               <idno type="URL" subtype="babel">https://babel.hathitrust.org/cgi/pt/search?id=coo.31924069263006;view=1up;seq=9;q1=sterben;start=1;sz=10;page=search;orient=0;index=1</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30117.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30117/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30117</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30117.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Sterben_(Novelle)</idno>
+               <note type="work_kind">Novelle</note>
+            </bibl>
+            <bibl xml:id="pmb29853">
+               <title>Lieutenant Gustl. Novelle</title>
+               <title type="werk_bibliografische-angabe">Arthur Schnitzler: Lieutenant Gustl. In: Neue Freie Presse, Nr. 13053, 25. 12. 1900, S. 34–41</title>
+               <title type="werk_link">http://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=19001225&amp;seite=34&amp;zoom=33</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <author ref="pmb28645" role="hat-illustriert">Coschell, Moritz</author>
+               <date>1900-12-25</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.02.39</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1821658</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/31187</idno>
+               <idno type="URL" subtype="">http://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=19001225&amp;seite=34&amp;zoom=33</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29853.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29853/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29853</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29853.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Leutnant_Gustl</idno>
+               <note type="work_kind">Novelle</note>
+            </bibl>
+            <bibl xml:id="pmb30203">
+               <title>Professor Bernhardi. Komödie in fünf Akten</title>
+               <title type="werk_arbeitstitel">Ärztestück</title>
+               <title type="werk_arbeitstitel">Junggesellenstück</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date notBefore="1912-01-01" when="1912-07-01">1912</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.31</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q872683</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-professor-bernhardi</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/43034</idno>
+               <idno type="URL" subtype="archive">http://www.archive.org/details/professorbernhar00schn</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30203.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30203/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30203</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30203.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Professor_Bernhardi</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb29923">
+               <title>Der Weg ins Freie. Roman</title>
+               <title type="werk_bibliografische-angabe">Die neue Rundschau, Jg. 19, H. 1–6, Januar–Juni 1908</title>
+               <title type="werk_arbeitstitel">Die Entrüsteten</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date to="1908-06-01">1.1.1908  – 1.6.1908</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.02.18</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q700479</idno>
+               <idno type="URL" subtype="archive">https://archive.org/details/neuerundschau11908franuoft/page/30</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29923.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29923/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29923</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29923.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_Weg_ins_Freie</idno>
+               <note type="work_kind">Roman</note>
+            </bibl>
+            <bibl xml:id="pmb42883">
+               <title>Casanova’s Homecoming</title>
+               <title type="werk_link">https://archive.org/details/casanovashomeco01schngoog/page/n6</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <author ref="pmb5027" role="hat-ubersetzt">Paul, Eden</author>
+               <author ref="pmb5030" role="hat-ubersetzt">Paul, Cedar</author>
+               <date>1922</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/42883/</idno>
+               <note type="work_kind">Roman</note>
+            </bibl>
+            <bibl xml:id="pmb58593">
+               <title>Schnitzler</title>
+               <author ref="pmb14472" role="hat-geschaffen">Brainin, Reuben</author>
+               <date>1931-06-26</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58593/</idno>
+               <note type="work_kind">Interview</note>
+            </bibl>
+            <bibl xml:id="pmb58324">
+               <title>The Jewish Chronicle</title>
+               <date notBefore="1841-01-01" when="1841-07-02">1841</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58324/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q886181</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Zeitschrift</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+            <place xml:id="pmb34438">
+               <placeName>Russland</placeName>
+               <placeName type="alternative-name">Russische Föderation</placeName>
+               <placeName type="alternative-name">Russian Federation</placeName>
+               <placeName type="alternative-name">Russian Soviet Federated Socialist Republic</placeName>
+               <placeName type="alternative-name">Russian Soviet Federative Socialist Republic</placeName>
+               <placeName type="alternative-name">Russian Socialist Federative Soviet Republic</placeName>
+               <placeName type="legacy-name-merge">Russia</placeName>
+               <placeName type="legacy-name-merge">Rußland</placeName>
+               <desc type="entity_type">http://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>60,0 100,0</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43976/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2017370/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/14117/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/34438/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb34438</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb34438</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb34438.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/119245/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4076899-5</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q159</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Russland</idno>
+            </place>
+            <place xml:id="pmb468">
+               <placeName>Europa</placeName>
+               <desc type="entity_type">Kontinent (A.KNT)</desc>
+               <desc type="entity_type_id">49</desc>
+               <location type="coords">
+                  <geo>48,69096 9,14062</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q46</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/6255148/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb468.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/468/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb468</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb468</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb468.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Europa</idno>
+            </place>
+            <place xml:id="pmb41240">
+               <placeName>Österreich</placeName>
+               <placeName type="alternative-name">Republik Österreich</placeName>
+               <placeName type="alternative-name">Republic of Austria</placeName>
+               <placeName type="legacy-name-merge">Deutsch Österreich</placeName>
+               <placeName type="legacy-name-merge">Altoesterreich</placeName>
+               <desc type="entity_type">http://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb687">Österreich-Ungarn</placeName>
+                  <geo>48,4054 16,4887</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2782113/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41240/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41240</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb41240</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92143/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92203/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92143.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92203.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb41240.html</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb52775">
+               <orgName>Universität Wien</orgName>
+               <desc type="entity_type">Hochschule &gt;&gt; Universität</desc>
+               <desc type="entity_type_id">1032</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb386">Universität Wien</placeName>
+                  <geo>48,213018714231 16,36086067999</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb386.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/386/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb386</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/52775/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb52775</idno>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

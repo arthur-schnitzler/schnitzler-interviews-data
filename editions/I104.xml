@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I104">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="I104">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#33388">Julius Bangert: Arthur Schnitzler. En Samtale med en
-               beremt Wiener, 10.&#8239;4.&#8239;1921</title>
-            <author ref="#13714">Bangert, Julius</author>
+            <title level="a" ref="#pmb33388">Julius Bangert: Arthur Schnitzler. En Samtale med en
+               beremt Wiener, 10. 4. 1921</title>
+            <author ref="#pmb13714">Bangert, Julius</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -28,14 +30,14 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#13714">Bangert, Julius</author>
-                     <title level="a" ref="#33388">Arthur Schnitzler. En Samtale med en beremt
+                     <author ref="#pmb13714">Bangert, Julius</author>
+                     <title level="a" ref="#pmb33388">Arthur Schnitzler. En Samtale med en beremt
                         Wiener</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#58592">København</title>
+                     <title level="j" ref="#pmb58592">København</title>
                      <imprint>
-                        <date when="1921-04-10" n="1">10.&#8239;4.&#8239;1921</date>
+                        <date when="1921-04-10" n="1">10. 4. 1921</date>
                      </imprint>
                      <biblScope unit="nr">98</biblScope>
                      <biblScope unit="pp">5–7</biblScope>
@@ -67,36 +69,33 @@
          </div>
          <div type="original" xml:lang="dk-DK">
             <head>Arthur Schnitzler.</head>
-            <head type="sub">En Samtale med en berømt <rs type="place" ref="#50">Wien</rs>er.</head>
-            <p>Naar man aflægger et Besøg hos Schnitzler i hans højtliggende Bolig i <rs
-                  type="place" ref="#50">Wien</rs>s nordvestlige Kvarter, erfarer man, at det til
+            <head type="sub">En Samtale med en berømt <rs type="place" ref="#pmb50">Wien</rs>er.</head>
+            <p>Naar man aflægger et Besøg hos Schnitzler i hans højtliggende Bolig i <rs type="place" ref="#pmb50">Wien</rs>s nordvestlige Kvarter, erfarer man, at det til
                Tider maa være lidt trættende at være verdensberømt, hvis man samtidig gerne vil være
                saa imødekommende og elskværdig som mulig. Dynger af Breve fra Udland og Indland
-               ligger paa hans Arbejdsbord. Telefonen ringer (saa godt som en <rs type="place"
-                  ref="#41240">østrig</rs>sk Telefon p. t. formaar det) ustandselig: Darf ich den
+               ligger paa hans Arbejdsbord. Telefonen ringer (saa godt som en <rs type="place" ref="#pmb41240">østrig</rs>sk Telefon p. t. formaar det) ustandselig: Darf ich den
                Doktor sprechen! Den Doktor her, den Doktor der, og den Doktor venter man paa ved
-               Middagsbordet. Doktoren skal til Møde i den <rs type="org" ref="#29594">østrigske
+               Middagsbordet. Doktoren skal til Møde i den <rs type="org" ref="#pmb29594">østrigske
                   Forfatterforening</rs>, hvor »sehr wichtige Sachen liegen vor«, og hvor han er
                Medlem af »der Vorstand«.</p>
-            <p>Doktoren har en lille sød <rs type="person" subtype="implied" ref="#2238"
-               >Datter</rs>, det i Morgen skal paa et Sanatorium udenfor <rs type="place" ref="#50"
-                  >Wien</rs> for at opereres for Mandler i Halsen, og hendes Fader vil gerne være
+            <p>Doktoren har en lille sød <rs type="person" subtype="implied" ref="#pmb2238">Datter</rs>, det i Morgen skal paa et Sanatorium udenfor <rs type="place" ref="#pmb50">Wien</rs> for at opereres for Mandler i Halsen, og hendes Fader vil gerne være
                hos hende de Par Dage, hun skal tilbringe derude. Doktoren skal konferere med
                Direktører, Dramaturger, Regissører og Forlæggere, og Doktoren skulde helst have lidt
                Tid til i sin Hvilestol at krystallisere Kvintessensen af, hvad han hører, ser,
                oplever, samle sine Tanker for til sin Stenograf af kunne give dem Udtryk i de
                Sætninger, der skal gaa over i Literaturhistorien.</p>
-            <p>– – Det var saaledes ikke noget rigtig gunstigt Øjeblik, da jeg <anchor
-                  type="textConst" xml:id="T_I104-11"/>anden<note type="textConst"
-                  xml:id="T_I104-11h"><quote>aden</quote></note> Paaskedag aflagde ham en Visit i
+            <p>– – Det var saaledes ikke noget rigtig gunstigt Øjeblik, da jeg <anchor type="textConst" xml:id="T_I104-11"/>anden<note type="textConst" xml:id="T_I104-11h">
+                  <quote>aden</quote>
+               </note> Paaskedag aflagde ham en Visit i
                   <anchor type="textConst" xml:id="T_I104-1"/>
-               <rs type="place" ref="#150">Sternwartestrasse</rs>
-               <note type="textConst" xml:id="T_I104-1h"><quote>Steinwarderstrasse</quote></note>.
-               Den unge <rs type="person" ref="#12692">Schnitzler</rs> stak ustandselig Hovedet ind
+               <rs type="place" ref="#pmb150">Sternwartestrasse</rs>
+               <note type="textConst" xml:id="T_I104-1h">
+                  <quote>Steinwarderstrasse</quote>
+               </note>.
+               Den unge <rs type="person" ref="#pmb12692">Schnitzler</rs> stak ustandselig Hovedet ind
                ad Døren med en Paamindelse: »Vater! Wird unten am Tisch gewartet!« – »Na, fünf
                Minuten noch« svarede der Doktor. – Og hvad kan man faa udrettet i 5 Minutter, naar
-               man skal interviewe en Mand, der ikke blot taler <rs type="place" ref="#50"
-               >Wien</rs>ertysk, men tilmed meget hurtigt og nervøst. Mit Interview var saaledes
+               man skal interviewe en Mand, der ikke blot taler <rs type="place" ref="#pmb50">Wien</rs>ertysk, men tilmed meget hurtigt og nervøst. Mit Interview var saaledes
                lige ved a gaa i Stykker. Schnitzler lovede mig ganske vist, at hvis han paa nogen
                Maade kunde faa Tid, vilde han paa Vejen hjem fra et Forfattermøde i »der Altstadt«
                se op til mig paa Hotellet.</p>
@@ -104,8 +103,7 @@
                Dag blev banket haardt paa min Dør, og ind traadte den kendte Læge og berømte
                Forfatter. Som han saaledes gjorde sin Entré, mindede han mest af alt om en Huslæge
                af den gode gamle Slags, af den Type, som kørte rundt til deres Klientel i Glaskupé
-               med liberiklædt Kusk paa Bukken. I det Ydre minder han noget am Prof. <rs
-                  type="person" ref="#58260">Carl Jul. Salomonsen</rs>, graanet spidst
+               med liberiklædt Kusk paa Bukken. I det Ydre minder han noget am Prof. <rs type="person" ref="#pmb58260">Carl Jul. Salomonsen</rs>, graanet spidst
                Professorfuldskæg, skarpe, levende og dog varme Øjne, under en vis Verdenstræthed,
                energiske Betoninger, hurtigt talende, af og til en nervøs Bevægelse, understreger
                sine Pointer og Eruptioner ved Gestikulering med Pincenesen, som han elegant holder
@@ -114,67 +112,57 @@
                lidt i al Almindelighed, thi kort sagt: hvad jeg har at fortælle Offentligheden,
                giver jeg Udtryk for i mine Værker.</p>
             <p>– I hvilke af Deres Værker genfinder De mest af Dem selv?</p>
-            <p>– Det kan jeg ikke svare paa, men de Værker, jeg selv holder mest af, er »<rs
-                  type="work" ref="#30203">Professor Bernhardi</rs>«, »<rs type="work" ref="#29937"
-                  >Der junge <anchor type="textConst" xml:id="T_I104-3"/>Medardus<note
-                     type="textConst" xml:id="T_I104-3h"><quote>Melardus</quote></note>
-               </rs>« og »<rs type="work" ref="#29923">Der Weg ins Freie</rs>«.</p>
-            <p>– Deres literære Bane har vel egentlig altid være ein <rs type="work"
-                  subtype="implied" ref="#29923">Weg ins Freie</rs>?</p>
+            <p>– Det kan jeg ikke svare paa, men de Værker, jeg selv holder mest af, er »<rs type="work" ref="#pmb30203">Professor Bernhardi</rs>«, »<rs type="work" ref="#pmb29937">Der junge <anchor type="textConst" xml:id="T_I104-3"/>Medardus<note type="textConst" xml:id="T_I104-3h">
+                     <quote>Melardus</quote>
+                  </note>
+               </rs>« og »<rs type="work" ref="#pmb29923">Der Weg ins Freie</rs>«.</p>
+            <p>– Deres literære Bane har vel egentlig altid være ein <rs type="work" subtype="implied" ref="#pmb29923">Weg ins Freie</rs>?</p>
             <p>– Ja, og det har jeg maattet døje nogen Forfølgelse for.</p>
-            <p>»<rs type="work" ref="#30203">Professor Bernhardi</rs>«, som ikke er mit kunstnerisk
+            <p>»<rs type="work" ref="#pmb30203">Professor Bernhardi</rs>«, som ikke er mit kunstnerisk
                verdifuldeste Arbejde men det, jeg sætter mest Pris paa, var forbudt her indtil
                Omstyrtningen. Men forresten høstede jeg allerede ved Arbejdets Fremkomst nogen
                Anerkendelse for det Mand og Mand imellem. Jeg er jo selv Læge, og alle de i Stykket
                portrætterede Læger er selvfølgelig Mennesker, jeg kender fra Livet; naturligvis er
-               de her <anchor type="textConst" xml:id="T-I104-1"/>gengiver<note type="textConst"
-                  xml:id="T-I104-1h"><quote>gengivet</quote></note> i mer eller mindre dramatisk
+               de her <anchor type="textConst" xml:id="T-I104-1"/>gengiver<note type="textConst" xml:id="T-I104-1h">
+                  <quote>gengivet</quote>
+               </note> i mer eller mindre dramatisk
                Redaktion.</p>
-            <p>– Til Deres berømte Figur, Hofskuespiller Konrad Herbot, i »<rs type="work"
-                  ref="#31429">Die grosse Scene</rs>« har De maaske ogsaa brugt Forbillede?</p>
+            <p>– Til Deres berømte Figur, Hofskuespiller Konrad Herbot, i »<rs type="work" ref="#pmb31429">Die grosse Scene</rs>« har De maaske ogsaa brugt Forbillede?</p>
             <p>– Man har vel altid, naar man skriver, mer eller mindre bevidst en Model ude fra
-               Livet, uden at man derfor behøver at kende den paagældende. Da jeg havde skrevet »<rs
-                  type="work" ref="#30203">Professor Bernhardi</rs>«, i hvilket forekommer en
+               Livet, uden at man derfor behøver at kende den paagældende. Da jeg havde skrevet »<rs type="work" ref="#pmb30203">Professor Bernhardi</rs>«, i hvilket forekommer en
                Minister, i hvem jeg ganske rigtig tog Sigte paa en den Gang fungerende Statsmand,
                kom adskillige Kolleger og Venner og sagde »Ham har De truffet lige paa Komet!«
                Hvortil jeg maatte svare, det glæder mig. Jeg kender slet ikke Manden.</p>
-            <p>I »<rs type="work" ref="#30203">Professor Bernhardi</rs>« finder forøvrigt den, der
-               læser med Opmærksomhed, en vis Forklaring paa Striden for og imod »<rs type="work"
-                  ref="#29855">Reigen</rs>«.</p>
-            <p>– Ja, hvorledes hænger det egentlig sammen med »<rs type="work" ref="#29855"
-                  >Reigen</rs>«?</p>
-            <p>– »<rs type="work" ref="#29855">Reigen</rs>«, siger Schnitzler, er jo egentlig eine
+            <p>I »<rs type="work" ref="#pmb30203">Professor Bernhardi</rs>« finder forøvrigt den, der
+               læser med Opmærksomhed, en vis Forklaring paa Striden for og imod »<rs type="work" ref="#pmb29855">Reigen</rs>«.</p>
+            <p>– Ja, hvorledes hænger det egentlig sammen med »<rs type="work" ref="#pmb29855">Reigen</rs>«?</p>
+            <p>– »<rs type="work" ref="#pmb29855">Reigen</rs>«, siger Schnitzler, er jo egentlig eine
                sehr alte Sache – skrevet i 1896 – og aldrig skrevet med den Tanke, at det skulde
                opføres.</p>
             <p>– Hvad sagde man om det straks ved dets Fremkomst?</p>
-            <p>– Tav det ihjel. Det blev forbudt i <rs type="place" ref="#151">Tyskland</rs> og tiet
-               ned i <rs type="place" ref="#41240">Østrig</rs>; selv liberale Blade var ganske
+            <p>– Tav det ihjel. Det blev forbudt i <rs type="place" ref="#pmb151">Tyskland</rs> og tiet
+               ned i <rs type="place" ref="#pmb41240">Østrig</rs>; selv liberale Blade var ganske
                isnende.</p>
-            <p>– Hvorfor har man egentlig saa meget imod »<rs type="work" ref="#29855">Reigen</rs>«?
+            <p>– Hvorfor har man egentlig saa meget imod »<rs type="work" ref="#pmb29855">Reigen</rs>«?
                Er det saa slemt?</p>
             <p>– Folk med meget strenge Sædelighedskrav vil vel nok finde det stærkt. Men forøvrigt
                synes jeg, at man ikke kan afgøre et kunstnerisk Arbejdes Værdi eller ikke Værdi med
-               en moralsk Bedømmelse. Nej, for rigtig at forstaa Indignationen imod »<rs type="work"
-                  ref="#29855">Reigen</rs>«, i al Fald her i <rs type="place" ref="#41240"
-                  >Østrig</rs>, skal man meget dybere ned, man maa næsten kende <rs type="place"
-                  ref="#41240">Østrigs</rs> Historie lige fra den Dag, »<rs type="work" ref="#29855"
-                  >Reigen</rs>« blev skrevet, og op til vore Tider. Alt her i Livet er i sidste
-               Instans Politik. Og da der her i <rs type="place" ref="#41240">Østrig</rs> har været
+               en moralsk Bedømmelse. Nej, for rigtig at forstaa Indignationen imod »<rs type="work" ref="#pmb29855">Reigen</rs>«, i al Fald her i <rs type="place" ref="#pmb41240">Østrig</rs>, skal man meget dybere ned, man maa næsten kende <rs type="place" ref="#pmb41240">Østrigs</rs> Historie lige fra den Dag, »<rs type="work" ref="#pmb29855">Reigen</rs>« blev skrevet, og op til vore Tider. Alt her i Livet er i sidste
+               Instans Politik. Og da der her i <rs type="place" ref="#pmb41240">Østrig</rs> har været
                en voksende Antisemitisme, er der ikke bleven sparet paa Krudtet, da det er en Jøde,
-               der har skrevet »<rs type="work" ref="#29855">Reigen</rs>«, og da det set under en
+               der har skrevet »<rs type="work" ref="#pmb29855">Reigen</rs>«, og da det set under en
                streng klerikal Synsvinkel har mange taknemlige Angrebspunkter.</p>
             <p>– Er De ortodoks Jøde?</p>
-            <p>– Intet ligger mig fjernere. Jeg er <rs type="place" ref="#41240">Tysk-Østriger</rs>.
+            <p>– Intet ligger mig fjernere. Jeg er <rs type="place" ref="#pmb41240">Tysk-Østriger</rs>.
                Jeg er født og opdraget i tyske Kredse, og jeg føler mig som Repræsentant for liberal
                tysk Aand og Tanke.</p>
-            <p>Jeg er saa god en <rs type="place" ref="#41240">Tysk-Østriger</rs> som nogen, men
+            <p>Jeg er saa god en <rs type="place" ref="#pmb41240">Tysk-Østriger</rs> som nogen, men
                derfor kunde det dog aldrig falde mig ind at fornægte mit jødiske Ophav. Jeg er mig
                særdeles vel bevidst, i hvor høj Grad meget af det, der i mine Værker har gjort
                størst Lykke, skyldes jødisk Aand; der gives spredt i mine Arbejder endogsaa ganske
                specifik jødiske Ting. Paa visse Punkter er jeg dog ganske uenig med den
                almindeligste jødiske Opfattelse, f. Eks. med Hensyn til den jødiske
-               Hjemlandsbevægelse, som vil samle alle Jøder i ét Samfund i <rs type="place"
-                  ref="#815">Palæstina</rs>. Ens Hjem er der, hvor man er født og opdragen, i det
+               Hjemlandsbevægelse, som vil samle alle Jøder i ét Samfund i <rs type="place" ref="#pmb815">Palæstina</rs>. Ens Hjem er der, hvor man er født og opdragen, i det
                Land, hvis Kultur man han indsuget i de Udviklingsaar, hvor Ens Fysiognomi dannes, og
                ikke i et Land, til hvilket man kun har den fjerne Relation, at det for Tusinder af
                Aar tilbage har tilhørt Ens Forfædre.</p>
@@ -182,70 +170,55 @@
             <p>– Fjenderne er ikke de værste. Nej, de fejge Venner de kan gøre En ondt. Den Type,
                der i Almindelighed føler sig beæret ved at kende En, men til andre Tider siger: Ja,
                Schnitzler er en fortræffelig Mand, men han har dog alligevel kunnet skrive saadan et
-               Stykke som »<rs type="work" ref="#29855">Reigen</rs>«. Nej, for at forstaa hele
-               Spørgsmaalet »<rs type="work" ref="#29855">Reigen</rs>« og den Fanatisme, det har
+               Stykke som »<rs type="work" ref="#pmb29855">Reigen</rs>«. Nej, for at forstaa hele
+               Spørgsmaalet »<rs type="work" ref="#pmb29855">Reigen</rs>« og den Fanatisme, det har
                bragt til Udbrud, maa man forstaa, i hvor høj Grad de politiske Partier der tæller
-               den store Mængde af Folket i <rs type="place" ref="#41240">Østrig</rs>, er paa Udkig
+               den store Mængde af Folket i <rs type="place" ref="#pmb41240">Østrig</rs>, er paa Udkig
                efter enhver Lejlighed ti at angribe Jøderne. De tysk Nationale hader dem som Nation,
                de kristelig Sociale som Race, de Klerikale som Konfession. Der findes indenfor de
                Klerikale ærlige, højtbegavede Personer, jeg har den største Agtelse for. Der findes
                indenfor alle Partierne Masser af Mennesker, ja Majoriteten kunde man maaske sige,
                som ikke har Spor imod mig som Menneske, ja føler sig maaske endogsaa lidt beæret af
-               at være Landsmand med mig. Men saa en Dag staar »<rs type="work" ref="#29855"
-                  >Reigen</rs>« paa Plakaten. »<rs type="work" ref="#29855">Reigen</rs>« har
-               Schnitzler skrevet. »<rs type="work" ref="#29855">Reigen</rs>« er et fortræffeligt
+               at være Landsmand med mig. Men saa en Dag staar »<rs type="work" ref="#pmb29855">Reigen</rs>« paa Plakaten. »<rs type="work" ref="#pmb29855">Reigen</rs>« har
+               Schnitzler skrevet. »<rs type="work" ref="#pmb29855">Reigen</rs>« er et fortræffeligt
                klerikalt Agitationsnummer, og da Schnitzler er Jøde, afgiver det et kærkomment
                Grundlag for en voldsom antisemitisk Offensiv – – og saa har vi Spillet gaaende.</p>
-            <p>– De har skrevet et efter Sigende meget smukt og dybsindigt Arbejde, der hedder »<rs
-                  type="work" ref="#30207">Das weite Land</rs>«. Hvor ligger dieses <rs type="work"
-                  ref="#30207" subtype="implied">weite Land</rs>?</p>
+            <p>– De har skrevet et efter Sigende meget smukt og dybsindigt Arbejde, der hedder »<rs type="work" ref="#pmb30207">Das weite Land</rs>«. Hvor ligger dieses <rs type="work" ref="#pmb30207" subtype="implied">weite Land</rs>?</p>
             <p>Schnitzler ser sig lidt om i Stuen, spadserer lidt frem og tilbage i nogle
-               Tilløbssætninger, men svarer saa endelig kort og godt: Das <rs type="work"
-                  ref="#30207" subtype="implied">weite Land</rs> ist das Land der menschlichen
+               Tilløbssætninger, men svarer saa endelig kort og godt: Das <rs type="work" ref="#pmb30207" subtype="implied">weite Land</rs> ist das Land der menschlichen
                Seelen!</p>
             <p>– Arbejder De i Øjeblikket paa noget nyt?</p>
-            <p>– Ja, jeg er midt i et større <rs type="work" ref="#30775" subtype="implied"
-                  >Arbejde</rs>, som jeg haaber at faa fuldendt. Dog maa jeg sige, jeg er endnu
+            <p>– Ja, jeg er midt i et større <rs type="work" ref="#pmb30775" subtype="implied">Arbejde</rs>, som jeg haaber at faa fuldendt. Dog maa jeg sige, jeg er endnu
                temmelig langt fra at være færdig. Hvad det handler om, kan jeg ikke udtale mig
                om.</p>
-            <p>– Har De flere Børn end den lille <rs type="person" ref="#2238" subtype="implied"
-                  >Pige</rs> og Deres unge <rs type="person" ref="#12692" subtype="implied"
-               >Søn</rs>?</p>
+            <p>– Har De flere Børn end den lille <rs type="person" ref="#pmb2238" subtype="implied">Pige</rs> og Deres unge <rs type="person" ref="#pmb12692" subtype="implied">Søn</rs>?</p>
             <p>– Nej.</p>
-            <p>– Skal Deres <rs type="person" ref="#12692" subtype="implied">Søn</rs> ogsaa være
+            <p>– Skal Deres <rs type="person" ref="#pmb12692" subtype="implied">Søn</rs> ogsaa være
                Forfatter?</p>
             <p>– Nej, Gott sei Dank, han føler ikke Spor af Ambitioner i den Retning. De véd, det
                kan være »so eine peinliche Sache« og overordentlig svært at vinde frem, naar man er
                Søn af en temmelig bekendt Fader. Selv om det, Sønnen skriver, er ovenud glimrende,
-               vil Publikum altid være tilbøjelig til at drage ikke for Sønnen gunstige <anchor
-                  type="textConst" xml:id="T_I104-2"/>Paralleler<note type="textConst"
-                  xml:id="T_I104-2h"><quote>Paraleller</quote></note> med Faderens Arbejder. Min <rs
-                  type="person" ref="#12692" subtype="implied">Søn</rs> har nok artistiske Anlæg,
+               vil Publikum altid være tilbøjelig til at drage ikke for Sønnen gunstige <anchor type="textConst" xml:id="T_I104-2"/>Paralleler<note type="textConst" xml:id="T_I104-2h">
+                  <quote>Paraleller</quote>
+               </note> med Faderens Arbejder. Min <rs type="person" ref="#pmb12692" subtype="implied">Søn</rs> har nok artistiske Anlæg,
                spiller udmærket, interesserer sig for Musikteori og Partiturer og har vist Anlæg for
                Regiesiden af Teatervirksomheden. Han bliver muligvis en Dag Sceneinstruktør.</p>
-            <p>– Kender De Professor <rs type="person" ref="#5257">Steinach</rs>?</p>
+            <p>– Kender De Professor <rs type="person" ref="#pmb5257">Steinach</rs>?</p>
             <p>– Ret overfladisk. For cirka 10 Aar siden havde jeg en Gang en lang Samtale med ham
                om de Operationer – den Gang var det ganske vist kun Forsøg paa Dyr – som han senere
                er blevet saa omtalt for. Jeg maa stærkt betone, at jeg i ingen Henseende er saa
                meget Fagmand, at jeg kan meddele noget nærmere om dette Spørgsmaal. Jeg tror dog,
                det her drejer sig om en overordentlig betydningsfuld Sag.</p>
-            <p>– Kender De <rs type="place" ref="#43570">Danmark</rs>?</p>
+            <p>– Kender De <rs type="place" ref="#pmb43570">Danmark</rs>?</p>
             <p>Doktorens Ansigt, der hidtil har været elskværdigt seriøst, præget af de mange
                alvorlige Ting, han har fortalt mig, straaler pludselig af en velbehagelig
-               Bonvivanglæde. Han slaar Smæk med Tungen og siger: <rs type="place" ref="#43570"
-                  >Dänemark</rs>! Jeg har været der 2 Gange. Boede den ene Gang paa <rs type="place"
-                  ref="#958">Skodsborg</rs>, den anden Gang paa <rs type="place" ref="#959"
-                  >Marienlyst</rs>. Intet Steds har jeg set saa skønne Solnedgange, som over <rs
-                  type="place" ref="#58265">Kullagunnarstorp</rs>. Og saa denne Mad, dette kolde
+               Bonvivanglæde. Han slaar Smæk med Tungen og siger: <rs type="place" ref="#pmb43570">Dänemark</rs>! Jeg har været der 2 Gange. Boede den ene Gang paa <rs type="place" ref="#pmb958">Skodsborg</rs>, den anden Gang paa <rs type="place" ref="#pmb959">Marienlyst</rs>. Intet Steds har jeg set saa skønne Solnedgange, som over <rs type="place" ref="#pmb58265">Kullagunnarstorp</rs>. Og saa denne Mad, dette kolde
                Bord med Akva – hvad er det, De kalder det? Aal– Aal – – Aalborg Akvavit, ja rigtig –
                – Herrlich!</p>
             <p>– De skulde gøre Visiten om igen!</p>
             <p>– Stod det til mig, kom jeg snart. Men i saa Fald maa De se at faa forbedret vor
-               Kronevaluta. Saalænge Forholdet er det, at der skal 100 <rs type="place" ref="#41240"
-                  >Østrig</rs>ske Kroner ti for at købe 1 <rs type="place" ref="#43570">dansk</rs>
-               Krone, maa jeg blive hjemme. I gamle Dage, naar jeg f. Eks. i Tantième fra <rs
-                  type="org" ref="#36247">Burgteatret</rs> fik 10 pCt. af 3000 <rs type="place"
-                  ref="#41240">østrig</rs>ske Kroner, lig 300 Kroner, kunde jeg for disse købe seks
+               Kronevaluta. Saalænge Forholdet er det, at der skal 100 <rs type="place" ref="#pmb41240">Østrig</rs>ske Kroner ti for at købe 1 <rs type="place" ref="#pmb43570">dansk</rs>
+               Krone, maa jeg blive hjemme. I gamle Dage, naar jeg f. Eks. i Tantième fra <rs type="org" ref="#pmb36247">Burgteatret</rs> fik 10 pCt. af 3000 <rs type="place" ref="#pmb41240">østrig</rs>ske Kroner, lig 300 Kroner, kunde jeg for disse købe seks
                Par Støvler. Nu, naar jeg faar 10 pCt. af 40,000 Kroner, lig 4000 Kroner, kan jeg
                daarligt faa ét Par anstændigt Fodtøj for dette Beløb.</p>
             <p>I Betragtning af, at det jo almindelig antages, at en Digter digter bedst, naar han
@@ -262,49 +235,36 @@
             <p>– Dieser wahnsinnige Krieg, diese idéelosen Revolutionen, alle diese
                Abscheulichkeiten der Menschheit, kann jemand anders dafür fühlen als Aekel?</p>
             <p>– Na, tilføjede Schnitzler, idet han med Haanden pegede mod Landet i det fjerne:
-               Glücklicherweise haben wir ja das Land! – – das <rs type="work" ref="#30207"
-                  subtype="implied">weite Land</rs>.</p>
+               Glücklicherweise haben wir ja das Land! – – das <rs type="work" ref="#pmb30207" subtype="implied">weite Land</rs>.</p>
             <p>Glückliche Reise, mein Herr!</p>
             <p rend="right">Julius Bangert.</p>
          </div>
          <div type="translation">
             <head>Arthur Schnitzler</head>
-            <head type="sub">Ein Gespräch mit einem berühmten <rs type="place" ref="#50"
-               >Wien</rs>er.</head>
-            <p>Wenn man Schnitzler in seiner hochliegenden Wohnung in <rs type="place" ref="#50"
-                  >Wien</rs>s nordwestlichem Viertel besucht, erfährt man, dass es bisweilen etwas
+            <head type="sub">Ein Gespräch mit einem berühmten <rs type="place" ref="#pmb50">Wien</rs>er.</head>
+            <p>Wenn man Schnitzler in seiner hochliegenden Wohnung in <rs type="place" ref="#pmb50">Wien</rs>s nordwestlichem Viertel besucht, erfährt man, dass es bisweilen etwas
                ermüdet, weltberühmt zu sein, wenn man zugleich so entgegenkommend und liebenswürdig
                wie möglich sein will. Berge von Briefen aus Aus- und Inland liegen auf seinem
-               Arbeitstisch. Das Telefon läutet (so gut ein <rs type="place" ref="#41240"
-                  >österreichisches</rs> Telefon dies zur Zeit vermag) unaufhaltsam: Darf ich den
+               Arbeitstisch. Das Telefon läutet (so gut ein <rs type="place" ref="#pmb41240">österreichisches</rs> Telefon dies zur Zeit vermag) unaufhaltsam: Darf ich den
                Doktor sprechen! Doktor hier, Doktor da, und auf den Doktor wartet man bei Tisch. Der
-               Doktor muss zu einer Versammlung der <rs type="org" ref="#29594">österreichischen
+               Doktor muss zu einer Versammlung der <rs type="org" ref="#pmb29594">österreichischen
                   Schriftstellervereinigung</rs>, wo »sehr wichtige Sachen vorliegen«, und wo er
                Mitglied des »Vorstands« ist.</p>
-            <p>Der Doktor hat eine entzückende kleine <rs type="person" ref="#2238"
-                  subtype="implied">Tochter</rs>, die morgen in ein <anchor type="commentary"
-                  xml:id="K_I104-2"/>Sanatorium<note type="commentary" xml:id="K_I104-2h">Sie kam am
-                     <ref target="1921-03-31" type="schnitzlerDiary" subtype="date-only"/> ins <rs
-                     type="place" ref="#89">Sanatorium Loew</rs>, das im <rs type="place" ref="#59"
-                     >9. Wiener Gemeindebezirk</rs> lag. Die Operation verlief gut und am Folgetag
-                  konnte sie zur häuslichen Pflege entlassen werden.</note> außerhalb <rs
-                  type="place" ref="#50">Wien</rs>s muss, um an den Mandeln operiert zu werden, und
+            <p>Der Doktor hat eine entzückende kleine <rs type="person" ref="#pmb2238" subtype="implied">Tochter</rs>, die morgen in ein <anchor type="commentary" xml:id="K_I104-2"/>Sanatorium<note type="commentary" xml:id="K_I104-2h">Sie kam am
+                     <ref target="1921-03-31" type="schnitzler-tagebuch" subtype="date-only"/> ins <rs type="place" ref="#pmb89">Sanatorium Loew</rs>, das im <rs type="place" ref="#pmb59">9. Wiener Gemeindebezirk</rs> lag. Die Operation verlief gut und am Folgetag
+                  konnte sie zur häuslichen Pflege entlassen werden.</note> außerhalb <rs type="place" ref="#pmb50">Wien</rs>s muss, um an den Mandeln operiert zu werden, und
                ihr Vater möchte gerne die paar Tage, die sie dort verbringen muss, bei ihr sein. Der
                Doktor muss mit Direktoren, Dramaturgen, Regisseuren und Verlegern konferieren, und
                der Doktor sollte wohl etwas Zeit haben, um in seinem Ruhesessel die Essenz dessen,
                was er hört, sieht, erlebt, herauszukristallisieren, seine Gedanken für den
                Stenografen sammeln, um sie in Sätzen, die in die Literaturgeschichte eingehen
                werden, auszudrücken.</p>
-            <p>– – Es war somit kein richtig günstiger Augenblick, als ich ihm am <anchor
-                  type="commentary" xml:id="K_I104-1"/>Ostermontag<note type="commentary"
-                  xml:id="K_I104-1h">der erste Teil des Gesprächs fand am <ref target="1921-03-28"
-                     type="schnitzlerDiary" subtype="date-only"/> statt, der zweite zwei Tage
-                  darauf</note> in der <rs type="place" ref="#150">Sternwartestrasse</rs> einen
-               Besuch abstattete. Der junge <rs type="person" ref="#12692">Schnitzler</rs> steckte
+            <p>– – Es war somit kein richtig günstiger Augenblick, als ich ihm am <anchor type="commentary" xml:id="K_I104-1"/>Ostermontag<note type="commentary" xml:id="K_I104-1h">der erste Teil des Gesprächs fand am <ref target="1921-03-28" type="schnitzler-tagebuch" subtype="date-only"/> statt, der zweite zwei Tage
+                  darauf</note> in der <rs type="place" ref="#pmb150">Sternwartestrasse</rs> einen
+               Besuch abstattete. Der junge <rs type="person" ref="#pmb12692">Schnitzler</rs> steckte
                unaufhörlich den Kopf durch die Tür mit einer Erinnerung: »Vater! Wird unten am Tisch
                gewartet!« – »Na, fünf Minuten noch« antwortete der Doktor. – Und was kann man in
-               5 Minuten ausrichten, wenn man einen Mann interviewen soll, der nicht bloß <rs
-                  type="place" ref="#50">Wien</rs>erdeutsch spricht, sondern obendrein sehr schnell
+               5 Minuten ausrichten, wenn man einen Mann interviewen soll, der nicht bloß <rs type="place" ref="#pmb50">Wien</rs>erdeutsch spricht, sondern obendrein sehr schnell
                und nervös. Mein Interview war somit gerade dabei, in die Binsen zu gehen. Schnitzler
                versprach mir fest, dass er, wenn er irgendwie die Zeit fände, auf dem Heimweg von
                einem Schriftstellertreffen in »der Altstadt« bei mir im Hotel vorbeikommen
@@ -314,13 +274,12 @@
                Schriftsteller eintrat. Wie er so erschien, erinnerte er vor allem an einen Hausarzt
                der guten alten Art, von der Sorte, die in einer verglasten Kutsche mit einem
                livrierten Kutscher auf dem Bock zu seinen Patienten fuhr. In seinem Äußeren erinnert
-               er etwas an Prof. <rs type="person" ref="#58260">Carl Jul. Salomonsen</rs> mit seinem
+               er etwas an Prof. <rs type="person" ref="#pmb58260">Carl Jul. Salomonsen</rs> mit seinem
                angegrauten, spitzen Professorenvollbart und seinen scharfen, lebendigen und zugleich
                warmen Augen. Eine gewisse Weltmüdigkeit herrscht vor, die Betonungen sind energisch,
                er spricht schnell, dazu ab und zu eine nervöse Bewegung, unterstreicht seine Pointen
-               und Auffahren durch Gestikulationen mit dem <anchor type="commentary"
-                  xml:id="K_I104-14"/>Nasenzwicker<note type="commentary" xml:id="K_I104-14h">Damit
-                  könnte <rs type="person" ref="#2121">Schnitzler</rs>s Brille gemeint sein, die er
+               und Auffahren durch Gestikulationen mit dem <anchor type="commentary" xml:id="K_I104-14"/>Nasenzwicker<note type="commentary" xml:id="K_I104-14h">Damit
+                  könnte <rs type="person" ref="#pmb2121">Schnitzler</rs>s Brille gemeint sein, die er
                   im Alter benötigte, die aber nicht auf Fotografien, sondern nur auf Zeichnungen
                   überliefert ist.</note>, den er elegant zwischen Daumen und Zeigefinger hält.</p>
             <p>– Lassen Sie uns nicht über ein Interview im eigentlichen Sinn sprechen, sagt
@@ -330,15 +289,14 @@
                <ref type="question" target="#q038"/>– In welchem Ihrer Werke finden Sie am meisten
                von sich selbst wieder?</p>
             <p>– Darauf kann ich nicht antworten, aber die Werke, die ich selbst am meisten schätze,
-               sind »<rs type="work" ref="#30203">Professor Bernhardi</rs>«, »<rs type="work"
-                  ref="#29937">Der junge Medardus</rs>« und »<rs type="work" ref="#29923">Der Weg
+               sind »<rs type="work" ref="#pmb30203">Professor Bernhardi</rs>«, »<rs type="work" ref="#pmb29937">Der junge Medardus</rs>« und »<rs type="work" ref="#pmb29923">Der Weg
                   ins Freie</rs>«.</p>
             <p>
                <ref type="question" target="#q039"/>– Ihre literarische Laufbahn ist eigentlich
-               immer ein <rs type="work" subtype="implied" ref="#29923">Weg ins Freie</rs>
+               immer ein <rs type="work" subtype="implied" ref="#pmb29923">Weg ins Freie</rs>
                gewesen?</p>
             <p>– Ja, und dafür habe ich einiges an Verfolgung ertragen müssen.</p>
-            <p>»<rs type="work" ref="#30203">Professor Bernhardi</rs>«, das nicht meine künstlerisch
+            <p>»<rs type="work" ref="#pmb30203">Professor Bernhardi</rs>«, das nicht meine künstlerisch
                wertvollste Arbeit ist, aber die, die ich am meisten schätze, war hier bis zum
                Umsturz verboten. Aber übrigens habe ich schon beim Erscheinen der Arbeit Anerkennung
                der Leute dafür erfahren. Ich bin ja selbst Arzt, und all die im Stück portraitierten
@@ -346,57 +304,50 @@
                sie hier in mehr oder minder dramatischer Bearbeitung wiedergegeben.</p>
             <p>
                <ref type="question" target="#q040"/>– Gab es für Ihre berühmte Figur,
-               Hofsschauspieler Konrad Herbot, in »<rs type="work" ref="#31429">Große Scene</rs>«
+               Hofsschauspieler Konrad Herbot, in »<rs type="work" ref="#pmb31429">Große Scene</rs>«
                vielleicht auch ein Vorbild?</p>
             <p>– Man hat wohl immer, wenn man schreibt, mehr oder weniger bewusst ein Modell aus dem
-               Leben, ohne dass man deshalb den Betreffenden kennen muss. Als ich »<rs type="work"
-                  ref="#30203">Professor Bernhardi</rs>« geschrieben habe mit einem Minister, in dem
+               Leben, ohne dass man deshalb den Betreffenden kennen muss. Als ich »<rs type="work" ref="#pmb30203">Professor Bernhardi</rs>« geschrieben habe mit einem Minister, in dem
                ich ganz richtig einen damaligen Staatsmann aufs Korn genommen habe, kamen mehrere
                Kollegen und Freunde und sagten »Den haben Sie wie ein Komet getroffen!« Worauf ich
                antworten musste, dass mich das freue. Ich kenne den Mann aber überhaupt nicht.</p>
-            <p>In »<rs type="work" ref="#30203">Professor Bernhardi</rs>« findet übrigens, wer mit
-               Aufmerksamkeit liest, eine bestimmte Erklärung für den Streit für und gegen »<rs
-                  type="work" ref="#29855">Reigen</rs>«.</p>
+            <p>In »<rs type="work" ref="#pmb30203">Professor Bernhardi</rs>« findet übrigens, wer mit
+               Aufmerksamkeit liest, eine bestimmte Erklärung für den Streit für und gegen »<rs type="work" ref="#pmb29855">Reigen</rs>«.</p>
             <p>
-               <ref type="question" target="#q034"/>– Ja, wie verhält sich das eigentlich mit »<rs
-                  type="work" ref="#29855">Reigen</rs>«?</p>
-            <p>– »<rs type="work" ref="#29855">Reigen</rs>«, sagt Schnitzler, ist ja eigentlich eine
+               <ref type="question" target="#q034"/>– Ja, wie verhält sich das eigentlich mit »<rs type="work" ref="#pmb29855">Reigen</rs>«?</p>
+            <p>– »<rs type="work" ref="#pmb29855">Reigen</rs>«, sagt Schnitzler, ist ja eigentlich eine
                sehr alte Sache – geschrieben <date>1896</date> – und niemals mit dem Gedanken an
                eine Aufführung geschrieben.</p>
             <p>
                <ref type="question" target="#q041"/>– Wie redete man darüber unmittelbar nach dem
                Erscheinen?</p>
-            <p>– Man schwieg es tot. Es wurde in <rs type="place" ref="#151">Deutschland</rs>
-               verboten und in <rs type="place" ref="#41240">Österreich</rs> niedergeschwiegen;
+            <p>– Man schwieg es tot. Es wurde in <rs type="place" ref="#pmb151">Deutschland</rs>
+               verboten und in <rs type="place" ref="#pmb41240">Österreich</rs> niedergeschwiegen;
                selbst liberale Blätter blieben eisig.</p>
             <p>
-               <ref type="question" target="#q034"/>– Weshalb hat man eigentlich so viel gegen »<rs
-                  type="work" ref="#29855">Reigen</rs>«? Ist er so schlimm?</p>
+               <ref type="question" target="#q034"/>– Weshalb hat man eigentlich so viel gegen »<rs type="work" ref="#pmb29855">Reigen</rs>«? Ist er so schlimm?</p>
             <p>– Personen mit sehr strengen Sittlichkeitsansprüchen werden ihn wohl heftig finden.
                Aber im Übrigen bin ich der Meinung, dass man den Wert oder Nichtwert einer
                künstlerischen Arbeit nicht moralisch beurteilen kann. Nein, um die Empörung gegen
-                  »<rs type="work" ref="#29855">Reigen</rs>«, jedenfalls hier in <rs type="place"
-                  ref="#41240">Österreich</rs>, richtig zu verstehen, muss man viel tiefer hinunter,
-               man muss fast die <rs type="place" ref="#41240">österreichische</rs> Geschichte von
-               dem Tag an kennen, an dem »<rs type="work" ref="#29855">Reigen</rs>« geschrieben
+                  »<rs type="work" ref="#pmb29855">Reigen</rs>«, jedenfalls hier in <rs type="place" ref="#pmb41240">Österreich</rs>, richtig zu verstehen, muss man viel tiefer hinunter,
+               man muss fast die <rs type="place" ref="#pmb41240">österreichische</rs> Geschichte von
+               dem Tag an kennen, an dem »<rs type="work" ref="#pmb29855">Reigen</rs>« geschrieben
                wurde, bis hinauf in unsere Zeit. Alles hier im Leben ist in letzter Instanz Politik.
-               Und da es hier in <rs type="place" ref="#41240">Österreich</rs> einen wachsenden
-               Antisemitismus gab, wurde nicht am Pulver gespart, auch da es ein Jude ist, der »<rs
-                  type="work" ref="#29855">Reigen</rs>« geschrieben hat, und dies – von einem streng
+               Und da es hier in <rs type="place" ref="#pmb41240">Österreich</rs> einen wachsenden
+               Antisemitismus gab, wurde nicht am Pulver gespart, auch da es ein Jude ist, der »<rs type="work" ref="#pmb29855">Reigen</rs>« geschrieben hat, und dies – von einem streng
                klerikalen Blickwinkel betrachtet – viele dankbare Angriffspunkte bietet.</p>
             <p>
                <ref type="question" target="#q043"/>– Sind Sie orthodoxer Jude?</p>
-            <p>– Nichts liegt mit ferner. Ich bin <rs type="place" ref="#41240"
-                  >Deutsch-Österreicher</rs>. Ich bin in deutschen Kreisen geboren und aufgewachsen,
+            <p>– Nichts liegt mit ferner. Ich bin <rs type="place" ref="#pmb41240">Deutsch-Österreicher</rs>. Ich bin in deutschen Kreisen geboren und aufgewachsen,
                und ich fühle mich als Repräsentant liberalen deutschen Geistes und Denkens.</p>
-            <p>Ich bin ein so guter <rs type="place" ref="#41240">Deutsch-Österreicher</rs> wie nur
+            <p>Ich bin ein so guter <rs type="place" ref="#pmb41240">Deutsch-Österreicher</rs> wie nur
                einer, aber deshalb könnte es mir doch niemals einfallen, meinen jüdischen Ursprung
                zu verleugnen. Mir ist sehr gut bewusst, in welch hohem Grad viel von dem, was in
                meinen Werken am meisten Glück gebracht hat, dem jüdischen Geist geschuldet ist; es
                gibt verteilt in meinen Arbeiten auch ganz spezifisch jüdische Dinge. In gewissen
-               Punkten bin ich doch ganz uneins mit der üblichen jüdischen Auffassung, z.&#8239;B.
+               Punkten bin ich doch ganz uneins mit der üblichen jüdischen Auffassung, z. B.
                in Hinblick auf die jüdische Heimatlandbewegung, die alle Juden in einer Gemeinschaft
-               in <rs type="place" ref="#815">Palästina</rs> sammeln will. Jemandes Heimat ist dort,
+               in <rs type="place" ref="#pmb815">Palästina</rs> sammeln will. Jemandes Heimat ist dort,
                wo man geboren und aufgezogen wurde, in dem Land, dessen Kultur man in den Jahren der
                Entwicklung aufgesaugt hat, wo eine Physiognomie gebildet wird, und nicht in einem
                Land, zu welchem man nur die ferne Verbindung hat, dass es tausende Jahre zurück
@@ -406,99 +357,75 @@
             <p>– Feinde sind nicht das Schlimmste. Nein, die feigen Freunde tun einem weh. Der Typ,
                der sich im Allgemeinen geehrt fühlt, einen zu kennen, aber zu anderen Zeiten sagt:
                Ja, Schnitzler ist ein vortrefflicher Mann, aber trotzdem konnte er doch so ein Stück
-               wie »<rs type="work" ref="#29855">Reigen</rs>« schreiben. Nein, um die ganze Frage
-                  »<rs type="work" ref="#29855">Reigen</rs>« und den Fanatismus, den diese zum
+               wie »<rs type="work" ref="#pmb29855">Reigen</rs>« schreiben. Nein, um die ganze Frage
+                  »<rs type="work" ref="#pmb29855">Reigen</rs>« und den Fanatismus, den diese zum
                Ausbruch gebracht hat, zu verstehen, muss man verstehen, in welch hohem Grad die
-               politischen Parteien, die den großen Teil des <rs type="place" ref="#41240"
-                  >österreichischen</rs> Volkes ausmachen, nach jeder Möglichkeit Ausschau halten,
+               politischen Parteien, die den großen Teil des <rs type="place" ref="#pmb41240">österreichischen</rs> Volkes ausmachen, nach jeder Möglichkeit Ausschau halten,
                Juden anzugreifen. Bei den Deutschnationalen sind sie als Nation verhasst, bei den
                Christlich-Sozialen als Rasse, bei den Klerikalen als Konfession. Es gibt unter den
                Klerikalen ehrliche, hochbegabte Personen, für die ich die höchste Achtung habe. In
                allen Parteien gibt es eine Vielzahl von Menschen, man könnte man vielleicht von der
                Mehrheit sprechen, die nicht eine Spur gegen mich als Mensch hat, ja sich vielleicht
-               auch etwas geehrt fühlt, mein Landsmann zu sein. Aber so steht eines Tages »<rs
-                  type="work" ref="#29855">Reigen</rs>« auf dem Plakat. »<rs type="work"
-                  ref="#29855">Reigen</rs>« hat Schnitzler geschrieben. »<rs type="work"
-                  ref="#29855">Reigen</rs>« ist eine vortreffliche klerikale Agitationsnummer, und
+               auch etwas geehrt fühlt, mein Landsmann zu sein. Aber so steht eines Tages »<rs type="work" ref="#pmb29855">Reigen</rs>« auf dem Plakat. »<rs type="work" ref="#pmb29855">Reigen</rs>« hat Schnitzler geschrieben. »<rs type="work" ref="#pmb29855">Reigen</rs>« ist eine vortreffliche klerikale Agitationsnummer, und
                da Schnitzler Jude ist, gibt das eine willkommene Grundlage für eine gewaltige
                antisemitische Offensive – – und da haben wir die Bescherung.</p>
             <p>
                <ref type="question" target="#q045"/>– Sie haben, wie man hört, eine sehr schöne und
-               tiefsinnige Arbeit geschrieben, die heißt »<rs type="work" ref="#30207">Das weite
-                  Land</rs>«. Wo liegt dieses <rs type="work" ref="#30207" subtype="implied">weite
+               tiefsinnige Arbeit geschrieben, die heißt »<rs type="work" ref="#pmb30207">Das weite
+                  Land</rs>«. Wo liegt dieses <rs type="work" ref="#pmb30207" subtype="implied">weite
                   Land</rs>?</p>
             <p>Schnitzler sieht sich etwas im Zimmer um, macht einige Schritte vor und zurück, aber
-               antwortet dann kurz und knapp: Das <rs type="work" ref="#30207" subtype="implied"
-                  >weite Land</rs> ist das Land der menschlichen Seelen!</p>
+               antwortet dann kurz und knapp: Das <rs type="work" ref="#pmb30207" subtype="implied">weite Land</rs> ist das Land der menschlichen Seelen!</p>
             <p>
                <ref type="question" target="#q001"/>– Arbeiten Sie im Augenblick an etwas Neuem?</p>
             <p>– Ja, ich bin mitten in einer größeren <anchor type="commentary" xml:id="K_I104-5"/>
-               <rs type="work" ref="#30775" subtype="implied">Arbeit</rs>
+               <rs type="work" ref="#pmb30775" subtype="implied">Arbeit</rs>
                <note type="commentary" xml:id="K_I104-5h">
-                  <rs type="work" ref="#30775">Der Gang zum Weiher</rs>, der aber erst
+                  <rs type="work" ref="#pmb30775">Der Gang zum Weiher</rs>, der aber erst
                      <date>1926</date> gedruckt vorliegt</note>, die ich zu vollenden hoffe. Doch
                muss ich sagen, ich bin noch ziemlich weit davon entfernt, fertig zu sein. Wovon es
                handelt, darüber kann ich mich nicht äußern.</p>
             <p>
-               <ref type="question" target="#q047"/>– Haben Sie mehr Kinder als das kleine <rs
-                  type="person" subtype="implied" ref="#2238">Mädchen</rs> und Ihren jungen <rs
-                  type="person" ref="#12692" subtype="implied">Sohn</rs>?</p>
+               <ref type="question" target="#q047"/>– Haben Sie mehr Kinder als das kleine <rs type="person" subtype="implied" ref="#pmb2238">Mädchen</rs> und Ihren jungen <rs type="person" ref="#pmb12692" subtype="implied">Sohn</rs>?</p>
             <p>– Nein.</p>
             <p>
-               <ref type="question" target="#q048"/>– Wird Ihr <rs type="person" ref="#12692"
-                  subtype="implied">Sohn</rs> auch Schriftsteller?</p>
+               <ref type="question" target="#q048"/>– Wird Ihr <rs type="person" ref="#pmb12692" subtype="implied">Sohn</rs> auch Schriftsteller?</p>
             <p>– Nein, Gott sei Dank, er empfindet keine Spur von Ambition in diese Richtung. Sie
                wissen, es kann »so eine peinliche Sache« und außerordentlich schwer sein, vorwärts
                zu kommen, wenn man Sohn eines ziemlich bekannten Vaters ist. Selbst wenn das, was
                der Sohn schreibt, durchaus ausgezeichnet ist, wird das Publikum immer dazu neigen,
-               Parallelen zu Ungunsten des Sohnes mit den Arbeiten des Vaters herzustellen. Mein <rs
-                  type="person" ref="#12692" subtype="implied">Sohn</rs> hat künstlerische
+               Parallelen zu Ungunsten des Sohnes mit den Arbeiten des Vaters herzustellen. Mein <rs type="person" ref="#pmb12692" subtype="implied">Sohn</rs> hat künstlerische
                Veranlagungen, spielt ausgezeichnet, interessiert sich für Musiktheorie und
                Partituren und hat Veranlagungen für die Regieseite des Theatergeschäfts gezeigt. Er
                wird vielleicht eines Tages Regisseur.</p>
             <p>
-               <ref type="question" target="#q049"/>– Kennen Sie Professor <anchor type="commentary"
-                  xml:id="K_I104-41"/>
-               <rs type="person" ref="#5257">Steinach</rs>
+               <ref type="question" target="#q049"/>– Kennen Sie Professor <anchor type="commentary" xml:id="K_I104-41"/>
+               <rs type="person" ref="#pmb5257">Steinach</rs>
                <note type="commentary" xml:id="K_I104-41h">
-                  <rs type="person" ref="#5257">Eugen Steinach</rs> war einer der populärsten
+                  <rs type="person" ref="#pmb5257">Eugen Steinach</rs> war einer der populärsten
                   medizinischen Forscher seiner Zeit. Er versprach durch Vasektomie oder
                   Hodentransplantationen die Alterung des Mannes in Griff zu bekommen und wollte auf
-                  diese Weise auch Homosexualität ›heilen‹. <rs type="person" ref="#2121"
-                     >Schnitzler</rs> war persönlich mit ihm bekannt.</note>?</p>
-            <p>– Recht oberflächlich. Vor zirka zehn Jahren hatte ich einmal ein langes <anchor
-                  type="commentary" xml:id="K_I104-3"/>Gespräch<note type="commentary"
-                  xml:id="K_I104-3h">
-                  <date>1911</date> fanden mehrere Gespräche mit <rs type="person" ref="#5257"
-                     >Steinach</rs> statt, am wahrscheinlichsten bezieht sich <rs type="person"
-                     ref="#2121">Schnitzler</rs> auf das vom <ref target="1911-08-08"
-                     type="schnitzlerDiary" subtype="date-only">.</ref>
+                  diese Weise auch Homosexualität ›heilen‹. <rs type="person" ref="#pmb2121">Schnitzler</rs> war persönlich mit ihm bekannt.</note>?</p>
+            <p>– Recht oberflächlich. Vor zirka zehn Jahren hatte ich einmal ein langes <anchor type="commentary" xml:id="K_I104-3"/>Gespräch<note type="commentary" xml:id="K_I104-3h">
+                  <date>1911</date> fanden mehrere Gespräche mit <rs type="person" ref="#pmb5257">Steinach</rs> statt, am wahrscheinlichsten bezieht sich <rs type="person" ref="#pmb2121">Schnitzler</rs> auf das vom <ref target="1911-08-08" type="schnitzler-tagebuch" subtype="date-only">.</ref>
                </note> mit ihm über die Operationen – damals waren es ganz sicher nur Versuche an
                Tieren – für die er später so viel besprochen wurde. Ich möchte stark betonen, dass
                ich in keinerlei Hinsicht Fachmann bin und dass ich zu dieser Frage nichts Näheres
                mitteilen kann. Ich glaube jedoch, dass es sich um eine außerordentlich bedeutsame
                Sache handelt.</p>
             <p>
-               <ref type="question" target="#q005"/>– Kennen Sie <rs type="place" ref="#43570"
-                  >Dänemark</rs>?</p>
+               <ref type="question" target="#q005"/>– Kennen Sie <rs type="place" ref="#pmb43570">Dänemark</rs>?</p>
             <p>Das Gesicht des Doktors, das bisher liebenswert-sachlich war, geprägt von den
                ernsthaften Sachen, die er mir erzählt hat, strahlt plötzlich einnehmende
-               Lebensfreude aus. Er schnalzt mit der Zunge und sagt: <rs type="place" ref="#43570"
-                  >Dänemark</rs>! Ich war zweimal dort. Das eine Mal wohnte ich in <rs type="place"
-                  ref="#958">Skodsborg</rs>, das andere Mal in <rs type="place" ref="#959"
-                  >Marienlyst</rs>. Nirgendwo sonst habe ich so schöne Sonnenuntergänge gesehen wie
-               über <rs type="place" ref="#58265">Kulla Gunnarstorp</rs>. Und dann dieses Essen,
-               dieses kalte Gericht mit Akva – wie nennen Sie das? Aal– Aal – – <anchor
-                  type="commentary" xml:id="K_I104-11"/>Aalborg Aquavit<note type="commentary"
-                  xml:id="K_I104-11h">eine Art Branntwein</note>, ja richtig – – Herrlich!</p>
+               Lebensfreude aus. Er schnalzt mit der Zunge und sagt: <rs type="place" ref="#pmb43570">Dänemark</rs>! Ich war zweimal dort. Das eine Mal wohnte ich in <rs type="place" ref="#pmb958">Skodsborg</rs>, das andere Mal in <rs type="place" ref="#pmb959">Marienlyst</rs>. Nirgendwo sonst habe ich so schöne Sonnenuntergänge gesehen wie
+               über <rs type="place" ref="#pmb58265">Kulla Gunnarstorp</rs>. Und dann dieses Essen,
+               dieses kalte Gericht mit Akva – wie nennen Sie das? Aal– Aal – – <anchor type="commentary" xml:id="K_I104-11"/>Aalborg Aquavit<note type="commentary" xml:id="K_I104-11h">eine Art Branntwein</note>, ja richtig – – Herrlich!</p>
             <p>– Sie sollten den Besuch wiederholen!</p>
             <p>– Läge es an mir, käme ich bald. Aber in diesem Fall müssen Sie dafür sorgen, dass
-               unsere Kronenwährung verbessert wird. Solange das Verhältnis so ist, dass es 100 <rs
-                  type="place" ref="#41240">österreichische</rs> Kronen braucht, um 1 <rs
-                  type="place" ref="#43570">dänische</rs> Krone zu kaufen, muss ich zu Hause
-               bleiben. In den alten Zeiten, als ich z.&#8239;B. 10 <c rendition="#prozent"/> von
-                  3000 <rs type="place" ref="#41240">österreichischen</rs> Kronen, gleich 300
-               Kronen, in Tantiemen vom <rs type="org" ref="#36247">Burgtheater</rs> bekam, konnte
+               unsere Kronenwährung verbessert wird. Solange das Verhältnis so ist, dass es 100 <rs type="place" ref="#pmb41240">österreichische</rs> Kronen braucht, um 1 <rs type="place" ref="#pmb43570">dänische</rs> Krone zu kaufen, muss ich zu Hause
+               bleiben. In den alten Zeiten, als ich z. B. 10 <c rendition="#prozent"/> von
+                  3000 <rs type="place" ref="#pmb41240">österreichischen</rs> Kronen, gleich 300
+               Kronen, in Tantiemen vom <rs type="org" ref="#pmb36247">Burgtheater</rs> bekam, konnte
                ich dafür sechs Paar Stiefel kaufen. Nun, wenn ich 10 <c rendition="#prozent"/> von
                40.000 Kronen, gleich 4.000 Kronen, bekomme, kann ich für diesen Betrag kaum ein Paar
                ordentliche Schuhe bekommen.</p>
@@ -518,27 +445,715 @@
             <p>– Dieser wahnsinnige Krieg, diese ideelosen Revolutionen, alle diese
                Abscheulichkeiten der Menschheit, kann jemand anderes dafür fühlen als Ekel?</p>
             <p>– Na, fügte Schnitzler hinzu, indem er mit der Hand auf das Land in der Ferne
-               deutete: Glücklicherweise haben wir ja das Land! – – das <rs type="work" ref="#30207"
-                  subtype="implied">weite Land</rs>.</p>
+               deutete: Glücklicherweise haben wir ja das Land! – – das <rs type="work" ref="#pmb30207" subtype="implied">weite Land</rs>.</p>
             <p>Glückliche Reise, mein Herr!</p>
             <p rend="right">Julius Bangert.</p>
          </div>
          <div type="biographical">
             <div1>
-               <ref target="1921-03-28" type="schnitzlerDiary"/>
-               <quote>Ein <rs type="place" ref="#36300">Kopenhagner</rs> Journalist <rs
-                     type="person" ref="#13714">Bangert</rs>, erzählt mir von meiner Beliebtheit im
-                  Norden; insbesondre ›<rs type="work" ref="#31429">Große Scene</rs>‹.</quote>
+               <ref target="1921-03-28" type="schnitzler-tagebuch"/>
+               <quote>Ein <rs type="place" ref="#pmb36300">Kopenhagner</rs> Journalist <rs type="person" ref="#pmb13714">Bangert</rs>, erzählt mir von meiner Beliebtheit im
+                  Norden; insbesondre ›<rs type="work" ref="#pmb31429">Große Scene</rs>‹.</quote>
             </div1>
             <div1>
-               <ref target="1921-03-30" type="schnitzlerDiary"/>
-               <quote>Bei Hrn. <rs type="person" ref="#13714">Bangert</rs>, <rs type="place"
-                     ref="#1120">Hotel Krantz</rs>, der mich über allerlei fragte, eigentlich
-                  interviewte (<rs type="work" ref="#29855">Reigen</rs>, <rs type="work"
-                     ref="#30203">Bernhardi</rs>, <rs type="work" ref="#29923">Weg ins freie</rs>,
+               <ref target="1921-03-30" type="schnitzler-tagebuch"/>
+               <quote>Bei Hrn. <rs type="person" ref="#pmb13714">Bangert</rs>, <rs type="place" ref="#pmb1120">Hotel Krantz</rs>, der mich über allerlei fragte, eigentlich
+                  interviewte (<rs type="work" ref="#pmb29855">Reigen</rs>, <rs type="work" ref="#pmb30203">Bernhardi</rs>, <rs type="work" ref="#pmb29923">Weg ins freie</rs>,
                   Antisemitismus u. a.).</quote>
             </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb13714">
+               <persName>
+                  <forename>Julius</forename>
+                  <surname>Bangert</surname>
+               </persName>
+               <persName type="person_geburtsname-vorname">Conrad Julius Emil</persName>
+               <birth>
+                  <date when="1880-11-02">02.11.1880</date>
+                  <settlement ref="pmb36300">
+                     <placeName type="pref">Kopenhagen</placeName>
+                     <location>
+                        <geo>55,67594 12,56553</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1957-08-11">11.08.1957</date>
+                  <settlement ref="pmb39526">
+                     <placeName type="pref">Gentofte Kommune</placeName>
+                     <location>
+                        <geo>55,75 12,55</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13404</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/13714/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb13714</idno>
+            </person>
+            <person xml:id="pmb2238">
+               <persName>
+                  <forename>Lili</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <persName type="person_ehename_nachname">Cappellini</persName>
+               <persName type="person_geburtsname_nachname">Schnitzler</persName>
+               <persName type="legacy-name-merge">Cappellini, Lili</persName>
+               <birth>
+                  <date when="1909-09-13">13.09.1909</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1928-07-26">26.07.1928</date>
+                  <settlement ref="pmb462">
+                     <placeName type="pref">Venedig</placeName>
+                     <location>
+                        <geo>45,43713 12,33265</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/131362089</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2238.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2238/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14130</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2238</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q108811072</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2238.html</idno>
+            </person>
+            <person xml:id="pmb12692">
+               <persName>
+                  <forename>Heinrich</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1902-08-09">09.08.1902</date>
+                  <settlement ref="pmb75">
+                     <placeName type="pref">Hinterbrühl</placeName>
+                     <location>
+                        <geo>48,08611 16,24809</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1982-07-12">12.07.1982</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb104">Regisseur/Regisseurin</occupation>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19822</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116848510</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12692.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12692/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12692</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1598804</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Heinrich_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb12692.html</idno>
+            </person>
+            <person xml:id="pmb58260">
+               <persName>
+                  <forename>Carl Julius</forename>
+                  <surname>Salomonsen</surname>
+               </persName>
+               <birth>
+                  <date when="1847-12-06">1847-12-06</date>
+                  <settlement ref="pmb36300">
+                     <placeName type="pref">Kopenhagen</placeName>
+                     <location>
+                        <geo>55,67594 12,56553</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1924-11-14">1924-11-14</date>
+                  <settlement ref="pmb36300">
+                     <placeName type="pref">Kopenhagen</placeName>
+                     <location>
+                        <geo>55,67594 12,56553</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58260/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/11761811X</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q16650269</idno>
+            </person>
+            <person xml:id="pmb5257">
+               <persName>
+                  <forename>Eugen</forename>
+                  <surname>Steinach</surname>
+               </persName>
+               <birth>
+                  <date when="1861-01-22">22.01.1861</date>
+                  <settlement ref="pmb56548">
+                     <placeName type="pref">Hohenems</placeName>
+                     <location>
+                        <geo>47,36714 9,70692</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1944-05-14">14.05.1944</date>
+                  <settlement ref="pmb52051">
+                     <placeName type="pref">Territet</placeName>
+                     <location>
+                        <geo>46,42863 6,92122</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <occupation ref="pmb353">Forscher/Forscherin</occupation>
+               <occupation ref="pmb1660">Physiologe/Physiologin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117657662</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20358</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5257/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp42987</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284df9</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q85850</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Eugen_Steinach</idno>
+            </person>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb30203">
+               <title>Professor Bernhardi. Komödie in fünf Akten</title>
+               <title type="werk_arbeitstitel">Ärztestück</title>
+               <title type="werk_arbeitstitel">Junggesellenstück</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date notBefore="1912-01-01" when="1912-07-01">1912</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.31</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q872683</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-professor-bernhardi</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/43034</idno>
+               <idno type="URL" subtype="archive">http://www.archive.org/details/professorbernhar00schn</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30203.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30203/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30203</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30203.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Professor_Bernhardi</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb29937">
+               <title>Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
+               <title type="werk_bibliografische-angabe">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen. Berlin: S. Fischer [26.10.]1910</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1910-10-26">1910-10-26</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.11</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1198956</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/38145</idno>
+               <idno type="URL" subtype="literature">http://www.literature.at/viewer.alo?objid=12116&amp;page=1&amp;viewmode=fullscreen</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29937.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29937/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29937</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29937.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_junge_Medardus</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb29923">
+               <title>Der Weg ins Freie. Roman</title>
+               <title type="werk_bibliografische-angabe">Die neue Rundschau, Jg. 19, H. 1–6, Januar–Juni 1908</title>
+               <title type="werk_arbeitstitel">Die Entrüsteten</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date to="1908-06-01">1.1.1908  – 1.6.1908</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.02.18</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q700479</idno>
+               <idno type="URL" subtype="archive">https://archive.org/details/neuerundschau11908franuoft/page/30</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29923.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29923/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29923</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29923.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_Weg_ins_Freie</idno>
+               <note type="work_kind">Roman</note>
+            </bibl>
+            <bibl xml:id="pmb31429">
+               <title>Große Szene</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1915-01-01">1915</date>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/38149</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31429.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31429/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb31429</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31429.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Einakter</note>
+            </bibl>
+            <bibl xml:id="pmb29855">
+               <title>Reigen. Zehn Dialoge</title>
+               <title type="werk_link">https://www.digital.wienbibliothek.at/wbrobv/content/pageview/2587756</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1900-01-01">1900</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.32</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1414190</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-reigen</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/33309</idno>
+               <idno type="URL" subtype="deutschestextarchiv">http://www.deutschestextarchiv.de/book/show/schnitzler_reigen_1903</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29855.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29855/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29855</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29855.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb30207">
+               <title>Das weite Land. Tragikomödie in fünf Akten</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1910-10-20">1910-10-20</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.06</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1171735</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-das-weite-land</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/32170</idno>
+               <idno type="URL" subtype="literature">http://www.literature.at/viewer.alo?objid=12113&amp;page=1&amp;viewmode=fullscreen</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30207.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30207/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30207</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30207.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Das_weite_Land</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+               <note type="references">Die russische Uraufführung am 20.10.1910 vor der deutschsprachigen</note>
+            </bibl>
+            <bibl xml:id="pmb30775">
+               <title>Der Gang zum Weiher. Dramatische Dichtung</title>
+               <title type="werk_arbeitstitel">Der weise Vater</title>
+               <title type="werk_arbeitstitel">Der Weiher</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1926-01-01">1926</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.09</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1193696</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30775.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30775/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30775</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30775.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_Gang_zum_Weiher</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb33388">
+               <title>Arthur Schnitzler. En Samtale med en beremt Wiener [1921]</title>
+               <title type="werk_bibliografische-angabe">København, 10. 4. 1921</title>
+               <author ref="pmb13714" role="hat-geschaffen">Bangert, Julius</author>
+               <date when="1921-04-10">10.04.1921</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33388/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33388</idno>
+               <note type="work_kind">Interview</note>
+            </bibl>
+            <bibl xml:id="pmb58592">
+               <title>København</title>
+               <title type="werk_link">https://www2.statsbiblioteket.dk/mediestream/avis/record/doms_aviser_page%3Auuid%3Aec42d85c-5fda-4cb2-aff5-eed5e9336513</title>
+               <date from="1889-01-01" to="1929-07-02">1889  – 1929</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58592/</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+            <place xml:id="pmb41240">
+               <placeName>Österreich</placeName>
+               <placeName type="alternative-name">Republik Österreich</placeName>
+               <placeName type="alternative-name">Republic of Austria</placeName>
+               <placeName type="legacy-name-merge">Deutsch Österreich</placeName>
+               <placeName type="legacy-name-merge">Altoesterreich</placeName>
+               <desc type="entity_type">http://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb687">Österreich-Ungarn</placeName>
+                  <geo>48,4054 16,4887</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2782113/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41240/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41240</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb41240</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92143/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92203/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92143.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92203.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb41240.html</idno>
+            </place>
+            <place xml:id="pmb150">
+               <placeName>Sternwartestraße</placeName>
+               <desc type="entity_type">Straße (K.STR)</desc>
+               <desc type="entity_type_id">26</desc>
+               <location type="coords">
+                  <geo>48,23099349198 16,340117830625</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb68">XVIII., Währing</placeName>
+                  <geo>48,23333 16,31667</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb150.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/150/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb150</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb150.html</idno>
+               <idno type="URL" subtype="geonames">https://www.geonames.org/12495677</idno>
+            </place>
+            <place xml:id="pmb151">
+               <placeName>Deutschland</placeName>
+               <placeName type="alternative-name">Bundesrepublik Deutschland</placeName>
+               <placeName type="alternative-name">West Germany</placeName>
+               <placeName type="alternative-name">Federal Republic of Germany</placeName>
+               <placeName type="legacy-name-merge">Germany</placeName>
+               <desc type="entity_type">Land (A.LND)</desc>
+               <desc type="entity_type_id">38</desc>
+               <location type="coords">
+                  <geo>51,5 10,5</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb468">Europa</placeName>
+                  <geo>48,69096 9,14062</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q183</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb151.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2921044/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/151/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/39639/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43456/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb151</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb151</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb151.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Deutschland</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/119923/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4011882-4</idno>
+            </place>
+            <place xml:id="pmb815">
+               <placeName>Palästina</placeName>
+               <placeName type="alternative-name">Palestinian Territory (the Occupied)</placeName>
+               <placeName type="alternative-name">Palestinian Territory, Occupied</placeName>
+               <placeName type="alternative-name">Palestinian Territory</placeName>
+               <placeName type="alternative-name">Palestinian Territories</placeName>
+               <placeName type="alternative-name">the Occupied Palestinian Territory</placeName>
+               <placeName type="legacy-name-merge">Palestine</placeName>
+               <desc type="entity_type">Teil eines Landes (A.LNDX)</desc>
+               <desc type="entity_type_id">13</desc>
+               <location type="coords">
+                  <geo>31,59 35,13</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q23792</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb815.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/815/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91428/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/6254930/</idno>
+               <idno type="URL" subtype="geonames">http://www.geonames.org/6254930/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb815.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Pal%C3%A4stina_(Region)</idno>
+            </place>
+            <place xml:id="pmb43570">
+               <placeName>Dänemark</placeName>
+               <placeName type="legacy-name-merge">Denmark</placeName>
+               <placeName type="alternative-name">Kingdom of Denmark</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1411</desc>
+               <location type="coords">
+                  <geo>56,0 10,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb745">Skandinavien</placeName>
+                  <geo>63,0 25,0</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q35</idno>
+               <idno type="URL" subtype="geonames">https://www.geonames.org/2623032</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb434.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2623032/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/434/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/39525/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43570/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb43570</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb43570.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/D%C3%A4nemark</idno>
+            </place>
+            <place xml:id="pmb958">
+               <placeName>Skodsborg</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>55,8225 12,57324</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb43570">Dänemark</placeName>
+                  <geo>56,0 10,0</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q7061201</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2613685/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb958.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/958/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb958</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb958.html</idno>
+            </place>
+            <place xml:id="pmb959">
+               <placeName>Marienlyst</placeName>
+               <desc type="entity_type">Schloss (K.SLS)</desc>
+               <desc type="entity_type_id">41</desc>
+               <location type="coords">
+                  <geo>56,042028 12,601917</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb43570">Dänemark</placeName>
+                  <geo>56,0 10,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb726">Helsingør</placeName>
+                  <geo>56,03606 12,6136</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q359027</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb959.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/959/</idno>
+               <idno type="URL" subtype="geonames">https://www.geonames.org/2617052/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb959</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91213/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2617052/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb959.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Schloss_Marienlyst</idno>
+            </place>
+            <place xml:id="pmb58265">
+               <placeName>Kulla Gunnarstorp</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#S.FRM</desc>
+               <desc type="entity_type_id">1586</desc>
+               <location type="coords">
+                  <geo>56,11667 12,63333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb44335">Schweden</placeName>
+                  <geo>62,0 15,0</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58265/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2698880/</idno>
+            </place>
+            <place xml:id="pmb89">
+               <placeName>Sanatorium Loew</placeName>
+               <desc type="entity_type">Sanatorium (K.SAN)</desc>
+               <desc type="entity_type_id">27</desc>
+               <location type="coords">
+                  <geo>48,216264483348 16,347492624475</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb59">IX., Alsergrund</placeName>
+                  <geo>48,22387 16,35641</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb198">Pelikangasse</placeName>
+                  <geo>48,216323686182 16,348107467953</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb89.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/89/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb89</idno>
+            </place>
+            <place xml:id="pmb59">
+               <placeName>IX., Alsergrund</placeName>
+               <desc type="entity_type">Bezirk (A.BZK)</desc>
+               <desc type="entity_type_id">25</desc>
+               <location type="coords">
+                  <geo>48,22387 16,35641</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2782729/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb59.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/59/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb59</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb59</idno>
+            </place>
+            <place xml:id="pmb36300">
+               <placeName>Kopenhagen</placeName>
+               <placeName type="alternative-name">Copenhagen</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>55,67594 12,56553</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb43570">Dänemark</placeName>
+                  <geo>56,0 10,0</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1748</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb36300.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36300/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36300</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58083/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4032399-7</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64393/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2618425/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb36300</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb36300.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Kopenhagen</idno>
+            </place>
+            <place xml:id="pmb1120">
+               <placeName>Hotel Krantz</placeName>
+               <placeName type="wien-geschichte-wiki">https://www.geschichtewiki.wien.gv.at/Hotel_Krantz</placeName>
+               <desc type="entity_type">Hotel (K.HTL)</desc>
+               <desc type="entity_type_id">12</desc>
+               <location type="coords">
+                  <geo>48,20576 16,37092</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1120/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb1120</idno>
+               <note type="apis_dates">
+                  <date notBefore="1897-01-01" when="1897-07-02">1897</date>
+               </note>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb29594">
+               <orgName>Deutschösterreichischer Autorenverband</orgName>
+               <desc type="entity_type">Interessensvertretung</desc>
+               <desc type="entity_type_id">999</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29594/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29594</idno>
+               <note type="apis_dates">
+                  <date notBefore="1919-01-01" when="1919-07-02">1919</date>
+               </note>
+            </org>
+            <org xml:id="pmb36247">
+               <orgName>Burgtheater</orgName>
+               <orgName type="alternative-name">Burgtheater GmbH</orgName>
+               <desc type="entity_type">Theater</desc>
+               <desc type="entity_type_id">1012</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb51.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36789/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51010/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2775259/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb51</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb51</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb14">Burgtheater</placeName>
+                  <geo>48,210333 16,361139</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb14.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/14/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb14</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb14.html</idno>
+                  <idno type="URL" subtype="geonames">https://www.geonames.org/6354992/</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb44649">Schlosstheater Schönbrunn</placeName>
+                  <geo>48,186667 16,3125</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44649/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb44649</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2244724</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Schlosstheater_Sch%C3%B6nbrunn</idno>
+               </location>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/38633-9</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36247/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36247</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb36247</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q308720</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Burgtheater</idno>
+               <note type="apis_dates">
+                  <date notBefore="1852-01-01" when="1852-07-01">1852</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

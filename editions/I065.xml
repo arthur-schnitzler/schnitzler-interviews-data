@@ -1,206 +1,405 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-  xml:base="schnitzler-interviews" xml:id="I065">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-        <title level="a" ref="#33207">Mária Rónay: Schnitzler Artur elavult műfajnak tartja az
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="I065">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
+            <title level="a" ref="#pmb33207">Mária Rónay: Schnitzler Artur elavult műfajnak tartja az
           interjút, Oktober 1927</title>
-        <author ref="#29096">Rónay, Mária</author>
-        <editor>
-          <name>Müller, Martin Anton</name>
-        </editor>
-      </titleStmt>
-      <editionStmt>
-        <edition>ASI</edition>
-        <respStmt>
-          <resp>Transkription und Kommentierung</resp>
-          <name>Martin Anton Müller</name>
-        </respStmt>
-      </editionStmt>
-      <publicationStmt>
-        <publisher>Martin Anton Müller</publisher>
-        <idno type="asi" n="065"/>
-      </publicationStmt>
-      <sourceDesc>
-        <listBibl>
-          <biblStruct>
-            <analytic>
-              <author ref="#29096">Rónay, Mária</author>
-              <title level="a" ref="#33207">Schnitzler Artur elavult műfajnak tartja az
+            <author ref="#pmb29096">Rónay, Mária</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="065"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#pmb29096">Rónay, Mária</author>
+                     <title level="a" ref="#pmb33207">Schnitzler Artur elavult műfajnak tartja az
                 interjút</title>
-            </analytic>
-            <monogr>
-              <title level="j" ref="#56422">Literatura</title>
-              <imprint>
-                <date when="1927-10-01" n="1">Oktober 1927</date>
-              </imprint>
-              <biblScope unit="jg">2</biblScope>
-              <biblScope unit="nr">10</biblScope>
-              <biblScope unit="pp">337</biblScope>
-            </monogr>
-          </biblStruct>
-          <biblStruct corresp="ASUN">
-            <analytic>
-              <editor>Hg. Martin Anton Müller, Übersetzung Sándor Tatár</editor>
-              <title level="a">Arthur Schnitzlers ungarische Interviews</title>
-            </analytic>
-            <monogr>
-              <title level="j">Hofmannsthal-Jahrbuch. Zur europäischen Moderne</title>
-              <imprint>
-                <date when="2020">2020</date>
-              </imprint>
-              <biblScope unit="vol">28</biblScope>
-              <biblScope unit="pp">75–77</biblScope>
-            </monogr>
-          </biblStruct>
-        </listBibl>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="hu-HU">Hungarian</language>
-      </langUsage>
-    </profileDesc>
-    <revisionDesc status="approved">
-      <change who="MAM" when="2017-11-17">angelegt</change>
-      <change who="MAM" when="2021-07-06">Bearbeitung von Sándor Tátar eingebaut</change>
-      <change who="MAM" when="2019-10-20">Index check</change>
-      <change who="KH" when="2021-10-27">Durchsicht</change>
-    </revisionDesc>
-  </teiHeader>
-  <!-- https://adtplus.arcanum.hu/en/view/MTA_LiteraturaBeszamoloSzellemiEletrol_1927/&pg=488&layout=s -->
-  <text type="text">
-    <body>
-      <div type="original" xml:lang="hu-HU">
-        <head>
-          <rs type="person" ref="#2121">Schnitzler</rs> Artur elavult műfajnak tartja az interjut </head>
-        <p>A forradalom utáni <rs type="place" ref="#50">Bécs</rs> meglehetősen nyomott hangulatú
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#pmb56422">Literatura</title>
+                     <imprint>
+                        <date when="1927-10-01" n="1">Oktober 1927</date>
+                     </imprint>
+                     <biblScope unit="jg">2</biblScope>
+                     <biblScope unit="nr">10</biblScope>
+                     <biblScope unit="pp">337</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct corresp="ASUN">
+                  <analytic>
+                     <editor>Hg. Martin Anton Müller, Übersetzung Sándor Tatár</editor>
+                     <title level="a">Arthur Schnitzlers ungarische Interviews</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j">Hofmannsthal-Jahrbuch. Zur europäischen Moderne</title>
+                     <imprint>
+                        <date when="2020">2020</date>
+                     </imprint>
+                     <biblScope unit="vol">28</biblScope>
+                     <biblScope unit="pp">75–77</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="hu-HU">Hungarian</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2017-11-17">angelegt</change>
+         <change who="MAM" when="2021-07-06">Bearbeitung von Sándor Tátar eingebaut</change>
+         <change who="MAM" when="2019-10-20">Index check</change>
+         <change who="KH" when="2021-10-27">Durchsicht</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="text">
+      <body>
+         <div type="original" xml:lang="hu-HU">
+            <head>
+               <rs type="person" ref="#pmb2121">Schnitzler</rs> Artur elavult műfajnak tartja az interjut </head>
+            <p>A forradalom utáni <rs type="place" ref="#pmb50">Bécs</rs> meglehetősen nyomott hangulatú
           sivárságában hiába keressük a régi császárváros fényét. Csak a pompás paloták
           architekturális szépségei őrzik emlékét a hajdani életnek. Az emberek feltünően kopottak,
           és gondterhesek. Csak az idegenek hoznak valami életet a városba, – az uccákon többet
           hallani idegen szót, különösen magyart, mint németet.</p>
-        <p>Elindulunk, hogy felkeressük <rs type="person" ref="#2121">
-            <hi rend="spaced_out">Schnitzler</hi> Arturt</rs>, az osztrák irodalom élesszemü, biztos
+            <p>Elindulunk, hogy felkeressük <rs type="person" ref="#pmb2121">
+                  <hi rend="spaced_out">Schnitzler</hi> Arturt</rs>, az osztrák irodalom élesszemü, biztos
           kezü reprezentánsát.</p>
-        <p>Schnitzler a <rs type="place" ref="#150"><anchor type="textConst" xml:id="T_I065-1"
-              />Sternwartestraßeban<note type="textConst" xml:id="T_I065-1h"
-                ><quote>Sternwartegasseban</quote></note></rs> lakik, a <rs type="place"
-            ref="#113">Türkenschanz-Park</rs> közelében, <rs type="place" ref="#50">Bécs</rs>
+            <p>Schnitzler a <rs type="place" ref="#pmb150">
+                  <anchor type="textConst" xml:id="T_I065-1"/>Sternwartestraßeban<note type="textConst" xml:id="T_I065-1h">
+                     <quote>Sternwartegasseban</quote>
+                  </note>
+               </rs> lakik, a <rs type="place" ref="#pmb113">Türkenschanz-Park</rs> közelében, <rs type="place" ref="#pmb50">Bécs</rs>
           előkelő villanegyedében. Lombos fák árnyékában haladunk a csöndes, kihaltnak látszó
           városrészben. A kertkapu csengőjének szavára automatikusan nyilik meg előttünk a vasrácsos
           kapu és a ház bejárata. Az előkelő finomságu hallban a házvezetőnő fogad:</p>
-        <p>– A doktor ur nincs idehaza, bement a városba. Már csak azért fog hazajönni, hogy a
+            <p>– A doktor ur nincs idehaza, bement a városba. Már csak azért fog hazajönni, hogy a
           kofferjeit, a vasuthoz vitesse, mert még ma elutazik nyaralni.</p>
-        <p>Másfél óra mulva, utolsó kisérletként, felhívjuk telefonon a villát.</p>
-        <p>Kellemes, meleg férfihang szólal meg: </p>
-        <p>– Hallo, hier <rs type="person" ref="#2121">Arthur Schnitzler</rs> beim Telephon!</p>
-        <p>Elmondjuk, hogy azért kerestük, mert egy interjut akartunk tőle kérni és ha már az idő
+            <p>Másfél óra mulva, utolsó kisérletként, felhívjuk telefonon a villát.</p>
+            <p>Kellemes, meleg férfihang szólal meg: </p>
+            <p>– Hallo, hier <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> beim Telephon!</p>
+            <p>Elmondjuk, hogy azért kerestük, mert egy interjut akartunk tőle kérni és ha már az idő
           rövidsége miatt nem lehetett személyesen beszélni, legalább azt tegye meg, hogy telefonice
           feleljen néhány kérdésünkre.</p>
-        <p>– Nagyon sajnálom, de teljesen lehetetlen teljesitenem a kivánságát, – hangzik a válasz,
+            <p>– Nagyon sajnálom, de teljesen lehetetlen teljesitenem a kivánságát, – hangzik a válasz,
           én elvből nem adok soha senkinek interjut.</p>
-        <p>– Mégis, most az egyszer kivételesen tegye meg kérem! Egyenesen azért jöttem <rs
-            type="place" ref="#50">Bécs</rs>be, hogy Önnel beszélhessek! – próbáljuk
+            <p>– Mégis, most az egyszer kivételesen tegye meg kérem! Egyenesen azért jöttem <rs type="place" ref="#pmb50">Bécs</rs>be, hogy Önnel beszélhessek! – próbáljuk
           kapacitálni.</p>
-        <p>Jókedvüen belenevet a telefonba.</p>
-        <p>– Nagyon szivesen beszélgetnék és nagyon örülnék, ha visszatértem után felkeresne, de
-          interjut nem adhatok, – <anchor type="textConst" xml:id="T_T030151-1"/>higgye<note
-            type="textConst" xml:id="T_T030151-1h"><quote>higyje</quote></note> el, hogy
+            <p>Jókedvüen belenevet a telefonba.</p>
+            <p>– Nagyon szivesen beszélgetnék és nagyon örülnék, ha visszatértem után felkeresne, de
+          interjut nem adhatok, – <anchor type="textConst" xml:id="T_T030151-1"/>higgye<note type="textConst" xml:id="T_T030151-1h">
+                  <quote>higyje</quote>
+               </note> el, hogy
           lehetetlen. Mert amint egynek adok, ezután mindenki megrohanna. Nem lehet kivételeket
           tennem.</p>
-        <p>Elkomolyodva folytatja:</p>
-        <p>– Különben <hi rend="spaced_out">is elavult müfajnak tartom az interjut</hi>. Nem lehet
+            <p>Elkomolyodva folytatja:</p>
+            <p>– Különben <hi rend="spaced_out">is elavult müfajnak tartom az interjut</hi>. Nem lehet
           valakiről helyes képet rajzolni egyórai beszélgetés alapján, ahhoz hosszú évek ismeretsége
           kell.</p>
-        <p>– Hát legalább azt mondja el a magyar publikum számára, – amely olyan lelkes olvasója, –
+            <p>– Hát legalább azt mondja el a magyar publikum számára, – amely olyan lelkes olvasója, –
           hogy min dolgozik most.</p>
-        <p>Megint nevetve feleli:</p>
-        <p>– Hogy min dolgozom most, azt majd megtudják, ha megjelenik a munkám, – a többi nem
+            <p>Megint nevetve feleli:</p>
+            <p>– Hogy min dolgozom most, azt majd megtudják, ha megjelenik a munkám, – a többi nem
           tartozik a publikumra. Amig egy mü el nem készül, addig az iró sajátja, a magánéletéhez
           tartozik, amihez a nagy nyilvánosságnak semmi köze.</p>
-        <p>Hiába minden, <rs type="person" ref="#2121">Schnitzler</rs> hajthatatlan, nem lehet tőle
+            <p>Hiába minden, <rs type="person" ref="#pmb2121">Schnitzler</rs> hajthatatlan, nem lehet tőle
           megtudni semmit.</p>
-        <p rend="right">
-          <hi rend="spaced_out">Rónay Mária</hi>.</p>
-      </div>
-      <div type="translation">
-        <head>
-          <rs type="person" ref="#2121">Arthur Schnitzler</rs> hält das Interview für eine überholte
+            <p rend="right">
+               <hi rend="spaced_out">Rónay Mária</hi>.</p>
+         </div>
+         <div type="translation">
+            <head>
+               <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> hält das Interview für eine überholte
           Gattung</head>
-        <p>In der schwermütigen Ödnis des <anchor type="commentary" xml:id="K_import_84"
-          />postrevolutionären <rs type="place" ref="#50">Wien</rs><note type="commentary"
-            xml:id="K_import_84h">gemeint ist die Auflösung der k. u. k. Monarchie am Ende des
-            1. Weltkriegs und der Übergang zur <rs type="place" ref="#41240">österreichischen
-              Republik</rs> am <date>12.&#8239;11.&#8239;1918</date>
-          </note> suchen wir vergebens nach dem Glanz der alten Kaiserstadt. Nur die
+            <p>In der schwermütigen Ödnis des <anchor type="commentary" xml:id="K_import_84"/>postrevolutionären <rs type="place" ref="#pmb50">Wien</rs>
+               <note type="commentary" xml:id="K_import_84h">gemeint ist die Auflösung der k. u. k. Monarchie am Ende des
+            1. Weltkriegs und der Übergang zur <rs type="place" ref="#pmb41240">österreichischen
+              Republik</rs> am <date>12. 11. 1918</date>
+               </note> suchen wir vergebens nach dem Glanz der alten Kaiserstadt. Nur die
           architektonischen Schönheiten der prächtigen Paläste wahren noch die Erinnerung an das
           einstige Leben. Die Leute sind augenscheinlich verwahrlost und kummerbeladen. Lediglich
           die Fremden bringen ein bisschen Leben in die Stadt – auf den Straßen hört man mehr
           Fremdsprachen (besonders Ungarisch) als Deutsch.</p>
-        <p>Wir brechen auf, um <rs type="person" ref="#2121">Arthur <hi rend="spaced_out"
-              >Schnitzler</hi>
-          </rs>, den Repräsentanten der <rs type="place" ref="#41240">österreichischen</rs>
+            <p>Wir brechen auf, um <rs type="person" ref="#pmb2121">Arthur <hi rend="spaced_out">Schnitzler</hi>
+               </rs>, den Repräsentanten der <rs type="place" ref="#pmb41240">österreichischen</rs>
           Literatur mit dem scharfen Blick und der sicheren Hand, zu besuchen.</p>
-        <p>
-          <rs type="person" ref="#2121">Schnitzler</rs> wohnt in der <rs type="place" ref="#150"
-            >Sternwartestraße</rs>, in der Nähe des <rs type="place" ref="#113"
-            >Türkenschanzparks</rs>, im vornehmen Villenviertel <rs type="place" ref="#50"
-          >Wien</rs>s. Wir wandeln im Schatten von Laubkronen im stillen, scheinbar ausgestorbenen
+            <p>
+               <rs type="person" ref="#pmb2121">Schnitzler</rs> wohnt in der <rs type="place" ref="#pmb150">Sternwartestraße</rs>, in der Nähe des <rs type="place" ref="#pmb113">Türkenschanzparks</rs>, im vornehmen Villenviertel <rs type="place" ref="#pmb50">Wien</rs>s. Wir wandeln im Schatten von Laubkronen im stillen, scheinbar ausgestorbenen
           Stadtteil. Auf das Läuten am Gartentor hin öffnen sich automatisch vor uns das
           Eisengittertor sowie die Eingangstür des Hauses. Im vornehmen und eleganten Flur werden
           wir von einer <anchor type="commentary" xml:id="K_I065-1"/>
-          <rs type="person" ref="#17901" subtype="implied">Haushälterin</rs>
-          <note type="commentary" xml:id="K_I065-1h">Es könnte sich um <rs type="person"
-              ref="#17901">Anna Haselmayer</rs> handeln, die <date>1927</date> bei <rs type="person"
-              ref="#2121">Schnitzler</rs> Haushaltshilfe war.</note> empfangen.</p>
-        <p>– Der Herr Doktor ist nicht daheim, er ging in die Stadt. Er kommt dann nur noch nach
+               <rs type="person" ref="#pmb17901" subtype="implied">Haushälterin</rs>
+               <note type="commentary" xml:id="K_I065-1h">Es könnte sich um <rs type="person" ref="#pmb17901">Anna Haselmayer</rs> handeln, die <date>1927</date> bei <rs type="person" ref="#pmb2121">Schnitzler</rs> Haushaltshilfe war.</note> empfangen.</p>
+            <p>– Der Herr Doktor ist nicht daheim, er ging in die Stadt. Er kommt dann nur noch nach
           Hause, um seine Koffer zur Bahn bringen zu lassen, weil er heute noch in den Urlaub
           fährt.</p>
-        <p>Nach anderthalb Stunden unternehmen wir einen letzten Versuch, in der Villa
+            <p>Nach anderthalb Stunden unternehmen wir einen letzten Versuch, in der Villa
           anzurufen.</p>
-        <p>Es ertönt eine angenehme, warme Männerstimme:</p>
-        <p>– <anchor xml:id="K_import_86" type="commentary"/>Hallo, hier <rs type="person"
-            ref="#2121">Arthur Schnitzler</rs> beim Telephon!<note type="commentary"
-            xml:id="K_import_86h">In etwa um diese Zeit legte sich <rs type="person" ref="#2121"
-              >Schnitzler</rs> eine Geheimnummer zu, »<quote>A10.0.81</quote>«.</note>
-        </p>
-        <p>Wir sagen ihm, dass wir anrufen, weil wir ihn gerne um ein Interview gebeten hätten. Wenn
+            <p>Es ertönt eine angenehme, warme Männerstimme:</p>
+            <p>– <anchor xml:id="K_import_86" type="commentary"/>Hallo, hier <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> beim Telephon!<note type="commentary" xml:id="K_import_86h">In etwa um diese Zeit legte sich <rs type="person" ref="#pmb2121">Schnitzler</rs> eine Geheimnummer zu, »<quote>A10.0.81</quote>«.</note>
+            </p>
+            <p>Wir sagen ihm, dass wir anrufen, weil wir ihn gerne um ein Interview gebeten hätten. Wenn
           es aber einmal wegen der knappen Zeit unmöglich sei, ihn persönlich zu sprechen, so möge
           er doch mindestens per Telefon ein paar Fragen von uns beantworten.</p>
-        <p>– Tut mir sehr leid, aber es ist mir schier unmöglich, Ihren Wunsch zu erfüllen – lautet
+            <p>– Tut mir sehr leid, aber es ist mir schier unmöglich, Ihren Wunsch zu erfüllen – lautet
           die Antwort –, ich gebe aus Prinzip niemandem je ein Interview.</p>
-        <p>– Machen Sie doch, bitte, jetzt eine einzige Ausnahme! Ich bin nur deshalb nach <rs
-            type="place" ref="#50">Wien</rs> gekommen, um Sie sprechen zu können! – versuchen wir
+            <p>– Machen Sie doch, bitte, jetzt eine einzige Ausnahme! Ich bin nur deshalb nach <rs type="place" ref="#pmb50">Wien</rs> gekommen, um Sie sprechen zu können! – versuchen wir
           ihn zu überreden.</p>
-        <p>Er lacht frohgemut in den Hörer.</p>
-        <p>– Auch ich würde mich sehr gern mit Ihnen unterhalten und würd’ mich freuen, wenn Sie
+            <p>Er lacht frohgemut in den Hörer.</p>
+            <p>– Auch ich würde mich sehr gern mit Ihnen unterhalten und würd’ mich freuen, wenn Sie
           mich nach meiner Rückkehr aufsuchen würden, aber ein Interview kann ich nicht geben –
           glauben Sie mir, bitte, es ist unmöglich. Denn wenn ich mich von einem interviewen lasse,
           würden mich alle anderen anstürmen. Ich kann unmöglich Ausnahmen machen.</p>
-        <p>Er wird nun ernst, indem er fortfährt:</p>
-        <p>– Sowieso <hi rend="spaced_out">halte ich das Interview für eine überholte Gattung</hi>.
+            <p>Er wird nun ernst, indem er fortfährt:</p>
+            <p>– Sowieso <hi rend="spaced_out">halte ich das Interview für eine überholte Gattung</hi>.
           Keiner kann doch einen anderen nach einem Gespräch von der Dauer einer Stunde getreu
           porträtieren, das setzt doch eine langjährige Bekanntschaft voraus.</p>
-        <p>
-          <ref type="question" target="#q001"/>– Dann verraten Sie wenigstens dem ungarischen
+            <p>
+               <ref type="question" target="#q001"/>– Dann verraten Sie wenigstens dem ungarischen
           Publikum (das Ihre Werke leidenschaftlich liest), woran Sie gerade arbeiten.</p>
-        <p>Erneut lacht er bei seiner Antwort:</p>
-        <p>– <anchor xml:id="K_import_87" type="commentary"/>Woran ich gerade arbeite, werden Sie
+            <p>Erneut lacht er bei seiner Antwort:</p>
+            <p>– <anchor xml:id="K_import_87" type="commentary"/>Woran ich gerade arbeite, werden Sie
           erfahren, wenn mein Werk fertig sein wird – alles Übrige geht das Publikum nichts an.
           Solange ein Werk nicht fertig ist, gehört das allein dem Autor, es gehört zu seinem
-          Privatleben, das die breite Masse überhaupt nichts angeht.<note type="commentary"
-            xml:id="K_import_87h">Das stimmt mit der sonst von <rs type="person" ref="#2121"
-              >Schnitzler</rs> gelebten Praxis überein, nicht öffentlich über Texte zu sprechen,
+          Privatleben, das die breite Masse überhaupt nichts angeht.<note type="commentary" xml:id="K_import_87h">Das stimmt mit der sonst von <rs type="person" ref="#pmb2121">Schnitzler</rs> gelebten Praxis überein, nicht öffentlich über Texte zu sprechen,
             bevor sie abgeschlossen waren.</note>
-        </p>
-        <p>Alles vergebens; er bleibt unbeugsam; nichts kann man aus ihm herausbringen.</p>
-        <p rend="right">
-          <hi rend="spaced_out">Mária Rónay.</hi>
-        </p>
-      </div>
-    </body>
-  </text>
+            </p>
+            <p>Alles vergebens; er bleibt unbeugsam; nichts kann man aus ihm herausbringen.</p>
+            <p rend="right">
+               <hi rend="spaced_out">Mária Rónay.</hi>
+            </p>
+         </div>
+      </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb29096">
+               <persName>
+                  <forename>Maria</forename>
+                  <surname>Rónay</surname>
+               </persName>
+               <birth>
+                  <date when="1899-12-08">08.12.1899</date>
+                  <settlement ref="pmb43471">
+                     <placeName type="pref">Budapest</placeName>
+                     <location>
+                        <geo>47,49835 19,04045</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1960-10-19">19.10.1960</date>
+                  <settlement ref="pmb43471">
+                     <placeName type="pref">Budapest</placeName>
+                     <location>
+                        <geo>47,49835 19,04045</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29096/</idno>
+            </person>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb17901">
+               <persName>
+                  <forename>Anna</forename>
+                  <surname>Haselmayer</surname>
+               </persName>
+               <birth>
+                  <date when="1908-12-24">24.12.1908</date>
+                  <settlement ref="pmb44727">
+                     <placeName type="pref">Ternitz</placeName>
+                     <location>
+                        <geo>47,71565 16,03575</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-02-20">20.02.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb656">Haushaltshilfe/Haushaltshilfe</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15959</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/17901/</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb33207">
+               <title>Arthur Schnitzler hält das Interview für eine überholte Gattung</title>
+               <title type="werk_bibliografische-angabe">Literatura, Jg. 2, Nr. 10, Oktober 1927, S. 337</title>
+               <title type="namensvariante">Schnitzler Artur elavult műfajnak tartja az interjút</title>
+               <author ref="pmb29096" role="hat-geschaffen">Rónay, Maria</author>
+               <date when="1927-10-01">Oktober 1927</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33207/</idno>
+               <note type="work_kind">Interview</note>
+            </bibl>
+            <bibl xml:id="pmb56422">
+               <title>Literatura</title>
+               <title type="werk_link">https://adt.arcanum.com/en/collection/MTA_LiteraturaBeszamoloSzellemiEletrol/</title>
+               <date from="1926-01-01" to="1938-07-02">1926  – 1938</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/56422/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q18102353</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Zeitschrift</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+            <place xml:id="pmb150">
+               <placeName>Sternwartestraße</placeName>
+               <desc type="entity_type">Straße (K.STR)</desc>
+               <desc type="entity_type_id">26</desc>
+               <location type="coords">
+                  <geo>48,23099349198 16,340117830625</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb68">XVIII., Währing</placeName>
+                  <geo>48,23333 16,31667</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb150.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/150/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb150</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb150.html</idno>
+               <idno type="URL" subtype="geonames">https://www.geonames.org/12495677</idno>
+            </place>
+            <place xml:id="pmb113">
+               <placeName>Türkenschanzpark</placeName>
+               <desc type="entity_type">Park (K.PRK)</desc>
+               <desc type="entity_type_id">19</desc>
+               <location type="coords">
+                  <geo>48,235119783861 16,333568462613</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb68">XVIII., Währing</placeName>
+                  <geo>48,23333 16,31667</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb113.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/113/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb113</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb113.html</idno>
+            </place>
+            <place xml:id="pmb41240">
+               <placeName>Österreich</placeName>
+               <placeName type="alternative-name">Republik Österreich</placeName>
+               <placeName type="alternative-name">Republic of Austria</placeName>
+               <placeName type="legacy-name-merge">Deutsch Österreich</placeName>
+               <placeName type="legacy-name-merge">Altoesterreich</placeName>
+               <desc type="entity_type">http://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb687">Österreich-Ungarn</placeName>
+                  <geo>48,4054 16,4887</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2782113/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41240/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41240</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb41240</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92143/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92203/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92143.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92203.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb41240.html</idno>
+            </place>
+         </listPlace>
+      </back>
+   </text>
 </TEI>

@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="M182">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="M182">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#140839">–rm–: Wiener Burgtheater. (»Agnes Jordan« von Georg Hirschfeld),
-               25.&#160;10.&#160;1899</title>
-            <author ref="#2121">Schnitzler, Arthur</author>
+            <title level="a" ref="#pmb140839">–rm–: Wiener Burgtheater. (»Agnes Jordan« von Georg Hirschfeld),
+               25. 10. 1899</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -28,13 +30,13 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#2121">–rm– [=Arthur Schnitzler]</author>
-                     <title level="a" ref="#140839">Wiener Burgtheater. (»Agnes Jordan« von Georg Hirschfeld)</title>
+                     <author ref="#pmb2121">–rm– [=Arthur Schnitzler]</author>
+                     <title level="a" ref="#pmb140839">Wiener Burgtheater. (»Agnes Jordan« von Georg Hirschfeld)</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#36344">Frankfurter Zeitung</title>
+                     <title level="j" ref="#pmb36344">Frankfurter Zeitung</title>
                      <imprint>
-                        <date when="1899-10-25" n="1">25.&#160;10.&#160;1899</date>
+                        <date when="1899-10-25" n="1">25. 10. 1899</date>
                      </imprint>
                      <biblScope unit="jg">44</biblScope>
                      <biblScope unit="pp">[1]</biblScope>
@@ -67,35 +69,40 @@
          <change who="MAM" when="2023-01-15">Angelegt</change>
          <change who="MAM" when="2023-01-15">Index check</change>
          <change who="MAM" when="2023-01-23">Abgleich mit FZ-Vorlage</change>
-         
       </revisionDesc>
    </teiHeader>
    <text type="article">
       <body>
          <div type="original">
-            <head><rs type="org" ref="#36247"
-               >Wiener Burgtheater</rs>.</head>
-            <head type="sub">(»<rs type="work" ref="#30474"><hi rend="spaced_out">Agnes Jordan</hi></rs>« von <rs
-               type="person" ref="#11701"><hi rend="spaced_out">Georg Hirschfeld</hi></rs>.)</head>
-            <p rend="right"><rs type="place" ref="#50">Wien</rs>, <date>21.&#160;October</date>.</p>
-            <p>Gestern hat das <hi rend="spaced_out"><rs type="org" ref="#36247"
-                  >Burgtheater</rs></hi> »<rs type="work" ref="#30474">Agnes Jordan</rs>« von <rs
-                  type="person" ref="#11701">Georg <hi rend="spaced_out">Hirschfeld</hi></rs>
+            <head>
+               <rs type="org" ref="#pmb36247">Wiener Burgtheater</rs>.</head>
+            <head type="sub">(»<rs type="work" ref="#pmb30474">
+                  <hi rend="spaced_out">Agnes Jordan</hi>
+               </rs>« von <rs type="person" ref="#pmb11701">
+                  <hi rend="spaced_out">Georg Hirschfeld</hi>
+               </rs>.)</head>
+            <p rend="right">
+               <rs type="place" ref="#pmb50">Wien</rs>, <date>21. October</date>.</p>
+            <p>Gestern hat das <hi rend="spaced_out">
+                  <rs type="org" ref="#pmb36247">Burgtheater</rs>
+               </hi> »<rs type="work" ref="#pmb30474">Agnes Jordan</rs>« von <rs type="person" ref="#pmb11701">Georg <hi rend="spaced_out">Hirschfeld</hi>
+               </rs>
                aufgeführt. Der Erfolg war beträchtlich und widerspruchslos, nach dem zweiten
-               Aufzug sehr stark. So schien also das <rs type="place" ref="#50">Wien</rs>er Publikum
-               dem Urtheil der <rs type="place" ref="#168">Berlin</rs>er nicht beizustimmen, denen
-               das gleiche Drama vor zwei Jahren nur wenig gefiel. Freilich spielten <hi
-                  rend="spaced_out">dort</hi> und <hi rend="spaced_out">damals</hi> Motive mit,
+               Aufzug sehr stark. So schien also das <rs type="place" ref="#pmb50">Wien</rs>er Publikum
+               dem Urtheil der <rs type="place" ref="#pmb168">Berlin</rs>er nicht beizustimmen, denen
+               das gleiche Drama vor zwei Jahren nur wenig gefiel. Freilich spielten <hi rend="spaced_out">dort</hi> und <hi rend="spaced_out">damals</hi> Motive mit,
                welche für <hi rend="spaced_out">hier</hi> und <hi rend="spaced_out">jetzt</hi> nicht
-               in Betracht kamen. Die »<rs type="work" ref="#30474">Agnes Jordan</rs>« war das
-               zweite Stück des jungen Dichters, der mit seinem Erstlingswerk »<rs type="work"
-                  ref="#31737"><hi rend="spaced_out">Die <anchor type="textConst" xml:id="T_M182-1"/>Mütter<note type='textConst' xml:id="T_M182-1h">»<quote>Mutter</quote>«</note></hi></rs>« eine große Wirkung erzielt
+               in Betracht kamen. Die »<rs type="work" ref="#pmb30474">Agnes Jordan</rs>« war das
+               zweite Stück des jungen Dichters, der mit seinem Erstlingswerk »<rs type="work" ref="#pmb31737">
+                  <hi rend="spaced_out">Die <anchor type="textConst" xml:id="T_M182-1"/>Mütter<note type="textConst" xml:id="T_M182-1h">»<quote>Mutter</quote>«</note>
+                  </hi>
+               </rs>« eine große Wirkung erzielt
                hatte und mit einem Schlag nahezu berühmt geworden war. Gegen das zweite Stück eines
                solchen Autors ist das Publikum von vornherein ein wenig gereizt und die Kritik nicht
                minder. Es kam noch das Geschwätz der Foyer-Leute hinzu, dem mancherlei Persönliches
                über alle Maßen wichtig schien. So war allerlei bereit, um das Urtheil zu
                verwirren.</p>
-            <p>Ich weiß nicht, ob die laue <rs type="place" ref="#168">Berlin</rs>er Aufnahme der
+            <p>Ich weiß nicht, ob die laue <rs type="place" ref="#pmb168">Berlin</rs>er Aufnahme der
                einzige Grund war, daß man hier auf das Stück so lange warten mußte. Sicher ist
                jedenfalls, daß die Intendanz oder der Obersthofmeister – mit einem Worte: die der
                Direktion vorgesetzten Behörden – gegen die ursprüngliche Fassung des Schauspiels
@@ -103,42 +110,40 @@
                vielleicht sagen, daß wenig Anderes dem Dichter so gut gelungen ist, wie gerade das
                Verbreiten der charakteristischen Atmosphäre um die Personen seines Stückes. Man
                konnte also gewisse Persönlichkeiten fortstreichen; die jüdische Seele des Stücks
-               wird naturgemäß wenig berührt. Man wird im Uebrigen fragen, <hi rend="spaced_out"
-                  >warum</hi> die »vorgesetzten Behörden« das Jüdische aus dem Stück entfernt haben
+               wird naturgemäß wenig berührt. Man wird im Uebrigen fragen, <hi rend="spaced_out">warum</hi> die »vorgesetzten Behörden« das Jüdische aus dem Stück entfernt haben
                wollten; sittliche oder religiöse Bedenken konnten nicht maßgebend sein, überdies ist
                das Stück so frei von philosemitischer als antisemitischer Tendenz. Aber die
                Empfindlichkeit in beiden Lagern, die sehr begreifliche, wenn auch übertriebene bei
                den Juden und die wenig berechtigte, aber in ihren Aeußerungen um so unverschämtere
-               bei den Antisemiten, ist durch die bekannten Verhältnisse in <rs type="place"
-                  ref="#50"><hi rend="spaced_out">Wien</hi></rs> so gestiegen, daß auch die objektivste Darstellung der
+               bei den Antisemiten, ist durch die bekannten Verhältnisse in <rs type="place" ref="#pmb50">
+                  <hi rend="spaced_out">Wien</hi>
+               </rs> so gestiegen, daß auch die objektivste Darstellung der
                jüdischen Gesellschaft auf dem Theater – wie heißt nur der behördliche Ausdruck? –
-               als »mißliebig« empfunden werden könnte. Nur <rs type="work" subtype="implied"
-                  ref="#32047"><hi rend="spaced_out">Shylock</hi></rs> und <anchor type="commentary"
-                  xml:id="K_M182-88"/><rs type="work" subtype="implied" ref="#31729"><hi
-                     rend="spaced_out">Schmock</hi></rs><note type="commentary" xml:id="K_M182-88h"
-                  >Figur aus <rs type="work" ref="#31729">Die Journalisten</rs> (<date>1852</date>)
-                  von <rs type="person" ref="#11377">Gustav Freytag</rs>
-               </note> dürfen vorläufig im <rs type="org" ref="#36247">Burgtheater</rs> ihr
-               Judenthum aufrichtig bekennen; und der lächerliche Reporter in <rs type="person"
-                  ref="#12078"><hi rend="spaced_out">Lindau</hi></rs>’s »<rs type="work"
-                  ref="#140850">Erfolg</rs>« darf es ahnen lassen; im Uebrigen gibt es keine
-               konfessionellen Unterschiede – auf der Bühne des <rs type="org" ref="#36247"
-                  >Burgtheater</rs>s, und so ist es nahezu die einzige Stätte, wo die
-               Staatsgrundgesetze in <rs type="place" ref="#41240">Oesterreich</rs> beobachtet
+               als »mißliebig« empfunden werden könnte. Nur <rs type="work" subtype="implied" ref="#pmb32047">
+                  <hi rend="spaced_out">Shylock</hi>
+               </rs> und <anchor type="commentary" xml:id="K_M182-88"/>
+               <rs type="work" subtype="implied" ref="#pmb31729">
+                  <hi rend="spaced_out">Schmock</hi>
+               </rs>
+               <note type="commentary" xml:id="K_M182-88h">Figur aus <rs type="work" ref="#pmb31729">Die Journalisten</rs> (<date>1852</date>)
+                  von <rs type="person" ref="#pmb11377">Gustav Freytag</rs>
+               </note> dürfen vorläufig im <rs type="org" ref="#pmb36247">Burgtheater</rs> ihr
+               Judenthum aufrichtig bekennen; und der lächerliche Reporter in <rs type="person" ref="#pmb12078">
+                  <hi rend="spaced_out">Lindau</hi>
+               </rs>’s »<rs type="work" ref="#pmb140850">Erfolg</rs>« darf es ahnen lassen; im Uebrigen gibt es keine
+               konfessionellen Unterschiede – auf der Bühne des <rs type="org" ref="#pmb36247">Burgtheater</rs>s, und so ist es nahezu die einzige Stätte, wo die
+               Staatsgrundgesetze in <rs type="place" ref="#pmb41240">Oesterreich</rs> beobachtet
                werden; wenigstens während der Vorstellungen.</p>
             <p>Um auf das Drama selbst zu kommen, so ist es bei aller schönen Intention im Entwurf
-               und bei vorzüglichen Einzelheiten im Ganzen nicht geglückt. Bei der <anchor
-                  type="commentary" xml:id="K_M182-1"/>Lektüre<note type="commentary"
-                     xml:id="K_M182-1h"><ref target="1897-06-25" type="schnitzlerDiary"
-                        subtype="see"/></note> hat es bei weitem reiner auf mich gewirkt als von
+               und bei vorzüglichen Einzelheiten im Ganzen nicht geglückt. Bei der <anchor type="commentary" xml:id="K_M182-1"/>Lektüre<note type="commentary" xml:id="K_M182-1h">
+                  <ref target="1897-06-25" type="schnitzler-tagebuch" subtype="see"/>
+               </note> hat es bei weitem reiner auf mich gewirkt als von
                der Bühne herab und ich fühlte mich gestern versucht, die Frage, ob es überhaupt
                möglich wäre, ein Frauenschicksal vom zwanzigsten bis zum fünfzigsten Lebensjahre in
                wenigen Stunden innerhalb der geltenden dichterischen, theatralischen und
                schauspielerischen Gesetze bühnenmäßig aufzurollen – verneinend zu beantworten. Und
                doch, bei weiterem Nachdenken, vermochte ich mir nicht zu verhehlen, daß man dem
-               angestrebten Ziele mindestens näher kommen könnte, als es dem Dichter der »<rs
-                  type="work" ref="#30474">Agnes Jordan</rs>« gelungen ist. <rs type="person"
-                  ref="#11701">Hirschfeld</rs> nennt sein Stück ein Schauspiel in vier Akten (früher
+               angestrebten Ziele mindestens näher kommen könnte, als es dem Dichter der »<rs type="work" ref="#pmb30474">Agnes Jordan</rs>« gelungen ist. <rs type="person" ref="#pmb11701">Hirschfeld</rs> nennt sein Stück ein Schauspiel in vier Akten (früher
                waren es 5, jetzt ist der 3. und 4. in <hi rend="spaced_out">einen</hi>
                zusammengezogen). In Wahrheit hat es nur einen Akt, zwei Vorspiele und ein Nachspiel;
                eben die ganze <hi rend="spaced_out">dramatische</hi> Existenz der Heldin ist in dem
@@ -157,70 +162,607 @@
                zugeben müssen, so fehlt ihnen doch die absolute <hi rend="spaced_out">Nothwendigkeit</hi>.</p>
             <p>Die Einzeldramen, welche ich mir an Stelle der geschaffenen Akte denke, könnten
                freilich auch nur in einem losen Zusammenhang stehen, und die Gefahren des »Jahre
-               vergingen&#160;–« das im Roman so leichtfertig zu wirken pflegt, wären in keinem
+               vergingen –« das im Roman so leichtfertig zu wirken pflegt, wären in keinem
                Falle ganz zu vermeiden. Immerhin drängt sich mir die Frage auf: ob es ein Dichter
                von <hi rend="spaced_out">höchstem</hi> Range bei vollendeter Reife nicht verstanden
                hätte, einzelne Akte so sehr mit einem <hi rend="spaced_out">Duft</hi> von
                Vergangenheit und Zukunft zu erfüllen, daß er gleichsam in die Zwischenakte
                ausströmen und dem Zuhörer so die Illusion eines steten Zusammenlebens mit den
                Menschen des Stücks erregen müßte? – Nur so kann ich mir das wirkliche <hi rend="spaced_out">Drama</hi> der Frau
-                  <rs type="work" ref="#30474" subtype="implied">Agnes Jordan</rs> denken, das
+                  <rs type="work" ref="#pmb30474" subtype="implied">Agnes Jordan</rs> denken, das
                zugleich ein amüsantes Theaterstück wäre und ein abgeschlossenes Kunstwerk.</p>
             <p>Der Dialog, der meist von der angenehmsten wie frischesten Natürlichkeit ist, wird
                zuweilen durch preciöse wie etwas pretentiöse Stellen unterbrochen; leider am
-               häufigsten, wenn Frau <rs type="work" ref="#30474" subtype="implied">Jordan</rs> zu
+               häufigsten, wenn Frau <rs type="work" ref="#pmb30474" subtype="implied">Jordan</rs> zu
                reden anfängt. Daß sie auch ihre Redeweise dem hochbegabten Lieblings-Sohne Ludwig
                vererbt, ist eine überflüssige Feinheit des Dichters, die Figuren aber, die er in dem
                Schwengel Jordan wie in dem tief empfindenden Onkel Krebs geschaffen hat, müssen
-               bleiben; besonders in der Schilderung des letztern (der von <hi rend="spaced_out"
-                  >Sonnenthal</hi> schön gespielt und schlecht gesprochen wurde) hat <rs
-                  type="person" ref="#11701">Hirschfeld</rs> wieder sein bei jungen Autoren
+               bleiben; besonders in der Schilderung des letztern (der von <hi rend="spaced_out">Sonnenthal</hi> schön gespielt und schlecht gesprochen wurde) hat <rs type="person" ref="#pmb11701">Hirschfeld</rs> wieder sein bei jungen Autoren
                besonders seltenes Talent für die Gestaltung alternder und alter Menschen gezeigt.
                Die Aufführung war im Ganzen sehr gut. Herr <hi rend="spaced_out">Reimers</hi> als
-               Jordan im Anfang charakteristisch, später wenigstens wirksam; Frau <hi
-                  rend="spaced_out">Hohenfels</hi> als Agnes die Vollendung selbst.</p>
-            <p rend="right"><anchor type="commentary" xml:id="K_M182-2"/>–rm–<note type="commentary"
-                  xml:id="K_M182-2h">das Kürzel von <rs type="person" ref="#13055">Jakob
-                     Wassermann</rs></note></p>
+               Jordan im Anfang charakteristisch, später wenigstens wirksam; Frau <hi rend="spaced_out">Hohenfels</hi> als Agnes die Vollendung selbst.</p>
+            <p rend="right">
+               <anchor type="commentary" xml:id="K_M182-2"/>–rm–<note type="commentary" xml:id="K_M182-2h">das Kürzel von <rs type="person" ref="#pmb13055">Jakob
+                     Wassermann</rs>
+               </note>
+            </p>
          </div>
          <div type="biographical">
             <div1>
-               <bibl><rs type="person" ref="#11485">Paul Goldmann</rs> an <rs type="person" ref="#2121">Schnitzler</rs>, <date>23.&#160;10.&#160;[1899]</date></bibl>
+               <bibl>
+                  <rs type="person" ref="#pmb11485">Paul Goldmann</rs> an <rs type="person" ref="#pmb2121">Schnitzler</rs>, <date>23. 10. [1899]</date>
+               </bibl>
                <quote>Dein 
-                  <rs type="work" subtype="implied" ref="#140839">
-                     <rs type="org" ref="#36247">Burgtheater</rs>-Referat</rs>
-                   hat mein <rs type="person" subtype="implied" ref="#4986">Onkel</rs> mit
+                  <rs type="work" subtype="implied" ref="#pmb140839">
+                     <rs type="org" ref="#pmb36247">Burgtheater</rs>-Referat</rs>
+                   hat mein <rs type="person" subtype="implied" ref="#pmb4986">Onkel</rs> mit
                   Dank in Empfang genommen.</quote>
             </div1>
             <div1>
-               <bibl><rs type="person" ref="#11485">Paul Goldmann</rs> an <rs type="person" ref="#2121">Schnitzler</rs>, <date>26.&#160;10.&#160;1899</date></bibl>
-               <quote>Ich sende Dir anbei Dein <rs
-                  type="work" subtype="implied" ref="#140839"><rs type="org" ref="#36247"
-                     >Burgtheater</rs>-Referat</rs>. Selbst ich habe nicht
-                  alle Worte der Handschrift entziffern können, und mein <rs type="person" subtype="implied" ref="#4986"
-                        >Onkel</rs> hat sich leider für verpflichtet gehalten, zwei Stellen, für die er nicht die
-                  Verantwortung übernehmen wollte, herauszustreichen. Ich konnte da nichts hindern. In <rs type="org" subtype="implied" ref="#29442"
-                     >redaktion</rs>ellen Angelegenheiten ist mein <rs type="person" subtype="implied"
-                        ref="#4986">Onkel</rs> unumschränkter Gebieter.</quote>
+               <bibl>
+                  <rs type="person" ref="#pmb11485">Paul Goldmann</rs> an <rs type="person" ref="#pmb2121">Schnitzler</rs>, <date>26. 10. 1899</date>
+               </bibl>
+               <quote>Ich sende Dir anbei Dein <rs type="work" subtype="implied" ref="#pmb140839">
+                     <rs type="org" ref="#pmb36247">Burgtheater</rs>-Referat</rs>. Selbst ich habe nicht
+                  alle Worte der Handschrift entziffern können, und mein <rs type="person" subtype="implied" ref="#pmb4986">Onkel</rs> hat sich leider für verpflichtet gehalten, zwei Stellen, für die er nicht die
+                  Verantwortung übernehmen wollte, herauszustreichen. Ich konnte da nichts hindern. In <rs type="org" subtype="implied" ref="#pmb29442">redaktion</rs>ellen Angelegenheiten ist mein <rs type="person" subtype="implied" ref="#pmb4986">Onkel</rs> unumschränkter Gebieter.</quote>
             </div1>
             <div1>
-               <bibl><rs type="person" ref="#13055">Jakob Wassermann</rs> an <rs type="person"
-                     ref="#4412">Otto Schinnerer</rs>, <date>29.&#160;8.&#160;1932</date></bibl>
-               <quote><p>Die Sache stimmt; und verhält sich ganz einfach. Ich war in den Jahren 1898
-                     und 99 Theaterreferent der <rs type="org" ref="#29442">Frankfurter Zeitung</rs>
-                     in <rs type="place" ref="#50">Wien</rs>, und da ich zu der Zeit, da das <rs
-                        type="person" ref="#11701">Hirschfeld</rs>sche <rs type="work" ref="#30474"
-                        subtype="implied">Stück</rs> uraufgeführt wurde, krank war, bat ich Arthur
+               <bibl>
+                  <rs type="person" ref="#pmb13055">Jakob Wassermann</rs> an <rs type="person" ref="#pmb4412">Otto Schinnerer</rs>, <date>29. 8. 1932</date>
+               </bibl>
+               <quote>
+                  <p>Die Sache stimmt; und verhält sich ganz einfach. Ich war in den Jahren 1898
+                     und 99 Theaterreferent der <rs type="org" ref="#pmb29442">Frankfurter Zeitung</rs>
+                     in <rs type="place" ref="#pmb50">Wien</rs>, und da ich zu der Zeit, da das <rs type="person" ref="#pmb11701">Hirschfeld</rs>sche <rs type="work" ref="#pmb30474" subtype="implied">Stück</rs> uraufgeführt wurde, krank war, bat ich Arthur
                      Schnitzler, mit dem ich schon damals in freundschaftlicher Beziehung stand, an
-                     meiner Statt das Referat über <rs type="work" ref="#30474">Agnes Jordan</rs> zu
+                     meiner Statt das Referat über <rs type="work" ref="#pmb30474">Agnes Jordan</rs> zu
                      schreiben, was er auch tat, und zwar ganz in meinem Sinn, denn ich hatte das
                      Stück vorher gelesen und wir hatten uns darüber verständigt.</p>
                   <p>Der Gedanke, daß diese rein kollegiale Platzhalterschaft Schnitzlers in die
                      Öffentlichkeit kommt, ist mir, trotzdem so viele Jahre seitdem vergangen sind,
                      nicht sehr angenehm; denn wie Sie wissen, lauern bei uns gewisse Leute nur
-                     darauf, einem etwas am Zeug zu flicken.</p></quote>
+                     darauf, einem etwas am Zeug zu flicken.</p>
+               </quote>
             </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb11701">
+               <persName>
+                  <forename>Georg</forename>
+                  <surname>Hirschfeld</surname>
+               </persName>
+               <birth>
+                  <date when="1873-02-11">11.02.1873</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1942-01-17">17.01.1942</date>
+                  <settlement ref="pmb45258">
+                     <placeName type="pref">München</placeName>
+                     <location>
+                        <geo>48,13743 11,57549</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16222</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/101708122</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11701.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11701/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11701</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11701.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp44292</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q108045</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Georg_Hirschfeld</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11701.html</idno>
+            </person>
+            <person xml:id="pmb11377">
+               <persName>
+                  <forename>Gustav</forename>
+                  <surname>Freytag</surname>
+               </persName>
+               <birth>
+                  <date when="1816-07-13">13.07.1816</date>
+                  <settlement ref="pmb59463">
+                     <placeName type="pref">Kluczbork</placeName>
+                     <location>
+                        <geo>50,97281 18,21816</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1895-04-30">30.04.1895</date>
+                  <settlement ref="pmb883">
+                     <placeName type="pref">Wiesbaden</placeName>
+                     <location>
+                        <geo>50,08258 8,24932</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15190</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118535455</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11377.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11377/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11377.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11377</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp45185</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q58811</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Gustav_Freytag</idno>
+            </person>
+            <person xml:id="pmb12078">
+               <persName>
+                  <forename>Paul</forename>
+                  <surname>Lindau</surname>
+               </persName>
+               <birth>
+                  <date when="1839-06-03">03.06.1839</date>
+                  <settlement ref="pmb918">
+                     <placeName type="pref">Magdeburg</placeName>
+                     <location>
+                        <geo>52,14167 11,64444</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1919-01-31">31.01.1919</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+               <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17558</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118780034</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12078.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12078/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12078</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12078.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp51225</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q86886</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Paul_Lindau</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb12078.html</idno>
+            </person>
+            <person xml:id="pmb13055">
+               <persName>
+                  <forename>Jakob</forename>
+                  <surname>Wassermann</surname>
+               </persName>
+               <persName type="person_pseudonym">–rm–</persName>
+               <birth>
+                  <date when="1873-03-10">10.03.1873</date>
+                  <settlement ref="pmb40508">
+                     <placeName type="pref">Fürth</placeName>
+                     <location>
+                        <geo>49,47593 10,98856</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1934-01-01">01.01.1934</date>
+                  <settlement ref="pmb34401">
+                     <placeName type="pref">Altaussee</placeName>
+                     <location>
+                        <geo>47,6698 13,78453</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21107</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118629387</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb13055.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/13055/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb13055</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13055.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46707</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x003afbb2</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q60369</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Jakob_Wassermann</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb13055.html</idno>
+            </person>
+            <person xml:id="pmb11485">
+               <persName>
+                  <forename>Paul</forename>
+                  <surname>Goldmann</surname>
+               </persName>
+               <birth>
+                  <date when="1865-01-31">31.01.1865</date>
+                  <settlement ref="pmb677">
+                     <placeName type="pref">Breslau</placeName>
+                     <location>
+                        <geo>51,10773 17,03533</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1935-09-25">25.09.1935</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15529</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116755105</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11485.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11485/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11485</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11485.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp51209</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x0028183c</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2059817</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Paul_Goldmann</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11485.html</idno>
+            </person>
+            <person xml:id="pmb4986">
+               <persName>
+                  <forename>Fedor</forename>
+                  <surname>Mamroth</surname>
+               </persName>
+               <birth>
+                  <date when="1851-02-21">21.02.1851</date>
+                  <settlement ref="pmb677">
+                     <placeName type="pref">Breslau</placeName>
+                     <location>
+                        <geo>51,10773 17,03533</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1907-06-25">25.06.1907</date>
+                  <settlement ref="pmb146">
+                     <placeName type="pref">Frankfurt am Main</placeName>
+                     <location>
+                        <geo>50,11552 8,68417</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116724919</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17801</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb4986.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4986/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb4986</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb4986.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49563</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x002832f1</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1400771</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Fedor_Mamroth</idno>
+            </person>
+            <person xml:id="pmb4412">
+               <persName>
+                  <forename>Otto Paul</forename>
+                  <surname>Schinnerer</surname>
+               </persName>
+               <persName type="legacy-name-merge">Schinnerer, Otto Paul</persName>
+               <birth>
+                  <date when="1890-11-05">1890-11-05</date>
+                  <settlement ref="pmb48829">
+                     <placeName type="pref">Ocheyedan</placeName>
+                     <location>
+                        <geo>43,41608 -95,53473</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1942-11-07">1942-11-07</date>
+                  <settlement ref="pmb44053">
+                     <placeName type="pref">New York City</placeName>
+                     <location>
+                        <geo>40,71427 -74,00597</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb274">Wissenschaftler/Wissenschaftlerin &gt;&gt; Literaturwissenschaftler/Literaturwissenschaftlerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/105204042X</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19704</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb4412.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4412/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/24193/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb4412</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q94809425</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb4412.html</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb30474">
+               <title>Agnes Jordan. Schauspiel in fünf Akten</title>
+               <author ref="pmb11701" role="hat-geschaffen">Hirschfeld, Georg</author>
+               <date when="1897-01-01">1897</date>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30474.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30474/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30474</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30474.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb31737">
+               <title>Die Mütter. Schauspiel in vier Acten</title>
+               <author ref="pmb11701" role="hat-geschaffen">Hirschfeld, Georg</author>
+               <date notBefore="1896-01-01" when="1896-07-01">1896</date>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31737.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31737/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb31737</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31737.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb32047">
+               <title>The Merchant of Venice</title>
+               <title type="namensvariante">Shylock, il mercante di Venezia</title>
+               <title type="werk_namensvariante">Der Kaufmann von Venedig</title>
+               <author ref="pmb2412" role="hat-geschaffen">Shakespeare, William</author>
+               <date notBefore="1596-01-01" when="1596-07-01">1596</date>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb32047.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32047/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb32047.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb32047</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q206400</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_Kaufmann_von_Venedig</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb31729">
+               <title>Die Journalisten. Lustspiel in vier Akten</title>
+               <author ref="pmb11377" role="hat-geschaffen">Freytag, Gustav</author>
+               <date notBefore="1852-01-01" when="1852-07-01">1852</date>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31729.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31729/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31729.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb31729</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q50540645</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Die_Journalisten</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb140850">
+               <title>Ein Erfolg. Lustspiel in vier Akten</title>
+               <author ref="pmb12078" role="hat-geschaffen">Lindau, Paul</author>
+               <date when="1874-11-07">1874-11-07</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/140850/</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb140839">
+               <title>Wiener Burgtheater. (»Agnes Jordan« von Georg Hirschfeld.)</title>
+               <title type="werk_bibliografische-angabe">–rm– [=Arthur Schnitzler]: [Rezension über Agnes Jordan]. In: Frankfurter Zeitung, Jg. 44, Nr. 296, 25. 10. 1899, 2. Morgenblatt, S. 1</title>
+               <title type="werk_unter-diesem-namen-oder-kurzel-veroffentlicht">–rm–</title>
+               <author ref="pmb2121" role="hat-unter-einem-kurzel-veroffentlicht">Schnitzler, Arthur</author>
+               <date>1899-10-25</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/140839/</idno>
+               <note type="work_kind">Rezension</note>
+            </bibl>
+            <bibl xml:id="pmb36344">
+               <title>Frankfurter Zeitung</title>
+               <date from="1856-01-01" to="1943-07-02">1856  – 1943</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36344/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36344</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb36344</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q561972</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Frankfurter_Zeitung</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+            <place xml:id="pmb168">
+               <placeName>Berlin</placeName>
+               <placeName type="alternative-name">Hauptstadt Berlin</placeName>
+               <placeName type="alternative-name">Barlīn</placeName>
+               <placeName type="alternative-name">Reichshauptstadt Berlin</placeName>
+               <placeName type="alternative-name">Berolino</placeName>
+               <placeName type="legacy-name-merge">B-n</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPLC</desc>
+               <desc type="entity_type_id">1418</desc>
+               <location type="coords">
+                  <geo>52,52437 13,41053</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb151">Deutschland</placeName>
+                  <geo>51,5 10,5</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb168</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92171.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
+            </place>
+            <place xml:id="pmb41240">
+               <placeName>Österreich</placeName>
+               <placeName type="alternative-name">Republik Österreich</placeName>
+               <placeName type="alternative-name">Republic of Austria</placeName>
+               <placeName type="legacy-name-merge">Deutsch Österreich</placeName>
+               <placeName type="legacy-name-merge">Altoesterreich</placeName>
+               <desc type="entity_type">http://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb687">Österreich-Ungarn</placeName>
+                  <geo>48,4054 16,4887</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2782113/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41240/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41240</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb41240</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92143/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92203/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92143.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92203.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb41240.html</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb36247">
+               <orgName>Burgtheater</orgName>
+               <orgName type="alternative-name">Burgtheater GmbH</orgName>
+               <desc type="entity_type">Theater</desc>
+               <desc type="entity_type_id">1012</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb51.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36789/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51010/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2775259/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb51</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb51</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb14">Burgtheater</placeName>
+                  <geo>48,210333 16,361139</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb14.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/14/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb14</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb14.html</idno>
+                  <idno type="URL" subtype="geonames">https://www.geonames.org/6354992/</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb44649">Schlosstheater Schönbrunn</placeName>
+                  <geo>48,186667 16,3125</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44649/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb44649</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2244724</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Schlosstheater_Sch%C3%B6nbrunn</idno>
+               </location>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/38633-9</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36247/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36247</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb36247</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q308720</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Burgtheater</idno>
+               <note type="apis_dates">
+                  <date notBefore="1852-01-01" when="1852-07-01">1852</date>
+               </note>
+            </org>
+            <org xml:id="pmb29442">
+               <orgName>Frankfurter Zeitung</orgName>
+               <desc type="entity_type">Tageszeitungsredaktion</desc>
+               <desc type="entity_type_id">972</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb146">Frankfurt am Main</placeName>
+                  <geo>50,11552 8,68417</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2925533/</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1794</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb146.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/146/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/46955/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4018118-2</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb146</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64181/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64493/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64501/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64503/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb146</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb146.html</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Frankfurt_am_Main</idno>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29442.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29442/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29442</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb29442</idno>
+               <note type="apis_dates">
+                  <date to="1943-01-01">1856  – 1943</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

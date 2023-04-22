@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I133">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="I133">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#60065">Arthur Schnitzler lämnade Stockholm i går,
-               24.&#8239;5.&#8239;1923</title>
+            <title level="a" ref="#pmb60065">Arthur Schnitzler lämnade Stockholm i går,
+               24. 5. 1923</title>
             <author/>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -28,12 +30,12 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title level="a" ref="#60065">Arthur Schnitzler lämnade Stockholm i går</title>
+                     <title level="a" ref="#pmb60065">Arthur Schnitzler lämnade Stockholm i går</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#60066">Svenska Dagbladet</title>
+                     <title level="j" ref="#pmb60066">Svenska Dagbladet</title>
                      <imprint>
-                        <date when="1923-05-24" n="1">24.&#8239;5.&#8239;1923</date>
+                        <date when="1923-05-24" n="1">24. 5. 1923</date>
                      </imprint>
                      <biblScope unit="nr">138, Stockholmsupplaga (Uppl. A)</biblScope>
                      <biblScope unit="pp">10</biblScope>
@@ -57,82 +59,433 @@
    <text type="text">
       <body>
          <div type="original" xml:lang="sv-SE">
-            <head><rs type="person" ref="#2121">Arthur Schnitzler</rs> lämnade <rs type="place"
-                  ref="#1119">Stockholm</rs> i går.</head>
-            <p>På onsdagen återvände <rs type="person" ref="#2121">Arthur Schnitzler</rs> från <rs
-                  type="place" ref="#1119">Stockholm</rs> till <rs type="place" ref="#36300"
-                  >Köpenhamn</rs>, för att efter en tids vistelse i <rs type="place" ref="#43570"
-                  >Danmark</rs> fara hem till <rs type="place" ref="#41240">österrike</rs> igen. Den
-               celebre skriftställaren var ytterst nöjd med sin <rs type="place" ref="#1119"
-                  >stockholm</rs>svistelse, som varit fylld av angenäma upplevelser. Han såg under
-               sitt <rs type="place" ref="#1119">stockholm</rs>sbesök »<rs type="work" ref="#32808"
-                  >Anatol</rs>«-filmen, som han icke sett förut och han visste inte om han skulle
+            <head>
+               <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> lämnade <rs type="place" ref="#pmb1119">Stockholm</rs> i går.</head>
+            <p>På onsdagen återvände <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> från <rs type="place" ref="#pmb1119">Stockholm</rs> till <rs type="place" ref="#pmb36300">Köpenhamn</rs>, för att efter en tids vistelse i <rs type="place" ref="#pmb43570">Danmark</rs> fara hem till <rs type="place" ref="#pmb41240">österrike</rs> igen. Den
+               celebre skriftställaren var ytterst nöjd med sin <rs type="place" ref="#pmb1119">stockholm</rs>svistelse, som varit fylld av angenäma upplevelser. Han såg under
+               sitt <rs type="place" ref="#pmb1119">stockholm</rs>sbesök »<rs type="work" ref="#pmb32808">Anatol</rs>«-filmen, som han icke sett förut och han visste inte om han skulle
                skratta eller bli ond. Men som han ju redan tidigare påpekat, att en viss grad av
                skamlöshet enligt hans mening är oundgänglig för en filmregissör, så tog han det hela
-               lugnt. Vidare såg han sin »<anchor type="textConst" xml:id="T_I133-1"/><rs
-                  type="work" ref="#29917">Liebelei</rs><note type="textConst" xml:id="T_I133-1h"
-                     ><quote>Libelei</quote></note>« på <rs type="org" ref="#62240">Lilla
-                  dramaten</rs> på tisdagskvällen. Fru <rs type="person" ref="#21528">Karin
+               lugnt. Vidare såg han sin »<anchor type="textConst" xml:id="T_I133-1"/>
+               <rs type="work" ref="#pmb29917">Liebelei</rs>
+               <note type="textConst" xml:id="T_I133-1h">
+                  <quote>Libelei</quote>
+               </note>« på <rs type="org" ref="#pmb62240">Lilla
+                  dramaten</rs> på tisdagskvällen. Fru <rs type="person" ref="#pmb21528">Karin
                   Molander</rs>s framställning fyllde honom speciellt med beundran och sympati.</p>
-            <p>Under vistelsen här passade <rs type="person" ref="#2121">Schnitzler</rs> på att
-               samla stoff och tog bland annat reda på typiska <rs type="place" ref="#44335"
-                  >svenska</rs> familjenamn och dito ortsnamn. Vid ett besök på <rs type="place"
-                     ref="#62282">Drottningholm</rs> studerades <rs type="place" ref="#62289">teatermuseet</rs> mycket ingående
-               och för övrigt gjorde han många utfärder i <rs type="place" ref="#1119"
-                  >Stockholm</rs>strakten.</p>
+            <p>Under vistelsen här passade <rs type="person" ref="#pmb2121">Schnitzler</rs> på att
+               samla stoff och tog bland annat reda på typiska <rs type="place" ref="#pmb44335">svenska</rs> familjenamn och dito ortsnamn. Vid ett besök på <rs type="place" ref="#pmb62282">Drottningholm</rs> studerades <rs type="place" ref="#pmb62289">teatermuseet</rs> mycket ingående
+               och för övrigt gjorde han många utfärder i <rs type="place" ref="#pmb1119">Stockholm</rs>strakten.</p>
             <p>Vidare må omnämnas att han lär ha ett nytt skådespel under arbete. Själv sade han det
-               inte direkt, men han antydde att ett av hans arbeten, som i vinter skall upp på <rs
-                  type="org" ref="#36247">Burgteatern</rs> enligt kontrakt, får utbytas mot ett nytt
-               verk, om han kommer med ett dylikt. Vad till sist beträffar frågan om ett <anchor
-                  type="textConst" xml:id="T_I133-2"/>nytt<note type="textConst" xml:id="T_I133-2h"
-                     ><quote>nyt</quote></note> besök, så svarade <rs type="person" ref="#2121"
-                  >Schnitzler</rs> varken ja eller nej på det spörsmålet.</p>
+               inte direkt, men han antydde att ett av hans arbeten, som i vinter skall upp på <rs type="org" ref="#pmb36247">Burgteatern</rs> enligt kontrakt, får utbytas mot ett nytt
+               verk, om han kommer med ett dylikt. Vad till sist beträffar frågan om ett <anchor type="textConst" xml:id="T_I133-2"/>nytt<note type="textConst" xml:id="T_I133-2h">
+                  <quote>nyt</quote>
+               </note> besök, så svarade <rs type="person" ref="#pmb2121">Schnitzler</rs> varken ja eller nej på det spörsmålet.</p>
          </div>
          <div type="translation">
-            <head><rs type="person" ref="#2121">Schnitzler</rs> hat gestern <rs type="place"
-                  ref="#1119">Stockholm</rs> verlassen.</head>
-            <p>Am Mittwoch reiste <rs type="person" ref="#2121">Arthur Schnitzler</rs> von <rs
-                  type="place" ref="#1119">Stockholm</rs> nach <rs type="place" ref="#36300"
-                  >Kopenhagen</rs>, um nach einem Aufenthalt in <rs type="place" ref="#43570"
-                  >Dänemark</rs> in seine Heimat <rs type="place" ref="#41240">Österreich</rs>
-               zurückzukehren. Der berühmte Schriftsteller war sehr zufrieden mit seinem <rs type="place" ref="#1119">Stockholm</rs>-Aufenthalt, der von angenehmen Erfahrungen
-               geprägt war. <ref target="#q076" type="question"/>Während seines Besuchs in <rs
-                  type="place" ref="#1119">Stockholm</rs>
-               <space unit="chars" quantity="1"/><anchor type="commentary" xml:id="K_I133-1"/>sah er
-               den Film »<rs type="work" ref="#32808">Anatol</rs>«<note type="commentary"
-                  xml:id="K_I133-1h"><ref target="#L096_anatolfilm" type="pointer" subtype="cf"></ref></note>, den er noch nie zuvor gesehen
+            <head>
+               <rs type="person" ref="#pmb2121">Schnitzler</rs> hat gestern <rs type="place" ref="#pmb1119">Stockholm</rs> verlassen.</head>
+            <p>Am Mittwoch reiste <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> von <rs type="place" ref="#pmb1119">Stockholm</rs> nach <rs type="place" ref="#pmb36300">Kopenhagen</rs>, um nach einem Aufenthalt in <rs type="place" ref="#pmb43570">Dänemark</rs> in seine Heimat <rs type="place" ref="#pmb41240">Österreich</rs>
+               zurückzukehren. Der berühmte Schriftsteller war sehr zufrieden mit seinem <rs type="place" ref="#pmb1119">Stockholm</rs>-Aufenthalt, der von angenehmen Erfahrungen
+               geprägt war. <ref target="#q076" type="question"/>Während seines Besuchs in <rs type="place" ref="#pmb1119">Stockholm</rs>
+               <space unit="chars" quantity="1"/>
+               <anchor type="commentary" xml:id="K_I133-1"/>sah er
+               den Film »<rs type="work" ref="#pmb32808">Anatol</rs>«<note type="commentary" xml:id="K_I133-1h">
+                  <ref target="#L096_anatolfilm" type="pointer" subtype="cf"/>
+               </note>, den er noch nie zuvor gesehen
                hatte, und er wusste nicht, ob er lachen oder sich ärgern sollte. Aber da er schon
                früher darauf hingewiesen hatte, dass ein gewisses Maß an Schamlosigkeit seiner
                Meinung nach für einen Filmregisseur unverzichtbar ist, nahm er das alles gelassen
-               hin. <ref target="#q082" type="question"/>Außerdem sah er am Dienstagabend seine »<rs
-                  type="work" ref="#29917">Liebelei</rs>« im Kleinen <rs type="org" ref="#62240"
-                  >Dramaten</rs>. Besonders die Leistung von Frau <anchor type="commentary"
-                  xml:id="K_I133-2"/><rs ref="#21528" type="person">Karin Molander</rs> erfüllte ihn
-               mit Bewunderung<note type="commentary" xml:id="K_I133-2h"><ref target="1923-05-22"
-                     type="schnitzlerDiary" subtype="cf"/>: »<quote>Besonders Frau <rs ref="#21528"
-                        type="person">Karin Molander</rs> als <rs type="work" ref="#29917"
-                        subtype="implied">Christine</rs> vortrefflich; im ganzen sehr anständige
+               hin. <ref target="#q082" type="question"/>Außerdem sah er am Dienstagabend seine »<rs type="work" ref="#pmb29917">Liebelei</rs>« im Kleinen <rs type="org" ref="#pmb62240">Dramaten</rs>. Besonders die Leistung von Frau <anchor type="commentary" xml:id="K_I133-2"/>
+               <rs ref="#pmb21528" type="person">Karin Molander</rs> erfüllte ihn
+               mit Bewunderung<note type="commentary" xml:id="K_I133-2h">
+                  <ref target="1923-05-22" type="schnitzler-tagebuch" subtype="cf"/>: »<quote>Besonders Frau <rs ref="#pmb21528" type="person">Karin Molander</rs> als <rs type="work" ref="#pmb29917" subtype="implied">Christine</rs> vortrefflich; im ganzen sehr anständige
                      Vorstellung.</quote>«</note> und Sympathie.</p>
-            <p>Während seines Aufenthalts hier nutzte <rs type="person" ref="#2121">Schnitzler</rs>
-               die Gelegenheit, Material zu sammeln, darunter typisch <rs type="place" ref="#44335"
-                  >schwedische</rs> Familiennamen und Ortsbezeichnungen. Bei einem <anchor
-                  type="commentary" xml:id="K_I133-4"/>Besuch in <rs type="place" ref="#62282"
-                  >Drottningholm</rs><note type="commentary" xml:id="K_I133-4h"><ref
-                     target="1923-05-21" type="schnitzlerDiary" subtype="cf"/>: »<quote>das
-                     Rococotheater; <rs type="person" ref="#25930">Tengbom</rs> führte uns auf
-                     Bühne, etc.; er hatte die Renovirungsarbeiten geleitet <c rendition="#dots"
-                        n="3"/> Eine alte Barockdecoration stand da. Garderoben. Logen
-                  etc.–</quote>«</note> hat er das <rs type="place" ref="#62289">Theatermuseum</rs>
-               eingehend studiert und ausserdem hat er viele Ausflüge in die Umgebung von <rs
-                  type="place" ref="#1119">Stockholm</rs> unternommen. </p>
-            <p><ref type="question" target="#q001"/>Es sei noch erwähnt, dass er angeblich ein neues
+            <p>Während seines Aufenthalts hier nutzte <rs type="person" ref="#pmb2121">Schnitzler</rs>
+               die Gelegenheit, Material zu sammeln, darunter typisch <rs type="place" ref="#pmb44335">schwedische</rs> Familiennamen und Ortsbezeichnungen. Bei einem <anchor type="commentary" xml:id="K_I133-4"/>Besuch in <rs type="place" ref="#pmb62282">Drottningholm</rs>
+               <note type="commentary" xml:id="K_I133-4h">
+                  <ref target="1923-05-21" type="schnitzler-tagebuch" subtype="cf"/>: »<quote>das
+                     Rococotheater; <rs type="person" ref="#pmb25930">Tengbom</rs> führte uns auf
+                     Bühne, etc.; er hatte die Renovirungsarbeiten geleitet <c rendition="#dots" n="3"/> Eine alte Barockdecoration stand da. Garderoben. Logen
+                  etc.–</quote>«</note> hat er das <rs type="place" ref="#pmb62289">Theatermuseum</rs>
+               eingehend studiert und ausserdem hat er viele Ausflüge in die Umgebung von <rs type="place" ref="#pmb1119">Stockholm</rs> unternommen. </p>
+            <p>
+               <ref type="question" target="#q001"/>Es sei noch erwähnt, dass er angeblich ein neues
                Stück in Arbeit hat. Er hat es nicht direkt gesagt, aber er hat angedeutet, dass
-               eines seiner Werke, das in diesem Winter im <rs type="org" ref="#36247"
-                  >Burgtheater</rs> unter Vertrag steht, gegen ein neues Werk ausgetauscht werden
+               eines seiner Werke, das in diesem Winter im <rs type="org" ref="#pmb36247">Burgtheater</rs> unter Vertrag steht, gegen ein neues Werk ausgetauscht werden
                kann, wenn ihm eines einfällt. <ref type="question" target="#q083"/>Was schließlich
-               die Frage nach einem neuerlichen Besuch betrifft, so hat <rs type="person"
-                  ref="#2121">Schnitzler</rs> weder mit Ja noch mit Nein geantwortet. </p>
+               die Frage nach einem neuerlichen Besuch betrifft, so hat <rs type="person" ref="#pmb2121">Schnitzler</rs> weder mit Ja noch mit Nein geantwortet. </p>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb21528">
+               <persName>
+                  <forename>Karin</forename>
+                  <surname>Molander</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Edwertz</persName>
+               <persName type="person_ehename_nachname">Hanson</persName>
+               <birth>
+                  <date when="1889-05-20">20.05.1889</date>
+                  <settlement ref="pmb46678">
+                     <placeName type="pref">Mölnbo</placeName>
+                     <location>
+                        <geo>59,05 17,41667</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1978-09-03">03.09.1978</date>
+                  <settlement ref="pmb62321">
+                     <placeName type="pref">Täby</placeName>
+                     <location>
+                        <geo>59,4439 18,06872</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18211</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/21528/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q4967830</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb21528.html</idno>
+            </person>
+            <person xml:id="pmb25930">
+               <persName>
+                  <forename>Ivar Justus</forename>
+                  <surname>Tengbom</surname>
+               </persName>
+               <birth>
+                  <date when="1878-04-07">07.04.1878</date>
+                  <settlement ref="pmb48349">
+                     <placeName type="pref">Vireda</placeName>
+                     <location>
+                        <geo>57,91667 14,63333</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1968-08-06">06.08.1968</date>
+                  <settlement ref="pmb62282">
+                     <placeName type="pref">Drottningholm</placeName>
+                     <location>
+                        <geo>59,32513 17,8878</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb185">Architekt/Architektin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20666</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/25930/</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb32808">
+               <title>The Affairs of Anatol</title>
+               <author ref="pmb5045" role="hat-geschaffen">DeMille, Cecil B.</author>
+               <date when="1921-01-01">1921</date>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb32808.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32808/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb32808</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb32808.html</idno>
+               <note type="work_kind">Film</note>
+            </bibl>
+            <bibl xml:id="pmb29917">
+               <title>Liebelei. Schauspiel in drei Akten</title>
+               <title type="werk_link">https://www.deutschestextarchiv.de/book/show/schnitzler_liebelei_1896</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date>1895-10-09</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.27</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1823758</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-liebelei</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/31062</idno>
+               <idno type="URL" subtype="deutschestextarchiv">http://www.deutschestextarchiv.de/book/show/schnitzler_liebelei_1896</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29917.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29917/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29917</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29917.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Liebelei</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb60065">
+               <title>Arthur Schnitzler lämnade Stockholm i går</title>
+               <date when="1923-05-24">1923-05-24</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60065/</idno>
+               <note type="work_kind">Interview</note>
+            </bibl>
+            <bibl xml:id="pmb60066">
+               <title>Svenska Dagbladet</title>
+               <date when="1884-12-18">1884-12-18</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60066/</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb1119">
+               <placeName>Stockholm</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>59,325 18,05</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb44335">Schweden</placeName>
+                  <geo>62,0 15,0</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1119/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/15661/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb1119</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64053/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2673730/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb1119.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/100625/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4057648-6</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1754</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Stockholm</idno>
+            </place>
+            <place xml:id="pmb36300">
+               <placeName>Kopenhagen</placeName>
+               <placeName type="alternative-name">Copenhagen</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>55,67594 12,56553</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb43570">Dänemark</placeName>
+                  <geo>56,0 10,0</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1748</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb36300.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36300/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36300</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58083/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4032399-7</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64393/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2618425/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb36300</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb36300.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Kopenhagen</idno>
+            </place>
+            <place xml:id="pmb43570">
+               <placeName>Dänemark</placeName>
+               <placeName type="legacy-name-merge">Denmark</placeName>
+               <placeName type="alternative-name">Kingdom of Denmark</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1411</desc>
+               <location type="coords">
+                  <geo>56,0 10,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb745">Skandinavien</placeName>
+                  <geo>63,0 25,0</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q35</idno>
+               <idno type="URL" subtype="geonames">https://www.geonames.org/2623032</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb434.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2623032/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/434/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/39525/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43570/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb43570</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb43570.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/D%C3%A4nemark</idno>
+            </place>
+            <place xml:id="pmb41240">
+               <placeName>Österreich</placeName>
+               <placeName type="alternative-name">Republik Österreich</placeName>
+               <placeName type="alternative-name">Republic of Austria</placeName>
+               <placeName type="legacy-name-merge">Deutsch Österreich</placeName>
+               <placeName type="legacy-name-merge">Altoesterreich</placeName>
+               <desc type="entity_type">http://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb687">Österreich-Ungarn</placeName>
+                  <geo>48,4054 16,4887</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2782113/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41240/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41240</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb41240</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92143/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92203/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92143.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92203.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb41240.html</idno>
+            </place>
+            <place xml:id="pmb44335">
+               <placeName>Schweden</placeName>
+               <placeName type="alternative-name">Kingdom of Sweden</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1411</desc>
+               <location type="coords">
+                  <geo>62,0 15,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb745">Skandinavien</placeName>
+                  <geo>63,0 25,0</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q34</idno>
+               <idno type="URL" subtype="geonames">https://www.geonames.org/2661886</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb244.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/244/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/40699/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44335/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2661886/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb44335</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb44335.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Schweden</idno>
+            </place>
+            <place xml:id="pmb62282">
+               <placeName>Drottningholm</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPL</desc>
+               <desc type="entity_type_id">1412</desc>
+               <location type="coords">
+                  <geo>59,32513 17,8878</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb44335">Schweden</placeName>
+                  <geo>62,0 15,0</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/25933/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/62282/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2717198/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb62282.html</idno>
+            </place>
+            <place xml:id="pmb62289">
+               <placeName>Drottningholms Slottsteater</placeName>
+               <desc type="entity_type">Museum (K.MUS)</desc>
+               <desc type="entity_type_id">8</desc>
+               <location type="coords">
+                  <geo>59,321667 17,886944</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb62282">Drottningholm</placeName>
+                  <geo>59,32513 17,8878</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/62289/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q3058143</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Schlosstheater_Drottningholm</idno>
+               <note type="apis_dates">
+                  <date notBefore="1766-01-01" when="1766-07-02">1766</date>
+               </note>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb62240">
+               <orgName>Dramaten</orgName>
+               <orgName type="alternative-name">Dramatiska Teatern</orgName>
+               <orgName type="alternative-name">Kungliga Dramatiska Teatern</orgName>
+               <desc type="entity_type">Theater</desc>
+               <desc type="entity_type_id">1012</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb1119">Stockholm</placeName>
+                  <geo>59,325 18,05</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1119/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/15661/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb1119</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64053/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2673730/</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb1119.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/100625/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4057648-6</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1754</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Stockholm</idno>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/62240/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/43676-8</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1140265</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/K%C3%B6nigliches_Dramatisches_Theater</idno>
+               <note type="apis_dates">
+                  <date notBefore="1788-01-01" when="1788-07-01">1788</date>
+               </note>
+            </org>
+            <org xml:id="pmb36247">
+               <orgName>Burgtheater</orgName>
+               <orgName type="alternative-name">Burgtheater GmbH</orgName>
+               <desc type="entity_type">Theater</desc>
+               <desc type="entity_type_id">1012</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb51.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36789/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51010/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2775259/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb51</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb51</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb14">Burgtheater</placeName>
+                  <geo>48,210333 16,361139</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb14.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/14/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb14</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb14.html</idno>
+                  <idno type="URL" subtype="geonames">https://www.geonames.org/6354992/</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb44649">Schlosstheater Schönbrunn</placeName>
+                  <geo>48,186667 16,3125</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44649/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb44649</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2244724</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Schlosstheater_Sch%C3%B6nbrunn</idno>
+               </location>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/38633-9</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36247/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36247</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb36247</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q308720</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Burgtheater</idno>
+               <note type="apis_dates">
+                  <date notBefore="1852-01-01" when="1852-07-01">1852</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

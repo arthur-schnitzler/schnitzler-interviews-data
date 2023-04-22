@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="P031">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="P031">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#33001">Artur Schnitzler läßt sich nicht interviewen!,
-               18.&#8239;9.&#8239;1931</title>
-            <author ref="#2121">Schnitzler, Arthur</author>
+            <title level="a" ref="#pmb33001">Artur Schnitzler läßt sich nicht interviewen!,
+               18. 9. 1931</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -28,14 +30,14 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#2121">Schnitzler, Arthur</author>
-                     <title level="a" ref="#33001">Artur Schnitzler läßt sich nicht
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <title level="a" ref="#pmb33001">Artur Schnitzler läßt sich nicht
                         interviewen!</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#36376">Neues Wiener Journal</title>
+                     <title level="j" ref="#pmb36376">Neues Wiener Journal</title>
                      <imprint>
-                        <date when="1931-09-18" n="1">18.&#8239;9.&#8239;1931</date>
+                        <date when="1931-09-18" n="1">18. 9. 1931</date>
                      </imprint>
                      <biblScope unit="jg">39</biblScope>
                      <biblScope unit="nr">13.586</biblScope>
@@ -44,7 +46,7 @@
                </biblStruct>
                <biblStruct corresp="ASB2">
                   <monogr>
-                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefe 1913–1931</title>
                      <editor>Hg. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und
                         Heinrich Schnitzler</editor>
@@ -70,55 +72,40 @@
          <change who="KH" when="2021-11-02">Durchsicht</change>
       </revisionDesc>
    </teiHeader>
-   <!-- https://anno.onb.ac.at/cgi-content/anno?aid=nwj&datum=19310918&seite=8&zoom=33 -->
    <text type="text">
       <body>
          <div type="original">
             <head>Artur Schnitzler läßt sich nicht interviewen!</head>
-            <head type="sub">Interessante Polemik des Dichters mit der <rs type="place" ref="#168"
-                  >Berlin</rs>er Zeitschrift »<rs type="org" ref="#29412">Neue Jüdische
-                  Monatsschau</rs>« über einen Aufsatz »<rs type="work" ref="#32999">Das Gute am
+            <head type="sub">Interessante Polemik des Dichters mit der <rs type="place" ref="#pmb168">Berlin</rs>er Zeitschrift »<rs type="org" ref="#pmb29412">Neue Jüdische
+                  Monatsschau</rs>« über einen Aufsatz »<rs type="work" ref="#pmb32999">Das Gute am
                   Antisemitismus</rs>«.</head>
             <head type="sub">Von</head>
             <head type="sub">Dr. Artur Schnitzler.</head>
             <p rend="inline">Artur Schnitzler sendet uns zur Veröffentlichung nachstehendes
-               Schreiben, das er an die <rs type="place" ref="#168">Berlin</rs>er Zeitschrift »<rs
-                  type="org" ref="#29412">Neue Jüdische Monatsschau</rs>« gerichtet hat.</p>
+               Schreiben, das er an die <rs type="place" ref="#pmb168">Berlin</rs>er Zeitschrift »<rs type="org" ref="#pmb29412">Neue Jüdische Monatsschau</rs>« gerichtet hat.</p>
             <p rend="right">
-               <rs type="place" ref="#50">
+               <rs type="place" ref="#pmb50">
                   <hi rend="spaced_out">Wien</hi>
                </rs>, <date>16. September 1931</date>.</p>
-            <p rend="inline">An die<lb/>Redaktion der »<rs type="org" ref="#29412">Neuen Jüdischen
-                  Monatschau</rs>«, <rs type="place" ref="#168">Berlin</rs>.</p>
+            <p rend="inline">An die<lb/>Redaktion der »<rs type="org" ref="#pmb29412">Neuen Jüdischen
+                  Monatschau</rs>«, <rs type="place" ref="#pmb168">Berlin</rs>.</p>
             <p>Im <date>September</date>heft Ihres geschätzten Blattes ist unter meinem Autornamen
                ein Artikel erschienen, betitelt: »<anchor type="commentary" xml:id="KT117-1"/>
-               <rs type="work" ref="#32999">Das Gute am Antisemitismus</rs>
-               <note type="commentary" xml:id="KT117-1h">Bei dem Text, auf den <rs type="person"
-                     ref="#2121">Schnitzler</rs> reagiert, handelt es sich um eine verfremdete
-                  Fassung des bereits im Vorjahr erschienen Interviews <rs type="work" ref="#33005"
-                     >Anti-semitism, a Healthy Influence</rs>
+               <rs type="work" ref="#pmb32999">Das Gute am Antisemitismus</rs>
+               <note type="commentary" xml:id="KT117-1h">Bei dem Text, auf den <rs type="person" ref="#pmb2121">Schnitzler</rs> reagiert, handelt es sich um eine verfremdete
+                  Fassung des bereits im Vorjahr erschienen Interviews <rs type="work" ref="#pmb33005">Anti-semitism, a Healthy Influence</rs>
                   <space unit="chars" quantity="1"/>
                   <ref target="#I032" type="pointer"/> und nicht auf den in zeitlicher Nähe zum
-                  Protest erschienenen Beitrag von <rs type="person" ref="#11277">Ewen</rs>, <rs type="work"
-                     ref="#32999">Schnitzler Tells Why he is a Jew</rs>
+                  Protest erschienenen Beitrag von <rs type="person" ref="#pmb11277">Ewen</rs>, <rs type="work" ref="#pmb32999">Schnitzler Tells Why he is a Jew</rs>
                   <space unit="chars" quantity="1"/>
                   <ref target="#I030" type="pointer"/>
                </note>«. In einer Vorbemerkung schreiben Sie unter anderem: »Die folgende
-               Stellungnahme zur Judenfrage ist einem Interview mit dem <rs type="person"
-                  ref="#11277" subtype="implied">Berichterstatter</rs> des ›<rs type="org"
-                  ref="#29411">Canadian Jewish Chronicle</rs>‹ entnommen und soll in dem ›<rs
-                  type="org" ref="#29416">Literary Digest</rs>‹, <rs type="place" ref="#44053"
-                  >New-York</rs>, erschienen sein. Wir entnehmen die Ausführungen anläßlich des
-               siebzigsten Geburtstages von Schnitzler der Zeitschrift ›<rs type="org" ref="#29413"
-                  >Die Auslese</rs>‹ in <rs type="place" ref="#168">Berlin</rs>.«</p>
+               Stellungnahme zur Judenfrage ist einem Interview mit dem <rs type="person" ref="#pmb11277" subtype="implied">Berichterstatter</rs> des ›<rs type="org" ref="#pmb29411">Canadian Jewish Chronicle</rs>‹ entnommen und soll in dem ›<rs type="org" ref="#pmb29416">Literary Digest</rs>‹, <rs type="place" ref="#pmb44053">New-York</rs>, erschienen sein. Wir entnehmen die Ausführungen anläßlich des
+               siebzigsten Geburtstages von Schnitzler der Zeitschrift ›<rs type="org" ref="#pmb29413">Die Auslese</rs>‹ in <rs type="place" ref="#pmb168">Berlin</rs>.«</p>
             <p>Hiezu möchte ich vorerst bemerken, daß ich weder die von Ihnen zitierte Nummer der
-                  »<rs type="org" ref="#29413">Auslese</rs>«, noch die des »<rs type="org"
-                  ref="#29416">Literary Digest</rs>« jemals zu Gesicht bekommen habe. Der »<rs
-                  type="org" ref="#29412">Canadian Jewish Chronicle</rs>« ist möglicherweise – vor
+                  »<rs type="org" ref="#pmb29413">Auslese</rs>«, noch die des »<rs type="org" ref="#pmb29416">Literary Digest</rs>« jemals zu Gesicht bekommen habe. Der »<rs type="org" ref="#pmb29412">Canadian Jewish Chronicle</rs>« ist möglicherweise – vor
                Monaten oder Jahren – wie so viele andere Zeitschriften an mich gelangt, und der
-               Besuch mancher Berichterstatter, unter denen sich wohl auch der <rs type="person"
-                  subtype="implied" ref="#11277">Verfasser</rs> jenes Artikels im »<rs type="org"
-                  ref="#29412">C. J. Ch.</rs>« befunden haben dürfte, ist mir in mehr oder minder
+               Besuch mancher Berichterstatter, unter denen sich wohl auch der <rs type="person" subtype="implied" ref="#pmb11277">Verfasser</rs> jenes Artikels im »<rs type="org" ref="#pmb29412">C. J. Ch.</rs>« befunden haben dürfte, ist mir in mehr oder minder
                deutlicher Erinnerung geblieben. Niemals aber habe ich einen Artikel verfaßt, dem ich
                den Titel gab: »Das Gute am Antisemitismus« oder irgendeinen Aufsatz ähnlichen
                Inhalts, ich habe keine Zeitschrift, weder eine inländische noch eine fremdsprachige
@@ -143,13 +130,11 @@
                mehr oder minder willkürliche Berichte, ohne je wirklich original gewesen zu sein,
                neuerlich willkürlich bearbeitet, mit redaktionellen Erläuterungen und mit einem
                sozusagen wirksamen Titel versehen werden. So ist zum Beispiel der niemals von mir
-               geschriebene Artikel, den die »<rs type="org" ref="#29412">Neue Jüdische
-                  Monatsschau</rs>« und wie ich aus ihr erfahre, der »<rs type="org" ref="#29416"
-                  >Literary Digest</rs>« und »<rs type="org" ref="#29413">Die Auslese</rs>« unter
-               dem Titel »<rs type="work" ref="#32999">Das Gute am Antisemitismus</rs>« publiziert
-               haben, kurz darauf in einer großen <rs type="place" ref="#50">Wien</rs>er <rs
-                  type="org" ref="#29320" subtype="implied">Tageszeitung</rs> abgedruckt worden,
-               diesmal unter dem Titel »<rs type="work" ref="#32999">Antisemitismus stärkt das
+               geschriebene Artikel, den die »<rs type="org" ref="#pmb29412">Neue Jüdische
+                  Monatsschau</rs>« und wie ich aus ihr erfahre, der »<rs type="org" ref="#pmb29416">Literary Digest</rs>« und »<rs type="org" ref="#pmb29413">Die Auslese</rs>« unter
+               dem Titel »<rs type="work" ref="#pmb32999">Das Gute am Antisemitismus</rs>« publiziert
+               haben, kurz darauf in einer großen <rs type="place" ref="#pmb50">Wien</rs>er <rs type="org" ref="#pmb29320" subtype="implied">Tageszeitung</rs> abgedruckt worden,
+               diesmal unter dem Titel »<rs type="work" ref="#pmb32999">Antisemitismus stärkt das
                   Judentum</rs>« und mit dem Untertitel »Ein offenes Wort an die Christen von A. S.«
                Ich bin nicht sicher, ob nicht naivere Zeitungsleser mir, abgesehen von den
                Plattheiten und Unsinnigkeiten, die in jenem Artikel enthalten sind, am Ende noch die
@@ -166,8 +151,7 @@
                Geschädigten und eine überflüssige Belästigung der Oeffentlichkeit bedeuten. So
                bleibt im allgemeinen nicht Besseres übrig als zu schweigen.</p>
             <p>Da mir aber in den letzten Jahren mehrfach publizistische Abenteuer dieser Art
-               zugestoßen sind, so möchte ich nur ein- für allemal feststellen, daß ich <hi
-                  rend="spaced_out">Interviews überhaupt nicht erteile</hi> und daß Aeußerungen, die
+               zugestoßen sind, so möchte ich nur ein- für allemal feststellen, daß ich <hi rend="spaced_out">Interviews überhaupt nicht erteile</hi> und daß Aeußerungen, die
                ich etwa im Laufe von Privatgesprächen getan haben soll und tun werde, nur dann als
                authentisch gelten dürfen, wenn ihre Richtigkeit durch eigene Unterschrift von mir
                bestätigt wurde. Da ich mich aber imstande glaube, dort, wo es mir aus irgendeinem
@@ -188,18 +172,18 @@
          </div>
          <div type="biographical">
             <div1>
-               <bibl><rs type="person" ref="#2121">Schnitzler</rs> an <rs type="person" ref="#60976"
-                     >Walter Nagelstock</rs>, <date>14.&#8239;9.&#8239;1931</date>
+               <bibl>
+                  <rs type="person" ref="#pmb2121">Schnitzler</rs> an <rs type="person" ref="#pmb60976">Walter Nagelstock</rs>, <date>14. 9. 1931</date>
                </bibl>
                <quote>
                   <p>
-                     <date>14.&#8239;9.&#8239;1931</date>.</p>
+                     <date>14. 9. 1931</date>.</p>
                   <p>Sehr verehrter Herr Chefredakteur.</p>
                   <p>Das beigeschlossene Schreiben habe ich, wie Sie aus der Ueberschrift ersehen,
                      an die Redaktion der <supplied>›</supplied>
-                     <rs type="org" ref="#29412">Neuen jüdischen Monatsschau</rs>‹ gerichtet. Da der
-                     Artikel der ›<rs type="org" ref="#29412">Neuen jüd. Monatsschau</rs>‹ auch im
-                        ›<rs type="org" ref="#29320">Neuen Wr. Journal</rs>‹ erschienen ist, so darf
+                     <rs type="org" ref="#pmb29412">Neuen jüdischen Monatsschau</rs>‹ gerichtet. Da der
+                     Artikel der ›<rs type="org" ref="#pmb29412">Neuen jüd. Monatsschau</rs>‹ auch im
+                        ›<rs type="org" ref="#pmb29320">Neuen Wr. Journal</rs>‹ erschienen ist, so darf
                      ich von Ihrer Loyalität gewiss erwarten, dass Sie auch meinen Ausführungen Raum
                      gewähren werden. Es ist selbstverständlich, dass ich nur auf einen absolut
                      wortgetreuen Abdruck Wert legen würde. Andernfalls müsste ich bitten von der
@@ -208,16 +192,312 @@
                   <p>Ihr sehr ergebener</p>
                   <p>P. S. Im Falle des Abdruckes ersuche ich dringend um frdl. Zusendung einer
                      Korrektur.</p>
-                  <p>Herrn Chefredakteur Dr. Walter Nagelstock, <rs type="org" ref="#29320">Neues
-                        Wr. Journal</rs>.</p></quote>
+                  <p>Herrn Chefredakteur Dr. Walter Nagelstock, <rs type="org" ref="#pmb29320">Neues
+                        Wr. Journal</rs>.</p>
+               </quote>
             </div1>
             <div1>
-               <ref type="schnitzlerDiary" target="1931-09-16"/>
-               <quote>Endgiltig den Brief an die <rs type="org" ref="#29412">Jüd. Rdsch.</rs>; wegen
-                  des ›Briefes von mir‹ den sie veröffentlicht haben;– ein entstelltes <rs
-                     type="work" ref="#32999" subtype="implied">Interview</rs>.</quote>
+               <ref type="schnitzler-tagebuch" target="1931-09-16"/>
+               <quote>Endgiltig den Brief an die <rs type="org" ref="#pmb29412">Jüd. Rdsch.</rs>; wegen
+                  des ›Briefes von mir‹ den sie veröffentlicht haben;– ein entstelltes <rs type="work" ref="#pmb32999" subtype="implied">Interview</rs>.</quote>
             </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb11277">
+               <persName>
+                  <forename>David</forename>
+                  <surname>Ewen</surname>
+               </persName>
+               <birth>
+                  <date when="1907-11-26">26.11.1907</date>
+                  <settlement ref="pmb46224">
+                     <placeName type="pref">Lviv</placeName>
+                     <location>
+                        <geo>49,83826 24,02324</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1985-12-28">28.12.1985</date>
+                  <settlement ref="pmb45749">
+                     <placeName type="pref">Miami</placeName>
+                     <location>
+                        <geo>25,77427 -80,19366</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14828</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/1089844891</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11277/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q9202613</idno>
+            </person>
+            <person xml:id="pmb60976">
+               <persName>
+                  <forename>Walter</forename>
+                  <surname>Nagelstock</surname>
+               </persName>
+               <birth>
+                  <date when="1878-08-24">1878-08-24</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1943-07-02" notAfter="1943-12-31">1943</date>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb173">Redakteur/Redakteurin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60976/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp59587</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb32999">
+               <title>Schnitzler Tells Why</title>
+               <title type="werk_bibliografische-angabe">The American Isrealite, 27. 8. 1931</title>
+               <title type="namensvariante">Why I am a Jew</title>
+               <title type="namensvariante">Perchè sono ebreo</title>
+               <author ref="pmb11277" role="hat-geschaffen">Ewen, David</author>
+               <date when="1931-08-27">27.08.1931</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32999/</idno>
+               <note type="work_kind">Text</note>
+            </bibl>
+            <bibl xml:id="pmb33005">
+               <title>Anti-semitism, a Healthy Influence</title>
+               <title type="werk_bibliografische-angabe">The Canadian Jewish Chronicle, 26. 9. 1930</title>
+               <author ref="pmb11277" role="hat-geschaffen">Ewen, David</author>
+               <date when="1930-09-26">26.09.1930</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33005/</idno>
+               <note type="work_kind">Text</note>
+            </bibl>
+            <bibl xml:id="pmb33001">
+               <title>Artur Schnitzler läßt sich nicht interviewen!</title>
+               <title type="werk_bibliografische-angabe">Neues Wiener Journal, 18. 9. 1931</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1931-09-18">18.09.1931</date>
+               <idno type="URL" subtype="">http://anno.onb.ac.at/cgi-content/anno?aid=nwj&amp;datum=19310918&amp;seite=1&amp;zoom=33</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33001/</idno>
+               <note type="work_kind">Text</note>
+            </bibl>
+            <bibl xml:id="pmb36376">
+               <title>Neues Wiener Journal</title>
+               <title type="werk_link-anno">http://anno.onb.ac.at/cgi-content/anno?aid=nwj</title>
+               <author ref="pmb36371" role="hat-einen-beitrag-geschaffen-zu">Papp, Desiderius</author>
+               <author ref="pmb10815" role="hat-einen-beitrag-geschaffen-zu">Bahr, Hermann</author>
+               <date to="1939-01-01">1893  – 1939</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36376/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36376</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb36376</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb168">
+               <placeName>Berlin</placeName>
+               <placeName type="alternative-name">Hauptstadt Berlin</placeName>
+               <placeName type="alternative-name">Barlīn</placeName>
+               <placeName type="alternative-name">Reichshauptstadt Berlin</placeName>
+               <placeName type="alternative-name">Berolino</placeName>
+               <placeName type="legacy-name-merge">B-n</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPLC</desc>
+               <desc type="entity_type_id">1418</desc>
+               <location type="coords">
+                  <geo>52,52437 13,41053</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb151">Deutschland</placeName>
+                  <geo>51,5 10,5</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb168</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92171.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
+            </place>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+            <place xml:id="pmb44053">
+               <placeName>New York City</placeName>
+               <placeName type="legacy-name-merge">New York</placeName>
+               <placeName type="legacy-name-merge">New York, N. Y.</placeName>
+               <placeName type="alternative-name">Neu-Amsterdam, NY</placeName>
+               <placeName type="legacy-name-merge">New York, NY</placeName>
+               <placeName type="alternative-name">Big Apple</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPL</desc>
+               <desc type="entity_type_id">1412</desc>
+               <location type="coords">
+                  <geo>40,71427 -74,00597</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb43406">Vereinigte Staaten von Amerika (USA)</placeName>
+                  <geo>39,76 -98,5</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb5199.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5199/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44053/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/5128581/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb44053</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb44053</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb44053.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/98297/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4042011-5</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q60</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/New_York_City</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb29412">
+               <orgName>Neue Jüdische Monatsschau</orgName>
+               <desc type="entity_type">Zeitschriftenredaktion</desc>
+               <desc type="entity_type_id">973</desc>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29412/</idno>
+            </org>
+            <org xml:id="pmb29411">
+               <orgName>The Canadian Jewish Chronicle</orgName>
+               <desc type="entity_type">Zeitschriftenredaktion</desc>
+               <desc type="entity_type_id">973</desc>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29411/</idno>
+            </org>
+            <org xml:id="pmb29416">
+               <orgName>Literary Digest</orgName>
+               <desc type="entity_type">Zeitschriftenredaktion</desc>
+               <desc type="entity_type_id">973</desc>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29416/</idno>
+            </org>
+            <org xml:id="pmb29413">
+               <orgName>Die Auslese</orgName>
+               <desc type="entity_type">Zeitschriftenredaktion</desc>
+               <desc type="entity_type_id">973</desc>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29413/</idno>
+            </org>
+            <org xml:id="pmb29320">
+               <orgName>Neues Wiener Journal</orgName>
+               <orgName type="werk_link-anno">http://anno.onb.ac.at/info/nwj_info.htm</orgName>
+               <desc type="entity_type">Tageszeitungsredaktion</desc>
+               <desc type="entity_type_id">972</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb1270">Nussdorfer Straße</placeName>
+                  <geo>48,22921 16,35461</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1270/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb1270</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb52670">Biberstraße</placeName>
+                  <geo>48,209725072054226 16,381223898207065</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/52670/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb52670</idno>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29320.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29320/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29320</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb29320</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1980429</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Neues_Wiener_Journal</idno>
+               <note type="apis_dates">
+                  <date from="1893-01-01" to="1939-07-02">1893  – 1939</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

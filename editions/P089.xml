@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="P089">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="P089">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#58391">Literarische Legendenbildung.&#8239;Eine Richtigstellung,
+            <title level="a" ref="#pmb58391">Literarische Legendenbildung. Eine Richtigstellung,
                10. 1. 1926</title>
-            <author ref="#2121">Schnitzler, Arthur</author>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -28,12 +30,12 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#2121">Schnitzler, Arthur</author>
-                     <title level="a" ref="#58391">Literarische Legendenbildung. Eine
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <title level="a" ref="#pmb58391">Literarische Legendenbildung. Eine
                         Richtigstellung</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#36376">Neues Wiener Journal</title>
+                     <title level="j" ref="#pmb36376">Neues Wiener Journal</title>
                      <imprint>
                         <date when="1926-01-10" n="1">10. 1. 1926</date>
                      </imprint>
@@ -44,7 +46,7 @@
                </biblStruct>
                <biblStruct corresp="ASB2">
                   <monogr>
-                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefe 1913–1931</title>
                      <editor>Hg. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und
                         Heinrich Schnitzler</editor>
@@ -70,7 +72,6 @@
          <change who="KH" when="2021-10-27">Durchsicht</change>
       </revisionDesc>
    </teiHeader>
-   <!-- https://anno.onb.ac.at/cgi-content/anno?aid=nwj&datum=19260110&seite=5&zoom=33 -->
    <text type="text">
       <body>
          <div type="original">
@@ -79,104 +80,82 @@
             <head type="sub">Von</head>
             <head type="sub">Dr. Arthur Schnitzler.</head>
             <p rend="inline">Wir erhalten von Dr. Arthur <hi rend="spaced_out">Schnitzler</hi> zu
-               dem kürzlich im »<rs type="work" ref="#36376">Neuen Wiener Journal</rs>«
+               dem kürzlich im »<rs type="work" ref="#pmb36376">Neuen Wiener Journal</rs>«
                veröffentlichten Aufsatz »<anchor type="commentary" xml:id="K_I089-2"/>
-               <rs type="work" ref="#58204">Deutsche Dichtung in Japan</rs>
+               <rs type="work" ref="#pmb58204">Deutsche Dichtung in Japan</rs>
                <note type="commentary" xml:id="K_I089-2h">
                   <bibl>
-                     <rs type="person" ref="#10069">Erwin Stranik</rs>: <rs type="work" ref="#58204"
-                        >Deutsche Dichtung in Japan</rs>. In: <rs type="work" ref="#36376">Neues
-                        Wiener Journal</rs>, Jg.&#8239;34, Nr.&#8239;11.536, <date>3.&#8239;1.&#8239;1926</date>,
-                     S.&#8239;18–19</bibl>.</note>« von Dr. <rs type="person" ref="#10069">Erwin
+                     <rs type="person" ref="#pmb10069">Erwin Stranik</rs>: <rs type="work" ref="#pmb58204">Deutsche Dichtung in Japan</rs>. In: <rs type="work" ref="#pmb36376">Neues
+                        Wiener Journal</rs>, Jg. 34, Nr. 11.536, <date>3. 1. 1926</date>,
+                     S. 18–19</bibl>.</note>« von Dr. <rs type="person" ref="#pmb10069">Erwin
                   Stranik</rs> nachfolgende Zuschrift, die nicht bloß einen sachlichen Irrtum
                berichtigt, sondern auch literarhistorische bemerkenswerte Feststellungen enthält.
                (Anm. d. Red.)</p>
             <p>So ungern ich Redaktionen, Publikum und mich selbst mit Richtigstellungen bemühe, es
                gibt doch immer wieder Fälle, in denen man sich zu dergleichen veranlaßt fühlt,
                insbesondere, wenn es gilt, einer literarischen Legendenbildung vorzubeugen.</p>
-            <p>Hiemit nehme ich Bezug auf einen am <date>3. d. M.</date> im »<rs type="work"
-                  ref="#36376">Neuen Wiener Journal</rs>« erschienenen Artikel »<rs type="work"
-                  ref="#58204">Deutsche Dichtung in Japan</rs>«, in dem sich unter anderem folgende
-               Stelle findet: »Während <rs type="person" ref="#13068">Wedekind</rs> durch sein Drama
-                  ›<rs type="work" ref="#42416">Frühlingserwachen</rs>‹ eigentlich nur zu den
-               absolut Sensationsgierigen sprach, vermochte Schnitzler der erklärte Liebling <rs
-                  type="place" ref="#318">Japan</rs>s zu werden. Beinahe alle seine Werke wurden
+            <p>Hiemit nehme ich Bezug auf einen am <date>3. d. M.</date> im »<rs type="work" ref="#pmb36376">Neuen Wiener Journal</rs>« erschienenen Artikel »<rs type="work" ref="#pmb58204">Deutsche Dichtung in Japan</rs>«, in dem sich unter anderem folgende
+               Stelle findet: »Während <rs type="person" ref="#pmb13068">Wedekind</rs> durch sein Drama
+                  ›<rs type="work" ref="#pmb42416">Frühlingserwachen</rs>‹ eigentlich nur zu den
+               absolut Sensationsgierigen sprach, vermochte Schnitzler der erklärte Liebling <rs type="place" ref="#pmb318">Japan</rs>s zu werden. Beinahe alle seine Werke wurden
                übersetzt, nur gerade die größten nicht. Allerdings besaß Schnitzler neben seiner
-               Kunst auch Glück. Durch Zufall lernte er als Student bereits den <rs type="place"
-                  ref="#318">Japan</rs>er <rs type="person" ref="#58151">Rintaro Mori</rs> kennen,
+               Kunst auch Glück. Durch Zufall lernte er als Student bereits den <rs type="place" ref="#pmb318">Japan</rs>er <rs type="person" ref="#pmb58151">Rintaro Mori</rs> kennen,
                der bis zu seinem Tode im <date>Herbst 1922</date> sich selbstlos der Propagierung
-                  <rs type="person" ref="#2121">Schnitzler</rs>s widmete.« Nun kann ich mich
-               durchaus nicht erinnern, in meiner Studentenzeit überhaupt einen <rs type="place"
-                  ref="#318">Japan</rs>er kennen gelernt zu haben. Später, in meiner Spitalszeit sind
+                  <rs type="person" ref="#pmb2121">Schnitzler</rs>s widmete.« Nun kann ich mich
+               durchaus nicht erinnern, in meiner Studentenzeit überhaupt einen <rs type="place" ref="#pmb318">Japan</rs>er kennen gelernt zu haben. Später, in meiner Spitalszeit sind
                mir natürlich manche besondere Mediziner begegnet. Ganz bestimmt aber weiß ich, daß
                ich als Student und als junger Arzt von gelegentlichen poetischen Versuchen nur
-               intimsten Freunden Mitteilung gemacht habe und daß damals gewiß kein <rs type="place"
-                  ref="#318">Japan</rs>er die Möglichkeit hatte, solche Versuche kennen zu lernen,
-               ins <rs type="place" ref="#318">Japan</rs>ische zu übersetzen und sich ihrer
+               intimsten Freunden Mitteilung gemacht habe und daß damals gewiß kein <rs type="place" ref="#pmb318">Japan</rs>er die Möglichkeit hatte, solche Versuche kennen zu lernen,
+               ins <rs type="place" ref="#pmb318">Japan</rs>ische zu übersetzen und sich ihrer
                Propagierung zu widmen – um so mehr, als ich erst viel später literarische Arbeiten
                zu veröffentlichen begann.</p>
-            <p>Erst vor fünfzehn bis zwanzig Jahren dürfte – wohl als erstes meiner Stücke – »<rs
-                  type="work" ref="#29917">Liebelei</rs>« in <rs type="place" ref="#318"
-               >japan</rs>ischer Uebersetzung erschienen sein. Ein <rs type="place" ref="#318"
-                  >japan</rs>ischer Arzt namens <rs type="person" ref="#19790">I. Kubo</rs> war so
+            <p>Erst vor fünfzehn bis zwanzig Jahren dürfte – wohl als erstes meiner Stücke – »<rs type="work" ref="#pmb29917">Liebelei</rs>« in <rs type="place" ref="#pmb318">japan</rs>ischer Uebersetzung erschienen sein. Ein <rs type="place" ref="#pmb318">japan</rs>ischer Arzt namens <rs type="person" ref="#pmb19790">I. Kubo</rs> war so
                freundlich, mir <anchor type="commentary" xml:id="K_I089-3"/>persönlich ein
-                  Exemplar<note type="commentary" xml:id="K_I089-3h">am <ref target="1913-09-27"
-                     type="schnitzlerDiary" subtype="date-only"/>
+                  Exemplar<note type="commentary" xml:id="K_I089-3h">am <ref target="1913-09-27" type="schnitzler-tagebuch" subtype="date-only"/>
                </note> zu überbringen und nannte mir den Namen des Uebersetzers, den er mir auf mein
                Ersuchen hin auch in das Buch hineinschrieb. Bei dieser Gelegenheit war es wohl, daß
-               ich den Namen <rs type="person" ref="#58151">
+               ich den Namen <rs type="person" ref="#pmb58151">
                   <hi rend="spaced_out">Mori</hi>
                </rs>
                <hi rend="spaced_out"> zum erstenmal gehört</hi> habe. Auch in den darauffolgenden
-               Jahren erhielt ich manchmal Besuch von <rs type="place" ref="#318">Japan</rs>ern, die
+               Jahren erhielt ich manchmal Besuch von <rs type="place" ref="#pmb318">Japan</rs>ern, die
                mir von dem wachsenden Interesse ihrer Landsleute für meine Werke Kunde brachten;
-               Briefe <rs type="place" ref="#318">japan</rs>ischer Schriftsteller bestätigten mir
+               Briefe <rs type="place" ref="#pmb318">japan</rs>ischer Schriftsteller bestätigten mir
                das gleiche, doch erst im Jahre <date>1922</date> erhielt ich durch gütige
-               Vermittlung der <rs type="place" ref="#318">japan</rs>ischen Gesandtschaft einige
+               Vermittlung der <rs type="place" ref="#pmb318">japan</rs>ischen Gesandtschaft einige
                Bände zugesandt, die Uebersetzungen meiner Werke enthielten: einen Band Novellen
-                  (»<rs type="work" ref="#33806">Abschied</rs>«, »<rs type="work" ref="#29833">Die
-                  Toten schweigen</rs>«, »<rs type="work" ref="#33776">Die Fremde</rs>«, »<rs
-                  type="work" ref="#30649">Der blinde Geronimo</rs>« »<rs type="work" ref="#30349"
-                  >Das Tagebuch der Redegonda</rs>«), übersetzt von <rs type="person" ref="#27406"
-                  >Yamamato</rs>, und einen Band Dramen (»<rs type="work" ref="#30033">Anatols
-                  Hochzeitsmorgen</rs>« »<rs type="work" ref="#29843">Der grüne Kakadu</rs>« »<rs
-                  type="work" ref="#29877">Die letzten Masken</rs>« »<rs type="work" ref="#29985"
-                  >Der einsame Weg</rs>« und »<rs type="work" ref="#29931">Komtess Mizzi</rs>«),
-               übersetzt von <rs type="person" ref="#19900">Kusimayana</rs>, endlich einen Band, in
+                  (»<rs type="work" ref="#pmb33806">Abschied</rs>«, »<rs type="work" ref="#pmb29833">Die
+                  Toten schweigen</rs>«, »<rs type="work" ref="#pmb33776">Die Fremde</rs>«, »<rs type="work" ref="#pmb30649">Der blinde Geronimo</rs>« »<rs type="work" ref="#pmb30349">Das Tagebuch der Redegonda</rs>«), übersetzt von <rs type="person" ref="#pmb27406">Yamamato</rs>, und einen Band Dramen (»<rs type="work" ref="#pmb30033">Anatols
+                  Hochzeitsmorgen</rs>« »<rs type="work" ref="#pmb29843">Der grüne Kakadu</rs>« »<rs type="work" ref="#pmb29877">Die letzten Masken</rs>« »<rs type="work" ref="#pmb29985">Der einsame Weg</rs>« und »<rs type="work" ref="#pmb29931">Komtess Mizzi</rs>«),
+               übersetzt von <rs type="person" ref="#pmb19900">Kusimayana</rs>, endlich einen Band, in
                dem nur meine Novelle »<anchor type="commentary" xml:id="K_I089-1"/>
-               <rs type="work" ref="#30117">Sterben</rs>
+               <rs type="work" ref="#pmb30117">Sterben</rs>
                <note type="commentary" xml:id="K_I089-1h">
-                  <rs type="person" ref="#58151">Mori Ōgai</rs> hatte die Mitarbeit an der Ausgabe
+                  <rs type="person" ref="#pmb58151">Mori Ōgai</rs> hatte die Mitarbeit an der Ausgabe
                   abgelehnt. (<bibl>Tatsuji Iwabuchi: <title level="a">Inflation und Edition. Ein
-                        unbekannter Brief Arthur Schnitzlers an zwei Japaner</title>. In: <title
-                        level="j">Hofmannsthal-Jahrbuch</title>, Bd. 4, <date>1996</date>,
-                     S.&#8239;360–366, hier S.&#8239;362</bibl>.) Es handelt sich demnach um seine Übersetzung
-                  aus dem Jahr <date>1912</date>.</note>« enthalten war, übersetzt von <rs
-                  type="person" ref="#58151">
+                        unbekannter Brief Arthur Schnitzlers an zwei Japaner</title>. In: <title level="j">Hofmannsthal-Jahrbuch</title>, Bd. 4, <date>1996</date>,
+                     S. 360–366, hier S. 362</bibl>.) Es handelt sich demnach um seine Übersetzung
+                  aus dem Jahr <date>1912</date>.</note>« enthalten war, übersetzt von <rs type="person" ref="#pmb58151">
                   <hi rend="spaced_out">Mori</hi>
-               </rs>, offenbar demselben, der seinerzeit »<rs type="work" ref="#29917"
-               >Liebelei</rs>« ins <rs type="place" ref="#318">Japan</rs>ische übertragen hatte.</p>
+               </rs>, offenbar demselben, der seinerzeit »<rs type="work" ref="#pmb29917">Liebelei</rs>« ins <rs type="place" ref="#pmb318">Japan</rs>ische übertragen hatte.</p>
             <p>So wie es also den Tatsachen kaum entspricht, daß ich die Verbreitung meiner Werke in
-                  <rs type="place" ref="#318">Japan</rs> den propagandistischen Bemühungen einer
+                  <rs type="place" ref="#pmb318">Japan</rs> den propagandistischen Bemühungen einer
                Bekanntschaft aus meinen Studentenjahren verdanke (wenn ich auch nicht daran zweifle,
                daß jener mir persönlich, soweit ich mich zu entsinnen vermag, leider niemals bekannt
-               gewordene <rs type="person" ref="#58151">Rintaro Mori</rs> mein literarisches Ansehen
-               in <rs type="place" ref="#318">Japan</rs> lebhaft gefördert hat), für ebenso
-               unwahrscheinlich halte ich es, daß meine Werke in <rs type="place" ref="#318"
-                  >Japan</rs> hauptsächlich deshalb Interesse finden sollten <anchor
-                  type="textConst" xml:id="T_I089-1"/>weil –<note type="textConst"
-                  xml:id="T_I089-1h"><quote>weil (</quote></note> wie Ihr geschätzter Mitarbeiter
-               in dem obenzitierten Artikel schreibt: »die ganze absterbende <rs type="place"
-                  ref="#50">Wien</rs>er sentimentale, ein bißchen weinerliche Kultur, die in seinen
-               Dramen und Novellen festgehalten zu haben ja <rs type="person" ref="#2121"
-                  >Schnitzler</rs>s größtes Verdienst beinhaltet, leise an die Traurigkeit des <rs
-                  type="place" ref="#1019">asiatischen</rs> Buddhismus anklingt.«</p>
+               gewordene <rs type="person" ref="#pmb58151">Rintaro Mori</rs> mein literarisches Ansehen
+               in <rs type="place" ref="#pmb318">Japan</rs> lebhaft gefördert hat), für ebenso
+               unwahrscheinlich halte ich es, daß meine Werke in <rs type="place" ref="#pmb318">Japan</rs> hauptsächlich deshalb Interesse finden sollten <anchor type="textConst" xml:id="T_I089-1"/>weil –<note type="textConst" xml:id="T_I089-1h">
+                  <quote>weil (</quote>
+               </note> wie Ihr geschätzter Mitarbeiter
+               in dem obenzitierten Artikel schreibt: »die ganze absterbende <rs type="place" ref="#pmb50">Wien</rs>er sentimentale, ein bißchen weinerliche Kultur, die in seinen
+               Dramen und Novellen festgehalten zu haben ja <rs type="person" ref="#pmb2121">Schnitzler</rs>s größtes Verdienst beinhaltet, leise an die Traurigkeit des <rs type="place" ref="#pmb1019">asiatischen</rs> Buddhismus anklingt.«</p>
             <p>Im übrigen hege ich die bestimmte Hoffnung, daß Ihr geschätzter Mitarbeiter sich von
-               der »Traurigkeit des <rs type="place" ref="#1019">asiatischen</rs><space unit="chars" quantity="1"/>
-               <anchor type="textConst" xml:id="T_P089-1"/>Buddhismus«<note type="textConst"
-                  xml:id="T_P089-1h"><quote>Buddhismus</quote></note> eine klarere Vorstellung zu
-               machen vermag, als ich von dem, was er unter der »weinerlichen <rs type="place"
-                  ref="#50">Wien</rs>er Kultur« versteht.</p>
+               der »Traurigkeit des <rs type="place" ref="#pmb1019">asiatischen</rs>
+               <space unit="chars" quantity="1"/>
+               <anchor type="textConst" xml:id="T_P089-1"/>Buddhismus«<note type="textConst" xml:id="T_P089-1h">
+                  <quote>Buddhismus</quote>
+               </note> eine klarere Vorstellung zu
+               machen vermag, als ich von dem, was er unter der »weinerlichen <rs type="place" ref="#pmb50">Wien</rs>er Kultur« versteht.</p>
             <p>Es wird mich freuen, wenn Sie dieser Zuschrift in Ihrem Blatte Aufnahme gewähren
                wollen.</p>
             <p rend="right">
@@ -185,23 +164,543 @@
          </div>
          <div type="biographical">
             <div1>
-               <ref target="1926-01-12" type="schnitzlerDiary"/>
-               <quote>Nm. beschäftigt mit einer Antwort an <rs type="person" ref="#10069"
-                     >Stranik</rs>, der (privat) auf meine Berichtigung seines <rs type="work"
-                     subtype="implied" ref="#58204">Japan Artikels</rs> dumm und ziemlich frech
-                  replicirt&#8239;–</quote>
+               <ref target="1926-01-12" type="schnitzler-tagebuch"/>
+               <quote>Nm. beschäftigt mit einer Antwort an <rs type="person" ref="#pmb10069">Stranik</rs>, der (privat) auf meine Berichtigung seines <rs type="work" subtype="implied" ref="#pmb58204">Japan Artikels</rs> dumm und ziemlich frech
+                  replicirt –</quote>
             </div1>
             <div1>
-               <ref target="1926-01-13" type="schnitzlerDiary"/>
-               <quote>Den Nachm. mit dem Brief an den dummen Buben <rs type="person" ref="#10069"
-                  >Stranik</rs> verbracht.–</quote>
+               <ref target="1926-01-13" type="schnitzler-tagebuch"/>
+               <quote>Den Nachm. mit dem Brief an den dummen Buben <rs type="person" ref="#pmb10069">Stranik</rs> verbracht.–</quote>
             </div1>
             <div1>
-               <ref target="1926-01-14" type="schnitzlerDiary"/>
-               <quote>Dictirt (an <rs type="person" ref="#10069"
-                  >Stranik</rs>);</quote>
+               <ref target="1926-01-14" type="schnitzler-tagebuch"/>
+               <quote>Dictirt (an <rs type="person" ref="#pmb10069">Stranik</rs>);</quote>
             </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb10069">
+               <persName>
+                  <forename>Erwin</forename>
+                  <surname>Stranik</surname>
+               </persName>
+               <birth>
+                  <date when="1898-07-03">03.07.1898</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1945-01-01">1945</date>
+                  <settlement ref="pmb652">
+                     <placeName type="pref">Prag</placeName>
+                     <location>
+                        <geo>50,08333 14,46667</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20471</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117307033</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10069/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp40956</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284fbb</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q94844956</idno>
+            </person>
+            <person xml:id="pmb13068">
+               <persName>
+                  <forename>Frank</forename>
+                  <surname>Wedekind</surname>
+               </persName>
+               <birth>
+                  <date when="1864-07-24">24.07.1864</date>
+                  <settlement ref="pmb890">
+                     <placeName type="pref">Hannover</placeName>
+                     <location>
+                        <geo>52,37052 9,73322</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1918-03-09">09.03.1918</date>
+                  <settlement ref="pmb45258">
+                     <placeName type="pref">München</placeName>
+                     <location>
+                        <geo>48,13743 11,57549</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21130</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118629867</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb13068.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/13068/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb13068</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13068.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb13068</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43433</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=W#DWpers0250</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q57619</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Frank_Wedekind</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb13068.html</idno>
+            </person>
+            <person xml:id="pmb58151">
+               <persName>
+                  <forename>Ōgai</forename>
+                  <surname>Mori</surname>
+               </persName>
+               <persName type="person_geburtsname-vorname">Rintaro</persName>
+               <birth>
+                  <date when="1862-02-17">1862-02-17</date>
+                  <settlement ref="pmb58152">
+                     <placeName type="pref">Tsuwano Chō</placeName>
+                     <location>
+                        <geo>34,51661 131,80458</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1922-07-08">1922-07-08</date>
+                  <settlement ref="pmb49165">
+                     <placeName type="pref">Tokyo</placeName>
+                     <location>
+                        <geo>35,6895 139,69171</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+               <occupation ref="pmb116">Übersetzer/Übersetzerin</occupation>
+               <occupation ref="pmb727">Schriftsteller/Schriftstellerin &gt;&gt; Dramatiker/Dramatikerin</occupation>
+               <occupation ref="pmb1535">Librettist/Librettistin</occupation>
+               <occupation ref="pmb1692">Arzt/Ärztin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58151/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118736957</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q356960</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Mori_%C5%8Cgai</idno>
+            </person>
+            <person xml:id="pmb19790">
+               <persName>
+                  <forename>Ino</forename>
+                  <surname>Kubo</surname>
+               </persName>
+               <birth>
+                  <date when="1874-12-26">26.12.1874</date>
+                  <settlement ref="pmb55086">
+                     <placeName type="pref">Fukushima</placeName>
+                     <location>
+                        <geo>37,75 140,46667</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1939-11-12">12.11.1939</date>
+                  <settlement ref="pmb49165">
+                     <placeName type="pref">Tokyo</placeName>
+                     <location>
+                        <geo>35,6895 139,69171</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb132">Mediziner/Medizinerin &gt;&gt; Laryngologe/Laryngologin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17157</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/19790/</idno>
+            </person>
+            <person xml:id="pmb27406">
+               <persName>
+                  <forename>Yūzō</forename>
+                  <surname>Yamamoto</surname>
+               </persName>
+               <persName type="legacy-name-merge">Yamamoto, Yūzō</persName>
+               <birth>
+                  <date when="1887-07-27">27.07.1887</date>
+                  <settlement ref="pmb58164">
+                     <placeName type="pref">Tochigi</placeName>
+                     <location>
+                        <geo>36,7 139,81667</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1974-01-11">11.01.1974</date>
+                  <settlement ref="pmb58167">
+                     <placeName type="pref">Atami</placeName>
+                     <location>
+                        <geo>35,08834 139,05325</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb116">Übersetzer/Übersetzerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21495</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/27406/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58163/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/129051977</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q986753</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Yamamoto_Y%C5%ABz%C5%8D</idno>
+            </person>
+            <person xml:id="pmb19900">
+               <persName>
+                  <forename>Masao</forename>
+                  <surname>Kusuyama</surname>
+               </persName>
+               <birth>
+                  <date when="1884-11-04">04.11.1884</date>
+                  <settlement ref="pmb49165">
+                     <placeName type="pref">Tokyo</placeName>
+                     <location>
+                        <geo>35,6895 139,69171</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1950-11-26">26.11.1950</date>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb116">Übersetzer/Übersetzerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17221</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/19900/</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb36376">
+               <title>Neues Wiener Journal</title>
+               <title type="werk_link-anno">http://anno.onb.ac.at/cgi-content/anno?aid=nwj</title>
+               <author ref="pmb36371" role="hat-einen-beitrag-geschaffen-zu">Papp, Desiderius</author>
+               <author ref="pmb10815" role="hat-einen-beitrag-geschaffen-zu">Bahr, Hermann</author>
+               <date to="1939-01-01">1893  – 1939</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36376/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36376</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb36376</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+            <bibl xml:id="pmb58204">
+               <title>Deutsche Dichtung in Japan</title>
+               <title type="werk_link">https://anno.onb.ac.at/cgi-content/anno?aid=nwj&amp;datum=19260103&amp;query=%22deutsche+dichtung+in+japan%22&amp;ref=anno-search&amp;seite=18</title>
+               <author ref="pmb10069" role="hat-geschaffen">Stranik, Erwin</author>
+               <date when="1926-01-03">1926-01-03</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58204/</idno>
+               <note type="work_kind">Epik &gt;&gt; Aufsatz</note>
+            </bibl>
+            <bibl xml:id="pmb42416">
+               <title>Frühlings Erwachen. Eine Kindertragödie</title>
+               <author ref="pmb13068" role="hat-geschaffen">Wedekind, Frank</author>
+               <date notBefore="1891-01-01" when="1891-07-02">1891</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/42416/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb42416.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb42416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2549073</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Fr%C3%BChlings_Erwachen</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb29917">
+               <title>Liebelei. Schauspiel in drei Akten</title>
+               <title type="werk_link">https://www.deutschestextarchiv.de/book/show/schnitzler_liebelei_1896</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date>1895-10-09</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.27</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1823758</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-liebelei</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/31062</idno>
+               <idno type="URL" subtype="deutschestextarchiv">http://www.deutschestextarchiv.de/book/show/schnitzler_liebelei_1896</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29917.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29917/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29917</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29917.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Liebelei</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb33806">
+               <title>Ein Abschied</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1896-01-01">1896</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.02.32</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1304285</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33806/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33806</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33806.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ein_Abschied</idno>
+               <note type="work_kind">Erzählung</note>
+            </bibl>
+            <bibl xml:id="pmb29833">
+               <title>Die Toten schweigen</title>
+               <title type="werk_bibliografische-angabe">Cosmopolis, Bd. 8, H. 22, Oktober 1897, S. 193–211</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1897-10-01">01.10.1897</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.02.29</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1216835</idno>
+               <idno type="URL" subtype="gallica">https://gallica.bnf.fr/ark:/12148/bpt6k30996x/f195.image</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29833.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29833/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29833</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29833.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Die_Toten_schweigen</idno>
+               <note type="work_kind">Erzählung</note>
+            </bibl>
+            <bibl xml:id="pmb33776">
+               <title>Dämmerseele</title>
+               <title type="namensvariante">Die Fremde</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date>18.5.1902</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.02.24</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1212750</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33776/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33776</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33776.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Die_Fremde_(Schnitzler)</idno>
+               <note type="work_kind">Erzählung</note>
+            </bibl>
+            <bibl xml:id="pmb30649">
+               <title>Der blinde Geronimo und sein Bruder</title>
+               <title type="werk_bibliografische-angabe">Die Zeit, Nr. 325, 22. 12. 1900; Nr. 326, 29. 12. 1900; Nr. 327, 5. 1. 1901; Nr. 328, 12. 1. 1901.</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date to="1901-01-12">22.12.1900  – 12.1.1901</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.02.10</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1198398</idno>
+               <idno type="URL" subtype="zeno">http://www.zeno.org/Literatur/M/Schnitzler,+Arthur/Erzählungen/Der+blinde+Geronimo+und+sein+Bruder</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30649.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30649/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30649</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30649.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_blinde_Geronimo_und_sein_Bruder</idno>
+               <note type="work_kind">Erzählung</note>
+            </bibl>
+            <bibl xml:id="pmb30349">
+               <title>Das Tagebuch der Redegonda</title>
+               <title type="werk_bibliografische-angabe">Süddeutsche Monatshefte, Jg. 9, Bd. 1, H. 1, Oktober 1911</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1911-09-22">1911-09-22</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.02.08</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1170506</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30349.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30349/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30349.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Das_Tagebuch_der_Redegonda</idno>
+               <note type="work_kind">Erzählung</note>
+            </bibl>
+            <bibl xml:id="pmb30033">
+               <title>Anatols Hochzeitsmorgen</title>
+               <title type="werk_bibliografische-angabe">Moderne Dichtung, Jg. 1, Bd. 2, H. 1, 1. 7. 1890, S. 431–442</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1890-07-01">01.07.1890</date>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/30735</idno>
+               <idno type="URL" subtype="digitalniknihovna">http://www.digitalniknihovna.cz/nkp/uuid/uuid:c75ecd10-39a7-11e7-97e2-005056825209</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30033.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30033/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30033</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30033.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Einakter</note>
+            </bibl>
+            <bibl xml:id="pmb29843">
+               <title>Der grüne Kakadu. Groteske in einem Akt</title>
+               <title type="werk_bibliografische-angabe">Neue Deutsche Rundschau, Jg. 10, H. 3, März 1899, S. 282–308.</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date>1.3.1899</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.10</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2675124</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-der-gruene-kakadu</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/32409</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29843.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29843/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29843</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29843.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_gr%C3%BCne_Kakadu</idno>
+               <note type="work_kind">Drama &gt;&gt; Einakter</note>
+            </bibl>
+            <bibl xml:id="pmb29877">
+               <title>Die letzten Masken</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1901-01-01">1901</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.17</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/31483</idno>
+               <idno type="URL" subtype="zeno">http://www.zeno.org/Literatur/M/Schnitzler,+Arthur/Dramen/Lebendige+Stunden/III.+Die+letzten+Masken</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29877.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29877/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29877</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29877.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1218934</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Die_letzten_Masken</idno>
+               <note type="work_kind">Drama &gt;&gt; Einakter</note>
+            </bibl>
+            <bibl xml:id="pmb29985">
+               <title>Der einsame Weg. Schauspiel in fünf Akten</title>
+               <title type="werk_link">https://archive.org/details/dereinsamewegsc00schngoog/</title>
+               <title type="werk_arbeitstitel">Junggeselle</title>
+               <title type="werk_arbeitstitel">Junggesellenstück</title>
+               <title type="werk_arbeitstitel">Die Egoisten</title>
+               <title type="werk_arbeitstitel">Einsame Wege</title>
+               <title type="werk_arbeitstitel">Wege ins Dunkle</title>
+               <title type="werk_arbeitstitel">Weg zum Licht</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date notBefore="1904-01-01" when="1904-07-01">1904</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.08</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1198519</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-der-einsame-weg</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/31412</idno>
+               <idno type="URL" subtype="archive">https://archive.org/details/dereinsamewegsc00schngoog</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29985.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29985/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29985</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29985.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_einsame_Weg</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb29931">
+               <title>Komtesse Mizzi oder Der Familientag</title>
+               <title type="werk_bibliografische-angabe">Neue Freie Presse, 19. 4. 1908</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1908-04-19">1908-04-19</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.25</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-komtesse-mizzi</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/38148</idno>
+               <idno type="URL" subtype="">http://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=19080419&amp;seite=31&amp;zoom=33</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29931.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29931/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29931</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29931.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1781040</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Komtesse_Mizzi_oder_Der_Familientag</idno>
+               <note type="work_kind">Drama &gt;&gt; Einakter</note>
+            </bibl>
+            <bibl xml:id="pmb30117">
+               <title>Sterben. Novelle</title>
+               <title type="werk_bibliografische-angabe">Neue Deutsche Rundschau, Jg. 5, H. 10–12, Oktober–Dezember 1894</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date to="1894-12-01">1894-10-01  – 1894-12-01</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.02.43</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2345387</idno>
+               <idno type="URL" subtype="babel">https://babel.hathitrust.org/cgi/pt/search?id=coo.31924069263006;view=1up;seq=9;q1=sterben;start=1;sz=10;page=search;orient=0;index=1</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30117.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30117/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30117</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30117.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Sterben_(Novelle)</idno>
+               <note type="work_kind">Novelle</note>
+            </bibl>
+            <bibl xml:id="pmb58391">
+               <title>Literarische Legendenbildung. Eine Richtigstellung</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1926-01-10">1926-01-10</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58391/</idno>
+               <note type="work_kind">Brief &gt;&gt; Öffentlicher Brief &gt;&gt; Leserbrief</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb318">
+               <placeName>Japan</placeName>
+               <desc type="entity_type">Land (A.LND)</desc>
+               <desc type="entity_type_id">38</desc>
+               <location type="coords">
+                  <geo>35,68536 139,75309</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q17</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb318.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/318/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/49166/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/1861060/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb318</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb318.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Japan</idno>
+            </place>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+            <place xml:id="pmb1019">
+               <placeName>Asien</placeName>
+               <desc type="entity_type">Kontinent (A.KNT)</desc>
+               <desc type="entity_type_id">49</desc>
+               <location type="coords">
+                  <geo>29,84064 89,29688</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q48</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/6255147/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb1019.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1019/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb1019.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Asien</idno>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

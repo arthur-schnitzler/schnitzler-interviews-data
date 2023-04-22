@@ -8,8 +8,8 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#58149">Merryle Rukeyser: Financial Advice to a Young Man (Ausschnitt), 1927</title>
-            <author ref="#23729">Rukeyser, Merryle Stanley</author>
+            <title level="a" ref="#pmb58149">Merryle Rukeyser: Financial Advice to a Young Man (Ausschnitt), 1927</title>
+            <author ref="#pmb23729">Rukeyser, Merryle Stanley</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -29,8 +29,8 @@
             <listBibl>
                <biblStruct>
                   <monogr>
-                     <author ref="#23729">Rukeyser, Merryle Stanley</author>
-                     <title level="m" ref="#58149">Financial Advice to a Young Man. A Program for Getting Along
+                     <author ref="#pmb23729">Rukeyser, Merryle Stanley</author>
+                     <title level="m" ref="#pmb58149">Financial Advice to a Young Man. A Program for Getting Along
                         in the World</title>
                      <imprint>
                         <date when="1927-01-01" n="1">1927</date>
@@ -56,15 +56,15 @@
    </teiHeader>
    <text type="text">
       <body>
-         <div type="original"  xml:lang="en-US">
+         <div type="original" xml:lang="en-US">
             <head>Recreation in Varied Work</head>
             <p>
-               <rs type="person" ref="#12314">Benito Mussolini</rs> recently told the world that he
+               <rs type="person" ref="#pmb12314">Benito Mussolini</rs> recently told the world that he
                works sixteen hours a day.</p>
-            <p>Shallow minded observers will conclude that, if such a, program is feasible for <rs type="person" subtype="implied" ref="#12314">Il Duce</rs>, it is practicable for the ordinary
+            <p>Shallow minded observers will conclude that, if such a, program is feasible for <rs type="person" subtype="implied" ref="#pmb12314">Il Duce</rs>, it is practicable for the ordinary
                workingman.</p>
             <p>The deduction would be fallacious even if the premise stands as correct.</p>
-            <p>The <rs type="person" ref="#12314" subtype="implied">Premier</rs> of <rs type="place" ref="#40306">Italy</rs> has varied and interesting work, which ever stirs anew his creative
+            <p>The <rs type="person" ref="#pmb12314" subtype="implied">Premier</rs> of <rs type="place" ref="#pmb40306">Italy</rs> has varied and interesting work, which ever stirs anew his creative
                instincts and his boundless energies. His daily chores, full of high adventure and
                the stimulus of leadership, are not to be compared with the monotonous routine of the
                factory worker.</p>
@@ -74,7 +74,7 @@
                creative thrill of making a product from the start to the finish. The worker in the
                modern factory contributes only a single step in the process.</p>
             <p>Non-routine workers are not to be compared with those in the factory.</p>
-            <p>I visited <rs type="person" ref="#2121">Arthur Schnitzler</rs> at <rs type="place" ref="#50">Vienna</rs> last summer, <ref type="question" target="#q013"/>and discussed his methods with him. When he
+            <p>I visited <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> at <rs type="place" ref="#pmb50">Vienna</rs> last summer, <ref type="question" target="#q013"/>and discussed his methods with him. When he
                tires of a play on which he may be working, that veteran author turns to an essay.
                When his attention begins to lag, he lays that aside, and does some work on a novel.
                Then he may shift to a short story. He usually produces at least four works of art at
@@ -97,10 +97,208 @@
          </div>
          <div type="biographical">
             <div1>
-               <ref type="schnitzlerDiary" target="1926-07-12"/>
-               <quote>Mr. <rs type="person" ref="#23729">Merryle S. Rukeyser</rs> aus <rs type="place" ref="#44053">New York</rs>; eigentlich ein Interview.–</quote>
+               <ref type="schnitzler-tagebuch" target="1926-07-12"/>
+               <quote>Mr. <rs type="person" ref="#pmb23729">Merryle S. Rukeyser</rs> aus <rs type="place" ref="#pmb44053">New York</rs>; eigentlich ein Interview.–</quote>
             </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb23729">
+               <persName>
+                  <forename>Merryle Stanley</forename>
+                  <surname>Rukeyser</surname>
+               </persName>
+               <birth>
+                  <date when="1897-01-03">03.01.1897</date>
+                  <settlement ref="pmb880">
+                     <placeName type="pref">Chicago</placeName>
+                     <location>
+                        <geo>41,85003 -87,65005</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1988-12-21">21.12.1988</date>
+                  <settlement ref="pmb48047">
+                     <placeName type="pref">White Plains</placeName>
+                     <location>
+                        <geo>41,03399 -73,76291</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19465</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/23729/</idno>
+            </person>
+            <person xml:id="pmb12314">
+               <persName>
+                  <forename>Benito</forename>
+                  <surname>Mussolini</surname>
+               </persName>
+               <birth>
+                  <date when="1883-07-29">29.07.1883</date>
+                  <settlement ref="pmb59718">
+                     <placeName type="pref">Predappio</placeName>
+                     <location>
+                        <geo>44,10316 11,98413</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1945-04-28">28.04.1945</date>
+                  <settlement ref="pmb59720">
+                     <placeName type="pref">Mezzegra</placeName>
+                     <location>
+                        <geo>45,98168 9,20514</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb95">Politiker/Politikerin</occupation>
+               <occupation ref="pmb240">Lehrer/Lehrerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18335</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118585967</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12314/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp50477</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=M#DWpers0172</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q23559</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Benito_Mussolini</idno>
+               <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_55.html</idno>
+            </person>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb58149">
+               <title>Financial Advice to a Young Man</title>
+               <author ref="pmb23729" role="hat-geschaffen">Rukeyser, Merryle Stanley</author>
+               <date notBefore="1927-01-01" when="1927-07-02">1927</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58149/</idno>
+               <note type="work_kind">Sachbuch</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb40306">
+               <placeName>Italien</placeName>
+               <placeName type="alternative-name">Italian Republic</placeName>
+               <placeName type="alternative-name">Republic of Italy</placeName>
+               <placeName type="legacy-name-merge">Italy</placeName>
+               <desc type="entity_type">http://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>42,83333 12,83333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb468">Europa</placeName>
+                  <geo>48,69096 9,14062</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3175395/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/40306/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb40306</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb40306</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb40306.html</idno>
+            </place>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+            <place xml:id="pmb44053">
+               <placeName>New York City</placeName>
+               <placeName type="legacy-name-merge">New York</placeName>
+               <placeName type="legacy-name-merge">New York, N. Y.</placeName>
+               <placeName type="alternative-name">Neu-Amsterdam, NY</placeName>
+               <placeName type="legacy-name-merge">New York, NY</placeName>
+               <placeName type="alternative-name">Big Apple</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPL</desc>
+               <desc type="entity_type_id">1412</desc>
+               <location type="coords">
+                  <geo>40,71427 -74,00597</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb43406">Vereinigte Staaten von Amerika (USA)</placeName>
+                  <geo>39,76 -98,5</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb5199.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5199/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44053/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/5128581/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb44053</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb44053</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb44053.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/98297/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4042011-5</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q60</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/New_York_City</idno>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

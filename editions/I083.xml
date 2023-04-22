@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I083">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="I083">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#58549">[Frederick Robert Kuh]: The Play’s the Thing,
-               14.&#8239;2.&#8239;1921</title>
-            <author ref="#19812">Kuh, Frederick Robert</author>
+            <title level="a" ref="#pmb58549">[Frederick Robert Kuh]: The Play’s the Thing,
+               14. 2. 1921</title>
+            <author ref="#pmb19812">Kuh, Frederick Robert</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -28,11 +30,11 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#19812">[Frederick Robert Kuh]</author>
-                     <title level="a" ref="#58549">»The Play’s The Thing«</title>
+                     <author ref="#pmb19812">[Frederick Robert Kuh]</author>
+                     <title level="a" ref="#pmb58549">»The Play’s The Thing«</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#58551">Daily Herald</title>
+                     <title level="j" ref="#pmb58551">Daily Herald</title>
                      <imprint>
                         <date when="1921-02-14" n="1">14. 2. 1921</date>
                      </imprint>
@@ -59,73 +61,512 @@
          <div type="original" xml:lang="en-US">
             <head>»The Play’s the Thing«</head>
             <head type="sub">Cabinet Shaken by Amorous Drama</head>
-            <head type="sub">M.&#8239;P.s at Blows</head>
+            <head type="sub">M. P.s at Blows</head>
             <head type="sub">From Our Special Correspondent</head>
             <p>
-               <rs type="place" ref="#50">
+               <rs type="place" ref="#pmb50">
                   <hi rend="capitals">Vienna</hi>
                </rs>, <date>February 12</date>. – A drama of tempestuous love has brought about what
                verges on a Ministerial crisis here, and events during the last two days in that
-               august body, the <rs type="place" ref="#776">Austrian Parliament</rs>, have been
+               august body, the <rs type="place" ref="#pmb776">Austrian Parliament</rs>, have been
                themselves dramatic.</p>
-            <p>On Thursday <rs type="place" ref="#776">Parliament</rs> heard the amazing news that
+            <p>On Thursday <rs type="place" ref="#pmb776">Parliament</rs> heard the amazing news that
                the current deficit exceeds 42 milliards of crowns. One would have supposed that this
                disclosure of appalling bankruptcy would have set the Assembly agog. But no. Members
                took it calmly – in fact, with bored indifference. There were a few stifled yawns, a
                brief mechanical debate, and the House passed to another topic.</p>
             <head type="sub">Forbidden</head>
-            <p>Yesterday the same Parliament was informed that the play, »<rs type="work"
-                  ref="#29855">Reigen</rs>,« which <rs type="person" ref="#2121">Arthur
-                  Schnitzler</rs> wrote 24 years ago, and which is now being produced in <rs
-                  type="place" ref="#50">Vienna</rs>, has been forbidden by the Minister of the
+            <p>Yesterday the same Parliament was informed that the play, »<rs type="work" ref="#pmb29855">Reigen</rs>,« which <rs type="person" ref="#pmb2121">Arthur
+                  Schnitzler</rs> wrote 24 years ago, and which is now being produced in <rs type="place" ref="#pmb50">Vienna</rs>, has been forbidden by the Minister of the
                Interior, because it contains certain amorous scenes which exceed what this Clerical
                Government considers to be the limits of decorum.</p>
             <p>No sooner had the subject been broached than a veritable maelstrom engulfed the
                House. M. P.s pounded on benches, whistles and catcalls echoed from the opposing
                sides. Clerical and Socialist members moved toward each other with brandished fists
-               and blows were <anchor type="textConst" xml:id="T_I083-1"/>exchanged.<note
-                  type="textConst" xml:id="T_I083-1h"><quote>exchanged</quote></note>
+               and blows were <anchor type="textConst" xml:id="T_I083-1"/>exchanged.<note type="textConst" xml:id="T_I083-1h">
+                  <quote>exchanged</quote>
+               </note>
             </p>
             <head type="sub">Fiery Cross of Class War</head>
             <p>Cries of »the Minister of the Interior must go!« »Out with the rascal!« were
                heard.</p>
-            <p>The Minister, Herr <rs type="person" ref="#17069">Glanz</rs>, replied by describing
-               the Socialists as the protectors of indecency, to which <rs type="person"
-                  ref="#10851">Otto Bauer</rs> objected vociferously. <rs type="person" ref="#12766"
-                  >Karl <anchor type="textConst" xml:id="T_I083-12"/>Seitz<note type="textConst"
-                     xml:id="T_I083-12h"><quote>Saitz</quote></note></rs> (Majority Socialist), an
+            <p>The Minister, Herr <rs type="person" ref="#pmb17069">Glanz</rs>, replied by describing
+               the Socialists as the protectors of indecency, to which <rs type="person" ref="#pmb10851">Otto Bauer</rs> objected vociferously. <rs type="person" ref="#pmb12766">Karl <anchor type="textConst" xml:id="T_I083-12"/>Seitz<note type="textConst" xml:id="T_I083-12h">
+                     <quote>Saitz</quote>
+                  </note>
+               </rs> (Majority Socialist), an
                ex-President of the Republic, declared that if the Clericals are determined to employ
                violence the Socialists will retort with forcible resistance.</p>
             <p>The admission of the State’s insolvency had left the Government intact, but the
-               Social Democrats, who have humbly accepted the miserable lot of the <rs type="place"
-                  ref="#41240">Austrian</rs> worker as inevitable, are heard issuing a summons for
+               Social Democrats, who have humbly accepted the miserable lot of the <rs type="place" ref="#pmb41240">Austrian</rs> worker as inevitable, are heard issuing a summons for
                armed class conflict because adultery is committed on a darkened theatrical
                stage.</p>
             <head type="sub">Packed Houses Now</head>
-            <p>The Minister’s decree has been defied by the <anchor type="commentary"
-                  xml:id="K_implied_12511"/>
-               <rs type="person" ref="#12511" subtype="implied">Socialist Mayor</rs>
+            <p>The Minister’s decree has been defied by the <anchor type="commentary" xml:id="K_implied_12511"/>
+               <rs type="person" ref="#pmb12511" subtype="implied">Socialist Mayor</rs>
                <note type="commentary" xml:id="K_implied_12511h">
-                  <rs type="person" ref="#12511">Jakob Reumann</rs>
-               </note> of <rs type="place" ref="#50">Vienna</rs>, who has given orders that <rs
-                  type="person" ref="#2121">Schnitzler</rs>’s production shall proceed unmolested.
+                  <rs type="person" ref="#pmb12511">Jakob Reumann</rs>
+               </note> of <rs type="place" ref="#pmb50">Vienna</rs>, who has given orders that <rs type="person" ref="#pmb2121">Schnitzler</rs>’s production shall proceed unmolested.
                And so, naturally the play, which had been presented to modest audiences of
                aesthetes, is now being given before packed houses.</p>
-            <p>»Is the author responsible for the public?« exclaimed Dr. <rs type="person"
-                  ref="#2121">Schnitzler</rs>, when I interviewed him. »Shall I stand at the door
+            <p>»Is the author responsible for the public?« exclaimed Dr. <rs type="person" ref="#pmb2121">Schnitzler</rs>, when I interviewed him. »Shall I stand at the door
                and psycho-analyse each person entering the theatre to determine whether he is
                impelled there by erotic motives?«</p>
-            <p>»<rs type="work" ref="#29855">Reigen</rs>«, I may add, was <anchor type="commentary"
-                  xml:id="K_I083-1"/>first performed last year<note type="commentary"
-                  xml:id="K_I083-1h">In <rs type="place" ref="#34438">Russland</rs> war das Stück
-                  urheberrechtsfrei, weswegen es ohne Zustimmung <rs type="person" ref="#2121"
-                     >Schnitzler</rs>s inszeniert werden konnte. Die Uraufführung von <rs
-                     type="work" ref="#29855">Reigen</rs> fand aber am
-                     <date>13.&#8239;10.&#8239;1912</date> in <rs type="place" ref="#43471"
-                     >Budapest</rs> statt.</note> in <rs type="place" ref="#34438">Russia</rs>, in
-               the <rs type="place" ref="#869">Moscow</rs>, <rs type="place" ref="#433"
-                  >Petrograd</rs>, and <rs type="place" ref="#56513">Irkutsk</rs> theatres.</p>
+            <p>»<rs type="work" ref="#pmb29855">Reigen</rs>«, I may add, was <anchor type="commentary" xml:id="K_I083-1"/>first performed last year<note type="commentary" xml:id="K_I083-1h">In <rs type="place" ref="#pmb34438">Russland</rs> war das Stück
+                  urheberrechtsfrei, weswegen es ohne Zustimmung <rs type="person" ref="#pmb2121">Schnitzler</rs>s inszeniert werden konnte. Die Uraufführung von <rs type="work" ref="#pmb29855">Reigen</rs> fand aber am
+                     <date>13. 10. 1912</date> in <rs type="place" ref="#pmb43471">Budapest</rs> statt.</note> in <rs type="place" ref="#pmb34438">Russia</rs>, in
+               the <rs type="place" ref="#pmb869">Moscow</rs>, <rs type="place" ref="#pmb433">Petrograd</rs>, and <rs type="place" ref="#pmb56513">Irkutsk</rs> theatres.</p>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb19812">
+               <persName>
+                  <forename>Frederick Robert</forename>
+                  <surname>Kuh</surname>
+               </persName>
+               <birth>
+                  <date when="1895-10-29">29.10.1895</date>
+                  <settlement ref="pmb880">
+                     <placeName type="pref">Chicago</placeName>
+                     <location>
+                        <geo>41,85003 -87,65005</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1978-02-02">02.02.1978</date>
+                  <settlement ref="pmb47888">
+                     <placeName type="pref">Rockville</placeName>
+                     <location>
+                        <geo>39,084 -77,15276</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17182</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/19812/</idno>
+            </person>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb17069">
+               <persName>
+                  <forename>Egon von</forename>
+                  <surname>Glanz-Eicha</surname>
+               </persName>
+               <birth>
+                  <date when="1880-12-29">29.12.1880</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1945-04-16">16.04.1945</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb95">Politiker/Politikerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15456</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/17069/</idno>
+            </person>
+            <person xml:id="pmb10851">
+               <persName>
+                  <forename>Otto</forename>
+                  <surname>Bauer</surname>
+               </persName>
+               <birth>
+                  <date when="1881-09-05">05.09.1881</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1938-07-05">05.07.1938</date>
+                  <settlement ref="pmb182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb95">Politiker/Politikerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13476</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118507346</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10851/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb10851</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp50932</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=B#DWpers0007</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00280f59</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q11730</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Otto_Bauer</idno>
+            </person>
+            <person xml:id="pmb12766">
+               <persName>
+                  <forename>Karl</forename>
+                  <surname>Seitz</surname>
+               </persName>
+               <birth>
+                  <date when="1869-09-04">04.09.1869</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1950-02-03">03.02.1950</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb95">Politiker/Politikerin</occupation>
+               <occupation ref="pmb1331">Politiker/Politikerin &gt;&gt; Bürgermeister/Bürgermeisterin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20044</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/119184745</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12766/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb12766</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp47621</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers1132</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284946</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q84254</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Karl_Seitz</idno>
+            </person>
+            <person xml:id="pmb12511">
+               <persName>
+                  <forename>Jakob</forename>
+                  <surname>Reumann</surname>
+               </persName>
+               <birth>
+                  <date when="1853-12-31">31.12.1853</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1925-07-29">29.07.1925</date>
+                  <settlement ref="pmb875">
+                     <placeName type="pref">Klagenfurt</placeName>
+                     <location>
+                        <geo>46,63333 14,3</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb95">Politiker/Politikerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19209</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/1014062276</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12511.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12511/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46701</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284180</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q94424</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Jakob_Reumann</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb29855">
+               <title>Reigen. Zehn Dialoge</title>
+               <title type="werk_link">https://www.digital.wienbibliothek.at/wbrobv/content/pageview/2587756</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1900-01-01">1900</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.32</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1414190</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-reigen</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/33309</idno>
+               <idno type="URL" subtype="deutschestextarchiv">http://www.deutschestextarchiv.de/book/show/schnitzler_reigen_1903</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29855.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29855/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29855</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29855.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb58549">
+               <title>The Play’s the Thing</title>
+               <author ref="pmb19812" role="hat-anonym-veroffentlicht">Kuh, Frederick Robert</author>
+               <date when="1921-02-14">1921-02-14</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58549/</idno>
+               <note type="work_kind">Interview</note>
+            </bibl>
+            <bibl xml:id="pmb58551">
+               <title>Daily Herald</title>
+               <date from="1912-01-01" to="1964-07-01">1912  – 1964</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58551/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2713264</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+            <place xml:id="pmb776">
+               <placeName>Österreichisches Parlament</placeName>
+               <placeName type="ort_fruherer_name">Reichsrat</placeName>
+               <desc type="entity_type">Regierungsgebäude (K.RGB)</desc>
+               <desc type="entity_type_id">54</desc>
+               <location type="coords">
+                  <geo>48,20803 16,35812</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb775">Herrenhaus</placeName>
+                  <geo>48,20804 16,35919</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb776.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/776/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q702121</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Parlamentsgeb%C3%A4ude_(Wien)</idno>
+            </place>
+            <place xml:id="pmb41240">
+               <placeName>Österreich</placeName>
+               <placeName type="alternative-name">Republik Österreich</placeName>
+               <placeName type="alternative-name">Republic of Austria</placeName>
+               <placeName type="legacy-name-merge">Deutsch Österreich</placeName>
+               <placeName type="legacy-name-merge">Altoesterreich</placeName>
+               <desc type="entity_type">http://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb687">Österreich-Ungarn</placeName>
+                  <geo>48,4054 16,4887</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2782113/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41240/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41240</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb41240</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92143/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92203/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92143.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92203.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb41240.html</idno>
+            </place>
+            <place xml:id="pmb34438">
+               <placeName>Russland</placeName>
+               <placeName type="alternative-name">Russische Föderation</placeName>
+               <placeName type="alternative-name">Russian Federation</placeName>
+               <placeName type="alternative-name">Russian Soviet Federated Socialist Republic</placeName>
+               <placeName type="alternative-name">Russian Soviet Federative Socialist Republic</placeName>
+               <placeName type="alternative-name">Russian Socialist Federative Soviet Republic</placeName>
+               <placeName type="legacy-name-merge">Russia</placeName>
+               <placeName type="legacy-name-merge">Rußland</placeName>
+               <desc type="entity_type">http://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>60,0 100,0</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43976/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2017370/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/14117/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/34438/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb34438</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb34438</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb34438.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/119245/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4076899-5</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q159</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Russland</idno>
+            </place>
+            <place xml:id="pmb43471">
+               <placeName>Budapest</placeName>
+               <placeName type="legacy-name-merge">Buda</placeName>
+               <placeName type="alternative-name">Königl. Freie Hauptstadt Ofen</placeName>
+               <placeName type="legacy-name-merge">Ofen</placeName>
+               <placeName type="alternative-name">Altofen</placeName>
+               <placeName type="legacy-name-merge">Pest (Stadt)</placeName>
+               <placeName type="legacy-name-merge">Óbuda</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPLC</desc>
+               <desc type="entity_type_id">1418</desc>
+               <location type="coords">
+                  <geo>47,49835 19,04045</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb35512">Ungarn</placeName>
+                  <geo>47,0 20,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb43471">Budapest</placeName>
+                  <geo>47,49835 19,04045</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1781</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb464.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3054643/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4008684-7</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/9867/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/42014/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43471/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43797/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb43471</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/62463/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64169/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/88759/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb43471</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb43471.html</idno>
+               <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1781</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Budapest</idno>
+            </place>
+            <place xml:id="pmb869">
+               <placeName>Moskau</placeName>
+               <placeName type="alternative-name">Pravitelʹstvo Moskvy</placeName>
+               <placeName type="legacy-name-merge">Moscow</placeName>
+               <desc type="entity_type">http://www.geonames.org/ontology#P.PPLC</desc>
+               <desc type="entity_type_id">1103</desc>
+               <location type="coords">
+                  <geo>55,76167 37,60667</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb34438">Russland</placeName>
+                  <geo>60,0 100,0</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q649</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4074987-3</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb869.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/869/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/19187/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/39234/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb869</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64407/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/524894/</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Moskau</idno>
+            </place>
+            <place xml:id="pmb433">
+               <placeName>Sankt Petersburg</placeName>
+               <placeName type="legacy-name-merge">St. Petersburg</placeName>
+               <placeName type="legacy-name-merge">Petersburg</placeName>
+               <placeName type="legacy-name-merge">St Petersburg</placeName>
+               <placeName type="legacy-name-merge">Leningrad</placeName>
+               <placeName type="alternative-name">St.-Petersburg</placeName>
+               <placeName type="alternative-name">Peterburg</placeName>
+               <placeName type="alternative-name">Saint Petersburg</placeName>
+               <placeName type="alternative-name">Petrograd</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>59,93863 30,31413</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb34438">Russland</placeName>
+                  <geo>60,0 100,0</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q656</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb433.html</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4267026-3</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/433/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/19875/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb433</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64405/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/498817/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb433.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Sankt_Petersburg</idno>
+            </place>
+            <place xml:id="pmb56513">
+               <placeName>Irkutsk</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPLA</desc>
+               <desc type="entity_type_id">1415</desc>
+               <location type="coords">
+                  <geo>52,29778 104,29639</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb34438">Russland</placeName>
+                  <geo>60,0 100,0</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/56513/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2023469/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb56513.html</idno>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

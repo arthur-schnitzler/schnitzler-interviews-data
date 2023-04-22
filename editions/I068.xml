@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I068">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="I068">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#33219">Arturo Schnitzler di passaggio per il Molo Bersaglieri,
-               1.&#8239;5.&#8239;1928</title>
+            <title level="a" ref="#pmb33219">Arturo Schnitzler di passaggio per il Molo Bersaglieri,
+               1. 5. 1928</title>
             <author/>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -29,13 +31,13 @@
                <biblStruct>
                   <analytic>
                      <author>[O. V.]</author>
-                     <title level="a" ref="#33219">Arturo Schnitzler di passaggio per il Molo
+                     <title level="a" ref="#pmb33219">Arturo Schnitzler di passaggio per il Molo
                         Bersaglieri</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#58346">Il piccolo</title>
+                     <title level="j" ref="#pmb58346">Il piccolo</title>
                      <imprint>
-                        <date when="1928-05-01" n="1">1.&#8239;5.&#8239;1928</date>
+                        <date when="1928-05-01" n="1">1. 5. 1928</date>
                      </imprint>
                      <biblScope unit="jg">6</biblScope>
                      <biblScope unit="nr">2.614</biblScope>
@@ -62,33 +64,32 @@
       <body>
          <div type="original" xml:lang="it-IT">
             <head>
-               <rs type="person" ref="#2121">Arturo Schnitzler</rs> di passaggio per il <rs
-                  type="place" ref="#1074">Molo Bersaglieri</rs>
+               <rs type="person" ref="#pmb2121">Arturo Schnitzler</rs> di passaggio per il <rs type="place" ref="#pmb1074">Molo Bersaglieri</rs>
             </head>
             <p>Nel grigiore della serata poco primaverile, lo »Stella d’Italia« s’avanza, di
                lontano, come una grande candida colomba, sul mare corrucciato.</p>
-            <p>Il molo <rs type="place" ref="#1074">Bersaglieri</rs> è già gremito della folla varia
+            <p>Il molo <rs type="place" ref="#pmb1074">Bersaglieri</rs> è già gremito della folla varia
                e irrequieta degli aspettanti, che si muovono sotto la pioggia insistente, tra
-                  l’<anchor type="textConst" xml:id="TT154-1"/>affaccendarsi<note type="textConst"
-                  xml:id="TT154-1h"><quote>affacendarsi</quote></note> dell’esercito rosso e
+                  l’<anchor type="textConst" xml:id="TT154-1"/>affaccendarsi<note type="textConst" xml:id="TT154-1h">
+                  <quote>affacendarsi</quote>
+               </note> dell’esercito rosso e
                turchino dei facchini, tra le carrozze e i taxi che passano, diguazzando e
                inzaccherando, nelle pozzanghere fangose. E tutti gli sguardi sono rivolti alla nave
                bianca, dove si distinguono già, sul ponte e lungo le murate, i viaggiatori e i
                marinai che mirano il molo formicolante.</p>
             <p>A bordo dello »Stella d’Italia«, che rientra, dalla sua terza crociera, viaggia tra
-               la dorata folla cosmopolita, un eminente drammaturgo e letterato: <rs type="person"
-                  ref="#2121">Arturo Schnitzler</rs>. </p>
+               la dorata folla cosmopolita, un eminente drammaturgo e letterato: <rs type="person" ref="#pmb2121">Arturo Schnitzler</rs>. </p>
             <head type="sub">Alla ricerca d’una barba grigia </head>
             <p>Come sarà questo illustro personaggio delle lettere tedesche? Ricordiamo la sua
                fotografia, nel volume elegante di un’opera giovanile: duo occhi vivi, una fronte
                spaziosa, una bocca severa, una gran chioma da poeta<c rendition="#dots" n="3"/> Ma
                ora? La chioma – se c’è ancora – avrà avuto la sua nevicata, gli occhi saranno
                stanchi per le lunghe notti passate a tavolino e <c rendition="#dots" n="3"/> chi
-               esclude che il buon <rs type="person" ref="#2121">Schnitzler</rs> non si sia lasciato
+               esclude che il buon <rs type="person" ref="#pmb2121">Schnitzler</rs> non si sia lasciato
                crescere la barba?</p>
             <p>Il particolare della barba si fissa nella mente con insistenza: un vecchio letterato
-               senza barba? Il pensiero corre a <rs type="person" ref="#5362">Carducci</rs>, a <rs
-                  type="person" ref="#5359">Victor Hugo</rs><c rendition="#dots" n="3"/>
+               senza barba? Il pensiero corre a <rs type="person" ref="#pmb5362">Carducci</rs>, a <rs type="person" ref="#pmb5359">Victor Hugo</rs>
+               <c rendition="#dots" n="3"/>
             </p>
             <p>E il cronista impaziente scruta sulla nave ch’è ormai a pochi metri dalla riva, tra i
                passeggeri in berretto da viaggio e le donne in »trench-coats« tutte le barbe
@@ -96,9 +97,8 @@
             <p>Le ultime manovre, I primi riconoscimenti, i primi saluti. E finalmente la folla che
                scende, carica di valigie e di portombrelli, per il ponto dì sbarco, lubrico e
                pericoloso. </p>
-            <p>– Scusi tanto, il signor <rs type="person" ref="#2121">Schnitzler</rs>? </p>
-            <p>Il signore anziano – grasso e occhialuto, made in <rs type="place" ref="#151"
-                  >Germany</rs> – sogguarda distratto, senza capire. Poi risponde in tedesco: </p>
+            <p>– Scusi tanto, il signor <rs type="person" ref="#pmb2121">Schnitzler</rs>? </p>
+            <p>Il signore anziano – grasso e occhialuto, made in <rs type="place" ref="#pmb151">Germany</rs> – sogguarda distratto, senza capire. Poi risponde in tedesco: </p>
             <p>– Grazie, ho già il facchino. </p>
             <p>Bel successo! Come prima prova <c rendition="#dots" n="3"/> non c’è davvero male. Ma
                non c’è tempo da perdere; la folla erompe sul ponte: alti, bassi, grassi, magri e
@@ -106,7 +106,7 @@
             </p>
             <p>Conviene cambiar tattica e lingua. </p>
             <p>E la fortuna aiuta gli audaci. Un signore dell’aria rispettabile dà l’informazione
-               preziosa: – <rs type="person" ref="#2121">Arthur Schnitzler</rs>? C’est un vieux
+               preziosa: – <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>? C’est un vieux
                monsieur à la barbe grise.</p>
             <p>Riconfermata così la prima ipotesi, non resta che prenderò d’assalto tutte le barbe
                grigie e nivee che scendono al molo. E ne passano di tutte le forme e di tutto le
@@ -118,104 +118,86 @@
                monumentali. </p>
             <p>Finalmente, dietro una murata, ecco spuntare una bella testa di pensatore e un volto
                incorniciato da una candida appendice puntuta: è lui! </p>
-            <p>Scende, seguito da una giovane vezzosa figurina <rs type="person" ref="#2238"
-                  subtype="implied">femminile</rs> e da un <rs type="person" ref="#14850"
-                  subtype="implied">ufficiale</rs> della Milizia. </p>
-            <p>E non appena l’ospite illustre ha toccato il suolo di <rs type="place" ref="#873"
-                  >Trieste</rs>, il cronista lo affronta, raggiante, per porgergli il suo saluto e
+            <p>Scende, seguito da una giovane vezzosa figurina <rs type="person" ref="#pmb2238" subtype="implied">femminile</rs> e da un <rs type="person" ref="#pmb14850" subtype="implied">ufficiale</rs> della Milizia. </p>
+            <p>E non appena l’ospite illustre ha toccato il suolo di <rs type="place" ref="#pmb873">Trieste</rs>, il cronista lo affronta, raggiante, per porgergli il suo saluto e
                snocciolargli il suo bell’interrogatorio, formulato e meditato sotto la pioggia
                nell’attesa. </p>
             <p>Ohimè, quale delusione: Altro che intervista! </p>
-            <p>– Giornalista? esclama subito <rs type="person" ref="#2121">Arturo Schnitzler</rs>.
-               Mi dispiace, caro signore, ma interviste non ne ho mai concesse, mai, dico, nè in <rs
-                  type="place" ref="#468">Europa</rs> nè in <rs type="place" ref="#175"
-               >America</rs>, durante i miei viaggi. Mi dispiace, ripeto, per lei che <c
-                  rendition="#dots" n="3"/> ha preso tutta quest’acqua per me.</p>
-            <p>– Forse più tardi?<c rendition="#dots" n="3"/> All’albergo?<c rendition="#dots" n="3"
-               />
+            <p>– Giornalista? esclama subito <rs type="person" ref="#pmb2121">Arturo Schnitzler</rs>.
+               Mi dispiace, caro signore, ma interviste non ne ho mai concesse, mai, dico, nè in <rs type="place" ref="#pmb468">Europa</rs> nè in <rs type="place" ref="#pmb175">America</rs>, durante i miei viaggi. Mi dispiace, ripeto, per lei che <c rendition="#dots" n="3"/> ha preso tutta quest’acqua per me.</p>
+            <p>– Forse più tardi?<c rendition="#dots" n="3"/> All’albergo?<c rendition="#dots" n="3"/>
             </p>
             <p>– Impossibile. Riparto subito. </p>
-            <p>– Non si ferma dunque a <rs type="place" ref="#873">Trieste</rs>? </p>
-            <p>– Si, il tempo di imbarcarmi per <rs type="place" ref="#462">Venezia</rs>, sul
+            <p>– Non si ferma dunque a <rs type="place" ref="#pmb873">Trieste</rs>? </p>
+            <p>– Si, il tempo di imbarcarmi per <rs type="place" ref="#pmb462">Venezia</rs>, sul
                »Palatino«, a dieci passi da qui<c rendition="#dots" n="3"/>
             </p>
             <p>Infatti le valigie dell’illustre viaggiatore salgono già il ponte del piroscafo
                ormeggiato di fronte. </p>
             <p>– A Venezia? – riprende con un filo di speranza l’intervistatore – Ha intenzione di
-               passare la primavera in <rs type="place" ref="#40306">Italia</rs>?</p>
-            <p>– Già! Amo molto l’<rs type="place" ref="#40306">Italia</rs> e sono un ammiratore di
-                  <rs type="person" ref="#12314">Mussolini</rs> e del Fascismo, dell’ordine e della
+               passare la primavera in <rs type="place" ref="#pmb40306">Italia</rs>?</p>
+            <p>– Già! Amo molto l’<rs type="place" ref="#pmb40306">Italia</rs> e sono un ammiratore di
+                  <rs type="person" ref="#pmb12314">Mussolini</rs> e del Fascismo, dell’ordine e della
                disciplina che regnano nel vostro bel Paese, in cui ho passato giorni
-               indimenticabili, tra bellezze che non hanno bisogno delle mie lodi<c
-                  rendition="#dots" n="3"/> Ma basta così. Interviste, niente. Venga a trovarmi a
-                  <rs type="place" ref="#50">Vienna</rs> e forse allora<c rendition="#dots" n="3"/>
+               indimenticabili, tra bellezze che non hanno bisogno delle mie lodi<c rendition="#dots" n="3"/> Ma basta così. Interviste, niente. Venga a trovarmi a
+                  <rs type="place" ref="#pmb50">Vienna</rs> e forse allora<c rendition="#dots" n="3"/>
             </p>
-            <p>– Grazie dell’invito: ma <rs type="place" ref="#50">Vienna</rs> è troppo lontana<c
-                  rendition="#dots" n="3"/> Il volto serio del maestro s’è illuminato di un sorriso,
+            <p>– Grazie dell’invito: ma <rs type="place" ref="#pmb50">Vienna</rs> è troppo lontana<c rendition="#dots" n="3"/> Il volto serio del maestro s’è illuminato di un sorriso,
                nell’atto cortese del congedo e ancora, di lontano, accenna ad un saluto, col braccio
                teso romanamente. </p>
             <p>Poi un rumor d’eliche e il ribollire dell’onde intorno alla nave che si stacca dal
                molo.</p>
-            <head type="sub">La <rs type="place" ref="#44292">Rodi</rs> di <rs type="person"
-                  ref="#12314">Mussolini</rs>
+            <head type="sub">La <rs type="place" ref="#pmb44292">Rodi</rs> di <rs type="person" ref="#pmb12314">Mussolini</rs>
             </head>
             <p>
-               <rs type="person" ref="#2121">Arturo Schnitzler</rs> è partito. Ma c’è ancora un
-               ripiego, per completare le monche dichiarazioni dell’ <c rendition="#dots" n="3"
-               /> ermetico drammaturgo <rs type="place" ref="#50">Viennese</rs>: gli ufficiali dello
+               <rs type="person" ref="#pmb2121">Arturo Schnitzler</rs> è partito. Ma c’è ancora un
+               ripiego, per completare le monche dichiarazioni dell’ <c rendition="#dots" n="3"/> ermetico drammaturgo <rs type="place" ref="#pmb50">Viennese</rs>: gli ufficiali dello
                »Stella d'Italia«. </p>
-            <p>– <rs type="person" ref="#2121">Arturo Schnitzler</rs>? – rispondono questi
+            <p>– <rs type="person" ref="#pmb2121">Arturo Schnitzler</rs>? – rispondono questi
                amabilmente – Nessuno è riuscito mai, durante i sedici giorni di crociera, a fargli
                pronunciare venti parle di seguito. Viveva solo e appartato, con la figlia signorina
-                  <rs type="person" ref="#2238">Lilly</rs> – ecco scoperto il mistero della
-               suggestiva apparizione femminile a fianco dello scrittore! – e col genero, cap. <rs
-                  type="person" ref="#14850">Cappellini</rs>, che lo accompagnavano. Però aveva dei
+                  <rs type="person" ref="#pmb2238">Lilly</rs> – ecco scoperto il mistero della
+               suggestiva apparizione femminile a fianco dello scrittore! – e col genero, cap. <rs type="person" ref="#pmb14850">Cappellini</rs>, che lo accompagnavano. Però aveva dei
                grandi amici che non lo lasciavano mai: i suoi libri. Lo vedevamo, in coperta o nel
                fumatoio, curvo sempre su quelle pagine o intento a scrutare e a osservare intorno a
                sè, prendendo appunti, serio e impenetrabile. </p>
-            <p>Nei porti toccati dalla nave, a <rs type="place" ref="#41212">Corfù</rs>, al <rs
-                  type="place" ref="#49145">Pireo</rs>, a <rs type="place" ref="#49147">Eleusi</rs>,
-               a <rs type="place" ref="#966">Costantinopoli</rs>, a <rs type="place" ref="#44292"
-                  >Rodi</rs>, alle bocche di <rs type="place" ref="#49149">Cattaro</rs>, a <rs
-                  type="place" ref="#682">Gravosa</rs>, egli stava ritto presso alle murate, con gli
+            <p>Nei porti toccati dalla nave, a <rs type="place" ref="#pmb41212">Corfù</rs>, al <rs type="place" ref="#pmb49145">Pireo</rs>, a <rs type="place" ref="#pmb49147">Eleusi</rs>,
+               a <rs type="place" ref="#pmb966">Costantinopoli</rs>, a <rs type="place" ref="#pmb44292">Rodi</rs>, alle bocche di <rs type="place" ref="#pmb49149">Cattaro</rs>, a <rs type="place" ref="#pmb682">Gravosa</rs>, egli stava ritto presso alle murate, con gli
                occhi vivi sempre in moto: ammirando sempre, ma senza esprimere mai le sue
                impressioni. </p>
-            <p>A <rs type="place" ref="#44292">Rodi</rs>, soltanto ebbe uno scatto di ammirazione,
+            <p>A <rs type="place" ref="#pmb44292">Rodi</rs>, soltanto ebbe uno scatto di ammirazione,
                nella vista dell’isola bellissima. </p>
-            <p>– Questa – disse – è veramente la <rs type="place" ref="#44292">Rodi</rs> di <rs
-                  type="person" ref="#12314">Mussolini</rs>! </p>
-            <p>Giacchè per <rs type="person" ref="#12314">Mussolini</rs> e per la nuova <rs
-                  type="place" ref="#40306">Italia</rs>, <rs type="person" ref="#2121">Arturo
+            <p>– Questa – disse – è veramente la <rs type="place" ref="#pmb44292">Rodi</rs> di <rs type="person" ref="#pmb12314">Mussolini</rs>! </p>
+            <p>Giacchè per <rs type="person" ref="#pmb12314">Mussolini</rs> e per la nuova <rs type="place" ref="#pmb40306">Italia</rs>, <rs type="person" ref="#pmb2121">Arturo
                   Schnitzler</rs>, pur nelle brevi e rarissime su parole, ha sempre avuto accenti
                d’ammirazione.</p>
          </div>
          <div type="translation">
             <head>
-               <rs type="person" ref="#2121">Arthur Schnitzler</rs> überquert den <rs type="place"
-                  ref="#1074">Pier Bersaglieri</rs>
+               <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> überquert den <rs type="place" ref="#pmb1074">Pier Bersaglieri</rs>
             </head>
             <p>Im Grau des wenig frühlingshaften Abends nähert sich der »Stern Italiens« aus der
                Ferne wie eine große weiße Taube auf einem ablehnenden Meer.</p>
-            <p>Der <rs type="place" ref="#1074">Pier Bersaglieri</rs> ist schon übervoll von einer
+            <p>Der <rs type="place" ref="#pmb1074">Pier Bersaglieri</rs> ist schon übervoll von einer
                durchmischten, ungeduldig wartenden Menge, die sich im Dauerregen bewegt, zwischen
                dem geschäftigen Treiben der Armee aus roten und blauen Trägern, zwischen Wagen und
                Taxis, die Schmutz spritzend die Schlammpfützen passieren. Und alle Blicke richten
                sich auf das weiße Schiff, auf dessen Brücke und an dessen Reling sich schon die
                Reisenden und die Seeleute abzeichnen, die dem wimmelnden Pier zustreben. </p>
             <p>An Bord der »Stella d’Italia«, die von ihrer dritten Kreuzfahrt zurückkehrt, reist
-               inmitten begüterter Kosmopoliten, ein bedeutender Dramatiker und Gelehrter: <rs
-                  type="person" ref="#2121">Arthur Schnitzler</rs>. </p>
+               inmitten begüterter Kosmopoliten, ein bedeutender Dramatiker und Gelehrter: <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>. </p>
             <head type="sub">Auf der Suche nach einem grauen Bart </head>
             <p>Wer ist wohl diese illustre Persönlichkeit der deutschen Literatur? Wir erinnern uns
                an seine Fotografie in einer schmucken Ausgabe eines Jugendwerks: lebendige Augen,
                eine hohe Stirn, ein strenger Mund, eine Dichtermähne<c rendition="#dots" n="3"/>
                Aber seither? Über das Haar – wenn überhaupt – ist der Winter gekommen, die Augen
                werden müde sein von den langen Nächten am Tisch und <c rendition="#dots" n="3"/> wer
-               schließt aus, dass der gute <rs type="person" ref="#2121">Schnitzler</rs> sich nicht
+               schließt aus, dass der gute <rs type="person" ref="#pmb2121">Schnitzler</rs> sich nicht
                den Bart wachsen ließ?</p>
             <p>Das Kennzeichen des Bartes setzt sich im Kopf fest: ein alter Literat ohne Bart? Die
-               Gedanken gehen über zu <rs type="person" ref="#5362">Carducci</rs>, zu <rs type="person"
-                  ref="#5359">Victor Hugo</rs><space unit="chars" quantity="1"/><c rendition="#dots" n="3"/>
+               Gedanken gehen über zu <rs type="person" ref="#pmb5362">Carducci</rs>, zu <rs type="person" ref="#pmb5359">Victor Hugo</rs>
+               <space unit="chars" quantity="1"/>
+               <c rendition="#dots" n="3"/>
             </p>
             <p>Und der ungeduldige Reporter mustert auf dem Schiff, das jetzt nur wenige Meter vom
                Ufer entfernt ist; unter den Passagieren mit Reisemütze und Frauen in »Trench-Coats«
@@ -224,8 +206,8 @@
             <p>Die letzten Manöver, das erste sich Erkennen, die ersten Begrüßungen. Und schließlich
                die Menge, die voller Gepäck und Tragschirmen den glitschigen, gefährlichen Steg
                herunterkommt. </p>
-            <p>– Entschuldigen Sie, Herr <rs type="person" ref="#2121">Schnitzler</rs>? </p>
-            <p>Der alte Mann – dick und bebrillt, made in <rs type="place" ref="#151">Germany</rs> –
+            <p>– Entschuldigen Sie, Herr <rs type="person" ref="#pmb2121">Schnitzler</rs>? </p>
+            <p>Der alte Mann – dick und bebrillt, made in <rs type="place" ref="#pmb151">Germany</rs> –
                blickt zerstreut, ohne zu begreifen. Dann antwortet er auf Deutsch: </p>
             <p>– Danke, ich habe schon einen Träger. </p>
             <p>Schöner Erfolg! Als erster Versuch <c rendition="#dots" n="3"/> nichts verhaut. Aber
@@ -234,9 +216,7 @@
             </p>
             <p>Es ist Zeit, Taktik und Sprache zu wechseln. </p>
             <p>Und das Glück hilft den Mutigen. Ein respektabel wirkender Herr gibt wertvolle
-               Informationen: – <rs type="person" ref="#2121">Arthur Schnitzler</rs>? <anchor
-                  type="commentary" xml:id="KT154-1"/>C’est un vieux monsieur à la barbe grise<note
-                  type="commentary" xml:id="KT154-1h">französisch: Das ist ein alter Herr mit grauem
+               Informationen: – <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>? <anchor type="commentary" xml:id="KT154-1"/>C’est un vieux monsieur à la barbe grise<note type="commentary" xml:id="KT154-1h">französisch: Das ist ein alter Herr mit grauem
                   Bart</note>. </p>
             <p>So bestätigt sich die erste Annahme. Zu tun bleibt, alle grauen und weißen Bärte in
                Angriff zu nehmen, die zum Pier herabsteigen. Und es kommen solche von allen Formen
@@ -248,105 +228,721 @@
                Koffern.</p>
             <p>Endlich, hinter einer Reling, taucht der schöne Kopf eines Denkers auf, ein Gesicht,
                umrahmt von einem weißen, spitzen Bart: Er ist es! </p>
-            <p>Er steigt ab, gefolgt von einer bezaubernden jungen <rs type="person" ref="#2238"
-                  subtype="implied">Frau</rs> und einem <rs type="person" ref="#14850"
-                  subtype="implied">Offizier der Miliz</rs>. </p>
-            <p>Kaum hat der Ehrengast den Boden von <rs type="place" ref="#873">Triest</rs> berührt
+            <p>Er steigt ab, gefolgt von einer bezaubernden jungen <rs type="person" ref="#pmb2238" subtype="implied">Frau</rs> und einem <rs type="person" ref="#pmb14850" subtype="implied">Offizier der Miliz</rs>. </p>
+            <p>Kaum hat der Ehrengast den Boden von <rs type="place" ref="#pmb873">Triest</rs> berührt
                hat, spricht ihn der Reporter strahlend an, entbietet ihm seinen Gruß und rasselt
                alle Fragen herunter, die er sich beim Warten im Regen überlegt hatte. </p>
-            <p>Ach, was für eine Enttäuschung: <anchor type="label" xml:id="I068_L_nurkein"></anchor>Alles, nur kein Interview!</p>
-            <p>– Journalist? ruft <rs type="person" ref="#2121">Arthur Schnitzler</rs> sofort aus.
+            <p>Ach, was für eine Enttäuschung: <anchor type="label" xml:id="I068_L_nurkein"/>Alles, nur kein Interview!</p>
+            <p>– Journalist? ruft <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> sofort aus.
                Es tut mir leid, sehr geehrter Herr, aber während meinen Reisen habe ich niemals
-               Interviews gegeben, niemals, weder in <rs type="place" ref="#468">Europa</rs> noch in
+               Interviews gegeben, niemals, weder in <rs type="place" ref="#pmb468">Europa</rs> noch in
                   <anchor type="commentary" xml:id="KT154-2"/>
-               <rs type="place" ref="#175">Amerika</rs>
+               <rs type="place" ref="#pmb175">Amerika</rs>
                <note type="commentary" xml:id="KT154-2h">
-                  <rs type="person" ref="#2121">Schnitzler</rs> war zeitlebens nicht in <rs
-                     type="place" ref="#175">Amerika</rs>.</note>. Ich wiederhole es, es tut mir
+                  <rs type="person" ref="#pmb2121">Schnitzler</rs> war zeitlebens nicht in <rs type="place" ref="#pmb175">Amerika</rs>.</note>. Ich wiederhole es, es tut mir
                leid für sie, dass <c rendition="#dots" n="3"/> sie sich meinetwegen dem Regenguß
                ausgesetzt haben. </p>
-            <p>– Womöglich später?<c rendition="#dots" n="3"/> In der Unterkunft?<c
-                  rendition="#dots" n="3"/>
+            <p>– Womöglich später?<c rendition="#dots" n="3"/> In der Unterkunft?<c rendition="#dots" n="3"/>
             </p>
             <p>– Unmöglich. Ich werde gleich weiterfahren. </p>
-            <p>– Sie bleiben also nicht in <rs type="place" ref="#873">Triest</rs>? </p>
-            <p>– Doch, für die Zeit des Umstiegs auf den »Palatino« nach <rs type="place" ref="#462"
-                  >Venedig</rs>, kaum zehn Schritte von hier<c rendition="#dots" n="3"/>     </p>
+            <p>– Sie bleiben also nicht in <rs type="place" ref="#pmb873">Triest</rs>? </p>
+            <p>– Doch, für die Zeit des Umstiegs auf den »Palatino« nach <rs type="place" ref="#pmb462">Venedig</rs>, kaum zehn Schritte von hier<c rendition="#dots" n="3"/>     </p>
             <p>Tatsächlich kommen die Koffer des berühmten Reisenden schon auf die Brücke des
                gegenüber angelegten Dampfers. </p>
-            <p>– Nach <rs type="place" ref="#462">Venedig</rs>? – setzt der Interviewer mit einem
+            <p>– Nach <rs type="place" ref="#pmb462">Venedig</rs>? – setzt der Interviewer mit einem
                Fünkchen Hoffnung fort <ref type="question" target="#q103"/>– haben Sie vor, den
-               Frühling in <rs type="place" ref="#40306">Italien</rs> zu verbringen?</p>
-            <p>– Ja! Ich liebe <rs type="place" ref="#40306">Italien</rs> sehr, und <anchor
-                  type="label" xml:id="L_I068-1v"/>ich bin ein Bewunderer <rs type="person"
-                  ref="#12314">Mussolini</rs>s und des Faschismus, der Ordnung und der Disziplin,
+               Frühling in <rs type="place" ref="#pmb40306">Italien</rs> zu verbringen?</p>
+            <p>– Ja! Ich liebe <rs type="place" ref="#pmb40306">Italien</rs> sehr, und <anchor type="label" xml:id="L_I068-1v"/>ich bin ein Bewunderer <rs type="person" ref="#pmb12314">Mussolini</rs>s und des Faschismus, der Ordnung und der Disziplin,
                die in Ihrem schönen Land regieren, wo ich unvergessliche Tage zugebracht habe, an
                wunderbaren Plätzen, die mein Lob nicht nötig haben<c rendition="#dots" n="3"/>
                <anchor type="label" xml:id="L_I068-1h"/> Aber genug davon. Kein Interview. Besuchen
-               Sie mich in <rs type="place" ref="#50">Wien</rs>, vielleicht dann<c rendition="#dots"
-                  n="3"/>
+               Sie mich in <rs type="place" ref="#pmb50">Wien</rs>, vielleicht dann<c rendition="#dots" n="3"/>
             </p>
-            <p>– Vielen Dank für die Einladung, aber <rs type="place" ref="#50">Wien</rs> ist zu
+            <p>– Vielen Dank für die Einladung, aber <rs type="place" ref="#pmb50">Wien</rs> ist zu
                   weit<c rendition="#dots" n="3"/> Das ernste Gesicht des Meisters überzieht ein
-               Lächeln, während er sich höflich verabschiedet, um dann, aus der Distanz, den <anchor
-                  type="label" xml:id="L_I068_fascisti"/><anchor type="commentary" xml:id="K_I068-2"
-               />Saluto Romano<note type="commentary" xml:id="K_I068-2h">Die politischen
+               Lächeln, während er sich höflich verabschiedet, um dann, aus der Distanz, den <anchor type="label" xml:id="L_I068_fascisti"/>
+               <anchor type="commentary" xml:id="K_I068-2"/>Saluto Romano<note type="commentary" xml:id="K_I068-2h">Die politischen
                   Implikationen dieses militärischen Grußes, bei dem ein Arm ausgestreckt wird, sind
-                  schwierig zu deuten, da er auch <date>1924</date> bei den <rs type="org"
-                     ref="#58282">Olympischen Spielen</rs> offiziell zum Einsatz kam. Trotzdem
-                  dürfte der Interviewer vor allem die behauptete faschistische Grundhaltung <rs
-                     type="person" ref="#2121">Schnitzler</rs>s hervorstreichen wollen.</note> mit
+                  schwierig zu deuten, da er auch <date>1924</date> bei den <rs type="org" ref="#pmb58282">Olympischen Spielen</rs> offiziell zum Einsatz kam. Trotzdem
+                  dürfte der Interviewer vor allem die behauptete faschistische Grundhaltung <rs type="person" ref="#pmb2121">Schnitzler</rs>s hervorstreichen wollen.</note> mit
                ausgestrecktem Arm anzudeuten.</p>
             <p>Dann das Geräusch der Schiffsschraube und das Aufbrausen der Wellen beim Schiff, als
                es sich vom Pier löst.</p>
             <head type="sub">
-               <rs type="place" ref="#44292">Rhodos</rs> von <rs type="person" ref="#12314"
-                  >Mussolini</rs>
+               <rs type="place" ref="#pmb44292">Rhodos</rs> von <rs type="person" ref="#pmb12314">Mussolini</rs>
             </head>
             <p>
-               <rs type="person" ref="#2121">Arthur Schnitzler</rs> ist abgefahren. Aber es gibt
-               noch einen Hilfsmittel, um die unvollständigen Äußerungen des <c rendition="#dots"
-                  n="3"/> verschlossenen <rs type="place" ref="#50">Wien</rs>er Dramatikers zu
+               <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> ist abgefahren. Aber es gibt
+               noch einen Hilfsmittel, um die unvollständigen Äußerungen des <c rendition="#dots" n="3"/> verschlossenen <rs type="place" ref="#pmb50">Wien</rs>er Dramatikers zu
                vervollständigen: die Offiziere des »Sterns von Italien«.</p>
-            <p>– <rs type="person" ref="#2121">Arthur Schnitzler</rs>? – Sie antworten freundlich –
+            <p>– <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>? – Sie antworten freundlich –
                Niemand hat es jemals geschafft, ihn während der sechzehn Tage der Kreuzfahrt zum
-               Reden zu bringen. Er lebte einsam und abgeschieden mit seiner Tochter Fräulein <rs
-                  type="person" ref="#2238">Lilly</rs> – hier lüftet sich das Geheimnis der
+               Reden zu bringen. Er lebte einsam und abgeschieden mit seiner Tochter Fräulein <rs type="person" ref="#pmb2238">Lilly</rs> – hier lüftet sich das Geheimnis der
                eindrücklichen weiblichen Erscheinung an der Seite des Schriftstellers! – und mit
-               seinem Schwiegersohn, Kap. <rs type="person" ref="#14850">Cappellini</rs>, die ihn
+               seinem Schwiegersohn, Kap. <rs type="person" ref="#pmb14850">Cappellini</rs>, die ihn
                begleiteten. Aber er hatte große Freunde an Bord, die ihn nie verließen: seine
                Bücher. Wir sahen ihn an Deck oder im Rauchsalon, immer über Seiten gebeugt oder um
                sich blickend und beobachtend, sich Notizen machend, ernst und unzugänglich. </p>
-            <p>In den vom Schiff angefahrenen Häfen, <rs type="place" ref="#41212">Korfu</rs>, <rs
-                  type="place" ref="#49145">Piräus</rs>, <rs type="place" ref="#49147">Eleusis</rs>,
-                  <rs type="place" ref="#966">Konstantinopel</rs>, <rs type="place" ref="#44292"
-                  >Rhodos</rs>, in der Bucht von <rs type="place" ref="#49149">Kotor</rs>, in <rs
-                  type="place" ref="#682">Ragusa</rs>, stand er an der Reling, seine lebhaften Augen
+            <p>In den vom Schiff angefahrenen Häfen, <rs type="place" ref="#pmb41212">Korfu</rs>, <rs type="place" ref="#pmb49145">Piräus</rs>, <rs type="place" ref="#pmb49147">Eleusis</rs>,
+                  <rs type="place" ref="#pmb966">Konstantinopel</rs>, <rs type="place" ref="#pmb44292">Rhodos</rs>, in der Bucht von <rs type="place" ref="#pmb49149">Kotor</rs>, in <rs type="place" ref="#pmb682">Ragusa</rs>, stand er an der Reling, seine lebhaften Augen
                immer bewundernd, aber ohne seinem Empfinden Ausdruck zu verleihen. </p>
-            <p>Nur in <rs type="place" ref="#44292">Rhodos</rs>, beim Anblick dieser bezaubernden
+            <p>Nur in <rs type="place" ref="#pmb44292">Rhodos</rs>, beim Anblick dieser bezaubernden
                Insel, brach seine Bewunderung hervor.</p>
-            <p>– Das – sagte er – ist wirklich das <rs type="place" ref="#44292">Rhodos</rs> von <rs
-                  type="person" ref="#12314">Mussolini</rs>! </p>
-            <p>Denn für Mussolini und für das neue <rs type="place" ref="#40306">Italien</rs> hat
-                  <rs type="person" ref="#2121">Arthur Schnitzler</rs>, wenn auch in seinen kurzen
+            <p>– Das – sagte er – ist wirklich das <rs type="place" ref="#pmb44292">Rhodos</rs> von <rs type="person" ref="#pmb12314">Mussolini</rs>! </p>
+            <p>Denn für Mussolini und für das neue <rs type="place" ref="#pmb40306">Italien</rs> hat
+                  <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>, wenn auch in seinen kurzen
                und sehr seltenen Worten, immer wieder seine Bewunderung ausgedrückt.</p>
          </div>
          <div type="biographical">
             <div1>
-               <ref type="schnitzlerDiary" target="1928-07-08"/>
-               <quote>Ein ›Interview‹ im <rs type="work" ref="#58346">Piccolo Triest</rs> (vom
+               <ref type="schnitzler-tagebuch" target="1928-07-08"/>
+               <quote>Ein ›Interview‹ im <rs type="work" ref="#pmb58346">Piccolo Triest</rs> (vom
                      <date>10. Mai</date> –) – zwischen mir und einem Journalisten, dem ich,–
                   zwischen Stella d’Italia und Palatino jede Antwort verweigert,– was er auch
                   zugesteht – dagegen ein angebliches Gespräch mit einem Schiffsoffizier berichtet,–
-                  in dem ich begeistert <rs type="person" ref="#12314">Mussolini</rs> und den
+                  in dem ich begeistert <rs type="person" ref="#pmb12314">Mussolini</rs> und den
                   Fascismus preise!– Dies zur Charakteristik des Journalismus. Zu der des Publikums
-                  hingegen – dass Frau <rs type="person" ref="#9734">Schmutzer</rs>, die mir das
-                  Blatt durch <rs type="person" ref="#22728">Kolap</rs> schickte – das ganze für
-                  eine Rede von mir in Gegenwart <rs type="person" ref="#12314">Mussolinis</rs>
-                  hielt – da auf der andern Seite des Blattes – zufällig eine Rede von <rs
-                     type="person" ref="#12314">Mussolini</rs> steht!–</quote>
+                  hingegen – dass Frau <rs type="person" ref="#pmb9734">Schmutzer</rs>, die mir das
+                  Blatt durch <rs type="person" ref="#pmb22728">Kolap</rs> schickte – das ganze für
+                  eine Rede von mir in Gegenwart <rs type="person" ref="#pmb12314">Mussolinis</rs>
+                  hielt – da auf der andern Seite des Blattes – zufällig eine Rede von <rs type="person" ref="#pmb12314">Mussolini</rs> steht!–</quote>
             </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb5362">
+               <persName>
+                  <forename>Giosuè</forename>
+                  <surname>Carducci</surname>
+               </persName>
+               <birth>
+                  <date when="1835-07-25">25.07.1835</date>
+                  <settlement ref="pmb44265">
+                     <placeName type="pref">Pietrasanta</placeName>
+                     <location>
+                        <geo>43,95952 10,22784</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1907-02-16">16.02.1907</date>
+                  <settlement ref="pmb896">
+                     <placeName type="pref">Bologna</placeName>
+                     <location>
+                        <geo>44,49381 11,33875</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118668366</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5362/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q43440</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Giosu%C3%A8_Carducci</idno>
+            </person>
+            <person xml:id="pmb5359">
+               <persName>
+                  <forename>Victor</forename>
+                  <surname>Hugo</surname>
+               </persName>
+               <birth>
+                  <date when="1802-02-26">26.02.1802</date>
+                  <settlement ref="pmb49878">
+                     <placeName type="pref">Besançon</placeName>
+                     <location>
+                        <geo>47,24878 6,01815</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1885-05-22">22.05.1885</date>
+                  <settlement ref="pmb182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118554654</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5359/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb5359.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp54881</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q535</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Victor_Hugo</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb5359.html</idno>
+            </person>
+            <person xml:id="pmb2238">
+               <persName>
+                  <forename>Lili</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <persName type="person_ehename_nachname">Cappellini</persName>
+               <persName type="person_geburtsname_nachname">Schnitzler</persName>
+               <persName type="legacy-name-merge">Cappellini, Lili</persName>
+               <birth>
+                  <date when="1909-09-13">13.09.1909</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1928-07-26">26.07.1928</date>
+                  <settlement ref="pmb462">
+                     <placeName type="pref">Venedig</placeName>
+                     <location>
+                        <geo>45,43713 12,33265</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/131362089</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2238.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2238/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14130</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2238</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q108811072</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2238.html</idno>
+            </person>
+            <person xml:id="pmb14850">
+               <persName>
+                  <forename>Arnoldo</forename>
+                  <surname>Cappellini</surname>
+               </persName>
+               <birth>
+                  <date when="1889-08-10">10.08.1889</date>
+                  <settlement ref="pmb462">
+                     <placeName type="pref">Venedig</placeName>
+                     <location>
+                        <geo>45,43713 12,33265</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1954-05-08">08.05.1954</date>
+                  <settlement ref="pmb445">
+                     <placeName type="pref">Rom</placeName>
+                     <location>
+                        <geo>41,89193 12,51133</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14129</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb14850.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/14850/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb14850</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb14850.html</idno>
+            </person>
+            <person xml:id="pmb12314">
+               <persName>
+                  <forename>Benito</forename>
+                  <surname>Mussolini</surname>
+               </persName>
+               <birth>
+                  <date when="1883-07-29">29.07.1883</date>
+                  <settlement ref="pmb59718">
+                     <placeName type="pref">Predappio</placeName>
+                     <location>
+                        <geo>44,10316 11,98413</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1945-04-28">28.04.1945</date>
+                  <settlement ref="pmb59720">
+                     <placeName type="pref">Mezzegra</placeName>
+                     <location>
+                        <geo>45,98168 9,20514</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb95">Politiker/Politikerin</occupation>
+               <occupation ref="pmb240">Lehrer/Lehrerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18335</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118585967</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12314/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp50477</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=M#DWpers0172</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q23559</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Benito_Mussolini</idno>
+               <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_55.html</idno>
+            </person>
+            <person xml:id="pmb9734">
+               <persName>
+                  <forename>Alice</forename>
+                  <surname>Schmutzer</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Schnabel</persName>
+               <persName type="person_rufname">Liesl</persName>
+               <persName type="legacy-name-merge">Schmutzer, Alice</persName>
+               <persName type="wien-geschichte-wiki">https://www.geschichtewiki.wien.gv.at/Alice_Schmutzer</persName>
+               <birth>
+                  <date when="1884-12-10">10.12.1884</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1949-04-24">24.04.1949</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19783</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116816902</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/9734/</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x0028439b</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q59653101</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb9734.html</idno>
+            </person>
+            <person xml:id="pmb22728">
+               <persName>
+                  <forename>Frieda</forename>
+                  <surname>Pollak</surname>
+               </persName>
+               <persName type="person_rufname">Kolap</persName>
+               <birth>
+                  <date when="1881-12-08">08.12.1881</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1937-07-13">13.07.1937</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb367">Sekretär/Sekretärin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18881</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb22728.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/22728/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb22728</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb58346">
+               <title>Il Piccolo</title>
+               <date>None</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58346/</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+            <bibl xml:id="pmb33219">
+               <title>Arturo Schnitzler di passaggio per il Molo Bersaglieri</title>
+               <title type="werk_bibliografische-angabe">Il Piccolo, 1. 5. 1928</title>
+               <date when="1928-05-01">01.05.1928</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33219/</idno>
+               <note type="work_kind">Interview</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb1074">
+               <placeName>Molo dei Bersaglieri</placeName>
+               <desc type="entity_type">Hafen (K.HFN)</desc>
+               <desc type="entity_type_id">84</desc>
+               <location type="coords">
+                  <geo>45,65072 13,76327</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb873">Triest</placeName>
+                  <geo>45,66667 13,76667</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1074/</idno>
+            </place>
+            <place xml:id="pmb151">
+               <placeName>Deutschland</placeName>
+               <placeName type="alternative-name">Bundesrepublik Deutschland</placeName>
+               <placeName type="alternative-name">West Germany</placeName>
+               <placeName type="alternative-name">Federal Republic of Germany</placeName>
+               <placeName type="legacy-name-merge">Germany</placeName>
+               <desc type="entity_type">Land (A.LND)</desc>
+               <desc type="entity_type_id">38</desc>
+               <location type="coords">
+                  <geo>51,5 10,5</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb468">Europa</placeName>
+                  <geo>48,69096 9,14062</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q183</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb151.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2921044/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/151/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/39639/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43456/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb151</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb151</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb151.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Deutschland</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/119923/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4011882-4</idno>
+            </place>
+            <place xml:id="pmb873">
+               <placeName>Triest</placeName>
+               <placeName type="alternative-name">Trieste</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>45,66667 13,76667</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb40306">Italien</placeName>
+                  <geo>42,83333 12,83333</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q546</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3165186/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb873.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/873/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb873</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91944/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91944.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/93946/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4078411-3</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Triest</idno>
+            </place>
+            <place xml:id="pmb468">
+               <placeName>Europa</placeName>
+               <desc type="entity_type">Kontinent (A.KNT)</desc>
+               <desc type="entity_type_id">49</desc>
+               <location type="coords">
+                  <geo>48,69096 9,14062</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q46</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/6255148/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb468.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/468/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb468</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb468</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb468.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Europa</idno>
+            </place>
+            <place xml:id="pmb175">
+               <placeName>Amerika</placeName>
+               <desc type="entity_type">Kontinent (A.KNT)</desc>
+               <desc type="entity_type_id">49</desc>
+               <location type="coords">
+                  <geo>32,530833 -117,02</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/6255149/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb175.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/175/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb175</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb175</idno>
+            </place>
+            <place xml:id="pmb462">
+               <placeName>Venedig</placeName>
+               <placeName type="legacy-name-merge">Venice</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>45,43713 12,33265</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb40306">Italien</placeName>
+                  <geo>42,83333 12,83333</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb462.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/462/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb462</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64195/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3164603/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb462</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb462.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/97045/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4062501-1</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q641</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Venedig</idno>
+            </place>
+            <place xml:id="pmb40306">
+               <placeName>Italien</placeName>
+               <placeName type="alternative-name">Italian Republic</placeName>
+               <placeName type="alternative-name">Republic of Italy</placeName>
+               <placeName type="legacy-name-merge">Italy</placeName>
+               <desc type="entity_type">http://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>42,83333 12,83333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb468">Europa</placeName>
+                  <geo>48,69096 9,14062</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3175395/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/40306/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb40306</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb40306</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb40306.html</idno>
+            </place>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+            <place xml:id="pmb44292">
+               <placeName>Rhodos</placeName>
+               <placeName type="alternative-name">Rhodes Town</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPLA2</desc>
+               <desc type="entity_type_id">1419</desc>
+               <location type="coords">
+                  <geo>36,43556 28,22199</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb44293">Griechenland</placeName>
+                  <geo>39,0 22,0</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/400665/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1075/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44292/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/400666/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb44292</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb44292.html</idno>
+            </place>
+            <place xml:id="pmb41212">
+               <placeName>Korfu</placeName>
+               <placeName type="alternative-name">Corcyra (Insel)</placeName>
+               <placeName type="alternative-name">Corfu</placeName>
+               <placeName type="legacy-name-merge">Kerkyra</placeName>
+               <desc type="entity_type">Insel (N.INS)</desc>
+               <desc type="entity_type_id">57</desc>
+               <location type="coords">
+                  <geo>39,598055 19,852222</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb44293">Griechenland</placeName>
+                  <geo>39,0 22,0</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q121378</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4073728-7</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb455.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/455/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/13400/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41212/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41212</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64763/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2463678/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb41212</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb41212.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Korfu</idno>
+            </place>
+            <place xml:id="pmb49145">
+               <placeName>Piraeus</placeName>
+               <placeName type="alternative-name">Piräus</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPLA3</desc>
+               <desc type="entity_type_id">1410</desc>
+               <location type="coords">
+                  <geo>37,94203 23,64619</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb44293">Griechenland</placeName>
+                  <geo>39,0 22,0</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://www.geonames.org/Piräus</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1076/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/49145/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/255274/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb49145</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb49145.html</idno>
+            </place>
+            <place xml:id="pmb49147">
+               <placeName>Elefsina</placeName>
+               <placeName type="legacy-name-merge">Eleusis</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPLA3</desc>
+               <desc type="entity_type_id">1410</desc>
+               <location type="coords">
+                  <geo>38,04135 23,54295</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb44293">Griechenland</placeName>
+                  <geo>39,0 22,0</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1077/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3649/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/49147/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/262752/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb49147</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb49147</idno>
+            </place>
+            <place xml:id="pmb966">
+               <placeName>Istanbul</placeName>
+               <placeName type="legacy-name-merge">Konstantinopel</placeName>
+               <placeName type="alternative-name">Istanbul Province</placeName>
+               <placeName type="alternative-name">Byzantion</placeName>
+               <placeName type="alternative-name">Byzantium</placeName>
+               <placeName type="alternative-name">Constantinople</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>41,01384 28,94966</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb773">Türkei</placeName>
+                  <geo>39,0 35,0</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q406</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb966.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/966/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/17016/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51212/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/745042/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb966</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63405/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4073697-0</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64387/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb966.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Istanbul</idno>
+            </place>
+            <place xml:id="pmb49149">
+               <placeName>Kotor</placeName>
+               <placeName type="legacy-name-merge">Cattaro</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPLA</desc>
+               <desc type="entity_type_id">1415</desc>
+               <location type="coords">
+                  <geo>42,42067 18,76825</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb366">Montenegro</placeName>
+                  <geo>42,75 19,25</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3197537/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1073/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10624/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/49149/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3197538/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb49149</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb49149.html</idno>
+            </place>
+            <place xml:id="pmb682">
+               <placeName>Dubrovnik</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>42,64807 18,09216</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3201047/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1722</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb682.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/682/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb682</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb682.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/95161/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4013176-2</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Dubrovnik</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb58282">
+               <orgName>Olympische Sommerspiele 1924</orgName>
+               <desc type="entity_type">Festspiel</desc>
+               <desc type="entity_type_id">1714</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb182">Paris</placeName>
+                  <geo>48,85341 2,3488</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb182.html</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4044660-8</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/182/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb182</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64183/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2988507/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb182</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb182.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q90</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Paris</idno>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58282/</idno>
+               <note type="apis_dates">
+                  <date>1924</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

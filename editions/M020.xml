@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="M020">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="M020">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#32963">Alfred von Berger: Jugend von heute und ehemals,
-               6.&#8239;8.&#8239;1911</title>
-            <author ref="#10883">Berger, Alfred von</author>
+            <title level="a" ref="#pmb32963">Alfred von Berger: Jugend von heute und ehemals,
+               6. 8. 1911</title>
+            <author ref="#pmb10883">Berger, Alfred von</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -28,13 +30,13 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#10883">Berger, Alfred Freiherr v.</author>
-                     <title level="a" ref="#32963">Jugend von heute und ehemals</title>
+                     <author ref="#pmb10883">Berger, Alfred Freiherr v.</author>
+                     <title level="a" ref="#pmb32963">Jugend von heute und ehemals</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#36374">Neue Freie Presse</title>
+                     <title level="j" ref="#pmb36374">Neue Freie Presse</title>
                      <imprint>
-                        <date when="1911-08-06" n="1">6.&#8239;8.&#8239;1911</date>
+                        <date when="1911-08-06" n="1">6. 8. 1911</date>
                      </imprint>
                      <biblScope unit="nr">16.866, Morgenblatt</biblScope>
                      <biblScope unit="pp">1–4</biblScope>
@@ -54,39 +56,38 @@
          <change who="KH" when="2021-10-13">Durchsicht</change>
       </revisionDesc>
    </teiHeader>
-   <!-- https://anno.onb.ac.at/cgi-content/anno?aid=nfp&datum=19110806&seite=1&zoom=33 -->
    <text type="text">
       <body>
          <div type="original">
-            <head><anchor type="commentary" xml:id="K_I020-1"/>Jugend von heute und ehemals<note
-                  type="commentary" xml:id="K_I020-1h">Der Text, der sich zum Schluss als Würdigung
-                  von Pater <rs type="person" ref="#5169">Mareta</rs> erweist, ist in der
-                  Zeitungsausschnittsammlung <rs type="person" ref="#2121">Schnitzler</rs>s mit
+            <head>
+               <anchor type="commentary" xml:id="K_I020-1"/>Jugend von heute und ehemals<note type="commentary" xml:id="K_I020-1h">Der Text, der sich zum Schluss als Würdigung
+                  von Pater <rs type="person" ref="#pmb5169">Mareta</rs> erweist, ist in der
+                  Zeitungsausschnittsammlung <rs type="person" ref="#pmb2121">Schnitzler</rs>s mit
                   handschriftlicher Datierung von diesem
-                  (»<quote><date>6/8&#8239;911</date></quote>«, <bibl>Miscellaneuous, box
-                     41/3</bibl>) überliefert und die Passage über den <rs type="place" ref="#50"
-                     >Wien</rs>er Dichter seitlich mit einem Strich markiert.</note></head>
+                  (»<quote>
+                     <date>6/8 911</date>
+                  </quote>«, <bibl>Miscellaneuous, box
+                     41/3</bibl>) überliefert und die Passage über den <rs type="place" ref="#pmb50">Wien</rs>er Dichter seitlich mit einem Strich markiert.</note>
+            </head>
             <head type="sub">Alfred Freiherr v. Berger</head>
             <p>Neid ist nicht eben die Empfindung, welcher ich mich besonders zugänglich weiß, aber
                wenn ich einmal jemand beneiden sollte, so wäre das nicht etwa nur ein einzelner
-               Mensch, sondern die ganze heutige Jugend. Man sollte den bekannten <rs type="person"
-                  ref="#11461">Goethe</rs>schen Ausspruch: »<anchor type="commentary"
-                  xml:id="K_M020-1"/><rs type="work" ref="#31783" subtype="implied">Was man in der
-                  Jugend wünscht, das hat man im Alter die Fülle</rs><note type="commentary"
-                  xml:id="K_M020-1h">Vorspruch des 2. Teils von <rs type="work" ref="#31783">Aus
-                     meinem Leben</rs></note>« – ein Ausspruch, dessen Wahrheit wohl nur ein solcher
-               an sich selbst erleben kann, der ungefähr so ist wie <rs type="person" ref="#11461"
-                  >Goethe</rs> – man sollte diesen Ausspruch ein wenig umändern: »Was man in der
+               Mensch, sondern die ganze heutige Jugend. Man sollte den bekannten <rs type="person" ref="#pmb11461">Goethe</rs>schen Ausspruch: »<anchor type="commentary" xml:id="K_M020-1"/>
+               <rs type="work" ref="#pmb31783" subtype="implied">Was man in der
+                  Jugend wünscht, das hat man im Alter die Fülle</rs>
+               <note type="commentary" xml:id="K_M020-1h">Vorspruch des 2. Teils von <rs type="work" ref="#pmb31783">Aus
+                     meinem Leben</rs>
+               </note>« – ein Ausspruch, dessen Wahrheit wohl nur ein solcher
+               an sich selbst erleben kann, der ungefähr so ist wie <rs type="person" ref="#pmb11461">Goethe</rs> – man sollte diesen Ausspruch ein wenig umändern: »Was man in der
                Jugend wünscht, das hat jene Jugend in Fülle, die heranwächst, während man selbst alt
                wird.« Möglich, daß mancher junge Mensch von heute sich über dieses Bekenntnis
                wundert. Es ist auch nicht so zu verstehen, als ob ich die Jugend von heute für viel
                glücklicher, ja auch nur überhaupt für glücklicher hielte, als das Geschlecht, das
                mit mir jung war. Richtiger würde sich also der Sinn meines Neides in die Worte
-               fassen lassen: »Wie glücklich wären wir, die wir vor <anchor type="commentary"
-                  xml:id="K_M020-2"/>vierzig und mehr Jahren jung<note type="commentary"
-                  xml:id="K_M020-2h"><rs type="person" ref="#10883">Berger</rs>s Maturaabschluss
+               fassen lassen: »Wie glücklich wären wir, die wir vor <anchor type="commentary" xml:id="K_M020-2"/>vierzig und mehr Jahren jung<note type="commentary" xml:id="K_M020-2h">
+                  <rs type="person" ref="#pmb10883">Berger</rs>s Maturaabschluss
                   dürfte 40 Jahre zurück gelegen haben – möglicherweise war dies auch der äußere
-                  Anlass, Pater <rs type="person" ref="#5169">Mareta</rs> zu würdigen.</note> waren,
+                  Anlass, Pater <rs type="person" ref="#pmb5169">Mareta</rs> zu würdigen.</note> waren,
                gewesen, wenn wir gehabt hätten, was die Jugend gegenwärtig hat.« Wir standen der
                heutigen Zeit mit unserem Gedanken- und Empfindungsleben schon so nahe, daß alle
                Triebe und Wünsche, deren Befriedigung sich in der heutigen Jugend längst zur
@@ -157,9 +158,7 @@
                Schneckenstiege, auf welcher das Problem einer Begegnung zwischen Auf- und
                Absteigenden nur mittelst akrobatischer Künste zu lösen war. Im Hofe einen Brunnen,
                dessen Wasser aus sanitären Gründen häufig verpönt war. Das Trink- und Kochwasser
-               wurde von dem längst von der Erde verschwundenen Typus der »Wasserweiber« in <anchor
-                  type="commentary" xml:id="K_M020-11"/>Holzbutten<note type="commentary"
-                  xml:id="K_M020-11h">Bottich, aber mit zwei Tragegriffen</note> aus einem
+               wurde von dem längst von der Erde verschwundenen Typus der »Wasserweiber« in <anchor type="commentary" xml:id="K_M020-11"/>Holzbutten<note type="commentary" xml:id="K_M020-11h">Bottich, aber mit zwei Tragegriffen</note> aus einem
                öffentlichen Brunnen heraufgeschleppt. Ein Bad war ein Ereignis; es wurde bei der
                nachstgelegenen Badeanstalt bestellt und dann »geführt«, wie man dies nannte, das
                heißt, das erforderliche kalte und heiße Wasser wurde von etlichen Männern in Fässern
@@ -168,8 +167,7 @@
                sich denken. Also ohne Lust, Licht und Wasser wuchs der junge Mensch aus guter
                Familie auf, in Entbehrung der ihm zu gesunder Entwicklung notwendigsten Elemente.
                Eingesperrt in solche Höhlenwohnungen starb ihm schon im Aufblühen das Gefühl
-               lebendigen Zusammenhanges mit der Natur ab, von der er nur auf Spaziergängen im <rs
-                  type="place" ref="#8">Prater</rs> und in den öffentlichen Gärten ein Stück zu
+               lebendigen Zusammenhanges mit der Natur ab, von der er nur auf Spaziergängen im <rs type="place" ref="#pmb8">Prater</rs> und in den öffentlichen Gärten ein Stück zu
                sehen bekam. Wie viele junge Menschen des Mittelstandes wachsen heute in Wohnungen
                auf, zu denen ein Garten gehört, wahrscheinlich ohne eine Ahnung zu haben, welche
                Entbehrung es für uns war, den langen Spätherbst, Winter und Frühling zubringen zu
@@ -177,41 +175,30 @@
                als auf den langweiligen Spaziergängen, die mich immer an die den Gefangenen mehr
                befohlene als erlaubte Bewegung in frischer Luft erinnert haben. Darum war vielen von
                uns die herbstliche Rückkehr in den städtischen Wohnungszwinger von grenzenloser
-               Wehmut umgeben, wie ein Abschied vom Leben selbst, freilich war der <rs type="place"
-                  ref="#8">Prater</rs> vor <date>1873</date>, in welchem Jahre einige der schönsten,
-               der Stadt am nächsten gelegenen Partien mit den <anchor type="commentary"
-                  xml:id="K_M020-12"/>Weltausstellungsanlagen<note type="commentary"
-                  xml:id="K_M020-12h">Die <rs type="org" ref="#63444">Weltausstellung</rs> fand von
-                     <date>1.&#8239;5.</date> bis zum <date>1.&#8239;11.&#8239;1873</date> in <rs
-                     type="place" ref="#50">Wien</rs> statt. Das Areal mit 233&#160;Hektar befand
-                  sich auf dem Gebiet des <rs type="place" ref="#8">Prater</rs>s, der dadurch eine
+               Wehmut umgeben, wie ein Abschied vom Leben selbst, freilich war der <rs type="place" ref="#pmb8">Prater</rs> vor <date>1873</date>, in welchem Jahre einige der schönsten,
+               der Stadt am nächsten gelegenen Partien mit den <anchor type="commentary" xml:id="K_M020-12"/>Weltausstellungsanlagen<note type="commentary" xml:id="K_M020-12h">Die <rs type="org" ref="#pmb63444">Weltausstellung</rs> fand von
+                     <date>1. 5.</date> bis zum <date>1. 11. 1873</date> in <rs type="place" ref="#pmb50">Wien</rs> statt. Das Areal mit 233 Hektar befand
+                  sich auf dem Gebiet des <rs type="place" ref="#pmb8">Prater</rs>s, der dadurch eine
                   starke Umgestaltung von einer Aulandschaft hin zu einem Freizeit- und
                   Erholungsgebiet erfuhr.</note> und Bauwerken verbaut wurden, viel waldartiger und
-               naturfrischer, als ihn die jüngeren Generationen kennen. Auch die Vororte, wie <rs
-                  type="place" ref="#69">Döbling</rs>, <rs type="place" ref="#499">Dornbach</rs>,
+               naturfrischer, als ihn die jüngeren Generationen kennen. Auch die Vororte, wie <rs type="place" ref="#pmb69">Döbling</rs>, <rs type="place" ref="#pmb499">Dornbach</rs>,
                waren damals noch viel ländlicher und dorfartiger als heute, wo die großstädtische
                Verkarstung längst die Felder, Wiesen und Weingärten weggezehrt hat, über welchen man
                damals noch die Lerche hoch im Blauen trillern hörte. Diese und andere Vororte waren
-               damals die eigentlichen Sommerfrischen des <rs type="place" ref="#50">Wien</rs>er
-               Mittelstandes, so wie fünfzig Jahre früher noch <anchor type="commentary"
-                  xml:id="K_M020-5"/>die <rs type="place" ref="#54">Wieden</rs><note
-                  type="commentary" xml:id="K_M020-5h">Der <rs type="place" ref="#54">4. Wiener
+               damals die eigentlichen Sommerfrischen des <rs type="place" ref="#pmb50">Wien</rs>er
+               Mittelstandes, so wie fünfzig Jahre früher noch <anchor type="commentary" xml:id="K_M020-5"/>die <rs type="place" ref="#pmb54">Wieden</rs>
+               <note type="commentary" xml:id="K_M020-5h">Der <rs type="place" ref="#pmb54">4. Wiener
                      Gemeindebezirk</rs> enstand <date>1850</date> durch Eingemeindung mehrerer
                   Vororte.</note> als Sommeraufenthalt benützt wurde. Als Nachwirkung
-               jenes Zustandes haben sich die zahlreichen Grüfte bekannter <rs type="place"
-                  ref="#50">Wien</rs>er Familien in den seither längst geschlossenen Ortsfriedhöfen
+               jenes Zustandes haben sich die zahlreichen Grüfte bekannter <rs type="place" ref="#pmb50">Wien</rs>er Familien in den seither längst geschlossenen Ortsfriedhöfen
                jener vormaligen Sommerfrischen erhalten. Eine wahre Wohltat hätten die Buchenwälder
-               des <rs ref="#574" type="place">Kahlengebirges</rs> und anderer Teile des <rs
-                  ref="#40876" type="place">Wienerwaldes</rs> der Jugend sein können. Aber um sie
+               des <rs ref="#pmb574" type="place">Kahlengebirges</rs> und anderer Teile des <rs ref="#pmb40876" type="place">Wienerwaldes</rs> der Jugend sein können. Aber um sie
                nach Jugendart voll auszugenießen, dazu ließ man den jungen Menschen viel zu wenig
                Freiheit. Sie mußten die Beaufsichtigung durch Erwachsene, welcher der »junge Herr
                aus guter Familie« sich so gut wie niemals entziehen durfte, auch, in die freie Natur
-               mitschleppen. In Gestalt feierlicher Familienausflüge mittelst <anchor
-                  type="commentary" xml:id="K_M020-111"/>Stellwagen<note type="commentary"
-                  xml:id="K_M020-111h">Fuhrwerk mit ausreichend Platz zum Sitzen, an bestimmten
+               mitschleppen. In Gestalt feierlicher Familienausflüge mittelst <anchor type="commentary" xml:id="K_M020-111"/>Stellwagen<note type="commentary" xml:id="K_M020-111h">Fuhrwerk mit ausreichend Platz zum Sitzen, an bestimmten
                   Stellplätzen einer Stadt auf Passagiere wartend</note>s oder Fiakers wurden die
-               waldversteckten Dörfer und aussichtsreichen Höhen des <rs ref="#40876" type="place"
-                  >Wienerwaldes</rs> meistens besucht, wobei von echter, ungebundener Natur- und
+               waldversteckten Dörfer und aussichtsreichen Höhen des <rs ref="#pmb40876" type="place">Wienerwaldes</rs> meistens besucht, wobei von echter, ungebundener Natur- und
                Bewegungsfreude nicht die Rede sein konnte. Die jungen Mädchen waren
                selbstverständlich noch viel übler daran. An einen freien, heiteren Verkehr beider
                Geschlechter untereinander war unter diesen Umständen gar nicht zu denken. Wie viel
@@ -223,17 +210,13 @@
                haben, waren noch nicht erfunden oder nicht eingeführt. Auch Jugendspiele im Freien
                gab es nicht, wenigstens nicht für Kinder aus gutem Haus. Meine ganze frühere
                Jugendzeit habe ich verlebt mit dem Gefühl heißen Neides gegen die Straßenjungen.</p>
-            <p>Da haben sie jetzt am <rs type="place" ref="#40874">Wolfgangsee</rs> ein großes
-               Gebäude zur Unterbringung einer <rs type="place" ref="#1032" subtype="implied"
-                  >Ferienkolonie</rs> gebaut. Fünfhundert Kinder faßt es, und wie ich höre, ist es
-               jetzt schon bezogen. Es steht dicht am waldigen Vorgebirge <rs type="place"
-                  ref="#1033">Frauenstein</rs>, nicht weit von der <rs ref="#59382" type="place"
-                  >Falkensteinwand</rs>, keine Ortschaft ist in der Nähe. Hinter ihm steigen die
-               waldbedeckten steilen Abhänge des <rs ref="#59367" type="place">Schafberges</rs> auf,
+            <p>Da haben sie jetzt am <rs type="place" ref="#pmb40874">Wolfgangsee</rs> ein großes
+               Gebäude zur Unterbringung einer <rs type="place" ref="#pmb1032" subtype="implied">Ferienkolonie</rs> gebaut. Fünfhundert Kinder faßt es, und wie ich höre, ist es
+               jetzt schon bezogen. Es steht dicht am waldigen Vorgebirge <rs type="place" ref="#pmb1033">Frauenstein</rs>, nicht weit von der <rs ref="#pmb59382" type="place">Falkensteinwand</rs>, keine Ortschaft ist in der Nähe. Hinter ihm steigen die
+               waldbedeckten steilen Abhänge des <rs ref="#pmb59367" type="place">Schafberges</rs> auf,
                vor ihm flutet der dunkelblaue See, am anderen Ufer, schon am frühen Nachmittag in
-               bläulichen Bergschatten gehüllt, stürzen sich die bewaldeten Ausläufer des <rs
-                  ref="#59384" type="place">Zwölferhorns</rs> jäh in den See. Seit einem halben
-               Jahrhundert etwa steht auf dem <rs type="place" ref="#1033">Frauenstein</rs>, von
+               bläulichen Bergschatten gehüllt, stürzen sich die bewaldeten Ausläufer des <rs ref="#pmb59384" type="place">Zwölferhorns</rs> jäh in den See. Seit einem halben
+               Jahrhundert etwa steht auf dem <rs type="place" ref="#pmb1033">Frauenstein</rs>, von
                hohen Bäumen versteckt, die nur einen schmalen Durchblick auf den See freilassen,
                eine einsame Villa. Ein Ort voll Ruhe und Abgeschiedenheit, an dem man wohl sein
                Dasein beschließen möchte in sinnender Rückschau auf ein bewegtes und inhaltreiches
@@ -246,8 +229,7 @@
                leise Regung von Neid mitschwingt? Denn so, wie diese Jungen hier durch vier Wochen
                Wald und See, Lust und Gebirge mit allen Sinnen genießen werden, so gut haben wir
                Kinder aus gutem Haus in unserer ganzen Jugendzeit es überhaupt niemals gehabt, trotz
-                  <rs ref="#40876" type="place">Wienerwald</rs> und <rs ref="#429" type="place"
-                  >Salzkammergut</rs>.</p>
+                  <rs ref="#pmb40876" type="place">Wienerwald</rs> und <rs ref="#pmb429" type="place">Salzkammergut</rs>.</p>
             <p>Und schließlich ist’s doch besser, ein halbes Tausend Stadtkinder genießt hier ein
                richtiges, überschäumendes Jugendleben, als daß irgend ein alter Kerl, und wär’s der
                gescheiteste seines Geschlechts, in dieser Einsamkeit spazieren geht und dabei über
@@ -264,13 +246,13 @@
                damals schon vorhanden. Wenn ich diesen Betrachtungen eine kleine autobiographische
                Episode einschalten darf, so kann ich sagen, ich empfand diese Sehnsucht so stark,
                daß ich als Knabe dem <anchor type="commentary" xml:id="K_implied_5165"/>
-               <rs type="person" subtype="implied" ref="#5165">Vater</rs>
+               <rs type="person" subtype="implied" ref="#pmb5165">Vater</rs>
                <note type="commentary" xml:id="K_implied_5165h">
-                  <rs type="person" ref="#5165">Johann Nepomuk Berger</rs>
+                  <rs type="person" ref="#pmb5165">Johann Nepomuk Berger</rs>
                </note> keine Ruhe gab, bis er mir einen Kinderwagen kaufte, der sich durch den
                darauf Sitzenden mittelst einer Handkurbel ziemlich mühsam vorwärtsbewegen und mit
                den Füßen steuern ließ; auf diesem Fuhrwerk rollte ich, so gut es gehen wollte, auf
-               den Straßen um <rs type="place" ref="#213">Ischl</rs> herum. Wenn mir damals jemand
+               den Straßen um <rs type="place" ref="#pmb213">Ischl</rs> herum. Wenn mir damals jemand
                ein modernes Bicycle geschenkt hätte, ich glaube, ich wäre gestorben vor Glück. Ein
                solches hätte ja zugleich, auch die Freiheit bedeutet, die Abschüttelung der ewigen
                Eltern- und Lehreraufsicht. Mitlaufen hätten diese erwachsenen Tugendwächter doch
@@ -284,24 +266,18 @@
                fordern wird – all das besitzt die heutige Jugend in weit reicherem Ausmaß, als es
                uns vergönnt war. Aber eine Hauptsache wurde noch gar nicht erwähnt; ihre völlig
                veränderte Stellung innerhalb der Familie, namentlich infolge der tiefen Umwandlung,
-               welche das Verhältnis zwischen Eltern und Kindern erfahren hat. <anchor
-                  type="commentary" xml:id="K_I020-2"/>Ein berühmter <rs type="place" ref="#50"
-                  >Wien</rs>er <rs type="person" ref="#2121" subtype="implied">Dichter</rs><note
-                  type="commentary" xml:id="K_I020-2h">Ab hier folgt die Stellungnahme <rs
-                     type="person" ref="#2121">Schnitzler</rs>s.</note> äußerte vor kurzem zu mir,
-               wenn er mit seinem kleinen <rs type="person" subtype="implied" ref="#12692">Sohn</rs>
+               welche das Verhältnis zwischen Eltern und Kindern erfahren hat. <anchor type="commentary" xml:id="K_I020-2"/>Ein berühmter <rs type="place" ref="#pmb50">Wien</rs>er <rs type="person" ref="#pmb2121" subtype="implied">Dichter</rs>
+               <note type="commentary" xml:id="K_I020-2h">Ab hier folgt die Stellungnahme <rs type="person" ref="#pmb2121">Schnitzler</rs>s.</note> äußerte vor kurzem zu mir,
+               wenn er mit seinem kleinen <rs type="person" subtype="implied" ref="#pmb12692">Sohn</rs>
                spazieren gehe und dieser allerlei zuweilen recht verfängliche Fragen an ihn richte
                oder ihm seine eigenen persönlichen Ansichten vortrage, da denke er oft daran, wie
-               häufig er selbst als Knabe ähnliche Fragen und Meinungen seinem <rs type="person"
-                  subtype="implied" ref="#12695">Vater</rs> vorgebracht habe; und er hätte dies noch
-               viel häufiger getan, wenn die Antworten des <rs type="person" subtype="implied"
-                  ref="#12695">Vaters</rs> danach gewesen wären; aber diese liefen gewöhnlich auf
+               häufig er selbst als Knabe ähnliche Fragen und Meinungen seinem <rs type="person" subtype="implied" ref="#pmb12695">Vater</rs> vorgebracht habe; und er hätte dies noch
+               viel häufiger getan, wenn die Antworten des <rs type="person" subtype="implied" ref="#pmb12695">Vaters</rs> danach gewesen wären; aber diese liefen gewöhnlich auf
                eine ziemlich unsachliche Abfertigung wo nicht auf einen dem frühreifen Sprößling
                erteilten Verweis hinaus, daß er sich in seinem Alter schon mit solchen Sachen
-               beschäftige. »Glauben Sie,« so schloß der <rs type="person" ref="#2121"
-                  subtype="implied">Dichter</rs> seine Mitteilung, »ich würde solche Antworten, wie
-               mein <rs type="person" subtype="implied" ref="#12695">Vater</rs> sie mir gab, meinem
-                  <rs type="person" subtype="implied" ref="#12692">Sohn</rs> zu geben wagen?« Da
+               beschäftige. »Glauben Sie,« so schloß der <rs type="person" ref="#pmb2121" subtype="implied">Dichter</rs> seine Mitteilung, »ich würde solche Antworten, wie
+               mein <rs type="person" subtype="implied" ref="#pmb12695">Vater</rs> sie mir gab, meinem
+                  <rs type="person" subtype="implied" ref="#pmb12692">Sohn</rs> zu geben wagen?« Da
                liegt’s! Das Verhältnis der Eltern zu den Kindern, jedenfalls der Väter zu den
                Söhnen, hat sich heute vielfach einer Art von Freundschaftsverhältnis von gleich zu
                gleich angenähert, abgesehen natürlich vom Altersunterschied. Daß der junge Mensch
@@ -327,8 +303,7 @@
             <p>In meinem Neide gegen die heutige Jugend ist diese Milderung, welche im Verhältnis
                zwischen Eltern und Kindern eingetreten ist, inbegriffen, wenn auch mit manchem
                Vorbehalt. Ueberhaupt erstrecht sich dieser Neid mehr auf das, was die jungen Leute
-               heute <hi rend="spaced_out">haben</hi>, als auf das, was sie <hi rend="spaced_out"
-                  >sind</hi>. Ich meine, in manchem Falle beobachtet zu haben, daß die
+               heute <hi rend="spaced_out">haben</hi>, als auf das, was sie <hi rend="spaced_out">sind</hi>. Ich meine, in manchem Falle beobachtet zu haben, daß die
                Charakterbildung und Gemütsentwicklung durch die Entspannung im Verhältnis zu den
                Eltern ungünstig beeinflußt wird. Früher folgerten die Eltern: Wir haben euch das
                Leben gegeben, also seid ihr uns Liebe, Dankbarkeit und Ehrfurcht schuldig. Heute
@@ -353,7 +328,10 @@
                ersparen.</p>
             <p>Ja, mag es auch paradox klingen, sogar gewisse fehlerhafte, das Lernen erschwerende
                Gebrechen der Lehrmethoden wie der Lehrer selbst schaden weit weniger, als sie
-               nützen. Wie oft haben wir <anchor type="commentary" xml:id="K_M020-3"/><rs type="place" ref="#557">Schottner</rs><note type='commentary' xml:id="K_M020-3h">Schüler des <rs type="place" ref="#557">Schottengymnasiums</rs></note> unter den
+               nützen. Wie oft haben wir <anchor type="commentary" xml:id="K_M020-3"/>
+               <rs type="place" ref="#pmb557">Schottner</rs>
+               <note type="commentary" xml:id="K_M020-3h">Schüler des <rs type="place" ref="#pmb557">Schottengymnasiums</rs>
+               </note> unter den
                ungeheuren Zumutungen gestöhnt, welche an unser Gedächtnis gestellt wurden, aber ich
                denke, keiner von uns hat jemals später bedauert, diesen harten, allen modernen
                pädagogischen Begriffen Hohn sprechenden Gedächtnisdrill erfahren und – erlitten zu
@@ -368,35 +346,681 @@
                Matura abgelegt haben, wobei kein einziger von uns durchfiel und zwölf das Zeugnis
                der Reife mit Auszeichnung errangen, sage ich dies. Als ausdrucksvolle Verkörperung
                jener Wahrheit steht vielmehr die ehrwürdige und rüstige Gestalt des Professors Pater
-                  <rs type="person" ref="#5169">Hugo Mareta</rs> vor mir, der mit seiner
+                  <rs type="person" ref="#pmb5169">Hugo Mareta</rs> vor mir, der mit seiner
                gefürchteten Strenge manchem von uns das Beste, was er hat, gegeben hat. Noch
                entsinne ich mich der ersten deutschen Hausaufgabe, die ich, kaum siebzehnjährig,
                unter ihm zu leisten hatte. »Was haben Heimatliebe und Sehnsucht in die Ferne
                miteinander gemein?« war das Thema. Mit innerer Angst und mit Anspannung aller Kräfte
-               ging ich an die Ausarbeitung. Denn Pater <rs type="person" ref="#5169">Mareta</rs>
+               ging ich an die Ausarbeitung. Denn Pater <rs type="person" ref="#pmb5169">Mareta</rs>
                pflegte den besten Aufsatz und den schlechtesten, letzteren nicht ohne sarkastische
                Glossen, vor der gesamten Klasse vorzulesen. Endlich, als ich fast schon
-               verzweifelte, etwas Ordentliches, das der Kritik Pater <rs type="person" ref="#5169"
-                  >Maretas</rs> stand halten könnte, fertig zu kriegen, blitzte ein Einfall für den
+               verzweifelte, etwas Ordentliches, das der Kritik Pater <rs type="person" ref="#pmb5169">Maretas</rs> stand halten könnte, fertig zu kriegen, blitzte ein Einfall für den
                Schluß des Aufsatzes in mir auf. »Wie nahe verwandt,« schrieb ich, »die beiden
-               Gefühle sein müssen, geht daraus hervor, daß ein und dasselbe Gedicht, <rs
-                  type="person" ref="#11461">Goethes</rs> Mignonlied »<rs type="work" ref="#32965"
-                  >Kennst du das Land</rs>« für Mignon der Ausdruck ihres Heimwehs nach <rs
-                  type="place" ref="#40306">Italien</rs> und für <rs type="person" ref="#11461"
-                  >Goethe</rs> der Ausdruck, seiner Sehnsucht nach <rs type="place" ref="#40306"
-                  >Italien</rs> war.« Pater <rs type="person" ref="#5169">Mareta</rs> las meinen
+               Gefühle sein müssen, geht daraus hervor, daß ein und dasselbe Gedicht, <rs type="person" ref="#pmb11461">Goethes</rs> Mignonlied »<rs type="work" ref="#pmb32965">Kennst du das Land</rs>« für Mignon der Ausdruck ihres Heimwehs nach <rs type="place" ref="#pmb40306">Italien</rs> und für <rs type="person" ref="#pmb11461">Goethe</rs> der Ausdruck, seiner Sehnsucht nach <rs type="place" ref="#pmb40306">Italien</rs> war.« Pater <rs type="person" ref="#pmb5169">Mareta</rs> las meinen
                Aufsatz vor, und das innerste Herz erbebte mir, als, er, nachdem er zu Ende gelesen,
                die Worte sprach: »Der Schlußgedanke lag zwar ziemlich nahe, aber eingefallen ist er
                doch sonst keinem.« Was meine späteren Schreibereien wert sind, weiß ich nicht, das
-               aber weiß ich, daß die Höhe und Strenge der Anforderungen, die Pater <rs
-                  type="person" ref="#5169">Mareta</rs> und andere Lehrer stellten, mich für das
+               aber weiß ich, daß die Höhe und Strenge der Anforderungen, die Pater <rs type="person" ref="#pmb5169">Mareta</rs> und andere Lehrer stellten, mich für das
                ganze Leben gelehrt haben, bei jeder Zeile die ganze Kraft einzusetzen und womöglich
                noch etwas mehr. Ja, Strenge und, wenn es sein muß, ein bißchen Härte sind eine gute
-               Sache, wenn sie mit starker Liebe verbunden sind, wie bei Pater <rs type="person"
-                  ref="#5169">Mareta</rs>, dem diese kleine persönliche Erinnerung zum
+               Sache, wenn sie mit starker Liebe verbunden sind, wie bei Pater <rs type="person" ref="#pmb5169">Mareta</rs>, dem diese kleine persönliche Erinnerung zum
                sechzigjährigen Priestersjubiläum, das er vor wenigen Tagen im Stillen gefeiert hat,
                in Dankbarkeit dargebracht sein möge.</p>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb10883">
+               <persName>
+                  <forename>Alfred von</forename>
+                  <surname>Berger</surname>
+               </persName>
+               <birth>
+                  <date when="1853-04-30">30.04.1853</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1912-08-24">24.08.1912</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13624</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118655930</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10883.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10883/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10883</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=B#DWpers0016</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00280fd5</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38058</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q88890</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Alfred_von_Berger</idno>
+            </person>
+            <person xml:id="pmb5169">
+               <persName>
+                  <forename>Hugo</forename>
+                  <surname>Mareta</surname>
+               </persName>
+               <persName type="person_geburtsname-vorname">Alois</persName>
+               <birth>
+                  <date when="1827-04-11">11.04.1827</date>
+                  <settlement ref="pmb662">
+                     <placeName type="pref">Baden bei Wien</placeName>
+                     <location>
+                        <geo>48,00543 16,23264</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1913-10-31">31.10.1913</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb240">Lehrer/Lehrerin</occupation>
+               <occupation ref="pmb329">Priester/Priesterin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/101719264</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5169/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46334</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1420858</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hugo_Mareta</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00283361</idno>
+            </person>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb11461">
+               <persName>
+                  <forename>Johann Wolfgang von</forename>
+                  <surname>Goethe</surname>
+               </persName>
+               <birth>
+                  <date when="1749-08-28">1749-08-28</date>
+                  <settlement ref="pmb146">
+                     <placeName type="pref">Frankfurt am Main</placeName>
+                     <location>
+                        <geo>50,11552 8,68417</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1832-03-22">1832-03-22</date>
+                  <settlement ref="pmb197">
+                     <placeName type="pref">Weimar</placeName>
+                     <location>
+                        <geo>50,97361 11,33806</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15499</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118540238</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11461.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11461/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11461</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11461.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11461</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46960</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=G#DWpers0080</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q5879</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe</idno>
+               <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/goethe-johann-wolfgang.html</idno>
+               <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_11.html</idno>
+               <idno type="URL" subtype="freud">https://freud.acdh-dev.oeaw.ac.at/frd_person_24.html</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11461.html</idno>
+            </person>
+            <person xml:id="pmb5165">
+               <persName>
+                  <forename>Johann Nepomuk</forename>
+                  <surname>Berger</surname>
+               </persName>
+               <birth>
+                  <date when="1816-09-16">16.09.1816</date>
+                  <settlement ref="pmb51049">
+                     <placeName type="pref">Prostějov</placeName>
+                     <location>
+                        <geo>49,47188 17,11184</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1870-12-09">09.12.1870</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb95">Politiker/Politikerin</occupation>
+               <occupation ref="pmb106">Rechtsanwalt/Rechtsanwältin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116131640</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5165/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp41263</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q86983</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Johann_Nepomuk_Berger_(Politiker)</idno>
+               <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/berger-johann-nepomuk.html</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00280fd7</idno>
+            </person>
+            <person xml:id="pmb12692">
+               <persName>
+                  <forename>Heinrich</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1902-08-09">09.08.1902</date>
+                  <settlement ref="pmb75">
+                     <placeName type="pref">Hinterbrühl</placeName>
+                     <location>
+                        <geo>48,08611 16,24809</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1982-07-12">12.07.1982</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb104">Regisseur/Regisseurin</occupation>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19822</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116848510</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12692.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12692/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12692</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1598804</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Heinrich_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb12692.html</idno>
+            </person>
+            <person xml:id="pmb12695">
+               <persName>
+                  <forename>Johann</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <persName type="person_geburtsname-vorname">János</persName>
+               <birth>
+                  <date when="1835-04-10">10.04.1835</date>
+                  <settlement ref="pmb45549">
+                     <placeName type="pref">Nagykanizsa</placeName>
+                     <location>
+                        <geo>46,45347 16,99104</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1893-05-02">02.05.1893</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb132">Mediziner/Medizinerin &gt;&gt; Laryngologe/Laryngologin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19824</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116848669</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12695.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12695/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12695</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46937</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q86302</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Johann_Schnitzler</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284418</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb31783">
+               <title>Aus meinem Leben. Dichtung und Wahrheit</title>
+               <author ref="pmb11461" role="hat-geschaffen">Goethe, Johann Wolfgang von</author>
+               <date from="1811-01-01" to="1814-07-02">1811  – 1814</date>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31783.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31783/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31783.html</idno>
+               <note type="work_kind">Biografie &gt;&gt; Autobiografie</note>
+            </bibl>
+            <bibl xml:id="pmb32965">
+               <title>Kennst du das Land, wo die Zitronen blühn</title>
+               <author ref="pmb11461" role="hat-geschaffen">Goethe, Johann Wolfgang von</author>
+               <date when="1795-01-01">1795</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32965/</idno>
+               <note type="work_kind">Gedicht</note>
+            </bibl>
+            <bibl xml:id="pmb32963">
+               <title>Jugend von heute und ehemals</title>
+               <title type="werk_bibliografische-angabe">Neue Freie Presse, 6. 8. 1911</title>
+               <author ref="pmb10883" role="hat-geschaffen">Berger, Alfred von</author>
+               <date when="1911-08-06">06.08.1911</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32963/</idno>
+               <note type="work_kind">Text</note>
+            </bibl>
+            <bibl xml:id="pmb36374">
+               <title>Neue Freie Presse</title>
+               <title type="werk_link-anno">http://anno.onb.ac.at/cgi-content/anno?aid=nfp</title>
+               <author ref="pmb10875" role="hat-herausgegeben">Benedikt, Moriz</author>
+               <author ref="pmb10872" role="hat-herausgegeben">Benedikt, Ernst</author>
+               <author ref="pmb10809" role="hat-herausgegeben">Bacher, Eduard</author>
+               <date from="1864-01-01" to="1939-07-02">1864  – 1939</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36374/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36374</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb36374</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+            <place xml:id="pmb8">
+               <placeName>Prater</placeName>
+               <desc type="entity_type">Grünanlage (K.GRN)</desc>
+               <desc type="entity_type_id">9</desc>
+               <location type="coords">
+                  <geo>48,194558 16,430054</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb52">II., Leopoldstadt</placeName>
+                  <geo>48,21667 16,4</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb8.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/8/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb8</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q264752</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wiener_Prater</idno>
+            </place>
+            <place xml:id="pmb69">
+               <placeName>XIX., Döbling</placeName>
+               <placeName type="legacy-name-merge">Döbling</placeName>
+               <placeName type="legacy-name-merge">Wien-Döbling</placeName>
+               <desc type="entity_type">Bezirk (A.BZK)</desc>
+               <desc type="entity_type_id">25</desc>
+               <location type="coords">
+                  <geo>48,25 16,33306</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2780893/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb69.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/69/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/24723/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb69</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64219/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2600996/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb69.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb64219.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/96100/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4079284-5</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q267360</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/D%C3%B6bling</idno>
+            </place>
+            <place xml:id="pmb499">
+               <placeName>Dornbach</placeName>
+               <desc type="entity_type">eingemeindeter Ort (A.VOO)</desc>
+               <desc type="entity_type_id">40</desc>
+               <location type="coords">
+                  <geo>48,230916826952 16,299116267833</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb499.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/499/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb499</idno>
+            </place>
+            <place xml:id="pmb54">
+               <placeName>IV., Wieden</placeName>
+               <desc type="entity_type">Bezirk (A.BZK)</desc>
+               <desc type="entity_type_id">25</desc>
+               <location type="coords">
+                  <geo>48,19198 16,36714</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761393/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/54/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb54</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb54</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb54.html</idno>
+            </place>
+            <place xml:id="pmb574">
+               <placeName>Kahlenberg</placeName>
+               <desc type="entity_type">Berg (N.BRG)</desc>
+               <desc type="entity_type_id">28</desc>
+               <location type="coords">
+                  <geo>48,27617 16,33255</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q697119</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3333525/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb574.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/574/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb574</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb574.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Kahlenberg</idno>
+            </place>
+            <place xml:id="pmb40876">
+               <placeName>Wienerwald</placeName>
+               <desc type="entity_type">Ausflugsziel</desc>
+               <desc type="entity_type_id">62</desc>
+               <location type="coords">
+                  <geo>48,087222 15,911944</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb1003">Niederösterreich</placeName>
+                  <geo>48,33333 15,75</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/40876/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb40876</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q251246</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wienerwald</idno>
+            </place>
+            <place xml:id="pmb40874">
+               <placeName>Wolfgangsee</placeName>
+               <desc type="entity_type">See (N.SEE)</desc>
+               <desc type="entity_type_id">44</desc>
+               <location type="coords">
+                  <geo>47,752778 13,397222</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb429">Salzkammergut</placeName>
+                  <geo>47,75 13,5</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/40874/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb40874</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q871584</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wolfgangsee</idno>
+            </place>
+            <place xml:id="pmb1032">
+               <placeName>Ferienhort Ried</placeName>
+               <desc type="entity_type">Beherbergungsgebäude (K.BHB)</desc>
+               <desc type="entity_type_id">42</desc>
+               <location type="coords">
+                  <geo>47,750167 13,411361</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb33">St. Gilgen</placeName>
+                  <geo>47,76667 13,36667</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1032/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1406315</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ferienhort_am_Wolfgangsee</idno>
+            </place>
+            <place xml:id="pmb1033">
+               <placeName>Frauenstein</placeName>
+               <desc type="entity_type">Bezirk (A.BZK)</desc>
+               <desc type="entity_type_id">25</desc>
+               <location type="coords">
+                  <geo>47,75094 13,40894</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb33">St. Gilgen</placeName>
+                  <geo>47,76667 13,36667</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1033/</idno>
+            </place>
+            <place xml:id="pmb59382">
+               <placeName>Falkenstein</placeName>
+               <desc type="entity_type">Berg (N.BRG)</desc>
+               <desc type="entity_type_id">28</desc>
+               <location type="coords">
+                  <geo>47,75769221079419 13,400760698586335</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb33">St. Gilgen</placeName>
+                  <geo>47,76667 13,36667</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/59382/</idno>
+            </place>
+            <place xml:id="pmb59367">
+               <placeName>Schafberg (St. Gilgen)</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#T.MT</desc>
+               <desc type="entity_type_id">1623</desc>
+               <location type="coords">
+                  <geo>47,77614 13,43439</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb33">St. Gilgen</placeName>
+                  <geo>47,76667 13,36667</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/59367/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2766218/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb59367.html</idno>
+            </place>
+            <place xml:id="pmb59384">
+               <placeName>Zwölferhorn</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#T.MT</desc>
+               <desc type="entity_type_id">1623</desc>
+               <location type="coords">
+                  <geo>47,74239 13,35189</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb33">St. Gilgen</placeName>
+                  <geo>47,76667 13,36667</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/59384/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2760387/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb59384.html</idno>
+            </place>
+            <place xml:id="pmb429">
+               <placeName>Salzkammergut</placeName>
+               <desc type="entity_type">Region</desc>
+               <desc type="entity_type_id">47</desc>
+               <location type="coords">
+                  <geo>47,75 13,5</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q266703</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb429.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/429/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb429</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91651/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2766813/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91651.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Salzkammergut</idno>
+            </place>
+            <place xml:id="pmb213">
+               <placeName>Bad Ischl</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>47,71109 13,61893</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb429">Salzkammergut</placeName>
+                  <geo>47,75 13,5</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2782052/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb213.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/213/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb213</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb213</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb213.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/95979/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4027718-5</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q250984</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Bad_Ischl</idno>
+            </place>
+            <place xml:id="pmb557">
+               <placeName>Schottengymnasium</placeName>
+               <desc type="entity_type">Schule (K.SCH)</desc>
+               <desc type="entity_type_id">35</desc>
+               <location type="coords">
+                  <geo>48,212123158574 16,36442083334</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb557.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/557/</idno>
+            </place>
+            <place xml:id="pmb40306">
+               <placeName>Italien</placeName>
+               <placeName type="alternative-name">Italian Republic</placeName>
+               <placeName type="alternative-name">Republic of Italy</placeName>
+               <placeName type="legacy-name-merge">Italy</placeName>
+               <desc type="entity_type">http://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>42,83333 12,83333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb468">Europa</placeName>
+                  <geo>48,69096 9,14062</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3175395/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/40306/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb40306</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb40306</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb40306.html</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb63444">
+               <orgName>Weltausstellung 1873</orgName>
+               <desc type="entity_type">Ausstellung</desc>
+               <desc type="entity_type_id">1127</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63444/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q871508</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Weltausstellung_1873</idno>
+               <note type="apis_dates">
+                  <date to="1873-11-01">1873-05-01  – 1873-11-01</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

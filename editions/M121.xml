@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="M121">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="M121">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#59068">Zwei Albumblätter von Gerhart Hauptmann und Artur
-               Schnitzler, 5.&#8239;12.&#8239;1916</title>
-            <author ref="#2121">Schnitzler, Arthur</author>
-            <author ref="#11617">Hauptmann, Gerhart</author>
+            <title level="a" ref="#pmb59068">Zwei Albumblätter von Gerhart Hauptmann und Artur
+               Schnitzler, 5. 12. 1916</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
+            <author ref="#pmb11617">Hauptmann, Gerhart</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -29,15 +31,15 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#2121">Schnitzler, Arthur</author>
-                     <author ref="#11617">Hauptmann, Gerhart</author>
-                     <title level="a" ref="#59068">Zwei Albumblätter von Gerhart Hauptmann und Artur
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11617">Hauptmann, Gerhart</author>
+                     <title level="a" ref="#pmb59068">Zwei Albumblätter von Gerhart Hauptmann und Artur
                         Schnitzler. Zum 60. Geburtstag des Schauspielers Oskar Sauer</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#36376">Neues Wiener Journal</title>
+                     <title level="j" ref="#pmb36376">Neues Wiener Journal</title>
                      <imprint>
-                        <date when="1916-12-05" n="1">5.&#8239;12.&#8239;1916</date>
+                        <date when="1916-12-05" n="1">5. 12. 1916</date>
                      </imprint>
                      <biblScope unit="jg">24</biblScope>
                      <biblScope unit="nr">8.299</biblScope>
@@ -46,7 +48,7 @@
                </biblStruct>
                <biblStruct>
                   <monogr>
-                     <title level="m" ref="#59076">Oscar Sauer. Ein Gedenkbuch 1856–1916</title>
+                     <title level="m" ref="#pmb59076">Oscar Sauer. Ein Gedenkbuch 1856–1916</title>
                      <editor>Hg. Siegfried Jacobsohn</editor>
                      <imprint>
                         <date when="1917">1917</date>
@@ -74,21 +76,19 @@
       <body>
          <div type="original">
             <head>Zwei Albumblätter von Gerhart Hauptmann und Artur Schnitzler.</head>
-            <head type="sub">Zum 60. Geburtstag des Schauspielers <rs type="person" ref="#2193"
-                  >Oskar Sauer</rs>.</head>
-            <p>Zu <rs type="person" ref="#2193">Oskar Sauer</rs>s 60. Geburtstag soll unter dem
-               Titel »<rs type="work" ref="#59076">Oskar Sauer. Ein Gedenkbuch 1856 bis 1916</rs>«
-               (bei <rs type="org" ref="#59081">
-                  <anchor type="textConst" xml:id="T_I121-1"/>Oesterheld<note type="textConst"
-                     xml:id="T_I121-1h"><quote>Oesterfeld</quote></note><space unit="chars"
-                     quantity="1"/>
-                  <c rendition="#kaufmannsund"/> Ko.</rs> in <rs type="place" ref="#168"
-               >Berlin</rs>) ein Sammelwerk erscheinen, das von <rs type="person" ref="#11813"
-                  >Siegfried Jacobsohn</rs> herausgegeben und dessen Gesamtertrag einem bestimmten
-               Fonds der <rs type="org" ref="#59074">Genossenschaft deutscher Bühnenangehöriger</rs>
+            <head type="sub">Zum 60. Geburtstag des Schauspielers <rs type="person" ref="#pmb2193">Oskar Sauer</rs>.</head>
+            <p>Zu <rs type="person" ref="#pmb2193">Oskar Sauer</rs>s 60. Geburtstag soll unter dem
+               Titel »<rs type="work" ref="#pmb59076">Oskar Sauer. Ein Gedenkbuch 1856 bis 1916</rs>«
+               (bei <rs type="org" ref="#pmb59081">
+                  <anchor type="textConst" xml:id="T_I121-1"/>Oesterheld<note type="textConst" xml:id="T_I121-1h">
+                     <quote>Oesterfeld</quote>
+                  </note>
+                  <space unit="chars" quantity="1"/>
+                  <c rendition="#kaufmannsund"/> Ko.</rs> in <rs type="place" ref="#pmb168">Berlin</rs>) ein Sammelwerk erscheinen, das von <rs type="person" ref="#pmb11813">Siegfried Jacobsohn</rs> herausgegeben und dessen Gesamtertrag einem bestimmten
+               Fonds der <rs type="org" ref="#pmb59074">Genossenschaft deutscher Bühnenangehöriger</rs>
                zugeführt wird. In diesem Buche schreibt <hi rend="spaced_out">Gerhart Hauptmann</hi>
-               über <rs type="person" ref="#2193">Oskar Sauer</rs> die folgenden Worte:</p>
-            <p>Wer über <rs type="person" ref="#2193">Oskar Sauer</rs> nachdenkt, kommt zu dem
+               über <rs type="person" ref="#pmb2193">Oskar Sauer</rs> die folgenden Worte:</p>
+            <p>Wer über <rs type="person" ref="#pmb2193">Oskar Sauer</rs> nachdenkt, kommt zu dem
                Schluß: Der wahrhaftigste Mensch allein hat Eignung zum größten Schauspieler. Danach
                wäre das Wesen der Schauspielkunst nicht Täuschung, sondern Wahrhaftigkeit – nicht
                Maskerade, sondern Demaskerade – nicht Mummenschanz und Versteckenspiel der Seele,
@@ -99,54 +99,41 @@
                Künstler, der sich, vermöge der hohen Idee universeller Menschlichkeit, begreift,
                sein Selbst erhöht und es in ein zweites, höheres Leben steigert. Das reichste
                Menschentum verfällt, wenn dies Verfahren in Verfall gerät.</p>
-            <p>Es ist wohltätig, reinigend und erhebend, die Gestalt <rs type="person" ref="#2193"
-                  >Oskar Sauer</rs>s, des großen Darstellers, sich hervorzurufen. Man wird es oft
+            <p>Es ist wohltätig, reinigend und erhebend, die Gestalt <rs type="person" ref="#pmb2193">Oskar Sauer</rs>s, des großen Darstellers, sich hervorzurufen. Man wird es oft
                tun, um den Glauben an das deutsche Theater, seine Kraft und Sendung aufrecht zu
                erhalten. Aus seinem Wesen und Wirken ist eine ganze Dramaturgie abzuleiten, die
-               eines der wertvollsten Vermächtnisse für die deutsche Schaubühne sein könnte. In <rs
-                  type="person" ref="#2193">Sauer</rs> verkörpert sich ihr wahrhaft schöpferisches
+               eines der wertvollsten Vermächtnisse für die deutsche Schaubühne sein könnte. In <rs type="person" ref="#pmb2193">Sauer</rs> verkörpert sich ihr wahrhaft schöpferisches
                Vermögen, ihre Moral und höchste Würde.</p>
             <p rend="center">*</p>
             <p>Artur <hi rend="spaced_out">Schnitzler</hi> schreibt: »Wie gern benutze ich den Anlaß
-               seines sechzigsten Geburtstages, um <rs type="person" ref="#2193">Oskar Sauer</rs>
+               seines sechzigsten Geburtstages, um <rs type="person" ref="#pmb2193">Oskar Sauer</rs>
                meine verehrungsvollsten Grüße zu senden. Ich habe diesem außerordentlichen Künstler
-               als <anchor type="commentary" xml:id="K_I121-1"/>Theaterbesucher<note
-                  type="commentary" xml:id="K_I121-1h">Im <rs type="work" ref="#33243">Tagebuch</rs>
+               als <anchor type="commentary" xml:id="K_I121-1"/>Theaterbesucher<note type="commentary" xml:id="K_I121-1h">Im <rs type="work" ref="#pmb33243">Tagebuch</rs>
                   <space unit="chars" quantity="1"/>
-                  <rs type="person" ref="#2121">Schnitzler</rs>s wird <rs type="person" ref="#2193"
-                     >Sauer</rs> erst im Zuge dieser Würdigung erwähnt, nicht jedoch ein besonderes
-                  Theatererlebnis mit ihm. Hingegen wird im Briefwechsel <rs type="person" ref="#2121"
-                     >Schnitzler</rs>s mit <rs type="person" ref="#10986">Otto Brahm</rs> 
+                  <rs type="person" ref="#pmb2121">Schnitzler</rs>s wird <rs type="person" ref="#pmb2193">Sauer</rs> erst im Zuge dieser Würdigung erwähnt, nicht jedoch ein besonderes
+                  Theatererlebnis mit ihm. Hingegen wird im Briefwechsel <rs type="person" ref="#pmb2121">Schnitzler</rs>s mit <rs type="person" ref="#pmb10986">Otto Brahm</rs> 
                   durchwegs positiv auf ihn Bezug genommen.</note> im Laufe der Jahre so viel
                zu danken gehabt, daß ich es eigentlich als überflüssig, wenn nicht als unbescheiden
                empfinden müßte, hier auch noch auszusprechen, was ich ihm als Theaterschriftsteller
-               schuldig geworden bin; aber ich kann mich doch nicht enthalten, nach dem <anchor
-                  type="commentary" xml:id="K_I121-11"/>
-               <rs type="work" subtype="implied" ref="#29971">Gregers Werle</rs>
-               <note type="commentary" xml:id="K_I121-11h">Rolle aus <rs type="work" ref="#29971"
-                     >Die Wildente</rs> (<date>1884</date>) von <rs type="person" ref="#11798"
-                     >Henrik Ibsen</rs>
-               </note> (der wahrscheinlich uns allen zuerst einfällt), dem <anchor type="commentary"
-                  xml:id="K_I121-2"/>
-               <rs type="work" ref="#29955" subtype="implied">Ulrik Brendel</rs>
-               <note type="commentary" xml:id="K_I121-2h">Rolle aus <rs type="work" ref="#29955"
-                     >Rosmersholm</rs> (<date>1886</date>) von <rs type="person" ref="#11798">Henrik
+               schuldig geworden bin; aber ich kann mich doch nicht enthalten, nach dem <anchor type="commentary" xml:id="K_I121-11"/>
+               <rs type="work" subtype="implied" ref="#pmb29971">Gregers Werle</rs>
+               <note type="commentary" xml:id="K_I121-11h">Rolle aus <rs type="work" ref="#pmb29971">Die Wildente</rs> (<date>1884</date>) von <rs type="person" ref="#pmb11798">Henrik Ibsen</rs>
+               </note> (der wahrscheinlich uns allen zuerst einfällt), dem <anchor type="commentary" xml:id="K_I121-2"/>
+               <rs type="work" ref="#pmb29955" subtype="implied">Ulrik Brendel</rs>
+               <note type="commentary" xml:id="K_I121-2h">Rolle aus <rs type="work" ref="#pmb29955">Rosmersholm</rs> (<date>1886</date>) von <rs type="person" ref="#pmb11798">Henrik
                      Ibsen</rs>
                </note>, dem <anchor type="commentary" xml:id="K_I121-3"/>
-               <rs type="work" subtype="implied" ref="#31943">Wehrhahn</rs>
-               <note type="commentary" xml:id="K_I121-3h">Rolle aus <rs type="work" ref="#31943">Der
+               <rs type="work" subtype="implied" ref="#pmb31943">Wehrhahn</rs>
+               <note type="commentary" xml:id="K_I121-3h">Rolle aus <rs type="work" ref="#pmb31943">Der
                      Biberpelz</rs> (<date>1892</date>) von Gerhart Hauptmann</note> und mancherlei
-               andern, sehr bald des Malprofessors <rs type="work" ref="#29985" subtype="implied"
-                  >Wegrat</rs> (aus dem »<rs type="work" ref="#29985">Einsamen Weg</rs>«) zu
+               andern, sehr bald des Malprofessors <rs type="work" ref="#pmb29985" subtype="implied">Wegrat</rs> (aus dem »<rs type="work" ref="#pmb29985">Einsamen Weg</rs>«) zu
                gedenken als einer Gestalt, um deren Haupt es in meiner Erinnerung wie ein Heiligen-
-               oder vielmehr ein Edelschein schwebt, und die durch <rs type="person" ref="#2193"
-                  >Sauer</rs>s Kunst wohl auch anderen Leuten als dem Dichter unvergeßlich geblieben
-               sein mag. Wie kaum einen zweiter Schauspieler war es ja <rs type="person" ref="#2193"
-                  >Oskar Sauer</rs> gegeben, den wahrhaft reinen Menschen darzustellen: – Reinheit
+               oder vielmehr ein Edelschein schwebt, und die durch <rs type="person" ref="#pmb2193">Sauer</rs>s Kunst wohl auch anderen Leuten als dem Dichter unvergeßlich geblieben
+               sein mag. Wie kaum einen zweiter Schauspieler war es ja <rs type="person" ref="#pmb2193">Oskar Sauer</rs> gegeben, den wahrhaft reinen Menschen darzustellen: – Reinheit
                in einer Vollendung, wo sie schon wieder Schuld geworden ist. (Denn nicht nur im
                Uebermut sich über die Welt erheben wollen; auch aus Güte sich nicht in sie finden
                können, ist Schuld vor Gott, Schuld im Geiste der Tragödie – tragische Schuld.) Wir
-               wissen alle, wie vieles <rs type="person" ref="#2193">Sauer</rs> außerdem noch
+               wissen alle, wie vieles <rs type="person" ref="#pmb2193">Sauer</rs> außerdem noch
                gekonnt, gemeistert hat; und es ist nur natürlich, daß gerade die humoristische
                Kehrseite der Reinheit eines seiner bevorzugten Gebiete – daß seine Schauspielkunst
                in der Atmosphäre der Naivität, Einfalt und Beschränkheit gleichfalls wunderbar zu
@@ -156,19 +143,429 @@
                Elemente jener Eigenschaften auffindbar sein müssen: um imstande zu sein, auf der
                Bühne – nicht etwa kleine Herzenstalente, sondern Herzensgenialität glaubhaft und
                lebendig zu machen, muß man einiges davon mit auf die Welt gebracht haben. Und in
-               dieser menschlich-künstlerischen Eigenart, ja Einzigartigkeit <rs type="person"
-                  ref="#2193">Sauer</rs>s ist es wohl begründet, daß – wenn auch mancher große
+               dieser menschlich-künstlerischen Eigenart, ja Einzigartigkeit <rs type="person" ref="#pmb2193">Sauer</rs>s ist es wohl begründet, daß – wenn auch mancher große
                Schauspieler nicht weniger bewundert – gewiß keiner mehr geliebt wurde und wird als
                er.«</p>
          </div>
          <div type="biographical">
             <div1>
-               <ref target="1916-11-17" type="schnitzlerDiary"/>
-               <quote>Dictirte <rs type="work" ref="#30819">Wiederkehr</rs> sozusagen zu Ende. Dann
-                  ein paar Zeilen für <rs type="person" ref="#2193">Sauer</rs> (60. Geburtstag,
-                  Album, <rs type="person" ref="#11813">Jacobsohn</rs> Aufforderung)</quote>
+               <ref target="1916-11-17" type="schnitzler-tagebuch"/>
+               <quote>Dictirte <rs type="work" ref="#pmb30819">Wiederkehr</rs> sozusagen zu Ende. Dann
+                  ein paar Zeilen für <rs type="person" ref="#pmb2193">Sauer</rs> (60. Geburtstag,
+                  Album, <rs type="person" ref="#pmb11813">Jacobsohn</rs> Aufforderung)</quote>
             </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb11617">
+               <persName>
+                  <forename>Gerhart</forename>
+                  <surname>Hauptmann</surname>
+               </persName>
+               <birth>
+                  <date when="1862-11-15">15.11.1862</date>
+                  <settlement ref="pmb64427">
+                     <placeName type="pref">Szczawno-Zdrój</placeName>
+                     <location>
+                        <geo>50,79512 16,22375</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1946-06-06">06.06.1946</date>
+                  <settlement ref="pmb735">
+                     <placeName type="pref">Agnetendorf</placeName>
+                     <location>
+                        <geo>50,816944 15,609444</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15980</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118546937</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11617.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11617/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11617</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11617.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11617</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp44354</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=H#DWpers0097</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q43523</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Gerhart_Hauptmann</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11617.html</idno>
+            </person>
+            <person xml:id="pmb2193">
+               <persName>
+                  <forename>Oskar</forename>
+                  <surname>Sauer</surname>
+               </persName>
+               <birth>
+                  <date when="1856-12-05">05.12.1856</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1918-04-03">03.04.1918</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118794663</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19590</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2193.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2193/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2193</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp52790</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2032956</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Oscar_Sauer</idno>
+            </person>
+            <person xml:id="pmb11813">
+               <persName>
+                  <forename>Siegfried</forename>
+                  <surname>Jacobsohn</surname>
+               </persName>
+               <birth>
+                  <date when="1881-01-28">28.01.1881</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1926-12-03">03.12.1926</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+               <occupation ref="pmb237">Publizist/Publizistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16477</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118556371</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11813.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11813/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11813</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11813</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp53253</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q66477</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Siegfried_Jacobsohn</idno>
+            </person>
+            <person xml:id="pmb10986">
+               <persName>
+                  <forename>Otto</forename>
+                  <surname>Brahm</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Abrahamson</persName>
+               <birth>
+                  <date when="1856-02-05">05.02.1856</date>
+                  <settlement ref="pmb506">
+                     <placeName type="pref">Hamburg</placeName>
+                     <location>
+                        <geo>53,57532 10,01534</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1912-11-28">28.11.1912</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+               <occupation ref="pmb104">Regisseur/Regisseurin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13913</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118514245</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10986.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10986/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10986</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10986.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb10986</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp50936</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q71903</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Otto_Brahm</idno>
+            </person>
+            <person xml:id="pmb11798">
+               <persName>
+                  <forename>Henrik</forename>
+                  <surname>Ibsen</surname>
+               </persName>
+               <birth>
+                  <date when="1828-03-20">20.03.1828</date>
+                  <settlement ref="pmb61065">
+                     <placeName type="pref">Skien</placeName>
+                     <location>
+                        <geo>59,20962 9,60897</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1906-05-23">23.05.1906</date>
+                  <settlement ref="pmb36296">
+                     <placeName type="pref">Oslo</placeName>
+                     <location>
+                        <geo>59,91273 10,74609</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16432</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118555286</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11798.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11798/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11798</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11798.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11798</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp45852</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q36661</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Henrik_Ibsen</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb59076">
+               <title>Oscar Sauer. Ein Gedenkbuch 1856–1916</title>
+               <author ref="pmb11813" role="hat-herausgegeben">Jacobsohn, Siegfried</author>
+               <author ref="pmb2121" role="hat-einen-beitrag-geschaffen-zu">Schnitzler, Arthur</author>
+               <author ref="pmb11617" role="hat-einen-beitrag-geschaffen-zu">Hauptmann, Gerhart</author>
+               <date notBefore="1916-01-01" when="1916-07-01">1916</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/59076/</idno>
+               <note type="work_kind">Textsammlung</note>
+            </bibl>
+            <bibl xml:id="pmb33243">
+               <title>Tagebuch</title>
+               <title type="werk_link">https://schnitzler-tagebuch.acdh.oeaw.ac.at</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <author ref="pmb119261" role="hat-herausgegeben">Braunwarth, Peter Michael</author>
+               <author ref="pmb65504" role="hat-herausgegeben">Urbach, Reinhard</author>
+               <date to="2000-01-01">1981  – 2000</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33243/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33243</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33243.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q108122826</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Tagebuch_(Schnitzler)</idno>
+               <note type="work_kind">Tagebuch</note>
+            </bibl>
+            <bibl xml:id="pmb29971">
+               <title>Die Wildente</title>
+               <author ref="pmb11798" role="hat-geschaffen">Ibsen, Henrik</author>
+               <date notBefore="1884-01-01" when="1884-07-01">1884</date>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29971.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29971/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29971</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29971.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1217608</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Die_Wildente</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb29955">
+               <title>Rosmersholm</title>
+               <author ref="pmb11798" role="hat-geschaffen">Ibsen, Henrik</author>
+               <date notBefore="1886-01-01" when="1886-07-02">1886</date>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29955.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29955/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29955</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29955.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb31943">
+               <title>Der Biberpelz</title>
+               <author ref="pmb11617" role="hat-geschaffen">Hauptmann, Gerhart</author>
+               <date>1893</date>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31943.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31943/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31943.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb29985">
+               <title>Der einsame Weg. Schauspiel in fünf Akten</title>
+               <title type="werk_link">https://archive.org/details/dereinsamewegsc00schngoog/</title>
+               <title type="werk_arbeitstitel">Junggeselle</title>
+               <title type="werk_arbeitstitel">Junggesellenstück</title>
+               <title type="werk_arbeitstitel">Die Egoisten</title>
+               <title type="werk_arbeitstitel">Einsame Wege</title>
+               <title type="werk_arbeitstitel">Wege ins Dunkle</title>
+               <title type="werk_arbeitstitel">Weg zum Licht</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date notBefore="1904-01-01" when="1904-07-01">1904</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.08</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1198519</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-der-einsame-weg</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/31412</idno>
+               <idno type="URL" subtype="archive">https://archive.org/details/dereinsamewegsc00schngoog</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29985.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29985/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29985</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29985.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_einsame_Weg</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb30819">
+               <title>Die Schwestern oder Casanova in Spa. Lustspiel in Versen</title>
+               <title type="werk_bibliografische-angabe">Deutsche Rundschau, Jg. 46, H. 1, Oktober 1919</title>
+               <title type="werk_arbeitstitel">Eifersucht</title>
+               <title type="werk_arbeitstitel">Die Wiederkehr</title>
+               <title type="werk_arbeitstitel">Spion</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1919-10-01">01.10.1919</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.18</idno>
+               <idno type="URL" subtype="babel">https://babel.hathitrust.org/cgi/pt?id=uc1.b3914645</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30819.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30819/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30819</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30819.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q31836217</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Die_Schwestern_oder_Casanova_in_Spa</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb59068">
+               <title>Zwei Albumblätter von Gerhart Hauptmann und Artur Schnitzler. Zum 60. Geburtstag des Schauspielers Oskar Sauer</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <author ref="pmb11617" role="hat-geschaffen">Hauptmann, Gerhart</author>
+               <date when="1916-12-05">1916-12-05</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/59068/</idno>
+               <note type="work_kind">Essay</note>
+            </bibl>
+            <bibl xml:id="pmb36376">
+               <title>Neues Wiener Journal</title>
+               <title type="werk_link-anno">http://anno.onb.ac.at/cgi-content/anno?aid=nwj</title>
+               <author ref="pmb36371" role="hat-einen-beitrag-geschaffen-zu">Papp, Desiderius</author>
+               <author ref="pmb10815" role="hat-einen-beitrag-geschaffen-zu">Bahr, Hermann</author>
+               <date to="1939-01-01">1893  – 1939</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36376/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36376</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb36376</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb168">
+               <placeName>Berlin</placeName>
+               <placeName type="alternative-name">Hauptstadt Berlin</placeName>
+               <placeName type="alternative-name">Barlīn</placeName>
+               <placeName type="alternative-name">Reichshauptstadt Berlin</placeName>
+               <placeName type="alternative-name">Berolino</placeName>
+               <placeName type="legacy-name-merge">B-n</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPLC</desc>
+               <desc type="entity_type_id">1418</desc>
+               <location type="coords">
+                  <geo>52,52437 13,41053</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb151">Deutschland</placeName>
+                  <geo>51,5 10,5</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb168</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92171.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb59081">
+               <orgName>Oesterheld &amp; Co.</orgName>
+               <orgName type="alternative-name">Oesterheld und Co. Verlag (Berlin)</orgName>
+               <desc type="entity_type">Verlag</desc>
+               <desc type="entity_type_id">975</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb168">Berlin</placeName>
+                  <geo>52,52437 13,41053</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb168</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92171.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/59081/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/5325430-2</idno>
+               <note type="apis_dates">
+                  <date notBefore="1906-01-01" when="1906-07-02">1906</date>
+               </note>
+            </org>
+            <org xml:id="pmb59074">
+               <orgName>Genossenschaft deutscher Bühnen-Angehöriger</orgName>
+               <desc type="entity_type">Interessensvertretung</desc>
+               <desc type="entity_type_id">999</desc>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/59074/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb59074</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1502473</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Genossenschaft_Deutscher_B%C3%BChnen-Angeh%C3%B6riger</idno>
+               <note type="apis_dates">
+                  <date when="1871-12-01">1871-12-01</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

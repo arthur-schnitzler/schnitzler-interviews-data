@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="M029">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="M029">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#33003">Die Leichenfeier für Otto Brahm, 2.&#8239;12.&#8239;1912</title>
+            <title level="a" ref="#pmb33003">Die Leichenfeier für Otto Brahm, 2. 12. 1912</title>
             <author/>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -28,13 +30,13 @@
                <biblStruct>
                   <analytic>
                      <author>[O. V.]</author>
-                     <title level="a" ref="#33003">Die Leichenfeier für Otto Brahm. (Telegramm der
+                     <title level="a" ref="#pmb33003">Die Leichenfeier für Otto Brahm. (Telegramm der
                         »Neuen Freien Presse«)</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#36374">Neue Freie Presse</title>
+                     <title level="j" ref="#pmb36374">Neue Freie Presse</title>
                      <imprint>
-                        <date when="1912-12-02" n="1">2.&#8239;12.&#8239;1912</date>
+                        <date when="1912-12-02" n="1">2. 12. 1912</date>
                      </imprint>
                      <biblScope unit="nr">17.342, Nachmittagblatt</biblScope>
                      <biblScope unit="pp">6–7</biblScope>
@@ -54,71 +56,60 @@
          <change who="KH" when="2021-10-13">Durchsicht</change>
       </revisionDesc>
    </teiHeader>
-   <!-- http://anno.onb.ac.at/cgi-content/anno?aid=nfp&datum=19121202&seite=6&zoom=33 -->
    <text type="text">
       <body>
          <div type="original">
-            <head>Die Leichenfeier für <rs type="person" ref="#10986">Otto Brahm</rs>.</head>
-            <head type="sub">(Telegramm der »<rs type="org" ref="#29351">Neuen Freien
+            <head>Die Leichenfeier für <rs type="person" ref="#pmb10986">Otto Brahm</rs>.</head>
+            <head type="sub">(Telegramm der »<rs type="org" ref="#pmb29351">Neuen Freien
                Presse</rs>«.)</head>
             <p rend="right">
-               <rs type="place" ref="#168">
+               <rs type="place" ref="#pmb168">
                   <hi rend="spaced_out">Berlin</hi>
                </rs>, <date>2. Dezember</date>.</p>
-            <p>In der Urnenhalle des neuerbauten <rs type="place" ref="#1039">Berliner
+            <p>In der Urnenhalle des neuerbauten <rs type="place" ref="#pmb1039">Berliner
                   Krematoriums</rs> fand gestern vormittag um <time>10 Uhr</time> die Trauerfeier
-               für <rs type="person" ref="#10986">Otto <hi rend="spaced_out">Brahm</hi>
-               </rs> statt. Die Feuerbestattung erfolgt in <rs type="place" ref="#506">Hamburg</rs>,
-               denn das <rs type="place" ref="#206">preußische</rs> Gesetz, in welchem die <rs
-                  type="place" ref="#206">preußische</rs> Regierung die Leichenverbrennung zwar
+               für <rs type="person" ref="#pmb10986">Otto <hi rend="spaced_out">Brahm</hi>
+               </rs> statt. Die Feuerbestattung erfolgt in <rs type="place" ref="#pmb506">Hamburg</rs>,
+               denn das <rs type="place" ref="#pmb206">preußische</rs> Gesetz, in welchem die <rs type="place" ref="#pmb206">preußische</rs> Regierung die Leichenverbrennung zwar
                endlich erlaubt, zugleich aber den reaktionären Parteien das Zugeständnis gemacht
                hat, sie nach Möglichkeit zu erschweren, enthält die Bestimmung, daß die Leiche nur
                verbrannt werden darf, wenn der Verstorbene dies in einer beglaubigten Urkunde
-               ausdrücklich verfügt hat. Nun hat zwar <rs type="person" ref="#10986">Otto Brahm</rs>
+               ausdrücklich verfügt hat. Nun hat zwar <rs type="person" ref="#pmb10986">Otto Brahm</rs>
                die Verbrennung gewünscht, aber eine beglaubigte Urkunde liegt darüber nicht vor. So
-               kann denn die Feuerbestattung in <rs type="place" ref="#206">Preußen</rs> nicht
-               stattfinden, und muß in <rs type="place" ref="#506">Hamburg</rs> erfolgen, wo das <rs
-                  type="place" ref="#206">preußische</rs> Gesetz keine Geltung hat. Die Trauerfeier
-               aber wurde in <rs type="place" ref="#168">Berlin</rs> veranstaltet.</p>
-            <p>Die <rs type="place" ref="#1040">Urnenhalle</rs> auf dem alten städtischen Friedhof,
-               in der sie stattfand, ist ein vortreffliches Werk der modernen <rs type="place"
-                  ref="#168">Berlin</rs>er Baukunst, die seit etwa einem Jahrzehnt Hervorragendes zu
+               kann denn die Feuerbestattung in <rs type="place" ref="#pmb206">Preußen</rs> nicht
+               stattfinden, und muß in <rs type="place" ref="#pmb506">Hamburg</rs> erfolgen, wo das <rs type="place" ref="#pmb206">preußische</rs> Gesetz keine Geltung hat. Die Trauerfeier
+               aber wurde in <rs type="place" ref="#pmb168">Berlin</rs> veranstaltet.</p>
+            <p>Die <rs type="place" ref="#pmb1040">Urnenhalle</rs> auf dem alten städtischen Friedhof,
+               in der sie stattfand, ist ein vortreffliches Werk der modernen <rs type="place" ref="#pmb168">Berlin</rs>er Baukunst, die seit etwa einem Jahrzehnt Hervorragendes zu
                leisten beginnt. Eine gewisse Feierlichkeit der architektonischen Form im Verein mit
                der dürsteren Färbung des Gesteins bringt im Inneren wie im Aeußern des Ge<pb/>bäudes
                den ernsten Zweck zum Ausdruck, dem es dient. In der Halle war der Sarg aufgestellt,
                von Blumen und Kränzen gänzlich bedeckt; ringsum brannten Lichter. In der ersten
-               Reihe saß als nächster Hinterbliebener <rs type="person" ref="#10986">Otto
-                  Brahms</rs> Bruder, der Schauspieler <rs type="person" ref="#5187">Ludwig <hi
-                     rend="spaced_out">Brahm</hi>
-               </rs> aus <rs type="place" ref="#506">Hamburg</rs>, mit seiner <anchor
-                  type="commentary" xml:id="K_implied_29038"/>
-               <rs type="person" subtype="implied" ref="#29038">Gemahlin</rs>
+               Reihe saß als nächster Hinterbliebener <rs type="person" ref="#pmb10986">Otto
+                  Brahms</rs> Bruder, der Schauspieler <rs type="person" ref="#pmb5187">Ludwig <hi rend="spaced_out">Brahm</hi>
+               </rs> aus <rs type="place" ref="#pmb506">Hamburg</rs>, mit seiner <anchor type="commentary" xml:id="K_implied_29038"/>
+               <rs type="person" subtype="implied" ref="#pmb29038">Gemahlin</rs>
                <note type="commentary" xml:id="K_implied_29038h">
-                  <rs type="person" ref="#29038">Martha Brahm</rs>
+                  <rs type="person" ref="#pmb29038">Martha Brahm</rs>
                </note>. Er war tiefbewegt, denn die beiden Brüder waren einander mit großer Liebe
-               zugetan. Justizrat <rs type="person" ref="#4532">
+               zugetan. Justizrat <rs type="person" ref="#pmb4532">
                   <hi rend="spaced_out">Jonas</hi>
                </rs>, der nächste Freund des Verstorbenen, hatte seinen Platz neben den
-               Familienangehörigen, und auch <rs type="person" ref="#11617">Gerhart <hi
-                     rend="spaced_out">Hauptmann</hi>
+               Familienangehörigen, und auch <rs type="person" ref="#pmb11617">Gerhart <hi rend="spaced_out">Hauptmann</hi>
                </rs> saß in der ersten Reihe der Leidtragenden. Die Trauerversammlung war überaus
                zahlreich, trotz der für die Großstadt verhältnismäßig frühen Stunde und trotz der
-               weiten Entfernung des <rs type="place" ref="#1039">Krematoriums</rs> vom Zentrum der
-               Stadt. Was nur irgend zur <rs type="place" ref="#168">Berlin</rs>er Theaterwelt
+               weiten Entfernung des <rs type="place" ref="#pmb1039">Krematoriums</rs> vom Zentrum der
+               Stadt. Was nur irgend zur <rs type="place" ref="#pmb168">Berlin</rs>er Theaterwelt
                gehört, war erschienen, Direktoren, Schauspieler und Schauspielerinnen. Vollzählig
-               hatte sich das Ensemble des <rs type="place" ref="#18">Lessing-Theaters</rs>
+               hatte sich das Ensemble des <rs type="place" ref="#pmb18">Lessing-Theaters</rs>
                eingefunden. Die Damen alle in Trauerkleidung. Anwesend waren auch alle bekannten
-               Persönlichkeiten des literarischen <rs type="place" ref="#168">Berlin</rs> wie <rs
-                  type="person" ref="#12899">
+               Persönlichkeiten des literarischen <rs type="place" ref="#pmb168">Berlin</rs> wie <rs type="person" ref="#pmb12899">
                   <hi rend="spaced_out">Sudermann</hi>
-               </rs>, <rs type="person" ref="#14328">
+               </rs>, <rs type="person" ref="#pmb14328">
                   <hi rend="spaced_out">Blumenthal</hi>
-               </rs> sowie viele andere, und außer <rs type="person" ref="#11617">Gerhart <hi
-                     rend="spaced_out">Hauptmann</hi>
-               </rs> erwiesen auch noch andere Autoren, deren Werke <rs type="person" ref="#10986"
-                  >Otto Brahm</rs> mit Vorliebe aufgeführt hat, ihm die letzte Ehre. Die modernen
-               Dramatiker <rs type="place" ref="#41240">Oesterreichs</rs> vertrat <rs type="person"
-                  ref="#2121">Artur <hi rend="spaced_out">Schnitzler</hi>
+               </rs> sowie viele andere, und außer <rs type="person" ref="#pmb11617">Gerhart <hi rend="spaced_out">Hauptmann</hi>
+               </rs> erwiesen auch noch andere Autoren, deren Werke <rs type="person" ref="#pmb10986">Otto Brahm</rs> mit Vorliebe aufgeführt hat, ihm die letzte Ehre. Die modernen
+               Dramatiker <rs type="place" ref="#pmb41240">Oesterreichs</rs> vertrat <rs type="person" ref="#pmb2121">Artur <hi rend="spaced_out">Schnitzler</hi>
                </rs>. Die Trauerversammlung füllte den unteren Raum der Halle und die beiden
                Galerien, die sich darüber hinziehen und in deren Hintergrund die Urnen stehen. </p>
             <p>Die Trauerfeier verlief schlicht und würdig: sie begann mit Harmoniumspiel und
@@ -126,21 +117,17 @@
                Verstorbenen Abschied nahmen. Harmoniumspiel und Gesang machten den Schluß. Was die
                einzelnen Ansprachen betrifft, so soll man gewiß über Reden bei einer Trauerfeier
                kein Urteil abgeben, aber auch eine Trauerversammlung empfängt Eindrücke und diese
-               Eindrücke hörte man später dahin formulieren, daß <rs type="person" ref="#11617"
-                  >Gerhart <hi rend="spaced_out">Hauptmanns</hi>
-               </rs> Rede sich vielleicht wärmer lesen wird als sie sich anhörte, daß <rs
-                  type="person" ref="#2121">Artur <hi rend="spaced_out">Schnitzler</hi>
-               </rs> sich der Aufgabe im Namen von Neu-<rs type="place" ref="#41240"
-                  >Oesterreich</rs>, wie er selbst es nannte, zu sprechen in einfacher und vornehmer
+               Eindrücke hörte man später dahin formulieren, daß <rs type="person" ref="#pmb11617">Gerhart <hi rend="spaced_out">Hauptmanns</hi>
+               </rs> Rede sich vielleicht wärmer lesen wird als sie sich anhörte, daß <rs type="person" ref="#pmb2121">Artur <hi rend="spaced_out">Schnitzler</hi>
+               </rs> sich der Aufgabe im Namen von Neu-<rs type="place" ref="#pmb41240">Oesterreich</rs>, wie er selbst es nannte, zu sprechen in einfacher und vornehmer
                Form entledigte und daß diejenigen Worte, die am meisten zu Herzen gingen, eigentlich
-               der künstlerische Gegner des Verstorbenen, der Generalintendant Graf <rs
-                  type="person" ref="#11795">
+               der künstlerische Gegner des Verstorbenen, der Generalintendant Graf <rs type="person" ref="#pmb11795">
                   <hi rend="spaced_out">Hülsen-Haeseler</hi>
                </rs> fand. </p>
-            <head type="sub">Trauerrede <rs type="person" ref="#11617">Gerhart
+            <head type="sub">Trauerrede <rs type="person" ref="#pmb11617">Gerhart
                Hauptmanns</rs>.</head>
             <p>
-               <rs type="person" ref="#11617">Gerhart <hi rend="spaced_out">Hauptmann</hi>
+               <rs type="person" ref="#pmb11617">Gerhart <hi rend="spaced_out">Hauptmann</hi>
                </rs> ergriff zuerst das Wort und sagte folgendes: »Der hier liegt, ist nicht der
                erste Freund, den ich verloren habe, nicht der erste ausgezeichnete Mensch, den die
                Welt verliert, aber solche Verluste sind für die zurückbleibenden Ereignisse von
@@ -170,7 +157,7 @@
                Theaters eine solche Verbindung von drastischer Kraft und ideeller Kraft jemals vor
                ihm dagewesen ist. Er zwang das Theater zu einer ernsten, echten und lebendigen
                Kunst, er brachte es dem Leben und ihm das Leben nahe in einer Weise, wie es bis
-               dahin niemals geschehen ist. Und in <rs type="person" ref="#10986">Brahm</rs>
+               dahin niemals geschehen ist. Und in <rs type="person" ref="#pmb10986">Brahm</rs>
                verkörperte sich eine andere deutsche Eigenschaft: die oft gerühmte, weniger oft
                wirklich anzutreffende deutsche Treue. Nicht nur, daß er sie der Sache hielt, er
                hielt sie auch der Person. Das wissen alle, die ihn gekannt haben und die seine feste
@@ -190,73 +177,67 @@
             <p>Er ehrte sich selbst durch diesen Kampf. Er mehrte den deutschen Kulturbesitz, und
                dieses Bewußtsein genügte ihm. Rücksicht auf andere äußere Ehre kannte er nicht. Aber
                der <anchor type="commentary" xml:id="K_implied_5190"/>
-               <rs type="person" subtype="implied" ref="#5190">König von Norwegen</rs>
+               <rs type="person" subtype="implied" ref="#pmb5190">König von Norwegen</rs>
                <note type="commentary" xml:id="K_implied_5190h">
-                  <rs type="person" ref="#5190">Christian Haakon VII.</rs>
-               </note> hat gerade darum diesen <rs type="work" ref="#32997">Ritter von Geist</rs>,
-               diesen Ritter von deutschem Geist zum Ritter des <rs type="org" ref="#29242">Sankt
+                  <rs type="person" ref="#pmb5190">Christian Haakon VII.</rs>
+               </note> hat gerade darum diesen <rs type="work" ref="#pmb32997">Ritter von Geist</rs>,
+               diesen Ritter von deutschem Geist zum Ritter des <rs type="org" ref="#pmb29242">Sankt
                   Olaf-Ordens</rs> geschlagen.</p>
             <p>Wir aber, wie ehren wir diesen Mann? Indem wir sein lebendiges Werk erhalten und
                fortsetzen! Das Werk, dessen Bedeutsamkeit sich dem Betrachter immer tiefer und
                tiefer erschließt. Es hat auf einer gewissen Ebene die Einheit von Kunst und Volk zum
                Ereignis gemacht. Das Theater ist in ihm gleichsam zum Atmungsorgan der Volksseele
                geworden. Er gab dem Abseitigen, eigentlich Volks- und Weltfremden die schlichte
-               Kraft einer naturnotwendigen Funktion. Wir danken dir, lieber <rs type="person"
-                  ref="#10986">Brahm</rs>, für alles, was du so hingebungsvoll für deutsche Art und
+               Kraft einer naturnotwendigen Funktion. Wir danken dir, lieber <rs type="person" ref="#pmb10986">Brahm</rs>, für alles, was du so hingebungsvoll für deutsche Art und
                Kunst geleistet hast, und ich danke dir für deine niemals schwankende Freundestreue.
                Ich sage dir ade, ade, du ausgezeichneter, treuer Mensch, Mann und Freund.« </p>
-            <head type="sub">Die Trauerrede <rs type="person" ref="#2121">Artur
+            <head type="sub">Die Trauerrede <rs type="person" ref="#pmb2121">Artur
                Schnitzlers</rs>.</head>
-            <p>Die Rede <rs type="person" ref="#2121">Artur <hi rend="spaced_out">Schnitzlers</hi>
-               </rs> bei der Trauerfeier für <rs type="person" ref="#10986">Otto Brahm</rs> hatte
-               ungefähr folgenden <anchor type="commentary" xml:id="KT115-2"/>Wortlaut<note
-                  type="commentary" xml:id="KT115-2h">Die Grabrede auf Papier des <rs type="place"
-                     ref="#1090">Hotels Adlon</rs> heute im <bibl>
+            <p>Die Rede <rs type="person" ref="#pmb2121">Artur <hi rend="spaced_out">Schnitzlers</hi>
+               </rs> bei der Trauerfeier für <rs type="person" ref="#pmb10986">Otto Brahm</rs> hatte
+               ungefähr folgenden <anchor type="commentary" xml:id="KT115-2"/>Wortlaut<note type="commentary" xml:id="KT115-2h">Die Grabrede auf Papier des <rs type="place" ref="#pmb1090">Hotels Adlon</rs> heute im <bibl>
                      <publisher>DLA Marbach</publisher>, HS.NZ85.1.93</bibl>. <bibl>Abgedruckt in
                         <title level="j">Neue Zürcher Zeitung</title>, Nr. 425,
                         <date>13. 9. 1970</date>, Beilage Literatur und Kunst</bibl>. </note>: </p>
-            <p>»Es ist heute gerade eine Woche, daß ich <rs type="person" ref="#10986">Otto
+            <p>»Es ist heute gerade eine Woche, daß ich <rs type="person" ref="#pmb10986">Otto
                   Brahm</rs> das letztemal gesehen habe. Es war ein Sonntag wie heute, heller und
                schöner als heute. Er kam eben von einem Spaziergang zurück, seinem allerletzten.
                Denn für den nächsten Tag stand ihm der schwere Gang bevor, von dem er in sein Heim
                nicht mehr wiederkehren sollte, und auch noch in dieser Stunde, die schon von
                schweren Schatten umdunkelt war, zeigte er für allerlei Angelegenheiten, die mehr
-               mich berührten, als ihn und ihm in diesem Augenblicke recht <anchor type="textConst"
-                  xml:id="TT115-1"/>geringfügig<note type="textConst" xml:id="TT115-1h"
-                     ><quote>gringfügig</quote></note> erscheinen mochten, das gleiche
+               mich berührten, als ihn und ihm in diesem Augenblicke recht <anchor type="textConst" xml:id="TT115-1"/>geringfügig<note type="textConst" xml:id="TT115-1h">
+                  <quote>gringfügig</quote>
+               </note> erscheinen mochten, das gleiche
                teilnehmende Interesse wie auch sonst. Und als ich ihn verließ mit bösen Ahnungen, da
                ging mir die ganze Zeit unserer Bekanntschaft, unseres Verbundenseins durch den Sinn,
                und ich dachte insbesondere an den Anfang unserer Beziehungen, dachte an eine kleine
                Feier, die an seinem <anchor type="commentary" xml:id="KT115-1"/>vierzigsten
                   Geburtstage<note type="commentary" xml:id="KT115-1h">eigentlich am Vorabend des
-                  Geburtstags, am <date>4.&#8239;2.&#8239;1896</date>, unmittelbar im Anschluss an die <rs
-                     type="place" ref="#168">Berliner</rs> Premiere von <rs type="work" ref="#29917"
-                     >Liebelei</rs>
+                  Geburtstags, am <date>4. 2. 1896</date>, unmittelbar im Anschluss an die <rs type="place" ref="#pmb168">Berliner</rs> Premiere von <rs type="work" ref="#pmb29917">Liebelei</rs>
                </note> stattfand und bei der ich das erstemal öffentlich vor einem kleinen Kreise
                das Wort an ihn gerichtet habe. Es galt damals, ihm zu danken für das schöne
                Verständnis, das er einem meiner ersten Werke entgegengebracht hatte. Und heute an
                seinem Sarg stehe ich wieder da, um ihm zu danken. Heute nicht für mich allein,
                sondern auch <hi rend="spaced_out">im Namen meiner Landsleute, im Namen jenes neuen
                   literarischen </hi>
-               <rs type="place" ref="#41240">
+               <rs type="place" ref="#pmb41240">
                   <hi rend="spaced_out">Oesterreich</hi>
                </rs>
                <hi rend="spaced_out">, dem er so viel Verständnis und Liebe entgegengebracht hat. In
                   den Anfängen manchmal vielleicht mehr Liebe als die Heimat selbst.</hi>
             </p>
             <p>Mir persönlich ist er ein Freund gewesen, wie einem im Leben nur wenige beschieden
-               sind. Und <anchor type="textConst" xml:id="TT115-2"/>läge<note type="textConst"
-                  xml:id="TT115-2h"><quote>länge</quote></note> hier auch nicht der <rs
-                  type="person" ref="#10986">Otto Brahm</rs>, der dem deutschen Theater und der
+               sind. Und <anchor type="textConst" xml:id="TT115-2"/>läge<note type="textConst" xml:id="TT115-2h">
+                  <quote>länge</quote>
+               </note> hier auch nicht der <rs type="person" ref="#pmb10986">Otto Brahm</rs>, der dem deutschen Theater und der
                deutschen Kulturgeschichte angehört, den Freund, den wunderbaren Menschen könnte mein
-               Herz nie vergessen. Fahre wohl, <rs type="person" ref="#10986">Otto Brahm</rs>!«</p>
-            <head type="sub">Die Rede des Grafen <rs type="person" ref="#11795"
-               >Hülsen-Haeseler</rs>.</head>
-            <p>Generalintendant Graf <rs type="person" ref="#11795">
+               Herz nie vergessen. Fahre wohl, <rs type="person" ref="#pmb10986">Otto Brahm</rs>!«</p>
+            <head type="sub">Die Rede des Grafen <rs type="person" ref="#pmb11795">Hülsen-Haeseler</rs>.</head>
+            <p>Generalintendant Graf <rs type="person" ref="#pmb11795">
                   <hi rend="spaced_out">Hülsen-Haeseler</hi>
-               </rs> hielt im Namen des <rs type="org" ref="#29769">Bühnenvereines</rs> die
+               </rs> hielt im Namen des <rs type="org" ref="#pmb29769">Bühnenvereines</rs> die
                folgendes Rede: </p>
-            <p>»In tiefer, ernster Trauer treten auch wir vom <rs type="org" ref="#29769">Deutschen
+            <p>»In tiefer, ernster Trauer treten auch wir vom <rs type="org" ref="#pmb29769">Deutschen
                   Bühnenverein</rs> hier an diese Bahre. Gilt es doch, Abschied zu nehmen von einem
                langjährigen treuen Kollegen, der uns viel gewesen ist als Künstler wie als Mensch.
                Achtzehn Jahre hindurch hat er unter uns gewirkt in stiller Arbeit mit großem Willen
@@ -274,31 +255,854 @@
                niederlegen, so tun wir dies mit tiefer Wehmut im Herzen und mit der stummen Frage an
                das Schicksal, warum es der Besten einen zu früh aus unserer Mitte riß. Friede seiner
                Asche! Ehre seinem Andenken!«</p>
-            <p>Es sprachen noch für die Schauspieler des <rs type="place" ref="#18"
-                  >Lessings-Theaters</rs>
+            <p>Es sprachen noch für die Schauspieler des <rs type="place" ref="#pmb18">Lessings-Theaters</rs>
                <space unit="chars" quantity="1"/>
-               <rs type="person" ref="#12491">Emanuel <hi rend="spaced_out">Reicher</hi>
-               </rs>, ferner Dr. <rs type="person" ref="#12671">Paul <hi rend="spaced_out"
-                     >Schlenther</hi>
+               <rs type="person" ref="#pmb12491">Emanuel <hi rend="spaced_out">Reicher</hi>
+               </rs>, ferner Dr. <rs type="person" ref="#pmb12671">Paul <hi rend="spaced_out">Schlenther</hi>
                </rs>. Unter den Klängen des Chors »Ruhe sanft!« endete die Feier.</p>
          </div>
          <div type="biographical">
             <div1>
-               <ref target="1912-11-29" type="schnitzlerDiary"/>
-               <quote>ich allein durch den <rs type="place" ref="#36914">Thiergarten</rs> ins Hotel,
-                  Worte für <rs type="person" ref="#10986">Brahm</rs>s Trauerfeier
+               <ref target="1912-11-29" type="schnitzler-tagebuch"/>
+               <quote>ich allein durch den <rs type="place" ref="#pmb36914">Thiergarten</rs> ins Hotel,
+                  Worte für <rs type="person" ref="#pmb10986">Brahm</rs>s Trauerfeier
                   bedenkend.–</quote>
             </div1>
             <div1>
-               <ref target="1912-12-01" type="schnitzlerDiary"/>
-               <quote>Mit <rs type="person" ref="#2173">O.</rs> und <rs type="person" ref="#10788"
-                     >Raoul Auernheimer</rs> in die Urnenhalle. Legte einen Kranz nieder. <rs
-                     type="person" ref="#11617">Hauptmann</rs> sprach, dann <rs type="person"
-                     ref="#11795">Hülsen</rs>, dann ich (frei, und völlig unbefangen), <rs
-                     type="person" ref="#12491">Reicher</rs>, <rs type="person" ref="#12671"
-                     >Schlenther</rs>.–</quote>
+               <ref target="1912-12-01" type="schnitzler-tagebuch"/>
+               <quote>Mit <rs type="person" ref="#pmb2173">O.</rs> und <rs type="person" ref="#pmb10788">Raoul Auernheimer</rs> in die Urnenhalle. Legte einen Kranz nieder. <rs type="person" ref="#pmb11617">Hauptmann</rs> sprach, dann <rs type="person" ref="#pmb11795">Hülsen</rs>, dann ich (frei, und völlig unbefangen), <rs type="person" ref="#pmb12491">Reicher</rs>, <rs type="person" ref="#pmb12671">Schlenther</rs>.–</quote>
             </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb10986">
+               <persName>
+                  <forename>Otto</forename>
+                  <surname>Brahm</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Abrahamson</persName>
+               <birth>
+                  <date when="1856-02-05">05.02.1856</date>
+                  <settlement ref="pmb506">
+                     <placeName type="pref">Hamburg</placeName>
+                     <location>
+                        <geo>53,57532 10,01534</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1912-11-28">28.11.1912</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+               <occupation ref="pmb104">Regisseur/Regisseurin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13913</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118514245</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10986.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10986/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10986</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10986.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb10986</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp50936</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q71903</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Otto_Brahm</idno>
+            </person>
+            <person xml:id="pmb5187">
+               <persName>
+                  <forename>Ludwig</forename>
+                  <surname>Brahm</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Abrahamson</persName>
+               <birth>
+                  <date when="1862-05-28">28.05.1862</date>
+                  <settlement ref="pmb506">
+                     <placeName type="pref">Hamburg</placeName>
+                     <location>
+                        <geo>53,57532 10,01534</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1926-06-27">27.06.1926</date>
+                  <settlement ref="pmb424">
+                     <placeName type="pref">Bad Tölz</placeName>
+                     <location>
+                        <geo>47,76111 11,5589</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116004029</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13912</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5187/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q18601770</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ludwig_Brahm</idno>
+            </person>
+            <person xml:id="pmb29038">
+               <persName>
+                  <forename>Martha</forename>
+                  <surname>Brahm</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Biesenthal</persName>
+               <birth>
+                  <date when="1868-03-18">1868-03-18</date>
+                  <settlement ref="pmb506">
+                     <placeName type="pref">Hamburg</placeName>
+                     <location>
+                        <geo>53,57532 10,01534</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1966-07-29">1966-07-29</date>
+                  <settlement ref="pmb37116">
+                     <placeName type="pref">Los Angeles</placeName>
+                     <location>
+                        <geo>34,05223 -118,24368</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29038/</idno>
+            </person>
+            <person xml:id="pmb4532">
+               <persName>
+                  <forename>Paul</forename>
+                  <surname>Jonas</surname>
+               </persName>
+               <birth>
+                  <date when="1850-09-28">28.09.1850</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1916-02-11">11.02.1916</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb106">Rechtsanwalt/Rechtsanwältin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117175668</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16574</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb4532.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4532/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb4532</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb4532</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1499153</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Paul_Jonas_(Anwalt)</idno>
+            </person>
+            <person xml:id="pmb11617">
+               <persName>
+                  <forename>Gerhart</forename>
+                  <surname>Hauptmann</surname>
+               </persName>
+               <birth>
+                  <date when="1862-11-15">15.11.1862</date>
+                  <settlement ref="pmb64427">
+                     <placeName type="pref">Szczawno-Zdrój</placeName>
+                     <location>
+                        <geo>50,79512 16,22375</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1946-06-06">06.06.1946</date>
+                  <settlement ref="pmb735">
+                     <placeName type="pref">Agnetendorf</placeName>
+                     <location>
+                        <geo>50,816944 15,609444</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15980</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118546937</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11617.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11617/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11617</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11617.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11617</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp44354</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=H#DWpers0097</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q43523</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Gerhart_Hauptmann</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11617.html</idno>
+            </person>
+            <person xml:id="pmb12899">
+               <persName>
+                  <forename>Hermann</forename>
+                  <surname>Sudermann</surname>
+               </persName>
+               <birth>
+                  <date when="1857-09-30">30.09.1857</date>
+                  <settlement ref="pmb58616">
+                     <placeName type="pref">Macikai</placeName>
+                     <location>
+                        <geo>55,35468 21,52004</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1928-11-21">21.11.1928</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20563</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118619853</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12899.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12899/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12899</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12899.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp45949</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q65448</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hermann_Sudermann</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb12899.html</idno>
+            </person>
+            <person xml:id="pmb14328">
+               <persName>
+                  <forename>Oskar</forename>
+                  <surname>Blumenthal</surname>
+               </persName>
+               <persName type="legacy-name-merge">Blumenthal, Oscar</persName>
+               <birth>
+                  <date when="1852-03-13">13.03.1852</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1917-04-24">24.04.1917</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13808</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb14328.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/14328/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118659111</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb14328</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb14328</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp50878</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q71567</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Oscar_Blumenthal</idno>
+            </person>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb11795">
+               <persName>
+                  <forename>Georg von</forename>
+                  <surname>Hülsen-Haeseler</surname>
+               </persName>
+               <birth>
+                  <date when="1858-07-15">15.07.1858</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1922-06-21">21.06.1922</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16407</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117049107</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11795/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11795</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46365</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q107326</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Georg_von_H%C3%BClsen-Haeseler</idno>
+            </person>
+            <person xml:id="pmb5190">
+               <persName>
+                  <forename>Christian</forename>
+                  <surname>Haakon VII. von Norwegen</surname>
+               </persName>
+               <persName type="person_geburtsname-vorname">Christian</persName>
+               <persName type="person_geburtsname_nachname">Frederik von Dänemark und Island</persName>
+               <birth>
+                  <date when="1872-08-03">03.08.1872</date>
+                  <settlement ref="pmb39526">
+                     <placeName type="pref">Gentofte Kommune</placeName>
+                     <location>
+                        <geo>55,75 12,55</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1951-09-21">21.09.1951</date>
+                  <settlement ref="pmb36296">
+                     <placeName type="pref">Oslo</placeName>
+                     <location>
+                        <geo>59,91273 10,74609</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb109">Regent/Regentin &gt;&gt; König/Königin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118719688</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5190/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp48019</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q154927</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Haakon_VII.</idno>
+            </person>
+            <person xml:id="pmb12491">
+               <persName>
+                  <forename>Emanuel</forename>
+                  <surname>Reicher</surname>
+               </persName>
+               <birth>
+                  <date when="1849-06-18">18.06.1849</date>
+                  <settlement ref="pmb59412">
+                     <placeName type="pref">Bochnia</placeName>
+                     <location>
+                        <geo>49,96905 20,43028</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1924-05-15">15.05.1924</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19126</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116398949</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12491.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12491/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12491</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp42589</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q87440</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Emanuel_Reicher</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x002840d0</idno>
+            </person>
+            <person xml:id="pmb12671">
+               <persName>
+                  <forename>Paul</forename>
+                  <surname>Schlenther</surname>
+               </persName>
+               <birth>
+                  <date when="1854-08-20">20.08.1854</date>
+                  <settlement ref="pmb48092">
+                     <placeName type="pref">Chernyakhovsk</placeName>
+                     <location>
+                        <geo>54,63345 21,81557</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1916-04-30">30.04.1916</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+               <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19724</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118795112</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12671.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12671/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12671</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb12671</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp51242</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x002851cc</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q194574</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Paul_Schlenther</idno>
+            </person>
+            <person xml:id="pmb2173">
+               <persName>
+                  <forename>Olga</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Gussmann</persName>
+               <persName type="person_pseudonym">Dina Marius</persName>
+               <persName type="legacy-name-merge">Schnitzler, Olga</persName>
+               <birth>
+                  <date when="1882-01-17">17.01.1882</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1970-01-13">13.01.1970</date>
+                  <settlement ref="pmb885">
+                     <placeName type="pref">Lugano</placeName>
+                     <location>
+                        <geo>46,01008 8,96004</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <occupation ref="pmb107">Sänger/Sängerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116848723</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2173.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2173/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19832</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2173</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp50811</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q55884531</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2173.html</idno>
+            </person>
+            <person xml:id="pmb10788">
+               <persName>
+                  <forename>Raoul</forename>
+                  <surname>Auernheimer</surname>
+               </persName>
+               <birth>
+                  <date when="1876-04-15">15.04.1876</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1948-01-06">06.01.1948</date>
+                  <settlement ref="pmb47770">
+                     <placeName type="pref">Oakland</placeName>
+                     <location>
+                        <geo>37,80437 -122,2708</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13305</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505033</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10788.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10788/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10788</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10788.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb10788</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp52017</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00280eba</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q85479</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Raoul_Auernheimer</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb10788.html</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb32997">
+               <title>Die Ritter vom Geiste</title>
+               <author ref="pmb11555" role="hat-geschaffen">Gutzkow, Karl</author>
+               <date when="1850-01-01">1850</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32997/</idno>
+               <note type="work_kind">Text</note>
+            </bibl>
+            <bibl xml:id="pmb29917">
+               <title>Liebelei. Schauspiel in drei Akten</title>
+               <title type="werk_link">https://www.deutschestextarchiv.de/book/show/schnitzler_liebelei_1896</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date>1895-10-09</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.27</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1823758</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-liebelei</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/31062</idno>
+               <idno type="URL" subtype="deutschestextarchiv">http://www.deutschestextarchiv.de/book/show/schnitzler_liebelei_1896</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29917.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29917/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29917</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29917.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Liebelei</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb33003">
+               <title>Die Leichenfeier für Otto Brahm</title>
+               <title type="werk_bibliografische-angabe">Neue Freie Presse, 2. 12. 1912</title>
+               <date when="1912-12-02">02.12.1912</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33003/</idno>
+               <note type="work_kind">Text</note>
+            </bibl>
+            <bibl xml:id="pmb36374">
+               <title>Neue Freie Presse</title>
+               <title type="werk_link-anno">http://anno.onb.ac.at/cgi-content/anno?aid=nfp</title>
+               <author ref="pmb10875" role="hat-herausgegeben">Benedikt, Moriz</author>
+               <author ref="pmb10872" role="hat-herausgegeben">Benedikt, Ernst</author>
+               <author ref="pmb10809" role="hat-herausgegeben">Bacher, Eduard</author>
+               <date from="1864-01-01" to="1939-07-02">1864  – 1939</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36374/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36374</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb36374</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb168">
+               <placeName>Berlin</placeName>
+               <placeName type="alternative-name">Hauptstadt Berlin</placeName>
+               <placeName type="alternative-name">Barlīn</placeName>
+               <placeName type="alternative-name">Reichshauptstadt Berlin</placeName>
+               <placeName type="alternative-name">Berolino</placeName>
+               <placeName type="legacy-name-merge">B-n</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPLC</desc>
+               <desc type="entity_type_id">1418</desc>
+               <location type="coords">
+                  <geo>52,52437 13,41053</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb151">Deutschland</placeName>
+                  <geo>51,5 10,5</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb168</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92171.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
+            </place>
+            <place xml:id="pmb1039">
+               <placeName>Krematorium Wedding</placeName>
+               <desc type="entity_type">Friedhof (K.FRH)</desc>
+               <desc type="entity_type_id">51</desc>
+               <location type="coords">
+                  <geo>52,54516 13,36601</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb168">Berlin</placeName>
+                  <geo>52,52437 13,41053</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb1040">Urnenfriedhof Wedding</placeName>
+                  <geo>52,54555 13,36601</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1039/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q21037157</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Krematorium_Berlin-Wedding</idno>
+               <note type="apis_dates">
+                  <date from="1910-01-01" to="2001-07-02">1910  – 2001</date>
+               </note>
+            </place>
+            <place xml:id="pmb506">
+               <placeName>Hamburg</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>53,57532 10,01534</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb151">Deutschland</placeName>
+                  <geo>51,5 10,5</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1055</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb506.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/506/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44883/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4023118-5</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb506</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64301/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2911298/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb506</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb506.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hamburg</idno>
+            </place>
+            <place xml:id="pmb206">
+               <placeName>Preußen</placeName>
+               <desc type="entity_type">Land (A.LND)</desc>
+               <desc type="entity_type_id">38</desc>
+               <location type="coords">
+                  <geo>52,0 13,0</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q38872</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb206.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/206/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb206</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb206.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Preu%C3%9Fen</idno>
+               <note type="apis_dates">
+                  <date when="1947-07-02" notAfter="1947-12-31">1947</date>
+               </note>
+            </place>
+            <place xml:id="pmb1040">
+               <placeName>Urnenfriedhof Wedding</placeName>
+               <desc type="entity_type">Friedhof (K.FRH)</desc>
+               <desc type="entity_type_id">51</desc>
+               <location type="coords">
+                  <geo>52,54555 13,36601</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb168">Berlin</placeName>
+                  <geo>52,52437 13,41053</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1040/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2500925</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Urnenfriedhof_Gerichtstra%C3%9Fe</idno>
+            </place>
+            <place xml:id="pmb18">
+               <placeName>Lessing-Theater</placeName>
+               <desc type="entity_type">Theater (K.THE)</desc>
+               <desc type="entity_type_id">4</desc>
+               <location type="coords">
+                  <geo>52,5225 13,376389</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb168">Berlin</placeName>
+                  <geo>52,52437 13,41053</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb34999">Kapelle-Ufer</placeName>
+                  <geo>52,52315 13,374789</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q261757</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb18.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/18/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb18</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Lessingtheater_(Berlin)</idno>
+            </place>
+            <place xml:id="pmb41240">
+               <placeName>Österreich</placeName>
+               <placeName type="alternative-name">Republik Österreich</placeName>
+               <placeName type="alternative-name">Republic of Austria</placeName>
+               <placeName type="legacy-name-merge">Deutsch Österreich</placeName>
+               <placeName type="legacy-name-merge">Altoesterreich</placeName>
+               <desc type="entity_type">http://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb687">Österreich-Ungarn</placeName>
+                  <geo>48,4054 16,4887</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2782113/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41240/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41240</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb41240</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92143/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92203/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92143.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92203.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb41240.html</idno>
+            </place>
+            <place xml:id="pmb1090">
+               <placeName>Hotel Adlon</placeName>
+               <desc type="entity_type">Hotel (K.HTL)</desc>
+               <desc type="entity_type_id">12</desc>
+               <location type="coords">
+                  <geo>52,515833 13,380556</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb168">Berlin</placeName>
+                  <geo>52,52437 13,41053</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb216">Unter den Linden</placeName>
+                  <geo>52,51699 13,38832</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1090/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb1090</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb1090</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q698095</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hotel_Adlon</idno>
+               <note type="apis_dates">
+                  <date notBefore="1907-01-01" when="1907-07-02">1907</date>
+               </note>
+            </place>
+            <place xml:id="pmb36914">
+               <placeName>Tiergarten</placeName>
+               <placeName type="alternative-name">Tiergarten (Berlin)</placeName>
+               <placeName type="alternative-name">Berlin-Tiergarten</placeName>
+               <desc type="entity_type">Bezirk (A.BZK)</desc>
+               <desc type="entity_type_id">25</desc>
+               <location type="coords">
+                  <geo>52,516666 13,366666</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb168">Berlin</placeName>
+                  <geo>52,52437 13,41053</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb151">Deutschland</placeName>
+                  <geo>51,5 10,5</geo>
+               </location>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4087345-6</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36914/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb36914</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91893/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2822224/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91893.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q328672</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin-Tiergarten</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb29351">
+               <orgName>Neue Freie Presse</orgName>
+               <orgName type="werk_link-anno">http://anno.onb.ac.at/info/nfp_info.htm</orgName>
+               <desc type="entity_type">Tageszeitungsredaktion</desc>
+               <desc type="entity_type_id">972</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb716">Fichtegasse</placeName>
+                  <geo>48,203009170069 16,375663258442</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb716.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/716/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb716</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb63189">Schubertring</placeName>
+                  <geo>48,20281 16,37602</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63189/</idno>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29351.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29351/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29351</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb29351</idno>
+               <note type="apis_dates">
+                  <date to="1939-02-01">1864-09-01  – 1939-02-01</date>
+               </note>
+            </org>
+            <org xml:id="pmb29242">
+               <orgName>Sankt-Olav-Orden</orgName>
+               <desc type="entity_type">Auszeichnung</desc>
+               <desc type="entity_type_id">987</desc>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29242.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29242/</idno>
+            </org>
+            <org xml:id="pmb29769">
+               <orgName>Deutscher Bühnenverein Berlin</orgName>
+               <desc type="entity_type">Verein</desc>
+               <desc type="entity_type_id">974</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb168">Berlin</placeName>
+                  <geo>52,52437 13,41053</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb168</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92171.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb57117">Schellingstraße (Berlin)</placeName>
+                  <geo>52,50601010119616 13,373239969526331</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/57117/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb57117</idno>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29769.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29769/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb29769</idno>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

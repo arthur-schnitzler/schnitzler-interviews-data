@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="M180">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="M180">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#88345">Arthur Schnitzler: [Pressemitteilung zur Berliner Aufführung von Liebelei],
-               13.&#160;3.&#160;1895</title>
-            <author ref="#2121">Schnitzler, Arthur</author>
+            <title level="a" ref="#pmb88345">Arthur Schnitzler: [Pressemitteilung zur Berliner Aufführung von Liebelei],
+               13. 3. 1895</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -25,7 +27,7 @@
             <idno type="asi" n="180"/>
          </publicationStmt>
          <sourceDesc>
-            <origDate when="1895-03-13" n="1">13.&#160;3.&#160;1895</origDate>
+            <origDate when="1895-03-13" n="1">13. 3. 1895</origDate>
             <listWit>
                <witness n="1">
                   <msDesc>
@@ -46,9 +48,9 @@
             <listBibl>
                <biblStruct>
                   <monogr>
-                     <title level="j" ref="#41264">Wiener Abendpost</title>
+                     <title level="j" ref="#pmb41264">Wiener Abendpost</title>
                      <imprint>
-                        <date when="1895-03-13" n="1">13.&#8239;3.&#8239;1895</date>
+                        <date when="1895-03-13" n="1">13. 3. 1895</date>
                      </imprint>
                      <biblScope unit="nr">60</biblScope>
                      <biblScope unit="pp">3</biblScope>
@@ -56,9 +58,9 @@
                </biblStruct>
                <biblStruct>
                   <monogr>
-                     <title level="j" ref="#36376">Neues Wiener Journal</title>
+                     <title level="j" ref="#pmb36376">Neues Wiener Journal</title>
                      <imprint>
-                        <date when="1895-03-14">14.&#8239;3.&#8239;1895</date>
+                        <date when="1895-03-14">14. 3. 1895</date>
                      </imprint>
                      <biblScope unit="nr">498</biblScope>
                      <biblScope unit="pp">5</biblScope>
@@ -66,9 +68,9 @@
                </biblStruct>
                <biblStruct>
                   <monogr>
-                     <title level="j" ref="#36374">Neue Freie Presse</title>
+                     <title level="j" ref="#pmb36374">Neue Freie Presse</title>
                      <imprint>
-                        <date when="1895-03-14">14.&#8239;3.&#8239;1895</date>
+                        <date when="1895-03-14">14. 3. 1895</date>
                      </imprint>
                      <biblScope unit="nr">10.975, Morgenblatt</biblScope>
                      <biblScope unit="pp">7</biblScope>
@@ -76,9 +78,9 @@
                </biblStruct>
                <biblStruct>
                   <monogr>
-                     <title level="j" ref="#41189">Die Presse</title>
+                     <title level="j" ref="#pmb41189">Die Presse</title>
                      <imprint>
-                        <date when="1895-03-14">14.&#8239;3.&#8239;1895</date>
+                        <date when="1895-03-14">14. 3. 1895</date>
                      </imprint>
                      <biblScope unit="jg">48</biblScope>
                      <biblScope unit="nr">72</biblScope>
@@ -87,9 +89,9 @@
                </biblStruct>
                <biblStruct>
                   <monogr>
-                     <title level="j" ref="#41321">Neues Wiener Tagblatt</title>
+                     <title level="j" ref="#pmb41321">Neues Wiener Tagblatt</title>
                      <imprint>
-                        <date when="1895-03-14">14.&#8239;3.&#8239;1895</date>
+                        <date when="1895-03-14">14. 3. 1895</date>
                      </imprint>
                      <biblScope unit="jg">29</biblScope>
                      <biblScope unit="nr">72</biblScope>
@@ -112,33 +114,300 @@
    <text type="article">
       <body>
          <div type="original">
-            <head><supplied>Pressemitteilung</supplied></head>
-            <p>»<rs type="work" ref="#29917">Liebelei</rs>«, das dreiaktige Schauspiel von Arthur
+            <head>
+               <supplied>Pressemitteilung</supplied>
+            </head>
+            <p>»<rs type="work" ref="#pmb29917">Liebelei</rs>«, das dreiaktige Schauspiel von Arthur
                Schnitzler, welches eine der <anchor type="commentary" xml:id="K_M180-1"/>nächsten
                   Novitäten<note type="commentary" xml:id="K_M180-1h">Die Uraufführung war zwar für
-                     <date>März 1895</date> geplant, verschob sich aber bis zum <ref
-                     type="schnitzlerDiary" subtype="date-only" target="1895-10-09"/>.</note> des
-                  <rs type="org" ref="#36247">Burgtheater</rs>s sein <subst>
+                     <date>März 1895</date> geplant, verschob sich aber bis zum <ref type="schnitzler-tagebuch" subtype="date-only" target="1895-10-09"/>.</note> des
+                  <rs type="org" ref="#pmb36247">Burgtheater</rs>s sein <subst>
                   <del rend="strikethrough">soll</del>
                   <add place="above">dürfte</add>
-               </subst>, ist auch vom <anchor type="commentary" xml:id="K_M180-2"/><rs type="org"
-                  ref="#35597">deutschen Theater</rs><note type="commentary" xml:id="K_M180-2h">Die
-                     <rs type="place" ref="#168">Berlin</rs>er Premiere fand am <ref
-                        type="schnitzlerDiary" subtype="date-only" target="1896-02-04"/> statt, <rs type="person" ref="#2299">Agnes Sorma</rs>
-                     gab die <rs type="work" ref="#29917" subtype="implied">Christine</rs>.</note>
-               in <rs type="place" ref="#168">Berlin</rs> zur Aufführung angenommen worden. Es wird
-               dort in der nächsten Saison mit <rs type="person" ref="#2299"><hi rend="latintype"
-                     >Agnes Sorma</hi></rs> in der weiblichten Hauptrolle in Scene gehen.</p>
+               </subst>, ist auch vom <anchor type="commentary" xml:id="K_M180-2"/>
+               <rs type="org" ref="#pmb35597">deutschen Theater</rs>
+               <note type="commentary" xml:id="K_M180-2h">Die
+                     <rs type="place" ref="#pmb168">Berlin</rs>er Premiere fand am <ref type="schnitzler-tagebuch" subtype="date-only" target="1896-02-04"/> statt, <rs type="person" ref="#pmb2299">Agnes Sorma</rs>
+                     gab die <rs type="work" ref="#pmb29917" subtype="implied">Christine</rs>.</note>
+               in <rs type="place" ref="#pmb168">Berlin</rs> zur Aufführung angenommen worden. Es wird
+               dort in der nächsten Saison mit <rs type="person" ref="#pmb2299">
+                  <hi rend="latintype">Agnes Sorma</hi>
+               </rs> in der weiblichten Hauptrolle in Scene gehen.</p>
          </div>
          <div type="biographical">
             <div1>
-               <ref type="schnitzlerDiary" target="1895-03-14"/>
-               <quote>In den Ztg. durch mich Notiz <rs type="work" ref="#29917">Liebelei</rs><space
-                     unit="chars" quantity="1"/><rs type="org" ref="#35597">Dtsch.
-                     Theater</rs><space unit="chars" quantity="1"/><rs type="person" ref="#2299"
-                     >Sorma</rs>.―</quote>
+               <ref type="schnitzler-tagebuch" target="1895-03-14"/>
+               <quote>In den Ztg. durch mich Notiz <rs type="work" ref="#pmb29917">Liebelei</rs>
+                  <space unit="chars" quantity="1"/>
+                  <rs type="org" ref="#pmb35597">Dtsch.
+                     Theater</rs>
+                  <space unit="chars" quantity="1"/>
+                  <rs type="person" ref="#pmb2299">Sorma</rs>.―</quote>
             </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb2299">
+               <persName>
+                  <forename>Agnes</forename>
+                  <surname>Sorma</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Zaremba</persName>
+               <persName type="namensvariante">Pallatschek</persName>
+               <persName type="person_ehename_nachname">da Minotto</persName>
+               <persName type="legacy-name-merge">Sorma, Agnes</persName>
+               <birth>
+                  <date when="1862-05-17">17.05.1862</date>
+                  <settlement ref="pmb677">
+                     <placeName type="pref">Breslau</placeName>
+                     <location>
+                        <geo>51,10773 17,03533</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1927-02-10">10.02.1927</date>
+                  <settlement ref="pmb36613">
+                     <placeName type="pref">Crown King</placeName>
+                     <location>
+                        <geo>34,20559 -112,3385</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118798073</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2299.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2299/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20219</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2299</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp37875</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q121950</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Agnes_Sorma</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb29917">
+               <title>Liebelei. Schauspiel in drei Akten</title>
+               <title type="werk_link">https://www.deutschestextarchiv.de/book/show/schnitzler_liebelei_1896</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date>1895-10-09</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.27</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1823758</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-liebelei</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/31062</idno>
+               <idno type="URL" subtype="deutschestextarchiv">http://www.deutschestextarchiv.de/book/show/schnitzler_liebelei_1896</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29917.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29917/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29917</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29917.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Liebelei</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb41264">
+               <title>Wiener Abendpost</title>
+               <title type="wien-geschichte-wiki">https://www.geschichtewiki.wien.gv.at/Wiener_Abendpost</title>
+               <title type="werk_link">http://anno.onb.ac.at/cgi-content/anno?aid=wrz</title>
+               <date to="1921-12-31">1.7.1863  – 31.12.1921</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41264/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41264</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+            <bibl xml:id="pmb36376">
+               <title>Neues Wiener Journal</title>
+               <title type="werk_link-anno">http://anno.onb.ac.at/cgi-content/anno?aid=nwj</title>
+               <author ref="pmb36371" role="hat-einen-beitrag-geschaffen-zu">Papp, Desiderius</author>
+               <author ref="pmb10815" role="hat-einen-beitrag-geschaffen-zu">Bahr, Hermann</author>
+               <date to="1939-01-01">1893  – 1939</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36376/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36376</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb36376</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+            <bibl xml:id="pmb36374">
+               <title>Neue Freie Presse</title>
+               <title type="werk_link-anno">http://anno.onb.ac.at/cgi-content/anno?aid=nfp</title>
+               <author ref="pmb10875" role="hat-herausgegeben">Benedikt, Moriz</author>
+               <author ref="pmb10872" role="hat-herausgegeben">Benedikt, Ernst</author>
+               <author ref="pmb10809" role="hat-herausgegeben">Bacher, Eduard</author>
+               <date from="1864-01-01" to="1939-07-02">1864  – 1939</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36374/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36374</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb36374</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+            <bibl xml:id="pmb41189">
+               <title>Die Presse</title>
+               <title type="werk_link">http://anno.onb.ac.at/cgi-content/anno?aid=apr</title>
+               <date when="1848-07-03">1848-07-03</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41189/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41189</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+            <bibl xml:id="pmb41321">
+               <title>Neues Wiener Tagblatt</title>
+               <title type="werk_link">http://anno.onb.ac.at/cgi-content/anno?aid=nwg</title>
+               <title type="namensvariante">Neues Wiener Abendblatt</title>
+               <date to="1945-01-01">1867  – 1945</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41321/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41321</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb41321</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1654066</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Neues_Wiener_Tagblatt</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb168">
+               <placeName>Berlin</placeName>
+               <placeName type="alternative-name">Hauptstadt Berlin</placeName>
+               <placeName type="alternative-name">Barlīn</placeName>
+               <placeName type="alternative-name">Reichshauptstadt Berlin</placeName>
+               <placeName type="alternative-name">Berolino</placeName>
+               <placeName type="legacy-name-merge">B-n</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPLC</desc>
+               <desc type="entity_type_id">1418</desc>
+               <location type="coords">
+                  <geo>52,52437 13,41053</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb151">Deutschland</placeName>
+                  <geo>51,5 10,5</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb168</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92171.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb36247">
+               <orgName>Burgtheater</orgName>
+               <orgName type="alternative-name">Burgtheater GmbH</orgName>
+               <desc type="entity_type">Theater</desc>
+               <desc type="entity_type_id">1012</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb51.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36789/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51010/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2775259/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb51</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb51</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb14">Burgtheater</placeName>
+                  <geo>48,210333 16,361139</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb14.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/14/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb14</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb14.html</idno>
+                  <idno type="URL" subtype="geonames">https://www.geonames.org/6354992/</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb44649">Schlosstheater Schönbrunn</placeName>
+                  <geo>48,186667 16,3125</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44649/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb44649</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2244724</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Schlosstheater_Sch%C3%B6nbrunn</idno>
+               </location>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/38633-9</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36247/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36247</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb36247</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q308720</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Burgtheater</idno>
+               <note type="apis_dates">
+                  <date notBefore="1852-01-01" when="1852-07-01">1852</date>
+               </note>
+            </org>
+            <org xml:id="pmb35597">
+               <orgName>Deutsches Theater Berlin</orgName>
+               <orgName type="alternative-name">Deutsches Theater</orgName>
+               <desc type="entity_type">Theater</desc>
+               <desc type="entity_type_id">1012</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb168">Berlin</placeName>
+                  <geo>52,52437 13,41053</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb168</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92171.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb3">Deutsches Theater Berlin</placeName>
+                  <geo>52,524444 13,382222</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb3</idno>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q703955</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4058252-8</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35597/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb35597</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb35597</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Deutsches_Theater_Berlin</idno>
+               <note type="apis_dates">
+                  <date notBefore="1849-01-01" when="1849-07-02">1849</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

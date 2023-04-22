@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I011">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="I011">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#32917">David Ewen: Schnitzler, Old, Admires America’s Young
-               Vigor, 11.&#8239;1.&#8239;1931</title>
-            <author ref="#11277">Ewen, David</author>
+            <title level="a" ref="#pmb32917">David Ewen: Schnitzler, Old, Admires America’s Young
+               Vigor, 11. 1. 1931</title>
+            <author ref="#pmb11277">Ewen, David</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -28,14 +30,14 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#11277">Ewen, David</author>
-                     <title level="a" ref="#32917">Schnitzler, Old, Admires America’s Young Vigor.
+                     <author ref="#pmb11277">Ewen, David</author>
+                     <title level="a" ref="#pmb32917">Schnitzler, Old, Admires America’s Young Vigor.
                         Is sorry He Put Off Coming Until Too Late</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#58357">The World</title>
+                     <title level="j" ref="#pmb58357">The World</title>
                      <imprint>
-                        <date when="1931-01-11" n="1">11.&#8239;1.&#8239;1931</date>
+                        <date when="1931-01-11" n="1">11. 1. 1931</date>
                      </imprint>
                      <biblScope unit="jg">71</biblScope>
                      <biblScope unit="nr">25.345</biblScope>
@@ -64,31 +66,28 @@
                <graphic url="./images/1931-ewen-vigor.jpg" width="3.5cm"/>
             </figure>
             <caption>
-               <rs type="person" ref="#2121">Arthur Schnitzler</rs>
+               <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>
             </caption>
          </div>
          <div type="original" xml:lang="en-US">
             <head>
-               <rs type="person" ref="#2121">Schnitzler</rs>, Old, Admires <rs type="place"
-                  ref="#175">America</rs>’s Young Vigor.</head>
+               <rs type="person" ref="#pmb2121">Schnitzler</rs>, Old, Admires <rs type="place" ref="#pmb175">America</rs>’s Young Vigor.</head>
             <head type="sub">Is sorry He Put Off Coming Until Too Late</head>
             <head type="sub">By David Ewen</head>
-            <p>Now, that <rs type="person" ref="#2121">Arthur Schnitzler</rs>, the famous German
+            <p>Now, that <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>, the famous German
                novelist and playwright, is growing old his deepest regret is that he has never
-               visited <rs type="place" ref="#175">America</rs>. It is true that men far older than
-               he have successfully made the trip across the ocean. Only recently, Sir <rs
-                  type="person" ref="#5194">George Henschel</rs>, the <rs type="place" ref="#254"
-                  >English</rs> composer and conductor came here to help the <rs type="org"
-                  ref="#29427">Boston Symphony Orchestra</rs>, celebrate its fiftieth anniversary –
-               and Sir <rs type="person" ref="#5194">George</rs> has already seen his eightieth
-               year. A man, however, is as old as he feels – and, though <rs type="person"
-                  ref="#2121">Arthur Schnitzler</rs> is only sixty-eight, he feels much, much,
+               visited <rs type="place" ref="#pmb175">America</rs>. It is true that men far older than
+               he have successfully made the trip across the ocean. Only recently, Sir <rs type="person" ref="#pmb5194">George Henschel</rs>, the <rs type="place" ref="#pmb254">English</rs> composer and conductor came here to help the <rs type="org" ref="#pmb29427">Boston Symphony Orchestra</rs>, celebrate its fiftieth anniversary –
+               and Sir <rs type="person" ref="#pmb5194">George</rs> has already seen his eightieth
+               year. A man, however, is as old as he feels – and, though <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> is only sixty-eight, he feels much, much,
                older. His face is deeply wrinkled. His eyes are dull and appear sad and tired over
                heavy bags, he walks with a heavy gait and with stooped back. In spirit and in flesh
                he is already an old man.</p>
             <p>But though he is old and feels that death cannot be very far away, there is by no
                means any melancholy or despair in him.</p>
-            <p><ref target="#q168" type="question"/><anchor type="label" xml:id="I011_L2_todie"/>»Younger men than I have been known to die,« he said softly and peacefully – one
+            <p>
+               <ref target="#q168" type="question"/>
+               <anchor type="label" xml:id="I011_L2_todie"/>»Younger men than I have been known to die,« he said softly and peacefully – one
                could easily see that the contemplation of death did not frighten him in the least.
                »I have worked hard during my life, and when the time comes I am quite prepared to
                go. Of course, as long as life is spared me so long will there be more and more work
@@ -97,110 +96,462 @@
                am always ready to drop my pen, because I feel and know that I have lived both wisely
                and well during my lifetime. At least my conscience in that direction is clear.«</p>
             <head type="sub">
-               <rs type="place" ref="#175">America</rs> Today Is <rs type="place" ref="#468"
-                  >Europe</rs> Tomorrow</head>
-            <p><ref target="#q130" type="question"/>And a moment, later he added, as though in afterthought: »But I do have one deep
+               <rs type="place" ref="#pmb175">America</rs> Today Is <rs type="place" ref="#pmb468">Europe</rs> Tomorrow</head>
+            <p>
+               <ref target="#q130" type="question"/>And a moment, later he added, as though in afterthought: »But I do have one deep
                regret. My greatest sorrow at present is that I have never visited your remarkable
-                  <rs type="place" ref="#175">country</rs>, and therefore have never had the
+                  <rs type="place" ref="#pmb175">country</rs>, and therefore have never had the
                enviable opportunity of seeing it and studying it at first hand. And, unfortunately,
                I am now too old to remedy this!«</p>
-            <p><anchor type="label" xml:id="I011_L1_bookcase"></anchor>We were sitting on the comfortably soft couch in <rs type="person" ref="#2121">Arthur
-                  Schnitzler’s</rs> charming study. The walls are <anchor type="textConst"
-                  xml:id="T_I011-1"/>covered<note type="textConst" xml:id="T_I011-1h"
-                     ><quote>cov</quote></note> with bookcases heavily lined with books. One of
-               these bookcases, modestly covered by a velvet curtain, contains all of <rs
-                  type="person" ref="#2121">Arthur Schnitzler</rs>’s works in all translated
+            <p>
+               <anchor type="label" xml:id="I011_L1_bookcase"/>We were sitting on the comfortably soft couch in <rs type="person" ref="#pmb2121">Arthur
+                  Schnitzler’s</rs> charming study. The walls are <anchor type="textConst" xml:id="T_I011-1"/>covered<note type="textConst" xml:id="T_I011-1h">
+                  <quote>cov</quote>
+               </note> with bookcases heavily lined with books. One of
+               these bookcases, modestly covered by a velvet curtain, contains all of <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>’s works in all translated
                languages. The one window of the room looks out upon a luxuriously fertile <anchor type="commentary" xml:id="K_I011-1"/>garden,
-               where during the spring, summer and early autumn Dr. <rs type="person" ref="#2121"
-                  >Schnitzler</rs> does all of his writing<note type='commentary' xml:id="K_I011-1h">das dürfte er nicht gesagt haben; die Aussage, dass er nicht im Freien
-                     arbeite, ist wahrscheinlich richtig: <ref target="#I072_L1_gartenarbeit" type="pointer"/></note>. It was rapidly becoming dusk, and the
-               room – as we were talking – was becoming suffused with a serene, mellow darkness. <rs
-                  type="person" ref="#2121">Schnitzler</rs> did not trouble putting on the light. He
-               was buried in the softness of the couch and he was quietly speaking to me about <rs
-                  type="place" ref="#175">America</rs>.</p>
-            <p><ref target="#q169" type="question"/>»I have no illusions about <rs type="place" ref="#175">America</rs> being something
+               where during the spring, summer and early autumn Dr. <rs type="person" ref="#pmb2121">Schnitzler</rs> does all of his writing<note type="commentary" xml:id="K_I011-1h">das dürfte er nicht gesagt haben; die Aussage, dass er nicht im Freien
+                     arbeite, ist wahrscheinlich richtig: <ref target="#I072_L1_gartenarbeit" type="pointer"/>
+               </note>. It was rapidly becoming dusk, and the
+               room – as we were talking – was becoming suffused with a serene, mellow darkness. <rs type="person" ref="#pmb2121">Schnitzler</rs> did not trouble putting on the light. He
+               was buried in the softness of the couch and he was quietly speaking to me about <rs type="place" ref="#pmb175">America</rs>.</p>
+            <p>
+               <ref target="#q169" type="question"/>»I have no illusions about <rs type="place" ref="#pmb175">America</rs> being something
                of a Utopia in the miniature,« he said, »for I well know that it is nothing of the
-               sort. But <rs type="place" ref="#175">America</rs> interests me profoundly – and has
+               sort. But <rs type="place" ref="#pmb175">America</rs> interests me profoundly – and has
                interested me for many years already – because it obviously points the way to the
                future. Whether we are at harmony with this future or not; whether, even, this future
                is a desirable one, is beside the point – nor is it a question I would care
                particularly to discuss now. The fact remains that this future is almost inevitable,
-               and whether we like it or not we must accept it. Tomorrow <rs type="place" ref="#468"
-                  >Europe</rs> will be what <rs type="place" ref="#175">America</rs> is today – and
-               if we are interested in ourselves we must inevitably be interested in <rs
-                  type="place" ref="#175">America</rs> too. You have led the way in industry,
+               and whether we like it or not we must accept it. Tomorrow <rs type="place" ref="#pmb468">Europe</rs> will be what <rs type="place" ref="#pmb175">America</rs> is today – and
+               if we are interested in ourselves we must inevitably be interested in <rs type="place" ref="#pmb175">America</rs> too. You have led the way in industry,
                politics and finance. I frankly feel that it will not be very long before you will
                likewise lead the way in matters artistic too.</p>
-            <head type="sub">Says <rs type="place" ref="#468">Europe</rs> Lacks Our Vigor In
+            <head type="sub">Says <rs type="place" ref="#pmb468">Europe</rs> Lacks Our Vigor In
                Literature</head>
-            <p><ref target="#q169" type="question"/>»From what I have heard and from what I have read I have gathered the fact that <rs
-                  type="place" ref="#175">America</rs> is creating a new, unique form of art and
+            <p>
+               <ref target="#q169" type="question"/>»From what I have heard and from what I have read I have gathered the fact that <rs type="place" ref="#pmb175">America</rs> is creating a new, unique form of art and
                culture – a type uniquely its own and one which strongly points toward being the art
-               and culture of the future. That is why I was so eager to visit <rs type="place"
-                  ref="#175">America</rs>, to try to feel its atmosphere and spirit and to try,
+               and culture of the future. That is why I was so eager to visit <rs type="place" ref="#pmb175">America</rs>, to try to feel its atmosphere and spirit and to try,
                perhaps, to understand it. Unfortunately, I procrastinated too long.«</p>
             <p>Dr. Schnitzler was speaking about our unique art. Was he, perhaps, acquainted with
                our literature?</p>
-            <p><ref target="#q170" type="question"/>»Quite naturally, many of your writers have time and again come to my notice – and
+            <p>
+               <ref target="#q170" type="question"/>»Quite naturally, many of your writers have time and again come to my notice – and
                from time to time I have come across much that impressed me very, very deeply. Names
                at the moment elude me. But I can say, at the very least, that you have two
-               outstanding great novelists, and certainly at least one profound dramatist. Both <rs
-                  type="person" ref="#6859">Theodore Dreiser</rs> and <rs type="person" ref="#60597"
-                  >Sinclair Lewis</rs> (Note: At the time of the conversation it was not yet known
-               that <rs type="person" ref="#60597">Sinclair Lewis</rs> was the <rs type="org"
-                  ref="#29679">Nobel prize</rs> winner) have contributed something new and original
-               to the novel. We <rs type="place" ref="#468">Europeans</rs> find a vigor and vitality
-               in both <rs type="person" ref="#6859">Dreiser</rs> and <rs type="person" ref="#60597"
-                  >Lewis</rs> which is simply lacking over here. Such prose – palpitant and alive –
-               could have come only from an <rs type="place" ref="#175">American</rs>. And such
-               messages, as their novels express, are intrinsically <rs type="place" ref="#175"
-                  >American</rs>. As for <rs type="person" ref="#5198">Eugene O’Neill</rs>, he is to
-               me one of the greatest figures in contemporary drama. I personally, found his ›<rs
-                  type="work" ref="#33191">Strange Interlude</rs>‹ to be prolix and outmoded; this
+               outstanding great novelists, and certainly at least one profound dramatist. Both <rs type="person" ref="#pmb6859">Theodore Dreiser</rs> and <rs type="person" ref="#pmb60597">Sinclair Lewis</rs> (Note: At the time of the conversation it was not yet known
+               that <rs type="person" ref="#pmb60597">Sinclair Lewis</rs> was the <rs type="org" ref="#pmb29679">Nobel prize</rs> winner) have contributed something new and original
+               to the novel. We <rs type="place" ref="#pmb468">Europeans</rs> find a vigor and vitality
+               in both <rs type="person" ref="#pmb6859">Dreiser</rs> and <rs type="person" ref="#pmb60597">Lewis</rs> which is simply lacking over here. Such prose – palpitant and alive –
+               could have come only from an <rs type="place" ref="#pmb175">American</rs>. And such
+               messages, as their novels express, are intrinsically <rs type="place" ref="#pmb175">American</rs>. As for <rs type="person" ref="#pmb5198">Eugene O’Neill</rs>, he is to
+               me one of the greatest figures in contemporary drama. I personally, found his ›<rs type="work" ref="#pmb33191">Strange Interlude</rs>‹ to be prolix and outmoded; this
                business of the ›aside‹ is neither original nor of artistic importance, it seems to
                me. It is such a naive trick to tell what is in a character’s mind which a little bit
                of subtlety would have accomplished with far more aptness. But in his earlier plays –
-               in ›<rs type="work" ref="#60603">All God's Chillun Got Wings</rs>‹, and in his ›<rs
-                  type="work" ref="#60605">Emperor Jones</rs>‹ – he is a truly great figure. These
-               plays grew out of <rs type="place" ref="#175">American</rs> soil. Their supreme
+               in ›<rs type="work" ref="#pmb60603">All God's Chillun Got Wings</rs>‹, and in his ›<rs type="work" ref="#pmb60605">Emperor Jones</rs>‹ – he is a truly great figure. These
+               plays grew out of <rs type="place" ref="#pmb175">American</rs> soil. Their supreme
                strength lies not only in the fact that, taken from artistic standards, they are
                great plays, but also in the fact that these plays could not possibly have come from
-               a <rs type="place" ref="#468">European</rs> pen. In the drama, as well as in the
-               novel, <rs type="place" ref="#175">America</rs> is now fully emancipated.</p>
-            <p><ref target="#q169" type="question"/>»But what impresses me most about <rs type="place" ref="#175">America</rs> is its
+               a <rs type="place" ref="#pmb468">European</rs> pen. In the drama, as well as in the
+               novel, <rs type="place" ref="#pmb175">America</rs> is now fully emancipated.</p>
+            <p>
+               <ref target="#q169" type="question"/>»But what impresses me most about <rs type="place" ref="#pmb175">America</rs> is its
                remarkably experimental nature, it is constantly alert to new ideas and thoughts, far
-               more alert than <rs type="place" ref="#468">Europe</rs> can hope to be. Take such
+               more alert than <rs type="place" ref="#pmb468">Europe</rs> can hope to be. Take such
                inventions as the motion picture – and now the talking picture and the radio and, you
-               will find that in <rs type="place" ref="#175">America</rs> these have become in a
-               bewilderingly short time, an integral part of <rs type="place" ref="#175"
-                  >American</rs> life. Such open-mindedness to new things has, undoubtedly, given
-                  <rs type="place" ref="#175">America</rs> the reputation of constantly pursuing new
+               will find that in <rs type="place" ref="#pmb175">America</rs> these have become in a
+               bewilderingly short time, an integral part of <rs type="place" ref="#pmb175">American</rs> life. Such open-mindedness to new things has, undoubtedly, given
+                  <rs type="place" ref="#pmb175">America</rs> the reputation of constantly pursuing new
                fads. But this, far from being a regrettable state of affairs, is to me most
                commendable. It is a healthy condition in which it is comparatively easy to make
                gigantic strides forward in the future in scientific and artistic matters. It is the
                proper soil in which fruit can blossom with most fertility.</p>
-            <p><ref target="#q171" type="question"/>»You say in <rs type="place" ref="#175">America</rs> that the drama is dying? To me,
+            <p>
+               <ref target="#q171" type="question"/>»You say in <rs type="place" ref="#pmb175">America</rs> that the drama is dying? To me,
                of course, such a fear is ridiculous. An art can never die. True, drama, because of
                certain inevitable conditions, is in a sort of stagnancy: fluctuating periods of
                stagnation and fertility are inevitable in the life of every art. But to say it is
-               dead, especially when you <rs type="place" ref="#175">Americans</rs> have a man like
-                  <rs type="person" ref="#5198">Eugene O’Neill</rs> in your midst, is futile
+               dead, especially when you <rs type="place" ref="#pmb175">Americans</rs> have a man like
+                  <rs type="person" ref="#pmb5198">Eugene O’Neill</rs> in your midst, is futile
                pessimism.</p>
-            <p><ref target="#q172" type="question"/>»Talking pictures can never replace the spoken drama. I do not deny the importance of
+            <p>
+               <ref target="#q172" type="question"/>»Talking pictures can never replace the spoken drama. I do not deny the importance of
                the talking picture as a new type of artistic expression – but it is a type of
                artistic expression different from the spoken drama. Talking pictures may supplement
                the drama, but they will never supplant it. At its best it will be eighth lively art
-               – and an art in which. I am confident. <rs type="place" ref="#175">America</rs> will
+               – and an art in which. I am confident. <rs type="place" ref="#pmb175">America</rs> will
                prove to be supreme.«</p>
          </div>
          <div type="biographical">
             <div1>
-               <ref type="schnitzlerDiary" target="1930-08-15"/>
-               <quote>Nm. <rs type="person" ref="#11277">David Ewes</rs>, junger Journalist <rs
-                     type="place" ref="#44053">New York</rs>, dem ich ein Interview abgeschlagen;
+               <ref type="schnitzler-tagebuch" target="1930-08-15"/>
+               <quote>Nm. <rs type="person" ref="#pmb11277">David Ewes</rs>, junger Journalist <rs type="place" ref="#pmb44053">New York</rs>, dem ich ein Interview abgeschlagen;
                   Gespräch.–</quote>
             </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb11277">
+               <persName>
+                  <forename>David</forename>
+                  <surname>Ewen</surname>
+               </persName>
+               <birth>
+                  <date when="1907-11-26">26.11.1907</date>
+                  <settlement ref="pmb46224">
+                     <placeName type="pref">Lviv</placeName>
+                     <location>
+                        <geo>49,83826 24,02324</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1985-12-28">28.12.1985</date>
+                  <settlement ref="pmb45749">
+                     <placeName type="pref">Miami</placeName>
+                     <location>
+                        <geo>25,77427 -80,19366</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14828</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/1089844891</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11277/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q9202613</idno>
+            </person>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb5194">
+               <persName>
+                  <forename>George</forename>
+                  <surname>Henschel</surname>
+               </persName>
+               <persName type="person_geburtsname-vorname">Georg</persName>
+               <birth>
+                  <date when="1850-02-18">18.02.1850</date>
+                  <settlement ref="pmb677">
+                     <placeName type="pref">Breslau</placeName>
+                     <location>
+                        <geo>51,10773 17,03533</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1934-09-10">10.09.1934</date>
+                  <settlement ref="pmb55351">
+                     <placeName type="pref">Aviemore</placeName>
+                     <location>
+                        <geo>57,19553 -3,8259</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb107">Sänger/Sängerin</occupation>
+               <occupation ref="pmb131">Dirigent/Dirigentin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116719710</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5194/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64238</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/George_Henschel</idno>
+            </person>
+            <person xml:id="pmb6859">
+               <persName>
+                  <forename>Theodore</forename>
+                  <surname>Dreiser</surname>
+               </persName>
+               <birth>
+                  <date when="1871-08-27">27.08.1871</date>
+                  <settlement ref="pmb48329">
+                     <placeName type="pref">Terre Haute</placeName>
+                     <location>
+                        <geo>39,4667 -87,41391</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1945-12-28">28.12.1945</date>
+                  <settlement ref="pmb38174">
+                     <placeName type="pref">Hollywood</placeName>
+                     <location>
+                        <geo>26,0112 -80,14949</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14510</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118527355</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/6859/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp54060</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q486096</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Theodore_Dreiser</idno>
+            </person>
+            <person xml:id="pmb60597">
+               <persName>
+                  <forename>Sinclair</forename>
+                  <surname>Lewis</surname>
+               </persName>
+               <birth>
+                  <date when="1885-05-07">1885-05-07</date>
+                  <settlement ref="pmb60599">
+                     <placeName type="pref">Sauk Centre</placeName>
+                     <location>
+                        <geo>45,73747 -94,95252</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1951-01-10">1951-01-10</date>
+                  <settlement ref="pmb445">
+                     <placeName type="pref">Rom</placeName>
+                     <location>
+                        <geo>41,89193 12,51133</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60597/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118572490</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp53340</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q123469</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Sinclair_Lewis</idno>
+            </person>
+            <person xml:id="pmb5198">
+               <persName>
+                  <forename>Eugene</forename>
+                  <surname>O’Neill</surname>
+               </persName>
+               <birth>
+                  <date when="1888-10-16">16.10.1888</date>
+                  <settlement ref="pmb44053">
+                     <placeName type="pref">New York City</placeName>
+                     <location>
+                        <geo>40,71427 -74,00597</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1953-11-27">27.11.1953</date>
+                  <settlement ref="pmb889">
+                     <placeName type="pref">Boston (Massachusetts)</placeName>
+                     <location>
+                        <geo>42,35843 -71,05977</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118590014</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18555</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5198/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp50755</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q93157</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Eugene_O%E2%80%99Neill</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb5198.html</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb33191">
+               <title>Seltsames Zwischenspiel</title>
+               <title type="namensvariante">Strange Interlude</title>
+               <author ref="pmb5198" role="hat-geschaffen">O’Neill, Eugene</author>
+               <date notBefore="1928-01-01" when="1928-07-01">1928</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33191/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33191.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb60603">
+               <title>All God’s Chillun Got Wings</title>
+               <title type="namensvariante">Alle Kinder Gottes haben Flügel</title>
+               <author ref="pmb5198" role="hat-geschaffen">O’Neill, Eugene</author>
+               <date notBefore="1924-01-01" when="1924-07-01">1924</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60603/</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb60605">
+               <title>The Emperor Jones</title>
+               <author ref="pmb5198" role="hat-geschaffen">O’Neill, Eugene</author>
+               <date notBefore="1921-01-01" when="1921-07-02">1921</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60605/</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb32917">
+               <title>Schnitzler, Old, Admires America’s Young Vigor</title>
+               <title type="werk_bibliografische-angabe">New York World, 1. 1. 1931</title>
+               <author ref="pmb11277" role="hat-geschaffen">Ewen, David</author>
+               <date when="1931-01-01">01.01.1931</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32917/</idno>
+               <note type="work_kind">Text</note>
+            </bibl>
+            <bibl xml:id="pmb58357">
+               <title>New York World</title>
+               <title type="namensvariante">The World</title>
+               <date from="1860-01-01" to="1931-07-02">1860  – 1931</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58357/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1066835</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/New_York_World</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb175">
+               <placeName>Amerika</placeName>
+               <desc type="entity_type">Kontinent (A.KNT)</desc>
+               <desc type="entity_type_id">49</desc>
+               <location type="coords">
+                  <geo>32,530833 -117,02</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/6255149/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb175.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/175/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb175</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb175</idno>
+            </place>
+            <place xml:id="pmb254">
+               <placeName>England</placeName>
+               <desc type="entity_type">Land (A.LND)</desc>
+               <desc type="entity_type_id">38</desc>
+               <location type="coords">
+                  <geo>52,483333 -1,566667</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb34523">Vereinigtes Königreich</placeName>
+                  <geo>54,75844 -2,69531</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb254.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/254/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb254</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q21</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/England</idno>
+            </place>
+            <place xml:id="pmb468">
+               <placeName>Europa</placeName>
+               <desc type="entity_type">Kontinent (A.KNT)</desc>
+               <desc type="entity_type_id">49</desc>
+               <location type="coords">
+                  <geo>48,69096 9,14062</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q46</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/6255148/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb468.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/468/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb468</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb468</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb468.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Europa</idno>
+            </place>
+            <place xml:id="pmb44053">
+               <placeName>New York City</placeName>
+               <placeName type="legacy-name-merge">New York</placeName>
+               <placeName type="legacy-name-merge">New York, N. Y.</placeName>
+               <placeName type="alternative-name">Neu-Amsterdam, NY</placeName>
+               <placeName type="legacy-name-merge">New York, NY</placeName>
+               <placeName type="alternative-name">Big Apple</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPL</desc>
+               <desc type="entity_type_id">1412</desc>
+               <location type="coords">
+                  <geo>40,71427 -74,00597</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb43406">Vereinigte Staaten von Amerika (USA)</placeName>
+                  <geo>39,76 -98,5</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb5199.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5199/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44053/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/5128581/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb44053</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb44053</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb44053.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/98297/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4042011-5</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q60</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/New_York_City</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb29427">
+               <orgName>Boston Symphony Orchestra</orgName>
+               <desc type="entity_type">Orchester</desc>
+               <desc type="entity_type_id">1011</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb889">Boston (Massachusetts)</placeName>
+                  <geo>42,35843 -71,05977</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb889.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/889/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/6551/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/24805/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/47984/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/4930956/</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb889.html</idno>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29427/</idno>
+            </org>
+            <org xml:id="pmb29679">
+               <orgName>Nobelpreis</orgName>
+               <desc type="entity_type">Literaturpreis</desc>
+               <desc type="entity_type_id">993</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb1119">Stockholm</placeName>
+                  <geo>59,325 18,05</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1119/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/15661/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb1119</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64053/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2673730/</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb1119.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/100625/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4057648-6</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1754</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Stockholm</idno>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29679.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29679/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29679</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb29679</idno>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

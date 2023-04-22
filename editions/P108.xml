@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="P108">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="P108">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
             <title level="a">[An die Neue Freie Presse], nicht abgesandt,
-               [8.&#8239;2.&#8239;1922]</title>
-            <author ref="#2121">Schnitzler, Arthur</author>
+               [8. 2. 1922]</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -39,7 +41,8 @@
                         <p>Maschinschriftlicher Brief, 5 Blatt, 5 Seiten, mit handschriftlichen
                            Korrekturen und handschriftlichen Entzifferungen der Korrekturen. Datiert
                            in der rechten oberen Ecke: »<quote>
-                              <date when="1922-02-08" n="2">Anf 1922</date></quote>«. Die Wiedergabe gibt einen konstituierten Text wieder, in den
+                              <date when="1922-02-08" n="2">Anf 1922</date>
+                           </quote>«. Die Wiedergabe gibt einen konstituierten Text wieder, in den
                            die Korrekturen eingearbeitet sind, einschließlich einer längeren
                            Streichung am Ende.</p>
                      </physDesc>
@@ -62,63 +65,60 @@
    <text type="article">
       <body>
          <div type="original">
-            <head>(An die <rs type="org" ref="#29351">N. Fr. Pr.)</rs>
+            <head>(An die <rs type="org" ref="#pmb29351">N. Fr. Pr.)</rs>
             </head>
-            <head type="sub">(nicht <anchor type="textConst" xml:id="T_P108-1"/>abgesandt)<note
-                  type="textConst" xml:id="T_P108-1h"><quote>abgesandt</quote></note>
+            <head type="sub">(nicht <anchor type="textConst" xml:id="T_P108-1"/>abgesandt)<note type="textConst" xml:id="T_P108-1h">
+                  <quote>abgesandt</quote>
+               </note>
             </head>
             <p>Mit Vergnügen las ich die geistreichen und so weit sie meine Person betreffen allzu
-               liebenswürdigen <anchor type="commentary" xml:id="K_I108-1"/>Bemerkungen<note
-                  type="commentary" xml:id="K_I108-1h">In der Ausgabe, in der <rs type="person"
-                     ref="#2121">Schnitzler</rs>s Leserbrief <ref type="pointer" target="#P107"/>
+               liebenswürdigen <anchor type="commentary" xml:id="K_I108-1"/>Bemerkungen<note type="commentary" xml:id="K_I108-1h">In der Ausgabe, in der <rs type="person" ref="#pmb2121">Schnitzler</rs>s Leserbrief <ref type="pointer" target="#P107"/>
                   abgedruckt wird, ist in der Chronik ein ungezeichneter Kommentar eingerückt, auf
-                  den sich <rs type="person" ref="#2121">Schnitzler</rs> hier bezieht. Darin wird
+                  den sich <rs type="person" ref="#pmb2121">Schnitzler</rs> hier bezieht. Darin wird
                   argumentiert, dass niemand mehr aus künstlerischem Interesse das Stück sehen
-                  wolle. (<bibl>[O. V.:] <rs type="work" ref="#58423">Schluss mit dem
-                     »Reigen«!</rs>. In: <rs type="work" ref="#36374">Neue Freie Presse</rs>,
-                     Nr.&#8239;20.635, <date>8.&#8239;2.&#8239;1922</date>,
-                  S.&#8239;6</bibl>)</note>, die Sie an die eventuelle Wiederaufnahme des <rs
-                  type="work" ref="#29855">Reigen</rs> bezüglichen Brief knüpfen. Ich möchte nur in
+                  wolle. (<bibl>[O. V.:] <rs type="work" ref="#pmb58423">Schluss mit dem
+                     »Reigen«!</rs>. In: <rs type="work" ref="#pmb36374">Neue Freie Presse</rs>,
+                     Nr. 20.635, <date>8. 2. 1922</date>,
+                  S. 6</bibl>)</note>, die Sie an die eventuelle Wiederaufnahme des <rs type="work" ref="#pmb29855">Reigen</rs> bezüglichen Brief knüpfen. Ich möchte nur in
                aller Bescheidenheit ein oder das andere kleine Missverständnis aufhellen, zu dem
-               mein Brief an Dir. <rs type="person" ref="#4040">Bernau</rs> leider Anlass gegeben zu
+               mein Brief an Dir. <rs type="person" ref="#pmb4040">Bernau</rs> leider Anlass gegeben zu
                haben scheint.</p>
             <p>Vor allem lag es mir ganz ferne nachdem die Behörde das Aufführungsverbot aufgehoben,
                aus eigener Machtvollkommenheit, wie Sie, sehr geehrter Herr Redakteur annehmen, ein
                Aufführungsverbot erlassen zu wollen, vielmehr habe ich nur meine Einwilligung zur
-               Wiederaufnahme der <rs type="work" ref="#29855">Reigen</rs>-Vorstellungen davon
+               Wiederaufnahme der <rs type="work" ref="#pmb29855">Reigen</rs>-Vorstellungen davon
                abhängig gemacht, dass die Behörde dervon ihr durch Aufhebung des Verbots de facto
                erlassenen Aufführungsbewilligung den nötigen Respekt zu verschaffen wisse, und ich
                habe meinerseits einen viel zu grossen Respekt vor der Ehrlichkeit, dem guten Willen
                und den Machtmitteln unserer Behörden, um daran zu zweifeln, dass sie unter den
                gegebenen Umständen jeden neuerlichen Versuch verantwortlicher und unverantwortlicher
-               Elemente zu verhindern wissen werden, die etwa die Direktion des <rs type="org"
-                  ref="#36430">Deutschen Volkstheaters</rs> in der Ausübung eines ihr gesetzlich
+               Elemente zu verhindern wissen werden, die etwa die Direktion des <rs type="org" ref="#pmb36430">Deutschen Volkstheaters</rs> in der Ausübung eines ihr gesetzlich
                zustehenden, ja nun in aller Form neu zugestandenen Rechtes zu behelligen sich
                einfallen liessen. Dazu wird es keineswegs notwendig sein, wie Sie, sehr geehrter
                Herr Redakteur, meinen, an die Seite jedes Besuchers einen Schutzmann zu stellen: die
-               Vorkehrungen, welche z.&#8239;B. die <rs type="place" ref="#168">Berlin</rs>er
+               Vorkehrungen, welche z. B. die <rs type="place" ref="#pmb168">Berlin</rs>er
                Behörden im gleichen Fall getroffen haben und die von durchschlagendem Erfolg
-               begleitet war, wären selbstverständlich auch in <rs type="place" ref="#50">Wien</rs>
+               begleitet war, wären selbstverständlich auch in <rs type="place" ref="#pmb50">Wien</rs>
                vollkommen genügend.</p>
             <p>Weitere Bedenken sind mir, anlässlich Ihrer Bemerkung aufgestiegen, dass »auch ein
-                  <rs type="person" ref="#26079">Tizian</rs>bild nicht davor gefeit sei durch
+                  <rs type="person" ref="#pmb26079">Tizian</rs>bild nicht davor gefeit sei durch
                Beschauer geschändet zu werden, deren gieriges Auge nur die Blösse des üppigen
                Frauenleibes auszunehmen vermöge, dass es aber trotzdem jeder Kunstfreund auf das
                Tiefste bedauern würde, wenn ein solches Gemälde von einem feindlichen Schicksal dazu
                verurteilt wäre als Wandschmuck in einem Lupanar zu dienen«. Den Vergleich meiner
-               anspruchslosen Szenenreihe mit der <rs type="person" ref="#26079">Tizian</rs>ischen
-                  <rs type="work" ref="#58421">Venus</rs> lehne ich als allzu schmeichelhaft, den
-               des Theaters, in dem der <rs type="work" ref="#29855">Reigen</rs> aufgeführt wird,
+               anspruchslosen Szenenreihe mit der <rs type="person" ref="#pmb26079">Tizian</rs>ischen
+                  <rs type="work" ref="#pmb58421">Venus</rs> lehne ich als allzu schmeichelhaft, den
+               des Theaters, in dem der <rs type="work" ref="#pmb29855">Reigen</rs> aufgeführt wird,
                mit einem Lupanar als mindestens unzutreffend ab. Gemälde gehören in eine Galerie
-               oder in eine Ausstellung, Theaterstücke in ein Theater. Die <rs type="person"
-                  ref="#26079">Tizian</rs>ische <rs type="work" ref="#58421">Venus</rs> hängt nicht
-               in einem Lupanar und der <rs type="work" ref="#29855">Reigen</rs> wurde in keinem
+               oder in eine Ausstellung, Theaterstücke in ein Theater. Die <rs type="person" ref="#pmb26079">Tizian</rs>ische <rs type="work" ref="#pmb58421">Venus</rs> hängt nicht
+               in einem Lupanar und der <rs type="work" ref="#pmb29855">Reigen</rs> wurde in keinem
                Lupanar aufgeführt. Niemals kann durch die Qualität des Publikums ein Theater so
                wenig wie eine Galerie in ein Lupanar verwandelt werden. Wahrscheinlich nur aus
                technischen Gründen ist es bisher nicht geschehen, dass Leute, die von den Qualitäten
                irgend eines Gemäldes sich in ihrem sittlichen Gefühl verletzt gefühlt haben oder
-               sich so anstellten, als wenn sie es <anchor type="textConst" xml:id="T_P108-3"
-                  />wären,<note type="textConst" xml:id="T_P108-3h"><quote>wären</quote></note>
+               sich so anstellten, als wenn sie es <anchor type="textConst" xml:id="T_P108-3"/>wären,<note type="textConst" xml:id="T_P108-3h">
+                  <quote>wären</quote>
+               </note>
                Stinkbomben warfen oder andere Beschauer an Gesundheit und Leben bedrohten. Und ganz
                gewiss ist es noch nie vorgekommen, dass Leute, die das beanstandete Gemälde
                überhaupt niemals gesehen, sondern nur von anderer Seite von der Existenz dieses
@@ -139,13 +139,10 @@
                ob künstlerisch wertvoll oder nicht, die ihrer Natur nach auf die grosse Menge
                sinnlich erregend zu wirken imstande sind, von öffentlicher Besichtigung
                auszuschliessen oder öffentlicher Darstellung zu entziehen sind, so müsste, wie kaum
-               erst näher auszuführen werden braucht, mit dem <rs type="work" ref="#29855"
-                  >Reigen</rs> zugleich aus dem Spielplan eine beträchtliche Anzahl anderer Stücke
-               verschwinden, denen gegenüber die sittliche Entrüstung, die gerade anlässlich des <rs
-                  type="work" ref="#29855">Reigen</rs> sich so überlaut zu gebärden wusste, blind,
+               erst näher auszuführen werden braucht, mit dem <rs type="work" ref="#pmb29855">Reigen</rs> zugleich aus dem Spielplan eine beträchtliche Anzahl anderer Stücke
+               verschwinden, denen gegenüber die sittliche Entrüstung, die gerade anlässlich des <rs type="work" ref="#pmb29855">Reigen</rs> sich so überlaut zu gebärden wusste, blind,
                taub und stumm geblieben ist.</p>
-            <p>Es bleiben aber immer noch die Gründe zu untersuchen, warum gerade der <rs
-                  type="work" ref="#29855">Reigen</rs> zu so lächerlichen Aufregungen und Skandalen
+            <p>Es bleiben aber immer noch die Gründe zu untersuchen, warum gerade der <rs type="work" ref="#pmb29855">Reigen</rs> zu so lächerlichen Aufregungen und Skandalen
                Anlass gegeben hat wie kaum je ein anderes Stück. Sie liegen, wie jedermann weiss,
                zum geringsten Teil auf künstlerischem, zu einem sehr kleinen Teil im sittlichen, zum
                grössten Teil auf sozusagen politischem Gebiete. <del rend="strikethrough">Aber auch
@@ -153,17 +150,327 @@
                   mehr geschehen konnte, als dass man allerorten Gerichte und Behörden um die
                   endgültige Klarstellung des Sachverhaltes bemührt hat. Und da es sich erwies, dass
                   überall, wo man die Angelegenheit mit Ruhe und Sachlichkeit zu behandeln verstand,
-                  die sittliche Ungefährlichkeit des<space unit="chars" quantity="1"/></del><rs type="work" ref="#29855"><del rend="strikethrough">Reigen</del></rs><del rend="strikethrough"><space unit="chars" quantity="1"/>bestätigt wurde, so glaube ich wohl</del>
+                  die sittliche Ungefährlichkeit des<space unit="chars" quantity="1"/>
+               </del>
+               <rs type="work" ref="#pmb29855">
+                  <del rend="strikethrough">Reigen</del>
+               </rs>
+               <del rend="strikethrough">
+                  <space unit="chars" quantity="1"/>bestätigt wurde, so glaube ich wohl</del>
             </p>
          </div>
          <div type="biographical">
             <div1>
-               <ref target="1922-02-08" type="schnitzlerDiary"/>
-               <quote>Nm. entwarf ich einen Brief an die <rs type="org" ref="#29351"
-                  >N. Fr. Pr.</rs>, die den Protest mit großer Liebenswürdigkeit für mich, verlogen
+               <ref target="1922-02-08" type="schnitzler-tagebuch"/>
+               <quote>Nm. entwarf ich einen Brief an die <rs type="org" ref="#pmb29351">N. Fr. Pr.</rs>, die den Protest mit großer Liebenswürdigkeit für mich, verlogen
                   glossirt.</quote>
             </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb4040">
+               <persName>
+                  <forename>Alfred</forename>
+                  <surname>Bernau</surname>
+               </persName>
+               <birth>
+                  <date when="1879-03-06">06.03.1879</date>
+                  <settlement ref="pmb58755">
+                     <placeName type="pref">Engers</placeName>
+                     <location>
+                        <geo>50,43106 7,54415</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1950-08-20">20.08.1950</date>
+                  <settlement ref="pmb61000">
+                     <placeName type="pref">Sankt Wolfgang im Salzkammergut</placeName>
+                     <location>
+                        <geo>47,73932 13,44666</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116137118</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13663</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb4040.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4040/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb4040</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb4040</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp39116</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2644704</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Alfred_Bernau</idno>
+            </person>
+            <person xml:id="pmb26079">
+               <persName>
+                  <surname>Tizian</surname>
+               </persName>
+               <persName type="namensvariante">Tiziano Vecellio</persName>
+               <birth>
+                  <date when="1488-01-01">zwischen 1488 und 1490</date>
+                  <settlement ref="pmb34112">
+                     <placeName type="pref">Pieve di Cadore</placeName>
+                     <location>
+                        <geo>46,42302 12,361</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1576-08-27">27.08.1576</date>
+                  <settlement ref="pmb462">
+                     <placeName type="pref">Venedig</placeName>
+                     <location>
+                        <geo>45,43713 12,33265</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb110">Bildender Künstler/Bildende Künstlerin &gt;&gt; Maler/Malerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20759</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/26079/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb26079</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb26079</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp54156</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb58423">
+               <title>Schluss mit dem »Reigen«!</title>
+               <date when="1922-02-08">1922-02-08</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58423/</idno>
+               <note type="work_kind">Kommentar</note>
+            </bibl>
+            <bibl xml:id="pmb36374">
+               <title>Neue Freie Presse</title>
+               <title type="werk_link-anno">http://anno.onb.ac.at/cgi-content/anno?aid=nfp</title>
+               <author ref="pmb10875" role="hat-herausgegeben">Benedikt, Moriz</author>
+               <author ref="pmb10872" role="hat-herausgegeben">Benedikt, Ernst</author>
+               <author ref="pmb10809" role="hat-herausgegeben">Bacher, Eduard</author>
+               <date from="1864-01-01" to="1939-07-02">1864  – 1939</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36374/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36374</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb36374</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+            <bibl xml:id="pmb29855">
+               <title>Reigen. Zehn Dialoge</title>
+               <title type="werk_link">https://www.digital.wienbibliothek.at/wbrobv/content/pageview/2587756</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1900-01-01">1900</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.32</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1414190</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-reigen</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/33309</idno>
+               <idno type="URL" subtype="deutschestextarchiv">http://www.deutschestextarchiv.de/book/show/schnitzler_reigen_1903</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29855.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29855/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29855</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29855.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb58421">
+               <title>Venus von Urbino</title>
+               <author ref="pmb26079" role="hat-geschaffen">Tizian</author>
+               <date when="1538-01-01">um 1538</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58421/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q727875</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Venus_von_Urbino</idno>
+               <note type="work_kind">Gemälde</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb168">
+               <placeName>Berlin</placeName>
+               <placeName type="alternative-name">Hauptstadt Berlin</placeName>
+               <placeName type="alternative-name">Barlīn</placeName>
+               <placeName type="alternative-name">Reichshauptstadt Berlin</placeName>
+               <placeName type="alternative-name">Berolino</placeName>
+               <placeName type="legacy-name-merge">B-n</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPLC</desc>
+               <desc type="entity_type_id">1418</desc>
+               <location type="coords">
+                  <geo>52,52437 13,41053</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb151">Deutschland</placeName>
+                  <geo>51,5 10,5</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb168</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92171.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
+            </place>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb29351">
+               <orgName>Neue Freie Presse</orgName>
+               <orgName type="werk_link-anno">http://anno.onb.ac.at/info/nfp_info.htm</orgName>
+               <desc type="entity_type">Tageszeitungsredaktion</desc>
+               <desc type="entity_type_id">972</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb716">Fichtegasse</placeName>
+                  <geo>48,203009170069 16,375663258442</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb716.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/716/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb716</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb63189">Schubertring</placeName>
+                  <geo>48,20281 16,37602</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63189/</idno>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29351.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29351/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29351</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb29351</idno>
+               <note type="apis_dates">
+                  <date to="1939-02-01">1864-09-01  – 1939-02-01</date>
+               </note>
+            </org>
+            <org xml:id="pmb36430">
+               <orgName>Volkstheater</orgName>
+               <orgName type="namensvariante">Deutsches Volkstheater</orgName>
+               <desc type="entity_type">Theater</desc>
+               <desc type="entity_type_id">1012</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb20">Volkstheater</placeName>
+                  <geo>48,205142 16,3566</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb20.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb20</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb20</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92202/</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92202.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q688555</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Volkstheater_(Wien)</idno>
+               </location>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/146313-5</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36430/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36430</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb36430</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q113044679</idno>
+               <note type="apis_dates">
+                  <date notBefore="1889-01-01" when="1889-07-02">1889</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

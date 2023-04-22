@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="M183">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="M183">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#141413">–rm–: Wiener Brief. [Der Verschwender am Burgtheater],
-               21.&#160;12.&#160;1899</title>
-            <author ref="#2121">Schnitzler, Arthur</author>
+            <title level="a" ref="#pmb141413">–rm–: Wiener Brief. [Der Verschwender am Burgtheater],
+               21. 12. 1899</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -28,13 +30,13 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#2121">–rm– [=Arthur Schnitzler]</author>
-                     <title level="a" ref="#141413">Wiener Brief</title>
+                     <author ref="#pmb2121">–rm– [=Arthur Schnitzler]</author>
+                     <title level="a" ref="#pmb141413">Wiener Brief</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#36344">Frankfurter Zeitung</title>
+                     <title level="j" ref="#pmb36344">Frankfurter Zeitung</title>
                      <imprint>
-                        <date when="1899-12-17" n="1">17.&#160;12.&#160;1899</date>
+                        <date when="1899-12-17" n="1">17. 12. 1899</date>
                      </imprint>
                      <biblScope unit="jg">44</biblScope>
                      <biblScope unit="pp">2</biblScope>
@@ -52,78 +54,630 @@
       <revisionDesc status="candidate">
          <change who="MAM" when="2023-01-23">Angelegt</change>
          <change who="MAM" when="2023-01-23">Index check</change>
-        
       </revisionDesc>
    </teiHeader>
    <text type="article">
       <body>
          <div type="original">
-            <p>– [<hi rend="bold">Wiener Brief</hi>.] Man schreibt uns aus <rs type="place"
-                  ref="#50"><hi rend="spaced_out">Wien</hi></rs> vom <date>20.&#160;ds.</date>: So
-               wie <anchor type="commentary" xml:id="K_M183-1"/>neulich der »<rs type="work"
-                  ref="#30029">Prinz von Homburg</rs><note type="commentary" xml:id="K_M183-1h"><rs type="person" ref="#2121">Schnitzler</rs> besuchte
-                     die Aufführung am <ref type="schnitzlerDiary" target="1899-12-01" subtype="date-only"/>.</note>«
-               weniger wegen <rs type="person" ref="#11933">Kleist</rs> als wegen <rs type="person"
-                  ref="#11851">Kainz</rs>, so wurde am <date>Sonntag</date> der »<rs type="work"
-                  ref="#77407"><hi rend="spaced_out">Verschwender</hi></rs>« beinahe gar nicht wegen
-                  <rs type="person" ref="#12468"><hi rend="spaced_out">Raimund</hi></rs>, aber ganz
-               besonders wegen <rs type="person" ref="#11851"><hi rend="spaced_out">Kainz</hi></rs>
-               im <rs type="org" ref="#36247"><hi rend="spaced_out">Burgtheater</hi></rs>
+            <p>– [<hi rend="bold">Wiener Brief</hi>.] Man schreibt uns aus <rs type="place" ref="#pmb50">
+                  <hi rend="spaced_out">Wien</hi>
+               </rs> vom <date>20. ds.</date>: So
+               wie <anchor type="commentary" xml:id="K_M183-1"/>neulich der »<rs type="work" ref="#pmb30029">Prinz von Homburg</rs>
+               <note type="commentary" xml:id="K_M183-1h">
+                  <rs type="person" ref="#pmb2121">Schnitzler</rs> besuchte
+                     die Aufführung am <ref type="schnitzler-tagebuch" target="1899-12-01" subtype="date-only"/>.</note>«
+               weniger wegen <rs type="person" ref="#pmb11933">Kleist</rs> als wegen <rs type="person" ref="#pmb11851">Kainz</rs>, so wurde am <date>Sonntag</date> der »<rs type="work" ref="#pmb77407">
+                  <hi rend="spaced_out">Verschwender</hi>
+               </rs>« beinahe gar nicht wegen
+                  <rs type="person" ref="#pmb12468">
+                  <hi rend="spaced_out">Raimund</hi>
+               </rs>, aber ganz
+               besonders wegen <rs type="person" ref="#pmb11851">
+                  <hi rend="spaced_out">Kainz</hi>
+               </rs>
+               im <rs type="org" ref="#pmb36247">
+                  <hi rend="spaced_out">Burgtheater</hi>
+               </rs>
                aufgeführt. So danken wir dem großen Schauspieler außer dem Vergnügen, das uns seine
                Leistungen im Allgemeinen bereiten, die Wiederaufnahme von bedeutungsvollen und
                dadurch das allmähliche Verschwinden von schlechten Stücken aus dem Repertoire. Man
-               weiß, daß die <rs type="place" ref="#50">Wien</rs>er Hofbühne an schlechten Stücken
+               weiß, daß die <rs type="place" ref="#pmb50">Wien</rs>er Hofbühne an schlechten Stücken
                mit der Zeit sehr reich geworden ist. Das liegt daran, daß mancher Schauspieler und
                manche Schauspielerin aus der vorigen Generation ihre Glanzrollen in Schauspielen –
                der vorigen Generation haben und daß bei Feststellung des Spielplans auch auf diese
                sentimentalen Motive, (nicht ausschließlich aus Sentimentalität) Rücksicht genommen
-               werden muß. Was nun den <rs type="work" subtype="implied" ref="#77407">Valentin</rs>
-               des Herrn <rs type="person" ref="#11851">Kainz</rs> anbelangt, so war es eine
-               Leistung, der das Beste fehlte: die Echtheit. Wir sahen verdünnten <rs type="person"
-                  ref="#11441">Girardi</rs>. Die »<rs type="work" ref="#42444">goldenen Herzen</rs>«
-               sind unseres königlichen <rs subtype="implied" ref="#30009" type="work">Hamlet</rs>
+               werden muß. Was nun den <rs type="work" subtype="implied" ref="#pmb77407">Valentin</rs>
+               des Herrn <rs type="person" ref="#pmb11851">Kainz</rs> anbelangt, so war es eine
+               Leistung, der das Beste fehlte: die Echtheit. Wir sahen verdünnten <rs type="person" ref="#pmb11441">Girardi</rs>. Die »<rs type="work" ref="#pmb42444">goldenen Herzen</rs>«
+               sind unseres königlichen <rs subtype="implied" ref="#pmb30009" type="work">Hamlet</rs>
                Sache nicht. Wir werden ihm die Gütigkeit glauben, weil das die Güte ist, die sich
                herabläßt, wie die Gutmüthigkeit, weil es die Güte ist, die zuweilen lächerlich ist.
-               Es gibt Gestalten eines anderen <rs type="place" ref="#50">Wien</rs>er Meisters, für
-               deren Verkörperung <rs type="person" ref="#11851">Kainz</rs> wie geschaffen ist,
-               eines Dichters, der bisher im Repertoire des Burgtheaters gefehlt hat: <rs
-                  type="person" ref="#12338"><hi rend="spaced_out">Nestroy</hi></rs>s. Er hat
-               Figuren geschaffen, die vielleicht weniger wohlthuend wirken als <rs type="work"
-                  subtype="implied" ref="#77407">Valentin</rs>, der Vortreffliche, aber die nicht
-               minder wahr und nicht minder <rs type="place" ref="#50">wien</rs>erisch sind. Auf den
-                  <rs type="work" ref="#32850">Lumpazivagabundus</rs> wollen wir meinetwegen
-               verzichten, aber <rs type="work" ref="#53924">Kampl</rs>, den <rs type="work"
-                  ref="#41412">Zerrissenen</rs>, würden wir mit Freuden begrüßen und <rs
-                  type="person" ref="#11851">Kainz</rs> sei sein Prophet. <rs type="place" ref="#50"
-                  >Wien</rs>er Possen im <rs type="org" ref="#36247">K. u. K. Hofburgtheater</rs>?
-               rasen manche mit Schrecken. Gewiß. Wir sind nicht so stolz als das <rs type="org"
-                  ref="#36247">Burgtheater</rs> sein sollte.</p>
-            <p rend="right"><anchor type="commentary" xml:id="K_M183-2"/>–rm–<note type="commentary"
-                  xml:id="K_M183-2h">das Kürzel von <rs type="person" ref="#13055">Jakob
-                     Wassermann</rs></note></p>
+               Es gibt Gestalten eines anderen <rs type="place" ref="#pmb50">Wien</rs>er Meisters, für
+               deren Verkörperung <rs type="person" ref="#pmb11851">Kainz</rs> wie geschaffen ist,
+               eines Dichters, der bisher im Repertoire des Burgtheaters gefehlt hat: <rs type="person" ref="#pmb12338">
+                  <hi rend="spaced_out">Nestroy</hi>
+               </rs>s. Er hat
+               Figuren geschaffen, die vielleicht weniger wohlthuend wirken als <rs type="work" subtype="implied" ref="#pmb77407">Valentin</rs>, der Vortreffliche, aber die nicht
+               minder wahr und nicht minder <rs type="place" ref="#pmb50">wien</rs>erisch sind. Auf den
+                  <rs type="work" ref="#pmb32850">Lumpazivagabundus</rs> wollen wir meinetwegen
+               verzichten, aber <rs type="work" ref="#pmb53924">Kampl</rs>, den <rs type="work" ref="#pmb41412">Zerrissenen</rs>, würden wir mit Freuden begrüßen und <rs type="person" ref="#pmb11851">Kainz</rs> sei sein Prophet. <rs type="place" ref="#pmb50">Wien</rs>er Possen im <rs type="org" ref="#pmb36247">K. u. K. Hofburgtheater</rs>?
+               rasen manche mit Schrecken. Gewiß. Wir sind nicht so stolz als das <rs type="org" ref="#pmb36247">Burgtheater</rs> sein sollte.</p>
+            <p rend="right">
+               <anchor type="commentary" xml:id="K_M183-2"/>–rm–<note type="commentary" xml:id="K_M183-2h">das Kürzel von <rs type="person" ref="#pmb13055">Jakob
+                     Wassermann</rs>
+               </note>
+            </p>
          </div>
          <div type="biographical">
             <div1>
-               <ref type="schnitzlerDiary" target="1899-12-17"/>
-               <quote>17/12 Philh. Abd. <rs type="work" ref="#77407">Verschwender</rs>.</quote>
+               <ref type="schnitzler-tagebuch" target="1899-12-17"/>
+               <quote>17/12 Philh. Abd. <rs type="work" ref="#pmb77407">Verschwender</rs>.</quote>
             </div1>
             <div1>
-               <bibl><rs type="person" ref="#13055">Jakob Wassermann</rs> an <rs type="person"
-                     ref="#2121">Schnitzler</rs>, <date>[16.&#160;12.&#160;1899]</date></bibl>
-               <quote><p>Lieber Freund</p><p>ich muß heute auf drei Tage fort und bitte Sie
-                     herzlich, mir einige Zeilen über die morgige ›<rs type="work" ref="#77407"
-                        >Verschwender</rs>-Aufführung‹ im <rs type="org" ref="#36247"
-                        >Burgtheater</rs> zu schreiben und mir diese Notiz nach <rs type="place"
-                           ref="#141438">Tischnowitz</rs> bei <rs type="person" ref="#141443">Baum</rs>
-                    <space unit="chars" quantity="1"/><hi rend="latintype">per</hi> Adr. <rs type="person" ref="#13159"><hi
-                           rend="latintype">Wolff</hi></rs> zu <hi rend="underline" n="1"
-                        >schicken</hi>.</p>
-                  <p>Herzlichen Gruß Ihr</p><p>Wassermann.</p><p>Natürlich nur, wenn Sie überhaupt
-                     gehen wollen. Ich habe Herrn Dr. <rs type="person" ref="#12556"><hi
-                           rend="latintype">Rosenbaum</hi></rs> geschrieben, daß er mein für mich
-                     reserviertes Billet es Ihnen gebe.</p></quote>
+               <bibl>
+                  <rs type="person" ref="#pmb13055">Jakob Wassermann</rs> an <rs type="person" ref="#pmb2121">Schnitzler</rs>, <date>[16. 12. 1899]</date>
+               </bibl>
+               <quote>
+                  <p>Lieber Freund</p>
+                  <p>ich muß heute auf drei Tage fort und bitte Sie
+                     herzlich, mir einige Zeilen über die morgige ›<rs type="work" ref="#pmb77407">Verschwender</rs>-Aufführung‹ im <rs type="org" ref="#pmb36247">Burgtheater</rs> zu schreiben und mir diese Notiz nach <rs type="place" ref="#pmb141438">Tischnowitz</rs> bei <rs type="person" ref="#pmb141443">Baum</rs>
+                     <space unit="chars" quantity="1"/>
+                     <hi rend="latintype">per</hi> Adr. <rs type="person" ref="#pmb13159">
+                        <hi rend="latintype">Wolff</hi>
+                     </rs> zu <hi rend="underline" n="1">schicken</hi>.</p>
+                  <p>Herzlichen Gruß Ihr</p>
+                  <p>Wassermann.</p>
+                  <p>Natürlich nur, wenn Sie überhaupt
+                     gehen wollen. Ich habe Herrn Dr. <rs type="person" ref="#pmb12556">
+                        <hi rend="latintype">Rosenbaum</hi>
+                     </rs> geschrieben, daß er mein für mich
+                     reserviertes Billet es Ihnen gebe.</p>
+               </quote>
             </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb11933">
+               <persName>
+                  <forename>Heinrich von</forename>
+                  <surname>Kleist</surname>
+               </persName>
+               <birth>
+                  <date when="1777-10-18">18.10.1777</date>
+                  <settlement ref="pmb35518">
+                     <placeName type="pref">Frankfurt (Oder)</placeName>
+                     <location>
+                        <geo>52,34714 14,55062</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1811-11-21">21.11.1811</date>
+                  <settlement ref="pmb61073">
+                     <placeName type="pref">Kleiner Wannsee</placeName>
+                     <location>
+                        <geo>52,41576 13,15943</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16900</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118563076</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11933.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11933/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11933</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11933.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11933</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp45758</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q28494</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Heinrich_von_Kleist</idno>
+            </person>
+            <person xml:id="pmb11851">
+               <persName>
+                  <forename>Josef</forename>
+                  <surname>Kainz</surname>
+               </persName>
+               <birth>
+                  <date when="1858-01-02">02.01.1858</date>
+                  <settlement ref="pmb43475">
+                     <placeName type="pref">Mosonmagyaróvár</placeName>
+                     <location>
+                        <geo>47,86789 17,26994</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1910-09-20">20.09.1910</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16646</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118559389</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11851.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11851/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11851</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp47103</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x002820f2</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q697592</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Josef_Kainz</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11851.html</idno>
+            </person>
+            <person xml:id="pmb12468">
+               <persName>
+                  <forename>Ferdinand</forename>
+                  <surname>Raimund</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Raimann</persName>
+               <birth>
+                  <date when="1790-06-01">01.06.1790</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1836-09-05">05.09.1836</date>
+                  <settlement ref="pmb40112">
+                     <placeName type="pref">Pottenstein</placeName>
+                     <location>
+                        <geo>47,9582 16,0948</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <occupation ref="pmb727">Schriftsteller/Schriftstellerin &gt;&gt; Dramatiker/Dramatikerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19035</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118597914</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12468.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12468/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12468</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12468.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb12468</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43227</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q45025</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ferdinand_Raimund</idno>
+               <idno type="URL" subtype="dx">https://dx.doi.org/10.1553/0x0001de5a</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00283ed8</idno>
+               <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_37.html</idno>
+            </person>
+            <person xml:id="pmb11441">
+               <persName>
+                  <forename>Alexander</forename>
+                  <surname>Girardi</surname>
+               </persName>
+               <birth>
+                  <date when="1850-12-05">05.12.1850</date>
+                  <settlement ref="pmb860">
+                     <placeName type="pref">Graz</placeName>
+                     <location>
+                        <geo>47,06667 15,43333</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1918-04-20">20.04.1918</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15442</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/11869510X</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11441.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11441/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11441</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp37978</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x002817da</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q45302</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Alexander_Girardi</idno>
+               <idno type="URL" subtype="dx">https://dx.doi.org/10.1553/0x0001cf1f</idno>
+            </person>
+            <person xml:id="pmb12338">
+               <persName>
+                  <forename>Johann Nepomuk</forename>
+                  <surname>Nestroy</surname>
+               </persName>
+               <birth>
+                  <date when="1801-12-07">07.12.1801</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1862-05-25">25.05.1862</date>
+                  <settlement ref="pmb860">
+                     <placeName type="pref">Graz</placeName>
+                     <location>
+                        <geo>47,06667 15,43333</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <occupation ref="pmb107">Sänger/Sängerin</occupation>
+               <occupation ref="pmb727">Schriftsteller/Schriftstellerin &gt;&gt; Dramatiker/Dramatikerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18395</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118587080</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12338/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12338</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12338.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb12338</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46919</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=N#DWpers0176</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44862</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Johann_Nestroy</idno>
+               <idno type="URL" subtype="dx">https://dx.doi.org/10.1553/0x0001db06</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x002835f4</idno>
+               <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_38.html</idno>
+            </person>
+            <person xml:id="pmb13055">
+               <persName>
+                  <forename>Jakob</forename>
+                  <surname>Wassermann</surname>
+               </persName>
+               <persName type="person_pseudonym">–rm–</persName>
+               <birth>
+                  <date when="1873-03-10">10.03.1873</date>
+                  <settlement ref="pmb40508">
+                     <placeName type="pref">Fürth</placeName>
+                     <location>
+                        <geo>49,47593 10,98856</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1934-01-01">01.01.1934</date>
+                  <settlement ref="pmb34401">
+                     <placeName type="pref">Altaussee</placeName>
+                     <location>
+                        <geo>47,6698 13,78453</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21107</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118629387</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb13055.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/13055/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb13055</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13055.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46707</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x003afbb2</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q60369</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Jakob_Wassermann</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb13055.html</idno>
+            </person>
+            <person xml:id="pmb141443">
+               <persName>
+                  <surname>Baum</surname>
+               </persName>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/141443/</idno>
+            </person>
+            <person xml:id="pmb13159">
+               <persName>
+                  <forename>Ludwig</forename>
+                  <surname>Wolff</surname>
+               </persName>
+               <birth>
+                  <date when="1876-03-07">07.03.1876</date>
+                  <settlement ref="pmb48098">
+                     <placeName type="pref">Bielsko-Biała</placeName>
+                     <location>
+                        <geo>49,82245 19,04686</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1958-01-01">nach 1958</date>
+                  <settlement ref="pmb43406">
+                     <placeName type="pref">Vereinigte Staaten von Amerika (USA)</placeName>
+                     <location>
+                        <geo>39,76 -98,5</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb115">Dramaturg/Dramaturgin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21448</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/104298170</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb13159.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/13159/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb13159</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13159.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q103254</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ludwig_Wolff_(Schriftsteller)</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb13159.html</idno>
+            </person>
+            <person xml:id="pmb12556">
+               <persName>
+                  <forename>Richard</forename>
+                  <surname>Rosenbaum</surname>
+               </persName>
+               <birth>
+                  <date when="1867-11-04">04.11.1867</date>
+                  <settlement ref="pmb46918">
+                     <placeName type="pref">Žikov</placeName>
+                     <location>
+                        <geo>49,2319 13,45724</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1942-06-25">25.06.1942</date>
+                  <settlement ref="pmb2258">
+                     <placeName type="pref">Konzentrationslager Theresienstadt</placeName>
+                     <location>
+                        <geo>50,513639 14,164694</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb115">Dramaturg/Dramaturgin</occupation>
+               <occupation ref="pmb144">Verleger/Verlegerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19364</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/11662177X</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12556.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12556/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12556</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp52478</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284309</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q19225581</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb30029">
+               <title>Prinz Friedrich von Homburg oder die Schlacht bei Fehrbellin</title>
+               <author ref="pmb11933" role="hat-geschaffen">Kleist, Heinrich von</author>
+               <date notBefore="1821-01-01" when="1821-07-02">1821</date>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30029.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30029/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30029</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30029.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q366146</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Prinz_Friedrich_von_Homburg_oder_die_Schlacht_bei_Fehrbellin</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb77407">
+               <title>Der Verschwender.  Original-Zaubermärchen in drei Aufzügen</title>
+               <author ref="pmb12468" role="hat-geschaffen">Raimund, Ferdinand</author>
+               <author ref="pmb117558" role="hat-vertont">Kreutzer, Conradin</author>
+               <date when="1834-02-20">1834-02-20</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/77407/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb77407.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1197834</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_Verschwender</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb42444">
+               <title>Goldene Herzen. Wiener Volksstück in 4 Akten</title>
+               <author ref="pmb13082" role="hat-geschaffen">Karlweis, Carl</author>
+               <date when="1895-11-09">9.11.1895</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/42444/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb42444</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb42444.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb30009">
+               <title>Hamlet</title>
+               <author ref="pmb2412" role="hat-geschaffen">Shakespeare, William</author>
+               <date notBefore="1600-01-01" when="1600-07-01">1600</date>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30009.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30009/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30009</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30009.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb30009</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q41567</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hamlet</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb32850">
+               <title>Der böse Geist Lumpacivagabundus oder Das liederliche Kleeblatt</title>
+               <author ref="pmb12338" role="hat-geschaffen">Nestroy, Johann Nepomuk</author>
+               <date when="1833-04-11">1833-04-11</date>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb32850.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32850/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb32850.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb32850</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1198430</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_b%C3%B6se_Geist_Lumpacivagabundus</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb53924">
+               <title>Kampl</title>
+               <author ref="pmb12338" role="hat-geschaffen">Nestroy, Johann Nepomuk</author>
+               <date notBefore="1852-01-01" when="1852-07-01">1852</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/53924/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb53924.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb53924</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1723374</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Kampl</idno>
+               <note type="work_kind">Posse &gt;&gt; Posse mit Gesang</note>
+            </bibl>
+            <bibl xml:id="pmb41412">
+               <title>Der Zerrissene</title>
+               <author ref="pmb12338" role="hat-geschaffen">Nestroy, Johann Nepomuk</author>
+               <date>9.4.1844</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41412/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41412</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb41412.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1198187</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_Zerrissene</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb141413">
+               <title>Wiener Brief. [Der Verschwender]</title>
+               <title type="werk_bibliografische-angabe">FZ, 44. Jg., Nr. 353, 21.12.1899, Abendblatt, S. 2</title>
+               <author ref="pmb2121" role="hat-unter-einem-kurzel-veroffentlicht">Schnitzler, Arthur</author>
+               <date when="1899-12-21">1899-12-21</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/141413/</idno>
+               <note type="work_kind">Rezension</note>
+            </bibl>
+            <bibl xml:id="pmb36344">
+               <title>Frankfurter Zeitung</title>
+               <date from="1856-01-01" to="1943-07-02">1856  – 1943</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36344/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36344</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb36344</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q561972</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Frankfurter_Zeitung</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+            <place xml:id="pmb141438">
+               <placeName>Tišnov</placeName>
+               <placeName type="alternative-name">Tischnowitz</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPL</desc>
+               <desc type="entity_type_id">1412</desc>
+               <location type="coords">
+                  <geo>49,34872 16,42438</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb43430">Tschechische Republik</placeName>
+                  <geo>49,75 15,0</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/141438/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3064211/</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb36247">
+               <orgName>Burgtheater</orgName>
+               <orgName type="alternative-name">Burgtheater GmbH</orgName>
+               <desc type="entity_type">Theater</desc>
+               <desc type="entity_type_id">1012</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb51.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36789/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51010/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2775259/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb51</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb51</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb14">Burgtheater</placeName>
+                  <geo>48,210333 16,361139</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb14.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/14/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb14</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb14.html</idno>
+                  <idno type="URL" subtype="geonames">https://www.geonames.org/6354992/</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb44649">Schlosstheater Schönbrunn</placeName>
+                  <geo>48,186667 16,3125</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44649/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb44649</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2244724</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Schlosstheater_Sch%C3%B6nbrunn</idno>
+               </location>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/38633-9</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36247/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36247</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb36247</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q308720</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Burgtheater</idno>
+               <note type="apis_dates">
+                  <date notBefore="1852-01-01" when="1852-07-01">1852</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

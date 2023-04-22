@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I103">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="I103">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#58247">Karl Marilaun: [Interview, Fragment],
-               20.&#8239;11.&#8239;1925</title>
-            <author ref="#5130">Marilaun, Karl</author>
+            <title level="a" ref="#pmb58247">Karl Marilaun: [Interview, Fragment],
+               20. 11. 1925</title>
+            <author ref="#pmb5130">Marilaun, Karl</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -29,17 +31,17 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#4412">Schinnerer, Otto P.</author>
-                     <title level="a" ref="#58250">The Early Works of Arthur Schnitzler</title>
+                     <author ref="#pmb4412">Schinnerer, Otto P.</author>
+                     <title level="a" ref="#pmb58250">The Early Works of Arthur Schnitzler</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#58596">The Germanic Review</title>
+                     <title level="j" ref="#pmb58596">The Germanic Review</title>
                      <imprint>
                         <date when="1929-04-01" n="1">April 1929</date>
                      </imprint>
                      <biblScope unit="vol">4</biblScope>
                      <biblScope unit="nr">2</biblScope>
-                     <biblScope unit="pp">153–197, hier S.&#8239;195</biblScope>
+                     <biblScope unit="pp">153–197, hier S. 195</biblScope>
                   </monogr>
                </biblStruct>
             </listBibl>
@@ -63,37 +65,228 @@
       <body>
          <div type="original" xml:lang="en-US">
             <p>As regards <hi rend="italics">
-                  <rs type="work" ref="#29935">Anatol</rs>
-               </hi>, we need have no misgivings in establishing <rs type="person" ref="#2121"
-                  >Schnitzler</rs>’s literary indebtedness,<ref type="question" target="#q087"/> for
-               we can summon our own author as a witness. To Carl Marilaun he stated in an <anchor
-                  type="commentary" xml:id="K_I103-1"/>interview<note type="commentary"
-                  xml:id="K_I103-1h">Kein Exemplar der Zeitung konnte nachgewiesen werden, der
-                  einzige Hinweis auf das Interview stammt aus dem Aufsatz <rs type="person"
-                     ref="#4412">Schinnerer</rs>s. Inhaltlich ist die Stelle verwandt zu einer
-                  Stelle in einem früheren Text <rs type="person" ref="#5130">Marilaun</rs>s, so
+                  <rs type="work" ref="#pmb29935">Anatol</rs>
+               </hi>, we need have no misgivings in establishing <rs type="person" ref="#pmb2121">Schnitzler</rs>’s literary indebtedness,<ref type="question" target="#q087"/> for
+               we can summon our own author as a witness. To Carl Marilaun he stated in an <anchor type="commentary" xml:id="K_I103-1"/>interview<note type="commentary" xml:id="K_I103-1h">Kein Exemplar der Zeitung konnte nachgewiesen werden, der
+                  einzige Hinweis auf das Interview stammt aus dem Aufsatz <rs type="person" ref="#pmb4412">Schinnerer</rs>s. Inhaltlich ist die Stelle verwandt zu einer
+                  Stelle in einem früheren Text <rs type="person" ref="#pmb5130">Marilaun</rs>s, so
                   dass es sich möglicherweise nur um eine Überarbeitung desselben gehandelt haben
                   könnte, <ref target="#L_I023_abstammung" type="pointer" subtype="see"/>.</note>
                <hi rend="superscript">66</hi> that, without any intention of contributing anything
                of value to the comedy literature of his native country, he wrote a scene which to
-               himself seemed quite unimportant, naming the chief character <rs type="work"
-                  ref="#29935" subtype="implied">Anatol</rs> in recollection of agreeable <rs
-                  type="place" ref="#182">Paris</rs>ian comedies. In those days, he added, he did
+               himself seemed quite unimportant, naming the chief character <rs type="work" ref="#pmb29935" subtype="implied">Anatol</rs> in recollection of agreeable <rs type="place" ref="#pmb182">Paris</rs>ian comedies. In those days, he added, he did
                not know that an author was obliged to have an original note of his own. »Der
                Einakter, dem ich dann noch einige folgen ließ,« he is quoted as saying, »war nichts
-               weiter als eine Lesefrucht. Heute weiß ich, daß er von der <anchor type="commentary"
-                  xml:id="K_I103-3"/>Menge <rs type="place" ref="#166">französischer</rs> Novellen
-               und Komödien<note type="commentary" xml:id="K_I103-3h"><ref type="pointer"
-                     target="#I023_L_1lustspiel" subtype="cf"/></note>, die ich damals las und sah,
+               weiter als eine Lesefrucht. Heute weiß ich, daß er von der <anchor type="commentary" xml:id="K_I103-3"/>Menge <rs type="place" ref="#pmb166">französischer</rs> Novellen
+               und Komödien<note type="commentary" xml:id="K_I103-3h">
+                  <ref type="pointer" target="#I023_L_1lustspiel" subtype="cf"/>
+               </note>, die ich damals las und sah,
                in gerader Linie abstammte.«</p>
             <p>
                <space dim="vertical" unit="lines" quantity="1"/>
             </p>
             <p>
-               <hi rend="superscript">66</hi> Cf. <rs type="work" ref="#58245">
+               <hi rend="superscript">66</hi> Cf. <rs type="work" ref="#pmb58245">
                   <hi rend="italics">Leipziger Abendpost</hi>
-               </rs>, <date>Nov.&#8239;20, 1925</date>.</p>
+               </rs>, <date>Nov. 20, 1925</date>.</p>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb5130">
+               <persName>
+                  <forename>Carl</forename>
+                  <surname>Marilaun</surname>
+               </persName>
+               <birth>
+                  <date when="1881-12-22">22.12.1881</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1934-06-30">30.06.1934</date>
+                  <settlement ref="pmb55315">
+                     <placeName type="pref">Loosdorf</placeName>
+                     <location>
+                        <geo>48,2 15,4</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/130111791</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17889</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5130/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q94911134</idno>
+            </person>
+            <person xml:id="pmb4412">
+               <persName>
+                  <forename>Otto Paul</forename>
+                  <surname>Schinnerer</surname>
+               </persName>
+               <persName type="legacy-name-merge">Schinnerer, Otto Paul</persName>
+               <birth>
+                  <date when="1890-11-05">1890-11-05</date>
+                  <settlement ref="pmb48829">
+                     <placeName type="pref">Ocheyedan</placeName>
+                     <location>
+                        <geo>43,41608 -95,53473</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1942-11-07">1942-11-07</date>
+                  <settlement ref="pmb44053">
+                     <placeName type="pref">New York City</placeName>
+                     <location>
+                        <geo>40,71427 -74,00597</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb274">Wissenschaftler/Wissenschaftlerin &gt;&gt; Literaturwissenschaftler/Literaturwissenschaftlerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/105204042X</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19704</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb4412.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4412/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/24193/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb4412</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q94809425</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb4412.html</idno>
+            </person>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb29935">
+               <title>Anatol</title>
+               <title type="werk_bibliografische-angabe">Arthur Schnitzler: Anatol. Berlin: Bibliographisches Bureau 1892, vordatiert auf 1893</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <author ref="pmb28645" role="hat-illustriert">Coschell, Moritz</author>
+               <author ref="pmb11740" role="hat-ein-vorwortnachwort-verfasst-zu">Hofmannsthal, Hugo von</author>
+               <date>1892-10-29</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.03</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q487409</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-anatol</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/32630</idno>
+               <idno type="URL" subtype="deutschestextarchiv">http://www.deutschestextarchiv.de/book/view/schnitzler_anatol_1893</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29935.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29935/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29935</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29935.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Anatol_(Schauspiel)</idno>
+               <note type="work_kind">Drama &gt;&gt; Einakterzyklus</note>
+            </bibl>
+            <bibl xml:id="pmb58245">
+               <title>Leipziger Abendpost</title>
+               <date notBefore="1921-01-01" when="1921-07-02">1921</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58245/</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+            <bibl xml:id="pmb58250">
+               <title>The Early Works of Arthur Schnitzler</title>
+               <author ref="pmb4412" role="hat-geschaffen">Schinnerer, Otto Paul</author>
+               <date when="1929-04-01">1929-04-01</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58250/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb58250.html</idno>
+               <note type="work_kind">Wissenschaftliches Werk &gt;&gt; Wissenschaftlicher Aufsatz</note>
+            </bibl>
+            <bibl xml:id="pmb58596">
+               <title>The Germanic Review</title>
+               <date notBefore="1925-01-01" when="1925-07-02">1925</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58596/</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Zeitschrift &gt;&gt; Monatsschrift</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb182">
+               <placeName>Paris</placeName>
+               <placeName type="alternative-name">P'ariz</placeName>
+               <placeName type="alternative-name">Pariž</placeName>
+               <placeName type="alternative-name">Parisius</placeName>
+               <placeName type="alternative-name">Île-de-France</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,85341 2,3488</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb166">Frankreich</placeName>
+                  <geo>46,0 2,0</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb182.html</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4044660-8</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/182/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb182</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64183/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2988507/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb182</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb182.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q90</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Paris</idno>
+            </place>
+            <place xml:id="pmb166">
+               <placeName>Frankreich</placeName>
+               <placeName type="alternative-name">France</placeName>
+               <desc type="entity_type">Land (A.LND)</desc>
+               <desc type="entity_type_id">38</desc>
+               <location type="coords">
+                  <geo>46,0 2,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb468">Europa</placeName>
+                  <geo>48,69096 9,14062</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q142</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb166.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3017382/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/166/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb166</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb166.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Frankreich</idno>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

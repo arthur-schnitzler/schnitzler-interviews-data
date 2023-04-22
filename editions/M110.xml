@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="M110">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="M110">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#58433">Ein Brief Schnitzlers über den »Reigen«,
-               21.&#8239;2.&#8239;1921</title>
-            <author ref="#2121">Schnitzler, Arthur</author>
+            <title level="a" ref="#pmb58433">Ein Brief Schnitzlers über den »Reigen«,
+               21. 2. 1921</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -28,13 +30,13 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#58439">Epstein, Max</author>
-                     <title level="a" ref="#58433">Ein Brief Schnitzlers über den »Reigen«</title>
+                     <author ref="#pmb58439">Epstein, Max</author>
+                     <title level="a" ref="#pmb58433">Ein Brief Schnitzlers über den »Reigen«</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#58435">B.&#8239;Z. am Mittag</title>
+                     <title level="j" ref="#pmb58435">B. Z. am Mittag</title>
                      <imprint>
-                        <date when="1921-02-21" n="1">21.&#8239;2.&#8239;1921</date>
+                        <date when="1921-02-21" n="1">21. 2. 1921</date>
                      </imprint>
                      <biblScope unit="jg">44</biblScope>
                      <biblScope unit="nr">43, Erstes Beiblatt</biblScope>
@@ -58,70 +60,57 @@
    <text type="article">
       <body>
          <div type="original">
-            <head>Ein Brief Schnitzlers über den »<rs type="work" ref="#29855">Reigen</rs>«.</head>
-            <head type="sub">Mitgeteilt von<lb/><rs type="person" ref="#58439">Max Epstein</rs>. </head>
+            <head>Ein Brief Schnitzlers über den »<rs type="work" ref="#pmb29855">Reigen</rs>«.</head>
+            <head type="sub">Mitgeteilt von<lb/>
+               <rs type="person" ref="#pmb58439">Max Epstein</rs>. </head>
             <p>Vor Jahren, als zuerst die Idee aufgetaucht war, die Szenenreihe des Schnitzlerschen
-                  »<rs type="work" ref="#29855">Reigen</rs>« aufzuführen, wollte der Dichter von
+                  »<rs type="work" ref="#pmb29855">Reigen</rs>« aufzuführen, wollte der Dichter von
                einer solchen Veranstaltung nichts wissen. Wie Arthur Schnitzler jetzt darüber denkt,
                hat er durch seine Genehmigung der Aufführung bewiesen. Als es noch keinen Weltkrieg
                und keine Revolution gab, hat er seine Meinung recht bestimmt zum Ausdruck
                gebracht.</p>
-            <p>Der verstorbene <rs type="person" ref="#2847">Giampietro</rs> wollte Schnitzlers »<rs
-                  type="work" ref="#29855">Reigen</rs>« mit einer <anchor type="commentary"
-                  xml:id="K_I110-1"/>
-               <rs type="person" ref="#58470" subtype="implied">Dame</rs>
+            <p>Der verstorbene <rs type="person" ref="#pmb2847">Giampietro</rs> wollte Schnitzlers »<rs type="work" ref="#pmb29855">Reigen</rs>« mit einer <anchor type="commentary" xml:id="K_I110-1"/>
+               <rs type="person" ref="#pmb58470" subtype="implied">Dame</rs>
                <note type="commentary" xml:id="K_I110-1h">nicht identifiziert; bei der Lesung von
-                     <rs type="work" ref="#29855">Reigen</rs> durch <rs type="person" ref="#2847"
-                     >Giampietro</rs> am <date>22.&#8239;11.&#8239;1905</date> trat dieser alleine
-                  vor geschlossenem Publikum auf. Die Veranstaltung fand als Vereinsabend von <rs
-                     type="org" ref="#58452">Stille Bühne</rs> im <rs type="place" ref="#53399"
-                     >Berliner Hotel Prinz Albrecht</rs> statt.</note> zusammen vorlesen. Er hat es
+                     <rs type="work" ref="#pmb29855">Reigen</rs> durch <rs type="person" ref="#pmb2847">Giampietro</rs> am <date>22. 11. 1905</date> trat dieser alleine
+                  vor geschlossenem Publikum auf. Die Veranstaltung fand als Vereinsabend von <rs type="org" ref="#pmb58452">Stille Bühne</rs> im <rs type="place" ref="#pmb53399">Berliner Hotel Prinz Albrecht</rs> statt.</note> zusammen vorlesen. Er hat es
                später in beschränktem Umfange tatsächlich getan. Zuerst aber hatte er den Wunsch
                nach einer mehr öffentlichen richtigen Aufführung. Er wandte sich an einen dem
-               Dichter wohlbekannten Herrn, der Schnitzler <rs type="person" ref="#2847"
-                  >Giampietro</rs>s Bitte unterbreitete. Die wörtliche Antwort Arthur Schnitzlers
+               Dichter wohlbekannten Herrn, der Schnitzler <rs type="person" ref="#pmb2847">Giampietro</rs>s Bitte unterbreitete. Die wörtliche Antwort Arthur Schnitzlers
                lautete:</p>
             <p rend="right">
-               <date>13.&#8239;9.&#8239;1912</date>.</p>
+               <date>13. 9. 1912</date>.</p>
             <p rend="inline">
-               <anchor type="commentary" xml:id="K_I110-11"/>Sehr geehrter Herr<note
-                  type="commentary" xml:id="K_I110-11h">Der Brief war nicht an <rs type="person"
-                     ref="#2847">Giampietro</rs> gerichtet, sondern an <rs type="person"
-                     ref="#58472">Ernst Friedmann</rs>, wie sich aus dem Durchschlag des
-                  maschinschriftlichen Briefes in <rs type="person" ref="#2121">Schnitzler</rs>s
-                  Nachlass ergibt (<bibl>vgl. <rs type="person" ref="#2121">A.&#8239;S.</rs>: <title level="m">Briefe</title> I,
-                     S.&#8239;699</bibl>). <rs type="person" ref="#58472">Friedmann</rs> arbeitete
-                  für die Theaterunternehmungen <rs type="person" ref="#58439">Max Epstein</rs>s als
+               <anchor type="commentary" xml:id="K_I110-11"/>Sehr geehrter Herr<note type="commentary" xml:id="K_I110-11h">Der Brief war nicht an <rs type="person" ref="#pmb2847">Giampietro</rs> gerichtet, sondern an <rs type="person" ref="#pmb58472">Ernst Friedmann</rs>, wie sich aus dem Durchschlag des
+                  maschinschriftlichen Briefes in <rs type="person" ref="#pmb2121">Schnitzler</rs>s
+                  Nachlass ergibt (<bibl>vgl. <rs type="person" ref="#pmb2121">A. S.</rs>: <title level="m">Briefe</title> I,
+                     S. 699</bibl>). <rs type="person" ref="#pmb58472">Friedmann</rs> arbeitete
+                  für die Theaterunternehmungen <rs type="person" ref="#pmb58439">Max Epstein</rs>s als
                   Rechnungsprüfer, so dass nachvollziehbar ist, wie jener in Besitz des Briefes
                   kam.</note>
                <c rendition="#dots" n="6"/>
             </p>
             <p rend="inline">Entschuldigen Sie, wenn ich Ihnen erst heute auf Ihr freundliches
-               Schreiben vom <date>28.&#160;August</date> antworte. Die bisherigen Bühnenschicksale
-               des »<rs type="work" ref="#29855">Reigen</rs>« waren folgende: Vor etwa 6–7 Jahren
+               Schreiben vom <date>28. August</date> antworte. Die bisherigen Bühnenschicksale
+               des »<rs type="work" ref="#pmb29855">Reigen</rs>« waren folgende: Vor etwa 6–7 Jahren
                hat der <anchor type="commentary" xml:id="K_I110-2"/>
-               <rs type="org" ref="#29265">akademisch-dramatische Verein</rs>
-               <note type="commentary" xml:id="K_I110-2h">Am <date>25.&#8239;6.&#8239;1903</date>
-                  wurden die Szenen 4–6 wurden aufgeführt.</note> in <rs type="place" ref="#45258"
-                  >München</rs> drei Szenen daraus, trotz meines Abratens (zu einem Verbot lag kein
+               <rs type="org" ref="#pmb29265">akademisch-dramatische Verein</rs>
+               <note type="commentary" xml:id="K_I110-2h">Am <date>25. 6. 1903</date>
+                  wurden die Szenen 4–6 wurden aufgeführt.</note> in <rs type="place" ref="#pmb45258">München</rs> drei Szenen daraus, trotz meines Abratens (zu einem Verbot lag kein
                Grund vor) aufgeführt und wurde daraufhin aufgelöst. Von einem anderen Erfolg der
-               Veranstaltung ist mir nichts bekannt geworden. Einige Zeit später haben die <rs
-                  type="org" ref="#29779">Elf Scharfrichter</rs> (<rs type="place" ref="#45258"
-                  >München</rs>) ohne mein Wissen – ich erfuhr durch <anchor type="commentary"
-                  xml:id="K_I110-3"/>Zufall<note type="commentary" xml:id="K_I110-3h">nicht
-                  nachweisbar, angeblich in <rs type="place" ref="#168">Berlin</rs> (<bibl>vgl.
-                     <title level="m">Briefe</title> II, S.&#8239;224</bibl>)</note> davon
-               – eine Szene aus dem »<rs type="work" ref="#29855">Reigen</rs>« aufgeführt, ich weiß
+               Veranstaltung ist mir nichts bekannt geworden. Einige Zeit später haben die <rs type="org" ref="#pmb29779">Elf Scharfrichter</rs> (<rs type="place" ref="#pmb45258">München</rs>) ohne mein Wissen – ich erfuhr durch <anchor type="commentary" xml:id="K_I110-3"/>Zufall<note type="commentary" xml:id="K_I110-3h">nicht
+                  nachweisbar, angeblich in <rs type="place" ref="#pmb168">Berlin</rs> (<bibl>vgl.
+                     <title level="m">Briefe</title> II, S. 224</bibl>)</note> davon
+               – eine Szene aus dem »<rs type="work" ref="#pmb29855">Reigen</rs>« aufgeführt, ich weiß
                nicht welche; es soll ganz miserabel gewesen sein. Seither sind manche Anträge an
                mich gelangt. Ich habe mich jedesmal ablehnend verhalten, da ja eine Aufführung
                dieser zehn Szenen in ihrer wahren Gestalt ein absolutes Ding der Unmöglichkeit wäre,
                und jede Milderung den Sinn des Ganzen zunichte machen müßte. In der nächsten Zeit
-               soll, wie ich höre, der »<rs type="work" ref="#29855">Reigen</rs>« in <anchor
-                  type="commentary" xml:id="K_I110-4"/>
-               <rs type="place" ref="#35512">Ungarn</rs>
-               <note type="commentary" xml:id="K_I110-4h">Am <date>13.&#8239;10.&#8239;1912</date>
-                  fand die erste vollständige Aufführung im <rs type="org" ref="#58481">Uj
-                     szinpad</rs> in <rs type="place" ref="#43471">Budapest</rs> statt, somit die
+               soll, wie ich höre, der »<rs type="work" ref="#pmb29855">Reigen</rs>« in <anchor type="commentary" xml:id="K_I110-4"/>
+               <rs type="place" ref="#pmb35512">Ungarn</rs>
+               <note type="commentary" xml:id="K_I110-4h">Am <date>13. 10. 1912</date>
+                  fand die erste vollständige Aufführung im <rs type="org" ref="#pmb58481">Uj
+                     szinpad</rs> in <rs type="place" ref="#pmb43471">Budapest</rs> statt, somit die
                   eigentliche Uraufführung, auch wenn sie ohne Zustimmung des Autors
                   erfolgte.</note> zur Aufführung kommen. Da dort das Stück ungeschützt ist, so
                werde ich wohl, um mich nicht aller Rechte a priori zu begeben, durch meinen
@@ -135,13 +124,13 @@
          </div>
          <div type="biographical">
             <div1>
-               <bibl>Schnitzler an <rs type="org" ref="#29702">B.&#8239;Z. am Mittag</rs>,
-                     <date>23.&#8239;2.&#8239;1921</date>, Durchschlag</bibl>
+               <bibl>Schnitzler an <rs type="org" ref="#pmb29702">B. Z. am Mittag</rs>,
+                     <date>23. 2. 1921</date>, Durchschlag</bibl>
                <quote>
                   <p>Sehr geehrter Herr Redakteur,</p>
                   <p>Man übersendet mir eine Nummer Ihres geschätzten Blattes, worin ein Privatbrief
-                     von mir, datiert vom <date>13.&#8239;9.&#8239;1912</date>, abgedruckt ist, der
-                     sich gegen die Aufführung des ›<rs type="work" ref="#29855">Reigen</rs>‹
+                     von mir, datiert vom <date>13. 9. 1912</date>, abgedruckt ist, der
+                     sich gegen die Aufführung des ›<rs type="work" ref="#pmb29855">Reigen</rs>‹
                      ausspricht. Da Sie in Ihrem Leserkreise einiges Interesse für diese Frage
                      vorauszusetzen scheinen, werden sie ihm gewiss auch die nachfolgende
                      Berichtigung nicht vorenthalten wollen oder wenigstens diejenigen Sätze daraus,
@@ -149,10 +138,464 @@
                      habe.</p>
                   <p>Mit vorzüglicher Hochachtung</p>
                   <p>
-                     <supplied>Beilage fehlt, wohl <ref type="pointer" target="#P064"/></supplied>
-                  </p></quote>
+                     <supplied>Beilage fehlt, wohl <ref type="pointer" target="#P064"/>
+                     </supplied>
+                  </p>
+               </quote>
             </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb58439">
+               <persName>
+                  <forename>Max</forename>
+                  <surname>Epstein</surname>
+               </persName>
+               <birth>
+                  <date when="1874-03-09">1874-03-09</date>
+                  <settlement ref="pmb55380">
+                     <placeName type="pref">Chorzów</placeName>
+                     <location>
+                        <geo>50,30582 18,9742</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1948-05-09">1948-05-09</date>
+                  <settlement ref="pmb224">
+                     <placeName type="pref">London</placeName>
+                     <location>
+                        <geo>51,50853 -0,12574</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <occupation ref="pmb1639">Jurist/Juristin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58439/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/115385258</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp42729</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q28172230</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Max_Epstein_(Schriftsteller)</idno>
+            </person>
+            <person xml:id="pmb2847">
+               <persName>
+                  <forename>Josef</forename>
+                  <surname>Giampietro</surname>
+               </persName>
+               <persName type="legacy-name-merge">Giampietro, Joseph</persName>
+               <birth>
+                  <date when="1866-06-21">21.06.1866</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1913-12-29">29.12.1913</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <occupation ref="pmb396">Filmschauspieler/Filmschauspielerin</occupation>
+               <occupation ref="pmb2197">Komiker/Komikerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/1061563561</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15422</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2847.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2847/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2847</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp44420</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/114152/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116616164</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1707099</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Joseph_Giampietro</idno>
+            </person>
+            <person xml:id="pmb58470">
+               <persName>
+                  <surname>?? [Mögliche Partnerin Giampietros für Lesung von Reigen]</surname>
+               </persName>
+               <sex value="female"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58470/</idno>
+            </person>
+            <person xml:id="pmb58472">
+               <persName>
+                  <forename>Ernst</forename>
+                  <surname>Friedmann</surname>
+               </persName>
+               <birth>
+                  <date when="1858-01-20">1858-01-20</date>
+                  <settlement ref="pmb45590">
+                     <placeName type="pref">Gliwice</placeName>
+                     <location>
+                        <geo>50,29761 18,67658</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1928-05-19">1928-05-19</date>
+                  <settlement ref="pmb58474">
+                     <placeName type="pref">Linow</placeName>
+                     <location>
+                        <geo>53,38333 13,95</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb175">Kaufmann/Kauffrau</occupation>
+               <occupation ref="pmb648">Rechnungsprüfer/Rechnungsprüferin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58472/</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb29855">
+               <title>Reigen. Zehn Dialoge</title>
+               <title type="werk_link">https://www.digital.wienbibliothek.at/wbrobv/content/pageview/2587756</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1900-01-01">1900</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.32</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1414190</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-reigen</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/33309</idno>
+               <idno type="URL" subtype="deutschestextarchiv">http://www.deutschestextarchiv.de/book/show/schnitzler_reigen_1903</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29855.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29855/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29855</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29855.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb58433">
+               <title>Ein Brief Schnitzlers über den »Reigen«</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <author ref="pmb58439" role="hat-geschaffen">Epstein, Max</author>
+               <date when="1921-02-21">1921-02-21</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58433/</idno>
+               <note type="work_kind">Brief &gt;&gt; Öffentlicher Brief &gt;&gt; Leserbrief</note>
+            </bibl>
+            <bibl xml:id="pmb58435">
+               <title>B.Z. am Mittag</title>
+               <date to="1943-07-02">1904-10-22  – 1943</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58435/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q795180</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/B.Z._am_Mittag</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb53399">
+               <placeName>Hotel Prinz Albrecht</placeName>
+               <desc type="entity_type">Hotel (K.HTL)</desc>
+               <desc type="entity_type_id">12</desc>
+               <location type="coords">
+                  <geo>52,506944 13,384722</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb53400">Prinz-Albrecht-Straße</placeName>
+                  <geo>52,50741406067796 13,382552242583323</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb168">Berlin</placeName>
+                  <geo>52,52437 13,41053</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/53399/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb53399</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q16831869</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hotel_Prinz_Albrecht</idno>
+            </place>
+            <place xml:id="pmb45258">
+               <placeName>München</placeName>
+               <placeName type="legacy-name-merge">München?</placeName>
+               <placeName type="legacy-name-merge">Munich</placeName>
+               <placeName type="alternative-name">Monacho</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPLA</desc>
+               <desc type="entity_type_id">1415</desc>
+               <location type="coords">
+                  <geo>48,13743 11,57549</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb314">Bayern</placeName>
+                  <geo>49,0 11,5</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb151">Deutschland</placeName>
+                  <geo>51,5 10,5</geo>
+               </location>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4127793-4</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/38129/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/45258/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2867714/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb45258</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb45258</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb45258.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1726</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/M%C3%BCnchen</idno>
+            </place>
+            <place xml:id="pmb168">
+               <placeName>Berlin</placeName>
+               <placeName type="alternative-name">Hauptstadt Berlin</placeName>
+               <placeName type="alternative-name">Barlīn</placeName>
+               <placeName type="alternative-name">Reichshauptstadt Berlin</placeName>
+               <placeName type="alternative-name">Berolino</placeName>
+               <placeName type="legacy-name-merge">B-n</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPLC</desc>
+               <desc type="entity_type_id">1418</desc>
+               <location type="coords">
+                  <geo>52,52437 13,41053</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb151">Deutschland</placeName>
+                  <geo>51,5 10,5</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb168</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92171.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
+            </place>
+            <place xml:id="pmb35512">
+               <placeName>Ungarn</placeName>
+               <placeName type="alternative-name">Republic of Hungary</placeName>
+               <placeName type="legacy-name-merge">Hungary</placeName>
+               <desc type="entity_type">http://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>47,0 20,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb687">Österreich-Ungarn</placeName>
+                  <geo>48,4054 16,4887</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q28</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb167.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/719819/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35512/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb35512</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb35512.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ungarn</idno>
+            </place>
+            <place xml:id="pmb43471">
+               <placeName>Budapest</placeName>
+               <placeName type="legacy-name-merge">Buda</placeName>
+               <placeName type="alternative-name">Königl. Freie Hauptstadt Ofen</placeName>
+               <placeName type="legacy-name-merge">Ofen</placeName>
+               <placeName type="alternative-name">Altofen</placeName>
+               <placeName type="legacy-name-merge">Pest (Stadt)</placeName>
+               <placeName type="legacy-name-merge">Óbuda</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPLC</desc>
+               <desc type="entity_type_id">1418</desc>
+               <location type="coords">
+                  <geo>47,49835 19,04045</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb35512">Ungarn</placeName>
+                  <geo>47,0 20,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb43471">Budapest</placeName>
+                  <geo>47,49835 19,04045</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1781</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb464.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3054643/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4008684-7</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/9867/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/42014/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43471/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43797/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb43471</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/62463/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64169/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/88759/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb43471</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb43471.html</idno>
+               <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1781</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Budapest</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb58452">
+               <orgName>Stille Bühne</orgName>
+               <desc type="entity_type">Verein</desc>
+               <desc type="entity_type_id">974</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb168">Berlin</placeName>
+                  <geo>52,52437 13,41053</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb168</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92171.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58452/</idno>
+            </org>
+            <org xml:id="pmb29265">
+               <orgName>Akademisch-dramatischer Verein München</orgName>
+               <desc type="entity_type">Verein &gt;&gt; Theaterverein</desc>
+               <desc type="entity_type_id">995</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb45258">München</placeName>
+                  <geo>48,13743 11,57549</geo>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4127793-4</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/38129/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/45258/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2867714/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb45258</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb45258</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb45258.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1726</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/M%C3%BCnchen</idno>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29265.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29265/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb29265</idno>
+               <note type="apis_dates">
+                  <date from="1890-01-01" to="1903-07-02">1890  – 1903</date>
+               </note>
+            </org>
+            <org xml:id="pmb29779">
+               <orgName>Die elf Scharfrichter</orgName>
+               <desc type="entity_type">Kabarett</desc>
+               <desc type="entity_type_id">1042</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb45258">München</placeName>
+                  <geo>48,13743 11,57549</geo>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4127793-4</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/38129/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/45258/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2867714/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb45258</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb45258</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb45258.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1726</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/M%C3%BCnchen</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb50087">Türkenstraße (München)</placeName>
+                  <geo>48,150271 11,57595</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50087/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50087</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q21406630</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/T%C3%BCrkenstra%C3%9Fe_(M%C3%BCnchen)</idno>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29779.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29779/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29779</idno>
+            </org>
+            <org xml:id="pmb58481">
+               <orgName>Uj szinpad</orgName>
+               <desc type="entity_type">Theater</desc>
+               <desc type="entity_type_id">1012</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb43471">Budapest</placeName>
+                  <geo>47,49835 19,04045</geo>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1781</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb464.html</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/3054643/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4008684-7</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/9867/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/42014/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43471/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43797/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb43471</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/62463/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64169/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/88759/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb43471</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb43471.html</idno>
+                  <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1781</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Budapest</idno>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58481/</idno>
+               <note type="apis_dates">
+                  <date notBefore="1912-01-01" when="1912-07-01">1912</date>
+               </note>
+            </org>
+            <org xml:id="pmb29702">
+               <orgName>B.Z. am Mittag</orgName>
+               <desc type="entity_type">Tageszeitungsredaktion</desc>
+               <desc type="entity_type_id">972</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb168">Berlin</placeName>
+                  <geo>52,52437 13,41053</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb168</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92171.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29702.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29702/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29702</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb29702</idno>
+               <note type="apis_dates">
+                  <date notBefore="1904-01-01" when="1904-07-01">1904</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

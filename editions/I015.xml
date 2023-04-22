@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I015">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="I015">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#32941">c.&#8239;m.&#8239;[= Carl Marilaun]: Wesen des
-               Burgtheaters, 4.&#8239;4.&#8239;1926</title>
-            <author ref="#5130">Marilaun, Karl</author>
+            <title level="a" ref="#pmb32941">c. m. [= Carl Marilaun]: Wesen des
+               Burgtheaters, 4. 4. 1926</title>
+            <author ref="#pmb5130">Marilaun, Karl</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -28,13 +30,13 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#5130">c. m. [= Carl Marilaun]</author>
-                     <title level="a" ref="#32941">Wesen des Burgtheaters. Aus Gesprächen</title>
+                     <author ref="#pmb5130">c. m. [= Carl Marilaun]</author>
+                     <title level="a" ref="#pmb32941">Wesen des Burgtheaters. Aus Gesprächen</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#36376">Neues Wiener Journal</title>
+                     <title level="j" ref="#pmb36376">Neues Wiener Journal</title>
                      <imprint>
-                        <date when="1926-04-04" n="1">4.&#8239;4.&#8239;1926</date>
+                        <date when="1926-04-04" n="1">4. 4. 1926</date>
                      </imprint>
                      <biblScope unit="jg">34</biblScope>
                      <biblScope unit="nr">11.627</biblScope>
@@ -55,116 +57,102 @@
          <change who="KH" when="2021-10-27">Durchsicht</change>
       </revisionDesc>
    </teiHeader>
-   <!-- http://anno.onb.ac.at/cgi-content/anno?aid=nwj&datum=19260404&seite=6&zoom=33 -->
    <text type="text">
       <body>
          <div type="original">
-            <head><anchor type="commentary" xml:id="K_I015-1"/>Wesen des <rs type="org" ref="#36247"
-                  >Burgtheater</rs>s<note type="commentary" xml:id="K_I015-1h">Teilweise diente
-                  dieser Text als Grundlage für ein weiteres Interview, das wenige Tage nach <rs
-                     type="person" ref="#2121">Schnitzler</rs>s Tod erschien, <ref target="#I017"
-                     type="pointer"/>.</note>.</head>
-            <head type="sub">Aus Gesprächen mit <rs type="person" ref="#2121">Artur
+            <head>
+               <anchor type="commentary" xml:id="K_I015-1"/>Wesen des <rs type="org" ref="#pmb36247">Burgtheater</rs>s<note type="commentary" xml:id="K_I015-1h">Teilweise diente
+                  dieser Text als Grundlage für ein weiteres Interview, das wenige Tage nach <rs type="person" ref="#pmb2121">Schnitzler</rs>s Tod erschien, <ref target="#I017" type="pointer"/>.</note>.</head>
+            <head type="sub">Aus Gesprächen mit <rs type="person" ref="#pmb2121">Artur
                Schnitzler</rs>.</head>
             <p>
-               <rs type="person" ref="#2121">Artur Schnitzler</rs> liebt es durchaus nicht, sich für
+               <rs type="person" ref="#pmb2121">Artur Schnitzler</rs> liebt es durchaus nicht, sich für
                die Oeffentlichkeit zu »erinnern«. Obwohl niemand geistvoller, scharmanter und
                erkenntnisreicher über die gewissen, im Laufe eines Lebens sich ergebenden
                Zusammenstöße mit Menschen, Masken, Dingen und Institutionen zu erzählen weiß, als
                gerade er.</p>
             <p>Und so macht man ihm auch keine Freude mit dem Ersuchen, Erlaubnis zur
                Veröffentlichung der einen oder anderen apart pointierten Geschichte zu geben, deren
-               Hintergrund das <rs type="org" ref="#36247">Burgtheater</rs> und deren Handelnde die
-               Menschen aus dem <rs type="org" ref="#36247">Burgtheater</rs> sind. Aus Rücksicht auf
+               Hintergrund das <rs type="org" ref="#pmb36247">Burgtheater</rs> und deren Handelnde die
+               Menschen aus dem <rs type="org" ref="#pmb36247">Burgtheater</rs> sind. Aus Rücksicht auf
                Lebende, wie zum Teil auch schon Tote, gibt er diese Erlaubnis nicht, und die
-               Oeffentlichkeit mag dies bedauern. Denn wenn <rs type="person" ref="#2121">Artur
+               Oeffentlichkeit mag dies bedauern. Denn wenn <rs type="person" ref="#pmb2121">Artur
                   Schnitzler</rs> aus persönlichen Erinnerungen eine inhaltlich oft nur winzige
                Anekdote erzählt – nicht ohne sich zuvor der Diskretion des Zuhörers zu versichern –
                dechiffriert er mitunter mit zehn Worten ein ganzes Zeitalter.</p>
             <p>Seine unveröffentlichten und vielleicht gar nicht geschriebenen persönlichen
-               Erinnerungen ans <rs type="org" ref="#36247">Burgtheater</rs>, mit dem er von
+               Erinnerungen ans <rs type="org" ref="#pmb36247">Burgtheater</rs>, mit dem er von
                frühester Jugend auf verbunden ist, sind solche Dechiffrierungen eines Zeitalters.
                Sie bis auf weiteres bei sich zu behalten, scheint ihm gerade jetzt ein besonderer
-               Anlaß gegeben: die Tatsache, daß anläßlich des <rs type="org" ref="#36247"
-                  >Burgtheater</rs>jubiläums kaum ein Tag vergeht, an dem er nicht ersucht wird,
-               persönliche Erinnerungen an das <rs type="org" ref="#36247">Burgtheater</rs> für die
+               Anlaß gegeben: die Tatsache, daß anläßlich des <rs type="org" ref="#pmb36247">Burgtheater</rs>jubiläums kaum ein Tag vergeht, an dem er nicht ersucht wird,
+               persönliche Erinnerungen an das <rs type="org" ref="#pmb36247">Burgtheater</rs> für die
                Oeffentlichkeit zur Verfügung zu stellen.</p>
-            <p>Durch seinen <rs type="person" subtype="implied" ref="#12695">Vater</rs>, zu dessen
-               Patienten- und Freundeskreis die bedeutendsten Künstler des alten <rs type="org"
-                  ref="#36247">Burgtheater</rs>s gehörten, ergaben sich schon für den
+            <p>Durch seinen <rs type="person" subtype="implied" ref="#pmb12695">Vater</rs>, zu dessen
+               Patienten- und Freundeskreis die bedeutendsten Künstler des alten <rs type="org" ref="#pmb36247">Burgtheater</rs>s gehörten, ergaben sich schon für den
                Heranwachsenden die ersten Berührungen mit der damals noch unbestritten ersten,
                führenden Bühne des deutschen Kulturkreises. Noch bevor er selbst als Autor mit dem
-                  <rs type="org" ref="#36247">Burgtheater</rs> in Verbindung kam, verstärkten sich
-               diese Beziehungen, da <rs type="person" ref="#2121">Artur Schnitzler</rs> als junger
-               Arzt einen Teil der <rs type="org" ref="#36247">Burgtheater</rs>klientel seines
+                  <rs type="org" ref="#pmb36247">Burgtheater</rs> in Verbindung kam, verstärkten sich
+               diese Beziehungen, da <rs type="person" ref="#pmb2121">Artur Schnitzler</rs> als junger
+               Arzt einen Teil der <rs type="org" ref="#pmb36247">Burgtheater</rs>klientel seines
                Vaters übernahm.</p>
             <p>Dieser junge Doktor der Medizin, Kind aus gutem Hause und vorurteilsloser gesinnt als
                man es bei Söhnen guter Häuser damals liebte, wuchs in einer Zeit auf, in der es für
                schöngeistige junge Leute seiner sozialen wie Altersklasse als das Maximum des
-               überhaupt Erreichbaren angesehen wurde, von der »<rs type="org" ref="#29351">Neuen
-                  Freien Presse</rs>« gedruckt und im <rs type="org" ref="#36247">Burgtheater</rs>
-               aufgeführt zu werden. Ob der junge <rs type="person" ref="#2121">Schnitzler</rs>
+               überhaupt Erreichbaren angesehen wurde, von der »<rs type="org" ref="#pmb29351">Neuen
+                  Freien Presse</rs>« gedruckt und im <rs type="org" ref="#pmb36247">Burgtheater</rs>
+               aufgeführt zu werden. Ob der junge <rs type="person" ref="#pmb2121">Schnitzler</rs>
                diesen Ehrgeiz des Gedrucktwerdens teilte, ist mir nicht bekannt. Wohl aber erinnere
-               ich mich, von ihm gehört zu haben, daß er heute noch den <anchor type="commentary"
-                  xml:id="K_I015-11"/>Tag, an dem <rs type="person" ref="#11036">Max Burckhard</rs>
-               seine »<rs type="work" ref="#29917">Liebelei</rs>« zur Aufführung am <rs type="org"
-                  ref="#36247">Burgtheater</rs> annahm<note type="commentary" xml:id="K_I015-11h"
-                     ><ref type="schnitzlerDiary" subtype="cf" target="1894-10-31"/>: »<quote>Zu
-                        Haus fand ich ein Telegramm von <rs type="person" ref="#11036">Burckhard</rs> aus <rs type="place" ref="#168">Berlin</rs>,– der mein Stück sofort
+               ich mich, von ihm gehört zu haben, daß er heute noch den <anchor type="commentary" xml:id="K_I015-11"/>Tag, an dem <rs type="person" ref="#pmb11036">Max Burckhard</rs>
+               seine »<rs type="work" ref="#pmb29917">Liebelei</rs>« zur Aufführung am <rs type="org" ref="#pmb36247">Burgtheater</rs> annahm<note type="commentary" xml:id="K_I015-11h">
+                  <ref type="schnitzler-tagebuch" subtype="cf" target="1894-10-31"/>: »<quote>Zu
+                        Haus fand ich ein Telegramm von <rs type="person" ref="#pmb11036">Burckhard</rs> aus <rs type="place" ref="#pmb168">Berlin</rs>,– der mein Stück sofort
                      gelesen und nun telegr. ›herzl. gratul. – tiefer Eindruck etc.‹ – Anfangs war
                      ich so glücklich, dass ich hin und her lief und fast geweint hätte.– Ich
-                     schriebs gleich an <rs type="person" ref="#11485">Paul</rs>.– Ich freu mich aufs Aufwachen morgen
+                     schriebs gleich an <rs type="person" ref="#pmb11485">Paul</rs>.– Ich freu mich aufs Aufwachen morgen
                   früh.–</quote>«</note>, als einen der denkwürdigsten Tage seines Lebens
                bezeichnet.</p>
-            <p>Bis dahin Verehrer und Freund des <rs type="org" ref="#36247">Burgtheater</rs>s, trat
+            <p>Bis dahin Verehrer und Freund des <rs type="org" ref="#pmb36247">Burgtheater</rs>s, trat
                er mit diesem Tag als Autor – dem das Theater mindestens soviel verdankt, als er ihm
-               – dem engeren, ja engsten Kreis des <rs type="org" ref="#36247">Burgtheater</rs>s
-               bei. Aber <rs type="person" ref="#2121">Artur Schnitzler</rs> wäre nicht der
+               – dem engeren, ja engsten Kreis des <rs type="org" ref="#pmb36247">Burgtheater</rs>s
+               bei. Aber <rs type="person" ref="#pmb2121">Artur Schnitzler</rs> wäre nicht der
                außerordentlich persönliche, scharfsichtige und zu unbeinflußtem Urteil befugte
-               Mensch, der er ist, wenn eigene Erlebnisse mit dem <rs type="org" ref="#36247"
-                  >Burgtheater</rs> seinen Blick für das Wesen dieses Instituts zu trüben vermocht
+               Mensch, der er ist, wenn eigene Erlebnisse mit dem <rs type="org" ref="#pmb36247">Burgtheater</rs> seinen Blick für das Wesen dieses Instituts zu trüben vermocht
                hätten.</p>
             <p>
-               <ref type="question" target="#q098"/>Das Wesen des <rs type="org" ref="#36247"
-                  >Burgtheater</rs>s – es enthüllt sich ihm nicht so sehr bei Betrachtung des
-               künstlerisch Geleisteten, als in <anchor type="commentary" xml:id="K_I015-99"/>Imponderabilien<note type='commentary' xml:id="K_I015-99h">Unwägbarkeiten, nicht quantifizierbare Faktoren</note>. Worten wie »Atmosphäre« und
-               »Tradition«, ohne die man bei Unterhaltungen über das <rs type="org" ref="#36247"
-                  >Burgtheater</rs> schwer auszukommen vermag, geht auch er nicht aus dem Wege. Die
-               spezielle <rs type="org" ref="#36247">Burgtheater</rs>atmosphäre wurde ihm nie so
+               <ref type="question" target="#q098"/>Das Wesen des <rs type="org" ref="#pmb36247">Burgtheater</rs>s – es enthüllt sich ihm nicht so sehr bei Betrachtung des
+               künstlerisch Geleisteten, als in <anchor type="commentary" xml:id="K_I015-99"/>Imponderabilien<note type="commentary" xml:id="K_I015-99h">Unwägbarkeiten, nicht quantifizierbare Faktoren</note>. Worten wie »Atmosphäre« und
+               »Tradition«, ohne die man bei Unterhaltungen über das <rs type="org" ref="#pmb36247">Burgtheater</rs> schwer auszukommen vermag, geht auch er nicht aus dem Wege. Die
+               spezielle <rs type="org" ref="#pmb36247">Burgtheater</rs>atmosphäre wurde ihm nie so
                deutlich, als wenn er gewisse Begleiterscheinungen des Theaterspielens anderswo zum
                Vergleich heranzog. Und er vermag es nicht, in der oft zitierten, ebenso oft
                verlästerten oder belächelten »Tradition« einen Popanz oder einen nebelhaften, nicht
                recht konsistenten Begriff zu erblicken.</p>
-            <p>Atmosphäre wie Tradition des <rs type="org" ref="#36247">Burgtheater</rs>s scheinen
+            <p>Atmosphäre wie Tradition des <rs type="org" ref="#pmb36247">Burgtheater</rs>s scheinen
                ihm vielmehr Begriffe mit durchaus realen Auswirkungen zu sein, die sich sowohl im
                künstlerisch geleisteten wie in dem eigenartigen Erziehungswerk feststellen lassen,
-               das sie fast auf jeden ausübten und noch ausüben, der in die Kreise des <rs
-                  type="org" ref="#36247">Burgtheater</rs>s geriet. Es ist kein leerer Wahn, von
-               einer der <rs type="org" ref="#36247">Burgtheater</rs>sphäre durchaus eigentümlichen,
+               das sie fast auf jeden ausübten und noch ausüben, der in die Kreise des <rs type="org" ref="#pmb36247">Burgtheater</rs>s geriet. Es ist kein leerer Wahn, von
+               einer der <rs type="org" ref="#pmb36247">Burgtheater</rs>sphäre durchaus eigentümlichen,
                unter anders gearteten Verhältnissen unwiederholbaren Kultur zu sprechen. Ob ihr
                geistiger Inhalt auch immer dem Aufwand im Formalen entsprach, kann man eventuell
                dahingestellt sein lassen. Aber, belehrt durch den Umgang mit Menschen und
                Institutionen, lernt man schließlich den Wert guter Formen nicht geringer
-               einzuschätzen, als er es verdient. Als Autor, meint <rs type="person" ref="#2121"
-                  >Schnitzler</rs>, kann man im <rs type="org" ref="#36247">Burgtheater</rs> wie
+               einzuschätzen, als er es verdient. Als Autor, meint <rs type="person" ref="#pmb2121">Schnitzler</rs>, kann man im <rs type="org" ref="#pmb36247">Burgtheater</rs> wie
                überall gute und minder erfreuliche Erfahrungen machen. Nie aber wird der Gast des
-                  <rs type="org" ref="#36247">Burgtheater</rs>s – gleichviel, ob er dort gern oder
+                  <rs type="org" ref="#pmb36247">Burgtheater</rs>s – gleichviel, ob er dort gern oder
                ungern gesehen ist – über die Form, in der seine Aufnahme in diesen Kreis erfolgt, zu
                klagen haben. Jene durch schlechte Kinderstube oder literarischen Snobismus
                erklärbare Geringschätzung, die sich andernorts heute mitunter auch Autoren von
                anerkannten, aber nicht erst in einer letztvergangenen Sonntagsmatinee entdecktem
-               Verdienst gefallen lassen müssen, ist in der Atmosphäre des <rs type="org"
-                  ref="#36247">Burgtheater</rs>s so gut wie undenkbar.</p>
+               Verdienst gefallen lassen müssen, ist in der Atmosphäre des <rs type="org" ref="#pmb36247">Burgtheater</rs>s so gut wie undenkbar.</p>
             <p>Hier legt die vielberufene Tradition eben Verpflichtungen auf. Man kann sehr gut von
                einem Geist des Hauses sprechen, der unter Umständen stark genug war, wenn schon
-               nicht immer das geistige, so doch fast stets das menschliche Niveau des mit <rs
-                  type="org" ref="#36247">Burgtheater</rs>dingen sich Befassenden zu erhöhen. In der
-               Flucht der <rs type="org" ref="#36247">Burgtheater</rs>erscheinungen gibt es
+               nicht immer das geistige, so doch fast stets das menschliche Niveau des mit <rs type="org" ref="#pmb36247">Burgtheater</rs>dingen sich Befassenden zu erhöhen. In der
+               Flucht der <rs type="org" ref="#pmb36247">Burgtheater</rs>erscheinungen gibt es
                nebensächliche, auch mediokre Exponenten der Tradition. Aber fast keinen, dem
                Tradition und Atmosphäre dieses Hauses nicht Erzieher zu einer höheren Lebensform
                geworden wären.</p>
-            <p>Und hier allein schon sieht <rs type="person" ref="#2121">Artur Schnitzler</rs> einen
-               Vorzug des <rs type="org" ref="#36247">Burgtheater</rs>s, der ihm unbestreitbar hohen
+            <p>Und hier allein schon sieht <rs type="person" ref="#pmb2121">Artur Schnitzler</rs> einen
+               Vorzug des <rs type="org" ref="#pmb36247">Burgtheater</rs>s, der ihm unbestreitbar hohen
                Rang innerhalb des heutigen Theatergetriebes anweist.</p>
             <p>Die Schäden nun, die dem Organismus »Burgtheater« innewohnen, hängen nicht in
                allererster Linie, aber auch kaum in letzter mit seiner von altersher bestandenen
@@ -173,59 +161,463 @@
                dergleichen verkleidete Hierarchie der Beamten, die übrigens zum Teil ein wirkliches,
                inneres Verhältnis zu Kunst- und Theaterdingen hatten, ist immer gekämpft worden.
                Ohne richtigen Erfolg, denn es zeigt sich, daß auch heute noch ein verhältnismäßig
-               ganz stattlicher Rest von Intendantentum und Beamtenherrschaft die Geschicke des <rs
-                  type="org" ref="#36247">Burgtheater</rs>s mit bestimmt. Inwiefern diese
+               ganz stattlicher Rest von Intendantentum und Beamtenherrschaft die Geschicke des <rs type="org" ref="#pmb36247">Burgtheater</rs>s mit bestimmt. Inwiefern diese
                gemilderte, aber nichts weniger als abgeschaffte Beamtenoberhoheit, nach ihrer
                Zähigkeit zu schließen, vielleicht doch eine Art von geheimer Notwendigkeit
                darstellt, läßt sich vom Außenstehenden nicht ergründen.</p>
-            <p>Weiters und vor allem kommt das <rs type="org" ref="#36247">Burgtheater</rs> aber zu
+            <p>Weiters und vor allem kommt das <rs type="org" ref="#pmb36247">Burgtheater</rs> aber zu
                Schaden, weil es aus den verschiedensten Gründen gerade in dem für ein Theater
                wichtigsten Belang, im Engagieren und damit auch Bezahlen erster schauspielerischer
                Kräfte sparen muß. Aber schon an sich kommt ihm sein künstlerischer Apparat teurer
                als anderen Theatern zu stehen. Rein geschäftlich geführte Betriebe können in
-               schlechten Zeiten rücksichtsloser als ein <rs type="org" ref="#36247"
-                  >Burgtheater</rs> abbauen und den momentan entbehrlichen Mitarbeiter auf die
-               Straße werfen. Hier beginnt aber nicht nur ein <hi rend="antiqua"><anchor
-                     type="commentary" xml:id="K_I015-6"/>Noblesse oblige<note type="commentary"
-                     xml:id="K_I015-6h">französisch: Adel verpflichtet (vornehm zu
-                  handeln)</note></hi>, sondern die soziale Frage in Dingen des <rs type="org"
-                  ref="#36247">Burgtheater</rs>betriebs mitzusprechen. Ein Staat, der mit seinen
+               schlechten Zeiten rücksichtsloser als ein <rs type="org" ref="#pmb36247">Burgtheater</rs> abbauen und den momentan entbehrlichen Mitarbeiter auf die
+               Straße werfen. Hier beginnt aber nicht nur ein <hi rend="antiqua">
+                  <anchor type="commentary" xml:id="K_I015-6"/>Noblesse oblige<note type="commentary" xml:id="K_I015-6h">französisch: Adel verpflichtet (vornehm zu
+                  handeln)</note>
+               </hi>, sondern die soziale Frage in Dingen des <rs type="org" ref="#pmb36247">Burgtheater</rs>betriebs mitzusprechen. Ein Staat, der mit seinen
                Steuergeldern so und so viele für ihn vielleicht bereits überflüssig gewordene Beamte
                bis an ihr Lebensende zu erhalten sich verpflichtet, kann nicht Menschen aufs
                Pflaster setzen, die das Unglück haben, nichts weiter als Künstler zu sein. So
-               ergeben sich Belastungen, mit denen das <rs type="org" ref="#36247">Burgtheater</rs>
-               immer stärker als irgendein nächstbester Geschäftsbetrieb zu rechnen haben <anchor
-                  type="textConst" xml:id="T_I015-1"/>wird.<note type="textConst" xml:id="T_I015-1h"
-                     ><quote>wird</quote></note> Aber es gehört wohl mit zum Wesen eines <rs
-                  type="org" ref="#36247">Burgtheater</rs>s, daß die Tatsache seiner Existenz
+               ergeben sich Belastungen, mit denen das <rs type="org" ref="#pmb36247">Burgtheater</rs>
+               immer stärker als irgendein nächstbester Geschäftsbetrieb zu rechnen haben <anchor type="textConst" xml:id="T_I015-1"/>wird.<note type="textConst" xml:id="T_I015-1h">
+                  <quote>wird</quote>
+               </note> Aber es gehört wohl mit zum Wesen eines <rs type="org" ref="#pmb36247">Burgtheater</rs>s, daß die Tatsache seiner Existenz
                wahrscheinlich und bestenfalls »nur« ein Aktivposten in künstlerischer und
                kultureller Hinsicht und nicht auch die Gewähr eines guten Geschäftes sein kann</p>
          </div>
          <div type="biographical">
             <div1>
-               <ref type="schnitzlerDiary" target="1926-03-30"/>
-               <quote>Früh bei mir <rs type="person" ref="#5130">C. Marilaun</rs>; Interview übers
-                     <rs type="org" ref="#36247">Burgth</rs>.</quote>
+               <ref type="schnitzler-tagebuch" target="1926-03-30"/>
+               <quote>Früh bei mir <rs type="person" ref="#pmb5130">C. Marilaun</rs>; Interview übers
+                     <rs type="org" ref="#pmb36247">Burgth</rs>.</quote>
             </div1>
             <div1>
-               <ref type="schnitzlerDiary" target="1926-04-01"/>
-               <quote>Früh <rs type="person" ref="#5130">Marilaun</rs>. Übers <rs type="org"
-                     ref="#36247">Burgtheater</rs> (seine Notizen corrigirend). <rs type="person"
-                     ref="#11740">Hugo</rs>’s Antworten (er bezeichnet <rs type="person"
-                     ref="#11036">Burckhard</rs> als ›verderblich‹ fürs <rs type="org" ref="#36247"
-                     >Burgtheater</rs> – und ich erinnerte mich der Vorlesung zu <rs type="place"
-                     ref="#173">Rodaun</rs> – als <rs type="person" ref="#11740">Hugo</rs> das <rs
-                     type="work" ref="#31091">gerettete Venedig</rs> las – und <rs type="person"
-                     ref="#11036">Burckh.</rs> wenig dafür übrig hatte).–</quote>
+               <ref type="schnitzler-tagebuch" target="1926-04-01"/>
+               <quote>Früh <rs type="person" ref="#pmb5130">Marilaun</rs>. Übers <rs type="org" ref="#pmb36247">Burgtheater</rs> (seine Notizen corrigirend). <rs type="person" ref="#pmb11740">Hugo</rs>’s Antworten (er bezeichnet <rs type="person" ref="#pmb11036">Burckhard</rs> als ›verderblich‹ fürs <rs type="org" ref="#pmb36247">Burgtheater</rs> – und ich erinnerte mich der Vorlesung zu <rs type="place" ref="#pmb173">Rodaun</rs> – als <rs type="person" ref="#pmb11740">Hugo</rs> das <rs type="work" ref="#pmb31091">gerettete Venedig</rs> las – und <rs type="person" ref="#pmb11036">Burckh.</rs> wenig dafür übrig hatte).–</quote>
             </div1>
             <div1>
-               <ref type="schnitzlerDiary" target="1926-04-04"/>
-               <quote>(<rs type="org" ref="#36247">Burgth</rs>. Jubilaeum, Schatten vorauswerfend;–
-                     <rs type="person" ref="#5130">Marilaun</rs>
+               <ref type="schnitzler-tagebuch" target="1926-04-04"/>
+               <quote>(<rs type="org" ref="#pmb36247">Burgth</rs>. Jubilaeum, Schatten vorauswerfend;–
+                     <rs type="person" ref="#pmb5130">Marilaun</rs>
                   <space unit="chars" quantity="1"/>
-                  <rs type="work" ref="#32941" subtype="implied">Artikel</rs>.)</quote>
+                  <rs type="work" ref="#pmb32941" subtype="implied">Artikel</rs>.)</quote>
             </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb5130">
+               <persName>
+                  <forename>Carl</forename>
+                  <surname>Marilaun</surname>
+               </persName>
+               <birth>
+                  <date when="1881-12-22">22.12.1881</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1934-06-30">30.06.1934</date>
+                  <settlement ref="pmb55315">
+                     <placeName type="pref">Loosdorf</placeName>
+                     <location>
+                        <geo>48,2 15,4</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/130111791</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17889</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5130/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q94911134</idno>
+            </person>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb12695">
+               <persName>
+                  <forename>Johann</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <persName type="person_geburtsname-vorname">János</persName>
+               <birth>
+                  <date when="1835-04-10">10.04.1835</date>
+                  <settlement ref="pmb45549">
+                     <placeName type="pref">Nagykanizsa</placeName>
+                     <location>
+                        <geo>46,45347 16,99104</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1893-05-02">02.05.1893</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb132">Mediziner/Medizinerin &gt;&gt; Laryngologe/Laryngologin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19824</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116848669</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12695.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12695/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12695</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46937</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q86302</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Johann_Schnitzler</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284418</idno>
+            </person>
+            <person xml:id="pmb11036">
+               <persName>
+                  <forename>Max Eugen</forename>
+                  <surname>Burckhard</surname>
+               </persName>
+               <birth>
+                  <date when="1854-07-14">14.07.1854</date>
+                  <settlement ref="pmb61010">
+                     <placeName type="pref">Korneuburg</placeName>
+                     <location>
+                        <geo>48,35 16,33333</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1912-03-16">16.03.1912</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb102">Wissenschaftler/Wissenschaftlerin &gt;&gt; Rechtswissenschaftler/Rechtswissenschaftlerin</occupation>
+               <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14065</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117161144</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11036.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11036/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11036</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11036.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49912</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00281164</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q88819</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Max_Burckhard</idno>
+            </person>
+            <person xml:id="pmb11485">
+               <persName>
+                  <forename>Paul</forename>
+                  <surname>Goldmann</surname>
+               </persName>
+               <birth>
+                  <date when="1865-01-31">31.01.1865</date>
+                  <settlement ref="pmb677">
+                     <placeName type="pref">Breslau</placeName>
+                     <location>
+                        <geo>51,10773 17,03533</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1935-09-25">25.09.1935</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15529</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116755105</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11485.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11485/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11485</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11485.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp51209</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x0028183c</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2059817</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Paul_Goldmann</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11485.html</idno>
+            </person>
+            <person xml:id="pmb11740">
+               <persName>
+                  <forename>Hugo von</forename>
+                  <surname>Hofmannsthal</surname>
+               </persName>
+               <persName type="person_pseudonym">Loris</persName>
+               <persName type="person_pseudonym">Theophil Morren</persName>
+               <persName type="namensvariante">Hofmannsthal, Hugo</persName>
+               <birth>
+                  <date when="1874-02-01">1874-02-01</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1929-07-15">1929-07-15</date>
+                  <settlement ref="pmb173">
+                     <placeName type="pref">Rodaun</placeName>
+                     <location>
+                        <geo>48,132793312328 16,256152195922</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16293</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118552759</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11740.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11740/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11740</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11740</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46353</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00281a55</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q51513</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hugo_von_Hofmannsthal</idno>
+               <idno type="URL" subtype="dx">https://dx.doi.org/10.1553/0x0001d1cc</idno>
+               <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_42.html</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11740.html</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb29917">
+               <title>Liebelei. Schauspiel in drei Akten</title>
+               <title type="werk_link">https://www.deutschestextarchiv.de/book/show/schnitzler_liebelei_1896</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date>1895-10-09</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.27</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1823758</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-liebelei</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/31062</idno>
+               <idno type="URL" subtype="deutschestextarchiv">http://www.deutschestextarchiv.de/book/show/schnitzler_liebelei_1896</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29917.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29917/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29917</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29917.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Liebelei</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb31091">
+               <title>Das gerettete Venedig. Trauerspiel in fünf Aufzügen</title>
+               <author ref="pmb11740" role="hat-geschaffen">Hofmannsthal, Hugo von</author>
+               <date when="1905-01-01">1905</date>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31091.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31091/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb31091</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31091.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb32941">
+               <title>Wesen des Burgtheaters</title>
+               <title type="werk_bibliografische-angabe">Neues Wiener Journal, 4. 4. 1926</title>
+               <author ref="pmb5130" role="hat-unter-pseudonym-geschrieben">Marilaun, Carl</author>
+               <date when="1926-04-04">04.04.1926</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32941/</idno>
+               <note type="work_kind">Text</note>
+            </bibl>
+            <bibl xml:id="pmb36376">
+               <title>Neues Wiener Journal</title>
+               <title type="werk_link-anno">http://anno.onb.ac.at/cgi-content/anno?aid=nwj</title>
+               <author ref="pmb36371" role="hat-einen-beitrag-geschaffen-zu">Papp, Desiderius</author>
+               <author ref="pmb10815" role="hat-einen-beitrag-geschaffen-zu">Bahr, Hermann</author>
+               <date to="1939-01-01">1893  – 1939</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36376/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36376</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb36376</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb168">
+               <placeName>Berlin</placeName>
+               <placeName type="alternative-name">Hauptstadt Berlin</placeName>
+               <placeName type="alternative-name">Barlīn</placeName>
+               <placeName type="alternative-name">Reichshauptstadt Berlin</placeName>
+               <placeName type="alternative-name">Berolino</placeName>
+               <placeName type="legacy-name-merge">B-n</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPLC</desc>
+               <desc type="entity_type_id">1418</desc>
+               <location type="coords">
+                  <geo>52,52437 13,41053</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb151">Deutschland</placeName>
+                  <geo>51,5 10,5</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb168</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92171.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
+            </place>
+            <place xml:id="pmb173">
+               <placeName>Rodaun</placeName>
+               <placeName type="legacy-name-merge">Rodaun bei Wien</placeName>
+               <desc type="entity_type">Teil eines besiedelten Ortes (A.BSOX)</desc>
+               <desc type="entity_type_id">18</desc>
+               <location type="coords">
+                  <geo>48,132793312328 16,256152195922</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb73">XXIII., Liesing</placeName>
+                  <geo>48,13333 16,3</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb173.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/173/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb173</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91606/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2767332/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb173.html</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb36247">
+               <orgName>Burgtheater</orgName>
+               <orgName type="alternative-name">Burgtheater GmbH</orgName>
+               <desc type="entity_type">Theater</desc>
+               <desc type="entity_type_id">1012</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb51.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36789/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51010/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2775259/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb51</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb51</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb14">Burgtheater</placeName>
+                  <geo>48,210333 16,361139</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb14.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/14/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb14</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb14.html</idno>
+                  <idno type="URL" subtype="geonames">https://www.geonames.org/6354992/</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb44649">Schlosstheater Schönbrunn</placeName>
+                  <geo>48,186667 16,3125</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44649/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb44649</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2244724</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Schlosstheater_Sch%C3%B6nbrunn</idno>
+               </location>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/38633-9</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36247/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36247</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb36247</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q308720</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Burgtheater</idno>
+               <note type="apis_dates">
+                  <date notBefore="1852-01-01" when="1852-07-01">1852</date>
+               </note>
+            </org>
+            <org xml:id="pmb29351">
+               <orgName>Neue Freie Presse</orgName>
+               <orgName type="werk_link-anno">http://anno.onb.ac.at/info/nfp_info.htm</orgName>
+               <desc type="entity_type">Tageszeitungsredaktion</desc>
+               <desc type="entity_type_id">972</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb716">Fichtegasse</placeName>
+                  <geo>48,203009170069 16,375663258442</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb716.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/716/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb716</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb63189">Schubertring</placeName>
+                  <geo>48,20281 16,37602</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63189/</idno>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29351.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29351/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29351</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb29351</idno>
+               <note type="apis_dates">
+                  <date to="1939-02-01">1864-09-01  – 1939-02-01</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I127">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="I127">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#59557">Julius Stern: Wiener Theaterwoche, 22.&#8239;11.&#8239;1925</title>
-            <author ref="#3162">Stern, Julius</author>
+            <title level="a" ref="#pmb59557">Julius Stern: Wiener Theaterwoche, 22. 11. 1925</title>
+            <author ref="#pmb3162">Stern, Julius</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -27,16 +29,16 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#3162">Stern, Julius</author>
-                     <title level="a" ref="#59557">Wiener Theaterwoche. Zur Aufführung des Dramas
+                     <author ref="#pmb3162">Stern, Julius</author>
+                     <title level="a" ref="#pmb59557">Wiener Theaterwoche. Zur Aufführung des Dramas
                         »Der einsame Weg« im Volkstheater. – Als Bassermann in Berlin den Sala
                         spielte – Schnitzlers »Kakadu« kommt wieder ins Burgtheater – Die
                         Geheimgeschichte von der Annahme des revolutionären Stückes</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#58646">Volks-Zeitung</title>
+                     <title level="j" ref="#pmb58646">Volks-Zeitung</title>
                      <imprint>
-                        <date when="1925-11-22" n="1">22.&#8239;11.&#8239;1925</date>
+                        <date when="1925-11-22" n="1">22. 11. 1925</date>
                      </imprint>
                      <biblScope unit="jg">71</biblScope>
                      <biblScope unit="nr">321</biblScope>
@@ -61,164 +63,108 @@
       <body>
          <div type="original">
             <head>
-               <rs type="place" ref="#50">Wien</rs>er Theaterwoche.</head>
-            <head type="sub">Zur Aufführung des Dramas »<rs type="work" ref="#29985">Der einsame
-                  Weg</rs>« im <rs type="org" ref="#36430">Volkstheater</rs>. – Als <rs
-                  type="person" ref="#10844">Bassermann</rs> in <rs type="place" ref="#168"
-                  >Berlin</rs> den <rs type="work" subtype="implied" ref="#29985">Sala</rs> spielte.
-               – <rs type="person" ref="#2121">Schnitzler</rs>s »<rs type="work" ref="#29843"
-                  >Kakadu</rs>« kommt wieder ins <rs type="org" ref="#36247">Burgtheater</rs>. – Die
+               <rs type="place" ref="#pmb50">Wien</rs>er Theaterwoche.</head>
+            <head type="sub">Zur Aufführung des Dramas »<rs type="work" ref="#pmb29985">Der einsame
+                  Weg</rs>« im <rs type="org" ref="#pmb36430">Volkstheater</rs>. – Als <rs type="person" ref="#pmb10844">Bassermann</rs> in <rs type="place" ref="#pmb168">Berlin</rs> den <rs type="work" subtype="implied" ref="#pmb29985">Sala</rs> spielte.
+               – <rs type="person" ref="#pmb2121">Schnitzler</rs>s »<rs type="work" ref="#pmb29843">Kakadu</rs>« kommt wieder ins <rs type="org" ref="#pmb36247">Burgtheater</rs>. – Die
                Geheimgeschichte der Annahme des revolutionären Stückes.</head>
-            <p>Das <anchor type="commentary" xml:id="K_I127-1"/>Ereignis<note type="commentary"
-                  xml:id="K_I127-1h">Die Premiere fand am <date>14.&#8239;11.&#8239;1925</date> statt.</note>
-               der vergangenen Theaterwoche war wohl der Herr <rs type="work" subtype="implied"
-                  ref="#29985">von Sala</rs>
+            <p>Das <anchor type="commentary" xml:id="K_I127-1"/>Ereignis<note type="commentary" xml:id="K_I127-1h">Die Premiere fand am <date>14. 11. 1925</date> statt.</note>
+               der vergangenen Theaterwoche war wohl der Herr <rs type="work" subtype="implied" ref="#pmb29985">von Sala</rs>
                <space unit="chars" quantity="1"/>
-               <rs type="person" ref="#10844">Albert Bassermann</rs>s, der im <rs type="org"
-                  ref="#36430">Deutschen Volkstheater</rs> über einer bis auf wenige
+               <rs type="person" ref="#pmb10844">Albert Bassermann</rs>s, der im <rs type="org" ref="#pmb36430">Deutschen Volkstheater</rs> über einer bis auf wenige
                Einzelleistungen mittelmäßigen und wohl auch mangelhaft geprobten Aufführung des
-               Dramas »<rs type="work" ref="#29985">Der einsame Weg</rs>« hoch emporragte. Man
-               suchte im Saal <rs type="person" ref="#2121">Artur Schnitzler</rs>, aber er fehlte.
-               Welch <anchor type="commentary" xml:id="K_I127-45"/>feine Witterung<note
-                  type="commentary" xml:id="K_I127-45h">
-                  <rs type="person" ref="#2121">Schnitzler</rs> war am <ref target="1925-11-13"
-                     subtype="date-only" type="schnitzlerDiary"/> bei der Generalprobe gewesen und
-                  hatte dabei das nämliche Urteil wie hier <rs type="person" ref="#3162">Stern</rs>
-                  getroffen.</note> unseres <rs type="place" ref="#50">Wien</rs>er Dichters! Hatte
+               Dramas »<rs type="work" ref="#pmb29985">Der einsame Weg</rs>« hoch emporragte. Man
+               suchte im Saal <rs type="person" ref="#pmb2121">Artur Schnitzler</rs>, aber er fehlte.
+               Welch <anchor type="commentary" xml:id="K_I127-45"/>feine Witterung<note type="commentary" xml:id="K_I127-45h">
+                  <rs type="person" ref="#pmb2121">Schnitzler</rs> war am <ref target="1925-11-13" subtype="date-only" type="schnitzler-tagebuch"/> bei der Generalprobe gewesen und
+                  hatte dabei das nämliche Urteil wie hier <rs type="person" ref="#pmb3162">Stern</rs>
+                  getroffen.</note> unseres <rs type="place" ref="#pmb50">Wien</rs>er Dichters! Hatte
                er doch ganz andere Aufführungen seines Schauspiels erlebt, glänzende, unvergeßliche.
-                  <anchor type="label" xml:id="L_I127-1v"/>Zu ihnen gehört vor allem die <anchor
-                  type="commentary" xml:id="K_I127-18"/>
-               <rs type="place" ref="#168">Berlin</rs>er Uraufführung<note type="commentary"
-                  xml:id="K_I127-18h">Diese hatte am <ref target="1904-02-13" subtype="date-only"
-                     type="schnitzlerDiary"/> am <rs type="org" ref="#35597">Deutschen Theater</rs>
-                  in <rs type="place" ref="#168">Berlin</rs> stattgefunden.</note>, vor mehr als
-               zwei Jahrzehnten unter <rs type="person" ref="#10986">Brahm</rs>s Spielleitung. <rs
-                  ref="#10844" type="person">Bassermann</rs> spielte auch damals den <rs type="work"
-                  subtype="implied" ref="#29985">Sala</rs>. Wer stand ihm zur Seite? <rs
-                  type="person" ref="#12530">Rittner</rs> als Fichtner, die <rs type="person"
-                  ref="#2865">Else <anchor type="textConst" xml:id="T_I127-1"/>Lehmann<note
-                     type="textConst" xml:id="T_I127-1h"><quote>Lebmann</quote></note>
-               </rs> als <rs type="work" subtype="implied" ref="#29985">Irene Herms</rs>, die <rs
-                  type="person" ref="#12977">Triesch</rs> als <rs type="work" subtype="implied"
-                  ref="#29985">Johanna</rs>, die <rs type="person" ref="#5211">Pauly</rs> als Frau
-                  <rs type="work" subtype="implied" ref="#29985">Wegrat</rs>. Gewiß eine
+                  <anchor type="label" xml:id="L_I127-1v"/>Zu ihnen gehört vor allem die <anchor type="commentary" xml:id="K_I127-18"/>
+               <rs type="place" ref="#pmb168">Berlin</rs>er Uraufführung<note type="commentary" xml:id="K_I127-18h">Diese hatte am <ref target="1904-02-13" subtype="date-only" type="schnitzler-tagebuch"/> am <rs type="org" ref="#pmb35597">Deutschen Theater</rs>
+                  in <rs type="place" ref="#pmb168">Berlin</rs> stattgefunden.</note>, vor mehr als
+               zwei Jahrzehnten unter <rs type="person" ref="#pmb10986">Brahm</rs>s Spielleitung. <rs ref="#pmb10844" type="person">Bassermann</rs> spielte auch damals den <rs type="work" subtype="implied" ref="#pmb29985">Sala</rs>. Wer stand ihm zur Seite? <rs type="person" ref="#pmb12530">Rittner</rs> als Fichtner, die <rs type="person" ref="#pmb2865">Else <anchor type="textConst" xml:id="T_I127-1"/>Lehmann<note type="textConst" xml:id="T_I127-1h">
+                     <quote>Lebmann</quote>
+                  </note>
+               </rs> als <rs type="work" subtype="implied" ref="#pmb29985">Irene Herms</rs>, die <rs type="person" ref="#pmb12977">Triesch</rs> als <rs type="work" subtype="implied" ref="#pmb29985">Johanna</rs>, die <rs type="person" ref="#pmb5211">Pauly</rs> als Frau
+                  <rs type="work" subtype="implied" ref="#pmb29985">Wegrat</rs>. Gewiß eine
                unvergeßliche Aufführung – denn die <anchor type="commentary" xml:id="K_I127-22"/>
-               <rs type="place" ref="#168">Berlin</rs>er lachten<note type="commentary"
-                  xml:id="K_I127-22h">
-                  <rs type="person" ref="#3162">Stern</rs> hat die Anekdote <date>1914</date> leicht
+               <rs type="place" ref="#pmb168">Berlin</rs>er lachten<note type="commentary" xml:id="K_I127-22h">
+                  <rs type="person" ref="#pmb3162">Stern</rs> hat die Anekdote <date>1914</date> leicht
                   anders erzählt, <ref target="#L_I041-1v" type="pointer"/>.</note> in die
-               ernstesten Stellen hinein. So zum Beispiel in die letzte Szene <rs type="work"
-                  subtype="implied" ref="#29985">Sala</rs>s und seiner <rs type="work"
-                  subtype="implied" ref="#29985">Johanna</rs>. Man ahnt es: Dieses Mädchen, das sich
+               ernstesten Stellen hinein. So zum Beispiel in die letzte Szene <rs type="work" subtype="implied" ref="#pmb29985">Sala</rs>s und seiner <rs type="work" subtype="implied" ref="#pmb29985">Johanna</rs>. Man ahnt es: Dieses Mädchen, das sich
                ihm hingegeben in der sicheren Erwartung der nächste, der sie umarmt, sei der Tod –
                man weiß, die Unglückliche nimmt nun Abschied für immer. In irgendeiner leisen Regung
-               von Mitleid oder Reue macht ihr nun Herr <rs type="work" subtype="implied"
-                  ref="#29985">von Sala</rs> einen kühlen Heiratsantrag, Johanna brauche sich ja
-               nicht für immer an ihn gebunden zu fühlen, denn: »<rs type="work" ref="#29985"
-                  subtype="implied">Alle Deine Träume</rs>« fügt er hinzu, »<rs type="work"
-                  ref="#29985" subtype="implied">kann ich Dir nicht erfüllen –</rs>« Da fällt ein
-               höhnisches Lachen aus dem Publikum ein, ein <rs type="place" ref="#168"
-                  >berlin</rs>erisches<c rendition="#dots" n="3"/> Die Komödie ist damit für <rs
-                  type="place" ref="#168">Berlin</rs> erledigt. Sollte man glauben. Aber die zweite
-               Aufführung ist ausverkauft. <rs type="person" ref="#2121">Schnitzler</rs> und <rs
-                  type="person" ref="#10986">Brahm</rs> sind angenehm überrascht. Der Direktor sucht
+               von Mitleid oder Reue macht ihr nun Herr <rs type="work" subtype="implied" ref="#pmb29985">von Sala</rs> einen kühlen Heiratsantrag, Johanna brauche sich ja
+               nicht für immer an ihn gebunden zu fühlen, denn: »<rs type="work" ref="#pmb29985" subtype="implied">Alle Deine Träume</rs>« fügt er hinzu, »<rs type="work" ref="#pmb29985" subtype="implied">kann ich Dir nicht erfüllen –</rs>« Da fällt ein
+               höhnisches Lachen aus dem Publikum ein, ein <rs type="place" ref="#pmb168">berlin</rs>erisches<c rendition="#dots" n="3"/> Die Komödie ist damit für <rs type="place" ref="#pmb168">Berlin</rs> erledigt. Sollte man glauben. Aber die zweite
+               Aufführung ist ausverkauft. <rs type="person" ref="#pmb2121">Schnitzler</rs> und <rs type="person" ref="#pmb10986">Brahm</rs> sind angenehm überrascht. Der Direktor sucht
                nach einer Erklärung, denn er will immer lernen. Plötzlich hat er’s:</p>
             <p>»Die Inhaltsangabe war es, die einige Kritiker brachten – sagt er zu seinen
-               Schauspielern – die Leute fühlen sich durch den Stoff angezogen.«<anchor type="label"
-                  xml:id="L_I127-1h"/>
+               Schauspielern – die Leute fühlen sich durch den Stoff angezogen.«<anchor type="label" xml:id="L_I127-1h"/>
             </p>
-            <p>Das ist auch wieder <rs type="place" ref="#168">Berlin</rs>, das sachliche.</p>
+            <p>Das ist auch wieder <rs type="place" ref="#pmb168">Berlin</rs>, das sachliche.</p>
             <p rend="center">
                <c rendition="#ornament"/>
             </p>
-            <p>Das <rs type="org" ref="#36247">Burgtheater</rs> hat sich bekanntlich einige Jahre
-               Zeit gelassen, das Drama vom »<rs type="work" ref="#29985">Einsamen Weg</rs>« zu
-               bringen. Eines Tages fahren Dr. <rs type="person" ref="#2121">Schnitzler</rs> und Dr.
-                  <rs type="person" ref="#10986">Brahm</rs> auf den <rs type="place" ref="#189"
-                  >Semmering</rs>, dem Freunde <rs type="person" ref="#11851">Josef Kainz</rs> einen
-                  <anchor type="commentary" xml:id="K_I127-14"/>Krankenbesuch<note type="commentary"
-                  xml:id="K_I127-14h">Nicht nachgewiesen. Studiert man aber die Treffen der drei vor
-                  dem Tod von <rs type="person" ref="#11851">Kainz</rs>, so scheint eher dessen
-                  Mitwirkung in der bevorstehenden Inszenierung von <rs type="work" ref="#30207">Das
+            <p>Das <rs type="org" ref="#pmb36247">Burgtheater</rs> hat sich bekanntlich einige Jahre
+               Zeit gelassen, das Drama vom »<rs type="work" ref="#pmb29985">Einsamen Weg</rs>« zu
+               bringen. Eines Tages fahren Dr. <rs type="person" ref="#pmb2121">Schnitzler</rs> und Dr.
+                  <rs type="person" ref="#pmb10986">Brahm</rs> auf den <rs type="place" ref="#pmb189">Semmering</rs>, dem Freunde <rs type="person" ref="#pmb11851">Josef Kainz</rs> einen
+                  <anchor type="commentary" xml:id="K_I127-14"/>Krankenbesuch<note type="commentary" xml:id="K_I127-14h">Nicht nachgewiesen. Studiert man aber die Treffen der drei vor
+                  dem Tod von <rs type="person" ref="#pmb11851">Kainz</rs>, so scheint eher dessen
+                  Mitwirkung in der bevorstehenden Inszenierung von <rs type="work" ref="#pmb30207">Das
                      weite Land</rs> Thema gewesen zu sein.</note> zu machen. Er spricht nicht von
-               sich, nicht von seiner Krankheit, sondern nur vom Herrn <rs type="work"
-                  subtype="implied" ref="#29985">von Sala</rs>. Er muß ihn spielen! Baron <rs
-                  type="person" ref="#10883">Berger</rs>, der damalige Direktor, nimmt’s gern zur
-               Kenntnis! Niemand ahnte noch, daß der Künstler daran war, nicht als Herr <rs
-                  type="work" subtype="implied" ref="#29985">von Sala</rs>, sondern als <rs
-                  type="person" ref="#11851">Josef Kainz</rs> den einsamen Weg zu gehen, den
+               sich, nicht von seiner Krankheit, sondern nur vom Herrn <rs type="work" subtype="implied" ref="#pmb29985">von Sala</rs>. Er muß ihn spielen! Baron <rs type="person" ref="#pmb10883">Berger</rs>, der damalige Direktor, nimmt’s gern zur
+               Kenntnis! Niemand ahnte noch, daß der Künstler daran war, nicht als Herr <rs type="work" subtype="implied" ref="#pmb29985">von Sala</rs>, sondern als <rs type="person" ref="#pmb11851">Josef Kainz</rs> den einsamen Weg zu gehen, den
                letzten, zum Grabe<c rendition="#dots" n="3"/> Als es dann <date>1914</date>
-               (Direktionszeit <rs type="person" ref="#12948">Thimig</rs>) zur <anchor
-                  type="commentary" xml:id="K_I127-7"/>Erstaufführung<note type="commentary"
-                  xml:id="K_I127-7h">am <ref target="1914-02-19" subtype="date-only"
-                     type="schnitzlerDiary"/>
-               </note> der Dichtung im <rs type="org" ref="#36247">Burgtheater</rs> kommt, da
-               erscheint <rs type="person" ref="#3201">Harry Walden</rs> als <rs type="work"
-                  subtype="implied" ref="#29985">Sala</rs>. Das war wohl der charmanteste Egoist,
-               den die <rs type="place" ref="#50">Wien</rs>er Damenwelt je gesehen! Die ganze
+               (Direktionszeit <rs type="person" ref="#pmb12948">Thimig</rs>) zur <anchor type="commentary" xml:id="K_I127-7"/>Erstaufführung<note type="commentary" xml:id="K_I127-7h">am <ref target="1914-02-19" subtype="date-only" type="schnitzler-tagebuch"/>
+               </note> der Dichtung im <rs type="org" ref="#pmb36247">Burgtheater</rs> kommt, da
+               erscheint <rs type="person" ref="#pmb3201">Harry Walden</rs> als <rs type="work" subtype="implied" ref="#pmb29985">Sala</rs>. Das war wohl der charmanteste Egoist,
+               den die <rs type="place" ref="#pmb50">Wien</rs>er Damenwelt je gesehen! Die ganze
                Vorstellung war fein abgestimmt, die Zuschauer genossen das zarte, träumerische Stück
                wie hinter einem Vorhang feinsten Flors. Das war gut so! Die Besetzung durchaus
-               vornehm: <rs type="person" ref="#2446">Devrient</rs> spielte den <rs type="work"
-                  subtype="implied" ref="#29985">Fichtner</rs>, <rs type="person" ref="#12399"
-                  >Paulsen</rs> den Professor <rs type="work" subtype="implied" ref="#29985"
-                  >Wegrat</rs>, der gegenwärtige Direktor <rs type="person" ref="#11659"
-                  >Herterich</rs> den Arzt <rs type="work" subtype="implied" ref="#29985"
-                  >Reumann</rs>, die <rs type="person" ref="#13149">Wohlgemuth</rs> reizend als <rs
-                  type="work" subtype="implied" ref="#29985">Johanna</rs> und die <rs type="person"
-                  ref="#10959">Bleibtreu</rs> gab die so eigentlich doch heitere, <rs type="place"
-                  ref="#50">wien</rs>erische Bohemienne <rs type="work" subtype="implied"
-                  ref="#29985">Irene Herms</rs>! Es war ein Debüt der Tragödien nach der
+               vornehm: <rs type="person" ref="#pmb2446">Devrient</rs> spielte den <rs type="work" subtype="implied" ref="#pmb29985">Fichtner</rs>, <rs type="person" ref="#pmb12399">Paulsen</rs> den Professor <rs type="work" subtype="implied" ref="#pmb29985">Wegrat</rs>, der gegenwärtige Direktor <rs type="person" ref="#pmb11659">Herterich</rs> den Arzt <rs type="work" subtype="implied" ref="#pmb29985">Reumann</rs>, die <rs type="person" ref="#pmb13149">Wohlgemuth</rs> reizend als <rs type="work" subtype="implied" ref="#pmb29985">Johanna</rs> und die <rs type="person" ref="#pmb10959">Bleibtreu</rs> gab die so eigentlich doch heitere, <rs type="place" ref="#pmb50">wien</rs>erische Bohemienne <rs type="work" subtype="implied" ref="#pmb29985">Irene Herms</rs>! Es war ein Debüt der Tragödien nach der
                Vergangenheit, die dem lustigen Volksstück gehörte.</p>
             <p rend="center">
                <c rendition="#ornament"/>
             </p>
-            <p>Vor kurzem war es noch <rs type="person" ref="#11659">Herterich</rs>s Absicht, den
-                  »<rs type="work" ref="#29985">Einsamen Weg</rs>« wieder dem Spielplan des <rs
-                  type="org" ref="#36247">Burgtheater</rs>s einzuverleiben. Jetzt, nach <rs
-                  type="person" ref="#10844">Bassermanns</rs> Gastspiel, wird er sich’s wohl
-               überlegt haben. Dafür wird er, so heißt es, <rs type="person" ref="#2121"
-                  >Schnitzler</rs>s rote Groteske »<rs type="work" ref="#29843">Der grüne
-                  Kakadu</rs>« <anchor type="commentary" xml:id="K_I127-8"/>neu inszenieren<note
-                  type="commentary" xml:id="K_I127-8h">Unmittelbar kam es nicht dazu, erst in einer
+            <p>Vor kurzem war es noch <rs type="person" ref="#pmb11659">Herterich</rs>s Absicht, den
+                  »<rs type="work" ref="#pmb29985">Einsamen Weg</rs>« wieder dem Spielplan des <rs type="org" ref="#pmb36247">Burgtheater</rs>s einzuverleiben. Jetzt, nach <rs type="person" ref="#pmb10844">Bassermanns</rs> Gastspiel, wird er sich’s wohl
+               überlegt haben. Dafür wird er, so heißt es, <rs type="person" ref="#pmb2121">Schnitzler</rs>s rote Groteske »<rs type="work" ref="#pmb29843">Der grüne
+                  Kakadu</rs>« <anchor type="commentary" xml:id="K_I127-8"/>neu inszenieren<note type="commentary" xml:id="K_I127-8h">Unmittelbar kam es nicht dazu, erst in einer
                   Festvorstellung wurde das Stück <date>1929</date> wieder gegegeben und stand dann
-                  ab <ref target="1930-02-02" type="schnitzlerDiary" subtype="date-only"/> am
+                  ab <ref target="1930-02-02" type="schnitzler-tagebuch" subtype="date-only"/> am
                   regulären Spielplan.</note>. Es ist ein Meisterwerk des Dichters, unübertroffen
                schon allein in der blitzenden Technik, Schein und Wirklichkeit, Spiel und Geschehen
                derart miteinander zu verquicken, daß man schließlich nicht weiß, was Scherz ist und
                was Ernst, was Witz und was Tod! Denn sie schreiten alle im gleichen Gewand
                einher.</p>
-            <p>Daß dieses kühne <rs type="work" ref="#29843" subtype="implied">Stück</rs> mitten im
+            <p>Daß dieses kühne <rs type="work" ref="#pmb29843" subtype="implied">Stück</rs> mitten im
                ruhigsten Schlafe der Monarchie – <anchor type="commentary" xml:id="K_I127-09"/>
                <date>1899</date>
-               <note type="commentary" xml:id="K_I127-09h">die Uraufführung fand am <ref
-                     target="1899-03-01" subtype="date-only" type="schnitzlerDiary"/> statt</note> –
-               in den kaiserlichen Palast auf dem <rs type="place" ref="#112">Franzensring</rs> hat
-               einschlüpfen, daß es ganze acht Aufführungen hat erleben können, ehe man’s <anchor type="label" xml:id="I127_l_kakadu"></anchor>verbot –
+               <note type="commentary" xml:id="K_I127-09h">die Uraufführung fand am <ref target="1899-03-01" subtype="date-only" type="schnitzler-tagebuch"/> statt</note> –
+               in den kaiserlichen Palast auf dem <rs type="place" ref="#pmb112">Franzensring</rs> hat
+               einschlüpfen, daß es ganze acht Aufführungen hat erleben können, ehe man’s <anchor type="label" xml:id="I127_l_kakadu"/>verbot –
                man hat’s damals nicht begriffen. Spielt dieser klassische Sketch doch am Abend des
-                  <date>14.&#160;Juli 1789</date> zu <rs type="place" ref="#182">Paris</rs>, am Abend der
-                  <rs type="place" ref="#518">Bastille</rs>erstürmung. Ruft man doch am Schluß die
+                  <date>14. Juli 1789</date> zu <rs type="place" ref="#pmb182">Paris</rs>, am Abend der
+                  <rs type="place" ref="#pmb518">Bastille</rs>erstürmung. Ruft man doch am Schluß die
                Revolution aus! Doch nein – es gibt der Schrecken noch mehr:</p>
-            <p>In der unterirdischen Schenke <rs type="work" ref="#29843" subtype="implied"
-                  >Prospères</rs> treffen einander allnächtlich Verbrecher, Komödianten und viele
-               Damen und Herren des höchsten Adels von <rs type="place" ref="#182">Paris</rs> zu
+            <p>In der unterirdischen Schenke <rs type="work" ref="#pmb29843" subtype="implied">Prospères</rs> treffen einander allnächtlich Verbrecher, Komödianten und viele
+               Damen und Herren des höchsten Adels von <rs type="place" ref="#pmb182">Paris</rs> zu
                gemeinsamer Unterhaltung sich gegenseitig mit »Schwein« und »Kanaille« anzureden, das
                besitzt für die degenerierte Aristokratie einen schauerlichen Reiz. Eines Nachts muß
-               der berühmte Komödiant <rs type="work" ref="#29843" subtype="implied">Henry</rs>,
-               verheiratet mit seiner schönen Kollegin <rs type="work" ref="#29843"
-                  subtype="implied">Leocadie</rs>, durch einen Stegreifvortrag zur Unterhaltung der
+               der berühmte Komödiant <rs type="work" ref="#pmb29843" subtype="implied">Henry</rs>,
+               verheiratet mit seiner schönen Kollegin <rs type="work" ref="#pmb29843" subtype="implied">Leocadie</rs>, durch einen Stegreifvortrag zur Unterhaltung der
                wirklich höchst gemischten Gesellschaft beitragen. Er stellt sich hin und deklamiert
-               eine schauerliche Geschichte. Inhalt: Wie er den Herzog <rs type="work" ref="#29843"
-                  subtype="implied">Emile von Cadignan</rs> erdolcht hat. Wie gesagt, es ist
+               eine schauerliche Geschichte. Inhalt: Wie er den Herzog <rs type="work" ref="#pmb29843" subtype="implied">Emile von Cadignan</rs> erdolcht hat. Wie gesagt, es ist
                Phantasie, Erfindung, was er erzählt. Als aber der Herzog wirklich im Keller
-               erscheint und ihm tatsächlich als der Liebhaber <rs type="work" ref="#29843"
-                  subtype="implied">Leocadie</rs>s bezeichnet wird, stürzt Henry rasend auf den
+               erscheint und ihm tatsächlich als der Liebhaber <rs type="work" ref="#pmb29843" subtype="implied">Leocadie</rs>s bezeichnet wird, stürzt Henry rasend auf den
                Herzog los und erdolcht ihn. Eine Marquise ist ganz entzückt, weil man doch nicht
                jeden Tag einen wirklichen Herzog könne ermorden sehen. In diesem Augenblick kommt
-               von der Straße herab die Nachricht von der Erstürmung der <rs type="place" ref="#518"
-                  >Bastille</rs>. Unter den Rufen der Menge: »Es lebe die Freiheit!« fällt der
+               von der Straße herab die Nachricht von der Erstürmung der <rs type="place" ref="#pmb518">Bastille</rs>. Unter den Rufen der Menge: »Es lebe die Freiheit!« fällt der
                Vorhang.</p>
-            <p>Parterre und Logen waren bei der Erstaufführung einfach starr. Galt doch das <rs
-                  type="org" ref="#36247">Burgtheater</rs> damals so eigentlich als Domäne des Hofes
+            <p>Parterre und Logen waren bei der Erstaufführung einfach starr. Galt doch das <rs type="org" ref="#pmb36247">Burgtheater</rs> damals so eigentlich als Domäne des Hofes
                und des Adels. Und nun sahen sich beide gehöhnt, nicht nur von der Bühne aus, sondern
                auch von der Galerie – weil sie wahnsinnig applaudierte. Zu jener Zeit durfte man so
                eigentlich nicht öffentlich berichten, wie es zur Annahme des Stückes kommen konnte.
@@ -226,115 +172,1537 @@
             <p>Die kaiserliche Zensur der Hofbühnen urteilte selbstverständlich absolut – als
                höchste, als inappellable Instanz. Doch ihr Absolutismus war gemindert durch die
                künstlerische Laune einer liebenswürdigen liebenswürdigen Künstlerin, die damals dem
-                  <rs type="org" ref="#36247">Burgtheater</rs> angehörte. Es war <rs type="person"
-                  ref="#2680">Katharina Schratt</rs>. Vor ihrem Einfluß bei Hofe beugte sich der
-               jeweilige Sektionschef des Auswärtigen Amtes, der als Zensor waltete. Frau <rs
-                  type="person" ref="#2680">Schratt</rs> nun hatte <rs type="person" ref="#2121"
-                  >Schnitzler</rs> eine prächtige Rolle zu verdanken, mit der sie ein Jahr vorher
-               einen großen Erfolg erzielt hatte. Es war die <rs type="work" ref="#30219"
-                  subtype="implied">Toni Weber</rs> in <rs type="person" ref="#2121"
-               >Schnitzler</rs>s Drama »<rs type="work" ref="#30219">Das Vermächtnis</rs>«.</p>
-            <p>Auch die Aufführung dieses <rs type="work" ref="#30219" subtype="implied"
-                  >Stückes</rs> hat seinerzeit große Verwunderung erregt. Ein paar Jahre vorher
-                  (<date>1892</date>) hatte <rs type="person" ref="#11391">Fulda</rs>s Schauspiel
+                  <rs type="org" ref="#pmb36247">Burgtheater</rs> angehörte. Es war <rs type="person" ref="#pmb2680">Katharina Schratt</rs>. Vor ihrem Einfluß bei Hofe beugte sich der
+               jeweilige Sektionschef des Auswärtigen Amtes, der als Zensor waltete. Frau <rs type="person" ref="#pmb2680">Schratt</rs> nun hatte <rs type="person" ref="#pmb2121">Schnitzler</rs> eine prächtige Rolle zu verdanken, mit der sie ein Jahr vorher
+               einen großen Erfolg erzielt hatte. Es war die <rs type="work" ref="#pmb30219" subtype="implied">Toni Weber</rs> in <rs type="person" ref="#pmb2121">Schnitzler</rs>s Drama »<rs type="work" ref="#pmb30219">Das Vermächtnis</rs>«.</p>
+            <p>Auch die Aufführung dieses <rs type="work" ref="#pmb30219" subtype="implied">Stückes</rs> hat seinerzeit große Verwunderung erregt. Ein paar Jahre vorher
+                  (<date>1892</date>) hatte <rs type="person" ref="#pmb11391">Fulda</rs>s Schauspiel
                   »<anchor type="commentary" xml:id="K_I127-3"/>
-               <rs type="work" ref="#31957">Die Sklavin</rs>
+               <rs type="work" ref="#pmb31957">Die Sklavin</rs>
                <note type="commentary" xml:id="K_I127-3h">Die Premiere hatte am
-                     <date>2.&#8239;3.&#8239;1892</date> stattgefunden, nach der 2.&#160;Aufführung am Folgetag
+                     <date>2. 3. 1892</date> stattgefunden, nach der 2. Aufführung am Folgetag
                   wurde das Stück abgesetzt.</note>« nach zwei Aufführungen auf höchsten Befehl
                verschwinden müssen, weil es mit dem Eheproblem spielte. Die Sklavin war nämlich eine
-               Ehesklavin. Und nun, <date>1898</date>, ließ man dieses »<anchor type="commentary"
-                  xml:id="K_I127-56"/>
-               <rs type="work" ref="#30219">Vermächtnis</rs>
-               <note type="commentary" xml:id="K_I127-56h">die <rs type="place" ref="#50"
-                  >Wien</rs>er Premiere fand am <ref target="1898-11-30" subtype="date-only"
-                     type="schnitzlerDiary"/> statt</note>« aufführen, das mit aller Wärme um
+               Ehesklavin. Und nun, <date>1898</date>, ließ man dieses »<anchor type="commentary" xml:id="K_I127-56"/>
+               <rs type="work" ref="#pmb30219">Vermächtnis</rs>
+               <note type="commentary" xml:id="K_I127-56h">die <rs type="place" ref="#pmb50">Wien</rs>er Premiere fand am <ref target="1898-11-30" subtype="date-only" type="schnitzler-tagebuch"/> statt</note>« aufführen, das mit aller Wärme um
                Mitleid für jene Frauen bat, die Mütter geworden, ohne zum Besitz des goldenen Ringes
                zu gelangen. Ein Stück, das alle Frauen ergriff:</p>
             <p>Ein junger Mann aus guter Familie stürzt unglücklich vom Pferde und muß sterben. In
-               letzter Stunde vertraut er der Mutter ein Herzensgeheimnis an: <rs type="work"
-                  ref="#30219" subtype="implied">Toni Weber</rs>, ein braves Mädchen, sei seine
+               letzter Stunde vertraut er der Mutter ein Herzensgeheimnis an: <rs type="work" ref="#pmb30219" subtype="implied">Toni Weber</rs>, ein braves Mädchen, sei seine
                Geliebte. Sie habe ihm einen Knaben geboren, jetzt vier Jahre. Die Eltern mögen
                Mutter und Kind ins Haus nehmen<c rendition="#dots" n="3"/> Es geschieht. Man
-               behandelt <rs type="work" ref="#30219" subtype="implied">Toni</rs> anfangs warm, dann
+               behandelt <rs type="work" ref="#pmb30219" subtype="implied">Toni</rs> anfangs warm, dann
                immer kühler und, als das Kind stirbt, kalt. Die Arme geht schließlich aus
                Verzweiflung in den Tod. Franziska aber, die liebe, gutherzige Schwester des
                dahingegangenen Geliebten, tritt für sie ein und hält am Schlusse sogar eine
                Ansprache, die sanft um Duldung bat für die Opfer der <c rendition="#dots" n="3"/>
                freien Liebe. Selbstverständlich: dieses Wort wurde nicht ausgesprochen, nur
-               angedeutet. Die <rs type="person" ref="#2850">Hohenfels</rs> sprach dieses Plädoyer
+               angedeutet. Die <rs type="person" ref="#pmb2850">Hohenfels</rs> sprach dieses Plädoyer
                so glänzend, daß die kirchenfrömmsten Damen weinten. Es gab stärksten Applaus! Denn
-               es galt Mitleid zu haben mit jener <rs type="work" ref="#30219" subtype="implied"
-                  >Toni</rs>, die Frau <rs type="person" ref="#2680">Schratt</rs> spielte.</p>
-            <p>Seither stand <rs type="person" ref="#2121">Schnitzler</rs> hoch in der Gunst der
-               Künstlerin, die ihrerseits wieder hoch in der <anchor type="commentary"
-                  xml:id="K_I127-17"/>Gunst der höchsten Hofkreise<note type="commentary"
-                  xml:id="K_I127-17h">Anspielung auf ihre Liebesbeziehung mit Kaiser <rs
-                     type="person" ref="#2513">Franz Joseph</rs>
+               es galt Mitleid zu haben mit jener <rs type="work" ref="#pmb30219" subtype="implied">Toni</rs>, die Frau <rs type="person" ref="#pmb2680">Schratt</rs> spielte.</p>
+            <p>Seither stand <rs type="person" ref="#pmb2121">Schnitzler</rs> hoch in der Gunst der
+               Künstlerin, die ihrerseits wieder hoch in der <anchor type="commentary" xml:id="K_I127-17"/>Gunst der höchsten Hofkreise<note type="commentary" xml:id="K_I127-17h">Anspielung auf ihre Liebesbeziehung mit Kaiser <rs type="person" ref="#pmb2513">Franz Joseph</rs>
                </note> stand. Also war der Herr <anchor type="commentary" xml:id="K_I127-2"/>
-               <rs type="person" subtype="implied" ref="#2196">Sektionschef-Zensor</rs>
+               <rs type="person" subtype="implied" ref="#pmb2196">Sektionschef-Zensor</rs>
                <note type="commentary" xml:id="K_I127-2h">
-                  <rs type="person" ref="#2196">Emil von Jettel-Ettenach</rs>
-               </note> von vornherein über dieses verbrecherische Stück »<rs type="work"
-                  ref="#29843">Kakadu</rs>« nicht empört. Auch hatte Direktor <rs type="person"
-                  ref="#12671">Schlenther</rs> die Zensurprüfung klug eingefädelt. <anchor
-                  type="label" xml:id="I127-lesung"/>Er bat <rs type="person" ref="#2121"
-                  >Schnitzler</rs>, das <rs type="work" ref="#29843" subtype="implied">Stück</rs> in
-               Gegenwart des Hofrates <rs type="person" ref="#10577">Wlassack</rs> und des <rs
-                  type="person" ref="#2196" subtype="implied">Zensor</rs>s <anchor type="commentary"
-                  xml:id="K_I127-19"/>vorzulesen<note type="commentary" xml:id="K_I127-19h">Diese
-                  Lesung fand am <ref target="1899-01-26" type="schnitzlerDiary" subtype="date-only"
-                  /> statt.</note>. Nun denn – so schlecht wie damals soll der Dichter – das
+                  <rs type="person" ref="#pmb2196">Emil von Jettel-Ettenach</rs>
+               </note> von vornherein über dieses verbrecherische Stück »<rs type="work" ref="#pmb29843">Kakadu</rs>« nicht empört. Auch hatte Direktor <rs type="person" ref="#pmb12671">Schlenther</rs> die Zensurprüfung klug eingefädelt. <anchor type="label" xml:id="I127-lesung"/>Er bat <rs type="person" ref="#pmb2121">Schnitzler</rs>, das <rs type="work" ref="#pmb29843" subtype="implied">Stück</rs> in
+               Gegenwart des Hofrates <rs type="person" ref="#pmb10577">Wlassack</rs> und des <rs type="person" ref="#pmb2196" subtype="implied">Zensor</rs>s <anchor type="commentary" xml:id="K_I127-19"/>vorzulesen<note type="commentary" xml:id="K_I127-19h">Diese
+                  Lesung fand am <ref target="1899-01-26" type="schnitzler-tagebuch" subtype="date-only"/> statt.</note>. Nun denn – so schlecht wie damals soll der Dichter – das
                erzählte man sich – noch nie gelesen haben! So völlig talentlos. Er brachte nämlich
                gerade die krassesten Effekte so sanft, daß sie wie Gemütlichkeiten sich ausnahmen.
                Keine Kanone klang stärker als der Schuß einer Kinderpistole.</p>
             <p>Was die Zensur schließlich verlangte? Die Menge solle nur viermal »Es lebe die
-               Freiheit!« rufen, statt achtmal. Die obgenannte <rs type="work" ref="#29843"
-                  subtype="implied">Marquise</rs> sollte von dem Herzogmord nicht entzückt sein. Man
-               gab’s zu. Die Hauptforderung des <rs type="person" subtype="implied" ref="#2196"
-                  >Zensors</rs> aber, man möge jenen dummen <anchor type="commentary"
-                  xml:id="K_I127-123"/>Polizeikommissär streichen<note type="commentary"
-                  xml:id="K_I127-123h">Diese Forderungen lassen sich tatsächlich in den Dokumenten
-                  der Zensur belegen. <bibl>Vgl. <rs type="person" ref="#2121">A.&#8239;S.</rs>: <rs type="work" ref="#29843">Der grüne Kakadu. Historisch-kritische Ausgabe</rs>,
-                     S.&#8239;631–645</bibl>.</note>, der noch immer an einen Komödiantenspaß glaubt,
+               Freiheit!« rufen, statt achtmal. Die obgenannte <rs type="work" ref="#pmb29843" subtype="implied">Marquise</rs> sollte von dem Herzogmord nicht entzückt sein. Man
+               gab’s zu. Die Hauptforderung des <rs type="person" subtype="implied" ref="#pmb2196">Zensors</rs> aber, man möge jenen dummen <anchor type="commentary" xml:id="K_I127-123"/>Polizeikommissär streichen<note type="commentary" xml:id="K_I127-123h">Diese Forderungen lassen sich tatsächlich in den Dokumenten
+                  der Zensur belegen. <bibl>Vgl. <rs type="person" ref="#pmb2121">A. S.</rs>: <rs type="work" ref="#pmb29843">Der grüne Kakadu. Historisch-kritische Ausgabe</rs>,
+                     S. 631–645</bibl>.</note>, der noch immer an einen Komödiantenspaß glaubt,
                als der Herzog bereits erstochen ist – dieses Attentat konnte abgewehrt werden, um
                den drolligen Patron wäre wirklich schade gewesen.</p>
             <p rend="center">
                <c rendition="#ornament"/>
             </p>
             <p>
-               <anchor type="commentary" xml:id="K_I127-4"/>Welche <rs type="person" ref="#4420"
-                  subtype="implied">Dame</rs>
+               <anchor type="commentary" xml:id="K_I127-4"/>Welche <rs type="person" ref="#pmb4420" subtype="implied">Dame</rs>
                <note type="commentary" xml:id="K_I127-4h">
-                  <ref target="1905-12-04" type="schnitzlerDiary" subtype="cf"/>: »<quote>Heut
-                     erfuhr ich, warum <rs type="work" ref="#29843">Kakadu</rs> damals abgesetzt
-                     wurde. Erzh. <rs type="person" ref="#4420">Gisela</rs> war drin und indignirt,
-                     weil <rs type="person" ref="#2642">Haeberle</rs> (Michette) sich an den Dessous
-                     der Marquise (<rs type="person" ref="#12268">Mitterwurzer</rs>) zu schaffen
+                  <ref target="1905-12-04" type="schnitzler-tagebuch" subtype="cf"/>: »<quote>Heut
+                     erfuhr ich, warum <rs type="work" ref="#pmb29843">Kakadu</rs> damals abgesetzt
+                     wurde. Erzh. <rs type="person" ref="#pmb4420">Gisela</rs> war drin und indignirt,
+                     weil <rs type="person" ref="#pmb2642">Haeberle</rs> (Michette) sich an den Dessous
+                     der Marquise (<rs type="person" ref="#pmb12268">Mitterwurzer</rs>) zu schaffen
                      machte.–</quote>«</note> des Hofes die schließliche Unterdrückung des Stückes
                durchsetzte – man hat’s nie bestimmt erfahren. Wohl aber erfuhr man die eigentliche
                Ursache der hohen Empörung. Nicht die Revolution war’s, nicht der Herzogsmord, nicht
-               der Schatten <rs type="person" ref="#20996">Maria Antoinette</rs>s, der hinter allen
+               der Schatten <rs type="person" ref="#pmb20996">Maria Antoinette</rs>s, der hinter allen
                solchen Stücken auftaucht. Nein – ein brillantbesetztes Damenstrumpfband war’s, das
                ein nobler Spelunkengast der Dame schenken will, die ihm am freundlichsten zulächelt.
-               An dieser Konkurrenz will sich nun auch unsere lustige Frau <rs type="work"
-                  ref="#29843" subtype="implied">Marquise</rs> beteiligen.</p>
+               An dieser Konkurrenz will sich nun auch unsere lustige Frau <rs type="work" ref="#pmb29843" subtype="implied">Marquise</rs> beteiligen.</p>
             <p>Eine wirkliche Marquise darf aber nicht so lustig sein.</p>
             <p>Das Stück mußte fallen.</p>
             <p rend="right">Julius Stern.</p>
          </div>
          <div type="biographical">
             <div1>
-               <ref target="1925-11-19" type="schnitzlerDiary"/>
-               <quote>Vm. kam Reg. R. <rs type="person" ref="#3162">Stern</rs> (<rs type="org"
-                     ref="#61362">Volksztg.</rs>), das alte Theatertinterl und liess sich allerlei
-                  über ›<rs type="work" ref="#29985">Eins. Weg</rs>‹ und <rs type="work"
-                     ref="#29843">Kakadu</rs> erzählen; erzählte auch mir amüsantes aus alten
-                  Zeiten;– so von <rs type="person" ref="#3287">Franz Ferdinand</rs> und seinem
-                  Benehmen bei der Prem. der ›<rs type="work" ref="#29859"
-                  >Marionetten</rs>‹.–</quote>
+               <ref target="1925-11-19" type="schnitzler-tagebuch"/>
+               <quote>Vm. kam Reg. R. <rs type="person" ref="#pmb3162">Stern</rs> (<rs type="org" ref="#pmb61362">Volksztg.</rs>), das alte Theatertinterl und liess sich allerlei
+                  über ›<rs type="work" ref="#pmb29985">Eins. Weg</rs>‹ und <rs type="work" ref="#pmb29843">Kakadu</rs> erzählen; erzählte auch mir amüsantes aus alten
+                  Zeiten;– so von <rs type="person" ref="#pmb3287">Franz Ferdinand</rs> und seinem
+                  Benehmen bei der Prem. der ›<rs type="work" ref="#pmb29859">Marionetten</rs>‹.–</quote>
             </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb3162">
+               <persName>
+                  <forename>Julius</forename>
+                  <surname>Stern</surname>
+               </persName>
+               <birth>
+                  <date when="1865-03-20">20.03.1865</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1939-03-30">30.03.1939</date>
+                  <settlement ref="pmb862">
+                     <placeName type="pref">Brüssel</placeName>
+                     <location>
+                        <geo>50,85045 4,34878</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/1026780381</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20415</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3162.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3162/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp47276</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q94847340</idno>
+            </person>
+            <person xml:id="pmb10844">
+               <persName>
+                  <forename>Albert</forename>
+                  <surname>Bassermann</surname>
+               </persName>
+               <birth>
+                  <date when="1867-09-07">07.09.1867</date>
+                  <settlement ref="pmb881">
+                     <placeName type="pref">Mannheim</placeName>
+                     <location>
+                        <geo>49,4891 8,46694</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1952-05-15">15.05.1952</date>
+                  <settlement ref="pmb12376">
+                     <placeName type="pref">Atlantischer Ozean</placeName>
+                     <location>
+                        <geo>7,0 -31,0</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13457</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118653407</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10844.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10844/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10844</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb10844</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp37905</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64150</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Albert_Bassermann</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb10844.html</idno>
+            </person>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb10986">
+               <persName>
+                  <forename>Otto</forename>
+                  <surname>Brahm</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Abrahamson</persName>
+               <birth>
+                  <date when="1856-02-05">05.02.1856</date>
+                  <settlement ref="pmb506">
+                     <placeName type="pref">Hamburg</placeName>
+                     <location>
+                        <geo>53,57532 10,01534</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1912-11-28">28.11.1912</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+               <occupation ref="pmb104">Regisseur/Regisseurin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13913</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118514245</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10986.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10986/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10986</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10986.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb10986</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp50936</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q71903</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Otto_Brahm</idno>
+            </person>
+            <person xml:id="pmb12530">
+               <persName>
+                  <forename>Rudolf</forename>
+                  <surname>Rittner</surname>
+               </persName>
+               <birth>
+                  <date when="1869-06-30">30.06.1869</date>
+                  <settlement ref="pmb40151">
+                     <placeName type="pref">Bílý Potok</placeName>
+                     <location>
+                        <geo>50,87374 15,22209</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1943-02-04">04.02.1943</date>
+                  <settlement ref="pmb40151">
+                     <placeName type="pref">Bílý Potok</placeName>
+                     <location>
+                        <geo>50,87374 15,22209</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19288</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118788981</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12530.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12530/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12530</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp52606</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x0028425b</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q90655</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Rudolf_Rittner</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb12530.html</idno>
+            </person>
+            <person xml:id="pmb2865">
+               <persName>
+                  <forename>Else</forename>
+                  <surname>Lehmann</surname>
+               </persName>
+               <persName type="person_ehename_nachname">Kuh</persName>
+               <persName type="legacy-name-merge">Lehmann, Else</persName>
+               <birth>
+                  <date when="1866-06-27">27.06.1866</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1940-03-06">6.3.1940</date>
+                  <settlement ref="pmb652">
+                     <placeName type="pref">Prag</placeName>
+                     <location>
+                        <geo>50,08333 14,46667</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116862319</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2865.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2865/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17404</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp42564</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1333664</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Else_Lehmann</idno>
+            </person>
+            <person xml:id="pmb12977">
+               <persName>
+                  <forename>Irene</forename>
+                  <surname>Triesch</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Tritsch</persName>
+               <persName type="person_ehename_nachname">Lamond</persName>
+               <birth>
+                  <date when="1877-04-13">13.04.1877</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1964-11-24">24.11.1964</date>
+                  <settlement ref="pmb854">
+                     <placeName type="pref">Basel</placeName>
+                     <location>
+                        <geo>47,55839 7,57327</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20811</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117418366</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12977.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12977/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12977</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46492</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q27163745</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Irene_Triesch</idno>
+            </person>
+            <person xml:id="pmb5211">
+               <persName>
+                  <forename>Hedwig</forename>
+                  <surname>Pauly-Winterstein</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Pinner</persName>
+               <persName type="person_ehename_nachname">Wangenheim-Winterstein</persName>
+               <birth>
+                  <date when="1866-10-16">16.10.1866</date>
+                  <settlement ref="pmb677">
+                     <placeName type="pref">Breslau</placeName>
+                     <location>
+                        <geo>51,10773 17,03533</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1965-08-22">22.08.1965</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/1019296798</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5211/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q107787</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hedwig_Pauly-Winterstein</idno>
+            </person>
+            <person xml:id="pmb11851">
+               <persName>
+                  <forename>Josef</forename>
+                  <surname>Kainz</surname>
+               </persName>
+               <birth>
+                  <date when="1858-01-02">02.01.1858</date>
+                  <settlement ref="pmb43475">
+                     <placeName type="pref">Mosonmagyaróvár</placeName>
+                     <location>
+                        <geo>47,86789 17,26994</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1910-09-20">20.09.1910</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16646</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118559389</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11851.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11851/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11851</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp47103</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x002820f2</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q697592</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Josef_Kainz</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11851.html</idno>
+            </person>
+            <person xml:id="pmb10883">
+               <persName>
+                  <forename>Alfred von</forename>
+                  <surname>Berger</surname>
+               </persName>
+               <birth>
+                  <date when="1853-04-30">30.04.1853</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1912-08-24">24.08.1912</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13624</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118655930</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10883.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10883/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10883</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=B#DWpers0016</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00280fd5</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38058</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q88890</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Alfred_von_Berger</idno>
+            </person>
+            <person xml:id="pmb12948">
+               <persName>
+                  <forename>Hugo</forename>
+                  <surname>Thimig</surname>
+               </persName>
+               <birth>
+                  <date when="1854-06-16">16.06.1854</date>
+                  <settlement ref="pmb866">
+                     <placeName type="pref">Dresden</placeName>
+                     <location>
+                        <geo>51,0833 13,7666</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1944-09-24">24.09.1944</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20714</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/11875713X</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12948.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12948/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12948</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46351</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x0031110b</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q73355</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hugo_Thimig</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb12948.html</idno>
+            </person>
+            <person xml:id="pmb3201">
+               <persName>
+                  <forename>Harry</forename>
+                  <surname>Walden</surname>
+               </persName>
+               <birth>
+                  <date when="1875-10-22">1875-10-22</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1921-06-04">04.06.1921</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117118524</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21059</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3201.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3201/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp45545</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1586852</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Harry_Walden</idno>
+            </person>
+            <person xml:id="pmb2446">
+               <persName>
+                  <forename>Max</forename>
+                  <surname>Devrient</surname>
+               </persName>
+               <birth>
+                  <date when="1857-12-12">12.12.1857</date>
+                  <settlement ref="pmb890">
+                     <placeName type="pref">Hannover</placeName>
+                     <location>
+                        <geo>52,37052 9,73322</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1929-06-13">13.06.1929</date>
+                  <settlement ref="pmb2448">
+                     <placeName type="pref">Chur</placeName>
+                     <location>
+                        <geo>46,8578 9,5215</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb104">Regisseur/Regisseurin</occupation>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116089067</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14434</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2446.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2446/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2446</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49914</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x002812d6</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q97522</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Max_Devrient</idno>
+            </person>
+            <person xml:id="pmb12399">
+               <persName>
+                  <forename>Max</forename>
+                  <surname>Paulsen</surname>
+               </persName>
+               <persName type="person_pseudonym">Peter Petersen</persName>
+               <birth>
+                  <date when="1876-11-18">18.11.1876</date>
+                  <settlement ref="pmb506">
+                     <placeName type="pref">Hamburg</placeName>
+                     <location>
+                        <geo>53,57532 10,01534</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1956-03-11">11.03.1956</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+               <occupation ref="pmb104">Regisseur/Regisseurin</occupation>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18691</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/130023728</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12399.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12399/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12399</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp51295</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q94245</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Max_Paulsen</idno>
+            </person>
+            <person xml:id="pmb11659">
+               <persName>
+                  <forename>Franz</forename>
+                  <surname>Herterich</surname>
+               </persName>
+               <birth>
+                  <date when="1877-10-03">03.10.1877</date>
+                  <settlement ref="pmb45258">
+                     <placeName type="pref">München</placeName>
+                     <location>
+                        <geo>48,13743 11,57549</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1966-10-28">28.10.1966</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16125</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116752947</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11659.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11659/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43493</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1447211</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Franz_Herterich</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11659.html</idno>
+            </person>
+            <person xml:id="pmb13149">
+               <persName>
+                  <forename>Else</forename>
+                  <surname>Wohlgemuth</surname>
+               </persName>
+               <persName type="person_ehename_nachname">Thun-Hohenstein</persName>
+               <birth>
+                  <date when="1881-01-01">01.01.1881</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1972-05-29">29.05.1972</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21423</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117457272</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb13149.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/13149/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb13149</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp42570</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1333738</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Else_Wohlgemuth</idno>
+            </person>
+            <person xml:id="pmb10959">
+               <persName>
+                  <forename>Hedwig</forename>
+                  <surname>Bleibtreu</surname>
+               </persName>
+               <persName type="person_ehename_nachname">Römpler</persName>
+               <persName type="person_ehename_nachname">Paulsen</persName>
+               <birth>
+                  <date when="1868-12-23">23.12.1868</date>
+                  <settlement ref="pmb332">
+                     <placeName type="pref">Linz</placeName>
+                     <location>
+                        <geo>48,3 14,28333</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1958-01-24">24.01.1958</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13776</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116201304</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10959.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10959/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10959</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp39304</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q94505</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hedwig_Bleibtreu</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb10959.html</idno>
+            </person>
+            <person xml:id="pmb2680">
+               <persName>
+                  <forename>Katharina</forename>
+                  <surname>Schratt</surname>
+               </persName>
+               <persName type="person_ehename_nachname">Kiss von Ittebe</persName>
+               <persName type="legacy-name-merge">Schratt, Katharina</persName>
+               <birth>
+                  <date when="1853-09-11">11.09.1853</date>
+                  <settlement ref="pmb662">
+                     <placeName type="pref">Baden bei Wien</placeName>
+                     <location>
+                        <geo>48,00543 16,23264</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1940-04-17">17.04.1940</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118759280</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19877</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2680.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2680/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/24486/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp47718</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x0028458d</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q78534</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Katharina_Schratt</idno>
+            </person>
+            <person xml:id="pmb11391">
+               <persName>
+                  <forename>Ludwig</forename>
+                  <surname>Fulda</surname>
+               </persName>
+               <birth>
+                  <date when="1862-07-15">15.07.1862</date>
+                  <settlement ref="pmb146">
+                     <placeName type="pref">Frankfurt am Main</placeName>
+                     <location>
+                        <geo>50,11552 8,68417</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1939-03-30">30.03.1939</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb116">Übersetzer/Übersetzerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15306</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118840452</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11391.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11391/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11391</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11391</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49290</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q72283</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ludwig_Fulda</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11391.html</idno>
+            </person>
+            <person xml:id="pmb2850">
+               <persName>
+                  <forename>Stella</forename>
+                  <surname>Hohenfels</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Loderbank</persName>
+               <persName type="person_ehename_nachname">Berger</persName>
+               <persName type="legacy-name-merge">Hohenfels, Stella</persName>
+               <birth>
+                  <date when="1854-04-16">16.04.1854</date>
+                  <settlement ref="pmb263">
+                     <placeName type="pref">Florenz</placeName>
+                     <location>
+                        <geo>43,77925 11,24626</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1920-02-21">21.02.1920</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116132043</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16302</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2850.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2850/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/18426/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2850</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp53643</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00281a78</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q88930</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Stella_von_Hohenfels-Berger</idno>
+            </person>
+            <person xml:id="pmb2513">
+               <persName>
+                  <surname>Franz Joseph I. von Österreich-Ungarn</surname>
+               </persName>
+               <persName type="legacy-name-merge">Franz Joseph I., None</persName>
+               <birth>
+                  <date when="1830-08-18">18.08.1830</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1916-11-21">21.11.1916</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb167">Regent/Regentin &gt;&gt; Kaiser/Kaiserin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118535013</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2513.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2513/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15150</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2513</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb2513</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43514</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q51056</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Franz_Joseph_I.</idno>
+               <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/franz-joseph.html</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x0028162d</idno>
+            </person>
+            <person xml:id="pmb2196">
+               <persName>
+                  <forename>Emil von</forename>
+                  <surname>Jettel-Ettenach</surname>
+               </persName>
+               <birth>
+                  <date when="1846-04-08">08.04.1846</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1925-04-25">25.04.1925</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb102">Wissenschaftler/Wissenschaftlerin &gt;&gt; Rechtswissenschaftler/Rechtswissenschaftlerin</occupation>
+               <occupation ref="pmb113">Beamter/Beamte &gt;&gt; Ministerialbeamter/Ministerialbeamte</occupation>
+               <occupation ref="pmb114">Zensor/Zensorin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/1012834638</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16551</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2196.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2196/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2196</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q55679253</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00282016</idno>
+            </person>
+            <person xml:id="pmb12671">
+               <persName>
+                  <forename>Paul</forename>
+                  <surname>Schlenther</surname>
+               </persName>
+               <birth>
+                  <date when="1854-08-20">20.08.1854</date>
+                  <settlement ref="pmb48092">
+                     <placeName type="pref">Chernyakhovsk</placeName>
+                     <location>
+                        <geo>54,63345 21,81557</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1916-04-30">30.04.1916</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+               <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19724</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118795112</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12671.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12671/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12671</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb12671</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp51242</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x002851cc</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q194574</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Paul_Schlenther</idno>
+            </person>
+            <person xml:id="pmb10577">
+               <persName>
+                  <forename>Eduard</forename>
+                  <surname>Wlassack</surname>
+               </persName>
+               <birth>
+                  <date when="1841-11-09">09.11.1841</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1904-06-03">03.06.1904</date>
+                  <settlement ref="pmb30">
+                     <placeName type="pref">Salzburg</placeName>
+                     <location>
+                        <geo>47,80067 13,04532</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb491">Kanzleidirektor/Kanzleidirektorin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21416</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117446394</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10577/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp55673</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1290444</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Eduard_Wlassack</idno>
+            </person>
+            <person xml:id="pmb4420">
+               <persName>
+                  <surname>Gisela von Österreich</surname>
+               </persName>
+               <persName type="person_geburtsname-vorname">Gisella Luise Marie</persName>
+               <birth>
+                  <date when="1856-07-12">1856-07-12</date>
+                  <settlement ref="pmb45183">
+                     <placeName type="pref">Laxenburg</placeName>
+                     <location>
+                        <geo>48,05729 16,35754</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1932-07-27">1932-07-27</date>
+                  <settlement ref="pmb45258">
+                     <placeName type="pref">München</placeName>
+                     <location>
+                        <geo>48,13743 11,57549</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb168">Herzog/Herzogin &gt;&gt; Erzherzog/Erzherzogin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/119532271</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15448</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb4420.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4420/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/17059/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q231871</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Gisela_von_%C3%96sterreich</idno>
+            </person>
+            <person xml:id="pmb2642">
+               <persName>
+                  <forename>Else</forename>
+                  <surname>Speidel-Haeberle</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Haeberle</persName>
+               <persName type="legacy-name-merge">Haeberle, Else</persName>
+               <persName type="wien-geschichte-wiki">https://www.geschichtewiki.wien.gv.at/Else_Speidel-Haeberle</persName>
+               <birth>
+                  <date when="1877-07-11">11.07.1877</date>
+                  <settlement ref="pmb872">
+                     <placeName type="pref">Stuttgart</placeName>
+                     <location>
+                        <geo>48,78232 9,17702</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1937-07-21">21.07.1937</date>
+                  <settlement ref="pmb46544">
+                     <placeName type="pref">Augustenfeld</placeName>
+                     <location>
+                        <geo>52,7529 7,70918</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116358424</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15833</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2642.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2642/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/17714/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2642</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284ca9</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q59653294</idno>
+            </person>
+            <person xml:id="pmb12268">
+               <persName>
+                  <forename>Wilhelmine</forename>
+                  <surname>Mitterwurzer</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Rennert</persName>
+               <birth>
+                  <date when="1848-03-27">27.03.1848</date>
+                  <settlement ref="pmb631">
+                     <placeName type="pref">Freiburg im Breisgau</placeName>
+                     <location>
+                        <geo>47,9959 7,85222</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1909-08-03">03.08.1909</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18191</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117064874</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12268.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12268/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q4296891</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wilhelmine_Mitterwurzer</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00283076</idno>
+            </person>
+            <person xml:id="pmb20996">
+               <persName>
+                  <surname>Marie Antoinette</surname>
+               </persName>
+               <birth>
+                  <date when="1755-11-02">02.11.1755</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1793-10-16">16.10.1793</date>
+                  <settlement ref="pmb182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb109">Regent/Regentin &gt;&gt; König/Königin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17884</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20996/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp48083</idno>
+            </person>
+            <person xml:id="pmb3287">
+               <persName>
+                  <surname>Franz Ferdinand von Österreich-Este</surname>
+               </persName>
+               <persName type="legacy-name-merge">Franz Ferdinand, None</persName>
+               <birth>
+                  <date when="1863-12-18">18.12.1863</date>
+                  <settlement ref="pmb860">
+                     <placeName type="pref">Graz</placeName>
+                     <location>
+                        <geo>47,06667 15,43333</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1914-06-28">28.06.1914</date>
+                  <settlement ref="pmb65671">
+                     <placeName type="pref">Sarajevo</placeName>
+                     <location>
+                        <geo>43,84864 18,35644</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb168">Herzog/Herzogin &gt;&gt; Erzherzog/Erzherzogin</occupation>
+               <occupation ref="pmb616">Thronfolger/Thronfolgerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118535005</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15149</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3287.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3287/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/16510/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb3287</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb3287</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43472</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x0028162c</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q43063</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Franz_Ferdinand_von_%C3%96sterreich-Este</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb29985">
+               <title>Der einsame Weg. Schauspiel in fünf Akten</title>
+               <title type="werk_link">https://archive.org/details/dereinsamewegsc00schngoog/</title>
+               <title type="werk_arbeitstitel">Junggeselle</title>
+               <title type="werk_arbeitstitel">Junggesellenstück</title>
+               <title type="werk_arbeitstitel">Die Egoisten</title>
+               <title type="werk_arbeitstitel">Einsame Wege</title>
+               <title type="werk_arbeitstitel">Wege ins Dunkle</title>
+               <title type="werk_arbeitstitel">Weg zum Licht</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date notBefore="1904-01-01" when="1904-07-01">1904</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.08</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1198519</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-der-einsame-weg</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/31412</idno>
+               <idno type="URL" subtype="archive">https://archive.org/details/dereinsamewegsc00schngoog</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29985.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29985/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29985</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29985.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_einsame_Weg</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb29843">
+               <title>Der grüne Kakadu. Groteske in einem Akt</title>
+               <title type="werk_bibliografische-angabe">Neue Deutsche Rundschau, Jg. 10, H. 3, März 1899, S. 282–308.</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date>1.3.1899</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.10</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2675124</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-der-gruene-kakadu</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/32409</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29843.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29843/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29843</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29843.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_gr%C3%BCne_Kakadu</idno>
+               <note type="work_kind">Drama &gt;&gt; Einakter</note>
+            </bibl>
+            <bibl xml:id="pmb30207">
+               <title>Das weite Land. Tragikomödie in fünf Akten</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1910-10-20">1910-10-20</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.06</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1171735</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-das-weite-land</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/32170</idno>
+               <idno type="URL" subtype="literature">http://www.literature.at/viewer.alo?objid=12113&amp;page=1&amp;viewmode=fullscreen</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30207.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30207/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30207</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30207.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Das_weite_Land</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+               <note type="references">Die russische Uraufführung am 20.10.1910 vor der deutschsprachigen</note>
+            </bibl>
+            <bibl xml:id="pmb30219">
+               <title>Das Vermächtnis. Schauspiel in drei Akten</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1898-01-01">1898</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.05</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1170678</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/38155</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30219.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30219/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30219</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30219.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Das_Verm%C3%A4chtnis_(Schnitzler)</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb31957">
+               <title>Die Sklavin. Schauspiel in vier Aufzügen</title>
+               <author ref="pmb11391" role="hat-geschaffen">Fulda, Ludwig</author>
+               <date notBefore="1891-01-01" when="1891-07-02">1891</date>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31957.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31957/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb31957</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31957.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb29859">
+               <title>Marionetten. Drei Einakter</title>
+               <title type="werk_link">https://www.arthur-schnitzler.de/edition/genetisch</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1906-01-01">1906</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.29</idno>
+               <idno type="URL" subtype="arthur-schnitzler">https://www.arthur-schnitzler.de/edition/genetisch</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29859.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29859/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29859</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29859.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Einakterzyklus</note>
+            </bibl>
+            <bibl xml:id="pmb59557">
+               <title>Wiener Theaterwoche. Zur Aufführung des Dramas »Der einsame Weg« im Volkstheater. – Als Bassermann in Berlin den Sala spielte – Schnitzlers »Kakadu« kommt wieder ins Burgtheater – Die Geheimgeschichte von der Annahme des revolutionären Stückes</title>
+               <author ref="pmb3162" role="hat-geschaffen">Stern, Julius</author>
+               <date when="1925-11-22">1925-11-22</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/59557/</idno>
+               <note type="work_kind">Kolumne</note>
+            </bibl>
+            <bibl xml:id="pmb58646">
+               <title>Volks-Zeitung</title>
+               <author ref="pmb5130" role="hat-einen-beitrag-geschaffen-zu">Marilaun, Carl</author>
+               <author ref="pmb3162" role="hat-einen-beitrag-geschaffen-zu">Stern, Julius</author>
+               <date from="1918-01-01" to="1944-07-01">1918  – 1944</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58646/</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+            <place xml:id="pmb168">
+               <placeName>Berlin</placeName>
+               <placeName type="alternative-name">Hauptstadt Berlin</placeName>
+               <placeName type="alternative-name">Barlīn</placeName>
+               <placeName type="alternative-name">Reichshauptstadt Berlin</placeName>
+               <placeName type="alternative-name">Berolino</placeName>
+               <placeName type="legacy-name-merge">B-n</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPLC</desc>
+               <desc type="entity_type_id">1418</desc>
+               <location type="coords">
+                  <geo>52,52437 13,41053</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb151">Deutschland</placeName>
+                  <geo>51,5 10,5</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb168</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92171.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
+            </place>
+            <place xml:id="pmb189">
+               <placeName>Semmering</placeName>
+               <placeName type="alternative-name">Gemeinde Semmering</placeName>
+               <placeName type="alternative-name">Semmering-Semmering-Kurort</placeName>
+               <placeName type="alternative-name">Kurort Semmering</placeName>
+               <placeName type="alternative-name">Semmering-Kurort</placeName>
+               <placeName type="alternative-name">Heilklimatischer Höhenluftkurort Semmering</placeName>
+               <placeName type="alternative-name">Semmering- Kurort Semmering</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>47,64224 15,8241</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/7873001/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb189.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/189/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb189</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91735/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91735.html</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4054504-0</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q659891</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Semmering_(Nieder%C3%B6sterreich)</idno>
+            </place>
+            <place xml:id="pmb112">
+               <placeName>Ringstraße</placeName>
+               <desc type="entity_type">Straße (K.STR)</desc>
+               <desc type="entity_type_id">26</desc>
+               <location type="coords">
+                  <geo>48,202432234197 16,371296264238</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb112.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/112/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91600/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/8181703/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91600.html</idno>
+            </place>
+            <place xml:id="pmb182">
+               <placeName>Paris</placeName>
+               <placeName type="alternative-name">P'ariz</placeName>
+               <placeName type="alternative-name">Pariž</placeName>
+               <placeName type="alternative-name">Parisius</placeName>
+               <placeName type="alternative-name">Île-de-France</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,85341 2,3488</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb166">Frankreich</placeName>
+                  <geo>46,0 2,0</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb182.html</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4044660-8</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/182/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb182</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64183/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2988507/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb182</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb182.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q90</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Paris</idno>
+            </place>
+            <place xml:id="pmb518">
+               <placeName>Bastille</placeName>
+               <desc type="entity_type">Gebäude (K.GBD)</desc>
+               <desc type="entity_type_id">24</desc>
+               <location type="coords">
+                  <geo>48,852987 2,3688579</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb182">Paris</placeName>
+                  <geo>48,85341 2,3488</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb518.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/518/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb518</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb36430">
+               <orgName>Volkstheater</orgName>
+               <orgName type="namensvariante">Deutsches Volkstheater</orgName>
+               <desc type="entity_type">Theater</desc>
+               <desc type="entity_type_id">1012</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb20">Volkstheater</placeName>
+                  <geo>48,205142 16,3566</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb20.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb20</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb20</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92202/</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92202.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q688555</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Volkstheater_(Wien)</idno>
+               </location>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/146313-5</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36430/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36430</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb36430</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q113044679</idno>
+               <note type="apis_dates">
+                  <date notBefore="1889-01-01" when="1889-07-02">1889</date>
+               </note>
+            </org>
+            <org xml:id="pmb36247">
+               <orgName>Burgtheater</orgName>
+               <orgName type="alternative-name">Burgtheater GmbH</orgName>
+               <desc type="entity_type">Theater</desc>
+               <desc type="entity_type_id">1012</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb51.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36789/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51010/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2775259/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb51</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb51</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb14">Burgtheater</placeName>
+                  <geo>48,210333 16,361139</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb14.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/14/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb14</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb14.html</idno>
+                  <idno type="URL" subtype="geonames">https://www.geonames.org/6354992/</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb44649">Schlosstheater Schönbrunn</placeName>
+                  <geo>48,186667 16,3125</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44649/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb44649</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2244724</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Schlosstheater_Sch%C3%B6nbrunn</idno>
+               </location>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/38633-9</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36247/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36247</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb36247</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q308720</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Burgtheater</idno>
+               <note type="apis_dates">
+                  <date notBefore="1852-01-01" when="1852-07-01">1852</date>
+               </note>
+            </org>
+            <org xml:id="pmb35597">
+               <orgName>Deutsches Theater Berlin</orgName>
+               <orgName type="alternative-name">Deutsches Theater</orgName>
+               <desc type="entity_type">Theater</desc>
+               <desc type="entity_type_id">1012</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb168">Berlin</placeName>
+                  <geo>52,52437 13,41053</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb168</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92171.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb3">Deutsches Theater Berlin</placeName>
+                  <geo>52,524444 13,382222</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb3</idno>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q703955</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4058252-8</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35597/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb35597</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb35597</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Deutsches_Theater_Berlin</idno>
+               <note type="apis_dates">
+                  <date notBefore="1849-01-01" when="1849-07-02">1849</date>
+               </note>
+            </org>
+            <org xml:id="pmb61362">
+               <orgName>Volks-Zeitung</orgName>
+               <desc type="entity_type">Zeitungsredaktion</desc>
+               <desc type="entity_type_id">1039</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/61362/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb61362</idno>
+               <note type="apis_dates">
+                  <date from="1918-01-01" to="1944-07-01">1918  – 1944</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

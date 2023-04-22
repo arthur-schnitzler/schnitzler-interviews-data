@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I131">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="I131">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#60058">Archi: Arthur Schnitzler nu i Stockholm,
-               17.&#8239;5.&#8239;1923</title>
-            <author ref="#60060">Archi</author>
+            <title level="a" ref="#pmb60058">Archi: Arthur Schnitzler nu i Stockholm,
+               17. 5. 1923</title>
+            <author ref="#pmb60060">Archi</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -28,13 +30,13 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#60060">Archi</author>
-                     <title level="a" ref="#60058">Arthur Schnitzler nu i Stockholm</title>
+                     <author ref="#pmb60060">Archi</author>
+                     <title level="a" ref="#pmb60058">Arthur Schnitzler nu i Stockholm</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#60056">Aftonbladet</title>
+                     <title level="j" ref="#pmb60056">Aftonbladet</title>
                      <imprint>
-                        <date when="1923-05-17" n="2">17.&#8239;5.&#8239;1923</date>
+                        <date when="1923-05-17" n="2">17. 5. 1923</date>
                      </imprint>
                      <biblScope unit="jg">93</biblScope>
                      <biblScope unit="nr">133, Stockholmsupplagan, Uppl. A</biblScope>
@@ -64,233 +66,174 @@
             </figure>
          </div>
          <div type="original" xml:lang="sv-SE">
-            <head><rs type="person" ref="#2121">Arthur Schnitzler</rs> nu i <rs type="place"
-                  ref="#1119">Stockholm</rs>.</head>
-            <head type="sub">Den berömde dramaturgen uttalar sig för <rs type="org" ref="#62336"
-                  >Aftonbladet</rs>.</head>
-            <head type="sub">När »<rs type="work" ref="#29855">Reigen</rs>«-premiären avbröts av
-               studenterna i <rs type="place" ref="#45258">München</rs>.</head>
-            <p>Med kontinentaltåget i dag anlände den berömde <rs type="place" ref="#41240"
-                  >österrikiske</rs> dramaturgen <rs type="person" ref="#2121">Arthur
+            <head>
+               <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> nu i <rs type="place" ref="#pmb1119">Stockholm</rs>.</head>
+            <head type="sub">Den berömde dramaturgen uttalar sig för <rs type="org" ref="#pmb62336">Aftonbladet</rs>.</head>
+            <head type="sub">När »<rs type="work" ref="#pmb29855">Reigen</rs>«-premiären avbröts av
+               studenterna i <rs type="place" ref="#pmb45258">München</rs>.</head>
+            <p>Med kontinentaltåget i dag anlände den berömde <rs type="place" ref="#pmb41240">österrikiske</rs> dramaturgen <rs type="person" ref="#pmb2121">Arthur
                   Schnitzler</rs>. Svårt att upptäcka honom var det inte. Hans drag äro välkända och
                hela hans personlighet sådan, att han högst väsentligt skiljer sig från mängden. Med
                en portfölj under armen och hatten i hand skred han framåt perrongens slitna plankor,
-               livligt resonerande med sin <rs type="place" ref="#44335">svenske</rs> översättare,
-               regissör <rs type="person" ref="#20474">Gustaf Linden</rs>, och dennes <rs
-                  subtype="implied" ref="#20478" type="person">fru</rs> samt dir. <rs type="person"
-                  ref="#21998">Nordberger</rs>, vilken vi ha att tacka för att <rs type="person"
-                  ref="#2121">Schnitzler</rs> kommit hit.</p>
-            <p>Sedan dr&#160;<rs type="person" ref="#2121">Schnitzler</rs> intagit en hastig frukost
-               hade han vänligheten att ägna några minuter åt <rs type="org" ref="#62336"
-                  >Aftonbladets</rs> medarbetare och började själv intervjuen genom att omtala, att
-               det var på vippen att hans resa till <rs type="place" ref="#1119">Stockholm</rs>
+               livligt resonerande med sin <rs type="place" ref="#pmb44335">svenske</rs> översättare,
+               regissör <rs type="person" ref="#pmb20474">Gustaf Linden</rs>, och dennes <rs subtype="implied" ref="#pmb20478" type="person">fru</rs> samt dir. <rs type="person" ref="#pmb21998">Nordberger</rs>, vilken vi ha att tacka för att <rs type="person" ref="#pmb2121">Schnitzler</rs> kommit hit.</p>
+            <p>Sedan dr <rs type="person" ref="#pmb2121">Schnitzler</rs> intagit en hastig frukost
+               hade han vänligheten att ägna några minuter åt <rs type="org" ref="#pmb62336">Aftonbladets</rs> medarbetare och började själv intervjuen genom att omtala, att
+               det var på vippen att hans resa till <rs type="place" ref="#pmb1119">Stockholm</rs>
                inhiberats.</p>
-            <p>»<rs type="person" ref="#62310" subtype="implied">Portieren</rs> på <rs type="place"
-                  ref="#58094">Phönix</rs> i <rs type="place" ref="#36300">Köpenhamn</rs>
+            <p>»<rs type="person" ref="#pmb62310" subtype="implied">Portieren</rs> på <rs type="place" ref="#pmb58094">Phönix</rs> i <rs type="place" ref="#pmb36300">Köpenhamn</rs>
                förklarade, att det tog 24 timmar att fara hit, och det var för mycket för mig.
                Betänk, att jag är en gammal man, som inte orkar med svåra strapatser. Jag beslöt mig
-               också genast för att telegrafera återbud, då jag träffade <rs type="person"
-                  ref="#10992">Georg Brandes</rs> och delgav honom mina bekymmer, vilka dess bättre
-               snart skingrades. Nu är jag här. <rs type="place" ref="#44335">Sverige</rs> känner
-               jag förut. <date>1896</date> gjorde jag en resa till <rs type="place" ref="#41072"
-                  >Nordkap</rs> och besökte då också <rs type="place" ref="#40700">Göteborg</rs>.
+               också genast för att telegrafera återbud, då jag träffade <rs type="person" ref="#pmb10992">Georg Brandes</rs> och delgav honom mina bekymmer, vilka dess bättre
+               snart skingrades. Nu är jag här. <rs type="place" ref="#pmb44335">Sverige</rs> känner
+               jag förut. <date>1896</date> gjorde jag en resa till <rs type="place" ref="#pmb41072">Nordkap</rs> och besökte då också <rs type="place" ref="#pmb40700">Göteborg</rs>.
                Vad jag då såg av ert vackra land kom mig att längta hit igen, och nu hade så när den
-               där <rs type="person" ref="#62310" subtype="implied">portieren</rs> i <rs
-                  type="place" ref="#36300">Köpenhamn</rs> satt krokben för mig.«</p>
+               där <rs type="person" ref="#pmb62310" subtype="implied">portieren</rs> i <rs type="place" ref="#pmb36300">Köpenhamn</rs> satt krokben för mig.«</p>
             <p>Den gamle dramaturgen skrattar hjärtligt, men blir genast allvarlig, då intervjuaren
                kastar fram en fråga, om krigets inverkan på litteraturen.</p>
             <p>»Naturligtvis kommer den stora världsdrabbningen att sätta sina spår på diktverken,
                det är jag övertygad om. Men ännu så länge märker man det inte. Det är som om
                författarna inte vågade släppa fram sina verk, det är något som håller dem tillbaka.
                Jag ser det på mig själv. Låt mig berätta en liten egendomlighet.</p>
-            <p>Ar <date>1908</date> drog jag upp linjerna för ett nytt dramatiskt <rs type="work"
-                  ref="#30205" subtype="implied">stycke</rs>, som slutade med att krig utbröt.
+            <p>Ar <date>1908</date> drog jag upp linjerna för ett nytt dramatiskt <rs type="work" ref="#pmb30205" subtype="implied">stycke</rs>, som slutade med att krig utbröt.
                Längre kom jag inte. Men när vi äntligen fick fred, tog jag fram skissen och blev
                inte litet förvånad över att finna, att jag valt just den första augusti för krigets
                utbrott.</p>
             <p>För att emellertid återgå till ämnet vill jag säga, att enligt min mening måste
                kriget återverka på diktningen. I de böcker eller pjäser som komma skall man kanske
                inte direkt tala om kriget, men dess skugga skall likväl finnas där.«</p>
-            <p>Vi omnämna att »<rs type="work" ref="#31393">Pandoras ask</rs>« f.&#160;n. uppföres i
-                  <rs type="place" ref="#1119">Stockholm</rs> och fråga efter dr&#160;<rs
-                  type="person" ref="#2121">Schnitzler</rs>s åsikt om detta stycke.</p>
+            <p>Vi omnämna att »<rs type="work" ref="#pmb31393">Pandoras ask</rs>« f. n. uppföres i
+                  <rs type="place" ref="#pmb1119">Stockholm</rs> och fråga efter dr <rs type="person" ref="#pmb2121">Schnitzler</rs>s åsikt om detta stycke.</p>
             <p>»Det är oerhört intressant. Men måste spelas väl. I allmänhet begår den
-               skådespelerska som har hand om huvudrollen det felet, att hon gör <rs type="work"
-                  subtype="implied" ref="#31393">Lulu</rs> till en raffinerad kokott, vilket är
-               alldeles oriktigt! Det är också nödvändigt att man ser båda styckena, alltså ›<rs
-                  ref="#31323" type="work">Erdgeist</rs>‹ och ›<rs type="work" ref="#31393">Pandoras
-                  ask</rs>‹ i ett sammanhang. Hemma har man slopat sista akten i ›<rs ref="#31323"
-                  type="work">Erdgeist</rs>‹ och två akter i ›<rs type="work" ref="#31393"
-                  >Pandora</rs>‹ och ger pjäsen under titeln ›<rs type="work" ref="#60117"
-               >Lulu</rs>‹. På mig gör den ett mycket starkt intryck, det förefaller mig dock som om
-               man lär känna <rs type="work" ref="#31393" subtype="implied">Lulu</rs> litet för
-               sent. Redan i <anchor type="textConst" xml:id="T_I131-6"/><rs ref="#31323"
-                  type="work">›Erdgeist‹</rs><note type="textConst" xml:id="T_I131-6h"
-                     ><quote>Erdgeist</quote></note> är hon för mycket utvecklad.«</p>
-            <p>Som bekant väckte <rs type="person" ref="#2121">Schnitzler</rs>s »<rs type="work"
-                  ref="#29855">Reigen</rs>« ett oerhört uppseende i <rs type="place" ref="#50"
-                  >Wien</rs>. Tillfrågad härom säger författaren att antisemiterna i <rs
-                  type="place" ref="#151">Tyskland</rs> och <rs type="place" ref="#41240"
-                  >Österrike</rs> utnyttjade premiären rent politiskt</p>
-            <p>»Det sades att <anchor type="textConst" xml:id="T_I131-4"/>›Reigen‹<note
-                  type="textConst" xml:id="T_I131-4h"><quote>Reigen</quote></note> verkade moraliskt
-               nedbrytande på ungdomen och att judarna gillade detta verk. Under premiären i <rs
-                  type="place" ref="#45258">München</rs> störtade tvåhundra skolpojkar in på
+               skådespelerska som har hand om huvudrollen det felet, att hon gör <rs type="work" subtype="implied" ref="#pmb31393">Lulu</rs> till en raffinerad kokott, vilket är
+               alldeles oriktigt! Det är också nödvändigt att man ser båda styckena, alltså ›<rs ref="#pmb31323" type="work">Erdgeist</rs>‹ och ›<rs type="work" ref="#pmb31393">Pandoras
+                  ask</rs>‹ i ett sammanhang. Hemma har man slopat sista akten i ›<rs ref="#pmb31323" type="work">Erdgeist</rs>‹ och två akter i ›<rs type="work" ref="#pmb31393">Pandora</rs>‹ och ger pjäsen under titeln ›<rs type="work" ref="#pmb60117">Lulu</rs>‹. På mig gör den ett mycket starkt intryck, det förefaller mig dock som om
+               man lär känna <rs type="work" ref="#pmb31393" subtype="implied">Lulu</rs> litet för
+               sent. Redan i <anchor type="textConst" xml:id="T_I131-6"/>
+               <rs ref="#pmb31323" type="work">›Erdgeist‹</rs>
+               <note type="textConst" xml:id="T_I131-6h">
+                  <quote>Erdgeist</quote>
+               </note> är hon för mycket utvecklad.«</p>
+            <p>Som bekant väckte <rs type="person" ref="#pmb2121">Schnitzler</rs>s »<rs type="work" ref="#pmb29855">Reigen</rs>« ett oerhört uppseende i <rs type="place" ref="#pmb50">Wien</rs>. Tillfrågad härom säger författaren att antisemiterna i <rs type="place" ref="#pmb151">Tyskland</rs> och <rs type="place" ref="#pmb41240">Österrike</rs> utnyttjade premiären rent politiskt</p>
+            <p>»Det sades att <anchor type="textConst" xml:id="T_I131-4"/>›Reigen‹<note type="textConst" xml:id="T_I131-4h">
+                  <quote>Reigen</quote>
+               </note> verkade moraliskt
+               nedbrytande på ungdomen och att judarna gillade detta verk. Under premiären i <rs type="place" ref="#pmb45258">München</rs> störtade tvåhundra skolpojkar in på
                teatern, kastade stinkbomber på åskådarplatserna och på scenen och jagade på så sätt
-               ut publiken. Ingen människa hade något att invända mot ›<rs type="work" ref="#29855"
-                  >Reigen</rs>‹ som läsdrama, men när det uppfördes<c rendition="#dots" n="3"/>
-               Orsaken har jag omtalat. ›<rs type="work" ref="#29855">Reigen</rs>‹ är icke omoralisk
+               ut publiken. Ingen människa hade något att invända mot ›<rs type="work" ref="#pmb29855">Reigen</rs>‹ som läsdrama, men när det uppfördes<c rendition="#dots" n="3"/>
+               Orsaken har jag omtalat. ›<rs type="work" ref="#pmb29855">Reigen</rs>‹ är icke omoralisk
                och det finns i konsten över huvud varken moral eller omoral.«</p>
-            <p>»Hurudana äro förhållandena i <rs type="place" ref="#50">Wien</rs>?«</p>
+            <p>»Hurudana äro förhållandena i <rs type="place" ref="#pmb50">Wien</rs>?«</p>
             <p>»En utlänning som kommer dit skall nog tycka att allt går sin jämna gång, och
                troligen inte alls lägger märke till den nöd, som alltjämt härskar. Särskilt år det
-               svårt för den s.&#160;k. intelligensen. Författarna leva under ytterst betryckande
+               svårt för den s. k. intelligensen. Författarna leva under ytterst betryckande
                förhållanden. Att få ut en bok är hart när omöjligt beroende på de härmed förknippade
                kostnaderna. Fullt så eländigt som för några år sedan, är det dock inte och man kan
-               spåra en ändring till det bättre, vilket till stor del är just <rs type="place"
-                  ref="#44335">svenskarnas</rs> förtjänst. <rs type="place" ref="#44335"
-                  >Sverige</rs> har genom sin kärlekshjälp förvärvat sig alla <rs type="place"
-                  ref="#41240">österrikares</rs> varma tacksamhet!« </p>
+               spåra en ändring till det bättre, vilket till stor del är just <rs type="place" ref="#pmb44335">svenskarnas</rs> förtjänst. <rs type="place" ref="#pmb44335">Sverige</rs> har genom sin kärlekshjälp förvärvat sig alla <rs type="place" ref="#pmb41240">österrikares</rs> varma tacksamhet!« </p>
             <p>»Någon ny pjäs under arbete?«</p>
-            <p>Dr <rs type="person" ref="#2121">Schnitzler</rs> slår ifrån sig med båda
+            <p>Dr <rs type="person" ref="#pmb2121">Schnitzler</rs> slår ifrån sig med båda
                händerna.</p>
             <p>»Nej, fråga mig inte om det! Om mitt arbete vill jag inte uttala mig. Jag, liksom så
                många andra är en smula vidskeplig och jag tror man gör bäst i att låta verken tala
                för sig själva.«</p>
             <p>»Programmet för morgonens uppläsning?«</p>
             <p>»Riktigt fastställt är det inte, men troligen kommer jag att läsa ett par enaktare,
-               brottstycken ur ›<rs type="work" ref="#29935">Anatol</rs>‹ och så några
+               brottstycken ur ›<rs type="work" ref="#pmb29935">Anatol</rs>‹ och så några
                noveller.«</p>
-            <p>Härmed är intervjuen slut och dr&#160;<rs type="person" ref="#2121">Schnitzler</rs>
+            <p>Härmed är intervjuen slut och dr <rs type="person" ref="#pmb2121">Schnitzler</rs>
                drar sig tillbaka för att njuta en stunds välbehövlig vila. Att hans uppläsning på
-               fredagen skall samla fullt hus behöver inte betvivlas. Ett tillfälle att göra <rs
-                  type="person" ref="#2121">Arthur Schnitzler</rs>s bekantskap försummar man
+               fredagen skall samla fullt hus behöver inte betvivlas. Ett tillfälle att göra <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>s bekantskap försummar man
                säkerligen icke.</p>
             <p rend="right">
                <hi rend="italics">Archi</hi>
             </p>
          </div>
          <div type="translation">
-            <head><rs type="person" ref="#2121">Arthur Schnitzler</rs> jetzt in <rs type="place"
-                  ref="#1119">Stockholm</rs>.</head>
-            <head type="sub">Der berühmte Dramatiker spricht mit <rs type="org" ref="#62336"
-                  >Aftonbladet</rs>.</head>
-            <head type="sub">Als die »<rs type="work" ref="#29855">Reigen</rs>«-Premiere in <rs
-                  type="work" ref="#29855">München</rs> von den Studenten gestört wurde.</head>
-            <p>Der berühmte <rs type="place" ref="#41240">österreichische</rs> Dramatiker <rs
-                  type="person" ref="#2121">Arthur Schnitzler</rs> ist heute mit dem Kontinentalzug
+            <head>
+               <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> jetzt in <rs type="place" ref="#pmb1119">Stockholm</rs>.</head>
+            <head type="sub">Der berühmte Dramatiker spricht mit <rs type="org" ref="#pmb62336">Aftonbladet</rs>.</head>
+            <head type="sub">Als die »<rs type="work" ref="#pmb29855">Reigen</rs>«-Premiere in <rs type="work" ref="#pmb29855">München</rs> von den Studenten gestört wurde.</head>
+            <p>Der berühmte <rs type="place" ref="#pmb41240">österreichische</rs> Dramatiker <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> ist heute mit dem Kontinentalzug
                eingetroffen. Es war nicht schwer, ihn zu erkennen. Sein Aussehen ist bekannt und
                seine ganze Persönlichkeit ist so, dass er sich deutlich von der Menge abhebt. Mit
                einer Aktentasche unter dem Arm und einem Hut in der Hand schritt er über die
-               abgewetzten Bretter des Perrons und unterhielt sich angeregt mit seinem <rs
-                  type="place" ref="#44335">schwedischen</rs> Übersetzer, dem Regisseur <rs
-                  type="person" ref="#20474">Gustaf Linden</rs>, und dessen <rs subtype="implied"
-                  ref="#20478" type="person">Frau</rs> sowie mit dem Dir. <rs type="person"
-                  ref="#21998">Nordberger</rs>, dem wir es verdanken, dass <rs type="person"
-                  ref="#2121">Schnitzler</rs> hierher gekommen ist. </p>
-            <p>Nachdem Dr. <rs type="person" ref="#2121">Schnitzler</rs> eilig gefrühstückt hatte,
-               war er so freundlich, den Mitarbeitern von <rs type="org" ref="#62336"
-                  >Aftonbladet</rs> ein paar Minuten zu widmen, und begann das Interview selbst,
-               indem er erwähnte, dass seine Reise nach <rs type="place" ref="#1119">Stockholm</rs>
+               abgewetzten Bretter des Perrons und unterhielt sich angeregt mit seinem <rs type="place" ref="#pmb44335">schwedischen</rs> Übersetzer, dem Regisseur <rs type="person" ref="#pmb20474">Gustaf Linden</rs>, und dessen <rs subtype="implied" ref="#pmb20478" type="person">Frau</rs> sowie mit dem Dir. <rs type="person" ref="#pmb21998">Nordberger</rs>, dem wir es verdanken, dass <rs type="person" ref="#pmb2121">Schnitzler</rs> hierher gekommen ist. </p>
+            <p>Nachdem Dr. <rs type="person" ref="#pmb2121">Schnitzler</rs> eilig gefrühstückt hatte,
+               war er so freundlich, den Mitarbeitern von <rs type="org" ref="#pmb62336">Aftonbladet</rs> ein paar Minuten zu widmen, und begann das Interview selbst,
+               indem er erwähnte, dass seine Reise nach <rs type="place" ref="#pmb1119">Stockholm</rs>
                kurz vor der Absage stand. </p>
-            <p>»Der <rs type="person" ref="#62310" subtype="implied">Portier</rs> im <rs
-                  type="place" ref="#58094">Phoenix</rs> in <rs type="place" ref="#36300"
-                  >Kopenhagen</rs> erklärte mir, dass es bis hierher 24 Stunden dauert, und das war
+            <p>»Der <rs type="person" ref="#pmb62310" subtype="implied">Portier</rs> im <rs type="place" ref="#pmb58094">Phoenix</rs> in <rs type="place" ref="#pmb36300">Kopenhagen</rs> erklärte mir, dass es bis hierher 24 Stunden dauert, und das war
                mir zu viel. Bedenken Sie, dass ich ein alter Mann bin, der schwere Strapazen nicht
-               ertragen kann. Ich beschloss auch sofort, eine Absage zu telegrafieren, als ich <rs
-                  type="person" ref="#10992">Georg Brandes</rs> traf und ihm von meinen Sorgen
-               erzählte, die sich glücklicherweise bald zerstreuten. Jetzt bin ich hier. <ref
-                  target="#q200" type="question"/>Ich kenne <rs type="place" ref="#44335"
-                  >Schweden</rs> schon. <date>1896</date> unternahm ich eine Reise zum <rs
-                  type="place" ref="#41072">Nordkap</rs> und besuchte <rs type="place" ref="#40700"
-                  >Göteborg</rs>. Was ich damals von Ihrem schönen Land gesehen habe, hat in mir das
-               Verlangen erweckt wieder herzukommen, und nun hatte mir der <rs type="person"
-                  ref="#62310" subtype="implied">Portier</rs> in <rs type="place" ref="#36300"
-                  >Kopenhagen</rs> beinahe einen Strich durch die Rechnung gemacht.«</p>
-            <p>Der alte Dramatiker lacht herzhaft, wird aber sofort ernst,<ref type="question"
-                  target="#q074"/> als der Interviewer eine Frage nach den Auswirkungen des Krieges
+               ertragen kann. Ich beschloss auch sofort, eine Absage zu telegrafieren, als ich <rs type="person" ref="#pmb10992">Georg Brandes</rs> traf und ihm von meinen Sorgen
+               erzählte, die sich glücklicherweise bald zerstreuten. Jetzt bin ich hier. <ref target="#q200" type="question"/>Ich kenne <rs type="place" ref="#pmb44335">Schweden</rs> schon. <date>1896</date> unternahm ich eine Reise zum <rs type="place" ref="#pmb41072">Nordkap</rs> und besuchte <rs type="place" ref="#pmb40700">Göteborg</rs>. Was ich damals von Ihrem schönen Land gesehen habe, hat in mir das
+               Verlangen erweckt wieder herzukommen, und nun hatte mir der <rs type="person" ref="#pmb62310" subtype="implied">Portier</rs> in <rs type="place" ref="#pmb36300">Kopenhagen</rs> beinahe einen Strich durch die Rechnung gemacht.«</p>
+            <p>Der alte Dramatiker lacht herzhaft, wird aber sofort ernst,<ref type="question" target="#q074"/> als der Interviewer eine Frage nach den Auswirkungen des Krieges
                auf die Literatur stellt.</p>
             <p>»Natürlich wird der große Weltkonflikt seine Spuren in der Poesie hinterlassen, da
                bin ich mir sicher. Aber bisher ist es noch nicht spürbar. Es ist, als ob die Autoren
                sich nicht trauten, ihre Arbeit zu veröffentlichen, irgendetwas hält sie zurück. Ich
                sehe es an mir selbst. Lassen Sie mich eine kleine Eigentümlichkeit erzählen.</p>
-            <p>Im Jahr <date>1908</date> entwarf ich den Text für ein neues dramatisches <rs
-                  type="work" subtype="implied" ref="#30205">Stück</rs>, das mit dem Ausbruch eines
+            <p>Im Jahr <date>1908</date> entwarf ich den Text für ein neues dramatisches <rs type="work" subtype="implied" ref="#pmb30205">Stück</rs>, das mit dem Ausbruch eines
                Krieges endete. Weiter kam ich nicht. Aber als der Frieden endlich eintrat, nahm ich
                die Skizze heraus und war nicht wenig überrascht, als ich feststellte, dass ich den
-                  <anchor type="commentary" xml:id="K_I131-12"/>ersten August<note type="commentary"
-                  xml:id="K_I131-12h">Dass <rs type="person" ref="#2121">Schnitzler</rs> zufällig
+                  <anchor type="commentary" xml:id="K_I131-12"/>ersten August<note type="commentary" xml:id="K_I131-12h">Dass <rs type="person" ref="#pmb2121">Schnitzler</rs> zufällig
                   den Tag der Mobilmachung bereits <date>1908</date> verwendete, lässt sich mit
-                  einem im Nachlass überlieferten Typoskript aus der Entstehung der <rs type="work"
-                     ref="#30205">Komödie der Verführung</rs> nachvollziehen (<bibl>vgl. <title
-                        level="a">Entstehungsgeschichte und textgenetischer Globalkommentar</title>.
-                     In: <rs type="work" ref="#30205">Komödie der Verführung</rs>, in: <title
-                        level="m">Arthur Schnitzler digital</title></bibl>).</note> für den Ausbruch
+                  einem im Nachlass überlieferten Typoskript aus der Entstehung der <rs type="work" ref="#pmb30205">Komödie der Verführung</rs> nachvollziehen (<bibl>vgl. <title level="a">Entstehungsgeschichte und textgenetischer Globalkommentar</title>.
+                     In: <rs type="work" ref="#pmb30205">Komödie der Verführung</rs>, in: <title level="m">Arthur Schnitzler digital</title>
+                  </bibl>).</note> für den Ausbruch
                des Krieges gewählt hatte. </p>
             <p>Um jedoch auf das Thema zurückzukommen, möchte ich sagen, dass der Krieg meiner
                Meinung nach Auswirkungen auf die Poesie haben muss. In den kommenden Büchern oder
                Theaterstücken wird der Krieg vielleicht nicht direkt erwähnt werden, aber sein
                Schatten wird dennoch zu spüren sein.«</p>
             <p>
-               <ref type="question" target="#q073"/>Wir erwähnen, dass die »<rs type="work"
-                  ref="#31393">Büchse der Pandora</rs>« derzeit in <rs type="place" ref="#1119"
-                  >Stockholm</rs> aufgeführt wird, und fragen Dr.&#160;<rs type="person" ref="#2121"
-                  >Schnitzler</rs> nach seiner Meinung zu diesem Stück. </p>
+               <ref type="question" target="#q073"/>Wir erwähnen, dass die »<rs type="work" ref="#pmb31393">Büchse der Pandora</rs>« derzeit in <rs type="place" ref="#pmb1119">Stockholm</rs> aufgeführt wird, und fragen Dr. <rs type="person" ref="#pmb2121">Schnitzler</rs> nach seiner Meinung zu diesem Stück. </p>
             <p>»Es ist äußerst interessant. Aber es muss gut gespielt werden. Generell macht die
-               Hauptdarstellerin den Fehler, <rs type="work" subtype="implied" ref="#31393"
-                  >Lulu</rs> in eine raffinierte Kokotte zu verwandeln, was völlig falsch ist! Es
-               ist auch notwendig, beide Stücke, d.&#160;h. »<rs ref="#31323" type="work"
-                  >Erdgeist</rs>« und »<rs type="work" ref="#31393">Die Büchse der Pandora</rs>«, im
-               Zusammenhang zu sehen. Zuhause wurde der letzte Akt von »<rs ref="#31323" type="work"
-                  >Erdgeist</rs>« und zwei Akte von »<rs type="work" ref="#31393">Pandora</rs>«
-               gestrichen und das Stück erhielt den Titel »<rs type="work" ref="#60117">Lulu</rs>«.
-               Es macht einen sehr starken Eindruck auf mich, aber es scheint mir, dass man <rs
-                  type="work" ref="#31393" subtype="implied">Lulu</rs> etwas zu spät kennenlernt.
-               Schon in ›<rs ref="#31323" type="work">Erdgeist</rs>‹ ist sie zu sehr entwickelt.« </p>
-            <p><ref target="#q034" type="question"/>In <rs type="place" ref="#50">Wien</rs> hat <rs
-                  type="person" ref="#2121">Schnitzler</rs>s »<rs type="work" ref="#29855"
-                  >Reigen</rs>« bekanntlich großes Aufsehen erregt, und der Autor sagt dazu, dass
-               die Antisemiten in <rs type="place" ref="#151">Deutschland</rs> und <rs type="place"
-                  ref="#41240">Österreich</rs> die Uraufführung für politische Zwecke ausgenutzt
+               Hauptdarstellerin den Fehler, <rs type="work" subtype="implied" ref="#pmb31393">Lulu</rs> in eine raffinierte Kokotte zu verwandeln, was völlig falsch ist! Es
+               ist auch notwendig, beide Stücke, d. h. »<rs ref="#pmb31323" type="work">Erdgeist</rs>« und »<rs type="work" ref="#pmb31393">Die Büchse der Pandora</rs>«, im
+               Zusammenhang zu sehen. Zuhause wurde der letzte Akt von »<rs ref="#pmb31323" type="work">Erdgeist</rs>« und zwei Akte von »<rs type="work" ref="#pmb31393">Pandora</rs>«
+               gestrichen und das Stück erhielt den Titel »<rs type="work" ref="#pmb60117">Lulu</rs>«.
+               Es macht einen sehr starken Eindruck auf mich, aber es scheint mir, dass man <rs type="work" ref="#pmb31393" subtype="implied">Lulu</rs> etwas zu spät kennenlernt.
+               Schon in ›<rs ref="#pmb31323" type="work">Erdgeist</rs>‹ ist sie zu sehr entwickelt.« </p>
+            <p>
+               <ref target="#q034" type="question"/>In <rs type="place" ref="#pmb50">Wien</rs> hat <rs type="person" ref="#pmb2121">Schnitzler</rs>s »<rs type="work" ref="#pmb29855">Reigen</rs>« bekanntlich großes Aufsehen erregt, und der Autor sagt dazu, dass
+               die Antisemiten in <rs type="place" ref="#pmb151">Deutschland</rs> und <rs type="place" ref="#pmb41240">Österreich</rs> die Uraufführung für politische Zwecke ausgenutzt
                haben.</p>
-            <p>»Es wurde gesagt, dass der ›<rs type="work" ref="#29855">Reigen</rs>‹ eine moralisch
+            <p>»Es wurde gesagt, dass der ›<rs type="work" ref="#pmb29855">Reigen</rs>‹ eine moralisch
                erniedrigende Wirkung auf die Jugend habe und dass die Juden diese Arbeit mögen. Bei
-               der <anchor type="commentary" xml:id="K_I131-2"/>Uraufführung in <rs type="place"
-                  ref="#45258">München</rs><note type="commentary" xml:id="K_I131-2h"><ref
-                     type="pointer" target="#I071_L_stinkbomber"/></note> stürmten zweihundert
+               der <anchor type="commentary" xml:id="K_I131-2"/>Uraufführung in <rs type="place" ref="#pmb45258">München</rs>
+               <note type="commentary" xml:id="K_I131-2h">
+                  <ref type="pointer" target="#I071_L_stinkbomber"/>
+               </note> stürmten zweihundert
                Schulbuben das Theater, warfen Stinkbomben auf die Sitze und auf die Bühne und
-               vertrieben so das Publikum. Gegen den ›<rs type="work" ref="#29855">Reigen</rs>‹ als
-               Lesedrama hatte niemand etwas einzuwenden, aber wenn er aufgeführt wurde<c
-                  rendition="#dots" n="3"/> Den Grund habe ich genannt: Der ›<rs type="work"
-                  ref="#29855">Reigen</rs>‹ ist nicht unmoralisch und es gibt überhaupt keine Moral
+               vertrieben so das Publikum. Gegen den ›<rs type="work" ref="#pmb29855">Reigen</rs>‹ als
+               Lesedrama hatte niemand etwas einzuwenden, aber wenn er aufgeführt wurde<c rendition="#dots" n="3"/> Den Grund habe ich genannt: Der ›<rs type="work" ref="#pmb29855">Reigen</rs>‹ ist nicht unmoralisch und es gibt überhaupt keine Moral
                oder Unmoral in der Kunst.«</p>
             <p>
-               <ref type="question" target="#q056"/>»Wie sind die Bedingungen in <rs type="place"
-                  ref="#50">Wien</rs>?«</p>
+               <ref type="question" target="#q056"/>»Wie sind die Bedingungen in <rs type="place" ref="#pmb50">Wien</rs>?«</p>
             <p>»Ein Ausländer, der hinkommt, wird wahrscheinlich denken, dass alles glatt läuft, und
                wird wahrscheinlich gar nicht die Not bemerken, die noch herrscht. Besonders
                schwierig ist es für die so genannte Intelligenz. Die Schriftsteller leben unter
                äußerst bedrückenden Bedingungen. Es ist fast unmöglich, ein Buch zu veröffentlichen,
                wegen der damit verbundenen Kosten. Es ist jedoch nicht mehr ganz so miserabel wie
                noch vor einigen Jahren, und es gibt Anzeichen für einen Wandel zum Besseren, was vor
-               allem an den <rs type="place" ref="#44335">Schweden</rs> liegt. <rs type="place"
-                  ref="#44335">Schweden</rs> hat sich durch seinen Liebesdienst die innige
-               Dankbarkeit aller <rs type="place" ref="#41240">Österreicher</rs> erworben!«</p>
+               allem an den <rs type="place" ref="#pmb44335">Schweden</rs> liegt. <rs type="place" ref="#pmb44335">Schweden</rs> hat sich durch seinen Liebesdienst die innige
+               Dankbarkeit aller <rs type="place" ref="#pmb41240">Österreicher</rs> erworben!«</p>
             <p>
                <ref type="question" target="#q001"/>»Ist ein neues Stück in Arbeit?«</p>
-            <p>Dr. <rs type="person" ref="#2121">Schnitzler</rs> wehrt mit beiden Händen ab.</p>
+            <p>Dr. <rs type="person" ref="#pmb2121">Schnitzler</rs> wehrt mit beiden Händen ab.</p>
             <p>»Nein, fragen Sie mich nicht danach! Ich möchte nicht über meine Arbeit sprechen. Ich
                bin, wie so viele andere auch, ein wenig abergläubisch und denke, es ist das Beste,
                die Werke für sich selbst sprechen zu lassen.« </p>
             <p>
                <ref type="question" target="#q055"/>»Das Programm für die morgige Vorlesung?«</p>
             <p>»Ich habe mich noch nicht wirklich entschieden, aber ich werde wahrscheinlich ein
-               paar Einakter lesen, Stückchen aus ›<rs type="work" ref="#29935">Anatol</rs>‹ und
+               paar Einakter lesen, Stückchen aus ›<rs type="work" ref="#pmb29935">Anatol</rs>‹ und
                dann einige Kurzgeschichten.«</p>
-            <p>Damit ist das Gespräch beendet und Dr. <rs type="person" ref="#2121">Schnitzler</rs>
+            <p>Damit ist das Gespräch beendet und Dr. <rs type="person" ref="#pmb2121">Schnitzler</rs>
                zieht sich zurück, um einen Moment dringend benötigter Ruhe zu genießen. Dass seine
                Lesung am Freitag ein volles Haus anlocken wird, daran besteht kein Zweifel. Eine
-               Gelegenheit, <rs type="person" ref="#2121">Arthur Schnitzler</rs> kennenzulernen,
+               Gelegenheit, <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> kennenzulernen,
                sollte man sich nicht entgehen lassen. </p>
             <p rend="right">
                <hi rend="italics">Archi</hi>
@@ -298,29 +241,623 @@
          </div>
          <div type="biographical">
             <div1>
-               <ref type="schnitzlerDiary" target="1923-05-17"/>
+               <ref type="schnitzler-tagebuch" target="1923-05-17"/>
                <quote>Dann kommen 2, später 4 Interviewer, von allen Blättern; es handelt sich
-                  vielfach um ›<rs type="work" ref="#31393">Büchse der Pandora</rs>‹ die neulich
-                  hier gespielt wurde, und <rs type="work" ref="#29855">Reigen</rs>. <gap
-                     reason="outOfScope" unit="chars" quantity="99"/> Mit <rs type="person"
-                     ref="#24992">W. S.</rs> spreche ich über ›occulte‹ und psychologische Dinge,
-                  für die er sich interessirt.– <gap reason="outOfScope" unit="chars" quantity="99"
-                  /> Zu Haus übersetzt er mir zwei meiner Interviews.– Empfinde die Lächerlichkeit
+                  vielfach um ›<rs type="work" ref="#pmb31393">Büchse der Pandora</rs>‹ die neulich
+                  hier gespielt wurde, und <rs type="work" ref="#pmb29855">Reigen</rs>. <gap reason="outOfScope" unit="chars" quantity="99"/> Mit <rs type="person" ref="#pmb24992">W. S.</rs> spreche ich über ›occulte‹ und psychologische Dinge,
+                  für die er sich interessirt.– <gap reason="outOfScope" unit="chars" quantity="99"/> Zu Haus übersetzt er mir zwei meiner Interviews.– Empfinde die Lächerlichkeit
                   all dieser Dinge;</quote>
             </div1>
             <div1>
-               <ref type="schnitzlerDiary" target="1923-05-18"/>
-               <quote>Mit Hilfe Hrn. <rs type="person" ref="#24992">Singer</rs>s die Interviews
+               <ref type="schnitzler-tagebuch" target="1923-05-18"/>
+               <quote>Mit Hilfe Hrn. <rs type="person" ref="#pmb24992">Singer</rs>s die Interviews
                   gelesen;</quote>
             </div1>
             <div1>
-               <bibl><rs type="person" ref="#2121">Schnitzler</rs> an <rs type="person" ref="#12435"
-                  >Clara Katharina Pollaczek</rs>, 19.&#160;5.&#160;1923</bibl>
+               <bibl>
+                  <rs type="person" ref="#pmb2121">Schnitzler</rs> an <rs type="person" ref="#pmb12435">Clara Katharina Pollaczek</rs>, 19. 5. 1923</bibl>
                <quote>gestern bin ich hier angekommen, habe eine Verfilmung und ein halb Dutzend
                   Interviews hinter mir (Reclam-Journalismus ha<supplied>t</supplied> hier amerikanische
                   Dimensionen);</quote>
             </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb60060">
+               <persName>
+                  <surname>Archi</surname>
+               </persName>
+               <sex value="not-set"/>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60060/</idno>
+            </person>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb20474">
+               <persName>
+                  <forename>Gustaf</forename>
+                  <surname>Linden</surname>
+               </persName>
+               <birth>
+                  <date when="1875-11-10">10.11.1875</date>
+                  <settlement ref="pmb58096">
+                     <placeName type="pref">Malmö</placeName>
+                     <location>
+                        <geo>55,60587 13,00073</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1936-03-19">19.03.1936</date>
+                  <settlement ref="pmb1119">
+                     <placeName type="pref">Stockholm</placeName>
+                     <location>
+                        <geo>59,325 18,05</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+               <occupation ref="pmb104">Regisseur/Regisseurin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17567</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20474/</idno>
+            </person>
+            <person xml:id="pmb20478">
+               <persName>
+                  <forename>Olga</forename>
+                  <surname>Linden</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Raphael</persName>
+               <persName type="person_ehename_nachname">Hallencreutz</persName>
+               <birth>
+                  <date when="1887-06-21">21.06.1887</date>
+                  <settlement ref="pmb62319">
+                     <placeName type="pref">Dalarö</placeName>
+                     <location>
+                        <geo>59,13306 18,40639</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1967-11-01">01.11.1967</date>
+                  <settlement ref="pmb62321">
+                     <placeName type="pref">Täby</placeName>
+                     <location>
+                        <geo>59,4439 18,06872</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17568</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20478/</idno>
+            </person>
+            <person xml:id="pmb21998">
+               <persName>
+                  <forename>Carl</forename>
+                  <surname>Nordberger</surname>
+               </persName>
+               <birth>
+                  <date when="1885-11-22">22.11.1885</date>
+                  <settlement ref="pmb59716">
+                     <placeName type="pref">Bollnäs</placeName>
+                     <location>
+                        <geo>61,34817 16,39464</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1964-01-01">1964</date>
+                  <settlement ref="pmb1119">
+                     <placeName type="pref">Stockholm</placeName>
+                     <location>
+                        <geo>59,325 18,05</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb112">Agent/Agentin</occupation>
+               <occupation ref="pmb201">Kritiker/Kritikerin &gt;&gt; Musikkritiker/Musikkritikerin</occupation>
+               <occupation ref="pmb411">Musiker/Musikerin &gt;&gt; Violinist/Violinistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18473</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/21998/</idno>
+            </person>
+            <person xml:id="pmb62310">
+               <persName>
+                  <surname>?? [Portier des Hotel Phönix]</surname>
+               </persName>
+               <sex value="male"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/62310/</idno>
+            </person>
+            <person xml:id="pmb10992">
+               <persName>
+                  <forename>Georg</forename>
+                  <surname>Brandes</surname>
+               </persName>
+               <birth>
+                  <date when="1842-02-04">04.02.1842</date>
+                  <settlement ref="pmb36300">
+                     <placeName type="pref">Kopenhagen</placeName>
+                     <location>
+                        <geo>55,67594 12,56553</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1927-02-19">19.02.1927</date>
+                  <settlement ref="pmb36300">
+                     <placeName type="pref">Kopenhagen</placeName>
+                     <location>
+                        <geo>55,67594 12,56553</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13920</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118514326</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10992.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10992/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10992</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10992.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp44279</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q316045</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Georg_Brandes</idno>
+            </person>
+            <person xml:id="pmb24992">
+               <persName>
+                  <forename>Walter</forename>
+                  <surname>Singer</surname>
+               </persName>
+               <birth>
+                  <date when="1883-09-28">28.09.1883</date>
+                  <settlement ref="pmb506">
+                     <placeName type="pref">Hamburg</placeName>
+                     <location>
+                        <geo>53,57532 10,01534</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1956-05-24">24.05.1956</date>
+                  <settlement ref="pmb1119">
+                     <placeName type="pref">Stockholm</placeName>
+                     <location>
+                        <geo>59,325 18,05</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <occupation ref="pmb175">Kaufmann/Kauffrau</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20140</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/24992/</idno>
+            </person>
+            <person xml:id="pmb12435">
+               <persName>
+                  <forename>Clara Katharina</forename>
+                  <surname>Pollaczek</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Loeb</persName>
+               <persName type="person_pseudonym">Bob</persName>
+               <persName type="person_pseudonym">Cl. Beol</persName>
+               <birth>
+                  <date when="1875-01-15">15.01.1875</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1951-07-22">22.07.1951</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18863</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/13950916X</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12435.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12435/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12435</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q33417199</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Clara_Katharina_Pollaczek</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb12435.html</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb29855">
+               <title>Reigen. Zehn Dialoge</title>
+               <title type="werk_link">https://www.digital.wienbibliothek.at/wbrobv/content/pageview/2587756</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1900-01-01">1900</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.32</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1414190</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-reigen</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/33309</idno>
+               <idno type="URL" subtype="deutschestextarchiv">http://www.deutschestextarchiv.de/book/show/schnitzler_reigen_1903</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29855.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29855/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29855</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29855.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb30205">
+               <title>Komödie der Verführung. In drei Akten</title>
+               <title type="werk_link">https://www.schnitzler-edition.net/genetisch?openWorkInfo=10049#werkinfo-10049</title>
+               <title type="werk_arbeitstitel">Der Verführer</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date notBefore="1924-01-01" when="1924-07-01">1924</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.23</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/38146</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30205.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30205/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30205</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30205.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb31393">
+               <title>Die Büchse der Pandora. Tragödie in drei Aufzügen</title>
+               <author ref="pmb13068" role="hat-geschaffen">Wedekind, Frank</author>
+               <date notBefore="1902-01-01" when="1902-07-02">1902</date>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31393.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31393/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31393.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb31393</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1211843</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Die_B%C3%BCchse_der_Pandora_(Drama)</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb31323">
+               <title>Erdgeist. Tragödie in vier Aufzügen</title>
+               <author ref="pmb13068" role="hat-geschaffen">Wedekind, Frank</author>
+               <date notBefore="1895-01-01" when="1895-07-02">1895</date>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31323.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31323/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb31323</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31323.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q478364</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Erdgeist_(Wedekind)</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb60117">
+               <title>Lulu. Tragödie in 5 Aufzügen mit einem Prolog</title>
+               <author ref="pmb13068" role="hat-geschaffen">Wedekind, Frank</author>
+               <date notBefore="1913-01-01" when="1913-07-02">1913</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60117/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb60117.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb29935">
+               <title>Anatol</title>
+               <title type="werk_bibliografische-angabe">Arthur Schnitzler: Anatol. Berlin: Bibliographisches Bureau 1892, vordatiert auf 1893</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <author ref="pmb28645" role="hat-illustriert">Coschell, Moritz</author>
+               <author ref="pmb11740" role="hat-ein-vorwortnachwort-verfasst-zu">Hofmannsthal, Hugo von</author>
+               <date>1892-10-29</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.03</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q487409</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-anatol</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/32630</idno>
+               <idno type="URL" subtype="deutschestextarchiv">http://www.deutschestextarchiv.de/book/view/schnitzler_anatol_1893</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29935.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29935/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29935</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29935.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Anatol_(Schauspiel)</idno>
+               <note type="work_kind">Drama &gt;&gt; Einakterzyklus</note>
+            </bibl>
+            <bibl xml:id="pmb60058">
+               <title>Arthur Schnitzler nu i Stockholm</title>
+               <author ref="pmb60060" role="hat-geschaffen">Archi</author>
+               <date when="1923-05-17">1923-05-17</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60058/</idno>
+               <note type="work_kind">Interview</note>
+            </bibl>
+            <bibl xml:id="pmb60056">
+               <title>Aftonbladet</title>
+               <date when="1830-12-06">1830-12-06</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60056/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q389458</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Aftonbladet</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb1119">
+               <placeName>Stockholm</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>59,325 18,05</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb44335">Schweden</placeName>
+                  <geo>62,0 15,0</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1119/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/15661/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb1119</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64053/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2673730/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb1119.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/100625/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4057648-6</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1754</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Stockholm</idno>
+            </place>
+            <place xml:id="pmb45258">
+               <placeName>München</placeName>
+               <placeName type="legacy-name-merge">München?</placeName>
+               <placeName type="legacy-name-merge">Munich</placeName>
+               <placeName type="alternative-name">Monacho</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPLA</desc>
+               <desc type="entity_type_id">1415</desc>
+               <location type="coords">
+                  <geo>48,13743 11,57549</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb314">Bayern</placeName>
+                  <geo>49,0 11,5</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb151">Deutschland</placeName>
+                  <geo>51,5 10,5</geo>
+               </location>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4127793-4</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/38129/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/45258/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2867714/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb45258</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb45258</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb45258.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1726</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/M%C3%BCnchen</idno>
+            </place>
+            <place xml:id="pmb41240">
+               <placeName>Österreich</placeName>
+               <placeName type="alternative-name">Republik Österreich</placeName>
+               <placeName type="alternative-name">Republic of Austria</placeName>
+               <placeName type="legacy-name-merge">Deutsch Österreich</placeName>
+               <placeName type="legacy-name-merge">Altoesterreich</placeName>
+               <desc type="entity_type">http://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb687">Österreich-Ungarn</placeName>
+                  <geo>48,4054 16,4887</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2782113/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41240/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41240</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb41240</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92143/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92203/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92143.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92203.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb41240.html</idno>
+            </place>
+            <place xml:id="pmb44335">
+               <placeName>Schweden</placeName>
+               <placeName type="alternative-name">Kingdom of Sweden</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1411</desc>
+               <location type="coords">
+                  <geo>62,0 15,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb745">Skandinavien</placeName>
+                  <geo>63,0 25,0</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q34</idno>
+               <idno type="URL" subtype="geonames">https://www.geonames.org/2661886</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb244.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/244/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/40699/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44335/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2661886/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb44335</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb44335.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Schweden</idno>
+            </place>
+            <place xml:id="pmb58094">
+               <placeName>Hotel Phönix</placeName>
+               <desc type="entity_type">Hotel (K.HTL)</desc>
+               <desc type="entity_type_id">12</desc>
+               <location type="coords">
+                  <geo>55,68301054011226 12,588912857735648</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb36300">Kopenhagen</placeName>
+                  <geo>55,67594 12,56553</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58094/</idno>
+            </place>
+            <place xml:id="pmb36300">
+               <placeName>Kopenhagen</placeName>
+               <placeName type="alternative-name">Copenhagen</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>55,67594 12,56553</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb43570">Dänemark</placeName>
+                  <geo>56,0 10,0</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1748</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb36300.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36300/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36300</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58083/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4032399-7</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64393/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2618425/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb36300</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb36300.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Kopenhagen</idno>
+            </place>
+            <place xml:id="pmb41072">
+               <placeName>Nordkap</placeName>
+               <desc type="entity_type">Kap (N.KAP)</desc>
+               <desc type="entity_type_id">77</desc>
+               <location type="coords">
+                  <geo>71,1725 25,784444</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41072/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41072</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/9039621/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q4069</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Nordkap</idno>
+            </place>
+            <place xml:id="pmb40700">
+               <placeName>Göteborg</placeName>
+               <desc type="entity_type">http://www.geonames.org/ontology#P.PPLA</desc>
+               <desc type="entity_type_id">1108</desc>
+               <location type="coords">
+                  <geo>57,70716 11,96679</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb44335">Schweden</placeName>
+                  <geo>62,0 15,0</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2711537/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/40700/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb40700</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb40700.html</idno>
+            </place>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+            <place xml:id="pmb151">
+               <placeName>Deutschland</placeName>
+               <placeName type="alternative-name">Bundesrepublik Deutschland</placeName>
+               <placeName type="alternative-name">West Germany</placeName>
+               <placeName type="alternative-name">Federal Republic of Germany</placeName>
+               <placeName type="legacy-name-merge">Germany</placeName>
+               <desc type="entity_type">Land (A.LND)</desc>
+               <desc type="entity_type_id">38</desc>
+               <location type="coords">
+                  <geo>51,5 10,5</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb468">Europa</placeName>
+                  <geo>48,69096 9,14062</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q183</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb151.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2921044/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/151/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/39639/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43456/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb151</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb151</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb151.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Deutschland</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/119923/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4011882-4</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb62336">
+               <orgName>Aftonbladet</orgName>
+               <desc type="entity_type">Tageszeitungsredaktion</desc>
+               <desc type="entity_type_id">972</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb1119">Stockholm</placeName>
+                  <geo>59,325 18,05</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1119/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/15661/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb1119</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64053/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2673730/</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb1119.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/100625/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4057648-6</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1754</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Stockholm</idno>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/62336/</idno>
+               <note type="apis_dates">
+                  <date when="1830-12-06">1830-12-06</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

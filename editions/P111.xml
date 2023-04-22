@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="P111">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="P111">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#58490">Une protestation d’Arthur Schnitzler,
-               21.&#8239;12.&#8239;1914</title>
-            <author ref="#2121">Schnitzler, Arthur</author>
-            <author ref="#12543">Rolland, Romain</author>
+            <title level="a" ref="#pmb58490">Une protestation d’Arthur Schnitzler,
+               21. 12. 1914</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
+            <author ref="#pmb12543">Rolland, Romain</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -29,14 +31,14 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#12543">Rolland, Romain</author>
-                     <author ref="#2121">Schnitzler, Arthur</author>
-                     <title level="a" ref="#58490">Une protestation d’Arthur Schnitzler</title>
+                     <author ref="#pmb12543">Rolland, Romain</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <title level="a" ref="#pmb58490">Une protestation d’Arthur Schnitzler</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#58493">Journal de Genève</title>
+                     <title level="j" ref="#pmb58493">Journal de Genève</title>
                      <imprint>
-                        <date when="1914-12-21" n="1">21.&#8239;12.&#8239;1914</date>
+                        <date when="1914-12-21" n="1">21. 12. 1914</date>
                      </imprint>
                      <biblScope unit="jg">85</biblScope>
                      <biblScope unit="nr">3. Ausgabe</biblScope>
@@ -48,9 +50,9 @@
                      <title level="a">Ein Brief Artur Schnitzlers</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#42406">Neue Zürcher Zeitung</title>
+                     <title level="j" ref="#pmb42406">Neue Zürcher Zeitung</title>
                      <imprint>
-                        <date when="1914-12-22">22.&#8239;12.&#8239;1914</date>
+                        <date when="1914-12-22">22. 12. 1914</date>
                      </imprint>
                      <biblScope unit="pp">2</biblScope>
                   </monogr>
@@ -60,9 +62,9 @@
                      <title level="a">Der Protest Artur Schnitzlers</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#35935">Die Zeit</title>
+                     <title level="j" ref="#pmb35935">Die Zeit</title>
                      <imprint>
-                        <date when="1914-12-28">28.&#8239;12.&#8239;1914</date>
+                        <date when="1914-12-28">28. 12. 1914</date>
                      </imprint>
                      <biblScope unit="nr">4.402</biblScope>
                      <biblScope unit="pp">3</biblScope>
@@ -76,7 +78,7 @@
                   <monogr>
                      <title level="j">Arbeiter-Wille</title>
                      <imprint>
-                        <date when="1914-12-29">29.&#8239;12.&#8239;1914</date>
+                        <date when="1914-12-29">29. 12. 1914</date>
                      </imprint>
                   </monogr>
                </biblStruct>
@@ -87,7 +89,7 @@
                   <monogr>
                      <title level="j">Das Forum</title>
                      <imprint>
-                        <date when="1915-01-19">19.&#8239;1.&#8239;1915</date>
+                        <date when="1915-01-19">19. 1. 1915</date>
                      </imprint>
                      <biblScope unit="nr">9</biblScope>
                      <biblScope unit="pp">489–491</biblScope>
@@ -98,9 +100,9 @@
                      <title level="a">Ein Protest Artur Schnitzlers</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#41202">Arbeiter-Zeitung</title>
+                     <title level="j" ref="#pmb41202">Arbeiter-Zeitung</title>
                      <imprint>
-                        <date when="1915-01-21">21.&#8239;1.&#8239;1915</date>
+                        <date when="1915-01-21">21. 1. 1915</date>
                      </imprint>
                      <biblScope unit="jg">27</biblScope>
                      <biblScope unit="pp">5–6</biblScope>
@@ -114,7 +116,7 @@
                   <monogr>
                      <title level="j">Teplitzer Zeitung</title>
                      <imprint>
-                        <date when="1915-01-18">[18.&#8239;1.?]&#8239;1915</date>
+                        <date when="1915-01-18">[18. 1.?] 1915</date>
                      </imprint>
                      <biblScope unit="nr">18</biblScope>
                      <biblScope unit="pp">9</biblScope>
@@ -147,6 +149,9 @@
          <change who="MAM" when="2021-10-18">NZZ als deutsche Vorlage</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <graphic url="Georg_Brandes_arkiv_177"/>
+   </facsimile>
    <text type="article">
       <body>
          <div type="original" xml:lang="fr-FR">
@@ -155,16 +160,13 @@
                d’orgueil et de violence, il se trouve à présent des publicistes sans scrupules qui,
                pour alimenter l’incendie, ne craignent pas d’y jeter les rares écrivains restés
                calmes en dehors de la mêélée. Ils vont jusqu’à leur prêter parfois des pensées
-               malfaisantes, qui sont des semences nouvelles de haine. L’illustre romancier <rs
-                  type="place" ref="#50">viennois</rs> Arthur Schnitzler est une de leurs victimes.
-               On vient de lui attribuer dans des journaux <rs type="place" ref="#34438">russes</rs>
-               les plus étranges propos sur les maîtres de la littérature <rs type="place"
-                  ref="#34438">russe</rs>, <rs type="place" ref="#34523">anglaise</rs> et <rs
-                  type="place" ref="#166">franco</rs>-<rs type="place" ref="#710">belge</rs>. Il
+               malfaisantes, qui sont des semences nouvelles de haine. L’illustre romancier <rs type="place" ref="#pmb50">viennois</rs> Arthur Schnitzler est une de leurs victimes.
+               On vient de lui attribuer dans des journaux <rs type="place" ref="#pmb34438">russes</rs>
+               les plus étranges propos sur les maîtres de la littérature <rs type="place" ref="#pmb34438">russe</rs>, <rs type="place" ref="#pmb34523">anglaise</rs> et <rs type="place" ref="#pmb166">franco</rs>-<rs type="place" ref="#pmb710">belge</rs>. Il
                nous écrit pour les démentir. Il proteste qu’aucune guerre ne saurait atteindre
-               l’impartialité de son esprit et son jugement équitable sur les <anchor
-                  type="textConst" xml:id="T_P111-1"/>œuvres.<note type="textConst"
-                  xml:id="T_P111-1h"><quote>œuvres</quote></note> C’est pour nous un devoir
+               l’impartialité de son esprit et son jugement équitable sur les <anchor type="textConst" xml:id="T_P111-1"/>œuvres.<note type="textConst" xml:id="T_P111-1h">
+                  <quote>œuvres</quote>
+               </note> C’est pour nous un devoir
                confraternel de publier sa protestation, comme ce le sera toujours de contribuer,
                toutes les fois que nous le pourrons, à tout acte qui montre, au milieu de la démence
                des nations en lutte, l’unité persistante de la pensée humaine et l’union secrète de
@@ -174,13 +176,9 @@
             <p rend="center">
                <c rendition="#ornament"/>
             </p>
-            <p>J’apprends indirectement par des <rs type="person" ref="#3068 #26392">amis</rs>
+            <p>J’apprends indirectement par des <rs type="person" ref="#pmb3068 #pmb26392">amis</rs>
                <space unit="chars" quantity="1"/>
-               <rs type="place" ref="#34438">russes</rs> qu’on a publié dans des journaux de <rs
-                  type="place" ref="#433">Pétersbourg</rs> de soi-disant propos de moi sur <rs
-                  type="person" ref="#3739">Tolstoï</rs>, <rs type="person" ref="#12156"
-                  >Maeterlinck</rs>, <rs type="person" ref="#4279">Anatole France</rs> et <rs
-                  type="person" ref="#2412">Shakespeare</rs>. Ils sont d’une absurdité si
+               <rs type="place" ref="#pmb34438">russes</rs> qu’on a publié dans des journaux de <rs type="place" ref="#pmb433">Pétersbourg</rs> de soi-disant propos de moi sur <rs type="person" ref="#pmb3739">Tolstoï</rs>, <rs type="person" ref="#pmb12156">Maeterlinck</rs>, <rs type="person" ref="#pmb4279">Anatole France</rs> et <rs type="person" ref="#pmb2412">Shakespeare</rs>. Ils sont d’une absurdité si
                fantastique qu’aucun homme qui me connaîti n’y ajouterait foi, en temps ordinaire;
                mais dans un monde égaré, comme celui d’aujourd’hui, par l’excèés de la haine et par
                la frénésie du mensonge, ils pourraient ne pas sembler invraisemblables même à des
@@ -193,8 +191,7 @@
                à cause de leur stupidité.</p>
             <p>»La teneur exacte des propos qui me sont attribués ne m’est pas encore connue; mais
                leur sens et leur publication ne sont pas douteux. Et puisque, dans les circonstances
-               présentes, il eut se passer beaucoup de temps avant que j’entre en possession de <rs
-                  type="work" subtype="implied" ref="#32959">l’article original</rs>, je dois me
+               présentes, il eut se passer beaucoup de temps avant que j’entre en possession de <rs type="work" subtype="implied" ref="#pmb32959">l’article original</rs>, je dois me
                limiter provisoirement à cette déclaration que des propos du genre de ceux qui m’ont
                été publiquement attribués n’ont jamais été prononés par moi, et n’auraient jamais pu
                l’être, à aucun moment, ni en temps de paix, ni en temps de guerre, vu ma façon de
@@ -205,26 +202,14 @@
                toujours le grand, – même s’ils appartiennent à des nations (ou s’ils fleurissent
                dans des nations), avec lesquelles sa patrie est en guerre. Mais, quand je pense aux
                innombrables gens qui doivent, en ce temps, se prêéter à de pires complaisances qu’à
-               un petit manque de goût, je n’hésite pas à mettre ici par écrit: – que je tiens <rs
-                  type="person" ref="#3739">Tolstoï</rs> (un <rs type="place" ref="#34438"
-                  >Russe</rs>!) pour un des plus puissants génies poétiques que le globe ait
-               portés;– qu’<rs type="person" ref="#4279">Anatole France</rs> (un <rs type="place"
-                  ref="#166">Français</rs>!) me paraîst, après comme avant, un des plus excellents
-               esprits d’aujourd’hui et un conteur du plus haut talent; – et que pour <rs
-                  type="person" ref="#12156">Maeterlinck</rs> (un <rs type="place" ref="#710"
-                  >Belge</rs>!) ses poèêmes de la nature, aussi bien que beaucoup de ses petits
+               un petit manque de goût, je n’hésite pas à mettre ici par écrit: – que je tiens <rs type="person" ref="#pmb3739">Tolstoï</rs> (un <rs type="place" ref="#pmb34438">Russe</rs>!) pour un des plus puissants génies poétiques que le globe ait
+               portés;– qu’<rs type="person" ref="#pmb4279">Anatole France</rs> (un <rs type="place" ref="#pmb166">Français</rs>!) me paraîst, après comme avant, un des plus excellents
+               esprits d’aujourd’hui et un conteur du plus haut talent; – et que pour <rs type="person" ref="#pmb12156">Maeterlinck</rs> (un <rs type="place" ref="#pmb710">Belge</rs>!) ses poèêmes de la nature, aussi bien que beaucoup de ses petits
                drames, ne pourraient perdre pour moi le moindre de leur charme noble et mystérieux,
-               même s’il a vait vraiment écrit toutes les fantaisies sur l’<rs type="place"
-                  ref="#151">Allemagne</rs> qui ont récemment paru sous son nom dans les journaux. –
-               Dois je maintenant rendre, en tout sérieux, un hommage public à <rs type="person"
-                  ref="#2412">Shakespeare</rs> (un <rs type="place" ref="#34523">Anglais</rs>!<c
-                  rendition="#dots" n="3"/> Mais oui, puisqu’il est né à <rs type="place"
-                  ref="#49870">Stratford</rs>)? Ou les plus avisés commencent-ils à entrevoir que,
-               quand bien même la guerre durerait trente ans, <rs type="person" ref="#2412"
-                  >Shakespeare</rs> signifiera pour moi toujours <rs type="person" ref="#2412"
-                  >Shakespeare</rs>, – l’<hi rend="italics">unique</hi>, pour qui n’existe aucune
-               expression d’éloge suffisante, aucun terme de comparaison ?<c rendition="#dots" n="3"
-               />
+               même s’il a vait vraiment écrit toutes les fantaisies sur l’<rs type="place" ref="#pmb151">Allemagne</rs> qui ont récemment paru sous son nom dans les journaux. –
+               Dois je maintenant rendre, en tout sérieux, un hommage public à <rs type="person" ref="#pmb2412">Shakespeare</rs> (un <rs type="place" ref="#pmb34523">Anglais</rs>!<c rendition="#dots" n="3"/> Mais oui, puisqu’il est né à <rs type="place" ref="#pmb49870">Stratford</rs>)? Ou les plus avisés commencent-ils à entrevoir que,
+               quand bien même la guerre durerait trente ans, <rs type="person" ref="#pmb2412">Shakespeare</rs> signifiera pour moi toujours <rs type="person" ref="#pmb2412">Shakespeare</rs>, – l’<hi rend="italics">unique</hi>, pour qui n’existe aucune
+               expression d’éloge suffisante, aucun terme de comparaison ?<c rendition="#dots" n="3"/>
             </p>
             <p>»Restons-en là<c rendition="#dots" n="3"/> Plus tard, quand la paiy sera revenue,
                nous nous souviendrons douloureusement qu’il fut un temps où nous devions nous crier
@@ -234,7 +219,7 @@
                jamais erdu complètement la raison.</p>
             <p rend="right">Arthur <hi rend="capitals">Schnitzler</hi>.</p>
             <p>
-               <rs type="place" ref="#50">Vienne</rs>, <date>décembre 1914</date>.</p>
+               <rs type="place" ref="#pmb50">Vienne</rs>, <date>décembre 1914</date>.</p>
          </div>
          <div type="translation">
             <head>Ein Protest von Arthur Schnitzler</head>
@@ -243,12 +228,9 @@
                das Feuer zu schüren, nicht davor zurückschrecken, die wenigen Schriftsteller, die
                sich außerhalb des Kampfes ruhig verhalten haben, hineinzuziehen. Sie gehen sogar so
                weit, dass sie ihnen manchmal böse Gedanken zuschreiben, die neue Samen des Hasses
-               sind. Der berühmte <rs type="place" ref="#50">Wien</rs>er Schriftsteller Arthur
+               sind. Der berühmte <rs type="place" ref="#pmb50">Wien</rs>er Schriftsteller Arthur
                Schnitzler ist eines ihrer Opfer. Die seltsamsten Bemerkungen über die Meister der
-                  <rs type="place" ref="#34438">russischen</rs>, <rs type="place" ref="#34523"
-                  >englischen</rs> und <rs type="place" ref="#166">französisch</rs>-<rs type="place"
-                  ref="#710">belgischen</rs> Literatur wurden ihm gerade in <rs type="place"
-                  ref="#34438">russischen</rs> Zeitungen angedichtet. Er schreibt uns, um zu
+                  <rs type="place" ref="#pmb34438">russischen</rs>, <rs type="place" ref="#pmb34523">englischen</rs> und <rs type="place" ref="#pmb166">französisch</rs>-<rs type="place" ref="#pmb710">belgischen</rs> Literatur wurden ihm gerade in <rs type="place" ref="#pmb34438">russischen</rs> Zeitungen angedichtet. Er schreibt uns, um zu
                widersprechen. Er beteuert, dass kein Krieg die Unparteilichkeit seines Geistes und
                seine ausgewogene Beurteilung der Werke beeinträchtigen kann. Es ist unsere
                brüderliche Pflicht, seinen Protest zu veröffentlichen, so wie es immer unsere
@@ -256,41 +238,29 @@
                kämpfenden Nationen die beständige Einheit des menschlichen Denkens und den geheimen
                Bund seiner vorzüglichsten Vertreter zeigt.</p>
             <p>
-               <date>15.&#160;Dezember 1914</date>.</p>
+               <date>15. Dezember 1914</date>.</p>
             <p rend="right">Romain ROLLAND.</p>
             <p rend="center">
                <c rendition="#ornament"/>
             </p>
             <p>
-               <anchor type="commentary" xml:id="T_I111-1"/>Wie ich durch<note type="commentary"
-                  xml:id="T_I111-1h">Ab hier handelt es sich bei der deutschsprachigen Fassung um
-                  den Text der <rs type="work" ref="#42406">Neuen Zürcher Zeitung</rs>, der mit
+               <anchor type="commentary" xml:id="T_I111-1"/>Wie ich durch<note type="commentary" xml:id="T_I111-1h">Ab hier handelt es sich bei der deutschsprachigen Fassung um
+                  den Text der <rs type="work" ref="#pmb42406">Neuen Zürcher Zeitung</rs>, der mit
                   dieser Einleitung erschien: »<quote>Der folgende Brief Arthur Schnitzlers geht uns
                      zu:</quote>«. Im ersten Absatz findet sich nach »unglaubhaft erscheinen können«
                   eine zusätzliche Absatztrennung, hingegen fehlt die von »<quote>Es ist
                      freilich</quote>«.</note>
                <space unit="chars" quantity="1"/>
                <anchor type="commentary" xml:id="K_I111-1"/>
-               <rs type="person" subtype="implied" ref="#3068 #26392">Freunde</rs>
-               <note type="commentary" xml:id="K_I111-1h">neben <rs type="person" ref="#3068">Bella
-                     Vengerova</rs> dürfte <rs type="person" ref="#21549">Alice Moller</rs> eine
-                  Nachricht ihres Musiklehrers <rs type="person" ref="#26392">Leo Van-Jung</rs>
-                  übermittelt haben, <ref target="1914-11-23" type="schnitzlerDiary" subtype="cf"/>: »<quote>
-                     <rs type="person" ref="#2496">Arthur Kaufmann</rs> kommt mir mittheilen (über
-                        <rs type="person" ref="#3068">Bella Wengerow</rs> – Frau <rs type="person"
-                        ref="#21549">Moller</rs>) dass in <rs type="place" ref="#34438">russ.</rs>
-                     Zeitungen ein erlogenes <rs type="work" subtype="implied" ref="#32959"
-                        >Interview</rs> von mir steht, in dem ich u. a. geäußert, <rs type="person"
-                        ref="#3739">Tolstoi</rs> sei ein Faselhans; <rs type="person" ref="#12156"
-                        >Maeterlinck</rs> martre seine Bauern, <rs type="person" ref="#4279">Anatol
-                        France</rs> habe mich bestohlen – und ich halte <rs type="person"
-                        ref="#11617">Hauptmann</rs> für größer als <rs type="person" ref="#2412"
-                        >Shakespeare</rs>!–</quote>«</note> in <rs type="place" ref="#34438"
-                  >Rußland</rs> auf einem Umweg erfahre, sind in <rs type="place" ref="#433"
-                  >Petersburger</rs> Blättern angebliche Aeußerungen von mir über <rs type="person"
-                  ref="#3739">Tolstoi</rs>, <rs type="person" ref="#12156">Maeterlinck</rs>, <rs
-                  type="person" ref="#4279">Anatole France</rs>, <rs type="person" ref="#2412"
-                  >Shakespeare</rs> von so phantastischer Unsinnigkeit veröffentlicht worden, wie
+               <rs type="person" subtype="implied" ref="#pmb3068 #pmb26392">Freunde</rs>
+               <note type="commentary" xml:id="K_I111-1h">neben <rs type="person" ref="#pmb3068">Bella
+                     Vengerova</rs> dürfte <rs type="person" ref="#pmb21549">Alice Moller</rs> eine
+                  Nachricht ihres Musiklehrers <rs type="person" ref="#pmb26392">Leo Van-Jung</rs>
+                  übermittelt haben, <ref target="1914-11-23" type="schnitzler-tagebuch" subtype="cf"/>: »<quote>
+                     <rs type="person" ref="#pmb2496">Arthur Kaufmann</rs> kommt mir mittheilen (über
+                        <rs type="person" ref="#pmb3068">Bella Wengerow</rs> – Frau <rs type="person" ref="#pmb21549">Moller</rs>) dass in <rs type="place" ref="#pmb34438">russ.</rs>
+                     Zeitungen ein erlogenes <rs type="work" subtype="implied" ref="#pmb32959">Interview</rs> von mir steht, in dem ich u. a. geäußert, <rs type="person" ref="#pmb3739">Tolstoi</rs> sei ein Faselhans; <rs type="person" ref="#pmb12156">Maeterlinck</rs> martre seine Bauern, <rs type="person" ref="#pmb4279">Anatol
+                        France</rs> habe mich bestohlen – und ich halte <rs type="person" ref="#pmb11617">Hauptmann</rs> für größer als <rs type="person" ref="#pmb2412">Shakespeare</rs>!–</quote>«</note> in <rs type="place" ref="#pmb34438">Rußland</rs> auf einem Umweg erfahre, sind in <rs type="place" ref="#pmb433">Petersburger</rs> Blättern angebliche Aeußerungen von mir über <rs type="person" ref="#pmb3739">Tolstoi</rs>, <rs type="person" ref="#pmb12156">Maeterlinck</rs>, <rs type="person" ref="#pmb4279">Anatole France</rs>, <rs type="person" ref="#pmb2412">Shakespeare</rs> von so phantastischer Unsinnigkeit veröffentlicht worden, wie
                sie mir zu normalen Zeiten von niemandem, der mich kennt, zugetraut würden, die aber
                in unserer vom Uebermaß des Hasses und vom Wahnsinn der Lüge verwirrten Welt immerhin
                auch sonst urteilsfähigen Menschen nicht unglaubhaft erscheinen könnten. Solche
@@ -305,39 +275,37 @@
             <p>Der Wortlaut der mir zugeschriebenen Aeußerungen ist mir noch nicht bekannt; ihr
                Sinn, und die Tatsache der Veröffentlichung aber steht unbezweifelbar fest. Da es
                unter den gegenwärtigen Verhältnissen lange dauern kann, ehe ich in den Besitz des
-                  <rs type="work" subtype="implied" ref="#32959">Originalartikels</rs> gelange, muß
+                  <rs type="work" subtype="implied" ref="#pmb32959">Originalartikels</rs> gelange, muß
                ich mich vorläufig auf die Erklärung beschränken, daß Aeußerungen der Art, wie sie in
                jener Publikation offenbar mitgeteilt sind, von meiner Seite niemals gefallen sind,
                nach meiner Gesinnung niemals, weder im Frieden noch im Kriege, hätten fallen
                können.</p>
-            <p><anchor type="label" xml:id="P111_fernzuhalten"/>Es ist freilich etwas beschämend für
+            <p>
+               <anchor type="label" xml:id="P111_fernzuhalten"/>Es ist freilich etwas beschämend für
                jemand, der sich zeitlebens vom Pathos der Selbstverständlichkeiten leidlich
                fernzuhalten gewußt hat, erst ausdrücklich versichern zu müssen, daß ihm das Schöne
                jederzeit schön, das Große jederzeit groß bleiben wird; auch wenn es Nationen
                angehört, oder innerhalb von Nationen geworden und gewachsen ist, mit denen sein
                Vaterland eben in einen Krieg verwickelt ist; aber der zahlreichen Menschen denkend,
                die sich in dieser Epoche auch zu schlimmeren Dingen verstehen müssen, als zu einer
-               kleinen Geschmacklosigkeit, stehe ich nicht an es hier niederzuschreiben, daß ich <rs
-                  type="person" ref="#3739">Tolstoi</rs> (einen <rs type="place" ref="#34438"
-                  >Russen</rs>!) für eines der gewaltigsten dichterischen Ingenien halte, die je
-               über den Erdkreis geschritten sind; daß <anchor type="textConst" xml:id="T_P111-11"
-                  />mir<note type="textConst" xml:id="T_P111-11h"><quote>ich</quote></note>
+               kleinen Geschmacklosigkeit, stehe ich nicht an es hier niederzuschreiben, daß ich <rs type="person" ref="#pmb3739">Tolstoi</rs> (einen <rs type="place" ref="#pmb34438">Russen</rs>!) für eines der gewaltigsten dichterischen Ingenien halte, die je
+               über den Erdkreis geschritten sind; daß <anchor type="textConst" xml:id="T_P111-11"/>mir<note type="textConst" xml:id="T_P111-11h">
+                  <quote>ich</quote>
+               </note>
                <space unit="chars" quantity="1"/>
-               <rs type="person" ref="#4279">Anatole France</rs> (ein <rs type="place" ref="#166"
-                  >Franzose</rs>!) nach wie vor als <anchor type="textConst" xml:id="T_P111-3"
-                  />einer<note type="textConst" xml:id="T_P111-3h"><quote>einen</quote></note> der
+               <rs type="person" ref="#pmb4279">Anatole France</rs> (ein <rs type="place" ref="#pmb166">Franzose</rs>!) nach wie vor als <anchor type="textConst" xml:id="T_P111-3"/>einer<note type="textConst" xml:id="T_P111-3h">
+                  <quote>einen</quote>
+               </note> der
                vornehmsten Geister der Gegenwart und zugleich als ein Erzähler von höchsten
-               Qualitäten erscheint; und daß <rs type="person" ref="#12156">Maeterlinck</rs>s (eines
-                  <rs type="place" ref="#710">Belgiers</rs>!) naturwissenschaftlich-poetisierende
+               Qualitäten erscheint; und daß <rs type="person" ref="#pmb12156">Maeterlinck</rs>s (eines
+                  <rs type="place" ref="#pmb710">Belgiers</rs>!) naturwissenschaftlich-poetisierende
                Rapsodien, sowie viele seiner kleinen Dramen, auch dann von ihrem seltsam edlen Reiz
                nicht das Geringste für mich verlieren könnten, wenn er wirklich all das krause Zeug
-               über <rs type="place" ref="#151">Deutschland</rs> geschrieben hätte, das neuerdings
+               über <rs type="place" ref="#pmb151">Deutschland</rs> geschrieben hätte, das neuerdings
                unter seinem Namen durch die Zeitungen ging. Soll ich mich nun auch noch öffentlich
-               mit allem Ernste zu <rs type="person" ref="#2412">Shakespeare</rs> bekennen (dem <rs
-                  type="place" ref="#34523">Engländer</rs>! ja, denn er ist in <rs type="place"
-                  ref="#49870">Stratford</rs> geboren) – oder fängt es schon den Zweiflern zu
-               dämmern an, daß mir <rs type="person" ref="#2412">Shakespeare</rs>, auch wenn dieser
-               Krieg dreißig Jahre dauerte, immer <rs type="person" ref="#2412">Shakespeare</rs>
+               mit allem Ernste zu <rs type="person" ref="#pmb2412">Shakespeare</rs> bekennen (dem <rs type="place" ref="#pmb34523">Engländer</rs>! ja, denn er ist in <rs type="place" ref="#pmb49870">Stratford</rs> geboren) – oder fängt es schon den Zweiflern zu
+               dämmern an, daß mir <rs type="person" ref="#pmb2412">Shakespeare</rs>, auch wenn dieser
+               Krieg dreißig Jahre dauerte, immer <rs type="person" ref="#pmb2412">Shakespeare</rs>
                bedeuten wird; den einzigen, für den es keine Worte des Preises und keine Vergleiche
                gibt.</p>
             <p>So lassen wir es denn lieber genug sein; – und später einmal, wenn der Friede wieder
@@ -349,69 +317,61 @@
             <p rend="right">
                <hi rend="spaced_out">Arthur Schnitzler</hi>.</p>
             <p>
-               <rs type="place" ref="#50">Wien</rs>, im <date>Dezember 1914</date>.</p>
+               <rs type="place" ref="#pmb50">Wien</rs>, im <date>Dezember 1914</date>.</p>
          </div>
          <div type="biographical">
             <div1>
-               <ref target="1914-11-23" type="schnitzlerDiary"/>
+               <ref target="1914-11-23" type="schnitzler-tagebuch"/>
                <quote>Einen (allzu großen) Theil des Nachm. verbringe ich (nach teleph. Gespräch mit
-                     <rs type="person" ref="#13212">Zweig</rs>, der auch gegen einen unter seinem
-                  Namen gefälschten Brief in <rs type="place" ref="#175">Amerika</rs> ›Wien in
+                     <rs type="person" ref="#pmb13212">Zweig</rs>, der auch gegen einen unter seinem
+                  Namen gefälschten Brief in <rs type="place" ref="#pmb175">Amerika</rs> ›Wien in
                   Verzweiflung‹ einschreiten will) mit Abfassung einer Abwehr.–</quote>
             </div1>
             <div1>
-               <bibl><rs type="person" ref="#2121">Schnitzler</rs> an <rs type="person" ref="#13212"
-                     >Stefan Zweig</rs>, 2. 12. 1914</bibl>
+               <bibl>
+                  <rs type="person" ref="#pmb2121">Schnitzler</rs> an <rs type="person" ref="#pmb13212">Stefan Zweig</rs>, 2. 12. 1914</bibl>
                <quote>Hier beigeschlossen ein Exemplar der Erklärung mit den besprochenen
                   Änderungen. Einen andern, einen wahrhaft bekennerischen Ton, vermöchte ich kaum zu
                   finden. Je mehr man über die Sache nachdenkt, umso dümmer kommt sie einem vor. Ich
-                  wollte Sie noch fragen: Was, denken Sie, soll nun <rs type="person" ref="#12543"
-                     >Rolland</rs> mit unseren Erklärungen tun? Sie ins Französische übersetzen und
-                  eventuell nicht nur an das <rs type="work" ref="#58493">Journal de Genève</rs>,
-                  sondern sie auch an <rs type="place" ref="#166">französische</rs> Journale
-                  weitergeben? Könnte er es auch übernehmen, den Erklärungen in ein deutsches <rs
-                     type="work" ref="#42406" subtype="implied">schweizer Journal</rs> Aufnahme zu
-                  verschaffen? Mir fällt eben ein, daß wir neulich über Regierungsrat <rs
-                     type="person" ref="#13132">Winternitz</rs> nicht gesprochen haben. Bitte um
+                  wollte Sie noch fragen: Was, denken Sie, soll nun <rs type="person" ref="#pmb12543">Rolland</rs> mit unseren Erklärungen tun? Sie ins Französische übersetzen und
+                  eventuell nicht nur an das <rs type="work" ref="#pmb58493">Journal de Genève</rs>,
+                  sondern sie auch an <rs type="place" ref="#pmb166">französische</rs> Journale
+                  weitergeben? Könnte er es auch übernehmen, den Erklärungen in ein deutsches <rs type="work" ref="#pmb42406" subtype="implied">schweizer Journal</rs> Aufnahme zu
+                  verschaffen? Mir fällt eben ein, daß wir neulich über Regierungsrat <rs type="person" ref="#pmb13132">Winternitz</rs> nicht gesprochen haben. Bitte um
                   eine Zeile, wann ich Sie anrufen dürfte. Den Appell an die Blätter, mit dem meine
                   vorige Erklärung schloß (bitte beide Exemplare zu vernichten), habe ich diesmal
                   weggelassen. Ich glaube, man bedarf ihrer nicht.</quote>
             </div1>
             <div1>
-               <bibl><rs type="person" ref="#2121">Schnitzler</rs> an <rs type="person" ref="#13132"
-                     >Jakob von Winternitz</rs>, 7. 12. 1914</bibl>
+               <bibl>
+                  <rs type="person" ref="#pmb2121">Schnitzler</rs> an <rs type="person" ref="#pmb13132">Jakob von Winternitz</rs>, 7. 12. 1914</bibl>
                <quote>Erlauben Sie mir mich mit einer Bitte an Sie zu wenden. Wie Sie aus der
-                  beigeschlossenen Erklärung ersehen, ist in <rs type="place" ref="#34438"
-                     >Rußland</rs> ein <rs type="work" subtype="implied" ref="#32959">Interview</rs>
+                  beigeschlossenen Erklärung ersehen, ist in <rs type="place" ref="#pmb34438">Rußland</rs> ein <rs type="work" subtype="implied" ref="#pmb32959">Interview</rs>
                   (vielleicht war es auch ein gefälschter Brief) von mir (resp. unter meinem Namen)
-                  erschienen und Dr. <rs type="person" ref="#13212">Stefan Zweig</rs> sagt mir, daß
+                  erschienen und Dr. <rs type="person" ref="#pmb13212">Stefan Zweig</rs> sagt mir, daß
                   es Ihnen, sehr verehrter Herr Regierungsrat, vielleicht möglich wäre, mir das
-                  betreffende Blatt (es soll eine <rs type="place" ref="#433">Petersburg</rs>er
+                  betreffende Blatt (es soll eine <rs type="place" ref="#pmb433">Petersburg</rs>er
                   Zeitung sein und die Veröffentlichung dürfte vor zirka 4 Wochen erfolgt sein) zu
-                  verschaffen. Die hier beiliegende Erklärung ist, ebenso wie eine von Dr. <rs
-                     type="person" ref="#13212">Zweig</rs>, dem in <rs type="place" ref="#43406"
-                     >Amerika</rs> etwas Ähnliches passiert ist wie mir in <rs type="place"
-                     ref="#34438">Rußland</rs>, an <rs type="person" ref="#12543">Romain
-                     Rolland</rs> nach <rs type="place" ref="#562">Genf</rs> geschickt worden, um
-                  vorläufig in einem <rs type="work" subtype="implied" ref="#58493">Schweizer
+                  verschaffen. Die hier beiliegende Erklärung ist, ebenso wie eine von Dr. <rs type="person" ref="#pmb13212">Zweig</rs>, dem in <rs type="place" ref="#pmb43406">Amerika</rs> etwas Ähnliches passiert ist wie mir in <rs type="place" ref="#pmb34438">Rußland</rs>, an <rs type="person" ref="#pmb12543">Romain
+                     Rolland</rs> nach <rs type="place" ref="#pmb562">Genf</rs> geschickt worden, um
+                  vorläufig in einem <rs type="work" subtype="implied" ref="#pmb58493">Schweizer
                      Blatt</rs> gedruckt zu werden.</quote>
             </div1>
             <div1>
-               <bibl><rs type="person" ref="#2121">Schnitzler</rs> an <rs type="person" ref="#12543"
-                     >Romain Rolland</rs>, <date>14.&#8239;12.&#8239;1914</date>
+               <bibl>
+                  <rs type="person" ref="#pmb2121">Schnitzler</rs> an <rs type="person" ref="#pmb12543">Romain Rolland</rs>, <date>14. 12. 1914</date>
                </bibl>
-               <quote>Sie wollen also wirklich, wie mir <rs type="person" ref="#13212">Stefan
+               <quote>Sie wollen also wirklich, wie mir <rs type="person" ref="#pmb13212">Stefan
                      Zweig</rs> sagt, die große Freundlichkeit haben meine Erklärung ins
                   Französische zu übersetzen und wünschen überdies, zum Zweck der Veröffentlichung
-                  in einer deutschen <rs type="org" ref="#29672" subtype="implied">Schweizer
+                  in einer deutschen <rs type="org" ref="#pmb29672" subtype="implied">Schweizer
                      Zeitung</rs> ein zweites Exemplar, das ich Ihnen hiemit gerne und mit vielem
                   Dank für Ihre besondere Liebenswürdigkeit zusende. Auch mir ist bisher nicht
-                  bekannt geworden, daß jener <rs type="place" ref="#34438">russische</rs>
+                  bekannt geworden, daß jener <rs type="place" ref="#pmb34438">russische</rs>
                   <space unit="chars" quantity="1"/>
-                  <rs type="work" subtype="implied" ref="#32959">Artikel</rs> den Weg nach anderen
+                  <rs type="work" subtype="implied" ref="#pmb32959">Artikel</rs> den Weg nach anderen
                   Ländern gefunden hätte. Die Existenz jenes Artikels oder erdichteten Interviews –
-                  ich weiß bis heute nicht, was es war – steht dennoch zweifellos fest und die <rs
-                     type="person" ref="#3068 #26392" subtype="implied">russischen Freunde</rs>, die
+                  ich weiß bis heute nicht, was es war – steht dennoch zweifellos fest und die <rs type="person" ref="#pmb3068 #pmb26392" subtype="implied">russischen Freunde</rs>, die
                   mich auf einem komplizierten Umweg davon unterrichtet haben, ließen mir überdies
                   mitteilen, daß Versuche in ihren Kreisen die vollkommene Unmöglichkeit einer
                   Authentizität jener mir zugeschriebenen Äußerungen aus meinem bisher
@@ -419,145 +379,1209 @@
                   Verbitterung und Verhetzung gescheitert sind. Wie schon in meiner Erklärung steht,
                   ist es mir bisher nicht gelungen mir den Wortlaut jener gefälschten Äußerungen
                   zugänglich zu machen, der Sinn meiner Auslassungen sollte ungefähr nach jenem
-                  Blatt der folgende gewesen sein: daß ich <rs type="person" ref="#3739"
-                     >Tolstoi</rs> als einen alten Faselhans bezeichne, von <rs type="person"
-                     ref="#12156">Maeterlinck</rs> behaupte, daß er seine Bauern schinde, von <rs
-                     type="person" ref="#4279">Anatole France</rs>, daß er mich irgendwie bestohlen
-                  habe, und daß ich endlich die Behauptung aufstellte, <rs type="person"
-                     ref="#11617">Hauptmann</rs> sei ein viel größerer Dichter als <rs type="person"
-                     ref="#2412">Shakespeare</rs>. Aus <rs type="place" ref="#34438">Rußland</rs>
+                  Blatt der folgende gewesen sein: daß ich <rs type="person" ref="#pmb3739">Tolstoi</rs> als einen alten Faselhans bezeichne, von <rs type="person" ref="#pmb12156">Maeterlinck</rs> behaupte, daß er seine Bauern schinde, von <rs type="person" ref="#pmb4279">Anatole France</rs>, daß er mich irgendwie bestohlen
+                  habe, und daß ich endlich die Behauptung aufstellte, <rs type="person" ref="#pmb11617">Hauptmann</rs> sei ein viel größerer Dichter als <rs type="person" ref="#pmb2412">Shakespeare</rs>. Aus <rs type="place" ref="#pmb34438">Rußland</rs>
                   kam auch das dringende Ersuchen an mich gegen diese Verleumdungen etwas zu
                   unternehmen.</quote>
             </div1>
             <div1>
-               <ref target="1914-12-24" type="schnitzlerDiary"/>
-               <quote>Der Brief von <rs type="person" ref="#12543">Rolland</rs>; er hat zu meiner
-                  Erklärung (<rs type="work" ref="#58493">Journal de Genève</rs>) ein Vorwort
+               <ref target="1914-12-24" type="schnitzler-tagebuch"/>
+               <quote>Der Brief von <rs type="person" ref="#pmb12543">Rolland</rs>; er hat zu meiner
+                  Erklärung (<rs type="work" ref="#pmb58493">Journal de Genève</rs>) ein Vorwort
                   geschrieben; Telegramme in einzelnen Blättern.</quote>
             </div1>
             <div1>
-               <bibl><rs type="person" ref="#2121">Schnitzler</rs> an <rs type="person" ref="#12543"
-                     >Romain Rolland</rs>, <date>7.&#8239;1.&#8239;1915</date>
+               <bibl>
+                  <rs type="person" ref="#pmb2121">Schnitzler</rs> an <rs type="person" ref="#pmb12543">Romain Rolland</rs>, <date>7. 1. 1915</date>
                </bibl>
-               <quote>Das <rs type="work" ref="#58493">Journal de Genève</rs> ist nicht an mich
-                  gelangt, während die <rs type="work" ref="#42406" subtype="implied">Zürcher
+               <quote>Das <rs type="work" ref="#pmb58493">Journal de Genève</rs> ist nicht an mich
+                  gelangt, während die <rs type="work" ref="#pmb42406" subtype="implied">Zürcher
                      Zeitung</rs> gestern von der Redaktion aus mit erheblicher Verspätung bei mir
                   angekommen ist. Die Zensur entschließt sich wahrscheinlich besonders schwer
                   Zeitungen in französischer Sprache durchzulassen und so werde ich vorläufig darauf
                   verzichten müssen, Ihre Übersetzung meiner Erklärung zu lesen, wenn Sie vielleicht
                   nicht doch noch einen Versuch machen wollen, mindestens den betreffenden
                   Ausschnitt unter Couvert mir zuzuschicken. Die Zensur wird es hoffentlich als
-                  politisch gefahrlos erkennen, mir einen von mir selbst verfaßten und von <rs
-                     type="person" ref="#12543">Romain Rolland</rs> übersetzten Protest zur Lektüre
+                  politisch gefahrlos erkennen, mir einen von mir selbst verfaßten und von <rs type="person" ref="#pmb12543">Romain Rolland</rs> übersetzten Protest zur Lektüre
                   frei zu geben.</quote>
             </div1>
             <div1>
-               <bibl><rs type="person" ref="#2121">Schnitzler</rs> an <rs type="person" ref="#3256"
-                     >Paul Block</rs>, <date>27.&#8239;1.&#8239;1915</date>
+               <bibl>
+                  <rs type="person" ref="#pmb2121">Schnitzler</rs> an <rs type="person" ref="#pmb3256">Paul Block</rs>, <date>27. 1. 1915</date>
                </bibl>
                <quote>Auch hier hat es diesmal an Blättchen nicht gefehlt, die Inhalt und Absicht
-                  meines (mit gutem Grund in der neutralen Schweiz sowohl im französischen <rs
-                     type="work" ref="#58493">Journal de Genève</rs>, als in der deutschen <rs
-                     type="work" ref="#42406">Zürcher Zeitung</rs> veröffentlichten) Protestes gegen
+                  meines (mit gutem Grund in der neutralen Schweiz sowohl im französischen <rs type="work" ref="#pmb58493">Journal de Genève</rs>, als in der deutschen <rs type="work" ref="#pmb42406">Zürcher Zeitung</rs> veröffentlichten) Protestes gegen
                   das mir in einer russischen Zeitung angedichtete Interview, tückisch-albern
                   umzudeuten versuchten, ohne daß es mich in Erstaunen gesetzt hätte.</quote>
             </div1>
             <div1>
-               <bibl><rs type="person" ref="#2121">Schnitzler</rs> an <rs type="person" ref="#10992"
-                     >Georg Brandes</rs>, <date>22.&#8239;12.&#8239;1915</date>
+               <bibl>
+                  <rs type="person" ref="#pmb2121">Schnitzler</rs> an <rs type="person" ref="#pmb10992">Georg Brandes</rs>, <date>22. 12. 1915</date>
                </bibl>
-               <quote>Von Freunden in <rs ref="#34438" type="place">Russland</rs> wurde ich in
-                  Kenntnis gesetzt, es sei in dortigen Zeitungen ein <rs ref="#32959" type="work"
-                     subtype="implied">Interview</rs> erschienenen, in dem ich irgend einem <rs
-                     type="person" ref="#27739" subtype="implied">Journalisten</rs> gegenüber die
-                  albernsten Dinge über <rs ref="#3739" type="person">Tolstoi</rs>, <rs ref="#4279"
-                     type="person">Anatole France</rs>, <rs ref="#2412" type="person"
-                     >Shakespeare</rs> und <rs ref="#12156" type="person">Maeterlinck</rs> geäussert
+               <quote>Von Freunden in <rs ref="#pmb34438" type="place">Russland</rs> wurde ich in
+                  Kenntnis gesetzt, es sei in dortigen Zeitungen ein <rs ref="#pmb32959" type="work" subtype="implied">Interview</rs> erschienenen, in dem ich irgend einem <rs type="person" ref="#pmb27739" subtype="implied">Journalisten</rs> gegenüber die
+                  albernsten Dinge über <rs ref="#pmb3739" type="person">Tolstoi</rs>, <rs ref="#pmb4279" type="person">Anatole France</rs>, <rs ref="#pmb2412" type="person">Shakespeare</rs> und <rs ref="#pmb12156" type="person">Maeterlinck</rs> geäussert
                   hätte. Man riet mir dringend etwas dagegen zu unternehmen (was ich anfangs nicht
-                  wollte), weil man in <rs ref="#34438" type="place">Russland</rs> all diesen Unsinn
-                  glaubte. Durch Vermittlung <rs ref="#12543" type="person">Romain Rollands</rs>
-                  liess ich nun in <rs ref="#43435" type="place">Schweiz</rs>er Blättern eine
+                  wollte), weil man in <rs ref="#pmb34438" type="place">Russland</rs> all diesen Unsinn
+                  glaubte. Durch Vermittlung <rs ref="#pmb12543" type="person">Romain Rollands</rs>
+                  liess ich nun in <rs ref="#pmb43435" type="place">Schweiz</rs>er Blättern eine
                   Entgegnung erschei<pb facs="Georg_Brandes_arkiv_177"/>nen, in der ich versicherte,
                   dass ich niemals ein Wort von all dem Widersinn geäussert und bald darauf stellte
-                  sich das Ganze auch als die Mystifikation irgend eines <rs ref="#29503" type="org"
-                     subtype="implied">russischen Winkelblattes</rs> heraus. Hingegen wurde ich von
-                  gewissen <rs ref="#151" type="place">deutschen</rs> und <rs ref="#41240"
-                     type="place">österreichischen</rs>, selbstverständlich antisemitischen Blättern
+                  sich das Ganze auch als die Mystifikation irgend eines <rs ref="#pmb29503" type="org" subtype="implied">russischen Winkelblattes</rs> heraus. Hingegen wurde ich von
+                  gewissen <rs ref="#pmb151" type="place">deutschen</rs> und <rs ref="#pmb41240" type="place">österreichischen</rs>, selbstverständlich antisemitischen Blättern
                   in der blödesten Weise angegriffen, weil ich es für notwendig gefunden hatte jene
                   erlogenen Aeusserungen über die feindesländischen Dichter richtig zu
                   stellen.</quote>
             </div1>
             <div1>
-               <ref target="1921-04-17" type="schnitzlerDiary"/>
+               <ref target="1921-04-17" type="schnitzler-tagebuch"/>
                <quote>
-                  <rs type="person" ref="#11090">Ch<supplied>apiro</supplied>.</rs> erzählt mir, daß
-                  in <rs type="place" ref="#34438">Russland</rs> bei vielen noch die Meinung an die
-                  Authenticität jenes <rs ref="#32959" type="work" subtype="implied">Interviews</rs>
-                  verbreitet sei, in dem ich <rs type="person" ref="#3739">Tolstoi</rs> beschimpfte!
-                  (Hatte die Sache durch <rs ref="#12543" type="person">R. Rolland</rs> berichtigen
-                  lassen.) <rs type="person" ref="#19872">Kuprin</rs> hatte mich damals in einem
-                  heftigen <rs type="work" subtype="implied" ref="#59820">Artikel</rs> (mir nicht
+                  <rs type="person" ref="#pmb11090">Ch<supplied>apiro</supplied>.</rs> erzählt mir, daß
+                  in <rs type="place" ref="#pmb34438">Russland</rs> bei vielen noch die Meinung an die
+                  Authenticität jenes <rs ref="#pmb32959" type="work" subtype="implied">Interviews</rs>
+                  verbreitet sei, in dem ich <rs type="person" ref="#pmb3739">Tolstoi</rs> beschimpfte!
+                  (Hatte die Sache durch <rs ref="#pmb12543" type="person">R. Rolland</rs> berichtigen
+                  lassen.) <rs type="person" ref="#pmb19872">Kuprin</rs> hatte mich damals in einem
+                  heftigen <rs type="work" subtype="implied" ref="#pmb59820">Artikel</rs> (mir nicht
                   bekannt geworden) beschimpft.–</quote>
             </div1>
             <div1>
-               <bibl><rs type="person" ref="#2121">Schnitzler</rs> an <rs type="person" ref="#2323"
-                     >Maxim Gorkij</rs>, <date>18.&#8239;4.&#8239;1921</date>
+               <bibl>
+                  <rs type="person" ref="#pmb2121">Schnitzler</rs> an <rs type="person" ref="#pmb2323">Maxim Gorkij</rs>, <date>18. 4. 1921</date>
                </bibl>
-               <quote>Im Herbst 1914 ungefähr ging durch die <rs type="place" ref="#34438"
-                     >russischen</rs> Zeitungen der Bericht über ein <rs ref="#32959" type="work"
-                     subtype="implied">Interview</rs> zwischen mir und einem <rs type="person"
-                     ref="#27739" subtype="implied">russischen Journalisten</rs>, das niemals
-                  stattgefunden hatte. In diesem Bericht waren Äußerungen von mir über <rs
-                     type="person" ref="#3739">Tolstoi</rs>, <rs type="person" ref="#2412"
-                     >Shakespeare</rs>, <rs type="person" ref="#4279">Anatole France</rs> und andere
+               <quote>Im Herbst 1914 ungefähr ging durch die <rs type="place" ref="#pmb34438">russischen</rs> Zeitungen der Bericht über ein <rs ref="#pmb32959" type="work" subtype="implied">Interview</rs> zwischen mir und einem <rs type="person" ref="#pmb27739" subtype="implied">russischen Journalisten</rs>, das niemals
+                  stattgefunden hatte. In diesem Bericht waren Äußerungen von mir über <rs type="person" ref="#pmb3739">Tolstoi</rs>, <rs type="person" ref="#pmb2412">Shakespeare</rs>, <rs type="person" ref="#pmb4279">Anatole France</rs> und andere
                   Dichter der Entente zitiert, die ich selbstverständlich niemals getan hatte,
                   Äußerungen von einer geradezu ungeheuerlichen Albernheit. Ich selbst hatte jenes
-                     <rs ref="#32959" type="work" subtype="implied">Interview</rs> niemals zu
+                     <rs ref="#pmb32959" type="work" subtype="implied">Interview</rs> niemals zu
                   Gesicht bekommen, auch in keiner Übersetzung, durch Freunde in Rußland gelangte
                   ich auf Umwegen zur Kenntnis der über mich verbreiteten Lügen, hielt es im Anfang
                   für nicht einmal der Mühe wert darauf zu reagieren, da ich nicht glauben konnte,
-                  daß ein vernünftiger Mensch in <rs type="place" ref="#34438">Rußland</rs> mir
+                  daß ein vernünftiger Mensch in <rs type="place" ref="#pmb34438">Rußland</rs> mir
                   dergleichen Unsinn zutraute; man schrieb mir, daß es leider an solchen Leuten in
-                     <rs type="place" ref="#34438">Rußland</rs> doch nicht fehle; da ich mich mit
-                     <rs type="place" ref="#34438">russischen</rs> Zeitungen nicht direkt in
-                  Verbindung setzen konnte, schrieb ich einen aufklärenden <rs type="work"
-                     subtype="implied" ref="#58490">Brief</rs>, den <rs type="person" ref="#12543"
-                     >Romain Rolland</rs> übersetzt, zuerst in das <rs type="work" ref="#58493"
-                     >Journal de Genève</rs> eingerückt hat und der von dort aus in verschiedene
+                     <rs type="place" ref="#pmb34438">Rußland</rs> doch nicht fehle; da ich mich mit
+                     <rs type="place" ref="#pmb34438">russischen</rs> Zeitungen nicht direkt in
+                  Verbindung setzen konnte, schrieb ich einen aufklärenden <rs type="work" subtype="implied" ref="#pmb58490">Brief</rs>, den <rs type="person" ref="#pmb12543">Romain Rolland</rs> übersetzt, zuerst in das <rs type="work" ref="#pmb58493">Journal de Genève</rs> eingerückt hat und der von dort aus in verschiedene
                   andere neutrale und wie mir berichtet wurde, auch in einzelne Blätter des
                   feindlichen Auslandes Eingang fand. Warum ich Ihnen, verehrter Herr Gorki, heute
                   all das erzähle? Weil ich seit gestern weiß, daß die Angelegenheit noch immer
-                  nicht so erledigt ist, als ich gedacht habe. Herr <rs type="person" ref="#11090"
-                     >Chapiro</rs>, der <rs type="place" ref="#34438">russisch</rs>-französische
+                  nicht so erledigt ist, als ich gedacht habe. Herr <rs type="person" ref="#pmb11090">Chapiro</rs>, der <rs type="place" ref="#pmb34438">russisch</rs>-französische
                   Schriftsteller, der Ihnen ja auch wohl bekannt ist, erzählte mir, daß meine
-                  Entgegnung und Aufklärung in <rs type="place" ref="#34438">Rußland</rs> durchaus
+                  Entgegnung und Aufklärung in <rs type="place" ref="#pmb34438">Rußland</rs> durchaus
                   nicht allgemein bekannt geworden sei und daß sogar heute noch in vielen Kreisen
-                  jenes gefälschte <rs ref="#32959" type="work" subtype="implied">Interview</rs> als
+                  jenes gefälschte <rs ref="#pmb32959" type="work" subtype="implied">Interview</rs> als
                   authentisch gelte. Dabei weiß ich bis heute nicht einmal den Namen des
-                  Journalisten, der jene Lügen über mich in die Welt gesetzt hat. Herr <rs
-                     type="person" ref="#11090">Chapiro</rs> riet mir zugleich, Ihnen, verehrter
-                  Herr Gorki, als dem prominentesten Vertreter der <rs type="place" ref="#34438"
-                     >russischen</rs> Schriftstellerwelt, in dieser Angelegenheit zu schreiben, um
+                  Journalisten, der jene Lügen über mich in die Welt gesetzt hat. Herr <rs type="person" ref="#pmb11090">Chapiro</rs> riet mir zugleich, Ihnen, verehrter
+                  Herr Gorki, als dem prominentesten Vertreter der <rs type="place" ref="#pmb34438">russischen</rs> Schriftstellerwelt, in dieser Angelegenheit zu schreiben, um
                   Sie zu bitten, falls Ihnen noch mit Rücksicht auf jene Fälschung eine irrige
                   Meinung über mich begegne sich Richtigstellung und Aufklärung gütigst angelegen
                   sein zu lassen. Es ist ein wahrhaft peinigender Gedanke für mich, daß es heute
-                  noch anständige Leute in <rs type="place" ref="#34438">Rußland</rs> geben sollte,
+                  noch anständige Leute in <rs type="place" ref="#pmb34438">Rußland</rs> geben sollte,
                   die mich, einen der aufrichtigsten und dankbarsten Bewunderer Ihrer großen
                   Dichter, der hirnverbrannten Äußerungen, die in jenem Interview angeführt sind,
                   für fähig halten sollte.</quote>
             </div1>
             <div1>
-               <bibl><rs type="person" ref="#2121">Schnitzler</rs> an <rs type="person" ref="#60610"
-                     >Otto Abeles</rs>, <date>9.&#8239;2.&#8239;1924</date>
+               <bibl>
+                  <rs type="person" ref="#pmb2121">Schnitzler</rs> an <rs type="person" ref="#pmb60610">Otto Abeles</rs>, <date>9. 2. 1924</date>
                </bibl>
                <quote>Daß ich mich, wie Sie schreiben, einmal schon ›vorbildlich politisch betätigt
-                  habe‹ stimmt nicht ganz. Es handelte sich damals um ein gefälschtes <rs
-                     ref="#32959" type="work" subtype="implied">Interview</rs>, das zu Beginn des
-                  Krieges durch die <rs type="place" ref="#34438">russischen</rs> Zeitungen ging mit
+                  habe‹ stimmt nicht ganz. Es handelte sich damals um ein gefälschtes <rs ref="#pmb32959" type="work" subtype="implied">Interview</rs>, das zu Beginn des
+                  Krieges durch die <rs type="place" ref="#pmb34438">russischen</rs> Zeitungen ging mit
                   idiotischen Aussprüchen, die ich niemals getan hatte und die ich natürlich
                   dementieren mußte.</quote>
             </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb12543">
+               <persName>
+                  <forename>Romain</forename>
+                  <surname>Rolland</surname>
+               </persName>
+               <birth>
+                  <date when="1866-01-29">29.01.1866</date>
+                  <settlement ref="pmb48686">
+                     <placeName type="pref">Clamecy</placeName>
+                     <location>
+                        <geo>47,46017 3,5194</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1944-12-30">30.12.1944</date>
+                  <settlement ref="pmb58488">
+                     <placeName type="pref">Vézelay</placeName>
+                     <location>
+                        <geo>47,46572 3,74559</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19333</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118602330</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12543.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12543/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12543</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12543.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp52430</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=R#DWpers0200</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q47162</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Romain_Rolland</idno>
+            </person>
+            <person xml:id="pmb3068">
+               <persName>
+                  <forename>Isabella</forename>
+                  <surname>Vengerova</surname>
+               </persName>
+               <persName type="person_rufname">Bella</persName>
+               <persName type="namensvariante">Wengerowa</persName>
+               <birth>
+                  <date when="1877-03-01">01.03.1877</date>
+                  <settlement ref="pmb49845">
+                     <placeName type="pref">Minsk</placeName>
+                     <location>
+                        <geo>53,9 27,56667</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1956-02-07">07.02.1956</date>
+                  <settlement ref="pmb44053">
+                     <placeName type="pref">New York City</placeName>
+                     <location>
+                        <geo>40,71427 -74,00597</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb130">Musikpädagoge/Musikpädagogin</occupation>
+               <occupation ref="pmb181">Pianist/Pianistin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/119401215</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21231</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3068.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3068/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb3068</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q525628</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Isabelle_Vengerova</idno>
+            </person>
+            <person xml:id="pmb26392">
+               <persName>
+                  <forename>Leo</forename>
+                  <surname>Van-Jung</surname>
+               </persName>
+               <persName type="namensvariante">Fan-Jung</persName>
+               <birth>
+                  <date when="1866-10-15">15.10.1866</date>
+                  <settlement ref="pmb420">
+                     <placeName type="pref">Odessa</placeName>
+                     <location>
+                        <geo>46,47747 30,73262</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1939-07-02">02.07.1939</date>
+                  <settlement ref="pmb46637">
+                     <placeName type="pref">Riga</placeName>
+                     <location>
+                        <geo>56,946 24,10589</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb148">Gesangspädagoge/Gesangspädagogin</occupation>
+               <occupation ref="pmb293">Mathematiker/Mathematikerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20925</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb26392.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/26392/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb26392</idno>
+            </person>
+            <person xml:id="pmb3739">
+               <persName>
+                  <forename>Leo N. von</forename>
+                  <surname>Tolstoi</surname>
+               </persName>
+               <birth>
+                  <date when="1828-09-09">9.09.1828</date>
+                  <settlement ref="pmb59327">
+                     <placeName type="pref">Yasnaya Polyana</placeName>
+                     <location>
+                        <geo>54,06858 37,52439</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1910-11-20">20.11.1910</date>
+                  <settlement ref="pmb59329">
+                     <placeName type="pref">Lev Tolstoy</placeName>
+                     <location>
+                        <geo>53,21344 39,44604</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/11864291X</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20772</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3739.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3739/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb3739</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb3739.html</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=T#DWpers0234</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp48747</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q7243</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Lew_Nikolajewitsch_Tolstoi</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb3739.html</idno>
+            </person>
+            <person xml:id="pmb12156">
+               <persName>
+                  <forename>Maurice</forename>
+                  <surname>Maeterlinck</surname>
+               </persName>
+               <birth>
+                  <date when="1862-08-29">29.08.1862</date>
+                  <settlement ref="pmb58674">
+                     <placeName type="pref">Ghent</placeName>
+                     <location>
+                        <geo>51,05 3,71667</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1949-05-06">06.05.1949</date>
+                  <settlement ref="pmb926">
+                     <placeName type="pref">Nizza</placeName>
+                     <location>
+                        <geo>43,70313 7,26608</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17779</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118576089</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12156.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12156/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12156</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12156.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49517</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q49747</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Maurice_Maeterlinck</idno>
+            </person>
+            <person xml:id="pmb4279">
+               <persName>
+                  <forename>Anatole</forename>
+                  <surname>France</surname>
+               </persName>
+               <persName type="person_geburtsname-vorname">François</persName>
+               <persName type="person_geburtsname_nachname">A. Thibault</persName>
+               <persName type="legacy-name-merge">France, Anatole</persName>
+               <birth>
+                  <date when="1844-04-16">16.04.1844</date>
+                  <settlement ref="pmb182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1924-10-12">12.10.1924</date>
+                  <settlement ref="pmb55966">
+                     <placeName type="pref">Saint-Cyr-sur-Loire</placeName>
+                     <location>
+                        <geo>47,4 0,66667</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118692445</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb4279.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4279/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15108</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb4279</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb4279.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38207</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q42443</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Anatole_France</idno>
+            </person>
+            <person xml:id="pmb2412">
+               <persName>
+                  <forename>William</forename>
+                  <surname>Shakespeare</surname>
+               </persName>
+               <birth>
+                  <date when="1564-04-23">23.4.1564?</date>
+                  <settlement ref="pmb49870">
+                     <placeName type="pref">Stratford-upon-Avon</placeName>
+                     <location>
+                        <geo>52,19166 -1,70734</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1616-05-03">03.05.1616</date>
+                  <settlement ref="pmb49870">
+                     <placeName type="pref">Stratford-upon-Avon</placeName>
+                     <location>
+                        <geo>52,19166 -1,70734</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <occupation ref="pmb727">Schriftsteller/Schriftstellerin &gt;&gt; Dramatiker/Dramatikerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118613723</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20078</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2412.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2412/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2412</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2412.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb2412</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp55589</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0220</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q692</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/William_Shakespeare</idno>
+               <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/shakespeare-william.html</idno>
+               <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_10.html</idno>
+            </person>
+            <person xml:id="pmb21549">
+               <persName>
+                  <forename>Alice</forename>
+                  <surname>Moller</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Wertheimber</persName>
+               <birth>
+                  <date when="1871-04-24">24.04.1871</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1962-10-01">Oktober 1962</date>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb593">Kassier/Kassierin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18221</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/21549/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb21549</idno>
+            </person>
+            <person xml:id="pmb2496">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Kaufmann</surname>
+               </persName>
+               <birth>
+                  <date when="1872-04-04">04.04.1872</date>
+                  <settlement ref="pmb38876">
+                     <placeName type="pref">Iaşi</placeName>
+                     <location>
+                        <geo>47,16667 27,6</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1938-07-25">25.07.1938</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb102">Wissenschaftler/Wissenschaftlerin &gt;&gt; Rechtswissenschaftler/Rechtswissenschaftlerin</occupation>
+               <occupation ref="pmb162">Privatgelehrte/Privatgelehrte</occupation>
+               <occupation ref="pmb163">Privatier/Privatière</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/1026723396</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16770</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2496.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2496/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2496</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q4799324</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Kaufmann_(Schachspieler)</idno>
+            </person>
+            <person xml:id="pmb11617">
+               <persName>
+                  <forename>Gerhart</forename>
+                  <surname>Hauptmann</surname>
+               </persName>
+               <birth>
+                  <date when="1862-11-15">15.11.1862</date>
+                  <settlement ref="pmb64427">
+                     <placeName type="pref">Szczawno-Zdrój</placeName>
+                     <location>
+                        <geo>50,79512 16,22375</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1946-06-06">06.06.1946</date>
+                  <settlement ref="pmb735">
+                     <placeName type="pref">Agnetendorf</placeName>
+                     <location>
+                        <geo>50,816944 15,609444</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15980</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118546937</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11617.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11617/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11617</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11617.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11617</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp44354</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=H#DWpers0097</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q43523</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Gerhart_Hauptmann</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11617.html</idno>
+            </person>
+            <person xml:id="pmb13212">
+               <persName>
+                  <forename>Stefan</forename>
+                  <surname>Zweig</surname>
+               </persName>
+               <birth>
+                  <date when="1881-11-28">28.11.1881</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1942-02-23">23.02.1942</date>
+                  <settlement ref="pmb46774">
+                     <placeName type="pref">Petrópolis</placeName>
+                     <location>
+                        <geo>-22,505 -43,17861</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21614</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118637479</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb13212.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/13212/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb13212</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13212.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb13212</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp53600</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q78491</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Stefan_Zweig</idno>
+               <idno type="URL" subtype="dx">https://dx.doi.org/10.1553/0x0001e7ce</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb13212.html</idno>
+            </person>
+            <person xml:id="pmb13132">
+               <persName>
+                  <forename>Jakob von</forename>
+                  <surname>Winternitz</surname>
+               </persName>
+               <birth>
+                  <date when="1843-03-03">03.03.1843</date>
+                  <settlement ref="pmb50042">
+                     <placeName type="pref">Horažďovice</placeName>
+                     <location>
+                        <geo>49,32069 13,701</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1921-01-26">26.01.1921</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb113">Beamter/Beamte &gt;&gt; Ministerialbeamter/Ministerialbeamte</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21384</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/1026292271</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb13132.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/13132/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q94810410</idno>
+            </person>
+            <person xml:id="pmb3256">
+               <persName>
+                  <forename>Paul</forename>
+                  <surname>Block</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-30">1862-05-30</date>
+                  <settlement ref="pmb54949">
+                     <placeName type="pref">Klaipėda</placeName>
+                     <location>
+                        <geo>55,7068 21,13912</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1934-08-15">1934-08-15</date>
+                  <settlement ref="pmb54951">
+                     <placeName type="pref">Bad Harzburg</placeName>
+                     <location>
+                        <geo>51,88268 10,56157</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116202904</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3256.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3256/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb3256</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp51183</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q94875640</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Paul_Block_(Kulturpublizist)</idno>
+            </person>
+            <person xml:id="pmb10992">
+               <persName>
+                  <forename>Georg</forename>
+                  <surname>Brandes</surname>
+               </persName>
+               <birth>
+                  <date when="1842-02-04">04.02.1842</date>
+                  <settlement ref="pmb36300">
+                     <placeName type="pref">Kopenhagen</placeName>
+                     <location>
+                        <geo>55,67594 12,56553</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1927-02-19">19.02.1927</date>
+                  <settlement ref="pmb36300">
+                     <placeName type="pref">Kopenhagen</placeName>
+                     <location>
+                        <geo>55,67594 12,56553</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13920</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118514326</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10992.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10992/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10992</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10992.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp44279</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q316045</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Georg_Brandes</idno>
+            </person>
+            <person xml:id="pmb27739">
+               <persName>
+                  <surname>?? [Journalist, der fiktives russisches Interview verantwortet]</surname>
+               </persName>
+               <sex value="male"/>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/27739/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb27739</idno>
+            </person>
+            <person xml:id="pmb11090">
+               <persName>
+                  <forename>Joseph</forename>
+                  <surname>Chapiro</surname>
+               </persName>
+               <birth>
+                  <date when="1893-11-19">19.11.1893</date>
+                  <settlement ref="pmb45594">
+                     <placeName type="pref">Kiew</placeName>
+                     <location>
+                        <geo>50,45466 30,5238</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1962-01-13">1962-01-13</date>
+                  <settlement ref="pmb44053">
+                     <placeName type="pref">New York City</placeName>
+                     <location>
+                        <geo>40,71427 -74,00597</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14178</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/11648828X</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11090.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11090/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11090</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp47059</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q26769409</idno>
+            </person>
+            <person xml:id="pmb19872">
+               <persName>
+                  <forename>Alexander I.</forename>
+                  <surname>Kuprin</surname>
+               </persName>
+               <birth>
+                  <date when="1870-09-07">07.09.1870</date>
+                  <settlement ref="pmb59818">
+                     <placeName type="pref">Narovchat</placeName>
+                     <location>
+                        <geo>53,87654 43,69458</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1938-08-25">25.08.1938</date>
+                  <settlement ref="pmb433">
+                     <placeName type="pref">Sankt Petersburg</placeName>
+                     <location>
+                        <geo>59,93863 30,31413</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17208</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/19872/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118778242</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb19872.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q271457</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Alexander_Iwanowitsch_Kuprin</idno>
+            </person>
+            <person xml:id="pmb2323">
+               <persName>
+                  <forename>Maxim</forename>
+                  <surname>Gorkij</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Peschkow</persName>
+               <persName type="legacy-name-merge">Gorki, Maxim</persName>
+               <persName type="person_geburtsname-vorname">Alexei Maximowitsch</persName>
+               <birth>
+                  <date when="1868-03-28">1868-03-28</date>
+                  <settlement ref="pmb47132">
+                     <placeName type="pref">Nischni Nowgorod</placeName>
+                     <location>
+                        <geo>56,32867 44,00205</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1936-06-18">1936-06-18</date>
+                  <settlement ref="pmb869">
+                     <placeName type="pref">Moskau</placeName>
+                     <location>
+                        <geo>55,76167 37,60667</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118639293</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15573</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2323.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2323/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/17244/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2323.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49991</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q12706</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Maxim_Gorki</idno>
+            </person>
+            <person xml:id="pmb60610">
+               <persName>
+                  <forename>Otto</forename>
+                  <surname>Abeles</surname>
+               </persName>
+               <birth>
+                  <date when="1879-05-01">1879-05-01</date>
+                  <settlement ref="pmb56580">
+                     <placeName type="pref">Rohatec</placeName>
+                     <location>
+                        <geo>48,8804 17,1833</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1945-05-25">1945-05-25</date>
+                  <settlement ref="pmb60613">
+                     <placeName type="pref">Tröbnitz</placeName>
+                     <location>
+                        <geo>50,83333 11,73333</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <occupation ref="pmb277">Zionist/Zionistin</occupation>
+               <occupation ref="pmb1639">Jurist/Juristin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60610/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/1025144899</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp37737</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00280d9d</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1375019</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Otto_Abeles</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb32959">
+               <title>?? [Fiktives Interview aus der Kriegszeit]</title>
+               <author ref="pmb27739" role="hat-geschaffen">?? [Journalist, der fiktives russisches Interview verantwortet]</author>
+               <date when="1914-11-01">November 1914</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32959/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb32959</idno>
+               <note type="work_kind">Interview</note>
+            </bibl>
+            <bibl xml:id="pmb42406">
+               <title>Neue Zürcher Zeitung</title>
+               <date when="1780-01-12">12.1.1780</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/42406/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb42406</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb42406</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q658945</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Neue_Z%C3%BCrcher_Zeitung</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+            <bibl xml:id="pmb58493">
+               <title>Journal de Genève</title>
+               <date to="1998-02-28">1826-01-05  – 1998-02-28</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58493/</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+            <bibl xml:id="pmb59820">
+               <title>Offener Brief</title>
+               <title type="werk_bibliografische-angabe">In: Russkoe slovo</title>
+               <author ref="pmb19872" role="hat-geschaffen">Kuprin, Alexander I.</author>
+               <date when="1914-11-10">10.11.1914?</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/59820/</idno>
+               <note type="work_kind">Brief &gt;&gt; Öffentlicher Brief &gt;&gt; Leserbrief</note>
+            </bibl>
+            <bibl xml:id="pmb58490">
+               <title>Une protestation d’Arthur Schnitzler</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <author ref="pmb12543" role="hat-geschaffen">Rolland, Romain</author>
+               <date>1914-12-21</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58490/</idno>
+               <note type="work_kind">Brief &gt;&gt; Öffentlicher Brief &gt;&gt; Leserbrief</note>
+            </bibl>
+            <bibl xml:id="pmb35935">
+               <title>Die Zeit</title>
+               <author ref="pmb11867" role="hat-herausgegeben">Kanner, Heinrich</author>
+               <author ref="pmb12790" role="hat-herausgegeben">Singer, Isidor</author>
+               <date to="1919-01-01">1902  – 1919</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35935/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb35935</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+            <bibl xml:id="pmb41202">
+               <title>Arbeiter-Zeitung</title>
+               <title type="werk_link">http://anno.onb.ac.at/cgi-content/anno?apm=0&amp;aid=aze</title>
+               <author ref="pmb59249" role="hat-herausgegeben">Kovanda, Václav</author>
+               <date to="1991-10-31">12.7.1881  – 31.10.1991</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41202/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41202</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb41202</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q627083</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arbeiter-Zeitung</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+            <place xml:id="pmb34438">
+               <placeName>Russland</placeName>
+               <placeName type="alternative-name">Russische Föderation</placeName>
+               <placeName type="alternative-name">Russian Federation</placeName>
+               <placeName type="alternative-name">Russian Soviet Federated Socialist Republic</placeName>
+               <placeName type="alternative-name">Russian Soviet Federative Socialist Republic</placeName>
+               <placeName type="alternative-name">Russian Socialist Federative Soviet Republic</placeName>
+               <placeName type="legacy-name-merge">Russia</placeName>
+               <placeName type="legacy-name-merge">Rußland</placeName>
+               <desc type="entity_type">http://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>60,0 100,0</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43976/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2017370/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/14117/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/34438/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb34438</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb34438</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb34438.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/119245/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4076899-5</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q159</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Russland</idno>
+            </place>
+            <place xml:id="pmb34523">
+               <placeName>Vereinigtes Königreich</placeName>
+               <placeName type="alternative-name">Großbritannien</placeName>
+               <placeName type="alternative-name">U.K.</placeName>
+               <placeName type="alternative-name">Großbritannien und Nordirland</placeName>
+               <placeName type="alternative-name">UK</placeName>
+               <placeName type="alternative-name">Britain</placeName>
+               <placeName type="alternative-name">United Kingdom of Great Britain and Northern Ireland</placeName>
+               <desc type="entity_type">http://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>54,75844 -2,69531</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q145</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2635167/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/34523/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43687/</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Vereinigtes_K%C3%B6nigreich</idno>
+            </place>
+            <place xml:id="pmb166">
+               <placeName>Frankreich</placeName>
+               <placeName type="alternative-name">France</placeName>
+               <desc type="entity_type">Land (A.LND)</desc>
+               <desc type="entity_type_id">38</desc>
+               <location type="coords">
+                  <geo>46,0 2,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb468">Europa</placeName>
+                  <geo>48,69096 9,14062</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q142</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb166.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3017382/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/166/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb166</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb166.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Frankreich</idno>
+            </place>
+            <place xml:id="pmb710">
+               <placeName>Belgien</placeName>
+               <placeName type="alternative-name">Königreich Belgien</placeName>
+               <placeName type="alternative-name">Kingdom of Belgium</placeName>
+               <placeName type="legacy-name-merge">Belgium</placeName>
+               <desc type="entity_type">Land (A.LND)</desc>
+               <desc type="entity_type_id">38</desc>
+               <location type="coords">
+                  <geo>50,75 4,5</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q31</idno>
+               <idno type="URL" subtype="geonames">https://www.geonames.org/2802361</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb710.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/710/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36136/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44340/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2802361/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb710</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb710.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Belgien</idno>
+            </place>
+            <place xml:id="pmb433">
+               <placeName>Sankt Petersburg</placeName>
+               <placeName type="legacy-name-merge">St. Petersburg</placeName>
+               <placeName type="legacy-name-merge">Petersburg</placeName>
+               <placeName type="legacy-name-merge">St Petersburg</placeName>
+               <placeName type="legacy-name-merge">Leningrad</placeName>
+               <placeName type="alternative-name">St.-Petersburg</placeName>
+               <placeName type="alternative-name">Peterburg</placeName>
+               <placeName type="alternative-name">Saint Petersburg</placeName>
+               <placeName type="alternative-name">Petrograd</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>59,93863 30,31413</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb34438">Russland</placeName>
+                  <geo>60,0 100,0</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q656</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb433.html</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4267026-3</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/433/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/19875/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb433</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64405/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/498817/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb433.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Sankt_Petersburg</idno>
+            </place>
+            <place xml:id="pmb151">
+               <placeName>Deutschland</placeName>
+               <placeName type="alternative-name">Bundesrepublik Deutschland</placeName>
+               <placeName type="alternative-name">West Germany</placeName>
+               <placeName type="alternative-name">Federal Republic of Germany</placeName>
+               <placeName type="legacy-name-merge">Germany</placeName>
+               <desc type="entity_type">Land (A.LND)</desc>
+               <desc type="entity_type_id">38</desc>
+               <location type="coords">
+                  <geo>51,5 10,5</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb468">Europa</placeName>
+                  <geo>48,69096 9,14062</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q183</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb151.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2921044/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/151/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/39639/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43456/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb151</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb151</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb151.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Deutschland</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/119923/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4011882-4</idno>
+            </place>
+            <place xml:id="pmb49870">
+               <placeName>Stratford-upon-Avon</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPL</desc>
+               <desc type="entity_type_id">1412</desc>
+               <location type="coords">
+                  <geo>52,19166 -1,70734</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb34523">Vereinigtes Königreich</placeName>
+                  <geo>54,75844 -2,69531</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2413/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/49870/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2636713/</idno>
+            </place>
+            <place xml:id="pmb175">
+               <placeName>Amerika</placeName>
+               <desc type="entity_type">Kontinent (A.KNT)</desc>
+               <desc type="entity_type_id">49</desc>
+               <location type="coords">
+                  <geo>32,530833 -117,02</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/6255149/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb175.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/175/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb175</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb175</idno>
+            </place>
+            <place xml:id="pmb43406">
+               <placeName>Vereinigte Staaten von Amerika (USA)</placeName>
+               <placeName type="alternative-name">Vereinigte Staaten</placeName>
+               <placeName type="legacy-name-merge">Vereinigte Staaten von Amerika</placeName>
+               <placeName type="legacy-name-merge">USA</placeName>
+               <placeName type="alternative-name">America</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1411</desc>
+               <location type="coords">
+                  <geo>39,76 -98,5</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb91362">Nordamerika</placeName>
+                  <geo>54,77535 -105,64453</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb175">Amerika</placeName>
+                  <geo>32,530833 -117,02</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q30</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb490.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/6252001/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/490/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/42779/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43406/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb43406</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb43406</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb43406.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Vereinigte_Staaten</idno>
+            </place>
+            <place xml:id="pmb562">
+               <placeName>Genf</placeName>
+               <placeName type="legacy-name-merge">Drize, Kreis Genf</placeName>
+               <placeName type="legacy-name-merge">Geneva</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>46,20222 6,14569</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb43435">Schweiz</placeName>
+                  <geo>47,00016 8,01427</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q71</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb562.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/562/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/22973/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb562</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64309/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2660646/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb562</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb562.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/99397/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4020137-5</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Genf</idno>
+            </place>
+            <place xml:id="pmb43435">
+               <placeName>Schweiz</placeName>
+               <placeName type="alternative-name">Schweizerische Eidgenossenschaft</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1411</desc>
+               <location type="coords">
+                  <geo>47,00016 8,01427</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb34006.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2658434/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/34006/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43435/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb43435</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb43435</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb43435.html</idno>
+            </place>
+            <place xml:id="pmb41240">
+               <placeName>Österreich</placeName>
+               <placeName type="alternative-name">Republik Österreich</placeName>
+               <placeName type="alternative-name">Republic of Austria</placeName>
+               <placeName type="legacy-name-merge">Deutsch Österreich</placeName>
+               <placeName type="legacy-name-merge">Altoesterreich</placeName>
+               <desc type="entity_type">http://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb687">Österreich-Ungarn</placeName>
+                  <geo>48,4054 16,4887</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2782113/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41240/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41240</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb41240</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92143/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92203/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92143.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92203.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb41240.html</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb29672">
+               <orgName>Neue Zürcher Zeitung</orgName>
+               <desc type="entity_type">Tageszeitungsredaktion</desc>
+               <desc type="entity_type_id">972</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb484">Zürich</placeName>
+                  <geo>47,37174 8,54226</geo>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q72</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2657896/</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb484.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/484/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb484</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/62728/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4068038-1</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb484</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb484.html</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Z%C3%BCrich</idno>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29672.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29672/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29672</idno>
+            </org>
+            <org xml:id="pmb29503">
+               <orgName>[Russische Zeitschrift, in der 1914 gefälschtes Interview  von Schnitzler erschien]</orgName>
+               <desc type="entity_type">Zeitschriftenredaktion</desc>
+               <desc type="entity_type_id">973</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb433">Sankt Petersburg</placeName>
+                  <geo>59,93863 30,31413</geo>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q656</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb433.html</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4267026-3</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/433/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/19875/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb433</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64405/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/498817/</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb433.html</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Sankt_Petersburg</idno>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29503/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29503</idno>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

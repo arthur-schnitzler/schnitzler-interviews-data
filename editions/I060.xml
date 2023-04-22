@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I060">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="I060">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#33185">Frango [=Franz Goldstein]: Spaziergang mit Schnitzler,
-               19.&#8239;8.&#8239;1930</title>
-            <author ref="#5295">Goldstein, Franz</author>
+            <title level="a" ref="#pmb33185">Frango [=Franz Goldstein]: Spaziergang mit Schnitzler,
+               19. 8. 1930</title>
+            <author ref="#pmb5295">Goldstein, Franz</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -28,13 +30,13 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#5295">Frango [=Franz Goldstein]</author>
-                     <title level="a" ref="#33185">Spaziergang mit Schnitzler</title>
+                     <author ref="#pmb5295">Frango [=Franz Goldstein]</author>
+                     <title level="a" ref="#pmb33185">Spaziergang mit Schnitzler</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#58352">Tempo</title>
+                     <title level="j" ref="#pmb58352">Tempo</title>
                      <imprint>
-                        <date when="1930-08-19" n="1">19.&#8239;8.&#8239;1930</date>
+                        <date when="1930-08-19" n="1">19. 8. 1930</date>
                      </imprint>
                      <biblScope unit="jg">3</biblScope>
                      <biblScope unit="nr">192, 2. Beilage</biblScope>
@@ -60,130 +62,961 @@
          <div type="original">
             <head>Spaziergang mit Schnitzler</head>
             <p rend="right">
-               <rs type="place" ref="#44374">St. Moritz</rs>, <date>August 1930</date>
+               <rs type="place" ref="#pmb44374">St. Moritz</rs>, <date>August 1930</date>
             </p>
             <p>Es bedeutet eine günstige Fügung, am der Ankunft vor dem Hotel einem gelben
-               Kraftwagen mit schwarz-rot-goldenem Wimpel zu begegnen, in dem <rs type="person"
-                  ref="#12126">
+               Kraftwagen mit schwarz-rot-goldenem Wimpel zu begegnen, in dem <rs type="person" ref="#pmb12126">
                   <hi rend="spaced_out">Emil Ludwig</hi>
-               </rs> (am Steuer) <rs type="person" ref="#2121">
+               </rs> (am Steuer) <rs type="person" ref="#pmb2121">
                   <hi rend="spaced_out">Arthur Schnitzler</hi>
-               </rs> von einer Spazierfahrt durch das <rs type="place" ref="#1061">Oberengadin</rs>
-               soeben heimgebracht hat. Freudige Begrüssung des Wiedersehens. Schon ist <rs
-                  type="person" ref="#2121">Schnitzler</rs> zu einem Spaziergang bereit. </p>
-            <p>»<rs type="work" ref="#30945">Im Spiel der Sommerlüfte</rs>« liegt der <rs
-                  ref="#59387" type="place">St. Moritzsee</rs>, sonnenüberblendet, von leichtem Wind
+               </rs> von einer Spazierfahrt durch das <rs type="place" ref="#pmb1061">Oberengadin</rs>
+               soeben heimgebracht hat. Freudige Begrüssung des Wiedersehens. Schon ist <rs type="person" ref="#pmb2121">Schnitzler</rs> zu einem Spaziergang bereit. </p>
+            <p>»<rs type="work" ref="#pmb30945">Im Spiel der Sommerlüfte</rs>« liegt der <rs ref="#pmb59387" type="place">St. Moritzsee</rs>, sonnenüberblendet, von leichtem Wind
                gekräuselt, gebettet in waldige Berge, deren Gipfel Neuschnee krönt. Hotelpaläste
                synkopieren schroff die Landschaft. Das alles erinnert so sehr an den Schauplatz der
-               Geschichte von »<rs type="work" ref="#29941">Fräulein Else</rs>«. Aber die Novelle
-               spielt ja in <rs type="place" ref="#44311">
-                  <anchor type="commentary" xml:id="KT146-1"/>San Martino di Castrozza<note
-                     type="commentary" xml:id="KT146-1h">Der Schauplatz von <rs type="work"
-                        ref="#29941">Fräulein Else</rs> wird als das <rs type="place" ref="#1062"
-                        >Hotel Fratazza</rs> in <rs type="place" ref="#44311">San Martino</rs>
+               Geschichte von »<rs type="work" ref="#pmb29941">Fräulein Else</rs>«. Aber die Novelle
+               spielt ja in <rs type="place" ref="#pmb44311">
+                  <anchor type="commentary" xml:id="KT146-1"/>San Martino di Castrozza<note type="commentary" xml:id="KT146-1h">Der Schauplatz von <rs type="work" ref="#pmb29941">Fräulein Else</rs> wird als das <rs type="place" ref="#pmb1062">Hotel Fratazza</rs> in <rs type="place" ref="#pmb44311">San Martino</rs>
                      angegeben. Aus textimmanenten Hinweisen lässt sich <date>1896</date> als
-                     Handlungszeit ermitteln, über zehn Jahre bevor in <rs type="place" ref="#44311"
-                        >San Martino di Castrozza</rs> ein gleichnamiges Hotel aufsperrte.</note>
+                     Handlungszeit ermitteln, über zehn Jahre bevor in <rs type="place" ref="#pmb44311">San Martino di Castrozza</rs> ein gleichnamiges Hotel aufsperrte.</note>
                </rs>, der 
                <anchor type="commentary" xml:id="K_implied_30711"/>
-               <rs type="work" ref="#30711" subtype="implied">Film</rs>
+               <rs type="work" ref="#pmb30711" subtype="implied">Film</rs>
                <note type="commentary" xml:id="K_implied_30711h">
-                  <rs type="work" ref="#30711">Fräulein Else</rs> von <rs type="person" ref="#11131"
-                     >Paul Czinner</rs>. <rs type="person" ref="#2121">Schnitzler</rs> war bei der Verfilmung nicht involviert.
+                  <rs type="work" ref="#pmb30711">Fräulein Else</rs> von <rs type="person" ref="#pmb11131">Paul Czinner</rs>. <rs type="person" ref="#pmb2121">Schnitzler</rs> war bei der Verfilmung nicht involviert.
                </note> eben ist
-               in <rs type="place" ref="#44374">St. Moritz</rs> gekurbelt. Der <rs type="person"
-                  ref="#2121" subtype="implied">Dichter</rs> jedoch bestätigt auch <rs type="place"
-                  ref="#44374">St. Moritz</rs> als Ort der Handlung gern: »Hier ist die Luft wie
+               in <rs type="place" ref="#pmb44374">St. Moritz</rs> gekurbelt. Der <rs type="person" ref="#pmb2121" subtype="implied">Dichter</rs> jedoch bestätigt auch <rs type="place" ref="#pmb44374">St. Moritz</rs> als Ort der Handlung gern: »Hier ist die Luft wie
                Champagner«.</p>
             <p>
-               <rs type="person" ref="#2121">Schnitzler</rs> lehnt den Film als Kunstform keineswegs
+               <rs type="person" ref="#pmb2121">Schnitzler</rs> lehnt den Film als Kunstform keineswegs
                ab. Er hat ein Angebot aus Hollywood, <hi rend="spaced_out">drei Manuskripte</hi> zu
-               schreiben, nicht abgelehnt. Ein deutscher <anchor type="commentary" xml:id="KT146-3"
-                  />Tonfilm<note type="commentary" xml:id="KT146-3h">Aus diesem Unterfangen wurde
-                  nichts, wobei das <rs type="person" ref="#2121">Schnitzler</rs> zu diesem
+               schreiben, nicht abgelehnt. Ein deutscher <anchor type="commentary" xml:id="KT146-3"/>Tonfilm<note type="commentary" xml:id="KT146-3h">Aus diesem Unterfangen wurde
+                  nichts, wobei das <rs type="person" ref="#pmb2121">Schnitzler</rs> zu diesem
                   Zeitpunkt bereits bekannt gewesen müsste. Stattdessen kam der Stoff
-                     <date>1931</date> als <rs type="work" ref="#32157">Daybreak</rs> (Regie <rs
-                     type="person" ref="#11319">Jacques Feyder</rs>) in die Kinos.</note> nach der
-               Erzählung »<rs type="work" ref="#32131">Spiel im Morgengrauen</rs>« wird vorbereitet.
+                     <date>1931</date> als <rs type="work" ref="#pmb32157">Daybreak</rs> (Regie <rs type="person" ref="#pmb11319">Jacques Feyder</rs>) in die Kinos.</note> nach der
+               Erzählung »<rs type="work" ref="#pmb32131">Spiel im Morgengrauen</rs>« wird vorbereitet.
                Vom Film kommt das Gespräch auf das Theater. Ich gedenke der erfolgreichen
-               Wiederaufnahme des »<rs type="work" ref="#30203">Professor Bernhardi</rs>« während
-               der vergangenen <rs type="place" ref="#168">Berlin</rs>er und <rs type="place"
-                  ref="#50">Wien</rs>er Spielzeit. <rs type="person" ref="#2121">Schnitzler</rs>
-               erklärt sich mit der Auffassung <rs type="person" ref="#11975">Kortner</rs>s sehr
-               einverstanden. Die <rs type="person" ref="#5299">
+               Wiederaufnahme des »<rs type="work" ref="#pmb30203">Professor Bernhardi</rs>« während
+               der vergangenen <rs type="place" ref="#pmb168">Berlin</rs>er und <rs type="place" ref="#pmb50">Wien</rs>er Spielzeit. <rs type="person" ref="#pmb2121">Schnitzler</rs>
+               erklärt sich mit der Auffassung <rs type="person" ref="#pmb11975">Kortner</rs>s sehr
+               einverstanden. Die <rs type="person" ref="#pmb5299">
                   <hi rend="spaced_out">Falconetti</hi>
-               </rs> will im nächsten Winter in <rs type="place" ref="#182">Paris</rs>
+               </rs> will im nächsten Winter in <rs type="place" ref="#pmb182">Paris</rs>
                <space unit="chars" quantity="1"/>
-               <hi rend="spaced_out">alle weiblichen Rollen</hi> im »<rs type="work" ref="#29855">
+               <hi rend="spaced_out">alle weiblichen Rollen</hi> im »<rs type="work" ref="#pmb29855">
                   <hi rend="spaced_out">Reigen</hi>
-               </rs>« spielen. Man liebt <rs type="person" ref="#2121">Schnitzler</rs> aus
-               Wahlverwandtschaft seit je in <rs type="place" ref="#182">Paris</rs> und hat seine
-               Werke auch in letzter Zeit viel ins <rs type="place" ref="#166">Französische</rs>
-               übertragen. Der <rs type="person" ref="#2121" subtype="implied">Dichter</rs> bemerkt,
-               daß er die <anchor type="commentary" xml:id="K_I060-4"/><rs type="place" ref="#166">französische</rs> Fassung seiner »<rs
-                  type="work" ref="#30817">Therese</rs>« fast dem Original vorzöge<note type='commentary' xml:id="K_I060-4h">Die französische 
-                     Fassung stammt von <rs type="person" ref="#15015">Suzanne Clauser</rs>, war aber erst im Fertigwerden und erschien <date>1931</date> (<ref type="schnitzlerDiary" subtype="cf" target="1930-12-14"/>). <rs type="person" ref="#2121">Schnitzler</rs>
-                     war in dieser Zeit mit <rs type="person" ref="#15015">Clauser</rs> partnerschaftlich verbunden.</note>. Zu den Dingen
-               des Theaters zurückkehrend, kommt das Gespräch auf den amerikanischen Dramatiker <rs
-                  type="person" ref="#5198">O’Neill</rs> und dessen »<rs type="work" ref="#33191"
-                  >Seltsames Zwischenspiel</rs>«. <rs type="person" ref="#2121">Schnitzler</rs>
+               </rs>« spielen. Man liebt <rs type="person" ref="#pmb2121">Schnitzler</rs> aus
+               Wahlverwandtschaft seit je in <rs type="place" ref="#pmb182">Paris</rs> und hat seine
+               Werke auch in letzter Zeit viel ins <rs type="place" ref="#pmb166">Französische</rs>
+               übertragen. Der <rs type="person" ref="#pmb2121" subtype="implied">Dichter</rs> bemerkt,
+               daß er die <anchor type="commentary" xml:id="K_I060-4"/>
+               <rs type="place" ref="#pmb166">französische</rs> Fassung seiner »<rs type="work" ref="#pmb30817">Therese</rs>« fast dem Original vorzöge<note type="commentary" xml:id="K_I060-4h">Die französische 
+                     Fassung stammt von <rs type="person" ref="#pmb15015">Suzanne Clauser</rs>, war aber erst im Fertigwerden und erschien <date>1931</date> (<ref type="schnitzler-tagebuch" subtype="cf" target="1930-12-14"/>). <rs type="person" ref="#pmb2121">Schnitzler</rs>
+                     war in dieser Zeit mit <rs type="person" ref="#pmb15015">Clauser</rs> partnerschaftlich verbunden.</note>. Zu den Dingen
+               des Theaters zurückkehrend, kommt das Gespräch auf den amerikanischen Dramatiker <rs type="person" ref="#pmb5198">O’Neill</rs> und dessen »<rs type="work" ref="#pmb33191">Seltsames Zwischenspiel</rs>«. <rs type="person" ref="#pmb2121">Schnitzler</rs>
                mokiert sich über die »Entdeckung« der Psychoanalyse durch die Art, die Personen ihre
-               Gedanken laut aussprechen zu lassen, wie das ja schon der alte <rs type="person"
-                  ref="#3272">Moliere</rs> gekannt hat. </p>
-            <p>Ebenso amüsant findet <rs type="person" ref="#2121">Schnitzler</rs> es, wenn
+               Gedanken laut aussprechen zu lassen, wie das ja schon der alte <rs type="person" ref="#pmb3272">Moliere</rs> gekannt hat. </p>
+            <p>Ebenso amüsant findet <rs type="person" ref="#pmb2121">Schnitzler</rs> es, wenn
                ausländische Kritiker in ihm einen Schüler der Psychoanalyse sehen. Dichtung sei von
                jeher seelenschürfend aus Intuition, also psychoanalytisch in einem weiteren Sinn
                gewesen. </p>
             <p>
-               <rs type="person" ref="#2121">Schnitzler</rs> ist, wie aus seinem »<rs type="work"
-                  ref="#30053">Buch der Sprüche und Bedenken</rs>« bekannt ist, überhaupt auf die
+               <rs type="person" ref="#pmb2121">Schnitzler</rs> ist, wie aus seinem »<rs type="work" ref="#pmb30053">Buch der Sprüche und Bedenken</rs>« bekannt ist, überhaupt auf die
                Kritik nicht gut zu sprechen, weil manche Rezensenten in ihm wohl immer noch den
                Dichter des »süßen Mädels« erblicken. Als Beispiel für die Ignoranz einer gewissen
-               Auslandskritik führt <rs type="person" ref="#2121">Schnitzler</rs> das kürzlich
-               erschienene <anchor type="commentary" xml:id="KT146-5"/>Referat<note
-                  type="commentary" xml:id="KT146-5h">nicht ermittelt</note> einer <rs type="place"
-                  ref="#182">Paris</rs>er Literaturzeitschrift über die <anchor type="commentary"
-                  xml:id="KT146-4"/>
-               <rs type="place" ref="#166">französische</rs> Übersetzung<note type="commentary"
-                  xml:id="KT146-4h">
+               Auslandskritik führt <rs type="person" ref="#pmb2121">Schnitzler</rs> das kürzlich
+               erschienene <anchor type="commentary" xml:id="KT146-5"/>Referat<note type="commentary" xml:id="KT146-5h">nicht ermittelt</note> einer <rs type="place" ref="#pmb182">Paris</rs>er Literaturzeitschrift über die <anchor type="commentary" xml:id="KT146-4"/>
+               <rs type="place" ref="#pmb166">französische</rs> Übersetzung<note type="commentary" xml:id="KT146-4h">
                   <bibl>
-                     <rs type="work" ref="#31295">Tristan</rs> par <rs type="person" ref="#12176"
-                        >Thomas Mann</rs>. Traduction de <rs type="person" ref="#29084">Gabrielle
+                     <rs type="work" ref="#pmb31295">Tristan</rs> par <rs type="person" ref="#pmb12176">Thomas Mann</rs>. Traduction de <rs type="person" ref="#pmb29084">Gabrielle
                         Valère-Gille</rs>. Paris: <publisher>Kra</publisher>
                      <space unit="chars" quantity="1"/>
                      <supplied>
                         <date>1927</date>
                      </supplied>
-                  </bibl>.</note> von <rs type="person" ref="#12176">Thomas Manns</rs> »<rs
-                  type="work" ref="#31295">Tristan</rs>« an. Dieses Referat gipfelte in der
-               Erklärung, man werde die Uebersetzung der »<rs type="work" ref="#33187">
-                  <anchor type="textConst" xml:id="T_I060-1"/>Buddenbrooks<note type="textConst"
-                     xml:id="T_I060-1h"><quote>Buddenbrocks</quote></note>
-               </rs>« abzuwarten haben, ehe man sich über den Wert <rs type="person" ref="#12176"
-                  >Thomas Manns</rs> im Klaren sei.</p>
-            <p>Das Problem <rs type="place" ref="#34438">
+                  </bibl>.</note> von <rs type="person" ref="#pmb12176">Thomas Manns</rs> »<rs type="work" ref="#pmb31295">Tristan</rs>« an. Dieses Referat gipfelte in der
+               Erklärung, man werde die Uebersetzung der »<rs type="work" ref="#pmb33187">
+                  <anchor type="textConst" xml:id="T_I060-1"/>Buddenbrooks<note type="textConst" xml:id="T_I060-1h">
+                     <quote>Buddenbrocks</quote>
+                  </note>
+               </rs>« abzuwarten haben, ehe man sich über den Wert <rs type="person" ref="#pmb12176">Thomas Manns</rs> im Klaren sei.</p>
+            <p>Das Problem <rs type="place" ref="#pmb34438">
                   <hi rend="spaced_out">Rußland</hi>
-               </rs> beschäftigt <rs type="person" ref="#2121">Schnitzler</rs> sehr viel. Er glaubt,
-               daß manches Gute im neuen <rs type="place" ref="#34438">Rußland</rs> geschähe, wie es
-               ihm auch <rs type="person" ref="#12126">Emil Ludwig</rs> aus eigener Anschauung
+               </rs> beschäftigt <rs type="person" ref="#pmb2121">Schnitzler</rs> sehr viel. Er glaubt,
+               daß manches Gute im neuen <rs type="place" ref="#pmb34438">Rußland</rs> geschähe, wie es
+               ihm auch <rs type="person" ref="#pmb12126">Emil Ludwig</rs> aus eigener Anschauung
                berichtet habe, aber er lehnt den Bolschewismus als »Mord am Geist« ab. Während wir
-               uns dem Ausgangspunkt des Spazierganges nähern, sagt <rs type="person" ref="#2121"
-                  >Schnitzler</rs> auf die zahlreichen, sonntäglichen Spaziergänger deutend: »Zwei
-               Arten von Menschen kann ich nicht vertragen, die vor, und die hinter mir gehen.« <rs
-                  type="work" ref="#33189">Scheu, Satire, Ironie oder tiefere Bedeutung</rs>? <signed>
+               uns dem Ausgangspunkt des Spazierganges nähern, sagt <rs type="person" ref="#pmb2121">Schnitzler</rs> auf die zahlreichen, sonntäglichen Spaziergänger deutend: »Zwei
+               Arten von Menschen kann ich nicht vertragen, die vor, und die hinter mir gehen.« <rs type="work" ref="#pmb33189">Scheu, Satire, Ironie oder tiefere Bedeutung</rs>? <signed>
                   <hi rend="antiqua">Frango</hi>
                </signed>
             </p>
          </div>
          <div type="biographical">
             <div1>
-               <ref type="schnitzlerDiary" target="1930-08-03"/>
-               <quote>Um 5 zu Haus;– Dr. <rs type="person" ref="#5295">Goldstein</rs> (<rs
-                     type="place" ref="#49137">Kattowitz</rs>) läßt sich melden. Mit ihm ist sein
-                  sehr junger Mitarbeiter <rs type="person" ref="#5304">Koplowitz</rs> da. Mit
+               <ref type="schnitzler-tagebuch" target="1930-08-03"/>
+               <quote>Um 5 zu Haus;– Dr. <rs type="person" ref="#pmb5295">Goldstein</rs> (<rs type="place" ref="#pmb49137">Kattowitz</rs>) läßt sich melden. Mit ihm ist sein
+                  sehr junger Mitarbeiter <rs type="person" ref="#pmb5304">Koplowitz</rs> da. Mit
                   beiden Spaziergang.–</quote>
             </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb5295">
+               <persName>
+                  <forename>Franz</forename>
+                  <surname>Goldstein</surname>
+               </persName>
+               <persName type="legacy-name-merge">Goldstein, Franz</persName>
+               <birth>
+                  <date when="1898-12-09">1898-12-09</date>
+                  <settlement ref="pmb49137">
+                     <placeName type="pref">Katowice</placeName>
+                     <location>
+                        <geo>50,25841 19,02754</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1982-07-02" notAfter="1982-12-31">1982</date>
+                  <settlement ref="pmb5297">
+                     <placeName type="pref">Jerusalem</placeName>
+                     <location>
+                        <geo>31,76904 35,21633</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116757140</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15551</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5295/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/17210/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q94881594</idno>
+            </person>
+            <person xml:id="pmb12126">
+               <persName>
+                  <forename>Emil</forename>
+                  <surname>Ludwig</surname>
+               </persName>
+               <birth>
+                  <date when="1881-01-25">25.01.1881</date>
+                  <settlement ref="pmb677">
+                     <placeName type="pref">Breslau</placeName>
+                     <location>
+                        <geo>51,10773 17,03533</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1948-09-17">17.09.1948</date>
+                  <settlement ref="pmb49872">
+                     <placeName type="pref">Ascona</placeName>
+                     <location>
+                        <geo>46,15451 8,77327</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17726</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118780778</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12126/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12126</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12126.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb12126</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp42631</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=L#DWpers0157</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q58836</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Emil_Ludwig</idno>
+            </person>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb11131">
+               <persName>
+                  <forename>Paul</forename>
+                  <surname>Czinner</surname>
+               </persName>
+               <birth>
+                  <date when="1890-05-30">30.05.1890</date>
+                  <settlement ref="pmb43471">
+                     <placeName type="pref">Budapest</placeName>
+                     <location>
+                        <geo>47,49835 19,04045</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1972-06-22">22.06.1972</date>
+                  <settlement ref="pmb224">
+                     <placeName type="pref">London</placeName>
+                     <location>
+                        <geo>51,50853 -0,12574</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb1839">Regisseur/Regisseurin &gt;&gt; Filmregisseur/Filmregisseurin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14335</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116787651</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11131.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11131/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11131</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11131</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp51190</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q215036</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Paul_Czinner</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11131.html</idno>
+            </person>
+            <person xml:id="pmb11319">
+               <persName>
+                  <forename>Jacques</forename>
+                  <surname>Feyder</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Frédérix</persName>
+               <birth>
+                  <date when="1885-07-21">21.07.1885</date>
+                  <settlement ref="pmb61027">
+                     <placeName type="pref">Ixelles-Elsene</placeName>
+                     <location>
+                        <geo>50,83333 4,36667</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1948-05-24">24.05.1948</date>
+                  <settlement ref="pmb61029">
+                     <placeName type="pref">Prangins</placeName>
+                     <location>
+                        <geo>46,39518 6,2496</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <occupation ref="pmb1839">Regisseur/Regisseurin &gt;&gt; Filmregisseur/Filmregisseurin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14973</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116485485</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11319/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q122187</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Jacques_Feyder</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11319.html</idno>
+            </person>
+            <person xml:id="pmb11975">
+               <persName>
+                  <forename>Fritz</forename>
+                  <surname>Kortner</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Kohn</persName>
+               <birth>
+                  <date when="1892-05-12">12.05.1892</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1970-07-22">22.07.1970</date>
+                  <settlement ref="pmb45258">
+                     <placeName type="pref">München</placeName>
+                     <location>
+                        <geo>48,13743 11,57549</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb104">Regisseur/Regisseurin</occupation>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17063</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118565591</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11975.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11975/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11975</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43932</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q78919</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Fritz_Kortner</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11975.html</idno>
+            </person>
+            <person xml:id="pmb5299">
+               <persName>
+                  <forename>Renée</forename>
+                  <surname>Falconetti</surname>
+               </persName>
+               <birth>
+                  <date when="1892-07-21">21.07.1892</date>
+                  <settlement ref="pmb44207">
+                     <placeName type="pref">Pantin</placeName>
+                     <location>
+                        <geo>48,89437 2,40935</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1946-12-12">12.12.1946</date>
+                  <settlement ref="pmb54042">
+                     <placeName type="pref">Buenos Aires</placeName>
+                     <location>
+                        <geo>-34,61315 -58,37723</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118954040</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14877</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5299/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q440600</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ren%C3%A9e_Falconetti</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb5299.html</idno>
+            </person>
+            <person xml:id="pmb15015">
+               <persName>
+                  <forename>Suzanne</forename>
+                  <surname>Clauser</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">von Adler</persName>
+               <persName type="person_pseudonym">Dominique Auclères</persName>
+               <birth>
+                  <date when="1898-05-16">1898-05-16</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1981-09-11">1981-09-11</date>
+                  <settlement ref="pmb182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb116">Übersetzer/Übersetzerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14234</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb15015.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/15015/</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb15015.html</idno>
+            </person>
+            <person xml:id="pmb5198">
+               <persName>
+                  <forename>Eugene</forename>
+                  <surname>O’Neill</surname>
+               </persName>
+               <birth>
+                  <date when="1888-10-16">16.10.1888</date>
+                  <settlement ref="pmb44053">
+                     <placeName type="pref">New York City</placeName>
+                     <location>
+                        <geo>40,71427 -74,00597</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1953-11-27">27.11.1953</date>
+                  <settlement ref="pmb889">
+                     <placeName type="pref">Boston (Massachusetts)</placeName>
+                     <location>
+                        <geo>42,35843 -71,05977</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118590014</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18555</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5198/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp50755</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q93157</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Eugene_O%E2%80%99Neill</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb5198.html</idno>
+            </person>
+            <person xml:id="pmb3272">
+               <persName>
+                  <surname>Molière</surname>
+               </persName>
+               <persName type="person_geburtsname-vorname">Jean-Baptiste</persName>
+               <persName type="person_geburtsname_nachname">Poquelin</persName>
+               <persName type="person_pseudonym">Molière</persName>
+               <persName type="legacy-name-merge">Poquelin, Jean Baptiste</persName>
+               <birth>
+                  <date when="1622-01-14">14.01.1622</date>
+                  <settlement ref="pmb182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1673-02-17">17.02.1673</date>
+                  <settlement ref="pmb182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/11858331X</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18214</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3272.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3272/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/22808/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb3272</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb3272.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp50292</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q687</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Moli%C3%A8re</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb3272.html</idno>
+            </person>
+            <person xml:id="pmb12176">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Mann</surname>
+               </persName>
+               <birth>
+                  <date when="1875-06-06">06.06.1875</date>
+                  <settlement ref="pmb884">
+                     <placeName type="pref">Lübeck</placeName>
+                     <location>
+                        <geo>53,86893 10,68729</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1955-08-12">12.08.1955</date>
+                  <settlement ref="pmb484">
+                     <placeName type="pref">Zürich</placeName>
+                     <location>
+                        <geo>47,37174 8,54226</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17838</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118577166</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12176.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12176/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12176</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12176.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb12176</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp54183</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=M#DWpers0161</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q37030</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Thomas_Mann</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb12176.html</idno>
+            </person>
+            <person xml:id="pmb29084">
+               <persName>
+                  <forename>Gabrielle</forename>
+                  <surname>Valère-Gille</surname>
+               </persName>
+               <sex value="female"/>
+               <occupation ref="pmb116">Übersetzer/Übersetzerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29084/</idno>
+            </person>
+            <person xml:id="pmb5304">
+               <persName>
+                  <forename>Oskar</forename>
+                  <surname>Koplowitz</surname>
+               </persName>
+               <persName type="namensvariante">Seidlin</persName>
+               <birth>
+                  <date when="1911-02-17">17.02.1911</date>
+                  <settlement ref="pmb55380">
+                     <placeName type="pref">Chorzów</placeName>
+                     <location>
+                        <geo>50,30582 18,9742</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1984-12-11">11.12.1984</date>
+                  <settlement ref="pmb47931">
+                     <placeName type="pref">Bloomington</placeName>
+                     <location>
+                        <geo>39,16533 -86,52639</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118612875</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17036</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5304/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q215748</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Oskar_Seidlin</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb30945">
+               <title>Im Spiel der Sommerlüfte. In drei Aufzügen</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date>1929-12-21</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.22</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/33637</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30945.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30945/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30945</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/1179805895</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30945.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+               <note type="references">https://www.boersenblatt-digital.de/pageview?tx_dlf[id]=26553&amp;tx_dlf[page]=6</note>
+            </bibl>
+            <bibl xml:id="pmb29941">
+               <title>Fräulein Else</title>
+               <title type="werk_bibliografische-angabe">Die neue Rundschau, Jg. 35, H. 10, Oktober 1924</title>
+               <title type="werk_link">https://www.arthur-schnitzler.de/edition/genetisch</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1924-10-01">01.10.1924</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.02.37</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1471310</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/33578</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29941.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29941/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29941</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29941.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Fr%C3%A4ulein_Else</idno>
+               <note type="work_kind">Erzählung</note>
+            </bibl>
+            <bibl xml:id="pmb30711">
+               <title>Fräulein Else (Film)</title>
+               <author ref="pmb11131" role="hat-geschaffen">Czinner, Paul</author>
+               <date notBefore="1929-01-01" when="1929-07-02">1929</date>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30711.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30711/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30711</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30711.html</idno>
+               <note type="work_kind">Film</note>
+            </bibl>
+            <bibl xml:id="pmb32157">
+               <title>Daybreak</title>
+               <author ref="pmb11319" role="hat-geschaffen">Feyder, Jacques</author>
+               <date when="1931-01-01">1931</date>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb32157.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32157/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb32157.html</idno>
+               <note type="work_kind">Film</note>
+            </bibl>
+            <bibl xml:id="pmb32131">
+               <title>Spiel im Morgengrauen. Novelle</title>
+               <title type="werk_bibliografische-angabe">Berliner Illustrirte Zeitung, 5. 12. 1926 – 9. 1. 1927</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date to="1927-01-09">5.12.1926  – 9.1.1927</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.02.42</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1761527</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb32131.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32131/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb32131</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb32131.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Spiel_im_Morgengrauen</idno>
+               <note type="work_kind">Novelle</note>
+            </bibl>
+            <bibl xml:id="pmb30203">
+               <title>Professor Bernhardi. Komödie in fünf Akten</title>
+               <title type="werk_arbeitstitel">Ärztestück</title>
+               <title type="werk_arbeitstitel">Junggesellenstück</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date notBefore="1912-01-01" when="1912-07-01">1912</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.31</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q872683</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-professor-bernhardi</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/43034</idno>
+               <idno type="URL" subtype="archive">http://www.archive.org/details/professorbernhar00schn</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30203.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30203/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30203</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30203.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Professor_Bernhardi</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb29855">
+               <title>Reigen. Zehn Dialoge</title>
+               <title type="werk_link">https://www.digital.wienbibliothek.at/wbrobv/content/pageview/2587756</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1900-01-01">1900</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.32</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1414190</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-reigen</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/33309</idno>
+               <idno type="URL" subtype="deutschestextarchiv">http://www.deutschestextarchiv.de/book/show/schnitzler_reigen_1903</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29855.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29855/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29855</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29855.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb30817">
+               <title>Therese. Chronik eines Frauenlebens</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1928-01-01">1928</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.02.44</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q699088</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30817.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30817/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30817</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30817.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Therese._Chronik_eines_Frauenlebens</idno>
+               <note type="work_kind">Roman</note>
+            </bibl>
+            <bibl xml:id="pmb33191">
+               <title>Seltsames Zwischenspiel</title>
+               <title type="namensvariante">Strange Interlude</title>
+               <author ref="pmb5198" role="hat-geschaffen">O’Neill, Eugene</author>
+               <date notBefore="1928-01-01" when="1928-07-01">1928</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33191/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33191.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb30053">
+               <title>Buch der Sprüche und Bedenken</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1927-01-01">1927</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.03.02</idno>
+               <idno type="URL" subtype="literature">http://www.literature.at/viewer.alo?objid=12112</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30053.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30053/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30053</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30053.html</idno>
+               <note type="work_kind">Textsammlung &gt;&gt; Aphorismensammlung</note>
+            </bibl>
+            <bibl xml:id="pmb31295">
+               <title>Tristan</title>
+               <author ref="pmb12176" role="hat-geschaffen">Mann, Thomas</author>
+               <date when="1903-01-01">1903</date>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31295.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31295/</idno>
+               <note type="work_kind">Text</note>
+            </bibl>
+            <bibl xml:id="pmb33187">
+               <title>Buddenbrooks</title>
+               <author ref="pmb12176" role="hat-geschaffen">Mann, Thomas</author>
+               <date notBefore="1901-01-01" when="1901-07-02">1901</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33187/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33187</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33187.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33187.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb33187</idno>
+               <note type="work_kind">Roman</note>
+            </bibl>
+            <bibl xml:id="pmb33189">
+               <title>Scherz, Satire, Ironie und tiefere Bedeutung</title>
+               <author ref="pmb11508" role="hat-geschaffen">Grabbe, Christian Dietrich</author>
+               <date notBefore="1827-01-01" when="1827-07-02">1827</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33189/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2233825</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Scherz,_Satire,_Ironie_und_tiefere_Bedeutung</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb33185">
+               <title>Spaziergang mit Schnitzler</title>
+               <title type="werk_bibliografische-angabe">Tempo, 19. 8. 1930</title>
+               <author ref="pmb5295" role="hat-unter-pseudonym-geschrieben">Goldstein, Franz</author>
+               <date when="1930-08-19">19.08.1930</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33185/</idno>
+               <note type="work_kind">Text</note>
+            </bibl>
+            <bibl xml:id="pmb58352">
+               <title>Tempo</title>
+               <date from="1928-01-01" to="1933-07-02">1928  – 1933</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58352/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2403036</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Tempo_(Zeitung)</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb44374">
+               <placeName>Sankt Moritz</placeName>
+               <placeName type="alternative-name">St. Moritz</placeName>
+               <placeName type="alternative-name">Saint Moritz</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPL</desc>
+               <desc type="entity_type_id">1412</desc>
+               <location type="coords">
+                  <geo>46,49937 9,84327</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb43435">Schweiz</placeName>
+                  <geo>47,00016 8,01427</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb1061">Engadin</placeName>
+                  <geo>46,601337 9,965973</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1059/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/24276/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44374/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2658813/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb44374</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb44374.html</idno>
+            </place>
+            <place xml:id="pmb1061">
+               <placeName>Engadin</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#T.VAL</desc>
+               <desc type="entity_type_id">1532</desc>
+               <location type="coords">
+                  <geo>46,601337 9,965973</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb43435">Schweiz</placeName>
+                  <geo>47,00016 8,01427</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2660904/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1061/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb1061</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb1061.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q22883</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Engadin</idno>
+            </place>
+            <place xml:id="pmb59387">
+               <placeName>St. Moritzersee</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#H.LK</desc>
+               <desc type="entity_type_id">1618</desc>
+               <location type="coords">
+                  <geo>46,4938 9,84591</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb43435">Schweiz</placeName>
+                  <geo>47,00016 8,01427</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/59387/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/11396683/</idno>
+            </place>
+            <place xml:id="pmb44311">
+               <placeName>San Martino di Castrozza</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPL</desc>
+               <desc type="entity_type_id">1412</desc>
+               <location type="coords">
+                  <geo>46,26667 11,8</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb40306">Italien</placeName>
+                  <geo>42,83333 12,83333</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1060/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44311/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3168019/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb44311</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb44311.html</idno>
+            </place>
+            <place xml:id="pmb1062">
+               <placeName>Hotel Fratazza</placeName>
+               <desc type="entity_type">Hotel (K.HTL)</desc>
+               <desc type="entity_type_id">12</desc>
+               <location type="coords">
+                  <geo>46,254572 11,802146</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb44311">San Martino di Castrozza</placeName>
+                  <geo>46,26667 11,8</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1062/</idno>
+            </place>
+            <place xml:id="pmb168">
+               <placeName>Berlin</placeName>
+               <placeName type="alternative-name">Hauptstadt Berlin</placeName>
+               <placeName type="alternative-name">Barlīn</placeName>
+               <placeName type="alternative-name">Reichshauptstadt Berlin</placeName>
+               <placeName type="alternative-name">Berolino</placeName>
+               <placeName type="legacy-name-merge">B-n</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPLC</desc>
+               <desc type="entity_type_id">1418</desc>
+               <location type="coords">
+                  <geo>52,52437 13,41053</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb151">Deutschland</placeName>
+                  <geo>51,5 10,5</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb168</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92171.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
+            </place>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+            <place xml:id="pmb182">
+               <placeName>Paris</placeName>
+               <placeName type="alternative-name">P'ariz</placeName>
+               <placeName type="alternative-name">Pariž</placeName>
+               <placeName type="alternative-name">Parisius</placeName>
+               <placeName type="alternative-name">Île-de-France</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,85341 2,3488</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb166">Frankreich</placeName>
+                  <geo>46,0 2,0</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb182.html</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4044660-8</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/182/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb182</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64183/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2988507/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb182</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb182.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q90</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Paris</idno>
+            </place>
+            <place xml:id="pmb166">
+               <placeName>Frankreich</placeName>
+               <placeName type="alternative-name">France</placeName>
+               <desc type="entity_type">Land (A.LND)</desc>
+               <desc type="entity_type_id">38</desc>
+               <location type="coords">
+                  <geo>46,0 2,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb468">Europa</placeName>
+                  <geo>48,69096 9,14062</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q142</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb166.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3017382/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/166/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb166</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb166.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Frankreich</idno>
+            </place>
+            <place xml:id="pmb34438">
+               <placeName>Russland</placeName>
+               <placeName type="alternative-name">Russische Föderation</placeName>
+               <placeName type="alternative-name">Russian Federation</placeName>
+               <placeName type="alternative-name">Russian Soviet Federated Socialist Republic</placeName>
+               <placeName type="alternative-name">Russian Soviet Federative Socialist Republic</placeName>
+               <placeName type="alternative-name">Russian Socialist Federative Soviet Republic</placeName>
+               <placeName type="legacy-name-merge">Russia</placeName>
+               <placeName type="legacy-name-merge">Rußland</placeName>
+               <desc type="entity_type">http://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>60,0 100,0</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43976/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2017370/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/14117/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/34438/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb34438</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb34438</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb34438.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/119245/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4076899-5</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q159</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Russland</idno>
+            </place>
+            <place xml:id="pmb49137">
+               <placeName>Katowice</placeName>
+               <placeName type="alternative-name">Kattowitz</placeName>
+               <placeName type="legacy-name-merge">Kattowiz/Katowice</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPLA</desc>
+               <desc type="entity_type_id">1415</desc>
+               <location type="coords">
+                  <geo>50,25841 19,02754</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb313">Polen</placeName>
+                  <geo>52,0 20,0</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1063/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29334/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/49137/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3096472/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb49137.html</idno>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

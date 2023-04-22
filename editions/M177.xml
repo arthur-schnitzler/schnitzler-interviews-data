@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="M177">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="M177">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#63301">Ein bisher unveröffentlichter Brief Schnitzlers,
-               19.&#8239;12.&#8239;1931</title>
+            <title level="a" ref="#pmb63301">Ein bisher unveröffentlichter Brief Schnitzlers,
+               19. 12. 1931</title>
             <author/>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -28,16 +30,16 @@
             <listBibl>
                <biblStruct>
                   <monogr>
-                     <title level="j" ref="#63300">Morgenzeitung und Handelsblatt</title>
+                     <title level="j" ref="#pmb63300">Morgenzeitung und Handelsblatt</title>
                      <imprint>
-                        <date when="1931-12-19" n="1">19.&#8239;12.&#8239;1931</date>
+                        <date when="1931-12-19" n="1">19. 12. 1931</date>
                      </imprint>
                      <biblScope unit="jg">19</biblScope>
                   </monogr>
                </biblStruct>
                <biblStruct corresp="ASB2">
                   <monogr>
-                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefe 1913–1931</title>
                      <editor>Hg. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und
                         Heinrich Schnitzler</editor>
@@ -81,34 +83,36 @@
       <body>
          <div type="original">
             <head>Ein bisher unveröffentlichter Brief Schnitzlers.</head>
-            <head type="sub">Antwort in Sachen des <rs type="work" ref="#30203">Professors
+            <head type="sub">Antwort in Sachen des <rs type="work" ref="#pmb30203">Professors
                   Bernhardi</rs>.</head>
-            <p rend="inline">Von befreundeter Seite wird uns ein Brief Arthur <hi rend="spaced_out"
-                  >Schnitzlers</hi> zur Verfügung gestellt, der eine Antwort des Dichters an eine
-                  <anchor type="commentary" xml:id="K_M177-1"/><rs type="person" ref="#63206"
-                     subtype="implied">Dame</rs><note type="commentary" xml:id="K_M177-1h"><rs type="person" ref="#63206"
-                        >Edith
-                  Werner</rs>, zu diesem Zeitpunkt Schülerin eines Mädchenpensionats in <rs type="place"
-                     ref="#50">Wien</rs>, hatte in ihrem Brief vom <date>24.&#8239;3.&#8239;1924</date>
-                  auf eine Stelle im ersten Akt von <rs type="work" ref="#30203">Professor
+            <p rend="inline">Von befreundeter Seite wird uns ein Brief Arthur <hi rend="spaced_out">Schnitzlers</hi> zur Verfügung gestellt, der eine Antwort des Dichters an eine
+                  <anchor type="commentary" xml:id="K_M177-1"/>
+               <rs type="person" ref="#pmb63206" subtype="implied">Dame</rs>
+               <note type="commentary" xml:id="K_M177-1h">
+                  <rs type="person" ref="#pmb63206">Edith
+                  Werner</rs>, zu diesem Zeitpunkt Schülerin eines Mädchenpensionats in <rs type="place" ref="#pmb50">Wien</rs>, hatte in ihrem Brief vom <date>24. 3. 1924</date>
+                  auf eine Stelle im ersten Akt von <rs type="work" ref="#pmb30203">Professor
                      Bernhardi</rs> hingewiesen, die ihrer Meinung nach einen Widerspruch enthalte.
                   Die Sterbende, von der Bernhardi sage, sie sei völlig ahnungslos und von ihrer
                   Heilung überzeugt, rufe, als ihr die Schwester den Besuch des Priesters ankündigt,
                   aus: »Muß ich denn wirklich sterben?« Dieses »wirklich« stehe nicht im Einklang
-                  mit der Aussage Bernhardis (<bibl><title level="m">Briefe</title> II,
-                     S.&#8239;959</bibl>).</note> ist, die mit der Auffassung Schnitzlers nicht
+                  mit der Aussage Bernhardis (<bibl>
+                     <title level="m">Briefe</title> II,
+                     S. 959</bibl>).</note> ist, die mit der Auffassung Schnitzlers nicht
                einverstanden war. Hier der Wortlaut des Schreibens:</p>
-            <p><space dim="vertical" quantity="1" unit="paragraphs"/></p>
-            <p rend="right"><date>10.&#160;April 1924</date>.</p>
+            <p>
+               <space dim="vertical" quantity="1" unit="paragraphs"/>
+            </p>
+            <p rend="right">
+               <date>10. April 1924</date>.</p>
             <p rend="center">Sehr geehrtes Fräulein!</p>
             <p>Ihr Bedenken ist ganz klug, aber trotzdem trifft es nicht zu. Die Sterbende ist zwar
                in Euphorie verfallen, aber vorher war sie nicht nur krank, sondern sie hat sich auch
                krank gefühlt und Todesgedanken gehabt. Die Ankündigung des priesterlichen Besuches
                weckt sie eben aus ihrer Euphorie, auch aus der seelilischen, die Todesangst ist
                wieder da, nicht zum ersten Mal und auch ihre früheren Aengste kommen ihr nun neu zum
-               Bewußtsein. <rs type="work" ref="#30203" subtype="implied">Bernhardi</rs> enthält ihr
-               also nicht die Segnungen der Kirche vor, die ja gewiß (wie später von Prof. <rs
-                  type="work" ref="#30203" subtype="implied">Cyprian</rs> deutlich gesagt wird) von
+               Bewußtsein. <rs type="work" ref="#pmb30203" subtype="implied">Bernhardi</rs> enthält ihr
+               also nicht die Segnungen der Kirche vor, die ja gewiß (wie später von Prof. <rs type="work" ref="#pmb30203" subtype="implied">Cyprian</rs> deutlich gesagt wird) von
                manchen Sterbenden wirklich als Segnungen empfunden werden, sondern er erfüllt seine
                ärztliche Pflicht, indem er seine Patientin davor zu bewahren sucht, aus ungestörtem
                Wohlgefühl unvermittelt in Todesgrauen versetzt zu werden. Ich hoffe Sie sind
@@ -116,5 +120,130 @@
             <p rend="right">Arthur <hi rend="spaced_out">Schnitzler</hi>.</p>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb63206">
+               <persName>
+                  <forename>Edith</forename>
+                  <surname>Werner</surname>
+               </persName>
+               <persName type="person_ehename_nachname">Crossman</persName>
+               <birth>
+                  <date when="1908-02-06">1908-02-06</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="2000-07-01" notAfter="2000-12-31">2000</date>
+               </death>
+               <sex value="female"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63206/</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb30203">
+               <title>Professor Bernhardi. Komödie in fünf Akten</title>
+               <title type="werk_arbeitstitel">Ärztestück</title>
+               <title type="werk_arbeitstitel">Junggesellenstück</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date notBefore="1912-01-01" when="1912-07-01">1912</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.31</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q872683</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-professor-bernhardi</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/43034</idno>
+               <idno type="URL" subtype="archive">http://www.archive.org/details/professorbernhar00schn</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30203.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30203/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30203</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30203.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Professor_Bernhardi</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb63300">
+               <title>Morgenzeitung und Handelsblatt</title>
+               <date>None</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63300/</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

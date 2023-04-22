@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="P129">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="P129">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#59827">Antoine: Aus meinen Erinnerungen, 9.&#8239;10.&#8239;1927</title>
-            <author ref="#2211">Antoine</author>
-            <author ref="#2121">Schnitzler, Arthur</author>
+            <title level="a" ref="#pmb59827">Antoine: Aus meinen Erinnerungen, 9. 10. 1927</title>
+            <author ref="#pmb2211">Antoine</author>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -28,14 +30,14 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#2211">Antoine</author>
-                     <title level="a" ref="#59827">Aus meinen Erinnerungen. Brieux, Sudermann, Zola,
+                     <author ref="#pmb2211">Antoine</author>
+                     <title level="a" ref="#pmb59827">Aus meinen Erinnerungen. Brieux, Sudermann, Zola,
                         Schnitzler</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#36376">Neues Wiener Journal</title>
+                     <title level="j" ref="#pmb36376">Neues Wiener Journal</title>
                      <imprint>
-                        <date when="1927-10-09" n="1">9.&#8239;10.&#8239;1927</date>
+                        <date when="1927-10-09" n="1">9. 10. 1927</date>
                      </imprint>
                      <biblScope unit="jg">35</biblScope>
                      <biblScope unit="nr">12.168</biblScope>
@@ -63,19 +65,15 @@
             <head type="sub">von</head>
             <head type="sub">Antoine.</head>
             <head type="sub">
-               <rs type="person" ref="#4791">Brieux</rs>, <rs type="person" ref="#12899"
-                  >Sudermann</rs>, <rs type="person" ref="#13194">Zola</rs>, Schnitzler.</head>
-            <p rend="inline">Die <anchor type="commentary" xml:id="K_I129-2"/>Tagebücher<note
-                  type="commentary" xml:id="K_I129-2h">
+               <rs type="person" ref="#pmb4791">Brieux</rs>, <rs type="person" ref="#pmb12899">Sudermann</rs>, <rs type="person" ref="#pmb13194">Zola</rs>, Schnitzler.</head>
+            <p rend="inline">Die <anchor type="commentary" xml:id="K_I129-2"/>Tagebücher<note type="commentary" xml:id="K_I129-2h">
                   <bibl>
-                     <rs type="person" ref="#2211">André Antoine</rs>: <rs type="work" ref="#59833"
-                        >Mes souvenirs sur le Théâtre Antoine et sur l'Odéon (Première
+                     <rs type="person" ref="#pmb2211">André Antoine</rs>: <rs type="work" ref="#pmb59833">Mes souvenirs sur le Théâtre Antoine et sur l'Odéon (Première
                         Direction)</rs>. Paris: <publisher>Grasset</publisher>
                      <space unit="chars" quantity="1"/>
                      <date>1928</date> (vordatiert von <date>1927</date>, wie dieser Auszug
-                     beweist)</bibl>.</note> des berühmten Direktors des <rs type="place" ref="#792"
-                  >Pariser Odéon</rs>, <hi rend="spaced_out">Antoine</hi>, bilden glanzvolle Blätter
-               der Geschichte des <rs type="place" ref="#166">französischen</rs> Theaters der
+                     beweist)</bibl>.</note> des berühmten Direktors des <rs type="place" ref="#pmb792">Pariser Odéon</rs>, <hi rend="spaced_out">Antoine</hi>, bilden glanzvolle Blätter
+               der Geschichte des <rs type="place" ref="#pmb166">französischen</rs> Theaters der
                letzten vier Jahrzehnte. Diese Aufzeichnungen und die ihnen angeschlossenen Briefe
                berühmter Autoren sind trotz ihres episodenhaften Charakters historische Dokumente:
                sie schildern in plastischer Weise und mit überzeugender Kraft die mächtigen
@@ -88,24 +86,19 @@
                <gap reason="outOfScope" unit="paragraphs" quantity="15"/>
             </p>
             <p rend="right">
-               <date>16.&#160;Juni&#8239;1899</date>.</p>
-            <p>Von <rs type="person" ref="#10992">Georges <hi rend="spaced_out">Brandes</hi>
-               </rs> erhalte ich folgenden Brief: »Lieber und berühmter Kollege! Ein <rs
-                  type="place" ref="#41240">österreichischer</rs> Dichter, Artur Schnitzler,
-               schreibt mir, daß eine <anchor type="commentary" xml:id="K_I129-22"
-                  />Uebersetzung<note type="commentary" xml:id="K_I129-22h">Die Übersetzung dürfte
-                  von einem <rs type="person" ref="#29105">Émil Soutif</rs> stammen, ist aber nicht
-                  überliefert.</note> eines seiner <rs type="work" ref="#29843" subtype="implied"
-                  >Stücke</rs> (das während der <rs type="place" ref="#166">französischen</rs>
+               <date>16. Juni 1899</date>.</p>
+            <p>Von <rs type="person" ref="#pmb10992">Georges <hi rend="spaced_out">Brandes</hi>
+               </rs> erhalte ich folgenden Brief: »Lieber und berühmter Kollege! Ein <rs type="place" ref="#pmb41240">österreichischer</rs> Dichter, Artur Schnitzler,
+               schreibt mir, daß eine <anchor type="commentary" xml:id="K_I129-22"/>Uebersetzung<note type="commentary" xml:id="K_I129-22h">Die Übersetzung dürfte
+                  von einem <rs type="person" ref="#pmb29105">Émil Soutif</rs> stammen, ist aber nicht
+                  überliefert.</note> eines seiner <rs type="work" ref="#pmb29843" subtype="implied">Stücke</rs> (das während der <rs type="place" ref="#pmb166">französischen</rs>
                Revolution spielt) bei Ihrem Theater eingereicht worden ist. Er meint, daß Sie mich
                vielleicht dem Namen nach kennen und daß eine Empfehlung von mir Ihr Interesse
                erregen würde. Ich weiß nicht, ob ich die Ehre habe, Ihnen bekannt zu sein. Auf jeden
-               Fall erlaube ich mir, Sie bloß zu bitten, das <rs type="work" ref="#29843" subtype="implied">Stück</rs>
+               Fall erlaube ich mir, Sie bloß zu bitten, das <rs type="work" ref="#pmb29843" subtype="implied">Stück</rs>
                <space unit="chars" quantity="1"/>
-               <hi rend="spaced_out">Schnitzlers</hi> sorgfältig zu lesen. Er hat in <rs
-                  type="place" ref="#41240">Oesterreich</rs> einen gewissen Erfolg gehabt. Aus
-               Freundschaft zum Verfasser würde ich ihm auch in <rs type="place" ref="#166"
-                  >Frankreich</rs> Erfolg wünschen. Empfangen Sie den Ausdruck meiner aufrichtigen
+               <hi rend="spaced_out">Schnitzlers</hi> sorgfältig zu lesen. Er hat in <rs type="place" ref="#pmb41240">Oesterreich</rs> einen gewissen Erfolg gehabt. Aus
+               Freundschaft zum Verfasser würde ich ihm auch in <rs type="place" ref="#pmb166">Frankreich</rs> Erfolg wünschen. Empfangen Sie den Ausdruck meiner aufrichtigen
                Bewunderung.</p>
             <p rend="right">Georges Brandes.</p>
             <p>
@@ -113,45 +106,569 @@
             </p>
             <p>
                <supplied>
-                  <anchor type="commentary" xml:id="K_P129-1"/>Redakteur<note type="commentary"
-                     xml:id="K_P129-1h">Bei dem ungenannt bleibenden Redakteur, der die Kompilation
-                     verantwortet, dürfte es sich um <rs type="person" ref="#60976">Walter
-                        Nagelstock</rs> handeln. Seine Briefe im Nachlass <rs type="person"
-                        ref="#2121">Schnitzler</rs>s aus dem betreffenden Zeitraum sind in der <rs
-                        type="org" ref="#29355">Cambridge University Library</rs> aufbewahrt
+                  <anchor type="commentary" xml:id="K_P129-1"/>Redakteur<note type="commentary" xml:id="K_P129-1h">Bei dem ungenannt bleibenden Redakteur, der die Kompilation
+                     verantwortet, dürfte es sich um <rs type="person" ref="#pmb60976">Walter
+                        Nagelstock</rs> handeln. Seine Briefe im Nachlass <rs type="person" ref="#pmb2121">Schnitzler</rs>s aus dem betreffenden Zeitraum sind in der <rs type="org" ref="#pmb29355">Cambridge University Library</rs> aufbewahrt
                         (<bibl>B 199</bibl>).</note>:</supplied> Es hat sich damals offenbar um das
                Stück »<anchor type="commentary" xml:id="K_I129-1"/>
-               <rs type="work" ref="#29845">Die Gefährtin</rs>
+               <rs type="work" ref="#pmb29845">Die Gefährtin</rs>
                <note type="commentary" xml:id="K_I129-1h">Das hier vom Herausgeber verwendete
                      »<quote>offenbar</quote>« ist offenbar falsch. Der Grund, weswegen dieses Stück
-                  hier Erwähnung findet, dürfte die in Folge angeführte Premiere unter dem Titel <rs
-                     type="work" ref="#59837">La compagne</rs> am <date>29.&#8239;4.&#8239;1902</date> sein. Die
-                  Übersetzung stammt von <rs type="person" ref="#26414">Maurice
-                  Vaucaire</rs>.</note>« gehandelt, das <date>1902</date> bei <rs type="place"
-                  ref="#610">Antoine</rs> tatsächlich aufgeführt wurde; <date>1904</date> folgte
+                  hier Erwähnung findet, dürfte die in Folge angeführte Premiere unter dem Titel <rs type="work" ref="#pmb59837">La compagne</rs> am <date>29. 4. 1902</date> sein. Die
+                  Übersetzung stammt von <rs type="person" ref="#pmb26414">Maurice
+                  Vaucaire</rs>.</note>« gehandelt, das <date>1902</date> bei <rs type="place" ref="#pmb610">Antoine</rs> tatsächlich aufgeführt wurde; <date>1904</date> folgte
                dort der »<anchor type="commentary" xml:id="K_I129-5"/>
-               <rs type="work" ref="#29843">Grüne Kakadu</rs>
-               <note type="commentary" xml:id="K_I129-5h">Im <rs type="place" ref="#610">Théâtre
-                     Antoine</rs> hatte <rs type="work" ref="#58367">Le Perroquet Vert</rs> am
-                     <date>7.&#8239;11.&#8239;1903</date> Premiere. Die Übersetzung stammt von <rs
-                     type="person" ref="#2199">Stephan Epstein</rs> und <rs type="person"
-                     ref="#2206">Émile Lutz</rs>.</note>«. Schnitzler fügt in einem an mich
-               gerichteten Briefe hinzu, daß es ihm bis heute <anchor type="commentary"
-                  xml:id="K_I129-4"/>völlig unbekannt<note type="commentary" xml:id="K_I129-4h">Hier
-                  erinnert sich <rs type="person" ref="#2121">Schnitzler</rs> falsch, seine Briefe
-                  an <rs type="person" ref="#10992">Georg Brandes</rs> belegen, dass er <rs
-                     type="person" ref="#10992">Brandes</rs> darum bat, auch wenn er <rs
-                     type="person" ref="#2211">Antoine</rs> nicht kenne, diesem eine Empfehlung des
-                     <rs type="work" ref="#29843">Grünen Kakadu</rs> zu senden, <bibl>vgl. <title
-                        level="m">schnitzler-briefe</title>, Brief von Schnitzler an Brandes vom
-                        <date>8.&#8239;6.&#8239;1899</date> (L00923) und das Antwortschreiben vom
-                        <date>12.&#8239;6.&#8239;1899</date> (L00924)</bibl>.</note> gewesen, daß <rs
-                  type="person" ref="#10992">Georges Brandes</rs> sich dazumal für sein <rs
-                  type="work" subtype="implied" ref="#29843">Stück</rs> bei Antoine eingesetzt
-               hatte. Wohl aber wußte er, daß der große <rs type="person" subtype="implied"
-                  ref="#10992">Däne</rs> ihm von seinen ersten Anfängen an »starke und werktätige
+               <rs type="work" ref="#pmb29843">Grüne Kakadu</rs>
+               <note type="commentary" xml:id="K_I129-5h">Im <rs type="place" ref="#pmb610">Théâtre
+                     Antoine</rs> hatte <rs type="work" ref="#pmb58367">Le Perroquet Vert</rs> am
+                     <date>7. 11. 1903</date> Premiere. Die Übersetzung stammt von <rs type="person" ref="#pmb2199">Stephan Epstein</rs> und <rs type="person" ref="#pmb2206">Émile Lutz</rs>.</note>«. Schnitzler fügt in einem an mich
+               gerichteten Briefe hinzu, daß es ihm bis heute <anchor type="commentary" xml:id="K_I129-4"/>völlig unbekannt<note type="commentary" xml:id="K_I129-4h">Hier
+                  erinnert sich <rs type="person" ref="#pmb2121">Schnitzler</rs> falsch, seine Briefe
+                  an <rs type="person" ref="#pmb10992">Georg Brandes</rs> belegen, dass er <rs type="person" ref="#pmb10992">Brandes</rs> darum bat, auch wenn er <rs type="person" ref="#pmb2211">Antoine</rs> nicht kenne, diesem eine Empfehlung des
+                     <rs type="work" ref="#pmb29843">Grünen Kakadu</rs> zu senden, <bibl>vgl. <title level="m">schnitzler-briefe</title>, Brief von Schnitzler an Brandes vom
+                        <date>8. 6. 1899</date> (L00923) und das Antwortschreiben vom
+                        <date>12. 6. 1899</date> (L00924)</bibl>.</note> gewesen, daß <rs type="person" ref="#pmb10992">Georges Brandes</rs> sich dazumal für sein <rs type="work" subtype="implied" ref="#pmb29843">Stück</rs> bei Antoine eingesetzt
+               hatte. Wohl aber wußte er, daß der große <rs type="person" subtype="implied" ref="#pmb10992">Däne</rs> ihm von seinen ersten Anfängen an »starke und werktätige
                Sympathie« entgegenbrachte.</p>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2211">
+               <persName>
+                  <forename>André</forename>
+                  <surname>Antoine</surname>
+               </persName>
+               <persName type="legacy-name-merge">Antoine, André Leonhard</persName>
+               <birth>
+                  <date when="1858-01-31">1858-01-31</date>
+                  <settlement ref="pmb47377">
+                     <placeName type="pref">Limoges</placeName>
+                     <location>
+                        <geo>45,83362 1,24759</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1943-10-23">1943-10-23</date>
+                  <settlement ref="pmb53788">
+                     <placeName type="pref">Le Pouliguen</placeName>
+                     <location>
+                        <geo>47,27187 -2,43319</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118649663</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2211.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2211/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13228</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2211</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38321</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q529001</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Andr%C3%A9_Antoine</idno>
+            </person>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb4791">
+               <persName>
+                  <forename>Eugène</forename>
+                  <surname>Brieux</surname>
+               </persName>
+               <birth>
+                  <date when="1858-01-19">19.01.1858</date>
+                  <settlement ref="pmb182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1932-12-07">07.12.1932</date>
+                  <settlement ref="pmb926">
+                     <placeName type="pref">Nizza</placeName>
+                     <location>
+                        <geo>43,70313 7,26608</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/119534673</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13974</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb4791.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4791/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb4791.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp39507</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q960640</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Eug%C3%A8ne_Brieux</idno>
+            </person>
+            <person xml:id="pmb12899">
+               <persName>
+                  <forename>Hermann</forename>
+                  <surname>Sudermann</surname>
+               </persName>
+               <birth>
+                  <date when="1857-09-30">30.09.1857</date>
+                  <settlement ref="pmb58616">
+                     <placeName type="pref">Macikai</placeName>
+                     <location>
+                        <geo>55,35468 21,52004</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1928-11-21">21.11.1928</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20563</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118619853</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12899.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12899/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12899</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12899.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp45949</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q65448</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hermann_Sudermann</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb12899.html</idno>
+            </person>
+            <person xml:id="pmb13194">
+               <persName>
+                  <forename>Émile</forename>
+                  <surname>Zola</surname>
+               </persName>
+               <birth>
+                  <date when="1840-04-02">02.04.1840</date>
+                  <settlement ref="pmb182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1902-09-29">29.09.1902</date>
+                  <settlement ref="pmb182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21578</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118637223</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/13194/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13194.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp42655</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q504</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/%C3%89mile_Zola</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb13194.html</idno>
+            </person>
+            <person xml:id="pmb10992">
+               <persName>
+                  <forename>Georg</forename>
+                  <surname>Brandes</surname>
+               </persName>
+               <birth>
+                  <date when="1842-02-04">04.02.1842</date>
+                  <settlement ref="pmb36300">
+                     <placeName type="pref">Kopenhagen</placeName>
+                     <location>
+                        <geo>55,67594 12,56553</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1927-02-19">19.02.1927</date>
+                  <settlement ref="pmb36300">
+                     <placeName type="pref">Kopenhagen</placeName>
+                     <location>
+                        <geo>55,67594 12,56553</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13920</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118514326</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10992.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10992/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10992</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10992.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp44279</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q316045</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Georg_Brandes</idno>
+            </person>
+            <person xml:id="pmb29105">
+               <persName>
+                  <forename>Émile</forename>
+                  <surname>Soutif</surname>
+               </persName>
+               <sex value="male"/>
+               <occupation ref="pmb240">Lehrer/Lehrerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29105/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29105</idno>
+            </person>
+            <person xml:id="pmb60976">
+               <persName>
+                  <forename>Walter</forename>
+                  <surname>Nagelstock</surname>
+               </persName>
+               <birth>
+                  <date when="1878-08-24">1878-08-24</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1943-07-02" notAfter="1943-12-31">1943</date>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb173">Redakteur/Redakteurin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60976/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp59587</idno>
+            </person>
+            <person xml:id="pmb26414">
+               <persName>
+                  <forename>Maurice</forename>
+                  <surname>Vaucaire</surname>
+               </persName>
+               <birth>
+                  <date when="1863-07-02">02.07.1863</date>
+                  <settlement ref="pmb36549">
+                     <placeName type="pref">Versailles</placeName>
+                     <location>
+                        <geo>48,80359 2,13424</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1918-02-10">1918-02-10</date>
+                  <settlement ref="pmb36749">
+                     <placeName type="pref">Neuilly-sur-Seine</placeName>
+                     <location>
+                        <geo>48,8846 2,26965</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <occupation ref="pmb116">Übersetzer/Übersetzerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20931</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/26414/</idno>
+            </person>
+            <person xml:id="pmb2199">
+               <persName>
+                  <forename>Stephan</forename>
+                  <surname>Epstein</surname>
+               </persName>
+               <birth>
+                  <date when="1866-11-12">12.11.1866</date>
+                  <settlement ref="pmb888">
+                     <placeName type="pref">Warschau</placeName>
+                     <location>
+                        <geo>52,22977 21,01178</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1941-01-01">1941</date>
+                  <settlement ref="pmb182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb115">Dramaturg/Dramaturgin</occupation>
+               <occupation ref="pmb116">Übersetzer/Übersetzerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116517220</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14779</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2199.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2199/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2199</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q95245180</idno>
+            </person>
+            <person xml:id="pmb2206">
+               <persName>
+                  <forename>Émile</forename>
+                  <surname>Lutz</surname>
+               </persName>
+               <birth>
+                  <date when="1868-04-08">1868-04-08</date>
+                  <settlement ref="pmb53286">
+                     <placeName type="pref">Saint-Étienne-du-Rouvray</placeName>
+                     <location>
+                        <geo>49,37794 1,10467</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1940-01-18">1940-01-18</date>
+                  <settlement ref="pmb182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb116">Übersetzer/Übersetzerin</occupation>
+               <occupation ref="pmb370">Dichter/Dichterin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117323896</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17744</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2206.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2206/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2206</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb59833">
+               <title>Meine Erinnerungen an das Théâtre Antoine und das Odéon</title>
+               <title type="namensvariante">Mes souvenirs sur le Théâtre Antoine et sur l'Odéon</title>
+               <author ref="pmb2211" role="hat-geschaffen">Antoine, André</author>
+               <date notBefore="1927-01-01" when="1927-07-02">1927</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/59833/</idno>
+               <note type="work_kind">Biografie &gt;&gt; Autobiografie</note>
+            </bibl>
+            <bibl xml:id="pmb29843">
+               <title>Der grüne Kakadu. Groteske in einem Akt</title>
+               <title type="werk_bibliografische-angabe">Neue Deutsche Rundschau, Jg. 10, H. 3, März 1899, S. 282–308.</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date>1.3.1899</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.10</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2675124</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-der-gruene-kakadu</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/32409</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29843.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29843/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29843</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29843.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_gr%C3%BCne_Kakadu</idno>
+               <note type="work_kind">Drama &gt;&gt; Einakter</note>
+            </bibl>
+            <bibl xml:id="pmb29845">
+               <title>Die Gefährtin. Schauspiel in einem Akt</title>
+               <title type="werk_arbeitstitel">Der Wittwer</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1899-03-01">1899-03-01</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.16</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1212860</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/31482</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29845.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29845/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29845</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29845.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Die_Gef%C3%A4hrtin</idno>
+               <note type="work_kind">Drama &gt;&gt; Einakter</note>
+            </bibl>
+            <bibl xml:id="pmb59837">
+               <title>La Compagne</title>
+               <title type="namensvariante">Die Gefährtin</title>
+               <title type="legacy-name-merge">La Compagne</title>
+               <author ref="pmb26414" role="hat-ubersetzt">Vaucaire, Maurice</author>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1902-04-29">1902-04-29</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/59837/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65388/</idno>
+               <note type="work_kind">Drama &gt;&gt; Einakter</note>
+            </bibl>
+            <bibl xml:id="pmb58367">
+               <title>Au Perroquet Vert</title>
+               <title type="namensvariante">Der grüne Kakadu</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <author ref="pmb2199" role="hat-ubersetzt">Epstein, Stephan</author>
+               <author ref="pmb2206" role="hat-ubersetzt">Lutz, Émile</author>
+               <date>1903-11-07</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58367/</idno>
+               <note type="work_kind">Drama &gt;&gt; Einakter</note>
+            </bibl>
+            <bibl xml:id="pmb59827">
+               <title>Aus meinen Erinnerungen. Brieux, Sudermann, Zola, Schnitzler</title>
+               <author ref="pmb2211" role="hat-geschaffen">Antoine, André</author>
+               <author ref="pmb2121" role="hat-einen-beitrag-geschaffen-zu">Schnitzler, Arthur</author>
+               <date when="1927-10-09">1927-10-09</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/59827/</idno>
+               <note type="work_kind">Biografie &gt;&gt; Autobiografie</note>
+            </bibl>
+            <bibl xml:id="pmb36376">
+               <title>Neues Wiener Journal</title>
+               <title type="werk_link-anno">http://anno.onb.ac.at/cgi-content/anno?aid=nwj</title>
+               <author ref="pmb36371" role="hat-einen-beitrag-geschaffen-zu">Papp, Desiderius</author>
+               <author ref="pmb10815" role="hat-einen-beitrag-geschaffen-zu">Bahr, Hermann</author>
+               <date to="1939-01-01">1893  – 1939</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36376/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36376</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb36376</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb792">
+               <placeName>Odéon</placeName>
+               <placeName type="ort_fruherer_name">Théâtre Français</placeName>
+               <desc type="entity_type">Theater (K.THE)</desc>
+               <desc type="entity_type_id">4</desc>
+               <location type="coords">
+                  <geo>48,850022 2,338927</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb182">Paris</placeName>
+                  <geo>48,85341 2,3488</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb792.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/792/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1133501</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Od%C3%A9on_%E2%80%93_Th%C3%A9%C3%A2tre_de_l%E2%80%99Europe</idno>
+               <note type="apis_dates">
+                  <date notBefore="1782-01-01" when="1782-07-02">1782</date>
+               </note>
+            </place>
+            <place xml:id="pmb166">
+               <placeName>Frankreich</placeName>
+               <placeName type="alternative-name">France</placeName>
+               <desc type="entity_type">Land (A.LND)</desc>
+               <desc type="entity_type_id">38</desc>
+               <location type="coords">
+                  <geo>46,0 2,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb468">Europa</placeName>
+                  <geo>48,69096 9,14062</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q142</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb166.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3017382/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/166/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb166</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb166.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Frankreich</idno>
+            </place>
+            <place xml:id="pmb41240">
+               <placeName>Österreich</placeName>
+               <placeName type="alternative-name">Republik Österreich</placeName>
+               <placeName type="alternative-name">Republic of Austria</placeName>
+               <placeName type="legacy-name-merge">Deutsch Österreich</placeName>
+               <placeName type="legacy-name-merge">Altoesterreich</placeName>
+               <desc type="entity_type">http://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb687">Österreich-Ungarn</placeName>
+                  <geo>48,4054 16,4887</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2782113/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41240/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41240</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb41240</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92143/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92203/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92143.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92203.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb41240.html</idno>
+            </place>
+            <place xml:id="pmb610">
+               <placeName>Théâtre Antoine-Simone Berriau</placeName>
+               <placeName type="ort_fruherer_name">Théâtre Libre</placeName>
+               <placeName type="ort_fruherer_name">Théatre Antoine</placeName>
+               <placeName type="ort_fruherer_name">Théâtre des Menus-Plaisirs</placeName>
+               <placeName type="ort_fruherer_name">Théâtre des Arts</placeName>
+               <placeName type="ort_fruherer_name">Opéra-Bouffe</placeName>
+               <placeName type="ort_fruherer_name">Comédie-Parisienne</placeName>
+               <desc type="entity_type">Theater (K.THE)</desc>
+               <desc type="entity_type_id">4</desc>
+               <location type="coords">
+                  <geo>48,870558 2,355367</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb182">Paris</placeName>
+                  <geo>48,85341 2,3488</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb610.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/610/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb610</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q3097818</idno>
+               <note type="apis_dates">
+                  <date from="1897-01-01" to="1906-07-02">1897  – 1906</date>
+               </note>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb29355">
+               <orgName>Cambridge University Library</orgName>
+               <desc type="entity_type">Bibliothek</desc>
+               <desc type="entity_type_id">1007</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb893">Cambridge</placeName>
+                  <geo>52,2 0,11667</geo>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q350</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2653941/</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb893.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/893/</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb893.html</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Cambridge</idno>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29355.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29355/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29355</idno>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

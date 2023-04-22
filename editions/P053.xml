@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="P053">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="P053">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#33123">Erklärung.&#8239;[Nicht bei Premiere von Ritter Blaubart],
-               1.&#8239;1.&#8239;1907</title>
-            <author ref="#2121">Schnitzler, Arthur</author>
+            <title level="a" ref="#pmb33123">Erklärung. [Nicht bei Premiere von Ritter Blaubart],
+               1. 1. 1907</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -28,13 +30,13 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#2121">Schnitzler, Arthur</author>
-                     <title level="a" ref="#33123">Erklärung</title>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <title level="a" ref="#pmb33123">Erklärung</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#58341">Das literarische Echo</title>
+                     <title level="j" ref="#pmb58341">Das literarische Echo</title>
                      <imprint>
-                        <date when="1907-01-01" n="1">1.&#8239;1.&#8239;1907</date>
+                        <date when="1907-01-01" n="1">1. 1. 1907</date>
                      </imprint>
                      <biblScope unit="vol">9</biblScope>
                      <biblScope unit="nr">7</biblScope>
@@ -43,7 +45,7 @@
                </biblStruct>
                <biblStruct corresp="ASB1">
                   <monogr>
-                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefe 1875–1912</title>
                      <editor>Nickl, Therese</editor>
                      <editor>Schnitzler, Heinrich</editor>
@@ -73,45 +75,40 @@
    <text type="text">
       <body>
          <div type="original">
-            <head><supplied>Schnitzler nicht bei <rs type="work" ref="#33125">Ritter Blaubart</rs></supplied></head>
+            <head>
+               <supplied>Schnitzler nicht bei <rs type="work" ref="#pmb33125">Ritter Blaubart</rs>
+               </supplied>
+            </head>
             <p rend="center">Sehr geehrter Herr Redakteur!</p>
             <p>In seinem <anchor type="commentary" xml:id="KT139-1"/>
-               <rs type="work" ref="#33125" subtype="implied">Bericht</rs>
+               <rs type="work" ref="#pmb33125" subtype="implied">Bericht</rs>
                <note type="commentary" xml:id="KT139-1h">Die Uraufführung fand am
-                     <date>10.&#8239;11.&#8239;1906</date> am <rs type="place" ref="#18"
-                     >Lessingtheater</rs> statt. <rs type="person" ref="#14049">Leo Berg</rs>s
-                  Rezension <rs type="work" ref="#33125">Ritter Blaubart. Ein Märchenstück in
-                     5 Akten von <rs type="person" ref="#11273">Herbert Eulenberg</rs>. (<rs
-                        type="place" ref="#18">Lessingtheater</rs>, <date>8.&#160;November
+                     <date>10. 11. 1906</date> am <rs type="place" ref="#pmb18">Lessingtheater</rs> statt. <rs type="person" ref="#pmb14049">Leo Berg</rs>s
+                  Rezension <rs type="work" ref="#pmb33125">Ritter Blaubart. Ein Märchenstück in
+                     5 Akten von <rs type="person" ref="#pmb11273">Herbert Eulenberg</rs>. (<rs type="place" ref="#pmb18">Lessingtheater</rs>, <date>8. November
                         1906</date>.) Buchausgabe bei Egon Fleischel <c rendition="#kaufmannsund"/>
-                     Co., Berlin</rs>. erschien am <date>1.&#8239;12.&#8239;1906</date>
-                     (<bibl>Jg.&#8239;9, H.&#8239;5, Sp. 365–368</bibl>).</note> über die
-               Erstaufführung des »<rs type="work" ref="#33127">Ritter Blaubart</rs>« am <rs
-                  type="place" ref="#18">Lessingtheater zu Berlin</rs> erzählt Ihr Herr <rs
-                  type="person" ref="#14049" subtype="implied">Referent</rs>, daß der Theaterskandal
+                     Co., Berlin</rs>. erschien am <date>1. 12. 1906</date>
+                     (<bibl>Jg. 9, H. 5, Sp. 365–368</bibl>).</note> über die
+               Erstaufführung des »<rs type="work" ref="#pmb33127">Ritter Blaubart</rs>« am <rs type="place" ref="#pmb18">Lessingtheater zu Berlin</rs> erzählt Ihr Herr <rs type="person" ref="#pmb14049" subtype="implied">Referent</rs>, daß der Theaterskandal
                seinen Höhepunkt erreichte, »als <anchor type="commentary" xml:id="KT139-2"/>
-               <rs type="person" ref="#11581">Maximilian Harden</rs>
-               <note type="commentary" xml:id="KT139-2h">Im Unterschied zu <rs type="person"
-                     ref="#2121">Schnitzler</rs> dürfte <rs type="person" ref="#11581">Harden</rs>
-                  wirklich in Erscheinung getreten sein, wie aus einer Meldung der <rs type="org"
-                     ref="#29351">Neuen Freien Presse</rs> hervorgeht, die ihn gleichfalls nennt
-                     (<bibl>Nr.&#160;1.565, <date>9.&#8239;11.&#8239;1906</date>,
-                  S.&#8239;13</bibl>).</note> und Arthur Schnitzler mit Berserkerwut für das schon
+               <rs type="person" ref="#pmb11581">Maximilian Harden</rs>
+               <note type="commentary" xml:id="KT139-2h">Im Unterschied zu <rs type="person" ref="#pmb2121">Schnitzler</rs> dürfte <rs type="person" ref="#pmb11581">Harden</rs>
+                  wirklich in Erscheinung getreten sein, wie aus einer Meldung der <rs type="org" ref="#pmb29351">Neuen Freien Presse</rs> hervorgeht, die ihn gleichfalls nennt
+                     (<bibl>Nr. 1.565, <date>9. 11. 1906</date>,
+                  S. 13</bibl>).</note> und Arthur Schnitzler mit Berserkerwut für das schon
                verlorene Stück in die Bresche sprangen, sichtbar vor allem Publikum hervortretend,
                tosenden Beifall klatschend und mit vollen Backen Bravo rufend, wutentbrannt«. Er
                fügt hinzu: »Es war eine schöne Szene« und spricht etliche Absätze später die
-               Befürchtung aus, daß sich einige Kritiker »natürlich durch <rs type="person"
-                  ref="#11581">Hardens</rs> und Schnitzlers Auftreten beunruhigt fühlen werden«. </p>
-            <p>Demgegenüber bitte ich Sie festzustellen, daß ich seit Monaten nicht in <rs
-                  type="place" ref="#168">Berlin</rs> war, daher auch zu meinem Bedauern der
-               Premiere des »<rs type="work" ref="#33127">Blaubart</rs>« nicht beiwohnen und meinem
+               Befürchtung aus, daß sich einige Kritiker »natürlich durch <rs type="person" ref="#pmb11581">Hardens</rs> und Schnitzlers Auftreten beunruhigt fühlen werden«. </p>
+            <p>Demgegenüber bitte ich Sie festzustellen, daß ich seit Monaten nicht in <rs type="place" ref="#pmb168">Berlin</rs> war, daher auch zu meinem Bedauern der
+               Premiere des »<rs type="work" ref="#pmb33127">Blaubart</rs>« nicht beiwohnen und meinem
                Beifall für das Stück – selbst wenn solches Betragen sonst zu meinen Gepflogenheiten
-               gehörte – nicht in der von Herrn <rs type="person" ref="#14049">Leo Berg</rs> mit so
+               gehörte – nicht in der von Herrn <rs type="person" ref="#pmb14049">Leo Berg</rs> mit so
                vollendeter Beobachtungsgabe geschilderten Weise Ausdruck geben konnte. </p>
             <p>Mit vorzüglicher Hochachtung </p>
             <p rend="inline">Ihr ergebener </p>
             <p>
-               <rs type="place" ref="#50">Wien</rs>
+               <rs type="place" ref="#pmb50">Wien</rs>
                <space unit="chars" quantity="1"/>
                <signed>
                   <hi rend="antiqua">Dr</hi>. <hi rend="spaced_out">Arthur Schnitzler</hi>
@@ -119,5 +116,317 @@
             </p>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb14049">
+               <persName>
+                  <forename>Leo</forename>
+                  <surname>Berg</surname>
+               </persName>
+               <birth>
+                  <date when="1862-04-29">29.04.1862</date>
+                  <settlement ref="pmb60996">
+                     <placeName type="pref">Sępólno Krajeńskie</placeName>
+                     <location>
+                        <geo>53,45198 17,53169</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1908-07-12">12.07.1908</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13622</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/14049/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp48731</idno>
+            </person>
+            <person xml:id="pmb11273">
+               <persName>
+                  <forename>Herbert</forename>
+                  <surname>Eulenberg</surname>
+               </persName>
+               <birth>
+                  <date when="1876-01-25">25.01.1876</date>
+                  <settlement ref="pmb61020">
+                     <placeName type="pref">Mülheim</placeName>
+                     <location>
+                        <geo>50,96639 7,00384</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1949-09-04">04.09.1949</date>
+                  <settlement ref="pmb863">
+                     <placeName type="pref">Düsseldorf</placeName>
+                     <location>
+                        <geo>51,22172 6,77616</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14821</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118682636</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11273.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11273/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11273</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11273.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp45883</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q65019</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Herbert_Eulenberg</idno>
+            </person>
+            <person xml:id="pmb11581">
+               <persName>
+                  <forename>Maximilian</forename>
+                  <surname>Harden</surname>
+               </persName>
+               <birth>
+                  <date when="1861-10-20">20.10.1861</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1927-10-30">30.10.1927</date>
+                  <settlement ref="pmb61038">
+                     <placeName type="pref">Montana</placeName>
+                     <location>
+                        <geo>46,31338 7,48839</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb237">Publizist/Publizistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15919</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118545892</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11581.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11581/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11581</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11581.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11581</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49994</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q63411</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Maximilian_Harden</idno>
+               <idno type="URL" subtype="dx">https://dx.doi.org/10.1553/0x0002ed46</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb33125">
+               <title>Ritter Blaubart</title>
+               <title type="werk_bibliografische-angabe">Das literarische Echo, 1. 12. 1906</title>
+               <author ref="pmb14049" role="hat-geschaffen">Berg, Leo</author>
+               <date when="1906-12-01">01.12.1906</date>
+               <idno type="URL" subtype="archive">https://archive.org/stream/daslitterarische9190ettl#page/n225/mode/2up</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33125/</idno>
+               <note type="work_kind">Rezension</note>
+            </bibl>
+            <bibl xml:id="pmb33127">
+               <title>Ritter Blaubart. Ein Märchenstück in fünf Aufzügen</title>
+               <author ref="pmb11273" role="hat-geschaffen">Eulenberg, Herbert</author>
+               <date notBefore="1905-01-01" when="1905-07-02">1905</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33127/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb33127.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33127.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb33123">
+               <title>Erklärung [Nicht bei Premiere von Ritter Blaubart]</title>
+               <title type="werk_bibliografische-angabe">Das literarische Echo, 1. 1. 1907</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1907-01-01">01.01.1907</date>
+               <idno type="URL" subtype="archive">https://archive.org/stream/daslitterarische9190ettl#page/n329/mode/2up</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33123/</idno>
+               <note type="work_kind">Text</note>
+            </bibl>
+            <bibl xml:id="pmb58341">
+               <title>Das literarische Echo</title>
+               <title type="legacy-name-merge">Das litterarische Echo</title>
+               <date from="1898-01-01" to="1944-07-01">1898  – 1944</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58341/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/59183/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1171453</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Das_literarische_Echo</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Zeitschrift</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb18">
+               <placeName>Lessing-Theater</placeName>
+               <desc type="entity_type">Theater (K.THE)</desc>
+               <desc type="entity_type_id">4</desc>
+               <location type="coords">
+                  <geo>52,5225 13,376389</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb168">Berlin</placeName>
+                  <geo>52,52437 13,41053</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb34999">Kapelle-Ufer</placeName>
+                  <geo>52,52315 13,374789</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q261757</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb18.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/18/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb18</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Lessingtheater_(Berlin)</idno>
+            </place>
+            <place xml:id="pmb168">
+               <placeName>Berlin</placeName>
+               <placeName type="alternative-name">Hauptstadt Berlin</placeName>
+               <placeName type="alternative-name">Barlīn</placeName>
+               <placeName type="alternative-name">Reichshauptstadt Berlin</placeName>
+               <placeName type="alternative-name">Berolino</placeName>
+               <placeName type="legacy-name-merge">B-n</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPLC</desc>
+               <desc type="entity_type_id">1418</desc>
+               <location type="coords">
+                  <geo>52,52437 13,41053</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb151">Deutschland</placeName>
+                  <geo>51,5 10,5</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb168</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92171.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
+            </place>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb29351">
+               <orgName>Neue Freie Presse</orgName>
+               <orgName type="werk_link-anno">http://anno.onb.ac.at/info/nfp_info.htm</orgName>
+               <desc type="entity_type">Tageszeitungsredaktion</desc>
+               <desc type="entity_type_id">972</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb716">Fichtegasse</placeName>
+                  <geo>48,203009170069 16,375663258442</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb716.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/716/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb716</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb63189">Schubertring</placeName>
+                  <geo>48,20281 16,37602</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63189/</idno>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29351.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29351/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29351</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb29351</idno>
+               <note type="apis_dates">
+                  <date to="1939-02-01">1864-09-01  – 1939-02-01</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

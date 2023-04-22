@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I082">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="I082">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#56582">Friedrich Wallisch: Arthur Schnitzler.&#8239;Zu seinem 60.
-               Geburtstag am 15.&#8239;Mai, 13. 5. 1922</title>
-            <author ref="#13034">Wallisch, Friedrich</author>
+            <title level="a" ref="#pmb56582">Friedrich Wallisch: Arthur Schnitzler. Zu seinem 60.
+               Geburtstag am 15. Mai, 13. 5. 1922</title>
+            <author ref="#pmb13034">Wallisch, Friedrich</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -28,12 +30,12 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#13034">Wallisch, Friedrich</author>
-                     <title level="a" ref="#56582">Arthur Schnitzler. Zu seinem 60. Geburtstag am
+                     <author ref="#pmb13034">Wallisch, Friedrich</author>
+                     <title level="a" ref="#pmb56582">Arthur Schnitzler. Zu seinem 60. Geburtstag am
                         15. Mai</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#58582">Breslauer Theater-Woche</title>
+                     <title level="j" ref="#pmb58582">Breslauer Theater-Woche</title>
                      <imprint>
                         <date when="1922-05-13" n="1">13. 5. 1922</date>
                      </imprint>
@@ -44,7 +46,7 @@
                </biblStruct>
                <biblStruct>
                   <analytic>
-                     <author ref="#13034">Wallisch, Friedrich</author>
+                     <author ref="#pmb13034">Wallisch, Friedrich</author>
                      <title level="a">Arthur Schnitzler. Zu seinem 60. Geburtstag am 15. Mai</title>
                   </analytic>
                   <monogr>
@@ -76,15 +78,12 @@
             <head>Arthur Schnitzler.</head>
             <head type="sub">Zu seinem 60. Geburtstag am <date>15. Mai</date>.</head>
             <head type="sub">Von Dr. Friedrich Wallisch.</head>
-            <p>In der <rs type="place" ref="#383">Hasenauer Straße</rs>, draußen in <rs type="place"
-                  ref="#63">Hietzing</rs>, steigt von dem Rasenteppich, der den Fahrweg begleitet,
+            <p>In der <rs type="place" ref="#pmb383">Hasenauer Straße</rs>, draußen in <rs type="place" ref="#pmb63">Hietzing</rs>, steigt von dem Rasenteppich, der den Fahrweg begleitet,
                das dichte Blattwerk der Schlingpflanzen bis zu den Kronen der Alleebäume auf. So
-               fährt man zwischen zwei Mauern aus lebendigem Grün hindurch, wenn man zu <rs
-                  type="person" ref="#2121">Arthur Schnitzler</rs>s Wohnhaus in der <rs type="place"
-                  ref="#150">Sternwartestraße</rs> gelangen will.</p>
+               fährt man zwischen zwei Mauern aus lebendigem Grün hindurch, wenn man zu <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>s Wohnhaus in der <rs type="place" ref="#pmb150">Sternwartestraße</rs> gelangen will.</p>
             <p>In einem stillen Garten liegt das Haus. Vom Balkon sieht man auf die Kirchen und
                Dächer der fernen, lärmenden Stadt.</p>
-            <p>Und <rs type="person" ref="#2121">Schnitzler</rs> spricht. Alltägliches scheinbar,
+            <p>Und <rs type="person" ref="#pmb2121">Schnitzler</rs> spricht. Alltägliches scheinbar,
                und doch liegt in jedem Gedanken der Widerschein einer vornehmen Kultur, einer
                durchleuchteten Geistigkeit:</p>
             <p>»Die ganze Welt ist Stoff für den Dichter. Es handelt sich eigentlich nur darum, das
@@ -94,44 +93,44 @@
                schriftstellerischen verträgt. Ich selbst habe meine Praxis als Arzt nur ganz
                allmählich abgestoßen. Es gab noch lange Zeit einige Familien, die mich immer noch
                als Arzt haben wollten. Ich war <anchor type="commentary" xml:id="K_I082-4"/>vierzig
-               Jahre alt, als ich die Praxis gänzlich aufgab<note type="commentary"
-                  xml:id="K_I082-4h"><ref type="pointer" target="#K_I013-66"/></note>.«</p>
-            <p>Oder über das Schicksal seiner Werke: »Mein <anchor type="commentary"
-                  xml:id="K_I082-55"/>erstes Stück, das über die Bühne ging, war das »<rs
-                  type="work" ref="#29823">Märchen</rs><note type="commentary" xml:id="K_I082-55h"
-                  >nicht ganz richtig, ein paar Monate vorher wurde ein Einakter
+               Jahre alt, als ich die Praxis gänzlich aufgab<note type="commentary" xml:id="K_I082-4h">
+                  <ref type="pointer" target="#K_I013-66"/>
+               </note>.«</p>
+            <p>Oder über das Schicksal seiner Werke: »Mein <anchor type="commentary" xml:id="K_I082-55"/>erstes Stück, das über die Bühne ging, war das »<rs type="work" ref="#pmb29823">Märchen</rs>
+               <note type="commentary" xml:id="K_I082-55h">nicht ganz richtig, ein paar Monate vorher wurde ein Einakter
                aufgeführt.</note>«. Es erlebte nur <anchor type="commentary" xml:id="K_I082-2"/>zwei
-                  Aufführungen<note type="commentary" xml:id="K_I082-2h">am <ref
-                     type="schnitzlerDiary" target="1893-12-01" subtype="date-only"> war die
-                     Uraufführung, am Folgetag die zweite und letzte</ref></note>. Und wissen Sie,
-               was mir N.&#160;N. (er nennt den Namen eines Operettenlibrettisten) sagte? ›Wenn das
+                  Aufführungen<note type="commentary" xml:id="K_I082-2h">am <ref type="schnitzler-tagebuch" target="1893-12-01" subtype="date-only"> war die
+                     Uraufführung, am Folgetag die zweite und letzte</ref>
+               </note>. Und wissen Sie,
+               was mir N. N. (er nennt den Namen eines Operettenlibrettisten) sagte? ›Wenn das
                Stück von mir wäre, hätte es eine Serie erlebt.‹ Er ist ein besserer Geschäftsmann.
                Er hätte besser verstanden, sich in Szene zu setzen. Das meinte er mit dieser
                Aeußerung.«</p>
-            <p>»Mein ›<rs type="work" ref="#29935">Anatol</rs>‹ ist im Jahre <date>1892</date>
+            <p>»Mein ›<rs type="work" ref="#pmb29935">Anatol</rs>‹ ist im Jahre <date>1892</date>
                erschienen. Der Zyklus als ganzes ist zum ersten Mal <date>1910</date> aufgeführt
                worden, also fast zwanzig Jahre später!«</p>
             <p>»Mancher Schriftsteller diktiert in die Schreibmaschine drauf los, und damit ist
                seine Arbeit getan. Dann liest ers einmal durch oder auch nicht. Sehr oft hat man den
-               Eindruck, daß ers nicht durchgelesen hat. Ich kann nicht so arbeiten. Meine ›<rs
-                  type="work" ref="#29917">Liebelei</rs>‹ beispielsweise hat die verschiedensten
-               Wandlungen durchgemacht. Zuerst war sie ein <anchor type="commentary"
-                  xml:id="K_I082-99"/>Volksstück<note type="commentary" xml:id="K_I082-99h">Die
-                  Entstehung des Stücks ist in <bibl><title level="m">Liebelei. Historisch-kritische
-                        Ausgabe</title></bibl> nachzuvollziehen. Die »dämonische Frau« ist die
+               Eindruck, daß ers nicht durchgelesen hat. Ich kann nicht so arbeiten. Meine ›<rs type="work" ref="#pmb29917">Liebelei</rs>‹ beispielsweise hat die verschiedensten
+               Wandlungen durchgemacht. Zuerst war sie ein <anchor type="commentary" xml:id="K_I082-99"/>Volksstück<note type="commentary" xml:id="K_I082-99h">Die
+                  Entstehung des Stücks ist in <bibl>
+                     <title level="m">Liebelei. Historisch-kritische
+                        Ausgabe</title>
+                  </bibl> nachzuvollziehen. Die »dämonische Frau« ist die
                   verheiratete Geliebte, von der sich Fritz trennen möchte, und wegen der es zum
                   Duell kommt. Die Figur tritt im fertigen Stück nicht mehr auf. Die Szene in der
-                  Tanzschule hat <rs type="person" ref="#2121">Schnitzler</rs> später (mit leichten
-                  Adaptionen) als <rs type="work" ref="#33498">Liebelei. Erstes Bild</rs>
-                  veröffentlicht (<bibl>In: <rs type="work" ref="#50519">Widmungen zur Feier des
+                  Tanzschule hat <rs type="person" ref="#pmb2121">Schnitzler</rs> später (mit leichten
+                  Adaptionen) als <rs type="work" ref="#pmb33498">Liebelei. Erstes Bild</rs>
+                  veröffentlicht (<bibl>In: <rs type="work" ref="#pmb50519">Widmungen zur Feier des
                         siebzigsten Geburtstages Ferdinand von Saar’s</rs>. Hrsg. v. Richard Specht.
-                     Buchschmuck v. A. F. Seligmann. Wien: <rs type="org" ref="#29636">Wiener
-                        Verlag</rs><space unit="chars" quantity="1"/><date>1903</date>,
-                     S.&#8239;175–196. </bibl>).</note>. Es gab keine Akte, sondern eine Folge
-               mehrerer Bilder. Die dämonische Frau kam auf die Bühne, ein Bild spielte in der <rs
-                  type="work" ref="#33498" subtype="implied">Tanzstunde</rs>, kurzum, es war ein
+                     Buchschmuck v. A. F. Seligmann. Wien: <rs type="org" ref="#pmb29636">Wiener
+                        Verlag</rs>
+                     <space unit="chars" quantity="1"/>
+                     <date>1903</date>,
+                     S. 175–196. </bibl>).</note>. Es gab keine Akte, sondern eine Folge
+               mehrerer Bilder. Die dämonische Frau kam auf die Bühne, ein Bild spielte in der <rs type="work" ref="#pmb33498" subtype="implied">Tanzstunde</rs>, kurzum, es war ein
                ganz anderes Stück. Erst nach mehreren Umarbeitungen hat es die gegenwärtige Gestalt
-               bekommen. Mit dem ›<rs type="work" ref="#30207">Weiten Land</rs>‹ ist es mir ähnlich
+               bekommen. Mit dem ›<rs type="work" ref="#pmb30207">Weiten Land</rs>‹ ist es mir ähnlich
                ergangen. Das Stück war auch anfangs eine lose Serie von Bildern. Aber da ist so
                etwas wie ein künstlerisches Gewissen in mir erwacht. Ich dachte mir: Wenn ich ein
                Stück schreibe, muß es auch eine einwandfreie Form haben und darf nicht so bleiben,
@@ -140,57 +139,536 @@
                strenge Form der Akte besitzen. Das hat eine tiefe Begründung, eine Berechtigung, die
                man nicht ohne weiteres verneinen darf.«<c rendition="#dots" n="4"/>
             </p>
-            <p>Erst jetzt, zu <rs type="person" ref="#2121">Schnitzler</rs>s 60. Geburtstag, ist die
+            <p>Erst jetzt, zu <rs type="person" ref="#pmb2121">Schnitzler</rs>s 60. Geburtstag, ist die
                erste umfangreiche literarhistorische Studie über sein Schaffen veröffentlicht
-               worden. <rs type="person" ref="#8396">Josef Körner</rs> geht in seinem im <rs
-                  type="org" ref="#56572">Amalthea-Verlag</rs> erschienenen Buche »<anchor
-                  type="commentary" xml:id="K_I082-9"/><rs type="work" ref="#56576">Arthur
-                  Schnitzlers Gestalten und Probleme</rs><note type="commentary" xml:id="K_I082-9h"
-                        ><bibl><rs type="person" ref="#8396">Josef Körner</rs>: <rs type="work"
-                        ref="#56576">Arthur Schnitzlers Gestalten und Probleme</rs>. Zürich,
-                     Leipzig, Wien: <rs type="org" ref="#56572">Amalthea-Verlag</rs><space
-                        unit="chars" quantity="1"/><date>1921</date></bibl>.</note>« einen
+               worden. <rs type="person" ref="#pmb8396">Josef Körner</rs> geht in seinem im <rs type="org" ref="#pmb56572">Amalthea-Verlag</rs> erschienenen Buche »<anchor type="commentary" xml:id="K_I082-9"/>
+               <rs type="work" ref="#pmb56576">Arthur
+                  Schnitzlers Gestalten und Probleme</rs>
+               <note type="commentary" xml:id="K_I082-9h">
+                  <bibl>
+                     <rs type="person" ref="#pmb8396">Josef Körner</rs>: <rs type="work" ref="#pmb56576">Arthur Schnitzlers Gestalten und Probleme</rs>. Zürich,
+                     Leipzig, Wien: <rs type="org" ref="#pmb56572">Amalthea-Verlag</rs>
+                     <space unit="chars" quantity="1"/>
+                     <date>1921</date>
+                  </bibl>.</note>« einen
                aussichtsreichen neuen Weg. Er legt mit dem Werkzeug der Psychoanalyse einen
-               Querschnitt durch das Lebenswerk des Dichters. Gerade bei <rs type="person"
-                  ref="#2121">Arthur Schnitzler</rs> ist diese Methode vielversprechend. Einige
+               Querschnitt durch das Lebenswerk des Dichters. Gerade bei <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> ist diese Methode vielversprechend. Einige
                wenige Gestalten und Motive beherrschen alle seine Schöpfungen: Der oberflächlich
                genießende Lebemann, das süße Mädel, die dämonische Frau, anderseits das geistige
                Wien der Jahrhundertwende oder allgemein menschliche Probleme wie etwa die
                Trostlosigkeit des Suchens nach Wahrheit.</p>
-            <p>Obgleich <rs type="person" ref="#8396">Körner</rs>s <rs type="work" ref="#56576"
-                  subtype="implied">Schnitzler-Buch</rs> eine treffliche, tiefgründige Arbeit ist,
+            <p>Obgleich <rs type="person" ref="#pmb8396">Körner</rs>s <rs type="work" ref="#pmb56576" subtype="implied">Schnitzler-Buch</rs> eine treffliche, tiefgründige Arbeit ist,
                vermisse ich darin denn doch das Letzte, den wahren und einzigen Schlüssel zum vollen
-               Verständnis dieses Dichters: die innere Einstellung auf <rs type="person" ref="#2121"
-                  >Schnitzler</rs>s <rs type="place" ref="#50">Wien</rs>ertum.</p>
+               Verständnis dieses Dichters: die innere Einstellung auf <rs type="person" ref="#pmb2121">Schnitzler</rs>s <rs type="place" ref="#pmb50">Wien</rs>ertum.</p>
             <p>Und ich fürchte, daß es einer großen literarhistorischen Distanz bedürfen wird, nur
-                  <rs type="person" ref="#2121">Schnitzler</rs> – jenseits der häßlich aktuellen
+                  <rs type="person" ref="#pmb2121">Schnitzler</rs> – jenseits der häßlich aktuellen
                Aeußerlichkeiten, an denen er, der Vornehmsten und Stillsten einer, keine Schuld
                trägt! – in seiner ganzen dichterischen Größe zu erkennen. Aber gerechtermaßen sollte
                auch unsere Generation bereits wissen, daß er <hi rend="spaced_out">der</hi> Wiener
-               Dichter ist. Und daß seinen Dichtungen, beispielsweise seiner »<rs type="work"
-                  ref="#29917">Liebelei</rs>«, durchaus die Wertung einer klassischen Schöpfung
-               gebührt. Als Schlüssel zu <rs type="person" ref="#2121">Schnitzler</rs>s Schaffen
-               sollten die gleichen Worte gelten, mit denen <rs type="person" ref="#11518"
-                  >Grillparzer</rs> sich selbst gekennzeichnet hat:</p>
+               Dichter ist. Und daß seinen Dichtungen, beispielsweise seiner »<rs type="work" ref="#pmb29917">Liebelei</rs>«, durchaus die Wertung einer klassischen Schöpfung
+               gebührt. Als Schlüssel zu <rs type="person" ref="#pmb2121">Schnitzler</rs>s Schaffen
+               sollten die gleichen Worte gelten, mit denen <rs type="person" ref="#pmb11518">Grillparzer</rs> sich selbst gekennzeichnet hat:</p>
             <lg type="poem">
-               <l>»<rs type="work" ref="#32508" subtype="implied">
-                     <anchor type="commentary" xml:id="K_I082-1"/>Hast du vom <rs type="place"
-                        ref="#574">Kahlenberg</rs> dir rings das Land besehn,<note type="commentary"
-                        xml:id="K_I082-1h">Der Zweizeiler findet sich in: <bibl>
-                           <rs type="person" ref="#11518">Grillparzer</rs>’s <rs type="work"
-                              ref="#32508">Sämmtliche Werke</rs>. Erster Band. Stuttgart:
+               <l>»<rs type="work" ref="#pmb32508" subtype="implied">
+                     <anchor type="commentary" xml:id="K_I082-1"/>Hast du vom <rs type="place" ref="#pmb574">Kahlenberg</rs> dir rings das Land besehn,<note type="commentary" xml:id="K_I082-1h">Der Zweizeiler findet sich in: <bibl>
+                           <rs type="person" ref="#pmb11518">Grillparzer</rs>’s <rs type="work" ref="#pmb32508">Sämmtliche Werke</rs>. Erster Band. Stuttgart:
                               <publisher>Cotta’sche Buchhandlung</publisher>
                            <space unit="chars" quantity="1"/>
-                           <date>1872</date>, S.&#8239;175</bibl>, dort jedoch mit der
+                           <date>1872</date>, S. 175</bibl>, dort jedoch mit der
                         Textabweichung: »<quote>das Land dir rings besehn,</quote>« und einem
                         zusätzlichen Komma nach »<quote>schrieb</quote>«.</note>
                   </rs>
                </l>
                <l>
-                  <rs type="work" ref="#32508" subtype="implied">So wirst du, was ich schrieb und
+                  <rs type="work" ref="#pmb32508" subtype="implied">So wirst du, was ich schrieb und
                      was ich bin, verstehn.</rs>«</l>
             </lg>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb13034">
+               <persName>
+                  <forename>Friedrich</forename>
+                  <surname>Wallisch</surname>
+               </persName>
+               <birth>
+                  <date when="1890-05-31">31.05.1890</date>
+                  <settlement ref="pmb58757">
+                     <placeName type="pref">Bela Crkva</placeName>
+                     <location>
+                        <geo>44,8975 21,41722</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1969-02-07">07.02.1969</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb451">Mediziner/Medizinerin &gt;&gt; Zahnarzt/Zahnärztin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21072</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117126403</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb13034.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/13034/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q21532118</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Friedrich_Wallisch</idno>
+            </person>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb8396">
+               <persName>
+                  <forename>Josef</forename>
+                  <surname>Körner</surname>
+               </persName>
+               <birth>
+                  <date when="1888-04-15">15.04.1888</date>
+                  <settlement ref="pmb56580">
+                     <placeName type="pref">Rohatec</placeName>
+                     <location>
+                        <geo>48,8804 17,1833</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1950-05-09">09.05.1950</date>
+                  <settlement ref="pmb652">
+                     <placeName type="pref">Prag</placeName>
+                     <location>
+                        <geo>50,08333 14,46667</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16980</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116297271</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/8396/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8396.html</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x0028222d</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1310676</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Josef_K%C3%B6rner</idno>
+            </person>
+            <person xml:id="pmb11518">
+               <persName>
+                  <forename>Franz</forename>
+                  <surname>Grillparzer</surname>
+               </persName>
+               <birth>
+                  <date when="1791-01-15">15.01.1791</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1872-01-21">21.01.1872</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb1472">Beamter/Beamte</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15661</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118542192</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11518.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11518/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11518</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11518.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11518</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43482</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=G#DWpers1208</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q154438</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Franz_Grillparzer</idno>
+               <idno type="URL" subtype="dx">https://dx.doi.org/10.1553/0x0001cfa1</idno>
+               <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/grillparzer-franz.html</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x002818d2</idno>
+               <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_65.html</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb29823">
+               <title>Das Märchen. Schauspiel in drei Aufzügen</title>
+               <title type="werk_bibliografische-angabe">Arthur Schnitzler: Das Märchen. Schauspiel in drei Aufzügen. Dresden, Leipzig: E. Pierson’s Verlag 1894.</title>
+               <title type="werk_link">https://babel.hathitrust.org/cgi/pt?id=coo.31924026341598&amp;view=1up&amp;seq=5</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date>1893-12-01</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.04</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1169917</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/38151</idno>
+               <idno type="URL" subtype="books">https://books.google.at/books?id=eUc8AQAAMAAJ</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29823.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29823/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29823</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29823.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Das_M%C3%A4rchen_(Schnitzler)</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb29935">
+               <title>Anatol</title>
+               <title type="werk_bibliografische-angabe">Arthur Schnitzler: Anatol. Berlin: Bibliographisches Bureau 1892, vordatiert auf 1893</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <author ref="pmb28645" role="hat-illustriert">Coschell, Moritz</author>
+               <author ref="pmb11740" role="hat-ein-vorwortnachwort-verfasst-zu">Hofmannsthal, Hugo von</author>
+               <date>1892-10-29</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.03</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q487409</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-anatol</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/32630</idno>
+               <idno type="URL" subtype="deutschestextarchiv">http://www.deutschestextarchiv.de/book/view/schnitzler_anatol_1893</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29935.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29935/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29935</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29935.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Anatol_(Schauspiel)</idno>
+               <note type="work_kind">Drama &gt;&gt; Einakterzyklus</note>
+            </bibl>
+            <bibl xml:id="pmb29917">
+               <title>Liebelei. Schauspiel in drei Akten</title>
+               <title type="werk_link">https://www.deutschestextarchiv.de/book/show/schnitzler_liebelei_1896</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date>1895-10-09</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.27</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1823758</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-liebelei</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/31062</idno>
+               <idno type="URL" subtype="deutschestextarchiv">http://www.deutschestextarchiv.de/book/show/schnitzler_liebelei_1896</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29917.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29917/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29917</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29917.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Liebelei</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb33498">
+               <title>Liebelei. Erstes Bild</title>
+               <title type="werk_bibliografische-angabe">Arthur Schnitzler: Liebelei. Erstes Bild. In: Widmungen zur Feier des siebzigsten Geburtstages Ferdinand von Saar’s. Hrsg. v. Richard Specht. Buchschmuck v. A. F. Seligmann. Wien: Wiener Verlag 1903 (vordatiert von 14.11.1902), S. 175–196.</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date>1902-11-14</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33498/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33498</idno>
+               <note type="work_kind">Dramenfragment</note>
+            </bibl>
+            <bibl xml:id="pmb50519">
+               <title>Widmungen zur Feier des siebzigsten Geburtstages Ferdinand von Saar’s.</title>
+               <title type="legacy-name-merge">Widmungen zur Feier des siebzigsten Geburtstages Ferdinand von Saar’s</title>
+               <author ref="pmb2456" role="hat-herausgegeben">Specht, Richard</author>
+               <author ref="pmb12769" role="hat-illustriert">Seligmann, Adalbert Franz</author>
+               <author ref="pmb12740" role="hat-einen-beitrag-geschaffen-zu">Schwarzkopf, Gustav</author>
+               <date>1902-11-14</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33500/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50519/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33500</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50519</idno>
+               <note type="work_kind">Textsammlung</note>
+            </bibl>
+            <bibl xml:id="pmb30207">
+               <title>Das weite Land. Tragikomödie in fünf Akten</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1910-10-20">1910-10-20</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.06</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1171735</idno>
+               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-das-weite-land</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/32170</idno>
+               <idno type="URL" subtype="literature">http://www.literature.at/viewer.alo?objid=12113&amp;page=1&amp;viewmode=fullscreen</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30207.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30207/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30207</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30207.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Das_weite_Land</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+               <note type="references">Die russische Uraufführung am 20.10.1910 vor der deutschsprachigen</note>
+            </bibl>
+            <bibl xml:id="pmb56576">
+               <title>Arthur Schnitzlers Gestalten und Probleme</title>
+               <author ref="pmb8396" role="hat-geschaffen">Körner, Josef</author>
+               <date notBefore="1921-01-01" when="1921-07-02">1921</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/56576/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb56576.html</idno>
+               <note type="work_kind">Fachliteratur</note>
+            </bibl>
+            <bibl xml:id="pmb32508">
+               <title>Sämmtliche Werke</title>
+               <author ref="pmb11518" role="hat-geschaffen">Grillparzer, Franz</author>
+               <date notBefore="1872-01-01" when="1872-07-01">1872</date>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb32508.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32508/</idno>
+               <note type="work_kind">Werkausgabe</note>
+            </bibl>
+            <bibl xml:id="pmb56582">
+               <title>Arthur Schnitzler. Zu seinem 60. Geburtstag am 15. Mai</title>
+               <title type="werk_bibliografische-angabe">Breslauer Theater-Woche, 13.5.1922</title>
+               <author ref="pmb13034" role="hat-geschaffen">Wallisch, Friedrich</author>
+               <date when="1922-05-13">1922-05-13</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/56582/</idno>
+               <note type="work_kind">Interview</note>
+            </bibl>
+            <bibl xml:id="pmb58582">
+               <title>Breslauer Theater-Woche</title>
+               <date from="1921-01-01" to="1922-07-02">1921  – 1922</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58582/</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Zeitschrift &gt;&gt; Wochenschrift</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb383">
+               <placeName>Hasenauerstraße</placeName>
+               <desc type="entity_type">Straße (K.STR)</desc>
+               <desc type="entity_type_id">26</desc>
+               <location type="coords">
+                  <geo>48,233816866614 16,337927920952</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb68">XVIII., Währing</placeName>
+                  <geo>48,23333 16,31667</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb383.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/383/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb383</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb383.html</idno>
+            </place>
+            <place xml:id="pmb63">
+               <placeName>XIII., Hietzing</placeName>
+               <placeName type="legacy-name-merge">Hietzing</placeName>
+               <desc type="entity_type">Bezirk (A.BZK)</desc>
+               <desc type="entity_type_id">25</desc>
+               <location type="coords">
+                  <geo>48,17547 16,29101</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2776420/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb63.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb63</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb63</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb63.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/102317/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4113911-2</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q636910</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hietzing</idno>
+            </place>
+            <place xml:id="pmb150">
+               <placeName>Sternwartestraße</placeName>
+               <desc type="entity_type">Straße (K.STR)</desc>
+               <desc type="entity_type_id">26</desc>
+               <location type="coords">
+                  <geo>48,23099349198 16,340117830625</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb68">XVIII., Währing</placeName>
+                  <geo>48,23333 16,31667</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb150.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/150/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb150</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb150.html</idno>
+               <idno type="URL" subtype="geonames">https://www.geonames.org/12495677</idno>
+            </place>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+            <place xml:id="pmb574">
+               <placeName>Kahlenberg</placeName>
+               <desc type="entity_type">Berg (N.BRG)</desc>
+               <desc type="entity_type_id">28</desc>
+               <location type="coords">
+                  <geo>48,27617 16,33255</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q697119</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3333525/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb574.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/574/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb574</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb574.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Kahlenberg</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb29636">
+               <orgName>Wiener Verlag</orgName>
+               <orgName type="wien-geschichte-wiki">https://www.geschichtewiki.wien.gv.at/Wiener_Verlag</orgName>
+               <desc type="entity_type">Verlag</desc>
+               <desc type="entity_type_id">975</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb864">Leipzig</placeName>
+                  <geo>51,33962 12,37129</geo>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2079</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2879139/</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb864.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/864/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44885/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4035206-7</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb864</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb864</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb864.html</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Leipzig</idno>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29636.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29636/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29636</idno>
+               <note type="apis_dates">
+                  <date from="1899-01-01" to="1929-07-02">1899  – 1929</date>
+               </note>
+            </org>
+            <org xml:id="pmb56572">
+               <orgName>Amalthea-Verlag</orgName>
+               <desc type="entity_type">Verlag</desc>
+               <desc type="entity_type_id">975</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb864">Leipzig</placeName>
+                  <geo>51,33962 12,37129</geo>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2079</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2879139/</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb864.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/864/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44885/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4035206-7</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb864</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb864</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb864.html</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Leipzig</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb484">Zürich</placeName>
+                  <geo>47,37174 8,54226</geo>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q72</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2657896/</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb484.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/484/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb484</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/62728/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4068038-1</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb484</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb484.html</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Z%C3%BCrich</idno>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/56572/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q453381</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Amalthea_Signum_Verlag</idno>
+               <note type="apis_dates">
+                  <date notBefore="1917-01-01" when="1917-07-02">1917</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

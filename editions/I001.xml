@@ -1,145 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xml:id="I001" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-  xml:base="schnitzler-interviews">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-        <title level="a" ref="#32280">Alfred Deutsch-German: Hermann Bahr, 5.&#8239;4.&#8239;1903</title>
-        <author ref="#2288">Deutsch-German, Alfred</author>
-        <editor>
-          <name>Ifkovits, Kurt</name>
-          <name>Müller, Martin Anton</name>
-        </editor>
-      </titleStmt>
-      <editionStmt>
-        <edition>ASI</edition>
-        <respStmt>
-          <resp>Transkription und Kommentierung</resp>
-          <name>Kurt Ifkovits</name>
-          <name>Martin Anton Müller</name>
-        </respStmt>
-      </editionStmt>
-      <publicationStmt>
-        <publisher>Martin Anton Müller</publisher>
-        <idno type="asi" n="001"/>
-      </publicationStmt>
-      <sourceDesc>
-        <listBibl>
-          <biblStruct>
-            <analytic>
-              <author ref="#2288">Deutsch-German, Alfred</author>
-              <title level="a" ref="#32280">Wiener Porträts. XLVI. Hermann Bahr</title>
-            </analytic>
-            <monogr>
-              <title level="j" ref="#36376">Neues Wiener Journal</title>
-              <imprint>
-                <date when="1903-04-05" n="1">5.&#8239;4.&#8239;1903</date>
-              </imprint>
-              <biblScope unit="jg">10</biblScope>
-              <biblScope unit="nr">3.391</biblScope>
-              <biblScope unit="pp">3</biblScope>
-            </monogr>
-          </biblStruct>
-          <biblStruct corresp="HBAS">
-            <monogr>
-              <author ref="#10815">Bahr, Hermann</author>
-              <author ref="#2121">Schnitzler, Arthur</author>
-              <title level="m">Briefe, Aufzeichnungen, Dokumente. 1891–1931</title>
-              <editor>Hg. Kurt Ifkovits, Martin Anton Müller</editor>
-              <imprint>
-                <pubPlace>Göttingen</pubPlace>
-                <publisher>Wallstein</publisher>
-                <date when="2018">2018</date>
-              </imprint>
-              <biblScope unit="pp">259–263</biblScope>
-            </monogr>
-          </biblStruct>
-        </listBibl>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="de-DE">German</language>
-      </langUsage>
-    </profileDesc>
-    <revisionDesc status="approved">
-      <change who="MAM" when="2016-02-27">Angelegt und kollationiert</change>
-      <change who="MAM" when="2021-09-08">Index check</change>
-      <change who="KH" when="2021-10-06">Durchsicht</change>
-    </revisionDesc>
-  </teiHeader>
-  <!-- https://anno.onb.ac.at/cgi-content/anno?aid=nwj&datum=19030405&seite=3&zoom=51 -->
-  <text type="article">
-    <body>
-      <div type="original">
-        <head>Wiener Porträts.</head>
-        <head type="sub">XLVI.<lb/><rs type="person" ref="#10815">Hermann Bahr</rs>.</head>
-        <p>Schleierumhüllt liegt die Stadt noch im halben Winterschlaf, und draußen auf den freieren
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="I001"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews,
+          Meinungen, Proteste (1891–1931)</title>
+            <title level="a" ref="#pmb32280">Alfred Deutsch-German: Hermann Bahr,
+          5. 4. 1903</title>
+            <author ref="#pmb2288">Deutsch-German, Alfred</author>
+            <editor>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="001"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="#pmb2288">Deutsch-German, Alfred</author>
+                     <title level="a" ref="#pmb32280">Wiener Porträts. XLVI. Hermann Bahr</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#pmb36376">Neues Wiener Journal</title>
+                     <imprint>
+                        <date when="1903-04-05" n="1">5. 4. 1903</date>
+                     </imprint>
+                     <biblScope unit="jg">10</biblScope>
+                     <biblScope unit="nr">3.391</biblScope>
+                     <biblScope unit="pp">3</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct corresp="HBAS">
+                  <monogr>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefe, Aufzeichnungen, Dokumente. 1891–1931</title>
+                     <editor>Hg. Kurt Ifkovits, Martin Anton Müller</editor>
+                     <imprint>
+                        <pubPlace>Göttingen</pubPlace>
+                        <publisher>Wallstein</publisher>
+                        <date when="2018">2018</date>
+                     </imprint>
+                     <biblScope unit="pp">259–263</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2016-02-27">Angelegt und kollationiert</change>
+         <change who="MAM" when="2021-09-08">Index check</change>
+         <change who="KH" when="2021-10-06">Durchsicht</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div type="original">
+            <head>Wiener Porträts.</head>
+            <head type="sub">XLVI.<lb/>
+               <rs type="person" ref="#pmb10815">Hermann Bahr</rs>.</head>
+            <p>Schleierumhüllt liegt die Stadt noch im halben Winterschlaf, und draußen auf den freieren
           Höhen pocht der Frühling schon an die Thore. Da liegt der Garten in der jungfräulichen
           Pracht des Werdens, die Stöcke noch vom Reif umfangen, der Rasen aber schon fett und
           locker und erdig duftend. Ein letzter Sonnentag und die Keime tauchen empor ans Licht zur
           Auferstehung. – Ein Haus, eigenartig und sonderbar, paßt mit der Nüchternheit der Mauern,
           mit den Fenstern, die wie aufgerissene Mäuler aussehen, nicht recht in die herbe
           Landschaft.</p>
-        <p>Nur ein Marillenbaum hat seine Blüthenpracht entfaltet und grüßt mit den bestreuten
+            <p>Nur ein Marillenbaum hat seine Blüthenpracht entfaltet und grüßt mit den bestreuten
           Zweigen. Es ist schier unangenehm, daß die Natur sich nicht dazu verstehen will, einem
           modernen Haus die richtige Stimmung zu geben, die Blüthen sollten größer, die Zweige
           geradliniger sein.</p>
-        <p>Und vollends stört der Hausherr. Da kommt ein Mann, der bisher in der Sonne gesessen,
+            <p>Und vollends stört der Hausherr. Da kommt ein Mann, der bisher in der Sonne gesessen,
           groß und kräftig mit durchaus unregelmäßigem Gang, von Antlitz finster und noch
           furchtbarer durch Kleidung und Begleitschaft. Jägermäßig ist seine Tracht, der
           aufgestülpte Hut, die Wadenstrümpfe und zwei böse Hunde an der Koppel vervollständigen den
-          Eindruck: <rs type="work" ref="#31731">
-            <anchor type="commentary" xml:id="KT040-10"/>Kaspar<note type="commentary"
-              xml:id="KT040-10h">Figur aus <rs type="person" ref="#4182">Webers</rs> Oper <rs
-                type="work" ref="#31731">Der Freischütz</rs>
-            </note>, der wilde Jäger</rs>. Aber es ist nur <rs type="person" ref="#10815">Hermann
-            Bahr</rs> in seiner Behausung in <rs type="place" ref="#165">Ober-St. Veit</rs>. Wir
+          Eindruck: <rs type="work" ref="#pmb31731">
+                  <anchor type="commentary" xml:id="KT040-10"/>Kaspar<note type="commentary" xml:id="KT040-10h">Figur aus <rs type="person" ref="#pmb4182">Webers</rs> Oper <rs type="work" ref="#pmb31731">Der Freischütz</rs>
+                  </note>, der wilde Jäger</rs>. Aber es ist nur <rs type="person" ref="#pmb10815">Hermann
+            Bahr</rs> in seiner Behausung in <rs type="place" ref="#pmb165">Ober-St. Veit</rs>. Wir
           treten in das Haus und der grün-blaue Zauber umfängt mich bald. Da gibt es Räumlichkeiten,
           klein und zierlich und größer, bauernmäßig, aber es ist Alles luftig und licht und man
           sieht sich so was riesig gern an und freut sich noch mehr, wenn man draußen ist. Aber das
-          muß wohl Gewohnheit sein. Ich habe mich in der Villa <rs type="person" ref="#10815"
-            >Bahr</rs> gründlich unmöglich gemacht, denn ich hielt mir die Augen zu, als wir über
-          einen grellblauen Teppich schritten; das soll nicht die richtige Auffassung <rs
-            type="person" ref="#3368">Olbrich</rs>’scher Kunst sein. – Aber es gibt hier schöne
+          muß wohl Gewohnheit sein. Ich habe mich in der Villa <rs type="person" ref="#pmb10815">Bahr</rs> gründlich unmöglich gemacht, denn ich hielt mir die Augen zu, als wir über
+          einen grellblauen Teppich schritten; das soll nicht die richtige Auffassung <rs type="person" ref="#pmb3368">Olbrich</rs>’scher Kunst sein. – Aber es gibt hier schöne
           Bilder von den Größen der neuen Kunst, und man sieht deutlich, wie sie den Rahmen heben.
           Niemals schienen mir auch Tulpen so wunderbar farbig und fein als in dem blauen Zimmer, da
           sie ihre Köpfe hochauf, fast duftvoll zur Decke strecken. Und vom Mittelzimmer sieht man
           weit hinaus ins Land und freut sich der Nebelgebilde, die über den Städten hängen. Der
-          echte <rs type="person" ref="#10815">Bahr</rs> aber zeigt sich mir im Studirzimmer. Es ist
-          den schönen Künsten und vor Allem <rs type="person" ref="#11941">Klimt</rs> geweiht. Da
-          grüßt im Mittelfeld die »<rs type="work" ref="#31809">Wahrheit</rs>« mit dem häßlichen
+          echte <rs type="person" ref="#pmb10815">Bahr</rs> aber zeigt sich mir im Studirzimmer. Es ist
+          den schönen Künsten und vor Allem <rs type="person" ref="#pmb11941">Klimt</rs> geweiht. Da
+          grüßt im Mittelfeld die »<rs type="work" ref="#pmb31809">Wahrheit</rs>« mit dem häßlichen
           Antlitz und dem violetten Leib, und läßt an aller frauenhaften Anmuth zweifeln. Aber es
           bannt den Besucher wohl und kann ihn in noch so gesättigter Laune zum Nachdenken bringen.
-          Und das Ganze ist ein Tempel, nur daß dieses <anchor type="commentary" xml:id="KT040-1"
-          />Bild von Sais<note type="commentary" xml:id="KT040-1h">Mehrfach bearbeiteter Stoff der
+          Und das Ganze ist ein Tempel, nur daß dieses <anchor type="commentary" xml:id="KT040-1"/>Bild von Sais<note type="commentary" xml:id="KT040-1h">Mehrfach bearbeiteter Stoff der
             Antike von einer Statue, die sich der gänzlichen Erkenntnis entzieht. Hier wohl in
-            Anspielung auf <rs type="person" ref="#12654">Schiller</rs>s Ballade <rs type="work"
-              ref="#32175">Das verschleierte Bild zu Sais</rs> (<date>1795</date>), in der sich
+            Anspielung auf <rs type="person" ref="#pmb12654">Schiller</rs>s Ballade <rs type="work" ref="#pmb32175">Das verschleierte Bild zu Sais</rs> (<date>1795</date>), in der sich
             hinter dem Schleier die »Wahrheit« verbirgt.</note> sich Einem immerfort aufdrängt und
-          die Nerven bedroht. Denn <rs type="person" ref="#10815">Bahr</rs> hat dem <rs
-            type="person" ref="#3368" subtype="implied">Erbauer des Hauses</rs> klar seine Ansicht
-          kundgethan, für die <rs type="work" ref="#31809">Wahrheit</rs>
-          <space unit="chars" quantity="1"/>
-          <rs type="person" ref="#11941">Klimt</rs>’s sollte ein Raum geschaffen werden, der das
+          die Nerven bedroht. Denn <rs type="person" ref="#pmb10815">Bahr</rs> hat dem <rs type="person" ref="#pmb3368" subtype="implied">Erbauer des Hauses</rs> klar seine Ansicht
+          kundgethan, für die <rs type="work" ref="#pmb31809">Wahrheit</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="#pmb11941">Klimt</rs>’s sollte ein Raum geschaffen werden, der das
           Bild in den Vordergrund drängt und alles Andere in Form und Farbe ihm zu Füßen legt. Das
           ist nun trefflich gelungen.</p>
-        <p>
-          <rs type="person" ref="#10815">Bahr</rs> erzählt Wundervolles von dem Bild. Es hält ihn in
-          Stimmung, es stärkt und kräftigt. Tritt er früh Morgens in sein Zimmer, dann ist die <rs
-            type="work" ref="#31809">Wahrheit</rs> vom Licht umfluthet, dann erlebt er etwas wie
+            <p>
+               <rs type="person" ref="#pmb10815">Bahr</rs> erzählt Wundervolles von dem Bild. Es hält ihn in
+          Stimmung, es stärkt und kräftigt. Tritt er früh Morgens in sein Zimmer, dann ist die <rs type="work" ref="#pmb31809">Wahrheit</rs> vom Licht umfluthet, dann erlebt er etwas wie
           Sonnenaufgang. Und stets, auch in trüben Tagen, hat das Bild seine Kraft gewahrt. Da
           begreift sich’s, daß er es liebt.</p>
-        <p>Wir sprechen nun von <rs type="person" ref="#11941">Klimt</rs>, und <rs type="person"
-            ref="#10815">Hermann Bahr</rs> nennt ihn einen großen, fertigen Menschen, der nur wie
-          zufällig hier lebt, der aber mit seiner Kunst so wahr ist, wie etwa die <rs type="place"
-            ref="#166">Franzosen</rs>. Er zeigt mir die Bilder der <rs type="person" ref="#11201"
-            >Duse</rs>, die sie zumeist in welker Sinnlichkeit wiedergeben. Wie theuer sie ihm ist,
+            <p>Wir sprechen nun von <rs type="person" ref="#pmb11941">Klimt</rs>, und <rs type="person" ref="#pmb10815">Hermann Bahr</rs> nennt ihn einen großen, fertigen Menschen, der nur wie
+          zufällig hier lebt, der aber mit seiner Kunst so wahr ist, wie etwa die <rs type="place" ref="#pmb166">Franzosen</rs>. Er zeigt mir die Bilder der <rs type="person" ref="#pmb11201">Duse</rs>, die sie zumeist in welker Sinnlichkeit wiedergeben. Wie theuer sie ihm ist,
           das weist wohl ein Spruch der Künstlerin, der mit fester, erzwungener Männlichkeit über
           der Eingangsthür zu seinen Zimmern prangt.</p>
-        <p>Und dann sprechen wir im Studirzimmer von all den tausend Dingen, über die der erfahrene,
+            <p>Und dann sprechen wir im Studirzimmer von all den tausend Dingen, über die der erfahrene,
           kluge, geistvolle Hausherr wie selten Einer zu sprechen weiß. Er stand Pathe, da viel
           große Dinge entstanden, aber sein Ruhm übertrifft seine Thaten und er hat nur das Ueble,
           daß alle Auswüchse, alle Phrasen auf sein Conto kommen. Er lächelt und ereifert sich
@@ -147,213 +140,1621 @@
           Aber er vertritt das nur so beiläufig. Und so fand ich keinen Feuergeist, athme nur sein
           Temperament und war am meisten enttäuscht, als ich die Bahr-Locke verschwunden fand, die
           so lange richtunggebend für das Aeußere junger Talente war.</p>
-        <p>Ein Gast kam, da wir eben sprachen, und ich muß ihn einführen, denn es ist Dr. <rs
-            type="person" ref="#2121">Arthur Schnitzler</rs>. Der machte sich’s nun gleich bequem,
-          und es schien ihm ein Vergnügen, zu sehen, wie ein Anderer porträtirt wird. <rs
-            type="person" ref="#10815">Bahr</rs> ist sehr leicht zu treffen, und er macht Einem die
+            <p>Ein Gast kam, da wir eben sprachen, und ich muß ihn einführen, denn es ist Dr. <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>. Der machte sich’s nun gleich bequem,
+          und es schien ihm ein Vergnügen, zu sehen, wie ein Anderer porträtirt wird. <rs type="person" ref="#pmb10815">Bahr</rs> ist sehr leicht zu treffen, und er macht Einem die
           Arbeit auch angenehm. Kennt er doch selbst das Metier und weiß, daß es nichts Angenehmeres
           gibt, als auf ein Modell zu stoßen, das Kanten und Ecken hat, an die man den Meißel
           setzt.</p>
-        <p>»Ob er seinen Einfluß auf die Auswüchse der Modernen in Literatur und Kunst zugesteht
+            <p>»Ob er seinen Einfluß auf die Auswüchse der Modernen in Literatur und Kunst zugesteht
           oder ob es Legenden sind, die ihm die vielen Vaterschaften zusprechen?« </p>
-        <p>
-          <rs type="person" ref="#10815">Bahr</rs> lächelt und zögert mit der Antwort, und <rs
-            type="person" ref="#2121">Schnitzler</rs> meint mit seiner feinen, gut abgetönten
+            <p>
+               <rs type="person" ref="#pmb10815">Bahr</rs> lächelt und zögert mit der Antwort, und <rs type="person" ref="#pmb2121">Schnitzler</rs> meint mit seiner feinen, gut abgetönten
           Stimme: »Ist das nicht ein bißchen zu grob?«</p>
-        <p>Herr <rs type="person" ref="#10815">Bahr</rs> verwahrt sich dagegen, so vieles
-          Unfruchtbare gezeugt zu haben. Es sind also Legenden. »Denken Sie,« sagt er, »<rs
-            type="person" ref="#8948">Mirbeau</rs> entdeckt <rs type="person" ref="#12156"
-            >Maeterlinck</rs> in <rs type="place" ref="#182">Paris</rs> und ich führe den Dichter,
+            <p>Herr <rs type="person" ref="#pmb10815">Bahr</rs> verwahrt sich dagegen, so vieles
+          Unfruchtbare gezeugt zu haben. Es sind also Legenden. »Denken Sie,« sagt er, »<rs type="person" ref="#pmb8948">Mirbeau</rs> entdeckt <rs type="person" ref="#pmb12156">Maeterlinck</rs> in <rs type="place" ref="#pmb182">Paris</rs> und ich führe den Dichter,
           durch den <anchor type="commentary" xml:id="KT040-5"/>
-          <rs type="work" ref="#31811" subtype="implied">Artikel</rs>
-          <note type="commentary" xml:id="KT040-5h">
-            <bibl>
-              <rs type="person" ref="#8948">Octave Mirbeau</rs>: <rs type="work" ref="#31811"
-                >Maurice Maeterlinck</rs>. In: <rs type="org" ref="#29706">Le Figaro</rs>,
-              Jg.&#8239;36, Ser.&#160;3, Nr.&#160;236, <date>24.&#8239;8.&#8239;1890</date>,
-              S.&#8239;1</bibl>.</note> im ›<rs type="org" ref="#29706">Figaro</rs>‹ angeregt, in <rs
-            type="place" ref="#50">Wien</rs> als <anchor type="commentary" xml:id="KT040-4"
-            />Conferencier<note type="commentary" xml:id="KT040-4h">am <date>2.&#8239;5.&#8239;1892</date> bei
-            einer »Symbolistischen Vorstellung« im <rs type="place" ref="#40">Josefstädter
-              Theater</rs>
-          </note> ein. Bin ich da der Vater? – Oder denken Sie vielleicht, daß ich die <rs
-            type="place" ref="#7">Secession</rs> erfunden habe, oder daß ich an den Versen <rs
-            type="person" ref="#11740">Hofmannsthal</rs>s Schuld trage?« – </p>
-        <p>Und das Café <rs type="place" ref="#34">Griensteidl</rs>? Die legendarische
+               <rs type="work" ref="#pmb31811" subtype="implied">Artikel</rs>
+               <note type="commentary" xml:id="KT040-5h">
+                  <bibl>
+                     <rs type="person" ref="#pmb8948">Octave Mirbeau</rs>: <rs type="work" ref="#pmb31811">Maurice Maeterlinck</rs>. In: <rs type="org" ref="#pmb29706">Le Figaro</rs>,
+              Jg. 36, Ser. 3, Nr. 236, <date>24. 8. 1890</date>,
+              S. 1</bibl>.</note> im ›<rs type="org" ref="#pmb29706">Figaro</rs>‹ angeregt, in
+            <rs type="place" ref="#pmb50">Wien</rs> als <anchor type="commentary" xml:id="KT040-4"/>Conferencier<note type="commentary" xml:id="KT040-4h">am
+              <date>2. 5. 1892</date> bei einer »Symbolistischen Vorstellung« im <rs type="place" ref="#pmb40">Josefstädter Theater</rs>
+               </note> ein. Bin ich da der Vater? – Oder denken Sie vielleicht, daß ich die <rs type="place" ref="#pmb7">Secession</rs> erfunden habe, oder daß ich an den Versen <rs type="person" ref="#pmb11740">Hofmannsthal</rs>s Schuld trage?« – </p>
+            <p>Und das Café <rs type="place" ref="#pmb34">Griensteidl</rs>? Die legendarische
           Kaffeehausliteratur?</p>
-        <p><ref type="question" target="#q208"/><rs type="person" ref="#10815">Bahr</rs> lächelt und <rs type="person" ref="#2121"
-            >Schnitzler</rs> greift in die Debatte ein. Der Eine erklärt, in seinem Leben nur
-          zweimal mit <rs type="person" ref="#2121">Schnitzler</rs> und <rs type="person"
-            ref="#11740">Hofmannsthal</rs> zusammen in dem genannten Café gewesen zu sein, der
-          Zweite ist geärgert darüber, daß man noch immer in »trefflich« informirten Zeitschriften
-          von ihm als Kaffeehausdichter spricht. Und ich entnehme den Ausführungen Folgendes: Das
-          mit dem Café <rs type="place" ref="#34">Griensteidl</rs> und den großen Schlagworten, die
-          dort von <rs type="person" ref="#10815">Bahr</rs> ausgegeben worden sein sollen, ist
-          Erfindung und Eselei. Aber <rs type="person" ref="#10815">Bahr</rs> amüsirt sich darüber,
-          daß die Legende noch heute erhalten ist. Er will Mode gemacht haben vor Jahren in <rs
-            type="place" ref="#168">Berlin</rs>, als er, <rs type="person" ref="#12965">Tovote</rs>
-          und <rs type="person" ref="#11763">Holz</rs> einen neuen Stil creirten. Damals liebte er
-          die kurzen Sätze, die Gedanken mußten knapper präcisirt sein, die durchwachten Nächte
-          trugen auch Schuld daran. Und Andere machtens ihm nach. Heute ist das anders, er ertappt
-          sich auf langwierigen Perioden und bringt das mit seiner veränderten Herzthätigkeit, mit
-          Vielschreiberei und Lectüre zusammen.</p>
-        <p>Wir kommen auf Kritik und ihren Einfluß auf den schaffenden Künstler.</p>
-        <p>
-          <rs type="person" ref="#10815">Bahr</rs> gibt seine Ansicht kund, die dahin geht, daß der
+            <p>
+               <ref type="question" target="#q208"/>
+               <rs type="person" ref="#pmb10815">Bahr</rs> lächelt und
+            <rs type="person" ref="#pmb2121">Schnitzler</rs> greift in die Debatte ein. Der Eine
+          erklärt, in seinem Leben nur zweimal mit <rs type="person" ref="#pmb2121">Schnitzler</rs> und
+            <rs type="person" ref="#pmb11740">Hofmannsthal</rs> zusammen in dem genannten Café gewesen
+          zu sein, der Zweite ist geärgert darüber, daß man noch immer in »trefflich« informirten
+          Zeitschriften von ihm als Kaffeehausdichter spricht. Und ich entnehme den Ausführungen
+          Folgendes: Das mit dem Café <rs type="place" ref="#pmb34">Griensteidl</rs> und den großen
+          Schlagworten, die dort von <rs type="person" ref="#pmb10815">Bahr</rs> ausgegeben worden sein
+          sollen, ist Erfindung und Eselei. Aber <rs type="person" ref="#pmb10815">Bahr</rs> amüsirt
+          sich darüber, daß die Legende noch heute erhalten ist. Er will Mode gemacht haben vor
+          Jahren in <rs type="place" ref="#pmb168">Berlin</rs>, als er, <rs type="person" ref="#pmb12965">Tovote</rs> und <rs type="person" ref="#pmb11763">Holz</rs> einen neuen Stil creirten.
+          Damals liebte er die kurzen Sätze, die Gedanken mußten knapper präcisirt sein, die
+          durchwachten Nächte trugen auch Schuld daran. Und Andere machtens ihm nach. Heute ist das
+          anders, er ertappt sich auf langwierigen Perioden und bringt das mit seiner veränderten
+          Herzthätigkeit, mit Vielschreiberei und Lectüre zusammen.</p>
+            <p>Wir kommen auf Kritik und ihren Einfluß auf den schaffenden Künstler.</p>
+            <p>
+               <rs type="person" ref="#pmb10815">Bahr</rs> gibt seine Ansicht kund, die dahin geht, daß der
           Kritiker lediglich fürs Publicum sein Amt ausübt. Belehrung der Leute ist seine Mission,
-          für den Künstler ist sie bedeutungslos. Denn <rs type="person" ref="#10815">Bahr</rs>
+          für den Künstler ist sie bedeutungslos. Denn <rs type="person" ref="#pmb10815">Bahr</rs>
           glaubt nicht, daß der Künstler durch das Wort des Tadels oder des Lobes ein Anderer werden
           kann, und gerade so wenig der Dichter.</p>
-        <p>»Die schlechte Kritik hat also keinen Einfluß?« </p>
-        <p>»Auf den Künstler nicht!« </p>
-        <p><ref type="question" target="#q209"/>»Doch,« unterbricht <rs type="person" ref="#2121">Schnitzler</rs>, »er giftet sich.« </p>
-        <p>Und wir sind nun mitten im Thema: Ungerechte, persönliche Beurtheilung, Verrohung der
+            <p>»Die schlechte Kritik hat also keinen Einfluß?« </p>
+            <p>»Auf den Künstler nicht!« </p>
+            <p>
+               <ref type="question" target="#q209"/>»Doch,« unterbricht <rs type="person" ref="#pmb2121">Schnitzler</rs>, »er giftet sich.« </p>
+            <p>Und wir sind nun mitten im Thema: Ungerechte, persönliche Beurtheilung, Verrohung der
           Theaterkritik.</p>
-        <p><rs type="person" ref="#10815">Bahr</rs> mag die Kritik nicht, die persönlich wird und hat den Stachel selbst empfunden, als
-          man beispielsweise nach seinem »<rs type="work" ref="#29887">Apostel</rs>« schrieb:
-            »<anchor type="commentary" xml:id="KT040-6"/>
-          <rs type="work" ref="#31769">Der Dichter, der eine Villa in <rs type="place" ref="#165"
-              >Ober-St. Veit</rs> besitzt</rs>
-          <note type="commentary" xml:id="KT040-6h"><bibl>
-              <rs type="person" ref="#11988">Karl Kraus</rs>: <rs type="work" ref="#31769">Vom
-                Wechselgastspiel</rs>. In: <rs type="work" ref="#41244">Die Fackel</rs>, Jg.&#8239;2,
-              Nr.&#160;43, <date>Anfang Juni 1900</date>, S.&#8239;16–25</bibl>.</note>
-          <space unit="chars" quantity="1"/>
-          <c rendition="#dots" n="3"/>
-          <space unit="chars" quantity="1"/>
-          <c rendition="#kaufmannsund"/>c.« <rs type="person" ref="#2121">Schnitzler</rs> denkt
+            <p>
+               <rs type="person" ref="#pmb10815">Bahr</rs> mag die Kritik nicht, die persönlich wird und
+          hat den Stachel selbst empfunden, als man beispielsweise nach seinem »<rs type="work" ref="#pmb29887">Apostel</rs>« schrieb: »<anchor type="commentary" xml:id="KT040-6"/>
+               <rs type="work" ref="#pmb31769">Der Dichter, der eine Villa in <rs type="place" ref="#pmb165">Ober-St. Veit</rs> besitzt</rs>
+               <note type="commentary" xml:id="KT040-6h">
+                  <bibl>
+                     <rs type="person" ref="#pmb11988">Karl Kraus</rs>: <rs type="work" ref="#pmb31769">Vom
+                Wechselgastspiel</rs>. In: <rs type="work" ref="#pmb41244">Die Fackel</rs>,
+              Jg. 2, Nr. 43, <date>Anfang Juni 1900</date>, S. 16–25</bibl>.</note>
+               <space unit="chars" quantity="1"/>
+               <c rendition="#dots" n="3"/>
+               <space unit="chars" quantity="1"/>
+               <c rendition="#kaufmannsund"/>c.« <rs type="person" ref="#pmb2121">Schnitzler</rs> denkt
           milder, er will nur nicht, daß die Kritik böswillig sei; schließlich ist er der Ansicht,
           daß der <anchor type="commentary" xml:id="KT040-7"/>
-          <rs type="person" ref="#12899">Sudermann</rs>’sche Rummel<note type="commentary"
-            xml:id="KT040-7h">In fünf Artikeln (<bibl>
-              <rs type="org" ref="#29329">Berliner Tageblatt</rs>, <date>30.&#8239;10.</date> bis
-                <date>1.&#8239;12.&#8239;1902</date>
-            </bibl>) beklagte <rs type="person" ref="#12899">Sudermann</rs> die <rs type="work"
-              ref="#31817">Verrohung in der Theaterkritik</rs> und rechnete mit Kritikern ab.</note>
+               <rs type="person" ref="#pmb12899">Sudermann</rs>’sche Rummel<note type="commentary" xml:id="KT040-7h">In fünf Artikeln (<bibl>
+                     <rs type="org" ref="#pmb29329">Berliner Tageblatt</rs>, <date>30. 10.</date> bis
+                <date>1. 12. 1902</date>
+                  </bibl>) beklagte <rs type="person" ref="#pmb12899">Sudermann</rs> die <rs type="work" ref="#pmb31817">Verrohung in der Theaterkritik</rs> und rechnete mit Kritikern ab.</note>
           nicht sehr begründet war, denn das persönliche Moment bei der Beurtheilung hätten schon
-            <rs type="person" ref="#11461">Goethe</rs> und <rs type="person" ref="#12654"
-            >Schiller</rs> empfinden müssen. Ein gesuchter Witz in einem Referat sei aber keine so
+            <rs type="person" ref="#pmb11461">Goethe</rs> und <rs type="person" ref="#pmb12654">Schiller</rs> empfinden müssen. Ein gesuchter Witz in einem Referat sei aber keine so
           himmelschreiende Sache, denn »ein guter Spaß ist mir lieber, als ein schlechtes
           Stück«.</p>
-        <p>Ein schlechter Kritiker kann mich nicht ändern, sagt Herr <rs type="person" ref="#10815"
-            >Bahr</rs>, aber ein weiser Kritiker kann es wohl dazu bringen, daß ich in Erkennung
+            <p>Ein schlechter Kritiker kann mich nicht ändern, sagt Herr <rs type="person" ref="#pmb10815">Bahr</rs>, aber ein weiser Kritiker kann es wohl dazu bringen, daß ich in Erkennung
           meiner Mängel mein Werk aufgebe. Und dazu kann den Dichter der Kritiker bewegen; das zeigt
-          sich trefflich bei <rs type="person" ref="#11518">Grillparzer</rs>, den die Kritik
-          verbittert hat und nicht die Censur. Es ist höchst überflüssig, wenn ich von <rs
-            type="person" ref="#2121">Schnitzler</rs> beispielsweise schreibe, daß ihm zum <rs
-            type="person" ref="#2412">Shakespeare</rs> etwas fehlt. Das kann ihn nicht besser
+          sich trefflich bei <rs type="person" ref="#pmb11518">Grillparzer</rs>, den die Kritik
+          verbittert hat und nicht die Censur. Es ist höchst überflüssig, wenn ich von <rs type="person" ref="#pmb2121">Schnitzler</rs> beispielsweise schreibe, daß ihm zum <rs type="person" ref="#pmb2412">Shakespeare</rs> etwas fehlt. Das kann ihn nicht besser
           machen, denn er weiß, daß ihm nur Eines dazu fehlt: das Talent. Nicht wahr, das stimmt
-          doch! Und <rs type="person" ref="#2121">Schnitzler</rs> bejaht.</p>
-        <p>
-          <rs type="person" ref="#10815">Bahr</rs> fuhr mit <rs type="person" ref="#12899"
-            >Sudermann</rs> nach der <anchor type="commentary" xml:id="KT040-8"/>Première der »<rs
-            type="work" ref="#31815">Drei Reiherfedern</rs>
-          <note type="commentary" xml:id="KT040-8h">am <date>7.&#8239;10.&#8239;1902</date> im <rs type="org"
-              ref="#36247">Burgtheater</rs>
-          </note>« nach <rs type="place" ref="#168">Berlin</rs> und merkte dem Dichter schon im
-          Coupé an, daß er mit der »<rs type="work" ref="#31817">Verrohung in der Kritik</rs>«
-          schwanger ging. <rs type="person" ref="#12899">Sudermann</rs> war beispielsweise von einem
-            <anchor type="commentary" xml:id="KT040-9"/>Referat gekränkt<note type="commentary"
-            xml:id="KT040-9h">
-            <bibl>
-              <rs type="person" ref="#2577">Schnüfferl [=Alexander Landesberg]</rs>: <rs type="work"
-                ref="#32836">Aus dem Souffleurkasten. III.</rs> In: <rs type="work" ref="#41479"
-                >Wiener Sonn- und Montags-Zeitung</rs>, Jg. 40, Nr. 41, <date>13.&#8239;10.&#8239;1902</date>,
-              S. 3</bibl>.</note>, in dem von seinem schönen Bart die Rede war. Herr <rs
-            type="person" ref="#2121">Schnitzler</rs> erklärt, ihn würde das nicht ärgern, und Herr
-            <rs type="person" ref="#10815">Bahr</rs> ist der gleichen Meinung.</p>
-        <p>Wir kommen auf die Schauspielkunst der <rs type="person" ref="#11201">Duse</rs>. Ob Herr
-            <rs type="person" ref="#10815">Bahr</rs> der Ansicht ist, daß ihre Kunst auf die
+          doch! Und <rs type="person" ref="#pmb2121">Schnitzler</rs> bejaht.</p>
+            <p>
+               <rs type="person" ref="#pmb10815">Bahr</rs> fuhr mit <rs type="person" ref="#pmb12899">Sudermann</rs> nach der <anchor type="commentary" xml:id="KT040-8"/>Première der »<rs type="work" ref="#pmb31815">Drei Reiherfedern</rs>
+               <note type="commentary" xml:id="KT040-8h">am <date>7. 10. 1902</date> im <rs type="org" ref="#pmb36247">Burgtheater</rs>
+               </note>« nach <rs type="place" ref="#pmb168">Berlin</rs> und merkte dem Dichter schon im
+          Coupé an, daß er mit der »<rs type="work" ref="#pmb31817">Verrohung in der Kritik</rs>«
+          schwanger ging. <rs type="person" ref="#pmb12899">Sudermann</rs> war beispielsweise von einem
+            <anchor type="commentary" xml:id="KT040-9"/>Referat gekränkt<note type="commentary" xml:id="KT040-9h">
+                  <bibl>
+                     <rs type="person" ref="#pmb2577">Schnüfferl [=Alexander Landesberg]</rs>: <rs type="work" ref="#pmb32836">Aus dem Souffleurkasten. III.</rs> In: <rs type="work" ref="#pmb41479">Wiener Sonn- und Montags-Zeitung</rs>, Jg. 40, Nr. 41,
+                <date>13. 10. 1902</date>, S. 3</bibl>.</note>, in dem von seinem
+          schönen Bart die Rede war. Herr <rs type="person" ref="#pmb2121">Schnitzler</rs> erklärt, ihn
+          würde das nicht ärgern, und Herr <rs type="person" ref="#pmb10815">Bahr</rs> ist der gleichen
+          Meinung.</p>
+            <p>Wir kommen auf die Schauspielkunst der <rs type="person" ref="#pmb11201">Duse</rs>. Ob Herr
+            <rs type="person" ref="#pmb10815">Bahr</rs> der Ansicht ist, daß ihre Kunst auf die
           deutschen Schauspielerinnen gewirkt hat? </p>
-        <p>Herr <rs type="person" ref="#10815">Bahr</rs> verneint sehr energisch. »Nein, sie haben
+            <p>Herr <rs type="person" ref="#pmb10815">Bahr</rs> verneint sehr energisch. »Nein, sie haben
           nichts gelernt von ihr, oder doch Einiges. Sie zerraufen sich die Haare, tragen keine
-          Mieder und gefallen sich in den unmöglichsten Schaukelbewegungen.« – Herr <rs
-            type="person" ref="#10815">Bahr</rs> zeigt mir diese Darstellungskunst sehr drastisch,
+          Mieder und gefallen sich in den unmöglichsten Schaukelbewegungen.« – Herr <rs type="person" ref="#pmb10815">Bahr</rs> zeigt mir diese Darstellungskunst sehr drastisch,
           indem er seine noch immer stattliche Mähne kraut und im Sessel lustige Wippübungen macht.
           Und er hält überhaupt nichts von dem Ablernen, dem Copiren. Es werden Namen genannt von
-          Leuten, die Jeder auf seiner Walze hat, und dann zwei, die nicht nachzuahmen sind: <rs
-            type="person" ref="#6173">Baumeister</rs>, <rs type="person" ref="#12265"
-            >Mitterwurzer</rs>. <rs type="person" ref="#2121">Schnitzler</rs> nennt auch den Namen
-            <rs type="person" ref="#11441">Girardi</rs>, und wie es kommt, daß seine unantastbare
+          Leuten, die Jeder auf seiner Walze hat, und dann zwei, die nicht nachzuahmen sind: <rs type="person" ref="#pmb6173">Baumeister</rs>, <rs type="person" ref="#pmb12265">Mitterwurzer</rs>. <rs type="person" ref="#pmb2121">Schnitzler</rs> nennt auch den Namen
+            <rs type="person" ref="#pmb11441">Girardi</rs>, und wie es kommt, daß seine unantastbare
           Originalität so viele Nachbeter verträgt.</p>
-        <p>»Das hat schon seinen Grund,« sagt <rs type="person" ref="#10815">Bahr</rs>. »Er schöpft
+            <p>»Das hat schon seinen Grund,« sagt <rs type="person" ref="#pmb10815">Bahr</rs>. »Er schöpft
           eben aus dem Volk und es ist nur ein Beweis seiner Echtheit, wenn Viele so sprechen wie
           er. Ich kenne einen <anchor type="commentary" xml:id="K_implied_27726"/>
-          <rs type="person" ref="#27726" subtype="implied">Bäcker</rs>
-          <note type="commentary" xml:id="K_implied_27726h">nicht identifiziert</note>, der zur Zeit
+               <rs type="person" ref="#pmb27726" subtype="implied">Bäcker</rs>
+               <note type="commentary" xml:id="K_implied_27726h">nicht identifiziert</note>, der zur Zeit
           meinem <anchor type="commentary" xml:id="K_implied_27725"/>
-          <rs type="person" ref="#27725" subtype="implied">Stubenmädchen</rs>
-          <note type="commentary" xml:id="K_implied_27725h">nicht identifiziert</note> den Hof
-          macht, und ich kann nicht genug staunen, wie er dem <rs type="person" ref="#11441"
-            >Girardi</rs> in Gesten und Worten ähnelt, obzwar es sicher anzunehmen ist, daß er ihn
+               <rs type="person" ref="#pmb27725" subtype="implied">Stubenmädchen</rs>
+               <note type="commentary" xml:id="K_implied_27725h">nicht identifiziert</note> den Hof
+          macht, und ich kann nicht genug staunen, wie er dem <rs type="person" ref="#pmb11441">Girardi</rs> in Gesten und Worten ähnelt, obzwar es sicher anzunehmen ist, daß er ihn
           vielleicht nur einmal in seinem Leben auf der Bühne gesehen hat –.«</p>
-        <p>Ob man Journalist und Bühnenschriftsteller sein kann, ohne in einem eine
+            <p>Ob man Journalist und Bühnenschriftsteller sein kann, ohne in einem eine
           Nebenbeschäftigung erblicken zu müssen? </p>
-        <p><ref type="question" target="#q211"></ref>
-          <rs type="person" ref="#2121">Arthur Schnitzler</rs> läßt die Fragestellung nicht zu: »Das
-          dürfen Sie doch nicht <rs type="person" ref="#10815">Bahr</rs> fragen, der Beides ist,
+            <p>
+               <ref type="question" target="#q211"/>
+               <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> läßt die Fragestellung nicht zu: »Das
+          dürfen Sie doch nicht <rs type="person" ref="#pmb10815">Bahr</rs> fragen, der Beides ist,
           denn über sich selbst kann man nicht bei Beantwortung einer Frage stehen. Ich glaube aber,
-          daß <rs type="person" ref="#11461">Goethe</rs>, <rs type="person" ref="#12053"
-            >Lessing</rs> und <rs type="person" ref="#2404">Hebbel</rs> den Befähigungsnachweis
+          daß <rs type="person" ref="#pmb11461">Goethe</rs>, <rs type="person" ref="#pmb12053">Lessing</rs> und <rs type="person" ref="#pmb2404">Hebbel</rs> den Befähigungsnachweis
           erbracht haben, sie waren Kritiker, Journalisten, Schriftsteller; man kann Arzt sein als
-          Schriftsteller, man kann Taschendieb sein, man muß nur Zeit genug haben <c
-            rendition="#dots" n="3"/>« </p>
-        <p>Wie <rs type="person" ref="#10815">Hermann Bahr</rs> arbeitet? </p>
-        <p>Es muß ihm etwas einfallen, blitzmäßig muß es ihn erleuchten, das Andere geht dann
-          leicht: der Weg von <rs type="place" ref="#63">Hietzing</rs> nach seiner Wohnung in <rs
-            type="place" ref="#165">Ober-St. Veit</rs> kommt ihm prächtig zustatten, da kommen die
-          hübschesten Ideen. <ref type="question" target="#q013"/>Auch <rs type="person" ref="#2121"
-            >Schnitzler</rs> ist gern allein bei der ersten Arbeit, er liebt noch die
+          Schriftsteller, man kann Taschendieb sein, man muß nur Zeit genug haben <c rendition="#dots" n="3"/>« </p>
+            <p>Wie <rs type="person" ref="#pmb10815">Hermann Bahr</rs> arbeitet? </p>
+            <p>Es muß ihm etwas einfallen, blitzmäßig muß es ihn erleuchten, das Andere geht dann
+          leicht: der Weg von <rs type="place" ref="#pmb63">Hietzing</rs> nach seiner Wohnung in <rs type="place" ref="#pmb165">Ober-St. Veit</rs> kommt ihm prächtig zustatten, da kommen die
+          hübschesten Ideen. <ref type="question" target="#q013"/>Auch <rs type="person" ref="#pmb2121">Schnitzler</rs> ist gern allein bei der ersten Arbeit, er liebt noch die
           Ortsveränderung, das Radfahren.</p>
-        <p>Wir begeben uns ins blaue Zimmer und ich verabschiede mich. Da sieht man, was die
+            <p>Wir begeben uns ins blaue Zimmer und ich verabschiede mich. Da sieht man, was die
           Gewohnheit ausmacht, die grellen Reflexe wirken jetzt nicht mehr so störend, und man
           wünschte in diesem Raume eine Frau zu sehen, mit rothem Haar und angethan mit weißen,
           losen Gewändern.</p>
-        <p>Noch einmal kommt das Gespräch auf vergangene Zeit. »Weißt Du noch,« sagt <rs
-            type="person" ref="#2121">Schnitzler</rs>, »wie wir an jenem Abend zusammensaßen im <rs
-            type="place" ref="#527">
-            <anchor type="commentary" xml:id="KT040-2"/>Lothringer Bierhaus<note type="commentary"
-              xml:id="KT040-2h">
-              <rs type="place" ref="#527">Zum Lothringer</rs> benanntes Lokal am <rs type="place"
-                ref="#597">Kohlmarkt</rs> im 1. Wiener Gemeindebezirk. Das Haus wurde im <date
-                when="1892-05">Mai 1892</date> wegen Einsturzgefahr gesperrt und in Folge
+            <p>Noch einmal kommt das Gespräch auf vergangene Zeit. »Weißt Du noch,« sagt <rs type="person" ref="#pmb2121">Schnitzler</rs>, »wie wir an jenem Abend zusammensaßen im <rs type="place" ref="#pmb527">
+                  <anchor type="commentary" xml:id="KT040-2"/>Lothringer Bierhaus<note type="commentary" xml:id="KT040-2h">
+                     <rs type="place" ref="#pmb527">Zum Lothringer</rs> benanntes Lokal am <rs type="place" ref="#pmb597">Kohlmarkt</rs> im 1. Wiener Gemeindebezirk. Das Haus wurde im <date when="1892-05">Mai 1892</date> wegen Einsturzgefahr gesperrt und in Folge
               abgerissen, womit das geschilderte Ereignis im ersten Jahr der Bekanntschaft zu
-              verorten wäre. <rs type="person" ref="#2121">Schnitzler</rs>s <rs type="work"
-                ref="#33243">Tagebuch</rs> erwähnt das Lokal nicht.</note>
-          </rs> und Du das Wort ›die Moderne‹, kurz vorher geprägt, auf den Antrag eines Gastes
-          zurücknahmst? Es war lustig!« – Und <rs type="person" ref="#10815">Bahr</rs> lacht
+              verorten wäre. <rs type="person" ref="#pmb2121">Schnitzler</rs>s <rs type="work" ref="#pmb33243">Tagebuch</rs> erwähnt das Lokal nicht.</note>
+               </rs> und Du das Wort ›die Moderne‹, kurz vorher geprägt, auf den Antrag eines Gastes
+          zurücknahmst? Es war lustig!« – Und <rs type="person" ref="#pmb10815">Bahr</rs> lacht
           herzlich in der Erinnerung an jenen Abend, es war ja doch eine Zeit, die Männer zum Reifen
           brachte.</p>
-        <p>Auf dem Heimweg schien mir die Natur fabelhaft unecht. <rs type="person" ref="#10815"
-            >Bahr</rs>’s Stolz, der Marillenbaum hatte violette Flecke und sein Haus war in grelles
+            <p>Auf dem Heimweg schien mir die Natur fabelhaft unecht. <rs type="person" ref="#pmb10815">Bahr</rs>’s Stolz, der Marillenbaum hatte violette Flecke und sein Haus war in grelles
           Roth getaucht, seine Hunde aber bellten blau. Ich glaube, so muß es jedem Naivling
           ergehen, der auszieht, die Wahrheit zu schauen<c rendition="#dots" n="4"/>
-        </p>
-        <p rend="right">
-          <hi rend="antiqua">A. D.-G.</hi>
-        </p>
-      </div>
-      <div type="biographical">
-        <div1>
-          <ref type="schnitzlerDiary" target="1903-04-02"/>
-          <quote>Bei <rs type="person" ref="#10815">Bahr</rs>, woselbst der Interviewer <rs
-              type="person" ref="#2288">Deutsch-German</rs>, Commisnatur.–</quote>
-        </div1>
-        <div1>
-          <bibl><rs type="person" ref="#2121">Schnitzler</rs> an <rs type="person" ref="#10815">Hermann Bahr</rs>, <date when="1903-04-06"
-              >6.&#8239;4.&#8239;1903</date>
-          </bibl>
-          <quote>Die <rs type="work" ref="#33029" subtype="implied">Nachricht</rs> des <rs
-              type="org" ref="#29320">N. Wr. Journ</rs>
-            <space unit="chars" quantity="1"/>ist unwahr, mindestens um sehr geraume Zeit verfrüht.
-            Erinnerst du dich, dss wir gerade am Tag vorher mit einem <rs type="person" ref="#2288"
-              subtype="implied">Herrn</rs> des <rs type="org" ref="#29320">N. Wr. J.</rs> über die
+            </p>
+            <p rend="right">
+               <hi rend="antiqua">A. D.-G.</hi>
+            </p>
+         </div>
+         <div type="biographical">
+            <div1>
+               <ref type="schnitzler-tagebuch" target="1903-04-02"/>
+               <quote>Bei <rs type="person" ref="#pmb10815">Bahr</rs>, woselbst der Interviewer <rs type="person" ref="#pmb2288">Deutsch-German</rs>, Commisnatur.–</quote>
+            </div1>
+            <div1>
+               <bibl>
+                  <rs type="person" ref="#pmb2121">Schnitzler</rs> an <rs type="person" ref="#pmb10815">Hermann Bahr</rs>, <date when="1903-04-06">6. 4. 1903</date>
+               </bibl>
+               <quote>Die <rs type="work" ref="#pmb33029" subtype="implied">Nachricht</rs> des <rs type="org" ref="#pmb29320">N. Wr. Journ</rs>
+                  <space unit="chars" quantity="1"/>ist unwahr, mindestens um sehr geraume Zeit verfrüht.
+            Erinnerst du dich, dss wir gerade am Tag vorher mit einem <rs type="person" ref="#pmb2288" subtype="implied">Herrn</rs> des <rs type="org" ref="#pmb29320">N. Wr. J.</rs> über die
             Büberei gesprochen haben, die durch die journalistischen
               Einmischung<supplied>en</supplied> ins Privatleben verübt werden? – In meinem Fall war
             es ja zufällig gleichgiltig; aber es hätte ebenso gut eine freche Indiscretion sein
-              <supplied>können.</supplied></quote>
-        </div1>
-      </div>
-    </body>
-  </text>
+              <supplied>können.</supplied>
+               </quote>
+            </div1>
+         </div>
+      </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2288">
+               <persName>
+                  <forename>Alfred</forename>
+                  <surname>Deutsch-German</surname>
+               </persName>
+               <persName type="legacy-name-merge">Deutsch-German, Alfred Ludwig</persName>
+               <birth>
+                  <date when="1870-09-27">1870-09-27</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1943-07-02" notAfter="1943-12-31">1943</date>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/126052018</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14431</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2288.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2288/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/15356/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2288</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38054</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x002dda13</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q215610</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Alfred_Deutsch-German</idno>
+            </person>
+            <person xml:id="pmb10815">
+               <persName>
+                  <forename>Hermann</forename>
+                  <surname>Bahr</surname>
+               </persName>
+               <birth>
+                  <date when="1863-07-19">19.07.1863</date>
+                  <settlement ref="pmb332">
+                     <placeName type="pref">Linz</placeName>
+                     <location>
+                        <geo>48,3 14,28333</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1934-01-15">15.01.1934</date>
+                  <settlement ref="pmb45258">
+                     <placeName type="pref">München</placeName>
+                     <location>
+                        <geo>48,13743 11,57549</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10815.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10815/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10815</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10815.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb10815</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp45908</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00280efa</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q94034</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hermann_Bahr</idno>
+               <idno type="URL" subtype="dx">https://dx.doi.org/10.1553/0x0001f7bb</idno>
+            </person>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb4182">
+               <persName>
+                  <forename>Carl Maria von</forename>
+                  <surname>Weber</surname>
+               </persName>
+               <birth>
+                  <date when="1786-11-18">18.11.1786</date>
+                  <settlement ref="pmb61139">
+                     <placeName type="pref">Eutin</placeName>
+                     <location>
+                        <geo>54,14054 10,60751</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1826-06-05">05.06.1826</date>
+                  <settlement ref="pmb224">
+                     <placeName type="pref">London</placeName>
+                     <location>
+                        <geo>51,50853 -0,12574</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb129">Komponist/Komponistin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118629662</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21120</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb4182.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4182/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp47586</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q154812</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Carl_Maria_von_Weber</idno>
+            </person>
+            <person xml:id="pmb3368">
+               <persName>
+                  <forename>Joseph Maria</forename>
+                  <surname>Olbrich</surname>
+               </persName>
+               <birth>
+                  <date when="1867-12-22">1867-12-22</date>
+                  <settlement ref="pmb36539">
+                     <placeName type="pref">Opava</placeName>
+                     <location>
+                        <geo>49,93866 17,90257</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1908-08-08">1908-08-08</date>
+                  <settlement ref="pmb863">
+                     <placeName type="pref">Düsseldorf</placeName>
+                     <location>
+                        <geo>51,22172 6,77616</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb185">Architekt/Architektin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118589768</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3368.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3368/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp50807</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x002837ad</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44911</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Joseph_Maria_Olbrich</idno>
+            </person>
+            <person xml:id="pmb11941">
+               <persName>
+                  <forename>Gustav</forename>
+                  <surname>Klimt</surname>
+               </persName>
+               <birth>
+                  <date when="1862-07-14">14.07.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1918-02-06">06.02.1918</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb110">Bildender Künstler/Bildende Künstlerin &gt;&gt; Maler/Malerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16910</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118563289</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11941.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11941/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp45195</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00282984</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q34661</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Gustav_Klimt</idno>
+            </person>
+            <person xml:id="pmb12654">
+               <persName>
+                  <forename>Friedrich von</forename>
+                  <surname>Schiller</surname>
+               </persName>
+               <birth>
+                  <date when="1759-11-10">10.11.1759</date>
+                  <settlement ref="pmb39585">
+                     <placeName type="pref">Marbach am Neckar</placeName>
+                     <location>
+                        <geo>48,93964 9,25995</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1805-05-09">09.05.1805</date>
+                  <settlement ref="pmb197">
+                     <placeName type="pref">Weimar</placeName>
+                     <location>
+                        <geo>50,97361 11,33806</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb134">Historiker/Historikerin</occupation>
+               <occupation ref="pmb154">Philosoph/Philosophin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19694</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118607626</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12654.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12654/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12654</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12654.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb12654</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43876</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0207</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q22670</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Friedrich_Schiller</idno>
+               <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/schiller-friedrich.html</idno>
+            </person>
+            <person xml:id="pmb11201">
+               <persName>
+                  <forename>Eleonora</forename>
+                  <surname>Duse</surname>
+               </persName>
+               <persName type="person_ehename_nachname">Marchetti</persName>
+               <birth>
+                  <date when="1858-10-03">03.10.1858</date>
+                  <settlement ref="pmb58890">
+                     <placeName type="pref">Vigevano</placeName>
+                     <location>
+                        <geo>45,31407 8,85437</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1924-04-21">21.04.1924</date>
+                  <settlement ref="pmb56126">
+                     <placeName type="pref">Pittsburgh</placeName>
+                     <location>
+                        <geo>40,44062 -79,99589</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14574</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118681354</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11201.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11201/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11201</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp42497</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q275970</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Eleonora_Duse</idno>
+            </person>
+            <person xml:id="pmb8948">
+               <persName>
+                  <forename>Octave</forename>
+                  <surname>Mirbeau</surname>
+               </persName>
+               <birth>
+                  <date when="1848-02-16">16.02.1848</date>
+                  <settlement ref="pmb61089">
+                     <placeName type="pref">Trévières</placeName>
+                     <location>
+                        <geo>49,30869 -0,90428</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1917-02-16">16.02.1917</date>
+                  <settlement ref="pmb182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18185</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118784226</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb8948.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/8948/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb8948.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp50782</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q23441</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Octave_Mirbeau</idno>
+            </person>
+            <person xml:id="pmb12156">
+               <persName>
+                  <forename>Maurice</forename>
+                  <surname>Maeterlinck</surname>
+               </persName>
+               <birth>
+                  <date when="1862-08-29">29.08.1862</date>
+                  <settlement ref="pmb58674">
+                     <placeName type="pref">Ghent</placeName>
+                     <location>
+                        <geo>51,05 3,71667</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1949-05-06">06.05.1949</date>
+                  <settlement ref="pmb926">
+                     <placeName type="pref">Nizza</placeName>
+                     <location>
+                        <geo>43,70313 7,26608</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17779</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118576089</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12156.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12156/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12156</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12156.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49517</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q49747</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Maurice_Maeterlinck</idno>
+            </person>
+            <person xml:id="pmb11740">
+               <persName>
+                  <forename>Hugo von</forename>
+                  <surname>Hofmannsthal</surname>
+               </persName>
+               <persName type="person_pseudonym">Loris</persName>
+               <persName type="person_pseudonym">Theophil Morren</persName>
+               <persName type="namensvariante">Hofmannsthal, Hugo</persName>
+               <birth>
+                  <date when="1874-02-01">1874-02-01</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1929-07-15">1929-07-15</date>
+                  <settlement ref="pmb173">
+                     <placeName type="pref">Rodaun</placeName>
+                     <location>
+                        <geo>48,132793312328 16,256152195922</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16293</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118552759</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11740.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11740/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11740</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11740</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46353</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00281a55</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q51513</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hugo_von_Hofmannsthal</idno>
+               <idno type="URL" subtype="dx">https://dx.doi.org/10.1553/0x0001d1cc</idno>
+               <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_42.html</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11740.html</idno>
+            </person>
+            <person xml:id="pmb12965">
+               <persName>
+                  <forename>Heinz</forename>
+                  <surname>Tovote</surname>
+               </persName>
+               <birth>
+                  <date when="1864-04-12">12.04.1864</date>
+                  <settlement ref="pmb890">
+                     <placeName type="pref">Hannover</placeName>
+                     <location>
+                        <geo>52,37052 9,73322</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1946-02-04">04.02.1946</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20784</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117421243</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12965.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12965/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12965.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1277857</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Heinz_Tovote</idno>
+            </person>
+            <person xml:id="pmb11763">
+               <persName>
+                  <forename>Arno</forename>
+                  <surname>Holz</surname>
+               </persName>
+               <birth>
+                  <date when="1863-04-26">26.04.1863</date>
+                  <settlement ref="pmb52777">
+                     <placeName type="pref">Kętrzyn</placeName>
+                     <location>
+                        <geo>54,07676 21,37527</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1929-10-26">26.10.1929</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16334</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118553216</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11763.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11763/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11763</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11763.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38441</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64404</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arno_Holz</idno>
+            </person>
+            <person xml:id="pmb11988">
+               <persName>
+                  <forename>Karl</forename>
+                  <surname>Kraus</surname>
+               </persName>
+               <persName type="person_pseudonym">J. Berdach</persName>
+               <birth>
+                  <date when="1874-04-28">28.04.1874</date>
+                  <settlement ref="pmb41660">
+                     <placeName type="pref">Jičín</placeName>
+                     <location>
+                        <geo>50,43723 15,35162</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1936-06-12">12.06.1936</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb237">Publizist/Publizistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17108</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118566288</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11988.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11988/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11988</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11988</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp47565</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00282496</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44328</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Karl_Kraus</idno>
+               <idno type="URL" subtype="dx">https://dx.doi.org/10.1553/0x0001d5e5</idno>
+               <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_81.html</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11988.html</idno>
+            </person>
+            <person xml:id="pmb12899">
+               <persName>
+                  <forename>Hermann</forename>
+                  <surname>Sudermann</surname>
+               </persName>
+               <birth>
+                  <date when="1857-09-30">30.09.1857</date>
+                  <settlement ref="pmb58616">
+                     <placeName type="pref">Macikai</placeName>
+                     <location>
+                        <geo>55,35468 21,52004</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1928-11-21">21.11.1928</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20563</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118619853</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12899.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12899/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12899</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12899.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp45949</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q65448</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hermann_Sudermann</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb12899.html</idno>
+            </person>
+            <person xml:id="pmb11461">
+               <persName>
+                  <forename>Johann Wolfgang von</forename>
+                  <surname>Goethe</surname>
+               </persName>
+               <birth>
+                  <date when="1749-08-28">1749-08-28</date>
+                  <settlement ref="pmb146">
+                     <placeName type="pref">Frankfurt am Main</placeName>
+                     <location>
+                        <geo>50,11552 8,68417</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1832-03-22">1832-03-22</date>
+                  <settlement ref="pmb197">
+                     <placeName type="pref">Weimar</placeName>
+                     <location>
+                        <geo>50,97361 11,33806</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15499</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118540238</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11461.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11461/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11461</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11461.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11461</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46960</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=G#DWpers0080</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q5879</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe</idno>
+               <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/goethe-johann-wolfgang.html</idno>
+               <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_11.html</idno>
+               <idno type="URL" subtype="freud">https://freud.acdh-dev.oeaw.ac.at/frd_person_24.html</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11461.html</idno>
+            </person>
+            <person xml:id="pmb11518">
+               <persName>
+                  <forename>Franz</forename>
+                  <surname>Grillparzer</surname>
+               </persName>
+               <birth>
+                  <date when="1791-01-15">15.01.1791</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1872-01-21">21.01.1872</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb1472">Beamter/Beamte</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15661</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118542192</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11518.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11518/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11518</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11518.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11518</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43482</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=G#DWpers1208</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q154438</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Franz_Grillparzer</idno>
+               <idno type="URL" subtype="dx">https://dx.doi.org/10.1553/0x0001cfa1</idno>
+               <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/grillparzer-franz.html</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x002818d2</idno>
+               <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_65.html</idno>
+            </person>
+            <person xml:id="pmb2412">
+               <persName>
+                  <forename>William</forename>
+                  <surname>Shakespeare</surname>
+               </persName>
+               <birth>
+                  <date when="1564-04-23">23.4.1564?</date>
+                  <settlement ref="pmb49870">
+                     <placeName type="pref">Stratford-upon-Avon</placeName>
+                     <location>
+                        <geo>52,19166 -1,70734</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1616-05-03">03.05.1616</date>
+                  <settlement ref="pmb49870">
+                     <placeName type="pref">Stratford-upon-Avon</placeName>
+                     <location>
+                        <geo>52,19166 -1,70734</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <occupation ref="pmb727">Schriftsteller/Schriftstellerin &gt;&gt; Dramatiker/Dramatikerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118613723</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20078</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2412.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2412/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2412</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2412.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb2412</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp55589</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0220</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q692</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/William_Shakespeare</idno>
+               <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/shakespeare-william.html</idno>
+               <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_10.html</idno>
+            </person>
+            <person xml:id="pmb2577">
+               <persName>
+                  <forename>Alexander</forename>
+                  <surname>Landesberg</surname>
+               </persName>
+               <persName type="legacy-name-merge">Landesberg, Alexander</persName>
+               <birth>
+                  <date when="1848-07-15">15.07.1848</date>
+                  <settlement ref="pmb39487">
+                     <placeName type="pref">Oradea</placeName>
+                     <location>
+                        <geo>47,0458 21,91833</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1916-06-14">14.6.1916</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/1030216444</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2577.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2577/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17274</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2577</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp37986</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/1017564256</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q19258866</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Alexander_Landesberg</idno>
+               <idno type="URL" subtype="dx">https://dx.doi.org/10.1553/0x0001d6d7</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00282bfc</idno>
+            </person>
+            <person xml:id="pmb6173">
+               <persName>
+                  <forename>Bernhard</forename>
+                  <surname>Baumeister</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Baumüller</persName>
+               <persName type="legacy-name-merge">Baumeister, Bernhard</persName>
+               <birth>
+                  <date when="1827-09-28">28.09.1827</date>
+                  <settlement ref="pmb44282">
+                     <placeName type="pref">Poznan</placeName>
+                     <location>
+                        <geo>52,40692 16,92993</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1917-10-25">25.10.1917</date>
+                  <settlement ref="pmb662">
+                     <placeName type="pref">Baden bei Wien</placeName>
+                     <location>
+                        <geo>48,00543 16,23264</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13489</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118869272</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb28476.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/6173/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/28476/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb6173</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp39121</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q111326</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Bernhard_Baumeister</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00280f6d</idno>
+            </person>
+            <person xml:id="pmb12265">
+               <persName>
+                  <forename>Friedrich</forename>
+                  <surname>Mitterwurzer</surname>
+               </persName>
+               <birth>
+                  <date when="1844-10-16">16.10.1844</date>
+                  <settlement ref="pmb866">
+                     <placeName type="pref">Dresden</placeName>
+                     <location>
+                        <geo>51,0833 13,7666</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1897-02-13">13.02.1897</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18190</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117064858</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12265.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12265/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12265</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43852</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=M#DWpers0167</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q90165</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Friedrich_Mitterwurzer</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00283074</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb12265.html</idno>
+            </person>
+            <person xml:id="pmb11441">
+               <persName>
+                  <forename>Alexander</forename>
+                  <surname>Girardi</surname>
+               </persName>
+               <birth>
+                  <date when="1850-12-05">05.12.1850</date>
+                  <settlement ref="pmb860">
+                     <placeName type="pref">Graz</placeName>
+                     <location>
+                        <geo>47,06667 15,43333</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1918-04-20">20.04.1918</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15442</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/11869510X</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11441.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11441/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11441</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp37978</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x002817da</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q45302</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Alexander_Girardi</idno>
+               <idno type="URL" subtype="dx">https://dx.doi.org/10.1553/0x0001cf1f</idno>
+            </person>
+            <person xml:id="pmb27726">
+               <persName>
+                  <surname>?? [Bäcker aus Bahrs Bekanntschaft]</surname>
+               </persName>
+               <sex value="male"/>
+               <occupation ref="pmb866">Bäcker/Bäckerin</occupation>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb27726.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/27726/</idno>
+            </person>
+            <person xml:id="pmb27725">
+               <persName>
+                  <surname>?? [Stubenfrau Bahrs]</surname>
+               </persName>
+               <sex value="female"/>
+               <occupation ref="pmb793">Reinigungskraft/Reinigungskraft</occupation>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb27725.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/27725/</idno>
+            </person>
+            <person xml:id="pmb12053">
+               <persName>
+                  <forename>Gotthold Ephraim</forename>
+                  <surname>Lessing</surname>
+               </persName>
+               <birth>
+                  <date when="1729-01-22">22.01.1729</date>
+                  <settlement ref="pmb58795">
+                     <placeName type="pref">Kamenz</placeName>
+                     <location>
+                        <geo>51,26798 14,09374</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1781-02-15">15.02.1781</date>
+                  <settlement ref="pmb35572">
+                     <placeName type="pref">Braunschweig</placeName>
+                     <location>
+                        <geo>52,26594 10,52673</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb247">Bibliothekar/Bibliothekarin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17474</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118572121</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12053.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12053/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12053</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12053.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb12053</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp44593</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q34628</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Gotthold_Ephraim_Lessing</idno>
+               <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/lessing-gotthold-ephraim.html</idno>
+            </person>
+            <person xml:id="pmb2404">
+               <persName>
+                  <forename>Friedrich</forename>
+                  <surname>Hebbel</surname>
+               </persName>
+               <persName type="legacy-name-merge">Hebbel, Friedrich</persName>
+               <birth>
+                  <date when="1813-03-18">18.03.1813</date>
+                  <settlement ref="pmb53806">
+                     <placeName type="pref">Wesselburen</placeName>
+                     <location>
+                        <geo>54,21217 8,92419</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1863-12-13">13.12.1863</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118547445</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2404.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2404/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16009</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2404</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2404.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb2404</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43835</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q57182</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Friedrich_Hebbel</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00281cdc</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb31731">
+               <title>Der Freischütz</title>
+               <author ref="pmb4182" role="hat-geschaffen">Weber, Carl Maria von</author>
+               <date when="1821-01-01">1821</date>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31731.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31731/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31731.html</idno>
+               <note type="work_kind">Musikstück &gt;&gt; Oper</note>
+            </bibl>
+            <bibl xml:id="pmb31809">
+               <title>Nuda veritas</title>
+               <title type="namensvariante">Die Wahrheit</title>
+               <author ref="pmb11941" role="hat-geschaffen">Klimt, Gustav</author>
+               <date notBefore="1899-01-01" when="1899-07-02">1899</date>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31809.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31809/</idno>
+               <note type="work_kind">Gemälde</note>
+            </bibl>
+            <bibl xml:id="pmb32175">
+               <title>Das verschleierte Bild zu Sais</title>
+               <author ref="pmb12654" role="hat-geschaffen">Schiller, Friedrich von</author>
+               <date when="1795-01-01">1795</date>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb32175.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32175/</idno>
+               <note type="work_kind">Text</note>
+            </bibl>
+            <bibl xml:id="pmb31811">
+               <title>Maurice Maeterlinck</title>
+               <title type="werk_bibliografische-angabe">Le Figaro, 24. 8. 1890</title>
+               <author ref="pmb8948" role="hat-geschaffen">Mirbeau, Octave</author>
+               <date when="1890-08-24">24.08.1890</date>
+               <idno type="URL" subtype="">http://gallica.bnf.fr/ark:/12148/bpt6k281227j/f1.item.zoom</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31811.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31811/</idno>
+               <note type="work_kind">Epik &gt;&gt; Aufsatz</note>
+            </bibl>
+            <bibl xml:id="pmb29887">
+               <title>Der Apostel. Schauspiel in drei Aufzügen</title>
+               <title type="legacy-name-merge">Der Apostel. Schauspiel in drei Aufzügen</title>
+               <author ref="pmb10815" role="hat-geschaffen">Bahr, Hermann</author>
+               <date notBefore="1901-01-01" when="1901-07-02">1901</date>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29887.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29887/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29887</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/135244/</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb31769">
+               <title>Vom Wechselgastspiel</title>
+               <title type="werk_bibliografische-angabe">Die Fackel, Jg. 2, Nr. 43, Anfang Juni 1900, S. 16–25</title>
+               <author ref="pmb11988" role="hat-geschaffen">Kraus, Karl</author>
+               <date>01.06.1900</date>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31769.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31769/</idno>
+               <note type="work_kind">Rezension</note>
+            </bibl>
+            <bibl xml:id="pmb41244">
+               <title>Die Fackel</title>
+               <title type="werk_link">https://fackel.oeaw.ac.at</title>
+               <author ref="pmb11988" role="hat-herausgegeben">Kraus, Karl</author>
+               <author ref="pmb10364" role="hat-einen-beitrag-geschaffen-zu">Viertel, Berthold</author>
+               <author ref="pmb11230" role="hat-einen-beitrag-geschaffen-zu">Ehrenstein, Albert</author>
+               <author ref="pmb12438" role="hat-einen-beitrag-geschaffen-zu">Adam, Robert</author>
+               <author ref="pmb10574" role="hat-einen-beitrag-geschaffen-zu">Wittels, Fritz</author>
+               <date from="1899-04-01" to="1936-07-01">1899-04  – 1936</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41244/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41244</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb41244.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb41244</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Zeitschrift</note>
+            </bibl>
+            <bibl xml:id="pmb31817">
+               <title>Verrohung in der Theaterkritik</title>
+               <title type="werk_bibliografische-angabe">Berliner Tageblatt, 30. 10. – 1. 12. 1902</title>
+               <author ref="pmb12899" role="hat-geschaffen">Sudermann, Hermann</author>
+               <date to="1902-12-01">1902-10-30  – 1902-12-01</date>
+               <idno type="URL" subtype="">http://zefys.staatsbibliothek-berlin.de/dfg-viewer/?no_cache=1&amp;set%5Bmets%5D=http%3A%2F%2Fzefys.staatsbibliothek-berlin.de%2Foai%2F%3Ftx_zefysoai_pi1%255Bidentifier%255D%3D22230022-e06d-4698-a744-b8315dfa82dc</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31817.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31817/</idno>
+               <note type="work_kind">Feuilleton</note>
+            </bibl>
+            <bibl xml:id="pmb31815">
+               <title>Die drei Reiherfedern</title>
+               <author ref="pmb12899" role="hat-geschaffen">Sudermann, Hermann</author>
+               <date when="1898-01-01">1898</date>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31815.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31815/</idno>
+               <note type="work_kind">Text</note>
+            </bibl>
+            <bibl xml:id="pmb32836">
+               <title>Aus dem Souffleurkasten. III</title>
+               <title type="werk_bibliografische-angabe">Wiener Sonn- und Montags-Zeitung, 13. 10. 1902</title>
+               <author ref="pmb2577" role="hat-unter-pseudonym-geschrieben">Landesberg, Alexander</author>
+               <date when="1902-10-13">13.10.1902</date>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb32836.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32836/</idno>
+               <note type="work_kind">Zeitungsbericht</note>
+            </bibl>
+            <bibl xml:id="pmb41479">
+               <title>Wiener Sonn- und Montagszeitung</title>
+               <title type="werk_link">http://anno.onb.ac.at/cgi-content/anno?aid=wsz</title>
+               <date from="1863-01-01" to="1936-07-01">1863  – 1936</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41479/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41479</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Zeitschrift &gt;&gt; Wochenschrift</note>
+            </bibl>
+            <bibl xml:id="pmb33243">
+               <title>Tagebuch</title>
+               <title type="werk_link">https://schnitzler-tagebuch.acdh.oeaw.ac.at</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <author ref="pmb119261" role="hat-herausgegeben">Braunwarth, Peter Michael</author>
+               <author ref="pmb65504" role="hat-herausgegeben">Urbach, Reinhard</author>
+               <date to="2000-01-01">1981  – 2000</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33243/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33243</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33243.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q108122826</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Tagebuch_(Schnitzler)</idno>
+               <note type="work_kind">Tagebuch</note>
+            </bibl>
+            <bibl xml:id="pmb33029">
+               <title>[Theater und Kunst. Schnitzler vermählt]</title>
+               <title type="werk_bibliografische-angabe">Neues Wiener Journal, 3. 4. 1903</title>
+               <date when="1903-04-03">03.04.1903</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33029/</idno>
+               <note type="work_kind">Text</note>
+            </bibl>
+            <bibl xml:id="pmb32280">
+               <title>Wiener Porträts. XLVI. Hermann Bahr</title>
+               <author ref="pmb2288" role="hat-geschaffen">Deutsch-German, Alfred</author>
+               <date when="1903-04-05">05.04.1903</date>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb32280.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32280/</idno>
+               <note type="work_kind">Text</note>
+            </bibl>
+            <bibl xml:id="pmb36376">
+               <title>Neues Wiener Journal</title>
+               <title type="werk_link-anno">http://anno.onb.ac.at/cgi-content/anno?aid=nwj</title>
+               <author ref="pmb36371" role="hat-einen-beitrag-geschaffen-zu">Papp, Desiderius</author>
+               <author ref="pmb10815" role="hat-einen-beitrag-geschaffen-zu">Bahr, Hermann</author>
+               <date to="1939-01-01">1893  – 1939</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36376/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36376</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb36376</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb165">
+               <placeName>Ober Sankt Veit</placeName>
+               <desc type="entity_type">eingemeindeter Ort (A.VOO)</desc>
+               <desc type="entity_type_id">40</desc>
+               <location type="coords">
+                  <geo>48,188056 16,266389</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb665">Sankt Veit</placeName>
+                  <geo>48,18805 16,26638</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb63">XIII., Hietzing</placeName>
+                  <geo>48,17547 16,29101</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb165.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/165/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb165</idno>
+            </place>
+            <place xml:id="pmb166">
+               <placeName>Frankreich</placeName>
+               <placeName type="alternative-name">France</placeName>
+               <desc type="entity_type">Land (A.LND)</desc>
+               <desc type="entity_type_id">38</desc>
+               <location type="coords">
+                  <geo>46,0 2,0</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb468">Europa</placeName>
+                  <geo>48,69096 9,14062</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q142</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb166.html</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3017382/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/166/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb166</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb166.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Frankreich</idno>
+            </place>
+            <place xml:id="pmb182">
+               <placeName>Paris</placeName>
+               <placeName type="alternative-name">P'ariz</placeName>
+               <placeName type="alternative-name">Pariž</placeName>
+               <placeName type="alternative-name">Parisius</placeName>
+               <placeName type="alternative-name">Île-de-France</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,85341 2,3488</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb166">Frankreich</placeName>
+                  <geo>46,0 2,0</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb182.html</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4044660-8</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/182/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb182</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64183/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2988507/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb182</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb182.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q90</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Paris</idno>
+            </place>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+            <place xml:id="pmb40">
+               <placeName>Theater in der Josefstadt</placeName>
+               <placeName type="legacy-name-merge">Josefst.-Th.</placeName>
+               <desc type="entity_type">Theater (K.THE)</desc>
+               <desc type="entity_type_id">4</desc>
+               <location type="coords">
+                  <geo>48,209583 16,351111</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb58">VIII., Josefstadt</placeName>
+                  <geo>48,21126 16,34706</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb51915">Josefstädter Straße</placeName>
+                  <geo>48,20995865037859 16,347448769410484</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb40.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/40/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb40</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92311/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92311.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q167619</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Theater_in_der_Josefstadt</idno>
+               <note type="apis_dates">
+                  <date when="1788-01-01">1788</date>
+               </note>
+            </place>
+            <place xml:id="pmb7">
+               <placeName>Secession</placeName>
+               <desc type="entity_type">Museum (K.MUS)</desc>
+               <desc type="entity_type_id">8</desc>
+               <location type="coords">
+                  <geo>48,200364 16,365508</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb7.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/7/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb7</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q265129</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wiener_Secessionsgeb%C3%A4ude</idno>
+            </place>
+            <place xml:id="pmb34">
+               <placeName>Café Griensteidl</placeName>
+               <desc type="entity_type">Kaffeehaus (K.KAF)</desc>
+               <desc type="entity_type_id">20</desc>
+               <location type="coords">
+                  <geo>48,208258 16,366111</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb34.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/34/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb34</idno>
+            </place>
+            <place xml:id="pmb168">
+               <placeName>Berlin</placeName>
+               <placeName type="alternative-name">Hauptstadt Berlin</placeName>
+               <placeName type="alternative-name">Barlīn</placeName>
+               <placeName type="alternative-name">Reichshauptstadt Berlin</placeName>
+               <placeName type="alternative-name">Berolino</placeName>
+               <placeName type="legacy-name-merge">B-n</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#P.PPLC</desc>
+               <desc type="entity_type_id">1418</desc>
+               <location type="coords">
+                  <geo>52,52437 13,41053</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb151">Deutschland</placeName>
+                  <geo>51,5 10,5</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb168</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92171.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
+            </place>
+            <place xml:id="pmb63">
+               <placeName>XIII., Hietzing</placeName>
+               <placeName type="legacy-name-merge">Hietzing</placeName>
+               <desc type="entity_type">Bezirk (A.BZK)</desc>
+               <desc type="entity_type_id">25</desc>
+               <location type="coords">
+                  <geo>48,17547 16,29101</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2776420/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb63.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb63</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb63</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb63.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/102317/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4113911-2</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q636910</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hietzing</idno>
+            </place>
+            <place xml:id="pmb527">
+               <placeName>Zum Lothringer</placeName>
+               <desc type="entity_type">Bierhaus (K.BIR)</desc>
+               <desc type="entity_type_id">7</desc>
+               <location type="coords">
+                  <geo>48,20823 16,36671</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb527.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/527/</idno>
+            </place>
+            <place xml:id="pmb597">
+               <placeName>Kohlmarkt</placeName>
+               <desc type="entity_type">Straße (K.STR)</desc>
+               <desc type="entity_type_id">26</desc>
+               <location type="coords">
+                  <geo>48,208793755801 16,367626574032</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb597.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/597/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb597</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb597.html</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb29706">
+               <orgName>Le Figaro</orgName>
+               <desc type="entity_type">Zeitungsredaktion</desc>
+               <desc type="entity_type_id">1039</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb182">Paris</placeName>
+                  <geo>48,85341 2,3488</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb182.html</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4044660-8</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/182/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb182</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64183/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2988507/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb182</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb182.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q90</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Paris</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb93553">Rue Drouot</placeName>
+                  <geo>48,87348 2,34059</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/93553/</idno>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29706.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29706/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29706</idno>
+            </org>
+            <org xml:id="pmb29329">
+               <orgName>Berliner Tageblatt</orgName>
+               <desc type="entity_type">Tageszeitungsredaktion</desc>
+               <desc type="entity_type_id">972</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb168">Berlin</placeName>
+                  <geo>52,52437 13,41053</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb168</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92171.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29329.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29329/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29329</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb29329</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q455014</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berliner_Tageblatt</idno>
+            </org>
+            <org xml:id="pmb36247">
+               <orgName>Burgtheater</orgName>
+               <orgName type="alternative-name">Burgtheater GmbH</orgName>
+               <desc type="entity_type">Theater</desc>
+               <desc type="entity_type_id">1012</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb51">I., Innere Stadt</placeName>
+                  <geo>48,20769 16,37049</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb51.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36789/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51010/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2775259/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb51</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb51</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb14">Burgtheater</placeName>
+                  <geo>48,210333 16,361139</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb14.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/14/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb14</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb14.html</idno>
+                  <idno type="URL" subtype="geonames">https://www.geonames.org/6354992/</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb44649">Schlosstheater Schönbrunn</placeName>
+                  <geo>48,186667 16,3125</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44649/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb44649</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2244724</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Schlosstheater_Sch%C3%B6nbrunn</idno>
+               </location>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/38633-9</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36247/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36247</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb36247</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q308720</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Burgtheater</idno>
+               <note type="apis_dates">
+                  <date notBefore="1852-01-01" when="1852-07-01">1852</date>
+               </note>
+            </org>
+            <org xml:id="pmb29320">
+               <orgName>Neues Wiener Journal</orgName>
+               <orgName type="werk_link-anno">http://anno.onb.ac.at/info/nwj_info.htm</orgName>
+               <desc type="entity_type">Tageszeitungsredaktion</desc>
+               <desc type="entity_type_id">972</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb1270">Nussdorfer Straße</placeName>
+                  <geo>48,22921 16,35461</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1270/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb1270</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb52670">Biberstraße</placeName>
+                  <geo>48,209725072054226 16,381223898207065</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/52670/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb52670</idno>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29320.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29320/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29320</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb29320</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1980429</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Neues_Wiener_Journal</idno>
+               <note type="apis_dates">
+                  <date from="1893-01-01" to="1939-07-02">1893  – 1939</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
+   </text>
 </TEI>

@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="P176">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="P176">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#63131">[Ludwig Basch]: [Verkaufszahlen von Der junge Medardus],
-               14.&#8239;2.&#8239;1914</title>
-            <author ref="#13791">Basch, Ludwig</author>
+            <title level="a" ref="#pmb63131">[Ludwig Basch]: [Verkaufszahlen von Der junge Medardus],
+               14. 2. 1914</title>
+            <author ref="#pmb13791">Basch, Ludwig</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -28,13 +30,13 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#13791">[Ludwig Basch]</author>
-                     <title level="a" ref="#63131">[Verkaufszahlen von Der junge Medardus]</title>
+                     <author ref="#pmb13791">[Ludwig Basch]</author>
+                     <title level="a" ref="#pmb63131">[Verkaufszahlen von Der junge Medardus]</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#41484">Illustrirtes Wiener Extrablatt</title>
+                     <title level="j" ref="#pmb41484">Illustrirtes Wiener Extrablatt</title>
                      <imprint>
-                        <date when="1912-02-14" n="1">14.&#8239;2.&#8239;1912</date>
+                        <date when="1912-02-14" n="1">14. 2. 1912</date>
                      </imprint>
                      <biblScope unit="jg">41</biblScope>
                      <biblScope unit="nr">43, Morgenblatt</biblScope>
@@ -57,64 +59,305 @@
    <text type="article">
       <body>
          <div type="original">
-            <head><supplied>Verkaufszahlen von Der junge Medardus</supplied></head>
-            <p>*&#160;Wir werden aufmerksam gemacht, daß von <rs type="person" ref="#2121"><hi
-                     rend="spaced_out">Schnitzlers</hi></rs> Dichtung »<rs type="work" ref="#29937"
-                     ><hi rend="spaced_out">Der junge Medardus</hi></rs>« erst <hi rend="spaced_out"
-                  >achttausend</hi> – und <hi rend="spaced_out">nicht</hi>, wie <anchor
-                  type="commentary" xml:id="K_P176-1"/>irrtümlich gemeldet<note type="commentary"
-                  xml:id="K_P176-1h">In <rs type="work" ref="#63137">Wiener Theatergeschichten.
-                     XXIV. Der jüngste Wiener Hausherr</rs> (<bibl><rs type="work" ref="#41484"
-                        >Illustrirtes Wiener Extrablatt</rs>, Nr.&#160;38,
-                        <date>9.&#8239;2.&#8239;1912</date>, S.&#8239;10</bibl>) hatte <rs
-                     type="person" ref="#13791">Basch</rs> geschrieben, dass <rs type="person"
-                     ref="#2121">Schnitzler</rs> sich eine Villa mit Bargeld gekauft habe, auch weil
-                  er für <rs type="work" ref="#29937">Der junge Medardus</rs> 30.000 Mark bekommen
+            <head>
+               <supplied>Verkaufszahlen von Der junge Medardus</supplied>
+            </head>
+            <p>* Wir werden aufmerksam gemacht, daß von <rs type="person" ref="#pmb2121">
+                  <hi rend="spaced_out">Schnitzlers</hi>
+               </rs> Dichtung »<rs type="work" ref="#pmb29937">
+                  <hi rend="spaced_out">Der junge Medardus</hi>
+               </rs>« erst <hi rend="spaced_out">achttausend</hi> – und <hi rend="spaced_out">nicht</hi>, wie <anchor type="commentary" xml:id="K_P176-1"/>irrtümlich gemeldet<note type="commentary" xml:id="K_P176-1h">In <rs type="work" ref="#pmb63137">Wiener Theatergeschichten.
+                     XXIV. Der jüngste Wiener Hausherr</rs> (<bibl>
+                     <rs type="work" ref="#pmb41484">Illustrirtes Wiener Extrablatt</rs>, Nr. 38,
+                        <date>9. 2. 1912</date>, S. 10</bibl>) hatte <rs type="person" ref="#pmb13791">Basch</rs> geschrieben, dass <rs type="person" ref="#pmb2121">Schnitzler</rs> sich eine Villa mit Bargeld gekauft habe, auch weil
+                  er für <rs type="work" ref="#pmb29937">Der junge Medardus</rs> 30.000 Mark bekommen
                   habe.</note> wurde, dreißigtausend – Exemplare im Buchhandel erschienen sind. Der
-               Autor bekommt per Exemplar, bei einem Ladenpreise von 3&#160;Mk. 50&#160;Pfg., vom
+               Autor bekommt per Exemplar, bei einem Ladenpreise von 3 Mk. 50 Pfg., vom
                Verleger <hi rend="spaced_out">nicht</hi> eine Mark, sondern beträchtlich
                weniger.</p>
          </div>
          <div type="biographical">
             <div1>
-               <bibl><rs type="person" ref="#13791">Ludwig Basch</rs> an Schnitzler,
-                  14.&#160;2.&#160;[1912]</bibl>
-               <quote><p><hi rend="pre-print">›<rs type="org" ref="#29720">Illustrirtes Wiener
-                           Extrablatt</rs>‹</hi></p>
-                  <p><hi rend="pre-print">Redaktion: <rs type="place" ref="#52510">IX./1
-                           Berggasse&#160;31</rs>. – Telephon Nr.&#160;14253.</hi></p>
-                  <p><rs type="place" ref="#50">Wien</rs><space unit="chars" quantity="1"
-                        /><date>14.&#8239;II</date></p><p>Sehr geehrter Herr Doktor,</p><p>im
+               <bibl>
+                  <rs type="person" ref="#pmb13791">Ludwig Basch</rs> an Schnitzler,
+                  14. 2. [1912]</bibl>
+               <quote>
+                  <p>
+                     <hi rend="pre-print">›<rs type="org" ref="#pmb29720">Illustrirtes Wiener
+                           Extrablatt</rs>‹</hi>
+                  </p>
+                  <p>
+                     <hi rend="pre-print">Redaktion: <rs type="place" ref="#pmb52510">IX./1
+                           Berggasse 31</rs>. – Telephon Nr. 14253.</hi>
+                  </p>
+                  <p>
+                     <rs type="place" ref="#pmb50">Wien</rs>
+                     <space unit="chars" quantity="1"/>
+                     <date>14. II</date>
+                  </p>
+                  <p>Sehr geehrter Herr Doktor,</p>
+                  <p>im
                      heutigen Morgenblatte ist die von Ihnen gewünschte Richtigstellung enthalten.
                      Hoffentlich ist die Correctur ›in einer nicht miszuverstehenden Art‹ – ich
-                     citire Ihre Worte – geschehen.</p><p>Nun gestatten Sie mir, in eigener Sache
+                     citire Ihre Worte – geschehen.</p>
+                  <p>Nun gestatten Sie mir, in eigener Sache
                      einige Worte.</p>
                   <p>Sie haben in Ihrer Zuschrift einen gereizten Ton angeschlagen, der mich, bei
                      der Herzlichkeit unserer Beziehungen ebenso überrascht wie befremdet. Ich
                      vermuthe in dieser Aufgeregtheit einen letzten Rest von Nervosität, die mit den
-                     Proben zu ›<rs type="work" ref="#29859">Marionetten</rs>‹ einherging.</p><p>Sie
+                     Proben zu ›<rs type="work" ref="#pmb29859">Marionetten</rs>‹ einherging.</p>
+                  <p>Sie
                      werfen mir Unkenntnis der deutschen Verlagsverhältnisse vor. Ich kann diesen
                      Mangel ruhig ertragen – dagegen wundere ich mich über Ihre Unkenntnis
-                     journalistischer Übungen.</p><p>Die Mittheilungen betreffend Ihres ›<rs
-                        type="work" ref="#29937">Medardus</rs>‹ kamen mir von hochgeschätzter Seite
+                     journalistischer Übungen.</p>
+                  <p>Die Mittheilungen betreffend Ihres ›<rs type="work" ref="#pmb29937">Medardus</rs>‹ kamen mir von hochgeschätzter Seite
                      zu, von der ich genaue Kentniss der deutschen Verlagsverhältnisse annehmen
                      musste. Und dass ich schnell fertig war mit der Reproduction finden eine
                      menschliche Erklärung: ich habe innige Freude darüber empfunden, dass ein von
                      mir hochverehrter Dichter so stark gelesen wird, dass Arthur Schnitzler ein so
-                     grosses Publicum gewonnen hat.</p><p>Sie schreiben von ›Zuträgern‹, die bei mir
+                     grosses Publicum gewonnen hat.</p>
+                  <p>Sie schreiben von ›Zuträgern‹, die bei mir
                      Gehör finden. Dagegen constatire ich, dass ich zu ›Zuträgern‹ kein Verhältniss
                      habe, dass ich meine Informationen von correkten Persönlichkeiten empfange. Ich
                      halte mich desshalb der Nothwendigket enthoben – in den meisten Fällen – jede
                      Nachricht auf ihre Begründung zu prüfen. Es käme sonst nie eine Rubrik zu
-                     Stande. Übrigens sind die ›<rs type="work" ref="#63134">Wiener
+                     Stande. Übrigens sind die ›<rs type="work" ref="#pmb63134">Wiener
                         Theatergeschichten</rs>‹ sehr harmloser Natur; sie kommen mit dem Freitag
                      und verschwinden mit dem Freitag. Ich könnte stolz sein, dass Sie, verehrter
                      Herr Doktor, diesen (bedeutungslosen) Plaudereien einen solchen Werth
                      beimessen. Damit halte ich diese ›hochnothpeinliche Staatsaction‹ für erledigt
-                     und ergreife die Gelegenheit zum Ausdrucke meiner</p><p>aufrichtigen
-                     Verehrung</p><p>Ihr ergebener</p><p>Basch</p></quote>
+                     und ergreife die Gelegenheit zum Ausdrucke meiner</p>
+                  <p>aufrichtigen
+                     Verehrung</p>
+                  <p>Ihr ergebener</p>
+                  <p>Basch</p>
+               </quote>
             </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb13791">
+               <persName>
+                  <forename>Ludwig</forename>
+                  <surname>Basch</surname>
+               </persName>
+               <persName type="legacy-name-merge">Basch, Ludwig Lazar</persName>
+               <birth>
+                  <date when="1851-12-22">22.12.1851</date>
+                  <settlement ref="pmb43471">
+                     <placeName type="pref">Budapest</placeName>
+                     <location>
+                        <geo>47,49835 19,04045</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1940-10-25">25.10.1940</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <occupation ref="pmb173">Redakteur/Redakteurin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13452</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb13791.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/13791/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/28785/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38916</idno>
+            </person>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb29937">
+               <title>Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
+               <title type="werk_bibliografische-angabe">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen. Berlin: S. Fischer [26.10.]1910</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1910-10-26">1910-10-26</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.11</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1198956</idno>
+               <idno type="URL" subtype="theadok">https://theadok.at/work/38145</idno>
+               <idno type="URL" subtype="literature">http://www.literature.at/viewer.alo?objid=12116&amp;page=1&amp;viewmode=fullscreen</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29937.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29937/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29937</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29937.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_junge_Medardus</idno>
+               <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+            </bibl>
+            <bibl xml:id="pmb63137">
+               <title>Wiener Theatergeschichten. XXIV. Der  jüngste Wiener Hausherr</title>
+               <date when="1912-02-09">1912-02-09</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63137/</idno>
+               <note type="work_kind">Kolumne</note>
+            </bibl>
+            <bibl xml:id="pmb41484">
+               <title>Illustrirtes Wiener Extrablatt</title>
+               <title type="werk_link">http://anno.onb.ac.at/cgi-content/anno?aid=iwe</title>
+               <author ref="pmb13791" role="hat-einen-beitrag-geschaffen-zu">Basch, Ludwig</author>
+               <author ref="pmb2150" role="hat-einen-beitrag-geschaffen-zu">Bauer, Julius</author>
+               <date from="1872-01-01" to="1928-07-01">1872  – 1928</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41484/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41484</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb41484</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+            <bibl xml:id="pmb29859">
+               <title>Marionetten. Drei Einakter</title>
+               <title type="werk_link">https://www.arthur-schnitzler.de/edition/genetisch</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1906-01-01">1906</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.29</idno>
+               <idno type="URL" subtype="arthur-schnitzler">https://www.arthur-schnitzler.de/edition/genetisch</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29859.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29859/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29859</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29859.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Einakterzyklus</note>
+            </bibl>
+            <bibl xml:id="pmb63134">
+               <title>Wiener Theatergeschichten</title>
+               <author ref="pmb13791" role="hat-anonym-veroffentlicht">Basch, Ludwig</author>
+               <date>None</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63134/</idno>
+               <note type="work_kind">Kolumne</note>
+            </bibl>
+            <bibl xml:id="pmb63131">
+               <title>[Verkaufszahlen von Der junge Medardus]</title>
+               <author ref="pmb13791" role="hat-anonym-veroffentlicht">Basch, Ludwig</author>
+               <date>1914-02-14</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63131/</idno>
+               <note type="work_kind">Notiz</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb52510">
+               <placeName>Berggasse</placeName>
+               <desc type="entity_type">Straße (K.STR)</desc>
+               <desc type="entity_type_id">26</desc>
+               <location type="coords">
+                  <geo>48,218776849348906 16,36345511169916</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb59">IX., Alsergrund</placeName>
+                  <geo>48,22387 16,35641</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/52510/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb52510</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb52510</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb52510.html</idno>
+            </place>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb29720">
+               <orgName>Illustrirtes Wiener Extrablatt</orgName>
+               <desc type="entity_type">Tageszeitungsredaktion</desc>
+               <desc type="entity_type_id">972</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb52510">Berggasse</placeName>
+                  <geo>48,218776849348906 16,36345511169916</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/52510/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb52510</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb52510</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb52510.html</idno>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29720.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29720/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29720</idno>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

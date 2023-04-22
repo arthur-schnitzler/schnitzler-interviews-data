@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="M174">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="M174">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#63170">Kundgebungen für das Andenken Moriz Benedikts,
-               23.&#8239;3.&#8239;1920</title>
+            <title level="a" ref="#pmb63170">Kundgebungen für das Andenken Moriz Benedikts,
+               23. 3. 1920</title>
             <author/>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -28,13 +30,13 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title level="a" ref="#63170">Kundgebungen für das Andenken Moriz
+                     <title level="a" ref="#pmb63170">Kundgebungen für das Andenken Moriz
                         Benedikts</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#36374">Neue Freie Presse</title>
+                     <title level="j" ref="#pmb36374">Neue Freie Presse</title>
                      <imprint>
-                        <date when="1920-03-23" n="1">23.&#8239;3.&#8239;1920</date>
+                        <date when="1920-03-23" n="1">23. 3. 1920</date>
                      </imprint>
                      <biblScope unit="nr">19.961, Morgenblatt</biblScope>
                      <biblScope unit="pp">7</biblScope>
@@ -50,17 +52,19 @@
       </profileDesc>
       <revisionDesc status="approved">
          <change who="MAM" when="2022-01-10">Angelegt</change>
-          <change who="MAM" when="2022-01-11">Index check</change>
+         <change who="MAM" when="2022-01-11">Index check</change>
       </revisionDesc>
    </teiHeader>
    <text type="article">
       <body>
          <div type="original">
-            <head>Kundgebungen für das Andenken <rs type="person" ref="#13996">Moriz
+            <head>Kundgebungen für das Andenken <rs type="person" ref="#pmb13996">Moriz
                Benedikt</rs>s.</head>
-            <p><gap reason="outOfScope" unit="paragraphs" quantity="10"/></p>
+            <p>
+               <gap reason="outOfScope" unit="paragraphs" quantity="10"/>
+            </p>
             <p>Artur <hi rend="spaced_out">Schnitzler</hi> schreibt an den Herausgeber und
-               Chefredakteur Dr. <rs type="person" ref="#10872">Ernst Benedikt</rs>: »Mit tiefer
+               Chefredakteur Dr. <rs type="person" ref="#pmb10872">Ernst Benedikt</rs>: »Mit tiefer
                Bewegung hat mich die Nachricht vom Tode Ihres Vaters erfüllt, dieses
                außerordentlichen Mannes, der mir als eine ganz besondere Kraft stets
                bewunderungswürdig erschienen ist und, als politische und schriftstellerische
@@ -68,33 +72,263 @@
                bei jeder persönlichen Begegnung in seinem ganz privaten und menschlichen Wesen
                jederzeit aufs neue angezogen und mit wohltuender Wärme berührt hat. Nicht allzuoft
                ward mir die Freude solcher Begegnungen und Unterhaltungen zuteil, doch manches
-               Gespräch, wenige zwischen vier Wänden, die meisten im Freien, <rs type="place"
-                  ref="#189">Semmering</rs> oder <rs type="place" ref="#40876">Wienerwald</rs>,
+               Gespräch, wenige zwischen vier Wänden, die meisten im Freien, <rs type="place" ref="#pmb189">Semmering</rs> oder <rs type="place" ref="#pmb40876">Wienerwald</rs>,
                geführt, bewahre ich und werde ich für immer als höchst lebendig und fruchtbar in
-               dankbarer Erinnerung bewahren. Dem trauernden <rs type="person" ref="#10872"
-                  subtype="implied">Sohne</rs>, dem Mitarbeiter und Nachfolger, dem Erben seines
+               dankbarer Erinnerung bewahren. Dem trauernden <rs type="person" ref="#pmb10872" subtype="implied">Sohne</rs>, dem Mitarbeiter und Nachfolger, dem Erben seines
                Werkes und seiner Verantwortung, drücke ich in aufrichtiger Teilnahme die Hand.«</p>
          </div>
          <div type="biographical">
             <div1>
-               <bibl><rs type="person" ref="#10872">Ernst Benedikt</rs> an Schnitzler,
-                     <date>24.&#8239;3.&#8239;1920</date></bibl>
-               <quote><p><rs type="place" ref="#50">Wien</rs>, <date>24.&#160;März
-                     1920</date>.</p><p>Hochverehrter Herr Doctor!</p><p>Ihr freundliches Gedenken
+               <bibl>
+                  <rs type="person" ref="#pmb10872">Ernst Benedikt</rs> an Schnitzler,
+                     <date>24. 3. 1920</date>
+               </bibl>
+               <quote>
+                  <p>
+                     <rs type="place" ref="#pmb50">Wien</rs>, <date>24. März
+                     1920</date>.</p>
+                  <p>Hochverehrter Herr Doctor!</p>
+                  <p>Ihr freundliches Gedenken
                      anläßlich des schweren Unglücks, das mich getroffen hat, erfüllt mich mit
-                     aufrichtiger Dankbarkeit. Mein <rs type="person" ref="#13996" subtype="implied"
-                        >Vater</rs> hat mir oft von seinen Spaziergängen mit Ihnen erzählt und ich
+                     aufrichtiger Dankbarkeit. Mein <rs type="person" ref="#pmb13996" subtype="implied">Vater</rs> hat mir oft von seinen Spaziergängen mit Ihnen erzählt und ich
                      habe nur immer bedauert, daß ich nicht anwesend war, um dem geistigen
                      Zusammenspiel zweier so bedeutender Persönlichkeiten folgen zu
-                     können.</p><p>Ich hoffe, sehr verehrter Herr Doctor, daß Sie uns Ihre
-                        freundliche Gesinnung erhalten werden, der die <rs type="org" ref="#29351">Neue Freie
+                     können.</p>
+                  <p>Ich hoffe, sehr verehrter Herr Doctor, daß Sie uns Ihre
+                        freundliche Gesinnung erhalten werden, der die <rs type="org" ref="#pmb29351">Neue Freie
                         Presse</rs> schon so wichtige Erfolge zu danken hat. Es war mir ein Trost,
                      daß ein Mann von so vollendeter Bildung und so durchdringendem Geist wie Sie,
-                     die Persönlichkeit meines Vaters mit Anerkennung beurteilt.</p><p>Noch einmal
-                     meinen besten Dank.</p><p>Ergebenst</p><p>D<hi rend="superscript"
-                     >r</hi>ErnstBenedikt</p></quote>
+                     die Persönlichkeit meines Vaters mit Anerkennung beurteilt.</p>
+                  <p>Noch einmal
+                     meinen besten Dank.</p>
+                  <p>Ergebenst</p>
+                  <p>D<hi rend="superscript">r</hi>ErnstBenedikt</p>
+               </quote>
             </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb13996">
+               <persName>
+                  <forename>Moritz</forename>
+                  <surname>Benedikt</surname>
+               </persName>
+               <birth>
+                  <date when="1835-07-06">06.07.1835</date>
+                  <settlement ref="pmb49163">
+                     <placeName type="pref">Eisenstadt</placeName>
+                     <location>
+                        <geo>47,84565 16,52327</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1920-04-14">14.04.1920</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb552">Mediziner/Medizinerin &gt;&gt; Nervenpathologe/Nervenpathologin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13594</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/13996/</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb13996.html</idno>
+            </person>
+            <person xml:id="pmb10872">
+               <persName>
+                  <forename>Ernst</forename>
+                  <surname>Benedikt</surname>
+               </persName>
+               <persName type="person_pseudonym">Erich Major</persName>
+               <birth>
+                  <date when="1882-05-20">20.05.1882</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1973-12-28">28.12.1973</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13589</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118851039</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10872.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10872/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb10872</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp42795</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=B#DWpers0012</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1348810</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ernst_Benedikt</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb63170">
+               <title>Kundgebungen für das Andenken Moriz Benedikts</title>
+               <author ref="pmb2121" role="hat-einen-beitrag-geschaffen-zu">Schnitzler, Arthur</author>
+               <author ref="pmb11740" role="hat-einen-beitrag-geschaffen-zu">Hofmannsthal, Hugo von</author>
+               <date when="1920-03-23">1920-03-23</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63170/</idno>
+               <note type="work_kind">Zeitungsbericht</note>
+            </bibl>
+            <bibl xml:id="pmb36374">
+               <title>Neue Freie Presse</title>
+               <title type="werk_link-anno">http://anno.onb.ac.at/cgi-content/anno?aid=nfp</title>
+               <author ref="pmb10875" role="hat-herausgegeben">Benedikt, Moriz</author>
+               <author ref="pmb10872" role="hat-herausgegeben">Benedikt, Ernst</author>
+               <author ref="pmb10809" role="hat-herausgegeben">Bacher, Eduard</author>
+               <date from="1864-01-01" to="1939-07-02">1864  – 1939</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36374/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36374</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb36374</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb189">
+               <placeName>Semmering</placeName>
+               <placeName type="alternative-name">Gemeinde Semmering</placeName>
+               <placeName type="alternative-name">Semmering-Semmering-Kurort</placeName>
+               <placeName type="alternative-name">Kurort Semmering</placeName>
+               <placeName type="alternative-name">Semmering-Kurort</placeName>
+               <placeName type="alternative-name">Heilklimatischer Höhenluftkurort Semmering</placeName>
+               <placeName type="alternative-name">Semmering- Kurort Semmering</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>47,64224 15,8241</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/7873001/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb189.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/189/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb189</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91735/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91735.html</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4054504-0</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q659891</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Semmering_(Nieder%C3%B6sterreich)</idno>
+            </place>
+            <place xml:id="pmb40876">
+               <placeName>Wienerwald</placeName>
+               <desc type="entity_type">Ausflugsziel</desc>
+               <desc type="entity_type_id">62</desc>
+               <location type="coords">
+                  <geo>48,087222 15,911944</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb1003">Niederösterreich</placeName>
+                  <geo>48,33333 15,75</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/40876/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb40876</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q251246</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wienerwald</idno>
+            </place>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb29351">
+               <orgName>Neue Freie Presse</orgName>
+               <orgName type="werk_link-anno">http://anno.onb.ac.at/info/nfp_info.htm</orgName>
+               <desc type="entity_type">Tageszeitungsredaktion</desc>
+               <desc type="entity_type_id">972</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb716">Fichtegasse</placeName>
+                  <geo>48,203009170069 16,375663258442</geo>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb716.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/716/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb716</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb63189">Schubertring</placeName>
+                  <geo>48,20281 16,37602</geo>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63189/</idno>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29351.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29351/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29351</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb29351</idno>
+               <note type="apis_dates">
+                  <date to="1939-02-01">1864-09-01  – 1939-02-01</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

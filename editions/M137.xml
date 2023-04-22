@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="M137">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="M137">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#60190">Enquete zur Bekämpfung der Geschlechtskrankheiten,
-               13.&#8239;3.&#8239;1908</title>
-            <author ref="#2121">Schnitzler, Arthur</author>
+            <title level="a" ref="#pmb60190">Enquete zur Bekämpfung der Geschlechtskrankheiten,
+               13. 3. 1908</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -28,11 +30,11 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <title level="a" ref="#60190">Die Enquete der Österreichischen Gesellschaft zur
+                     <title level="a" ref="#pmb60190">Die Enquete der Österreichischen Gesellschaft zur
                         Bekämpfung der Geschlechtskrankheiten Wien 1908</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#60648">Zeitschrift für Bekämpfung der
+                     <title level="j" ref="#pmb60648">Zeitschrift für Bekämpfung der
                         Geschlechtskrankheiten</title>
                      <imprint>
                         <date when="1908-03-14" n="1">1908</date>
@@ -43,13 +45,13 @@
                </biblStruct>
                <biblStruct>
                   <analytic>
-                     <title level="a" ref="#60190">Enquete zur Bekämpfung der
+                     <title level="a" ref="#pmb60190">Enquete zur Bekämpfung der
                         Geschlechtskrankheiten</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#35935">Die Zeit</title>
+                     <title level="j" ref="#pmb35935">Die Zeit</title>
                      <imprint>
-                        <date when="1908-03-13" n="1">13.&#8239;3.&#8239;1908</date>
+                        <date when="1908-03-13" n="1">13. 3. 1908</date>
                      </imprint>
                      <biblScope unit="jg">7</biblScope>
                      <biblScope unit="nr">1.965</biblScope>
@@ -64,7 +66,7 @@
                   <monogr>
                      <title level="j">Prager Tagblatt</title>
                      <imprint>
-                        <date when="1908-03-14" n="1">14.&#8239;3.&#8239;1908</date>
+                        <date when="1908-03-14" n="1">14. 3. 1908</date>
                      </imprint>
                      <biblScope unit="jg">32</biblScope>
                      <biblScope unit="nr">73, Morgen-Ausgabe</biblScope>
@@ -76,7 +78,7 @@
                      <title level="a">Antwort auf eine Rundfrage</title>
                   </analytic>
                   <monogr>
-                     <author ref="#2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Aphorismen und Betrachtungen</title>
                      <editor>Hg. Robert O. Weiss</editor>
                      <imprint>
@@ -104,85 +106,76 @@
    <text type="article">
       <body>
          <div type="original">
-            <head>Die <anchor type="commentary" xml:id="K_I137-5"/>Enquete der <rs type="org"
-                  ref="#63534">Österreichischen Gesellschaft zur Bekämpfung der
-                  Geschlechtskrankheiten</rs><note type="commentary" xml:id="K_I137-5h">Vom
-                     <date>5.&#8239;3.&#8239;1908</date> bis zum
-                     <date>30.&#8239;3.&#8239;1908</date> fanden in <rs type="place" ref="#50"
-                     >Wien</rs> acht Abende statt, an denen Ärzte mit geladenen Gästen über
+            <head>Die <anchor type="commentary" xml:id="K_I137-5"/>Enquete der <rs type="org" ref="#pmb63534">Österreichischen Gesellschaft zur Bekämpfung der
+                  Geschlechtskrankheiten</rs>
+               <note type="commentary" xml:id="K_I137-5h">Vom
+                     <date>5. 3. 1908</date> bis zum
+                     <date>30. 3. 1908</date> fanden in <rs type="place" ref="#pmb50">Wien</rs> acht Abende statt, an denen Ärzte mit geladenen Gästen über
                   Möglichkeiten der Bekämpfung von Geschlechtskrankheiten diskutierten. <bibl>Vgl.
-                        <rs type="person" ref="#11988">Karl Kraus</rs>: <rs type="work" ref="#63541"
-                        >Ö.&#8239;G.&#8239;Z.&#8239;B.&#8239;D.&#8239;G.</rs>. In: <rs type="work"
-                        ref="#50245">Simplicissimus</rs>, Jg.&#8239;13, Nr.&#8239;2,
-                        <date>13.&#8239;4.&#8239;1908</date>, S.&#8239;39</bibl>.</note><space
-                  unit="chars" quantity="1"/><rs type="place" ref="#50">Wien</rs><space unit="chars"
-                  quantity="1"/><date>1908</date></head>
-            <p><gap reason="outOfScope" unit="lines" quantity="30"/></p>
-            <head type="sub">Dritter Abend, <date>12.&#160;März 1908</date>.</head>
+                        <rs type="person" ref="#pmb11988">Karl Kraus</rs>: <rs type="work" ref="#pmb63541">Ö. G. Z. B. D. G.</rs>. In: <rs type="work" ref="#pmb50245">Simplicissimus</rs>, Jg. 13, Nr. 2,
+                        <date>13. 4. 1908</date>, S. 39</bibl>.</note>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="#pmb50">Wien</rs>
+               <space unit="chars" quantity="1"/>
+               <date>1908</date>
+            </head>
+            <p>
+               <gap reason="outOfScope" unit="lines" quantity="30"/>
+            </p>
+            <head type="sub">Dritter Abend, <date>12. März 1908</date>.</head>
             <p>
                <gap reason="outOfScope" unit="paragraphs" quantity="30"/>
             </p>
             <p>
-               <rs type="person" ref="#16231" subtype="implied">
+               <rs type="person" ref="#pmb16231" subtype="implied">
                   <anchor type="commentary" xml:id="K_I137-12"/>
                   <hi rend="bold">Vorsitzender</hi>
-                  <note type="commentary" xml:id="K_I137-12h">der Dermatologe <rs type="person"
-                        ref="#16231">Ernst Finger</rs>
+                  <note type="commentary" xml:id="K_I137-12h">der Dermatologe <rs type="person" ref="#pmb16231">Ernst Finger</rs>
                   </note>
-               </rs>: Der Schriftsteller <hi rend="spaced_out">Arthur Schnitzler</hi>, der <anchor
-                  type="commentary" xml:id="K_I137-17"/>persönlich verhindert<note type="commentary"
-                  xml:id="K_I137-17h">ein Grund lässt sich mit dem <rs type="work" ref="#33243"
-                     >Tagebuch</rs> nicht bestimmen</note> ist zu erscheinen, hat einen Brief
+               </rs>: Der Schriftsteller <hi rend="spaced_out">Arthur Schnitzler</hi>, der <anchor type="commentary" xml:id="K_I137-17"/>persönlich verhindert<note type="commentary" xml:id="K_I137-17h">ein Grund lässt sich mit dem <rs type="work" ref="#pmb33243">Tagebuch</rs> nicht bestimmen</note> ist zu erscheinen, hat einen Brief
                eingesendet, den ich zu verlesen bitte.</p>
-            <p>Dr. <rs type="person" ref="#60207">
+            <p>Dr. <rs type="person" ref="#pmb60207">
                   <hi rend="bold">Frey</hi>
                </rs> (liest):</p>
             <p>
-               <anchor type="commentary" xml:id="K_I137-14"/>Fragen<note type="commentary"
-                  xml:id="K_I137-14h">Im Nachlass <rs type="person" ref="#2121">Schnitzler</rs>s
+               <anchor type="commentary" xml:id="K_I137-14"/>Fragen<note type="commentary" xml:id="K_I137-14h">Im Nachlass <rs type="person" ref="#pmb2121">Schnitzler</rs>s
                   finden sich drei Durchschlagsexemplare der maschinschriftlichen Antwort (<bibl>
                      <publisher>Cambridge University Library</publisher>, A 3,6</bibl>).</note> (die
-               Prof. <rs type="person" ref="#16231">
+               Prof. <rs type="person" ref="#pmb16231">
                   <hi rend="spaced_out">Finger</hi>
-               </rs> in seinem Brief vom <date>10.&#160;Febr.&#8239;1908</date> mir vorlegte):</p>
+               </rs> in seinem Brief vom <date>10. Febr. 1908</date> mir vorlegte):</p>
             <p>Erstens: Inwiefern Werke der Literatur und Kunst
                sexuell zu irritieren vermögen.</p>
             <p>Zweitens: Inwiefern eine solche Wirkung
                berechtigt ist.</p>
             <p>Drittens: Frage der Pornographie.</p>
-            <p>1. Ob ein Jüngling von der <rs type="person" ref="#26079">Tizianischen</rs>
+            <p>1. Ob ein Jüngling von der <rs type="person" ref="#pmb26079">Tizianischen</rs>
                <space unit="chars" quantity="1"/>
-               <rs type="work" ref="#58421">Venus</rs> fortgeht und sich eine Stunde darauf bei
+               <rs type="work" ref="#pmb58421">Venus</rs> fortgeht und sich eine Stunde darauf bei
                einer Prostituierten oder einem andern weiblichen Wesen infiziert – oder, ob er mit
                seiner Geliebten oder seiner Frau – unter der Nachwirkung desselben Reizes – einen
-               neuen <rs type="person" ref="#2412">Shakespeare</rs> zeugt – oder <anchor
-                  type="commentary" xml:id="K_I137-1"/>seinen eigenen Mörder<note type="commentary"
-                  xml:id="K_I137-1h">Das Ödipus-Motiv, das hier anklingt, erinnert in seinem Anklang
-                  an eine Schuld der Eltern an <rs type="person" ref="#2121">Schnitzler</rs>s
-                  Erzählung <rs type="work" ref="#30257">Der Sohn</rs> (<date>1892</date>), aus der
-                  er über Jahrzehnte seinen letzten Roman <rs type="work" ref="#30817">Therese.
+               neuen <rs type="person" ref="#pmb2412">Shakespeare</rs> zeugt – oder <anchor type="commentary" xml:id="K_I137-1"/>seinen eigenen Mörder<note type="commentary" xml:id="K_I137-1h">Das Ödipus-Motiv, das hier anklingt, erinnert in seinem Anklang
+                  an eine Schuld der Eltern an <rs type="person" ref="#pmb2121">Schnitzler</rs>s
+                  Erzählung <rs type="work" ref="#pmb30257">Der Sohn</rs> (<date>1892</date>), aus der
+                  er über Jahrzehnte seinen letzten Roman <rs type="work" ref="#pmb30817">Therese.
                      Chronik eines Frauenlebens</rs> (<date>1928</date>) gestaltet.</note> – das ist
                schließlich nur eine Glücksfrage. Und zweifellos kann jede dieser Möglichkeiten
-               eintreten, auch wenn es nicht die <rs type="person" ref="#26079">Tizianische</rs>
+               eintreten, auch wenn es nicht die <rs type="person" ref="#pmb26079">Tizianische</rs>
                <space unit="chars" quantity="1"/>
-               <rs type="work" ref="#58421">Venus</rs> war, der jener Jüngling seine Erregung
+               <rs type="work" ref="#pmb58421">Venus</rs> war, der jener Jüngling seine Erregung
                verdankt, sondern eine völlig kunstfremde Aktphotographie, oder irgend eine obszöne
-               Darstellung. Sicher aber ist es, daß <anchor type="commentary" xml:id="K_I137-8"
-               />prozentual die sexuell irritierenden Bildwerke<note type="commentary"
-                  xml:id="K_I137-8h">Auf diese Stelle aus der Zusammenfassung des <rs type="work"
-                     ref="#41321">Neuen Wiener Abendblatts</rs> vom
-                     <date>13.&#8239;3.&#8239;1908</date> (<bibl>Nr.&#8239;72, S.&#8239;3</bibl>)
-                  bezieht sich der Schriftsteller <rs type="person" ref="#5245">Wolfgang
-                     Madjera</rs>, dessen Kritik an <rs type="person" ref="#2121">Schnitzler</rs>s
+               Darstellung. Sicher aber ist es, daß <anchor type="commentary" xml:id="K_I137-8"/>prozentual die sexuell irritierenden Bildwerke<note type="commentary" xml:id="K_I137-8h">Auf diese Stelle aus der Zusammenfassung des <rs type="work" ref="#pmb41321">Neuen Wiener Abendblatts</rs> vom
+                     <date>13. 3. 1908</date> (<bibl>Nr. 72, S. 3</bibl>)
+                  bezieht sich der Schriftsteller <rs type="person" ref="#pmb5245">Wolfgang
+                     Madjera</rs>, dessen Kritik an <rs type="person" ref="#pmb2121">Schnitzler</rs>s
                   Ausführungen am vierten Abend verlesen werden. Seine Schlussfolgerung:
                      »<quote>Eine sittenlose Kunst, vor allem aber ein sittenloses Theater, arbeitet
                      mit an dem durch Geschlechtskrankheiten geförderten und beschleunigten Verfalle
-                     der Völker.</quote>« (<bibl>S.&#8239;129–131, hier 131</bibl>)</note> und
+                     der Völker.</quote>« (<bibl>S. 129–131, hier 131</bibl>)</note> und
                Druckschriften, sowohl künstlerischer als unkünstlerischer Natur den vielfachen
                Verlockungen des täglichen Lebens und dem steten physiologischen Wirken der
                Geschlechtlichkeit gegenüber gar nicht in Anschlag zu bringen sind.</p>
-            <p>2. Die Frage, inwiefern die sexuelle Wirkung von Kunstwerken <hi rend="spaced_out"
-                  >berechtigt</hi> sei, scheint mir so müßig als es die Frage wäre, ob sexuelle
+            <p>2. Die Frage, inwiefern die sexuelle Wirkung von Kunstwerken <hi rend="spaced_out">berechtigt</hi> sei, scheint mir so müßig als es die Frage wäre, ob sexuelle
                Erregung durch den Anblick einer schönen lebendigen Gestalt des gleichen oder andern
                Geschlechtes <hi rend="spaced_out">berechtigt</hi> ist Die Kunst ist hinsichtlich der
                Wirkungen, die sie erzielt, so unbekümmert wie die Natur. Und ich finde, wenn einmal
@@ -191,14 +184,10 @@
                ebensowenig Anlaß die Ausstellung, Weiterverbreitung, Vervielfältigung dieses
                Kunstwerks zu verbieten, als die Behörden bisher den Versuch gemacht haben, die
                körperliche Schönheit zu untersagen.</p>
-            <p>3. Meine Bedenken gegen die Pornographie sind <anchor type="commentary"
-                  xml:id="K_I137-11"/>ausschließlich ästhetischer Natur<note type="commentary"
-                  xml:id="K_I137-11h">An dieser Formulierung hängt sich die Zusammenfassung des
-                  Briefes in der christlich-konservativen Tageszeitung <rs type="work" ref="#42850"
-                     >Reichspost</rs> auf (<bibl>[O. V.:] <rs type="work" ref="#60197">Schnitzler
-                        und die Enquete zur Bekämpfung der Geschlechtskrankheiten</rs>. In: <rs
-                        type="work" ref="#42850">Reichspost</rs>, Jg.&#8239;15, Nr.&#8239;73,
-                        <date>14.&#8239;3.&#8239;1908</date>, S.&#8239;2</bibl>).</note>. Das heißt:
+            <p>3. Meine Bedenken gegen die Pornographie sind <anchor type="commentary" xml:id="K_I137-11"/>ausschließlich ästhetischer Natur<note type="commentary" xml:id="K_I137-11h">An dieser Formulierung hängt sich die Zusammenfassung des
+                  Briefes in der christlich-konservativen Tageszeitung <rs type="work" ref="#pmb42850">Reichspost</rs> auf (<bibl>[O. V.:] <rs type="work" ref="#pmb60197">Schnitzler
+                        und die Enquete zur Bekämpfung der Geschlechtskrankheiten</rs>. In: <rs type="work" ref="#pmb42850">Reichspost</rs>, Jg. 15, Nr. 73,
+                        <date>14. 3. 1908</date>, S. 2</bibl>).</note>. Das heißt:
                meine Abneigung gegen pornographische Produkte beruht nicht darauf, daß manchen die
                Eigenschaft innewohnt sexuelle Erregungen auszulösen, was sie bekanntlich mit manchen
                wirklichen Kunstwerken gemeinsam haben, sondern darauf, daß pornographische Produkte
@@ -206,8 +195,7 @@
                vorstellen.</p>
             <p>Ich glaube nicht, daß die Grenze zwischen Pornographie und Kunstwerk schwer
                festzustellen ist. Der Kenner wird diese Grenze geradeso gut festzustellen imstande
-               sein, wie jede andere zwischen Kunst und Nichtkunst. Das mißliche ist nur, daß <hi
-                  rend="spaced_out">dieser</hi> Grenzfrage gegenüber nicht nur diejenigen
+               sein, wie jede andere zwischen Kunst und Nichtkunst. Das mißliche ist nur, daß <hi rend="spaced_out">dieser</hi> Grenzfrage gegenüber nicht nur diejenigen
                   Leute<anchor type="label" xml:id="M137_L_Irritation"/> versagen, denen von Geburt
                aus die Fähigkeit mangelt Kunstwerke zu beureilen, also die große Mehrzahl der
                gesamten Menschheit, sondern auch manche, denen wohl diese Fähigkeit gegeben wäre,
@@ -218,40 +206,500 @@
                geschlechtlichen Erregung aus in Angriff zu nehmen, gegen die ja doch –
                glücklicherweise – jede staatliche und jede kirchliche Maßnahme vollkommen machtlos
                bleiben wird; die Frage der Geschlechtskrankheiten ist nur von den Gesichtspunkten
-               der <anchor type="commentary" xml:id="K_I137-4"/>Aufklärung<note type="commentary"
-                  xml:id="K_I137-4h">Auf diese Position bezieht sich <rs type="person" ref="#7528"
-                     >Ferdinand Gregori</rs> in seiner am gleichen Abend folgenden Stellungnahme:
-                     »<quote>So wie <rs type="person" ref="#2121">
+               der <anchor type="commentary" xml:id="K_I137-4"/>Aufklärung<note type="commentary" xml:id="K_I137-4h">Auf diese Position bezieht sich <rs type="person" ref="#pmb7528">Ferdinand Gregori</rs> in seiner am gleichen Abend folgenden Stellungnahme:
+                     »<quote>So wie <rs type="person" ref="#pmb2121">
                         <hi rend="spaced_out">Schnitzler</hi>
                      </rs> gesagt hat, daß zur Bekämpfung der Geschlechtskrankheiten das beste
                      Mittel die Aufklärung und Bekämpfung der falschen Scham ist, möchte ich gerade
                      das Theater beispielsweise als Schule dafür ansehen, wie man auf die beste
                      Weise die Geschlechtskrankheiten bekämpft.</quote>«
-                  (<bibl>S.&#8239;111</bibl>)</note>, der allgemeinen Bildung und der Aufrichtigkeit
+                  (<bibl>S. 111</bibl>)</note>, der allgemeinen Bildung und der Aufrichtigkeit
                anzugehen; und der Kampf gegen die Geschlechtskrankheiten und ihre Verbeitung sei ein
                Kampf gegen Unbildung, falsche Schamhaftigkeit und Heuchelei, arte aber nicht aus in
                einen Kampf gegen die Sinnenfreude als Leben-verschönende und Leben-schöpferische
                Kraft.</p>
             <p>
                <seg rend="left">
-                  <rs type="place" ref="#50">Wien</rs>, <date>10.&#160;März 1908</date>.</seg>
+                  <rs type="place" ref="#pmb50">Wien</rs>, <date>10. März 1908</date>.</seg>
                <seg rend="right">
                   <hi rend="spaced_out">Arthur Schnitzler</hi>.</seg>
             </p>
          </div>
          <div type="biographical">
             <div1>
-               <ref target="1908-02-11" type="schnitzlerDiary"/>
-               <quote>Brief an Prof. <rs type="person" ref="#16231">Finger</rs> (Enquête Verbreitung
+               <ref target="1908-02-11" type="schnitzler-tagebuch"/>
+               <quote>Brief an Prof. <rs type="person" ref="#pmb16231">Finger</rs> (Enquête Verbreitung
                   der Geschlechtskrankheiten, Kunst etc.).</quote>
             </div1>
             <div1>
-               <ref target="1908-03-10" type="schnitzlerDiary"/>
-               <quote>Dictirt Nm.: <gap reason="outOfScope" unit="lines" quantity="3"/> an <rs
-                     type="person" ref="#16231">Finger</rs> (Antwort auf die Enquêtefragen Kunst –
+               <ref target="1908-03-10" type="schnitzler-tagebuch"/>
+               <quote>Dictirt Nm.: <gap reason="outOfScope" unit="lines" quantity="3"/> an <rs type="person" ref="#pmb16231">Finger</rs> (Antwort auf die Enquêtefragen Kunst –
                   Geschlechtskrankheiten etc.) – etc.–</quote>
             </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb11988">
+               <persName>
+                  <forename>Karl</forename>
+                  <surname>Kraus</surname>
+               </persName>
+               <persName type="person_pseudonym">J. Berdach</persName>
+               <birth>
+                  <date when="1874-04-28">28.04.1874</date>
+                  <settlement ref="pmb41660">
+                     <placeName type="pref">Jičín</placeName>
+                     <location>
+                        <geo>50,43723 15,35162</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1936-06-12">12.06.1936</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb237">Publizist/Publizistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17108</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118566288</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11988.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11988/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11988</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11988</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp47565</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00282496</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44328</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Karl_Kraus</idno>
+               <idno type="URL" subtype="dx">https://dx.doi.org/10.1553/0x0001d5e5</idno>
+               <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_81.html</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11988.html</idno>
+            </person>
+            <person xml:id="pmb16231">
+               <persName>
+                  <forename>Ernst</forename>
+                  <surname>Finger</surname>
+               </persName>
+               <birth>
+                  <date when="1856-07-08">08.07.1856</date>
+                  <settlement ref="pmb652">
+                     <placeName type="pref">Prag</placeName>
+                     <location>
+                        <geo>50,08333 14,46667</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1939-04-27">27.04.1939</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb426">Mediziner/Medizinerin &gt;&gt; Dermatologe/Dermatologin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14982</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/16231/</idno>
+            </person>
+            <person xml:id="pmb60207">
+               <persName>
+                  <forename>Ludwig</forename>
+                  <surname>Frey</surname>
+               </persName>
+               <birth>
+                  <date when="1861-05-30">1861-05-30</date>
+                  <settlement ref="pmb45359">
+                     <placeName type="pref">Arad</placeName>
+                     <location>
+                        <geo>46,18333 21,31667</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1937-06-15">Mitte Juni 1937</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60207/</idno>
+            </person>
+            <person xml:id="pmb26079">
+               <persName>
+                  <surname>Tizian</surname>
+               </persName>
+               <persName type="namensvariante">Tiziano Vecellio</persName>
+               <birth>
+                  <date when="1488-01-01">zwischen 1488 und 1490</date>
+                  <settlement ref="pmb34112">
+                     <placeName type="pref">Pieve di Cadore</placeName>
+                     <location>
+                        <geo>46,42302 12,361</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1576-08-27">27.08.1576</date>
+                  <settlement ref="pmb462">
+                     <placeName type="pref">Venedig</placeName>
+                     <location>
+                        <geo>45,43713 12,33265</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb110">Bildender Künstler/Bildende Künstlerin &gt;&gt; Maler/Malerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20759</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/26079/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb26079</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb26079</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp54156</idno>
+            </person>
+            <person xml:id="pmb2412">
+               <persName>
+                  <forename>William</forename>
+                  <surname>Shakespeare</surname>
+               </persName>
+               <birth>
+                  <date when="1564-04-23">23.4.1564?</date>
+                  <settlement ref="pmb49870">
+                     <placeName type="pref">Stratford-upon-Avon</placeName>
+                     <location>
+                        <geo>52,19166 -1,70734</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1616-05-03">03.05.1616</date>
+                  <settlement ref="pmb49870">
+                     <placeName type="pref">Stratford-upon-Avon</placeName>
+                     <location>
+                        <geo>52,19166 -1,70734</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <occupation ref="pmb727">Schriftsteller/Schriftstellerin &gt;&gt; Dramatiker/Dramatikerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118613723</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20078</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2412.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2412/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2412</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2412.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb2412</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp55589</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0220</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q692</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/William_Shakespeare</idno>
+               <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/shakespeare-william.html</idno>
+               <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_10.html</idno>
+            </person>
+            <person xml:id="pmb5245">
+               <persName>
+                  <forename>Wolfgang</forename>
+                  <surname>Madjera</surname>
+               </persName>
+               <birth>
+                  <date when="1868-06-29">29.06.1868</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1926-12-17">17.12.1926</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116655135</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5245/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp42058</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00282f2f</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2590512</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wolfgang_Madjera</idno>
+            </person>
+            <person xml:id="pmb7528">
+               <persName>
+                  <forename>Ferdinand</forename>
+                  <surname>Gregori</surname>
+               </persName>
+               <birth>
+                  <date when="1870-04-13">13.04.1870</date>
+                  <settlement ref="pmb864">
+                     <placeName type="pref">Leipzig</placeName>
+                     <location>
+                        <geo>51,33962 12,37129</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1928-12-12">12.12.1928</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+               <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15640</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116829931</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/7528/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43207</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x002818b0</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q120895</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ferdinand_Gregori</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb63541">
+               <title>Ö. G. Z. B. D. G.</title>
+               <title type="werk_link">http://www.simplicissimus.info/uploads/tx_lombkswjournaldb/pdf/1/13/13_02.pdf</title>
+               <title type="werk_link">https://fackel.oeaw.ac.at/F/250,021</title>
+               <author ref="pmb11988" role="hat-geschaffen">Kraus, Karl</author>
+               <date when="1908-04-13">1908-04-13</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63541/</idno>
+               <note type="work_kind">Epik &gt;&gt; Satire</note>
+            </bibl>
+            <bibl xml:id="pmb50245">
+               <title>Simplicissimus</title>
+               <title type="werk_link">http://www.simplicissimus.info/index.php?id=5</title>
+               <date to="1944-09-13">1896-04-04  – 1944-09-13</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50245/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50245</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb50245</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/wiki/Q697730</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Zeitschrift</note>
+            </bibl>
+            <bibl xml:id="pmb33243">
+               <title>Tagebuch</title>
+               <title type="werk_link">https://schnitzler-tagebuch.acdh.oeaw.ac.at</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <author ref="pmb119261" role="hat-herausgegeben">Braunwarth, Peter Michael</author>
+               <author ref="pmb65504" role="hat-herausgegeben">Urbach, Reinhard</author>
+               <date to="2000-01-01">1981  – 2000</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33243/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33243</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33243.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q108122826</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Tagebuch_(Schnitzler)</idno>
+               <note type="work_kind">Tagebuch</note>
+            </bibl>
+            <bibl xml:id="pmb58421">
+               <title>Venus von Urbino</title>
+               <author ref="pmb26079" role="hat-geschaffen">Tizian</author>
+               <date when="1538-01-01">um 1538</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58421/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q727875</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Venus_von_Urbino</idno>
+               <note type="work_kind">Gemälde</note>
+            </bibl>
+            <bibl xml:id="pmb30257">
+               <title>Der Sohn. Aus den Papieren eines Arztes</title>
+               <title type="werk_bibliografische-angabe">Freie Bühne, Jg. 3, H. 1, Januar 1892, S. 89–94</title>
+               <title type="werk_link">https://babel.hathitrust.org/cgi/pt?id=coo.31924069262966&amp;view=1up&amp;seq=95&amp;skin=2021&amp;q1=wien</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date>1.1.1892</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.02.15</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q52159945</idno>
+               <idno type="URL" subtype="babel">https://babel.hathitrust.org/cgi/pt?id=coo.31924069262966;view=image;page=root;size=100;seq=95;num=89</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30257.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30257/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30257</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30257.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_Sohn_(Schnitzler)</idno>
+               <note type="work_kind">Erzählung</note>
+            </bibl>
+            <bibl xml:id="pmb30817">
+               <title>Therese. Chronik eines Frauenlebens</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1928-01-01">1928</date>
+               <idno type="URL" subtype="asaf">https://asaf.com/S.04.02.44</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q699088</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30817.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30817/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30817</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30817.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Therese._Chronik_eines_Frauenlebens</idno>
+               <note type="work_kind">Roman</note>
+            </bibl>
+            <bibl xml:id="pmb41321">
+               <title>Neues Wiener Tagblatt</title>
+               <title type="werk_link">http://anno.onb.ac.at/cgi-content/anno?aid=nwg</title>
+               <title type="namensvariante">Neues Wiener Abendblatt</title>
+               <date to="1945-01-01">1867  – 1945</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41321/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41321</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb41321</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1654066</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Neues_Wiener_Tagblatt</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+            <bibl xml:id="pmb42850">
+               <title>Reichspost</title>
+               <title type="werk_link">http://anno.onb.ac.at/cgi-content/anno?aid=rpt</title>
+               <author ref="pmb53731" role="hat-herausgegeben">Funder, Friedrich</author>
+               <date from="1893-01-01" to="1938-07-02">1893  – 1938</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/42850/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb42850</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb42850</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+            <bibl xml:id="pmb60197">
+               <title>Schnitzler und die Enquete zur Bekämpfung der Geschlechtskrankheiten</title>
+               <date when="1908-03-14">1908-03-14</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60197/</idno>
+               <note type="work_kind">Glosse</note>
+            </bibl>
+            <bibl xml:id="pmb60190">
+               <title>Enquete zur Bekämpfung der Geschlechtskrankheiten</title>
+               <author ref="pmb2121" role="hat-einen-beitrag-geschaffen-zu">Schnitzler, Arthur</author>
+               <date when="1908-03-13">1908-03-13</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60190/</idno>
+               <note type="work_kind">Brief &gt;&gt; Öffentlicher Brief &gt;&gt; Leserbrief</note>
+            </bibl>
+            <bibl xml:id="pmb60648">
+               <title>Zeitschrift für Bekämpfung der Geschlechtskrankheiten</title>
+               <date from="1903-01-01" to="1922-07-02">1903  – 1922</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60648/</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Zeitschrift</note>
+            </bibl>
+            <bibl xml:id="pmb35935">
+               <title>Die Zeit</title>
+               <author ref="pmb11867" role="hat-herausgegeben">Kanner, Heinrich</author>
+               <author ref="pmb12790" role="hat-herausgegeben">Singer, Isidor</author>
+               <date to="1919-01-01">1902  – 1919</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35935/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb35935</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb50">
+               <placeName>Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="alternative-name">Bécs</placeName>
+               <placeName type="alternative-name">Land Wien</placeName>
+               <placeName type="alternative-name">Vídeň</placeName>
+               <placeName type="alternative-name">Wenia</placeName>
+               <placeName type="alternative-name">Beč</placeName>
+               <placeName type="ort_fruherer_name">Vindobona</placeName>
+               <placeName type="alternative-name">Vienna</placeName>
+               <placeName type="x_zum-loschen-markiert">Wien?</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>48,2066 16,37341</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb63534">
+               <orgName>Österreichische Gesellschaft zur Bekämpfung der Geschlechtskrankheiten</orgName>
+               <desc type="entity_type">Verein &gt;&gt; Gelehrtenvereinigung</desc>
+               <desc type="entity_type_id">1031</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb50">Wien</placeName>
+                  <geo>48,2066 16,37341</geo>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63534/</idno>
+               <note type="apis_dates">
+                  <date when="1907-04-25">1907-04-25</date>
+               </note>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>

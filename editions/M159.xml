@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="M159">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="M159">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#61803">Das Medeabild,
-               15.&#8239;4.&#8239;1891</title>
-            <author ref="#2121">Schnitzler, Arthur</author>
+            <title level="a" ref="#pmb61803">Das Medeabild,
+               15. 4. 1891</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
             </editor>
@@ -28,13 +30,13 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="#2121">A.&#160;Sch.</author>
-                     <title level="a" ref="#61803">Das Medeabild</title>
+                     <author ref="#pmb2121">A. Sch.</author>
+                     <title level="a" ref="#pmb61803">Das Medeabild</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="#35942">Moderne Rundschau</title>
+                     <title level="j" ref="#pmb35942">Moderne Rundschau</title>
                      <imprint>
-                        <date when="1891-04-15" n="2">15.&#8239;4.&#8239;1891</date>
+                        <date when="1891-04-15" n="2">15. 4. 1891</date>
                      </imprint>
                      <biblScope unit="vol">3</biblScope>
                      <biblScope unit="nr">2</biblScope>
@@ -57,16 +59,18 @@
    <text type="article">
       <body>
          <div type="original">
-            <p><hi rend="bold"><rs type="work" ref="#61800">Das Medeabild</rs></hi>. Drama in einem
-               Aufzuge von <rs type="person" ref="#18053">Ferdinand Heitmüller</rs>. (<rs
-                  type="place" ref="#866">Dresden</rs> und <rs type="place" ref="#864">Leipzig</rs>,
-                  <rs type="org" ref="#29771">E.&#160;Pierson's Verlag</rs>.) Die Scene: Das
+            <p>
+               <hi rend="bold">
+                  <rs type="work" ref="#pmb61800">Das Medeabild</rs>
+               </hi>. Drama in einem
+               Aufzuge von <rs type="person" ref="#pmb18053">Ferdinand Heitmüller</rs>. (<rs type="place" ref="#pmb866">Dresden</rs> und <rs type="place" ref="#pmb864">Leipzig</rs>,
+                  <rs type="org" ref="#pmb29771">E. Pierson's Verlag</rs>.) Die Scene: Das
                Atelier. – Fenster im Grunde, die auf eine Terrasse gehen<c rendition="#dots" n="3"/>
-               In der Ferne die kühnen Umrisse des <rs type="place" ref="#51642">Vesuv</rs> im
+               In der Ferne die kühnen Umrisse des <rs type="place" ref="#pmb51642">Vesuv</rs> im
                   Mondlichte<c rendition="#dots" n="3"/> Aus einer rothen Ampel fließt ein warmes
-               mattes Licht u.&#8239;s.&#8239;w. u.&#8239;s.&#8239;w. Man sieht, Stimmung übergenug!
+               mattes Licht u. s. w. u. s. w. Man sieht, Stimmung übergenug!
                Kurz vor Aufgehen des Vorhanges hört man noch überdies die letzten verklingenden
-               Accorde eines <rs type="place" ref="#40306">italienischen</rs> Tanzes, Hochrufen und
+               Accorde eines <rs type="place" ref="#pmb40306">italienischen</rs> Tanzes, Hochrufen und
                den Lärm aufbrechender Gäste. Leider bleibt die Bühne jedoch nur eine Weile leer und
                es treten die zwei Personen des Stückes auf, der Maler Oswald und sein eben ihm
                angetrautes junges Weib, Arda, die sich eine Menge von sehr verhängnißvollen Dingen
@@ -81,26 +85,378 @@
                mitklingt. Die Sprache konnte uns mit dem tragikomischen Stoff nicht versöhnen; sie
                ist innerlich hohl wie das Stück selbst. Dennoch gewahrten wir hie und da Spuren von
                künstlerischem Empfinden, so daß wir hoffen dürfen, ein mißglücktes Jugendwerk vor
-               uns zu haben, über das der Autor möglicherweise noch weit hinauskommen wird. – In <rs
-                  type="place" ref="#1259">Altona</rs> wurde das Drama aufgeführt; sollten die
+               uns zu haben, über das der Autor möglicherweise noch weit hinauskommen wird. – In <rs type="place" ref="#pmb1259">Altona</rs> wurde das Drama aufgeführt; sollten die
                Rollen dankbar sein?</p>
             <p rend="right">A. Sch.</p>
          </div>
          <div type="biographical">
             <div1>
-               <ref target="1891-06-21" type="schnitzlerDiary"/>
-               <quote><p>In der <rs type="work" ref="#35942">Mod. Rsch.</rs> waren bisher 4 kleine
+               <ref target="1891-06-21" type="schnitzler-tagebuch"/>
+               <quote>
+                  <p>In der <rs type="work" ref="#pmb35942">Mod. Rsch.</rs> waren bisher 4 kleine
                   Kritiken von mir:</p>
-                  <p>über ›<rs type="work" ref="#61800">Medeabild</rs>‹ von <rs type="person"
-                     ref="#18053">Heitmüller</rs>,</p>
-                  <p><rs type="work" ref="#61781">Prof. Sylvan</rs> von <rs type="person"
-                     ref="#18468">Holmblad</rs></p>
-                  <p><rs type="work" ref="#61767">Hieroglyphen des Lebens</rs> von <rs type="person"
-                     ref="#7253">Alfr. Friedmann</rs></p>
-                  <p><rs type="work" ref="#31901">Friedensengel</rs> von <rs type="person"
-                     ref="#4287">Singer</rs>.</p></quote>
+                  <p>über ›<rs type="work" ref="#pmb61800">Medeabild</rs>‹ von <rs type="person" ref="#pmb18053">Heitmüller</rs>,</p>
+                  <p>
+                     <rs type="work" ref="#pmb61781">Prof. Sylvan</rs> von <rs type="person" ref="#pmb18468">Holmblad</rs>
+                  </p>
+                  <p>
+                     <rs type="work" ref="#pmb61767">Hieroglyphen des Lebens</rs> von <rs type="person" ref="#pmb7253">Alfr. Friedmann</rs>
+                  </p>
+                  <p>
+                     <rs type="work" ref="#pmb31901">Friedensengel</rs> von <rs type="person" ref="#pmb4287">Singer</rs>.</p>
+               </quote>
             </div1>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb18053">
+               <persName>
+                  <forename>Franz Ferdinand</forename>
+                  <surname>Heitmüller</surname>
+               </persName>
+               <birth>
+                  <date when="1864-03-16">16.03.1864</date>
+                  <settlement ref="pmb506">
+                     <placeName type="pref">Hamburg</placeName>
+                     <location>
+                        <geo>53,57532 10,01534</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1919-03-30">30.03.1919</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16055</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/18053/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116678623/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb18053.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q55674690</idno>
+            </person>
+            <person xml:id="pmb18468">
+               <persName>
+                  <forename>Alexandrine von</forename>
+                  <surname>Holmblad</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Weyrauch</persName>
+               <sex value="female"/>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16320</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/18468/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb18468.html</idno>
+            </person>
+            <person xml:id="pmb7253">
+               <persName>
+                  <forename>Alfred</forename>
+                  <surname>Friedmann</surname>
+               </persName>
+               <birth>
+                  <date when="1845-10-26">26.10.1845</date>
+                  <settlement ref="pmb146">
+                     <placeName type="pref">Frankfurt am Main</placeName>
+                     <location>
+                        <geo>50,11552 8,68417</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1923-02-13">13.02.1923</date>
+                  <settlement ref="pmb168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15227</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116802014</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/7253/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb7253.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2644982</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Alfred_Friedmann_(Schriftsteller)</idno>
+            </person>
+            <person xml:id="pmb4287">
+               <persName>
+                  <forename>Maximilian</forename>
+                  <surname>Singer</surname>
+               </persName>
+               <birth>
+                  <date notBefore="1857-01-01" when="1857-07-02" notAfter="1857-12-31">1857</date>
+                  <settlement ref="pmb45906">
+                     <placeName type="pref">Lipnik Górny</placeName>
+                     <location>
+                        <geo>49,82569 19,08849</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1928-07-01" notAfter="1928-12-31">1928</date>
+                  <settlement ref="pmb652">
+                     <placeName type="pref">Prag</placeName>
+                     <location>
+                        <geo>50,08333 14,46667</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb240">Lehrer/Lehrerin</occupation>
+               <occupation ref="pmb1535">Librettist/Librettistin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117402516</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20137</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4287/</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284aa8</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q94855258</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb61800">
+               <title>Das Medeabild. Drama in einem Aufzuge</title>
+               <author ref="pmb18053" role="hat-geschaffen">Heitmüller, Franz Ferdinand</author>
+               <date notBefore="1891-01-01" when="1891-07-02">1891</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/61800/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb61800.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb61800.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Einakter</note>
+            </bibl>
+            <bibl xml:id="pmb35942">
+               <title>Moderne Rundschau</title>
+               <title type="werk_link">https://babel.hathitrust.org/cgi/pt?id=njp.32101064246596&amp;view=1up&amp;seq=17&amp;skin=2021</title>
+               <author ref="pmb10815" role="hat-einen-beitrag-geschaffen-zu">Bahr, Hermann</author>
+               <author ref="pmb2121" role="hat-einen-beitrag-geschaffen-zu">Schnitzler, Arthur</author>
+               <author ref="pmb11740" role="hat-einen-beitrag-geschaffen-zu">Hofmannsthal, Hugo von</author>
+               <author ref="pmb2563" role="hat-herausgegeben">Kafka, Eduard Michael</author>
+               <author ref="pmb18870" role="hat-herausgegeben">Joachim, Jaques</author>
+               <date to="1891-12-31">1.4.1891  – 31.12.1891</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35942/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb35942</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Zeitschrift</note>
+            </bibl>
+            <bibl xml:id="pmb61781">
+               <title>Professor Sylvan’s junge Ehe und andere Novellen</title>
+               <author ref="pmb18468" role="hat-geschaffen">Holmblad, Alexandrine von</author>
+               <date when="1891-04-02">1891-04-02</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/61781/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb61781.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb61781.html</idno>
+               <note type="work_kind">Textsammlung &gt;&gt; Novellensammlung</note>
+            </bibl>
+            <bibl xml:id="pmb61767">
+               <title>Hieroglyphen des Lebens. Novellen und Skizzen</title>
+               <author ref="pmb7253" role="hat-geschaffen">Friedmann, Alfred</author>
+               <date notBefore="1891-01-01" when="1891-07-02">1891</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/61767/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb61767.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb61767.html</idno>
+               <note type="work_kind">Textsammlung</note>
+            </bibl>
+            <bibl xml:id="pmb31901">
+               <title>Der Friedensengel. Schauspiel in einem Aufzuge</title>
+               <author ref="pmb4287" role="hat-geschaffen">Singer, Maximilian</author>
+               <date notBefore="1891-01-01" when="1891-07-02">1891</date>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31901.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31901/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31901.html</idno>
+               <note type="work_kind">Drama &gt;&gt; Einakter</note>
+            </bibl>
+            <bibl xml:id="pmb61803">
+               <title>Das Medeabild</title>
+               <author ref="pmb2121" role="hat-unter-einem-kurzel-veroffentlicht">Schnitzler, Arthur</author>
+               <date when="1891-04-15">1891-04-15</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/61803/</idno>
+               <note type="work_kind">Rezension</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb866">
+               <placeName>Dresden</placeName>
+               <placeName type="alternative-name">Landeshauptstadt Dresden</placeName>
+               <placeName type="legacy-name-merge">Kreisfreie Stadt Dresden</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>51,0833 13,7666</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb151">Deutschland</placeName>
+                  <geo>51,5 10,5</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1731</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4012995-0</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb866.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/866/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/39739/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb866</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64187/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2935020/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb866</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/90550/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2935022/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90550.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Dresden</idno>
+            </place>
+            <place xml:id="pmb864">
+               <placeName>Leipzig</placeName>
+               <placeName type="alternative-name">Gross-Leipzig</placeName>
+               <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+               <desc type="entity_type_id">14</desc>
+               <location type="coords">
+                  <geo>51,33962 12,37129</geo>
+               </location>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2079</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2879139/</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb864.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/864/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44885/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4035206-7</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb864</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb864</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb864.html</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Leipzig</idno>
+            </place>
+            <place xml:id="pmb51642">
+               <placeName>Vesuv</placeName>
+               <placeName type="alternative-name">Vesuvius</placeName>
+               <desc type="entity_type">https://www.geonames.org/ontology#T.VLC</desc>
+               <desc type="entity_type_id">1606</desc>
+               <location type="coords">
+                  <geo>40,82293 14,42874</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb40306">Italien</placeName>
+                  <geo>42,83333 12,83333</geo>
+               </location>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51642/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3164481/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb51642</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb51642.html</idno>
+            </place>
+            <place xml:id="pmb40306">
+               <placeName>Italien</placeName>
+               <placeName type="alternative-name">Italian Republic</placeName>
+               <placeName type="alternative-name">Republic of Italy</placeName>
+               <placeName type="legacy-name-merge">Italy</placeName>
+               <desc type="entity_type">http://www.geonames.org/ontology#A.PCLI</desc>
+               <desc type="entity_type_id">1107</desc>
+               <location type="coords">
+                  <geo>42,83333 12,83333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb468">Europa</placeName>
+                  <geo>48,69096 9,14062</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/3175395/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/40306/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb40306</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb40306</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb40306.html</idno>
+            </place>
+            <place xml:id="pmb1259">
+               <placeName>Altona</placeName>
+               <placeName type="legacy-name-merge">Hamburg-Altona</placeName>
+               <desc type="entity_type">Bezirk (A.BZK)</desc>
+               <desc type="entity_type_id">25</desc>
+               <location type="coords">
+                  <geo>53,5725 9,8262</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb506">Hamburg</placeName>
+                  <geo>53,57532 10,01534</geo>
+               </location>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2911296/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1259/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb1259</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb1259.html</idno>
+            </place>
+         </listPlace>
+         <listOrg>
+            <org xml:id="pmb29771">
+               <orgName>E. Pierson’s Verlag</orgName>
+               <desc type="entity_type">Verlag</desc>
+               <desc type="entity_type_id">975</desc>
+               <location type="located_in_place">
+                  <placeName ref="pmb866">Dresden</placeName>
+                  <geo>51,0833 13,7666</geo>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1731</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4012995-0</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb866.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/866/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/39739/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb866</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64187/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2935020/</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb866</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/90550/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2935022/</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb90550.html</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Dresden</idno>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb864">Leipzig</placeName>
+                  <geo>51,33962 12,37129</geo>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2079</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2879139/</idno>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb864.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/864/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44885/</idno>
+                  <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4035206-7</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb864</idno>
+                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb864</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb864.html</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Leipzig</idno>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29771.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29771/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29771</idno>
+            </org>
+         </listOrg>
+      </back>
    </text>
 </TEI>
