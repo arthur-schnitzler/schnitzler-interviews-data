@@ -10,26 +10,6 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>editions/I011.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>backelement</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>meta/asigesamt.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -55,6 +35,26 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>asizusammenkopieren</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>editions/I011.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>backelement</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">

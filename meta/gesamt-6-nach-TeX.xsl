@@ -9,16 +9,16 @@
    <!-- Globale Parameter -->
    <xsl:param name="persons"
       select="document('../meta/back.xml')"/>
-   <xsl:key name="person-lookup" match="person" use="replace(@xml:id, 'pmb', '#')"/>
+   <xsl:key name="person-lookup" match="person" use="replace(@xml:id, 'pmb', '#pmb')"/>
    <xsl:param name="works"
       select="document('../meta/back.xml')"/>
-   <xsl:key name="work-lookup" match="bibl" use="replace(@xml:id, 'pmb', '#')"/>
+   <xsl:key name="work-lookup" match="bibl" use="replace(@xml:id, 'pmb', '#pmb')"/>
    <xsl:param name="orgs"
       select="document('../meta/back.xml')"/>
-   <xsl:key name="org-lookup" match="org" use="replace(@xml:id, 'pmb', '#')"/>
+   <xsl:key name="org-lookup" match="org" use="replace(@xml:id, 'pmb', '#pmb')"/>
    <xsl:param name="places"
       select="document('../meta/back.xml')"/>
-   <xsl:key name="place-lookup" match="place" use="replace(@xml:id, 'pmb', '#')"/>
+   <xsl:key name="place-lookup" match="place" use="replace(@xml:id, 'pmb', '#pmb')"/>
    <xsl:param name="placework"
       select="document('../meta/placework.xml')"/>
    <xsl:key name="placework-lookup" match="item" use="related_work_id"/>
@@ -364,7 +364,7 @@
       <xsl:param name="endung" as="xs:string"/>
       <xsl:param name="endung-setzen" as="xs:boolean"/>
       <xsl:choose>
-         <xsl:when test="$indexkey = '#2121' and $endung-setzen"/>
+         <xsl:when test="$indexkey = '#pmb2121' and $endung-setzen"/>
          <!-- Schnitzler als Person raus -->
          <xsl:when test="$indexkey = ''"/>
          <xsl:otherwise>
@@ -560,8 +560,8 @@
          <xsl:when test="contains($first, 'pmb')">
             <xsl:value-of select="replace($first, 'pmb', '')"/>
          </xsl:when>
-         <xsl:when test="contains($first, '#')">
-            <xsl:value-of select="replace($first, '#', '')"/>
+         <xsl:when test="contains($first, '#pmb')">
+            <xsl:value-of select="replace($first, '#pmb', '')"/>
          </xsl:when>
          <xsl:otherwise>
             <xsl:value-of select="$first"/>
@@ -577,7 +577,7 @@
          <xsl:when test="$first = '' or empty($first)">
             <xsl:text>\textcolor{red}{\textsuperscript{\textbf{KEY}}}</xsl:text>
          </xsl:when>
-         <xsl:when test="not(starts-with($first, '#'))">
+         <xsl:when test="not(starts-with($first, '#pmb'))">
             <xsl:text>\textcolor{red}{FEHLER2}</xsl:text>
          </xsl:when>
          <xsl:when test="empty($work-entry)">
@@ -587,7 +587,7 @@
             <!-- Tageszeitungen zum Ort -->
             <xsl:text>\pwindex{</xsl:text>
             <xsl:variable name="ort"
-               select="concat('#', key('placework-lookup', foo:indexstring-ohne-raute-und-pmb($first), $placework)/related_place)"/>
+               select="concat('#pmb', key('placework-lookup', foo:indexstring-ohne-raute-und-pmb($first), $placework)/related_place)"/>
             <xsl:variable name="ort-name"
                select="key('place-lookup', $ort, $places)/placeName[1]/text()" as="xs:string?"/>
             <xsl:choose>
@@ -612,7 +612,7 @@
          <xsl:when test="$work-entry/author[$author-zaehler]">
             <xsl:text>\pwindex{</xsl:text>
             <xsl:variable name="author-ref"
-               select="replace($work-entry/author[$author-zaehler]/@ref, 'pmb', '#')"/>
+               select="replace($work-entry/author[$author-zaehler]/@ref, 'pmb', '#pmb')"/>
             <xsl:value-of select="foo:person-fuer-index($author-ref)"/>
             <xsl:text>!</xsl:text>
          </xsl:when>
@@ -1535,7 +1535,7 @@
       <xsl:param name="sender-nichtempfaenger" as="xs:boolean"/>
       <xsl:choose>
          <!-- Briefsender fett in den Personenindex -->
-         <xsl:when test="not($sender-key = '#2121')">
+         <xsl:when test="not($sender-key = '#pmb2121')">
             <!-- Schnitzler und Bahr nicht -->
             <xsl:text>\pwindex{</xsl:text>
             <xsl:value-of select="foo:person-fuer-index($sender-key)"/>
@@ -2304,7 +2304,7 @@
    <xsl:template match="stamp/placeName | addSpan | stamp/date | stamp/time">
       <xsl:if test="current() != ''">
          <xsl:choose>
-            <xsl:when test="self::placeName and @ref = '#50'"/>
+            <xsl:when test="self::placeName and @ref = '#pmb50'"/>
             <!-- Wien raus -->
             <xsl:when test="self::placeName and ((@ref = '') or empty(@ref))">
                <xsl:text>\textcolor{red}{\textsuperscript{\textbf{KEY}}}</xsl:text>
@@ -2452,7 +2452,7 @@
       <xsl:param name="datum" as="xs:string"/>
       <xsl:param name="vorne" as="xs:boolean"/>
       <!-\- Briefe Schnitzlers an Bahr raus, aber wenn mehrere Absender diese rein -\->
-      <!-\- <xsl:if test="not($briefsender/persName[$briefsender-anzahl]/@ref = '#2121' and $briefempfaenger/persName[1]/@ref='#10815')">
+      <!-\- <xsl:if test="not($briefsender/persName[$briefsender-anzahl]/@ref = '#pmb2121' and $briefempfaenger/persName[1]/@ref='#10815')">
       <xsl:value-of select="foo:briefsender-rekursiv($briefempfaenger, count($briefempfaenger/persName), $briefsender/persName[$briefsender-anzahl]/@ref, $date, $date-n, $datum, $vorne)"/>
      </xsl:if>-\->
       <xsl:if test="$briefsender-anzahl &gt; 1">
@@ -3017,7 +3017,7 @@
                   <xsl:choose>
                      <!-- ASI Sonderfall: Der analytic-Teil kann wegfallen, wenn Schnitzler der einzige Autor -->
                      <xsl:when
-                        test="$gedruckte-quellen/biblStruct[1]/analytic[1]/author/@ref = '#2121' and not($gedruckte-quellen/biblStruct[1]/analytic[1]/author[2])">
+                        test="$gedruckte-quellen/biblStruct[1]/analytic[1]/author/@ref = '#pmb2121' and not($gedruckte-quellen/biblStruct[1]/analytic[1]/author[2])">
                         <xsl:value-of
                            select="foo:bibliographische-angabe($gedruckte-quellen/biblStruct[1], false(), false())"
                         />
@@ -3267,7 +3267,7 @@
       <xsl:variable name="dokument-id" select="ancestor::TEI/@id"/>
       <!-- Hier komplett abgedruckte Texte fett in den Index -->
       <xsl:if
-         test="starts-with(ancestor::TEI/teiHeader/fileDesc/titleStmt/title[@level = 'a']/@ref, '#')">
+         test="starts-with(ancestor::TEI/teiHeader/fileDesc/titleStmt/title[@level = 'a']/@ref, '#pmb')">
          <xsl:value-of
             select="foo:abgedruckte-workNameRoutine(ancestor::TEI/teiHeader/fileDesc/titleStmt/title[@level = 'a']/@ref, true())"
          />
@@ -3282,7 +3282,7 @@
       </xsl:if>
       <xsl:apply-templates/>
       <xsl:if
-         test="starts-with(ancestor::TEI/teiHeader/fileDesc/titleStmt/title[@level = 'a']/@ref, '#')">
+         test="starts-with(ancestor::TEI/teiHeader/fileDesc/titleStmt/title[@level = 'a']/@ref, '#pmb')">
          <xsl:value-of
             select="foo:abgedruckte-workNameRoutine(ancestor::TEI/teiHeader/fileDesc/titleStmt/title[@level = 'a']/@ref, false())"
          />
@@ -4458,39 +4458,39 @@
             <xsl:choose>
                <!-- Sonderregeln wenn Gerty, Julie Wassermann, Mary Mell und Olga im gleichen Brief vorkommen wie Schnitzler und Hofmannsthal -->
                <xsl:when
-                  test="@scribe = '#2173' and ancestor::TEI/teiHeader[1]/fileDesc[1]/titleStmt[1]/author/@ref = '#2121'">
+                  test="@scribe = '#pmb2173' and ancestor::TEI/teiHeader[1]/fileDesc[1]/titleStmt[1]/author/@ref = '#pmb2121'">
                   <xsl:value-of
                      select="substring(normalize-space(key('person-lookup', (@scribe), $persons)/tei:persName/tei:forename), 1, 1)"/>
                   <xsl:text>. </xsl:text>
                </xsl:when>
                <!-- Wassermann: -->
                <xsl:when
-                  test="@scribe = '#13058' and ancestor::TEI/teiHeader[1]/fileDesc[1]/titleStmt[1]/author/@ref = '#13055'">
+                  test="@scribe = '#pmb13058' and ancestor::TEI/teiHeader[1]/fileDesc[1]/titleStmt[1]/author/@ref = '#pmb13055'">
                   <xsl:value-of
                      select="normalize-space(key('person-lookup', (@scribe), $persons)/tei:persName/tei:forename)"
                   />
                </xsl:when>
                <!-- Mary Mell -->
                <xsl:when
-                  test="@scribe = '#5765' and ancestor::TEI/teiHeader[1]/fileDesc[1]/titleStmt[1]/author/@ref = '#12225'">
+                  test="@scribe = '#pmb5765' and ancestor::TEI/teiHeader[1]/fileDesc[1]/titleStmt[1]/author/@ref = '#pmb12225'">
                   <xsl:value-of
                      select="normalize-space(key('person-lookup', (@scribe), $persons)/tei:persName/tei:forename)"
                   />
                </xsl:when>
                <xsl:when
-                  test="@scribe = '#2292' and ancestor::TEI/teiHeader[1]/fileDesc[1]/titleStmt[1]/author/@ref = '#11740'">
+                  test="@scribe = '#pmb2292' and ancestor::TEI/teiHeader[1]/fileDesc[1]/titleStmt[1]/author/@ref = '#pmb11740'">
                   <xsl:value-of
                      select="substring(normalize-space(key('person-lookup', (@scribe), $persons)/tei:persName/tei:forename), 1, 1)"/>
                   <xsl:text>. </xsl:text>
                </xsl:when>
                <xsl:when
-                  test="@scribe = '#27886' and ancestor::TEI/teiHeader[1]/fileDesc[1]/titleStmt[1]/author/@ref = '#27882'">
+                  test="@scribe = '#pmb27886' and ancestor::TEI/teiHeader[1]/fileDesc[1]/titleStmt[1]/author/@ref = '#pmb27882'">
                   <xsl:value-of
                      select="substring(normalize-space(key('person-lookup', (@scribe), $persons)/tei:persName/tei:forename), 1, 1)"/>
                   <xsl:text>. </xsl:text>
                </xsl:when>
                <xsl:when
-                  test="@scribe = '#23918' and ancestor::TEI/teiHeader[1]/fileDesc[1]/titleStmt[1]/author/@ref = '#2167'">
+                  test="@scribe = '#pmb23918' and ancestor::TEI/teiHeader[1]/fileDesc[1]/titleStmt[1]/author/@ref = '#pmb2167'">
                   <xsl:value-of
                      select="substring(normalize-space(key('person-lookup', (@scribe), $persons)/tei:persName/tei:forename), 1, 1)"/>
                   <xsl:text>. </xsl:text>
@@ -4499,7 +4499,7 @@
             <xsl:value-of
                select="normalize-space(key('person-lookup', (@scribe), $persons)/tei:persName/tei:surname)"/>
             <!-- Sonderregel für Hofmannsthal senior -->
-            <xsl:if test="@scribe = '#11737'">
+            <xsl:if test="@scribe = '#pmb11737'">
                <xsl:text> (sen.)</xsl:text>
             </xsl:if>
          </xsl:otherwise>
@@ -4778,7 +4778,7 @@
       <xsl:param name="first" as="xs:string"/>
       <xsl:param name="rest" as="xs:string"/>
       <xsl:choose>
-         <xsl:when test="not(starts-with($first, '#'))">
+         <xsl:when test="not(starts-with($first, '#pmb'))">
             <xsl:text>\textcolor{red}{KEY PROBLEM}</xsl:text>
          </xsl:when>
          <xsl:when test="$typ = 'person'">
@@ -4826,7 +4826,7 @@
    </xsl:function>
    <xsl:function name="foo:stripHash">
       <xsl:param name="first" as="xs:string"/>
-      <xsl:value-of select="substring-after($first, '#')"/>
+      <xsl:value-of select="substring-after($first, '#pmb')"/>
    </xsl:function>
    <xsl:function name="foo:werk-indexName-Routine-autoren">
       <!-- Das soll die Varianten abfangen, dass mehrere Verfasser an einem Werk beteiligt sein können -->
@@ -4945,7 +4945,7 @@
                </xsl:when>
                <xsl:otherwise>
                   <xsl:if
-                     test="$im-text and not(@ref = '#2121' or @ref = '#50') and not($index-test-bestanden)">
+                     test="$im-text and not(@ref = '#pmb2121' or @ref = '#pmb50') and not($index-test-bestanden)">
                      <xsl:text>\edtext{</xsl:text>
                   </xsl:if>
                   <xsl:if test="$emph">
@@ -4973,7 +4973,7 @@
                      select="foo:indexName-Routine(@type, tokenize(@ref, ' ')[1], substring-after(@ref, ' '), $endung-index)"/>
                   <xsl:choose>
                      <xsl:when
-                        test="$im-text and not(@ref = '#2121' or @ref = '#50') and not($index-test-bestanden)">
+                        test="$im-text and not(@ref = '#pmb2121' or @ref = '#pmb50') and not($index-test-bestanden)">
                         <xsl:text>}{</xsl:text>
                         <xsl:value-of select="foo:lemma(.)"/>
                         <xsl:text>\Bendnote{</xsl:text>
@@ -5009,7 +5009,7 @@
          <xsl:when test="$first = ''">
             <xsl:text>\textcolor{red}{INDEX FEHLER W}</xsl:text>
          </xsl:when>
-         <xsl:when test="not(starts-with($first, '#'))">
+         <xsl:when test="not(starts-with($first, '#pmb'))">
             <xsl:text>\textcolor{red}{WERKINDEX FEHLER}</xsl:text>
          </xsl:when>
          <xsl:otherwise>
@@ -5178,7 +5178,7 @@
       <xsl:param name="endung" as="xs:string"/>
       <xsl:param name="endung-setzen" as="xs:boolean"/>
       <xsl:choose>
-         <xsl:when test="not(starts-with($first, '#')) or $first = '#' or $first = ''">
+         <xsl:when test="not(starts-with($first, '#pmb')) or $first = '#pmb' or $first = ''">
             <xsl:text>\textcolor{red}{ORT FEHLER}</xsl:text>
          </xsl:when>
          <xsl:otherwise>
@@ -5341,7 +5341,7 @@
       <xsl:variable name="ort" select="$place/placeName[1]"/>
       <xsl:variable name="typ" select="$place/desc[@type = 'entity_type']"/>
       <xsl:choose>
-         <xsl:when test="not(starts-with($first, '#'))">
+         <xsl:when test="not(starts-with($first, '#pmb'))">
             <xsl:text>\textcolor{red}{FEHLER4}</xsl:text>
          </xsl:when>
          <xsl:when test="$first = 'pmb50'"/>
@@ -5369,11 +5369,11 @@
                      </xsl:if>
                   </xsl:when>
                   <xsl:when
-                     test="not(foo:wienerBezirke(replace($first, '#', 'pmb')) = 'keinBezirk')">
+                     test="not(foo:wienerBezirke(replace($first, '#pmb', 'pmb')) = 'keinBezirk')">
                      <xsl:text>\oindex{</xsl:text>
                      <xsl:value-of select="foo:index-sortiert('Wien', 'bf')"/>
                      <xsl:text>!</xsl:text>
-                     <xsl:value-of select="foo:wienerBezirke(replace($first, '#', 'pmb'))"/>
+                     <xsl:value-of select="foo:wienerBezirke(replace($first, '#pmb', 'pmb'))"/>
                      <xsl:value-of select="foo:ort-für-index($first)"/>
                      <xsl:if test="$endung-setzen">
                         <xsl:value-of select="$endung"/>
@@ -5691,7 +5691,7 @@
       </xsl:choose>
    </xsl:template>
    <xsl:template match="ref[@type = 'question' and starts-with(ancestor::TEI/@id, 'I')]">
-      <xsl:variable name="fragenummer" select="substring-after(@target, '#')"/>
+      <xsl:variable name="fragenummer" select="substring-after(@target, '#pmb')"/>
       <xsl:variable name="frage" select="key('question-lookup', $fragenummer, $interviewfragen)"
          as="node()?"/>
       <xsl:choose>
