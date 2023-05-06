@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-     xml:base="schnitzler-interviews"
-     xml:id="M170">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd" xml:base="schnitzler-interviews" xml:id="M170" next="M144" prev="I124"> <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
@@ -82,12 +76,11 @@
          <change who="MAM" when="2022-01-10">Angelegt</change>
          <change who="MAM" when="2022-01-18">Index check</change>
       </revisionDesc>
-   </teiHeader>
-   <text type="article">
+   </teiHeader><text type="article">
       <body>
          <div type="original">
             <head>Vom jungen <rs type="person" ref="#pmb11673">Herzl</rs>.</head>
-            <head type="sub">(Ein Brief aus dem Jahre 1892<note xml:id="M170_FN1" type="footnote">
+            <head type="sub">(Ein Brief aus dem Jahre 1892<note xml:id="FM170_FN1" type="footnote">
                   <p>Aus dem »Leben Theodor Herzl’s« von Prof. <rs type="person" ref="#pmb11904">Leon
                         Kellner</rs>, welches demnächst erscheinen wird.</p>
                </note>).</head>
@@ -762,5 +755,4 @@
             </org>
          </listOrg>
       </back>
-   </text>
-</TEI>
+   </text></TEI>

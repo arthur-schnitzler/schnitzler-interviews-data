@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-     xml:base="schnitzler-interviews"
-     xml:id="M173">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="M173" next="P176" prev="P054">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
+            <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews,
+               Meinungen, Proteste (1891–1931)</title>
             <title level="a" ref="#pmb63177">Briefe an Adolf Sonnenthal, [Oktober 1911]</title>
-            <title type="iso-date" when-iso="1911-10-01" n="1">[Oktober 1911, auf 1912 vordatiert]</title>
+            <title type="iso-date" when-iso="1911-10-01" n="1">[Oktober 1911, auf 1912
+               vordatiert]</title>
             <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -98,8 +98,7 @@
          <change who="MAM" when="2022-01-10">Angelegt</change>
          <change who="MAM" when="2022-01-11">Index check</change>
       </revisionDesc>
-   </teiHeader>
-   <text type="article">
+   </teiHeader><text type="article">
       <body>
          <div type="original">
             <head>Adolf von Sonnenthals Briefwechsel</head>
@@ -107,19 +106,21 @@
                <gap reason="outOfScope" unit="lines" quantity="30"/>
             </p>
             <head type="sub">
-               <anchor type="commentary" xml:id="K_M173-11"/>Sonnenthal an Arthur
-                  Schnitzler<note type="commentary" xml:id="K_M173-11h">Die Korrespondenzsammlung
-                  bringt zwei Briefe von <rs type="person" ref="#pmb12809">Sonnenthal</rs> an <rs type="person" ref="#pmb2121">Schnitzler</rs> und drei Gegenbriefe. Davon wird
-                     nur ein Brief <rs type="person" ref="#pmb12809">Sonnenthal</rs>s wiedergegeben,
-                     weil der für das Verständnis des ersten Briefes <rs type="person" ref="#pmb2121">Schnitzler</rs>s
-                     bedeutsam ist. Beim dritten Brief <rs type="person" ref="#pmb2121">Schnitzler</rs>s handelt es sich um 
-                     <ref target="#M152" type="pointer"/>.</note>.</head>
+               <anchor type="commentary" xml:id="K_M173-11"/>Sonnenthal an Arthur Schnitzler<note
+                  type="commentary" xml:id="K_M173-11h">Die Korrespondenzsammlung bringt zwei Briefe
+                  von <rs type="person" ref="#pmb12809">Sonnenthal</rs> an <rs type="person"
+                     ref="#pmb2121">Schnitzler</rs> und drei Gegenbriefe. Davon wird nur ein Brief
+                     <rs type="person" ref="#pmb12809">Sonnenthal</rs>s wiedergegeben, weil der für
+                  das Verständnis des ersten Briefes <rs type="person" ref="#pmb2121"
+                     >Schnitzler</rs>s bedeutsam ist. Beim dritten Brief <rs type="person"
+                     ref="#pmb2121">Schnitzler</rs>s handelt es sich um <ref target="#M152"
+                     type="pointer"/>.</note>.</head>
             <p rend="right">
-               <rs type="place" ref="#pmb50">Wien</rs>, <date>16. Dezember
-                  1892</date>.</p>
+               <rs type="place" ref="#pmb50">Wien</rs>, <date>16. Dezember 1892</date>.</p>
             <p rend="inline">Mein lieber junger Freund!</p>
             <p>Die unfreiwillige Muße, die mir eine heftige Angina auferlegte, benutzte ich, um
-               Ihren »<rs type="work" ref="#pmb29935">Anatol</rs>«<note xml:id="M713_FN2" type="footnote">
+               Ihren »<rs type="work" ref="#pmb29935">Anatol</rs>«<note xml:id="FM713_FN2"
+                  type="footnote">
                   <p>»<rs type="work" ref="#pmb29935">Anatol</rs>«, eine Folge von vier Einaktern,
                      eines der ersten Jugendwerke Schnitzlers.</p>
                </note> durchzulesen. Ich habe ihn auch von der ersten bis zur letzten Zeile
@@ -127,53 +128,62 @@
                Calvarienbergs, auf dem Sie Ihr heiliges, Ihnen von Gott gegebenes Talent selbst ans
                Kreuz schlugen! Pfui Judas! – –</p>
             <p>Es sind sehr harte Worte, die ich Ihnen da sage, aber fürs erste berechtigt mich
-               meine langjährige Freundschaft zu Ihrem <anchor type="commentary" xml:id="K_M173-111"/>Hause<note type="commentary" xml:id="K_M173-111h">Der Vater <rs type="person" ref="#pmb12695">Johann Schnitzler</rs> war der HNO-Arzt von <rs type="person" ref="#pmb12809">Sonnenthal</rs> und mit diesem befreundet. In seiner Autobiografie
-                     <rs type="work" ref="#pmb33838">Jugend in Wien</rs> berichtet <rs type="person" ref="#pmb2121">Schnitzler</rs>, wie bereits sein Vater den Freund gebeten hatte,
-                  ein Urteil über die frühen literarischen Arbeiten zu fällen. Dieses fiel ebenso
-                  harsch aus, wie das in diesem Brief: »<quote>bis zur wirklichen dramatischen
-                     Befähigung ist noch ein sehr weites Feld, und ich habe aus dem vorliegenden
-                     Probestück keine Berechtigung, ihn zu animieren, dies Feld zu
+               meine langjährige Freundschaft zu Ihrem <anchor type="commentary" xml:id="K_M173-111"
+                  />Hause<note type="commentary" xml:id="K_M173-111h">Der Vater <rs type="person"
+                     ref="#pmb12695">Johann Schnitzler</rs> war der HNO-Arzt von <rs type="person"
+                     ref="#pmb12809">Sonnenthal</rs> und mit diesem befreundet. In seiner
+                  Autobiografie <rs type="work" ref="#pmb33838">Jugend in Wien</rs> berichtet <rs
+                     type="person" ref="#pmb2121">Schnitzler</rs>, wie bereits sein Vater den Freund
+                  gebeten hatte, ein Urteil über die frühen literarischen Arbeiten zu fällen. Dieses
+                  fiel ebenso harsch aus, wie das in diesem Brief: »<quote>bis zur wirklichen
+                     dramatischen Befähigung ist noch ein sehr weites Feld, und ich habe aus dem
+                     vorliegenden Probestück keine Berechtigung, ihn zu animieren, dies Feld zu
                      bearbeiten</quote>« (<bibl>
-                     <rs type="work" ref="#pmb33838">Jugend in Wien</rs>,
-                     S. 136</bibl>, <ref target="#I081_sonnenthal" type="pointer" subtype="cf"/>)</note> dazu, und dann, weil Sie wirklich ein begabter talentirter Mensch sind
-               und weil ich selbst unter dem schmutzigen, glimmernden, gleißenden Quarz das
-               Edelmetall Ihres Talentes strahlend hervorleuchten sah. – Ich spreche nicht mehr von
-               Eurer sogenannten »realistischen« Richtung – ich habe mir einmal darüber in <rs type="place" ref="#pmb168">Berlin</rs> das Maul verbrannt und die Horde fiel wie
-               wahnsinnig über mich her. Ich ließ sie bellen – die Sache hat sich überlebt oder, wie
-               Sie selbst es pathologisch viel prägnanter bezeichnen würden, sie liegt in der
-               Agonie, und darum thäte es mir weh, wenn Sie in der letzten Stunde noch von dem
-               Leichengift inficirt würden.</p>
+                     <rs type="work" ref="#pmb33838">Jugend in Wien</rs>, S. 136</bibl>, <ref
+                     target="#I081_sonnenthal" type="pointer" subtype="cf"/>)</note> dazu, und dann,
+               weil Sie wirklich ein begabter talentirter Mensch sind und weil ich selbst unter dem
+               schmutzigen, glimmernden, gleißenden Quarz das Edelmetall Ihres Talentes strahlend
+               hervorleuchten sah. – Ich spreche nicht mehr von Eurer sogenannten »realistischen«
+               Richtung – ich habe mir einmal darüber in <rs type="place" ref="#pmb168">Berlin</rs>
+               das Maul verbrannt und die Horde fiel wie wahnsinnig über mich her. Ich ließ sie
+               bellen – die Sache hat sich überlebt oder, wie Sie selbst es pathologisch viel
+               prägnanter bezeichnen würden, sie liegt in der Agonie, und darum thäte es mir weh,
+               wenn Sie in der letzten Stunde noch von dem Leichengift inficirt würden.</p>
             <p>Reißen Sie sich kräftig heraus, wie es <rs type="person" ref="#pmb11391">Fulda</rs>
                getan – auch er glaubte dem Moloch »Realismus« sein Opfer bringen zu müssen und
                schrieb die »<rs type="work" ref="#pmb31957">Sklavin</rs>«, die seinen Dichternamen
                beinahe geopfert hätte; da stürzte er sich kopfüber in das heilbringende Bad der
-               Poesie und schuf ein reizendes hochpoetisches Werk, »<rs type="work" ref="#pmb31861">Der
-                  Talisman</rs>«, der ihm selbst hoffentlich auch ferner ein Talisman bleiben wird,
-               und Euch Jüngeren Allen ein kräftiger Sporn, Eure Lorbeeren nur in dem keuschen
-               Tempel der Poesie zu suchen. Und ist <rs type="person" ref="#pmb5208">Wilbrandt</rs> mit
-               seinem »<rs type="work" ref="#pmb63181">Meister von Palmyra</rs>« nicht der schlagendste Beweis? und
-               doppelt schlagend, weil er ja auch, wenn er’s sein will und die Dichtung es
-               erfordert, sehr realistisch sein kann; allerdings nicht in Eurem Sinne – gemein ist
-               er nie gewesen und wird es nie sein aus dem einfachen Grunde, weil er es eben nicht
-               sein kann, weil seine edle Künstlernatur sich dagegen auflehnen würde.</p>
+               Poesie und schuf ein reizendes hochpoetisches Werk, »<rs type="work" ref="#pmb31861"
+                  >Der Talisman</rs>«, der ihm selbst hoffentlich auch ferner ein Talisman bleiben
+               wird, und Euch Jüngeren Allen ein kräftiger Sporn, Eure Lorbeeren nur in dem keuschen
+               Tempel der Poesie zu suchen. Und ist <rs type="person" ref="#pmb5208">Wilbrandt</rs>
+               mit seinem »<rs type="work" ref="#pmb63181">Meister von Palmyra</rs>« nicht der
+               schlagendste Beweis? und doppelt schlagend, weil er ja auch, wenn er’s sein will und
+               die Dichtung es erfordert, sehr realistisch sein kann; allerdings nicht in Eurem
+               Sinne – gemein ist er nie gewesen und wird es nie sein aus dem einfachen Grunde, weil
+               er es eben nicht sein kann, weil seine edle Künstlernatur sich dagegen auflehnen
+               würde.</p>
             <p>And nun, lieber Arthur, verzeihen Sie mir die etwas lange und etwas harte Epistel,
                aber ich mußte mich einmal lossprechen. Und daß ich es gerade Ihnen sage? weil es
                schade um Ihr wirklich reizendes, schönes Talent wäre und – weil Sie schließlich der
-               Sohn meines <rs type="person" ref="#pmb12695" subtype="implied">Freundes</rs> sind.</p>
+               Sohn meines <rs type="person" ref="#pmb12695" subtype="implied">Freundes</rs>
+               sind.</p>
             <p rend="inline">Herzliche Grüße von Ihrem treu ergebenen</p>
             <p rend="right">
                <hi rend="spaced_out">A. Sonnenthal</hi>.</p>
-            <head type="sub">Arthur Schnitzler an <rs type="person" ref="#pmb12809">Sonnenthal</rs>.</head>
+            <head type="sub">Arthur Schnitzler an <rs type="person" ref="#pmb12809"
+               >Sonnenthal</rs>.</head>
             <p rend="right">
-               <rs type="place" ref="#pmb50">Wien</rs>, <date>19. Dezember
-                  1892</date>.</p>
-            <p rend="inline">Verehrter Herr von <rs type="person" ref="#pmb12809">Sonnenthal</rs>!</p>
+               <rs type="place" ref="#pmb50">Wien</rs>, <date>19. Dezember 1892</date>.</p>
+            <p rend="inline">Verehrter Herr von <rs type="person" ref="#pmb12809"
+               >Sonnenthal</rs>!</p>
             <p>Wie unendlich werthvoll mir jedes Wort von einem Manne ist, der mir, seit ich
                überhaupt für Kunst zu empfinden vermag, als einer der größten und tiefsten Künstler
                erschienen ist brauche ich Ihnen das noch zu sagen? And so nehme ich Ihr Lob mit
                stolzem und innigem Dank entgegen und will Ihren Tadel mit Ernst erwägen.</p>
             <p>Was ich schon heute sagen darf, ist, daß ich in manchen prinzipiellen Fragen weniger
-               weit von Ihnen, hochverehrter Herr, entfernt bin, als Sie nach dem <rs type="work" subtype="implied" ref="#pmb29935">Buch</rs>, das Ihnen so viel Unmuth erregt hat,
+               weit von Ihnen, hochverehrter Herr, entfernt bin, als Sie nach dem <rs type="work"
+                  subtype="implied" ref="#pmb29935">Buch</rs>, das Ihnen so viel Unmuth erregt hat,
                anzunehmen scheinen; doch will ich Sie hier mit meinen theoretischen Anschauungen
                nicht ermüden. Ich bitte Sie jedoch, mir zu glauben, daß jenes Buch (es mag ein
                mißlungenes, vielleicht ein widerwärtiges sein) ganz bestimmt ein ehrliches Buch ist,
@@ -205,23 +215,26 @@
             <head type="sub">Arthur Schnitzler an <rs type="person" ref="#pmb12809">Sonnenthal</rs>
             </head>
             <p rend="right">
-               <rs type="place" ref="#pmb50">Wien</rs>, <date>20. Dezember
-                  1904</date>.</p>
-            <p rend="right">Hochverehrter Herr von <rs type="person" ref="#pmb12809">Sonnenthal</rs>!</p>
-            <p>Zum <anchor type="commentary" xml:id="K_M173-2"/>heutigen Tag<note type="commentary" xml:id="K_M173-2h">seinem 70. Geburtstag</note> gratulire ich Ihnen von ganzem
+               <rs type="place" ref="#pmb50">Wien</rs>, <date>20. Dezember 1904</date>.</p>
+            <p rend="right">Hochverehrter Herr von <rs type="person" ref="#pmb12809"
+               >Sonnenthal</rs>!</p>
+            <p>Zum <anchor type="commentary" xml:id="K_M173-2"/>heutigen Tag<note type="commentary"
+                  xml:id="K_M173-2h">seinem 70. Geburtstag</note> gratulire ich Ihnen von ganzem
                Herzen. Meine Dankbarkeit als Autor, so aufrichtig und lebhaft sie ist, geht heute,
                noch tiefer als sonst, unter in den beglückten Erinnerungen an das viele hohe,
                unvergeßliche, das Sie uns seit vielen Jahren – es sind noch immer viel zu wenige —
                gegeben haben.</p>
-            <p>»<rs type="work" subtype="implied" ref="#pmb29843">Einer der uns vorspielen kann, was er
-                  will, ist doch mehr als wir Alle</rs>« — sagt der Herzog von Cadignan, den Sie als
-               Henri (leider nicht oft genug) totgestochen haben.<note xml:id="M173_FN1" type="footnote">
-                  <p>Im »<rs type="work" ref="#pmb29843">Grünen Kakadu</rs>«, Groteske in einem Akt von
-                     Arthur Schnitzler.</p>
+            <p>»<rs type="work" subtype="implied" ref="#pmb29843">Einer der uns vorspielen kann, was
+                  er will, ist doch mehr als wir Alle</rs>« — sagt der Herzog von Cadignan, den Sie
+               als Henri (leider nicht oft genug) totgestochen haben.<note xml:id="FM173_FN1"
+                  type="footnote">
+                  <p>Im »<rs type="work" ref="#pmb29843">Grünen Kakadu</rs>«, Groteske in einem Akt
+                     von Arthur Schnitzler.</p>
                </note>
             </p>
             <p>Bleiben Sie doch noch lange, verehrter Meister, der Unvergleichliche, dessen Kunst
-               wir bewundern und lieben – der, der Sie sind – »mehr als wir Alle!« <c rendition="#dots" n="3"/>
+               wir bewundern und lieben – der, der Sie sind – »mehr als wir Alle!« <c
+                  rendition="#dots" n="3"/>
             </p>
             <p rend="inline">Ihr</p>
             <p rend="right">
@@ -257,16 +270,22 @@
                <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
                <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
-               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="kraus1933"
+                  >https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
                <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
-               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino"
+                  >https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
             </person>
             <person xml:id="pmb16381">
                <persName>
@@ -293,7 +312,8 @@
                </death>
                <sex value="male"/>
                <occupation ref="pmb99">Journalist/Journalistin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15068</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15068</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/16381/</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49921</idno>
             </person>
@@ -316,15 +336,20 @@
                </death>
                <sex value="male"/>
                <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20204</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20204</idno>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/119343207</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12809.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12809.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12809/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12809</idno>
-               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb12809</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12809</idno>
+               <idno type="URL" subtype="kraus"
+                  >https://kraus.wienbibliothek.at/register/personen/pmb12809</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp37842</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q84769</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Adolf_von_Sonnenthal</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Adolf_von_Sonnenthal</idno>
                <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284c4e</idno>
             </person>
             <person xml:id="pmb12695">
@@ -352,15 +377,20 @@
                   </settlement>
                </death>
                <sex value="male"/>
-               <occupation ref="pmb132">Mediziner/Medizinerin &gt;&gt; Laryngologe/Laryngologin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19824</idno>
+               <occupation ref="pmb132">Mediziner/Medizinerin &gt;&gt;
+                  Laryngologe/Laryngologin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19824</idno>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116848669</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12695.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12695.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12695/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12695</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12695</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46937</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q86302</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Johann_Schnitzler</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Johann_Schnitzler</idno>
                <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284418</idno>
             </person>
             <person xml:id="pmb11391">
@@ -389,16 +419,22 @@
                <sex value="male"/>
                <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
                <occupation ref="pmb116">Übersetzer/Übersetzerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15306</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15306</idno>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118840452</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11391.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11391.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11391/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11391</idno>
-               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11391</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11391</idno>
+               <idno type="URL" subtype="kraus"
+                  >https://kraus.wienbibliothek.at/register/personen/pmb11391</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49290</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q72283</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ludwig_Fulda</idno>
-               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11391.html</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Ludwig_Fulda</idno>
+               <idno type="URL" subtype="schnitzler-kino"
+                  >https://schnitzler-kino.acdh.oeaw.ac.at/pmb11391.html</idno>
             </person>
             <person xml:id="pmb5208">
                <persName>
@@ -430,99 +466,130 @@
                <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
                <occupation ref="pmb280">Theaterintendant/Theaterintendantin</occupation>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118807250</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21319</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21319</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5208/</idno>
-               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb5208.html</idno>
+               <idno type="URL" subtype="schnitzler-lektueren"
+                  >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb5208.html</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp37851</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q67953</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Adolf_von_Wilbrandt</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Adolf_von_Wilbrandt</idno>
             </person>
          </listPerson>
          <listBibl>
             <bibl xml:id="pmb29935">
                <title>Anatol</title>
-               <title type="werk_bibliografische-angabe">Arthur Schnitzler: Anatol. Berlin: Bibliographisches Bureau 1892, vordatiert auf 1893</title>
+               <title type="werk_bibliografische-angabe">Arthur Schnitzler: Anatol. Berlin:
+                  Bibliographisches Bureau 1892, vordatiert auf 1893</title>
                <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
                <author ref="pmb28645" role="hat-illustriert">Coschell, Moritz</author>
-               <author ref="pmb11740" role="hat-ein-vorwortnachwort-verfasst-zu">Hofmannsthal, Hugo von</author>
+               <author ref="pmb11740" role="hat-ein-vorwortnachwort-verfasst-zu">Hofmannsthal, Hugo
+                  von</author>
                <date>1892-10-29</date>
                <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.03</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q487409</idno>
                <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-anatol</idno>
                <idno type="URL" subtype="theadok">https://theadok.at/work/32630</idno>
-               <idno type="URL" subtype="deutschestextarchiv">http://www.deutschestextarchiv.de/book/view/schnitzler_anatol_1893</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29935.html</idno>
+               <idno type="URL" subtype="deutschestextarchiv"
+                  >http://www.deutschestextarchiv.de/book/view/schnitzler_anatol_1893</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29935.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29935/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29935</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29935.html</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Anatol_(Schauspiel)</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29935</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29935.html</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Anatol_(Schauspiel)</idno>
                <note type="work_kind">Drama &gt;&gt; Einakterzyklus</note>
             </bibl>
             <bibl xml:id="pmb33838">
                <title>Jugend in Wien</title>
                <title type="namensvariante">Leben und Nachklang, Werk und Widerhall</title>
-               <title type="werk_link">http://www.zeno.org/Literatur/M/Schnitzler,+Arthur/Autobiographisches/Jugend+in+Wien</title>
+               <title type="werk_link"
+                  >http://www.zeno.org/Literatur/M/Schnitzler,+Arthur/Autobiographisches/Jugend+in+Wien</title>
                <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
                <date notBefore="1968-01-01" when="1968-07-01">1968</date>
                <idno type="URL" subtype="asaf">https://asaf.com/S.04.03.04</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q41815908</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31377.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31377.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31377/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33838/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33838</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33838.html</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Jugend_in_Wien</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33838</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33838.html</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Jugend_in_Wien</idno>
                <note type="work_kind">Biografie &gt;&gt; Autobiografie</note>
             </bibl>
             <bibl xml:id="pmb31957">
                <title>Die Sklavin. Schauspiel in vier Aufzügen</title>
                <author ref="pmb11391" role="hat-geschaffen">Fulda, Ludwig</author>
                <date notBefore="1891-01-01" when="1891-07-02">1891</date>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31957.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31957.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31957/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb31957</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31957.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb31957</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31957.html</idno>
                <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
             </bibl>
             <bibl xml:id="pmb31861">
                <title>Der Talisman. Dramatisches Märchen</title>
                <author ref="pmb11391" role="hat-geschaffen">Fulda, Ludwig</author>
                <date notBefore="1892-01-01" when="1892-07-01">1892</date>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31861.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31861.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31861/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb31861</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31861.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb31861</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31861.html</idno>
                <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
             </bibl>
             <bibl xml:id="pmb63181">
                <title>Der Meister von Palmyra. Dramatische Dichtung in fünf Aufzügen</title>
-               <title type="werk_link">http://www.zeno.org/Literatur/M/Wilbrandt,+Adolf+von/Dramen/Der+Meister+von+Palmyra/Personen</title>
+               <title type="werk_link"
+                  >http://www.zeno.org/Literatur/M/Wilbrandt,+Adolf+von/Dramen/Der+Meister+von+Palmyra/Personen</title>
                <author ref="pmb5208" role="hat-geschaffen">Wilbrandt, Adolf von</author>
                <date notBefore="1889-01-01" when="1889-07-02">1889</date>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63181/</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb63181.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb63181.html</idno>
                <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
             </bibl>
             <bibl xml:id="pmb29843">
                <title>Der grüne Kakadu. Groteske in einem Akt</title>
-               <title type="werk_bibliografische-angabe">Neue Deutsche Rundschau, Jg. 10, H. 3, März 1899, S. 282–308.</title>
+               <title type="werk_bibliografische-angabe">Neue Deutsche Rundschau, Jg. 10, H. 3, März
+                  1899, S. 282–308.</title>
                <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
                <date>1.3.1899</date>
                <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.10</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2675124</idno>
-               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-der-gruene-kakadu</idno>
+               <idno type="URL" subtype="dracor"
+                  >https://dracor.org/ger/schnitzler-der-gruene-kakadu</idno>
                <idno type="URL" subtype="theadok">https://theadok.at/work/32409</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29843.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29843.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29843/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29843</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29843.html</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_gr%C3%BCne_Kakadu</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29843</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29843.html</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Der_gr%C3%BCne_Kakadu</idno>
                <note type="work_kind">Drama &gt;&gt; Einakter</note>
             </bibl>
             <bibl xml:id="pmb63177">
                <title>Briefe von Adolf Sonnenthal</title>
-               <author ref="pmb2121" role="hat-einen-beitrag-geschaffen-zu">Schnitzler, Arthur</author>
-               <author ref="pmb12809" role="hat-einen-beitrag-geschaffen-zu">Sonnenthal, Adolf von</author>
+               <author ref="pmb2121" role="hat-einen-beitrag-geschaffen-zu">Schnitzler,
+                  Arthur</author>
+               <author ref="pmb12809" role="hat-einen-beitrag-geschaffen-zu">Sonnenthal, Adolf
+                  von</author>
                <author ref="pmb4884" role="hat-herausgegeben">Sonnenthal, Hermine von</author>
                <date when="1911-10-01">1911-10-01</date>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63177/</idno>
@@ -532,25 +599,30 @@
                <title>Pester Lloyd</title>
                <date>None</date>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/52212/</idno>
-               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb52212</idno>
+               <idno type="URL" subtype="kraus"
+                  >https://kraus.wienbibliothek.at/register/werke/pmb52212</idno>
                <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
             </bibl>
             <bibl xml:id="pmb36376">
                <title>Neues Wiener Journal</title>
                <title type="werk_link-anno">http://anno.onb.ac.at/cgi-content/anno?aid=nwj</title>
-               <author ref="pmb36371" role="hat-einen-beitrag-geschaffen-zu">Papp, Desiderius</author>
+               <author ref="pmb36371" role="hat-einen-beitrag-geschaffen-zu">Papp,
+                  Desiderius</author>
                <author ref="pmb10815" role="hat-einen-beitrag-geschaffen-zu">Bahr, Hermann</author>
-               <date to="1939-01-01">1893  – 1939</date>
+               <date to="1939-01-01">1893 – 1939</date>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36376/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36376</idno>
-               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb36376</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36376</idno>
+               <idno type="URL" subtype="kraus"
+                  >https://kraus.wienbibliothek.at/register/werke/pmb36376</idno>
                <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
             </bibl>
          </listBibl>
          <listPlace>
             <place xml:id="pmb50">
                <placeName>Wien</placeName>
-               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt
+                  Wien</placeName>
                <placeName type="alternative-name">Bécs</placeName>
                <placeName type="alternative-name">Land Wien</placeName>
                <placeName type="alternative-name">Vídeň</placeName>
@@ -570,15 +642,19 @@
                </location>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
-               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="kraus"
+                  >https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
             </place>
@@ -599,18 +675,22 @@
                   <geo>51,5 10,5</geo>
                </location>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
-               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb168</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
+               <idno type="URL" subtype="kraus"
+                  >https://kraus.wienbibliothek.at/register/orte/pmb168</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92171.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92171.html</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
             </place>
          </listPlace>
       </back>
-   </text>
-</TEI>
+   </text></TEI>

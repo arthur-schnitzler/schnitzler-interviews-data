@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-     xml:base="schnitzler-interviews"
-     xml:id="M183">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd" xml:base="schnitzler-interviews" xml:id="M183" next="P105" prev="M182"> <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
+            <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews,
+               Meinungen, Proteste (1891–1931)</title>
             <title level="a" ref="#pmb141413">–rm–: Wiener Brief. [Der Verschwender am Burgtheater],
                21. 12. 1899</title>
             <title type="iso-date" when-iso="1899-12-17" n="1">17. 12. 1899</title>
@@ -56,53 +51,48 @@
          <change who="MAM" when="2023-01-23">Angelegt</change>
          <change who="MAM" when="2023-01-23">Index check</change>
       </revisionDesc>
-   </teiHeader>
-   <text type="article">
+   </teiHeader><text type="article">
       <body>
          <div type="original">
             <p>– [<hi rend="bold">Wiener Brief</hi>.] Man schreibt uns aus <rs type="place" ref="#pmb50">
                   <hi rend="spaced_out">Wien</hi>
-               </rs> vom <date>20. ds.</date>: So
-               wie <anchor type="commentary" xml:id="K_M183-1"/>neulich der »<rs type="work" ref="#pmb30029">Prinz von Homburg</rs>
+               </rs> vom <date>20. ds.</date>: So wie <anchor type="commentary" xml:id="K_M183-1"/>neulich der »<rs type="work" ref="#pmb30029">Prinz von Homburg</rs>
                <note type="commentary" xml:id="K_M183-1h">
-                  <rs type="person" ref="#pmb2121">Schnitzler</rs> besuchte
-                     die Aufführung am <ref type="schnitzler-tagebuch" target="1899-12-01" subtype="date-only"/>.</note>«
-               weniger wegen <rs type="person" ref="#pmb11933">Kleist</rs> als wegen <rs type="person" ref="#pmb11851">Kainz</rs>, so wurde am <date>Sonntag</date> der »<rs type="work" ref="#pmb77407">
+                  <rs type="person" ref="#pmb2121">Schnitzler</rs> besuchte die Aufführung am <ref type="schnitzler-tagebuch" target="1899-12-01" subtype="date-only"/>.</note>«
+               weniger wegen <rs type="person" ref="#pmb11933">Kleist</rs> als wegen <rs type="person" ref="#pmb11851">Kainz</rs>, so wurde am <date>Sonntag</date> der
+                  »<rs type="work" ref="#pmb77407">
                   <hi rend="spaced_out">Verschwender</hi>
-               </rs>« beinahe gar nicht wegen
-                  <rs type="person" ref="#pmb12468">
+               </rs>« beinahe gar nicht wegen <rs type="person" ref="#pmb12468">
                   <hi rend="spaced_out">Raimund</hi>
-               </rs>, aber ganz
-               besonders wegen <rs type="person" ref="#pmb11851">
+               </rs>, aber ganz besonders wegen <rs type="person" ref="#pmb11851">
                   <hi rend="spaced_out">Kainz</hi>
-               </rs>
-               im <rs type="org" ref="#pmb36247">
+               </rs> im <rs type="org" ref="#pmb36247">
                   <hi rend="spaced_out">Burgtheater</hi>
-               </rs>
-               aufgeführt. So danken wir dem großen Schauspieler außer dem Vergnügen, das uns seine
-               Leistungen im Allgemeinen bereiten, die Wiederaufnahme von bedeutungsvollen und
+               </rs> aufgeführt. So danken wir dem großen Schauspieler außer dem Vergnügen, das uns
+               seine Leistungen im Allgemeinen bereiten, die Wiederaufnahme von bedeutungsvollen und
                dadurch das allmähliche Verschwinden von schlechten Stücken aus dem Repertoire. Man
-               weiß, daß die <rs type="place" ref="#pmb50">Wien</rs>er Hofbühne an schlechten Stücken
-               mit der Zeit sehr reich geworden ist. Das liegt daran, daß mancher Schauspieler und
-               manche Schauspielerin aus der vorigen Generation ihre Glanzrollen in Schauspielen –
-               der vorigen Generation haben und daß bei Feststellung des Spielplans auch auf diese
-               sentimentalen Motive, (nicht ausschließlich aus Sentimentalität) Rücksicht genommen
-               werden muß. Was nun den <rs type="work" subtype="implied" ref="#pmb77407">Valentin</rs>
-               des Herrn <rs type="person" ref="#pmb11851">Kainz</rs> anbelangt, so war es eine
-               Leistung, der das Beste fehlte: die Echtheit. Wir sahen verdünnten <rs type="person" ref="#pmb11441">Girardi</rs>. Die »<rs type="work" ref="#pmb42444">goldenen Herzen</rs>«
-               sind unseres königlichen <rs subtype="implied" ref="#pmb30009" type="work">Hamlet</rs>
-               Sache nicht. Wir werden ihm die Gütigkeit glauben, weil das die Güte ist, die sich
-               herabläßt, wie die Gutmüthigkeit, weil es die Güte ist, die zuweilen lächerlich ist.
-               Es gibt Gestalten eines anderen <rs type="place" ref="#pmb50">Wien</rs>er Meisters, für
-               deren Verkörperung <rs type="person" ref="#pmb11851">Kainz</rs> wie geschaffen ist,
-               eines Dichters, der bisher im Repertoire des Burgtheaters gefehlt hat: <rs type="person" ref="#pmb12338">
+               weiß, daß die <rs type="place" ref="#pmb50">Wien</rs>er Hofbühne an schlechten
+               Stücken mit der Zeit sehr reich geworden ist. Das liegt daran, daß mancher
+               Schauspieler und manche Schauspielerin aus der vorigen Generation ihre Glanzrollen in
+               Schauspielen – der vorigen Generation haben und daß bei Feststellung des Spielplans
+               auch auf diese sentimentalen Motive, (nicht ausschließlich aus Sentimentalität)
+               Rücksicht genommen werden muß. Was nun den <rs type="work" subtype="implied" ref="#pmb77407">Valentin</rs> des Herrn <rs type="person" ref="#pmb11851">Kainz</rs> anbelangt, so war es eine Leistung, der das Beste fehlte: die
+               Echtheit. Wir sahen verdünnten <rs type="person" ref="#pmb11441">Girardi</rs>. Die
+                  »<rs type="work" ref="#pmb42444">goldenen Herzen</rs>« sind unseres königlichen
+                  <rs subtype="implied" ref="#pmb30009" type="work">Hamlet</rs> Sache nicht. Wir
+               werden ihm die Gütigkeit glauben, weil das die Güte ist, die sich herabläßt, wie die
+               Gutmüthigkeit, weil es die Güte ist, die zuweilen lächerlich ist. Es gibt Gestalten
+               eines anderen <rs type="place" ref="#pmb50">Wien</rs>er Meisters, für deren
+               Verkörperung <rs type="person" ref="#pmb11851">Kainz</rs> wie geschaffen ist, eines
+               Dichters, der bisher im Repertoire des Burgtheaters gefehlt hat: <rs type="person" ref="#pmb12338">
                   <hi rend="spaced_out">Nestroy</hi>
-               </rs>s. Er hat
-               Figuren geschaffen, die vielleicht weniger wohlthuend wirken als <rs type="work" subtype="implied" ref="#pmb77407">Valentin</rs>, der Vortreffliche, aber die nicht
-               minder wahr und nicht minder <rs type="place" ref="#pmb50">wien</rs>erisch sind. Auf den
-                  <rs type="work" ref="#pmb32850">Lumpazivagabundus</rs> wollen wir meinetwegen
-               verzichten, aber <rs type="work" ref="#pmb53924">Kampl</rs>, den <rs type="work" ref="#pmb41412">Zerrissenen</rs>, würden wir mit Freuden begrüßen und <rs type="person" ref="#pmb11851">Kainz</rs> sei sein Prophet. <rs type="place" ref="#pmb50">Wien</rs>er Possen im <rs type="org" ref="#pmb36247">K. u. K. Hofburgtheater</rs>?
-               rasen manche mit Schrecken. Gewiß. Wir sind nicht so stolz als das <rs type="org" ref="#pmb36247">Burgtheater</rs> sein sollte.</p>
+               </rs>s. Er hat Figuren geschaffen, die vielleicht weniger wohlthuend wirken als <rs type="work" subtype="implied" ref="#pmb77407">Valentin</rs>, der Vortreffliche,
+               aber die nicht minder wahr und nicht minder <rs type="place" ref="#pmb50">wien</rs>erisch sind. Auf den <rs type="work" ref="#pmb32850">Lumpazivagabundus</rs>
+               wollen wir meinetwegen verzichten, aber <rs type="work" ref="#pmb53924">Kampl</rs>,
+               den <rs type="work" ref="#pmb41412">Zerrissenen</rs>, würden wir mit Freuden begrüßen
+               und <rs type="person" ref="#pmb11851">Kainz</rs> sei sein Prophet. <rs type="place" ref="#pmb50">Wien</rs>er Possen im <rs type="org" ref="#pmb36247">K. u. K.
+                  Hofburgtheater</rs>? rasen manche mit Schrecken. Gewiß. Wir sind nicht so stolz
+               als das <rs type="org" ref="#pmb36247">Burgtheater</rs> sein sollte.</p>
             <p rend="right">
                <anchor type="commentary" xml:id="K_M183-2"/>–rm–<note type="commentary" xml:id="K_M183-2h">das Kürzel von <rs type="person" ref="#pmb13055">Jakob
                      Wassermann</rs>
@@ -120,19 +110,19 @@
                </bibl>
                <quote>
                   <p>Lieber Freund</p>
-                  <p>ich muß heute auf drei Tage fort und bitte Sie
-                     herzlich, mir einige Zeilen über die morgige ›<rs type="work" ref="#pmb77407">Verschwender</rs>-Aufführung‹ im <rs type="org" ref="#pmb36247">Burgtheater</rs> zu schreiben und mir diese Notiz nach <rs type="place" ref="#pmb141438">Tischnowitz</rs> bei <rs type="person" ref="#pmb141443">Baum</rs>
+                  <p>ich muß heute auf drei Tage fort und bitte Sie herzlich, mir einige Zeilen über
+                     die morgige ›<rs type="work" ref="#pmb77407">Verschwender</rs>-Aufführung‹ im
+                        <rs type="org" ref="#pmb36247">Burgtheater</rs> zu schreiben und mir diese
+                     Notiz nach <rs type="place" ref="#pmb141438">Tischnowitz</rs> bei <rs type="person" ref="#pmb141443">Baum</rs>
                      <space unit="chars" quantity="1"/>
                      <hi rend="latintype">per</hi> Adr. <rs type="person" ref="#pmb13159">
                         <hi rend="latintype">Wolff</hi>
                      </rs> zu <hi rend="underline" n="1">schicken</hi>.</p>
                   <p>Herzlichen Gruß Ihr</p>
                   <p>Wassermann.</p>
-                  <p>Natürlich nur, wenn Sie überhaupt
-                     gehen wollen. Ich habe Herrn Dr. <rs type="person" ref="#pmb12556">
+                  <p>Natürlich nur, wenn Sie überhaupt gehen wollen. Ich habe Herrn Dr. <rs type="person" ref="#pmb12556">
                         <hi rend="latintype">Rosenbaum</hi>
-                     </rs> geschrieben, daß er mein für mich
-                     reserviertes Billet es Ihnen gebe.</p>
+                     </rs> geschrieben, daß er mein für mich reserviertes Billet es Ihnen gebe.</p>
                </quote>
             </div1>
          </div>
@@ -275,7 +265,8 @@
                </death>
                <sex value="male"/>
                <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
-               <occupation ref="pmb727">Schriftsteller/Schriftstellerin &gt;&gt; Dramatiker/Dramatikerin</occupation>
+               <occupation ref="pmb727">Schriftsteller/Schriftstellerin &gt;&gt;
+                  Dramatiker/Dramatikerin</occupation>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19035</idno>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118597914</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12468.html</idno>
@@ -352,7 +343,8 @@
                <sex value="male"/>
                <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
                <occupation ref="pmb107">Sänger/Sängerin</occupation>
-               <occupation ref="pmb727">Schriftsteller/Schriftstellerin &gt;&gt; Dramatiker/Dramatikerin</occupation>
+               <occupation ref="pmb727">Schriftsteller/Schriftstellerin &gt;&gt;
+                  Dramatiker/Dramatikerin</occupation>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18395</idno>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118587080</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12338/</idno>
@@ -498,7 +490,7 @@
                <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
             </bibl>
             <bibl xml:id="pmb77407">
-               <title>Der Verschwender.  Original-Zaubermärchen in drei Aufzügen</title>
+               <title>Der Verschwender. Original-Zaubermärchen in drei Aufzügen</title>
                <author ref="pmb12468" role="hat-geschaffen">Raimund, Ferdinand</author>
                <author ref="pmb117558" role="hat-vertont">Kreutzer, Conradin</author>
                <date when="1834-02-20">1834-02-20</date>
@@ -566,15 +558,17 @@
             </bibl>
             <bibl xml:id="pmb141413">
                <title>Wiener Brief. [Der Verschwender]</title>
-               <title type="werk_bibliografische-angabe">FZ, 44. Jg., Nr. 353, 21.12.1899, Abendblatt, S. 2</title>
-               <author ref="pmb2121" role="hat-unter-einem-kurzel-veroffentlicht">Schnitzler, Arthur</author>
+               <title type="werk_bibliografische-angabe">FZ, 44. Jg., Nr. 353, 21.12.1899,
+                  Abendblatt, S. 2</title>
+               <author ref="pmb2121" role="hat-unter-einem-kurzel-veroffentlicht">Schnitzler,
+                  Arthur</author>
                <date when="1899-12-21">1899-12-21</date>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/141413/</idno>
                <note type="work_kind">Rezension</note>
             </bibl>
             <bibl xml:id="pmb36344">
                <title>Frankfurter Zeitung</title>
-               <date from="1856-01-01" to="1943-07-02">1856  – 1943</date>
+               <date from="1856-01-01" to="1943-07-02">1856 – 1943</date>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36344/</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36344</idno>
                <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb36344</idno>
@@ -586,7 +580,8 @@
          <listPlace>
             <place xml:id="pmb50">
                <placeName>Wien</placeName>
-               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt
+                  Wien</placeName>
                <placeName type="alternative-name">Bécs</placeName>
                <placeName type="alternative-name">Land Wien</placeName>
                <placeName type="alternative-name">Vídeň</placeName>
@@ -680,5 +675,4 @@
             </org>
          </listOrg>
       </back>
-   </text>
-</TEI>
+   </text></TEI>

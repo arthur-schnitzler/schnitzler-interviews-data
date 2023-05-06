@@ -1,16 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-     xml:base="schnitzler-interviews"
-     xml:id="M178">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd" xml:base="schnitzler-interviews" xml:id="M178" next="I087" prev="M135"> <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
             <title level="a" ref="#pmb63589">[Brief an Auguste Hauschner zum Weg ins Freie],
                1929</title>
-            <title type="iso-date" when-iso="1928-10-29" n="1">[Ende Oktober 1928, vordatiert auf:]
+            <title type="iso-date" when-iso="1928-10-29" n="1">[Ende Oktober 1928, vordatiert auf]
                            1929</title>
             <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
@@ -74,8 +68,7 @@
          <change who="MAM" when="2022-01-31">Angelegt</change>
          <change who="MAM" when="2022-01-31">Index check</change>
       </revisionDesc>
-   </teiHeader>
-   <text type="article">
+   </teiHeader><text type="article">
       <body>
          <div type="original">
             <head>Briefe an <rs type="person" ref="#pmb2524">Auguste Hauschner</rs>
@@ -461,5 +454,4 @@
             </place>
          </listPlace>
       </back>
-   </text>
-</TEI>
+   </text></TEI>

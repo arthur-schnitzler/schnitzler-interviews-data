@@ -572,7 +572,7 @@
       <xsl:param name="first" as="xs:string"/>
       <xsl:param name="endung" as="xs:string"/>
       <xsl:param name="author-zaehler" as="xs:integer"/>
-      <xsl:variable name="work-entry" select="key('work-lookup', $first, $works)"/>
+      <xsl:variable name="work-entry" select="key('work-lookup', $first, $works)[1]"/>
       <xsl:choose>
          <xsl:when test="$first = '' or empty($first)">
             <xsl:text>\textcolor{red}{\textsuperscript{\textbf{KEY}}}</xsl:text>
@@ -611,8 +611,13 @@
          </xsl:when>
          <xsl:when test="$work-entry/author[$author-zaehler]">
             <xsl:text>\pwindex{</xsl:text>
-            <xsl:variable name="author-ref"
-               select="replace($work-entry/author[$author-zaehler]/@ref, 'pmb', '#pmb')"/>
+            <xsl:variable name="author-ref" as="xs:string">
+               <xsl:choose>
+                  <xsl:when test="$work-entry/author[$author-zaehler]/@ref">
+                     <xsl:value-of select="replace($work-entry/author[$author-zaehler]/@ref, 'pmb', '#pmb')"/>
+                  </xsl:when>
+               </xsl:choose>
+            </xsl:variable>
             <xsl:value-of select="foo:person-fuer-index($author-ref)"/>
             <xsl:text>!</xsl:text>
          </xsl:when>

@@ -1,15 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-     xml:base="schnitzler-interviews"
-     xml:id="M045">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd" xml:base="schnitzler-interviews" xml:id="M045" next="M138" prev="P058"> <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#pmb33067">Josef Popper-Lynkeus: Gespräche, 1925</title>
-            <title type="iso-date" when-iso="1925-01-01" n="1">1925</title>
+            <title level="a" ref="#pmb33067">Josef Popper-Lynkeus: Gespräche, Mai 1925</title>
+            <title type="iso-date" when-iso="1925-05-01" n="1">Mai 1925</title>
             <author ref="#pmb2135">Popper-Lynkeus, Josef</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -84,8 +78,7 @@
          <change who="MAM" when="2021-09-18">Index check</change>
          <change who="KH" when="2021-10-27">Durchsicht</change>
       </revisionDesc>
-   </teiHeader>
-   <text type="text">
+   </teiHeader><text type="text">
       <body>
          <div type="original">
             <head>
@@ -184,7 +177,7 @@
                   <hi rend="spaced_out">Hippokrates</hi>
                </rs>, <rs type="person" ref="#pmb4107">
                   <hi rend="spaced_out">Euripides</hi>
-               </rs>.«<note xml:id="I045_fn1" type="footnote">
+               </rs>.«<note xml:id="FI045_fn1" type="footnote">
                   <p>Ich war erstaunt über die Zusammenstellung dieser zwei Namen. Später fiel mir
                      ein, daß <rs type="person" ref="#pmb2121">Schnitzler</rs> Dichter und Arzt
                      ist.</p>
@@ -1251,5 +1244,4 @@
             </org>
          </listOrg>
       </back>
-   </text>
-</TEI>
+   </text></TEI>

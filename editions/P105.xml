@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-     xml:base="schnitzler-interviews"
-     xml:id="P105">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd" xml:base="schnitzler-interviews" xml:id="P105" next="M165" prev="M183"> <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
@@ -57,8 +51,7 @@
          <change who="MAM" when="2021-09-12">Index check</change>
          <change who="KH" when="2021-10-04">Durchsicht</change>
       </revisionDesc>
-   </teiHeader>
-   <text type="article">
+   </teiHeader><text type="article">
       <body>
          <div type="original">
             <head>Die Erklärung des Verfassers.</head>
@@ -119,9 +112,7 @@
                belegte, so erscheint der Weg, den Herr Schnitzler gewählt hat, um seine Sache vor
                die Oeffentlichkeit zu bringen – in Form eines Protestes von nur einseitig
                informirten und zum Theile auch ziemlich <anchor type="commentary" xml:id="K_I105-2"/>
-               <rs type="person"
-                   subtype="implied"
-                   ref="#pmb10815 #pmb2150 #pmb2416 #pmb11707 #pmb2167 #pmb12816">inkompetenten Leuten</rs>
+               <rs type="person" subtype="implied" ref="#pmb10815 #pmb2150 #pmb2416 #pmb11707 #pmb2167 #pmb12816">inkompetenten Leuten</rs>
                <note type="commentary" xml:id="K_I105-2h">Die Verfasser der Protestnote waren <rs type="person" ref="#pmb10815">Hermann Bahr</rs>, <rs type="person" ref="#pmb2150">Julius Bauer</rs>, <rs type="person" ref="#pmb2416">Jakob Julius David</rs>, <rs type="person" ref="#pmb11707">Robert Hirschfeld</rs>, <rs type="person" ref="#pmb2167">Felix Salten</rs> und <rs type="person" ref="#pmb12816">Ludwig
                      Speidel</rs>.</note> –, weder als nothwendig noch als angemessen. Es ist so,
                als ob man künstlich eine »Affaire« schaffen hätte wollen; für Leute, die nichts zu
@@ -655,5 +646,4 @@
             </org>
          </listOrg>
       </back>
-   </text>
-</TEI>
+   </text></TEI>

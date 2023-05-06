@@ -1,16 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-     xml:base="schnitzler-interviews"
-     xml:id="I096">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd" xml:base="schnitzler-interviews" xml:id="I096" next="I094" prev="I093"> <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
             <title level="a" ref="#pmb58609">Sir Guy: Arthur Schnitzler, Anatols författare, besöker
                Stockholm, 18. 5. 1923</title>
-            <title type="iso-date" when-iso="1923-05-18" n="1">18. 5. 1923</title>
+            <title type="iso-date" when-iso="1923-05-18" n="4">18. 5. 1923</title>
             <author ref="#pmb58611">Sir Guy</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -58,8 +52,7 @@
          <change who="MAM" when="2021-12-10">Übersetzung eingearbeitet</change>
          <change who="MAM" when="2021-12-17">Index check</change>
       </revisionDesc>
-   </teiHeader>
-   <text type="text">
+   </teiHeader><text type="text">
       <body>
          <div type="original" xml:lang="sv-SE">
             <head>
@@ -1278,5 +1271,4 @@
             </org>
          </listOrg>
       </back>
-   </text>
-</TEI>
+   </text></TEI>

@@ -1,16 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-     xml:base="schnitzler-interviews"
-     xml:id="I007">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd" xml:base="schnitzler-interviews" xml:id="I007" next="I006" prev="I092"> <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
             <title level="a" ref="#pmb32909">[Ludwig Klinenberger]: Arthur Schnitzlers »Haus Delorme«,
                25. 11. 1904</title>
-            <title type="iso-date" when-iso="1904-11-25" n="1">25. 11. 1904</title>
+            <title type="iso-date" when-iso="1904-11-25" n="2">25. 11. 1904</title>
             <author ref="#pmb3916">Klinenberger, Ludwig</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -57,8 +51,7 @@
          <change who="KH" when="2021-10-07">Durchsicht</change>
       </revisionDesc>
       <!-- https://anno.onb.ac.at/cgi-content/anno?aid=nfp&datum=19041125&seite=12 -->
-   </teiHeader>
-   <text type="text">
+   </teiHeader><text type="text">
       <body>
          <div type="original">
             <head>Arthur Schnitzlers »<rs type="work" ref="#pmb31547">Haus Delorme</rs>«</head>
@@ -864,5 +857,4 @@
             </org>
          </listOrg>
       </back>
-   </text>
-</TEI>
+   </text></TEI>

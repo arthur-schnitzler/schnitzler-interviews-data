@@ -20,6 +20,8 @@
          </xs:choice>
          <xs:attribute ref="xml:id" use="required"/>
          <xs:attribute ref="xml:base" use="required"/>
+         <xs:attribute name="prev" use="optional"/>
+         <xs:attribute name="next" use="optional"/>
       </xs:complexType>
       <xs:unique name="unique-xmlid">
          <xs:selector xpath=".//*"/>
