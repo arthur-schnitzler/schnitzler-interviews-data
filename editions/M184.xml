@@ -12,7 +12,7 @@
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews,
                Meinungen, Proteste (1891–1931)</title>
             <title level="a" ref="#pmb35933">Schiller-Feier, 23. 4. 1905</title>
-            <title type="iso-date" when="1905-04-23" n="1">23. 4. 1905</title>
+            <title type="iso-date" when-iso="1905-04-23" n="1">23. 4. 1905</title>
             <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
                <name>Müller, Martin Anton</name>
@@ -67,10 +67,11 @@
          </div>
          <div type="original">
             <head>
-               <rs type="person" ref="#pmb12654">
+               <anchor type="commentary" xml:id="K_M184-1"/><rs type="person" ref="#pmb12654">
                   <hi rend="spaced_out">Schiller</hi>
                </rs>
-               <hi rend="spaced_out">-Feier</hi>
+               <hi rend="spaced_out">-Feier</hi><note type='commentary' xml:id="K_M184-1h"><rs type="person" ref="#pmb2121">Schnitzler</rs>s Beitrag
+                  ist alphabetisch zwischen den von 47 weiteren Personen des Kulturbetriebs eingeordnet.</note>
             </head>
             <lg type="poem">
                <l>Zweifler und Gläubiger naht und Kluger und Tor im Gebete;</l>
