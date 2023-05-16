@@ -62,6 +62,27 @@
                <bibl type="collections" n="8">manually created entity</bibl>
             </listBibl>
          </place>
+               <place xml:id="pmb403">
+                  <placeName>Nussdorf</placeName>
+                  <desc type="entity_type">eingemeindeter Ort (A.VOO)</desc>
+                  <desc type="entity_type_id">40</desc>
+                  <location type="coords">
+                     <geo>48,259444 16,364167</geo>
+                  </location>
+                  <location type="located_in_place">
+                     <placeName ref="pmb41240">Österreich</placeName>
+                     <geo>47,33333 13,33333</geo>
+                  </location>
+                  <location type="located_in_place">
+                     <placeName ref="pmb69">XIX., Döbling</placeName>
+                     <geo>48,25 16,33306</geo>
+                  </location>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb403.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/403/</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91367/</idno>
+                  <idno type="URL" subtype="geonames">https://sws.geonames.org/2770400/</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91367.html</idno>
+               </place>
          <place xml:id="pmb36300">
             <placeName>Kopenhagen</placeName>
             <placeName type="alternative-name">Kopenhagen</placeName>

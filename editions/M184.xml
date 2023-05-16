@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+     xml:base="schnitzler-interviews"
+     xml:id="M184"
+     next="M152"
+     prev="M139">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews,
+               Meinungen, Proteste (1891–1931)</title>
+            <title level="a" ref="#pmb35933">Schiller-Feier, 23. 4. 1905</title>
+            <title type="iso-date" when="1905-04-23" n="1">23. 4. 1905</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name>Müller, Martin Anton</name>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>ASI</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Martin Anton Müller</publisher>
+            <idno type="asi" n="184"/>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a" ref="#pmb143374">Die Schiller-Zeit. 1805 * 1905</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#pmb35935">Die Zeit</title>
+                     <imprint>
+                        <date when="1905-04-23" n="1">23. 4. 1905</date>
+                     </imprint>
+                     <biblScope unit="jg">4</biblScope>
+                     <biblScope unit="nr">926, Morgenblatt</biblScope>
+                     <biblScope unit="pp">VI</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="2023-05-15">angelegt</change>
+         <change who="MAM" when="2023-05-15">Index check</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div type="image">
+            <figure>
+               <graphic url="./images/1905_schiller-feier.jpg" width="5cm"/>
+            </figure>
+         </div>
+         <div type="original">
+            <head>
+               <rs type="person" ref="#pmb12654">
+                  <hi rend="spaced_out">Schiller</hi>
+               </rs>
+               <hi rend="spaced_out">-Feier</hi>
+            </head>
+            <lg type="poem">
+               <l>Zweifler und Gläubiger naht und Kluger und Tor im Gebete;</l>
+               <l>Fliegt es zum Himmel nicht auf, hat’s doch der Nachbar gehört.</l>
+               <l>Halle füllt sich und Hain mit festlich verehrendem Volke;</l>
+               <l>Doch wer unsterblich, vernimmt stillen wie tönenden Dank.</l>
+               <l>Lasset, Ihr sorglichen Priester, entrückt eurem prangenden Altar,</l>
+               <l>Göttlichem, das ich erkannt, schweigende Andacht mich weih’n.</l>
+            </lg>
+         </div>
+         <div type="biographical">
+            <div1>
+               <ref type="schnitzler-tagebuch" target="1905-04-10"/>
+               <quote>10/4 Vm. spazieren <rs type="place" ref="#pmb403">Nußdorf</rs> etc.― (Verse
+                  für die <rs type="work" ref="#pmb35935">Zeit</rs>, <rs type="person" ref="#pmb12654">Schiller</rs>.) ―</quote>
+            </div1>
+         </div>
+      </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
+            <person xml:id="pmb12654">
+               <persName>
+                  <forename>Friedrich von</forename>
+                  <surname>Schiller</surname>
+               </persName>
+               <birth>
+                  <date when="1759-11-10">10.11.1759</date>
+                  <settlement ref="pmb39585">
+                     <placeName type="pref">Marbach am Neckar</placeName>
+                     <location>
+                        <geo>48,93964 9,25995</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1805-05-09">09.05.1805</date>
+                  <settlement ref="pmb197">
+                     <placeName type="pref">Weimar</placeName>
+                     <location>
+                        <geo>50,97361 11,33806</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb134">Historiker/Historikerin</occupation>
+               <occupation ref="pmb154">Philosoph/Philosophin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19694</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118607626</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12654.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12654/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12654</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12654.html</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb12654</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43876</idno>
+               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0207</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q22670</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Friedrich_Schiller</idno>
+               <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/schiller-friedrich.html</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb12654.html</idno>
+            </person>
+         </listPerson>
+         <listBibl>
+            <bibl xml:id="pmb35935">
+               <title>Die Zeit</title>
+               <author ref="pmb11867" role="hat-herausgegeben">Kanner, Heinrich</author>
+               <author ref="pmb12790" role="hat-herausgegeben">Singer, Isidor</author>
+               <date to="1919-01-01">1902  – 1919</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35935/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb35935</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb35935.html</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
+            </bibl>
+            <bibl xml:id="pmb143374">
+               <title>Schiller-Zeit 1805 * 1905</title>
+               <author ref="pmb2121" role="hat-einen-beitrag-geschaffen-zu">Schnitzler, Arthur</author>
+               <author ref="pmb53314" role="hat-einen-beitrag-geschaffen-zu">Baudissin, Wolf</author>
+               <author ref="pmb10928" role="hat-einen-beitrag-geschaffen-zu">Bierbaum, Otto Julius</author>
+               <author ref="pmb112972" role="hat-einen-beitrag-geschaffen-zu">Breton, Jules</author>
+               <author ref="pmb118663" role="hat-einen-beitrag-geschaffen-zu">Bulthaupt, Alfred Heinrich</author>
+               <author ref="pmb12514" role="hat-einen-beitrag-geschaffen-zu">Reuter, Gabriele</author>
+               <author ref="pmb12602" role="hat-einen-beitrag-geschaffen-zu">Saar, Ferdinand von</author>
+               <author ref="pmb12551" role="hat-einen-beitrag-geschaffen-zu">Rosegger, Peter</author>
+               <author ref="pmb143385" role="hat-einen-beitrag-geschaffen-zu">Schönaich-Carolath, Emil</author>
+               <author ref="pmb143391" role="hat-einen-beitrag-geschaffen-zu">Rosny, J.-H.</author>
+               <author ref="pmb9999" role="hat-einen-beitrag-geschaffen-zu">Stehr, Hermann</author>
+               <author ref="pmb95954" role="hat-einen-beitrag-geschaffen-zu">Vrchlický, Jaroslav</author>
+               <author ref="pmb26961" role="hat-einen-beitrag-geschaffen-zu">Werkmann, Josef</author>
+               <author ref="pmb26961" role="hat-einen-beitrag-geschaffen-zu">Werkmann, Josef</author>
+               <author ref="pmb14861" role="hat-einen-beitrag-geschaffen-zu">Carabin, François Rupert</author>
+               <author ref="pmb14861" role="hat-einen-beitrag-geschaffen-zu">Carabin, François Rupert</author>
+               <author ref="pmb2500" role="hat-einen-beitrag-geschaffen-zu">Claretie, Jules</author>
+               <author ref="pmb2500" role="hat-einen-beitrag-geschaffen-zu">Claretie, Jules</author>
+               <author ref="pmb11148" role="hat-einen-beitrag-geschaffen-zu">Dehmel, Richard</author>
+               <author ref="pmb11148" role="hat-einen-beitrag-geschaffen-zu">Dehmel, Richard</author>
+               <author ref="pmb11216" role="hat-einen-beitrag-geschaffen-zu">Ebner-Eschenbach, Marie von</author>
+               <author ref="pmb11216" role="hat-einen-beitrag-geschaffen-zu">Ebner-Eschenbach, Marie von</author>
+               <author ref="pmb7163" role="hat-einen-beitrag-geschaffen-zu">Flaischlen, Cäsar</author>
+               <author ref="pmb7163" role="hat-einen-beitrag-geschaffen-zu">Flaischlen, Cäsar</author>
+               <author ref="pmb143409" role="hat-einen-beitrag-geschaffen-zu">Gnad, Ernst</author>
+               <author ref="pmb114270" role="hat-einen-beitrag-geschaffen-zu">Greif, Martin</author>
+               <author ref="pmb17942" role="hat-einen-beitrag-geschaffen-zu">Hauptmann, Carl</author>
+               <author ref="pmb7753" role="hat-einen-beitrag-geschaffen-zu">Heer, Jakob Christoph</author>
+               <author ref="pmb5475" role="hat-einen-beitrag-geschaffen-zu">Hegeler, Wilhelm</author>
+               <author ref="pmb64827" role="hat-einen-beitrag-geschaffen-zu">Heiberg, Hermann</author>
+               <author ref="pmb11679" role="hat-einen-beitrag-geschaffen-zu">Hesse, Hermann</author>
+               <author ref="pmb143417" role="hat-einen-beitrag-geschaffen-zu">Heyking, Elisabeth</author>
+               <author ref="pmb65077" role="hat-einen-beitrag-geschaffen-zu">Ibsen, Sigurd</author>
+               <author ref="pmb64831" role="hat-einen-beitrag-geschaffen-zu">Janitschek, Maria</author>
+               <author ref="pmb5435" role="hat-einen-beitrag-geschaffen-zu">Lanckoroński, Karl</author>
+               <author ref="pmb5883" role="hat-einen-beitrag-geschaffen-zu">Lie, Jonas</author>
+               <author ref="pmb12176" role="hat-einen-beitrag-geschaffen-zu">Mann, Thomas</author>
+               <author ref="pmb20983" role="hat-einen-beitrag-geschaffen-zu">Margueritte, Victor</author>
+               <author ref="pmb64969" role="hat-einen-beitrag-geschaffen-zu">Margueritte, Paul</author>
+               <author ref="pmb39082" role="hat-einen-beitrag-geschaffen-zu">Masaryk, Tomáš Garrigue</author>
+               <author ref="pmb8903" role="hat-einen-beitrag-geschaffen-zu">Menger, Karl</author>
+               <author ref="pmb12258" role="hat-einen-beitrag-geschaffen-zu">Minor, Jakob</author>
+               <author ref="pmb9146" role="hat-einen-beitrag-geschaffen-zu">Ompteda, Georg von</author>
+               <author ref="pmb143431" role="hat-einen-beitrag-geschaffen-zu">Passy, Frédéric</author>
+               <author ref="pmb9221" role="hat-einen-beitrag-geschaffen-zu">Perfall, Anton von</author>
+               <author ref="pmb12444" role="hat-einen-beitrag-geschaffen-zu">Possart, Ernst von</author>
+               <author ref="pmb9386" role="hat-einen-beitrag-geschaffen-zu">Prévost, Marcel</author>
+               <author ref="pmb9403" role="hat-einen-beitrag-geschaffen-zu">Raabe, Wilhelm</author>
+               <date when="1905-04-23">1905-04-23</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/143374/</idno>
+               <note type="work_kind">Periodikum &gt;&gt; Sonderheft</note>
+            </bibl>
+            <bibl xml:id="pmb35933">
+               <title>Schiller-Feier</title>
+               <title type="werk_link-anno">https://anno.onb.ac.at/cgi-content/anno?aid=zei&amp;datum=19050423&amp;seite=51</title>
+               <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+               <date when="1905-04-23">23.4.1905</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35933/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb35933.html</idno>
+               <note type="work_kind">Gedicht</note>
+            </bibl>
+         </listBibl>
+         <listPlace>
+            <place xml:id="pmb403">
+               <placeName>Nussdorf</placeName>
+               <desc type="entity_type">eingemeindeter Ort (A.VOO)</desc>
+               <desc type="entity_type_id">40</desc>
+               <location type="coords">
+                  <geo>48,259444 16,364167</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb41240">Österreich</placeName>
+                  <geo>47,33333 13,33333</geo>
+               </location>
+               <location type="located_in_place">
+                  <placeName ref="pmb69">XIX., Döbling</placeName>
+                  <geo>48,25 16,33306</geo>
+               </location>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb403.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/403/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/91367/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2770400/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91367.html</idno>
+            </place>
+         </listPlace>
+      </back>
+   </text>
+</TEI>
