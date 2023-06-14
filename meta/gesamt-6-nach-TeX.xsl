@@ -964,6 +964,7 @@
          verzeichnet, auf die Schnitzler in seinen Interviews antwortet oder zumindest zu antworten scheint. Verwandte Fragen wurden teilweise verallgemeinert, um Variationen der selben Frage zu vermeiden.}</xsl:text>
          <xsl:text>\normalsize{}</xsl:text>
          <xsl:text>\part*{Interviews}\clearpage </xsl:text>
+         <!--<xsl:text>\addcontentsline{toc}{part}{Interviews}</xsl:text>-->
          <xsl:text>\addtocontents{toc}{%
   \protect\contentsline{part}{Interviews}}</xsl:text><!-- keine Seitenzahl im Inhaltsverzeichnis -->
          <xsl:apply-templates select="TEI[starts-with(@id, 'I')]"/>
@@ -989,6 +990,7 @@
   \protect\contentsline{part}{Meinungen}}</xsl:text><!-- keine Seitenzahl im Inhaltsverzeichnis -->
          <xsl:text>\part*{Meinungen}\clearpage </xsl:text>
          <xsl:apply-templates select="TEI[starts-with(@id, 'M')]"/>
+            
          <xsl:text>\addtocontents{toc}{%
   \protect\contentsline{part}{Proteste}}</xsl:text><!-- keine Seitenzahl im Inhaltsverzeichnis -->
          <xsl:text>\part*{Proteste}\clearpage </xsl:text>
@@ -1177,7 +1179,14 @@
             <xsl:text>}</xsl:text>
          </xsl:otherwise>
       </xsl:choose>
-      <xsl:text>\addcontentsline{toc}{chapter}{</xsl:text><xsl:text>{\protect\thecountcount}. </xsl:text>
+      <xsl:variable name="preceding" select="count(preceding::TEI)"/>
+      <xsl:text>\addcontentsline{toc}{chapter}{\makebox[</xsl:text>
+      <xsl:choose>
+         <xsl:when test="$preceding &lt; 98"><xsl:text>9pt</xsl:text></xsl:when>
+         <xsl:otherwise><xsl:text>13.5pt</xsl:text></xsl:otherwise>
+      </xsl:choose>
+      <xsl:text>][r]{</xsl:text>
+      <xsl:value-of select="$preceding"/><xsl:text>}. </xsl:text>
       <xsl:value-of
          select="foo:sectionInToc(teiHeader/fileDesc/titleStmt/title[@level = 'a'], 0, count(contains(teiHeader/fileDesc/titleStmt/title[@level = 'a'], ',')))"/><xsl:text>}</xsl:text>
       <xsl:text>\nopagebreak\mylabel{</xsl:text>
@@ -5719,5 +5728,8 @@
    <!-- Das hier reicht die LateX-Befehler direkt durch, die mit <?latex ....> markiert sind -->
    <xsl:template match="processing-instruction()[name() = 'latex']">
       <xsl:value-of select="concat('{', normalize-space(.), '}')"/>
+   </xsl:template>
+   <xsl:template match="*:latex">
+      <xsl:value-of select="@alt"/>
    </xsl:template>
 </xsl:stylesheet>

@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd" xml:base="schnitzler-interviews" xml:id="I132" next="M003" prev="I133"> <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="I132" next="M003" prev="I133">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
+            <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews,
+               Meinungen, Proteste (1891–1931)</title>
             <title level="a" ref="#pmb60063">Även Stockholm är bra, 25. 5. 1923</title>
             <title type="iso-date" when-iso="1923-05-25" n="1">25. 5. 1923</title>
             <author/>
@@ -54,40 +59,55 @@
          <div type="original" xml:lang="sv-SE">
             <head>Även <rs type="place" ref="#pmb1119">Stockholm</rs> är bra.</head>
             <p>Vi få börja bli blygsamma och med största tacksamhet ta emot de smulor som resande
-               till och från <rs type="place" ref="#pmb40700">Göteborg</rs> lämna oss. <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>, som kom direkt hit från <rs type="place" ref="#pmb36300">Köpenhamn</rs> och reste direkt – gudskelov – till <rs type="place" ref="#pmb50">Wien</rs> i onsdags kväll, försäkrar att <rs type="place" ref="#pmb1119">Stockholm</rs> är den vackraste stad han hittills besökt. Och
-               omgivningarna få också beröm, <rs type="place" ref="#pmb62297">Saltsjöbaden</rs> och <rs type="place" ref="#pmb62282">Drottningholm</rs>, där han i en timmes tid studerade
-                  <rs type="person" ref="#pmb62293">Gustaf III:s</rs>
+               till och från <rs type="place" ref="#pmb40700">Göteborg</rs> lämna oss. <rs
+                  type="person" ref="#pmb2121">Arthur Schnitzler</rs>, som kom direkt hit från <rs
+                  type="place" ref="#pmb36300">Köpenhamn</rs> och reste direkt – gudskelov – till
+                  <rs type="place" ref="#pmb50">Wien</rs> i onsdags kväll, försäkrar att <rs
+                  type="place" ref="#pmb1119">Stockholm</rs> är den vackraste stad han hittills
+               besökt. Och omgivningarna få också beröm, <rs type="place" ref="#pmb62297"
+                  >Saltsjöbaden</rs> och <rs type="place" ref="#pmb62282">Drottningholm</rs>, där
+               han i en timmes tid studerade <rs type="person" ref="#pmb62293">Gustaf III:s</rs>
                <space unit="chars" quantity="1"/>
                <rs type="place" ref="#pmb62289" subtype="implied">teater</rs>, vilken han fann
                utomordentligt fängslande.</p>
-            <p>– Jag är innerligt glad att besöket blev av, säger han, och tillägger om
-               uppförandet av »<rs type="work" ref="#pmb29917">Älskog</rs>« på Mindre <rs type="org" ref="#pmb62240">Dramaten</rs>: Utförandet tillhör det bästa jag sett. Ingen enda
+            <p>– Jag är innerligt glad att besöket blev av, säger han, och tillägger om uppförandet
+               av »<rs type="work" ref="#pmb29917">Älskog</rs>« på Mindre <rs type="org"
+                  ref="#pmb62240">Dramaten</rs>: Utförandet tillhör det bästa jag sett. Ingen enda
                anmärkning har jag att komma med. Allt var utmärkt in i minsta detalj. Samspelet var
                enastående, och kontakten mellan scen och salong sådan den bör vara. Skall jag nämna
-               någon av de uppträdande, så blir det fru <rs ref="#pmb21528" type="person">Molander</rs>, vilkens framställning av rollen
-               motsvarade precis vad jag tänkt mig.</p>
+               någon av de uppträdande, så blir det fru <rs ref="#pmb21528" type="person"
+                  >Molander</rs>, vilkens framställning av rollen motsvarade precis vad jag tänkt
+               mig.</p>
          </div>
          <div type="translation">
             <head>Auch <rs type="place" ref="#pmb1119">Stockholm</rs> ist gut.</head>
             <p>Wir müssen anfangen, bescheiden zu sein und die Krümel, die uns die Reisenden von und
                nach <rs type="place" ref="#pmb40700">Göteborg</rs> hinterlassen, mit größter
                Dankbarkeit annehmen. <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>, der
-               direkt aus <rs type="place" ref="#pmb36300">Kopenhagen</rs> hierher kam und am
+               direkt aus <rs type="place" ref="#pmb36300">Kopenhagen</rs> hierherkam und am
                Mittwochabend – Gott sei Dank – direkt nach <rs type="place" ref="#pmb50">Wien</rs>
-               fuhr, versichert uns, dass <rs type="place" ref="#pmb1119">Stockholm</rs> die schönste
-               Stadt ist, die er bisher besucht hat. Und auch die Umgebung wird gelobt, <anchor type="commentary" xml:id="K_I132-1"/>
+               fuhr, versichert uns, dass <rs type="place" ref="#pmb1119">Stockholm</rs> die
+               schönste Stadt ist, die er bisher besucht hat. Und auch die Umgebung wird gelobt,
+                  <anchor type="commentary" xml:id="K_I132-1"/>
                <rs type="place" ref="#pmb62297">Saltsjöbaden</rs>
-               <note type="commentary" xml:id="K_I132-1h">Das lässt sich als
-                  Hinweis lesen, dass <rs type="person" ref="#pmb2121">Schnitzler</rs>s ansonsten
-                  kryptisch bleibende Ortsangabe »<quote>in dem Wald Lille Skog (?)</quote>« im <rs type="work" ref="#pmb33243">Tagebuch</rs> zum <ref target="1923-05-21" type="schnitzler-tagebuch" subtype="date-only"/> so zu verstehen ist, dass er die
-                  bewaldete Halbinsel <rs type="place" ref="#pmb62303">Skogsö</rs> besucht hat, die
-                  heutzutage ein Naturreservat ist.</note> und <rs type="place" ref="#pmb62282">Drottningholm</rs>, wo er eine Stunde lang das <rs type="place" ref="#pmb62289" subtype="implied">Theater</rs> von <rs type="person" ref="#pmb62293">Gustaf III.</rs>
-               studierte, das er außerordentlich fesselnd fand. </p>
-            <p>– Ich bin sehr froh, dass der Besuch stattfand, sagt er und <ref target="#q082" type="question"/>fügt über die Aufführung von »<rs type="work" ref="#pmb29917">Liebelei</rs>« im Kleinen <rs type="org" ref="#pmb62240">Dramaten</rs> hinzu: »Die
-               Aufführung gehört zu den besten, die ich je gesehen habe. Ich habe keine einzige
+               <note type="commentary" xml:id="K_I132-1h">Das lässt sich als Hinweis lesen, dass <rs
+                     type="person" ref="#pmb2121">Schnitzler</rs>s ansonsten kryptisch bleibende
+                  Ortsangabe »<quote>in dem Wald Lille Skog (?)</quote>« im <rs type="work"
+                     ref="#pmb33243">Tagebuch</rs> zum <ref target="1923-05-21"
+                     type="schnitzler-tagebuch" subtype="date-only"/> so zu verstehen ist, dass er
+                  die bewaldete Halbinsel <rs type="place" ref="#pmb62303">Skogsö</rs> besucht hat,
+                  die heutzutage ein Naturreservat ist.</note> und <rs type="place" ref="#pmb62282"
+                  >Drottningholm</rs>, wo er eine Stunde lang das <rs type="place" ref="#pmb62289"
+                  subtype="implied">Theater</rs> von <rs type="person" ref="#pmb62293">Gustaf
+                  III.</rs> studierte, das er außerordentlich fesselnd fand. </p>
+            <p>– Ich bin sehr froh, dass der Besuch stattfand, sagt er und <ref target="#q082"
+                  type="question"/>fügt über die Aufführung von »<rs type="work" ref="#pmb29917"
+                  >Liebelei</rs>« im Kleinen <rs type="org" ref="#pmb62240">Dramaten</rs> hinzu:
+               »Die Aufführung gehört zu den besten, die ich je gesehen habe. Ich habe keine einzige
                Anmerkung zu machen. Alles war bis ins kleinste Detail ausgezeichnet. Das
                Zusammenspiel war hervorragend, und der Kontakt zwischen Bühne und Zuschauerraum so,
-               wie er sein sollte. Wenn ich einen der Darsteller erwähnen muss, dann ist es Frau <rs ref="#pmb21528" type="person">Molander</rs>, deren Darstellung der Rolle genau das
+               wie er sein sollte. Wenn ich einen der Darsteller nennen sollte, dann ist es Frau <rs
+                  ref="#pmb21528" type="person">Molander</rs>, deren Gestaltung der Rolle genau das
                war, was ich mir vorgestellt hatte.</p>
          </div>
       </body>
@@ -120,16 +140,22 @@
                <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
                <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
-               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="kraus1933"
+                  >https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
                <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
-               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino"
+                  >https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
             </person>
             <person xml:id="pmb62293">
                <persName>
@@ -187,27 +213,34 @@
                </death>
                <sex value="female"/>
                <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18211</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18211</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/21528/</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q4967830</idno>
-               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb21528.html</idno>
+               <idno type="URL" subtype="schnitzler-kino"
+                  >https://schnitzler-kino.acdh.oeaw.ac.at/pmb21528.html</idno>
             </person>
          </listPerson>
          <listBibl>
             <bibl xml:id="pmb29917">
                <title>Liebelei. Schauspiel in drei Akten</title>
-               <title type="werk_link">https://www.deutschestextarchiv.de/book/show/schnitzler_liebelei_1896</title>
+               <title type="werk_link"
+                  >https://www.deutschestextarchiv.de/book/show/schnitzler_liebelei_1896</title>
                <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
                <date>1895-10-09</date>
                <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.27</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1823758</idno>
                <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-liebelei</idno>
                <idno type="URL" subtype="theadok">https://theadok.at/work/31062</idno>
-               <idno type="URL" subtype="deutschestextarchiv">http://www.deutschestextarchiv.de/book/show/schnitzler_liebelei_1896</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29917.html</idno>
+               <idno type="URL" subtype="deutschestextarchiv"
+                  >http://www.deutschestextarchiv.de/book/show/schnitzler_liebelei_1896</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29917.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29917/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29917</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29917.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29917</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29917.html</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Liebelei</idno>
                <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
             </bibl>
@@ -217,12 +250,15 @@
                <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
                <author ref="pmb119261" role="hat-herausgegeben">Braunwarth, Peter Michael</author>
                <author ref="pmb65504" role="hat-herausgegeben">Urbach, Reinhard</author>
-               <date to="2000-01-01">1981  – 2000</date>
+               <date to="2000-01-01">1981 – 2000</date>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33243/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33243</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33243.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33243</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33243.html</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q108122826</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Tagebuch_(Schnitzler)</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Tagebuch_(Schnitzler)</idno>
                <note type="work_kind">Tagebuch</note>
             </bibl>
             <bibl xml:id="pmb60063">
@@ -252,10 +288,12 @@
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1119/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/15661/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb1119</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb1119</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64053/</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2673730/</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb1119.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb1119.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/100625/</idno>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4057648-6</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1754</idno>
@@ -274,8 +312,10 @@
                </location>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2711537/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/40700/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb40700</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb40700.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb40700</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb40700.html</idno>
             </place>
             <place xml:id="pmb36300">
                <placeName>Kopenhagen</placeName>
@@ -290,20 +330,25 @@
                   <geo>56,0 10,0</geo>
                </location>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1748</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb36300.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb36300.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36300/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36300</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36300</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58083/</idno>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4032399-7</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64393/</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2618425/</idno>
-               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb36300</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb36300.html</idno>
+               <idno type="URL" subtype="kraus"
+                  >https://kraus.wienbibliothek.at/register/orte/pmb36300</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb36300.html</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Kopenhagen</idno>
             </place>
             <place xml:id="pmb50">
                <placeName>Wien</placeName>
-               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt
+                  Wien</placeName>
                <placeName type="alternative-name">Bécs</placeName>
                <placeName type="alternative-name">Land Wien</placeName>
                <placeName type="alternative-name">Vídeň</placeName>
@@ -323,15 +368,19 @@
                </location>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
-               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="kraus"
+                  >https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
             </place>
@@ -348,7 +397,8 @@
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/62297/</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2680460/</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb62297.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb62297.html</idno>
             </place>
             <place xml:id="pmb62282">
                <placeName>Drottningholm</placeName>
@@ -364,7 +414,8 @@
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/25933/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/62282/</idno>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2717198/</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb62282.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb62282.html</idno>
             </place>
             <place xml:id="pmb62289">
                <placeName>Drottningholms Slottsteater</placeName>
@@ -379,7 +430,8 @@
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/62289/</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q3058143</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Schlosstheater_Drottningholm</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Schlosstheater_Drottningholm</idno>
                <note type="apis_dates">
                   <date notBefore="1766-01-01" when="1766-07-02">1766</date>
                </note>
@@ -398,9 +450,11 @@
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/62303/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92376/</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92376.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92376.html</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q3562577</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Naturreservat_Skogs%C3%B6</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Naturreservat_Skogs%C3%B6</idno>
             </place>
          </listPlace>
          <listOrg>
@@ -415,19 +469,23 @@
                   <geo>59,325 18,05</geo>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1119/</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/15661/</idno>
-                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb1119</idno>
+                  <idno type="URL" subtype="schnitzler-briefe"
+                     >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb1119</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64053/</idno>
                   <idno type="URL" subtype="geonames">https://sws.geonames.org/2673730/</idno>
-                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb1119.html</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch"
+                     >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb1119.html</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/100625/</idno>
                   <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4057648-6</idno>
                   <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1754</idno>
-                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Stockholm</idno>
+                  <idno type="URL" subtype="wikipedia"
+                     >https://de.wikipedia.org/wiki/Stockholm</idno>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/62240/</idno>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/43676-8</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1140265</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/K%C3%B6nigliches_Dramatisches_Theater</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/K%C3%B6nigliches_Dramatisches_Theater</idno>
                <note type="apis_dates">
                   <date notBefore="1788-01-01" when="1788-07-01">1788</date>
                </note>
