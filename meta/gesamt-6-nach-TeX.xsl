@@ -4846,7 +4846,7 @@
       <!-- Das soll die Varianten abfangen, dass mehrere Verfasser an einem Werk beteiligt sein können -->
       <xsl:param name="first" as="xs:string"/>
       <xsl:param name="endung" as="xs:string"/>
-      <xsl:variable name="work-entry-authors" select="key('work-lookup', $first, $works)/author"/>
+      <xsl:variable name="work-entry-authors" select="key('work-lookup', $first, $works)/author[@ref='pmb2121' or not(@role='hat-einen-beitrag-geschaffen-zu')]"/>
       <xsl:variable name="work-entry-authors-count" select="count($work-entry-authors)"/>
       <xsl:choose>
          <xsl:when test="not(key('work-lookup', $first, $works))">
@@ -5705,7 +5705,7 @@
       </xsl:choose>
    </xsl:template>
    <xsl:template match="ref[@type = 'question' and starts-with(ancestor::TEI/@id, 'I')]">
-      <xsl:variable name="fragenummer" select="substring-after(@target, '#pmb')"/>
+      <xsl:variable name="fragenummer" select="substring-after(@target, '#')"/>
       <xsl:variable name="frage" select="key('question-lookup', $fragenummer, $interviewfragen)"
          as="node()?"/>
       <xsl:choose>
