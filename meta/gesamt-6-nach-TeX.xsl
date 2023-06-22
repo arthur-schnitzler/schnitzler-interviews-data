@@ -616,6 +616,9 @@
                   <xsl:when test="$work-entry/author[$author-zaehler]/@ref">
                      <xsl:value-of select="replace($work-entry/author[$author-zaehler]/@ref, 'pmb', '#pmb')"/>
                   </xsl:when>
+                  <xsl:otherwise>
+                     <xsl:text>XXXX3 AUTHORREF</xsl:text>
+                  </xsl:otherwise>
                </xsl:choose>
             </xsl:variable>
             <xsl:value-of select="foo:person-fuer-index($author-ref)"/>
@@ -674,7 +677,7 @@
          </xsl:otherwise>
       </xsl:choose>
       <xsl:choose>
-         <xsl:when test="$work-entry[contains(note[@type = 'work_kind'], 'Tageszeitung')]">
+         <xsl:when test="$work-entry[contains(note[@type = 'work_kind'], 'Tageszeitung')] or $work-entry[contains(note[@type = 'work_kind'], 'Publikationsorgan')]">
             <xsl:text>@\emph{</xsl:text>
          </xsl:when>
          <xsl:when test="$work-entry/author and not($author-zaehler = 0)">
@@ -710,21 +713,47 @@
       <xsl:param name="first" as="xs:string"/>
       <xsl:param name="endung" as="xs:string"/>
       <xsl:variable name="org-entry" select="key('org-lookup', ($first), $orgs)"/>
-      <xsl:variable name="typ" select="$org-entry/desc[@type = 'entity_type'][1]"/>
+      <xsl:variable name="typ" select="$org-entry/*:desc[@type = 'entity_type'][1]"/>
       <xsl:choose>
-         <xsl:when test="string-length($org-entry/orgName[1]) = 0">
+         <xsl:when test="string-length($org-entry/*:orgName[1]) = 0">
             <xsl:text>\textcolor{red}{XXXX ORGangabe fehlt}</xsl:text>
          </xsl:when>
          <xsl:when test="$first = ''">
             <xsl:text>\textcolor{red}{ORGNR INHALT FEHLT}</xsl:text>
          </xsl:when>
-         <xsl:when test="not($org-entry/location[@type = 'located_in_place'])">
+         <xsl:when test="not($org-entry/*:location[@type = 'located_in_place'])">
             <xsl:text>\orgindex{</xsl:text>
-            <xsl:value-of select="foo:index-sortiert(normalize-space($org-entry/orgName[1]), 'up')"/>
+            <xsl:value-of select="foo:index-sortiert(normalize-space($org-entry/*:orgName[1]), 'up')"/>
             <xsl:value-of select="$endung"/>
          </xsl:when>
-         <xsl:otherwise>
-            <xsl:for-each select="$org-entry/location[@type = 'located_in_place']">
+         <xsl:when test="$org-entry/*:location[@type = 'located_in_place'] and $org-entry/*:desc[@type='entity_type'][contains(., 'Tageszeitungsr')]"><!-- Tageszeitungen werden
+         nur am 1. Ort ausgegeben-->
+               <xsl:text>\orgindex{</xsl:text>
+               <xsl:choose>
+                  <xsl:when test="not(foo:wienerBezirke($org-entry/*:location[1]/placeName/@ref) = 'keinBezirk')">
+                     <xsl:value-of select="foo:index-sortiert('Wien', 'bf')"/>
+                     <xsl:text>!</xsl:text>
+                     <xsl:value-of select="foo:wienerBezirke($org-entry/*:location[1]/placeName/@ref)"/>
+                     <xsl:value-of select="foo:index-sortiert($org-entry/*:location[1]/placeName, 'bf')"/>
+                     <xsl:text>!</xsl:text>
+                  </xsl:when>
+                  <xsl:when test="$org-entry/*:location[1]/placeName/@ref = 'pmb50'">
+                     <xsl:value-of select="foo:index-sortiert('Wien', 'bf')"/>
+                     <xsl:text>!</xsl:text>
+                  </xsl:when>
+                  <xsl:when test="
+                     $org-entry/*:location[1]/desc[@type = 'entity_type'] = 'Hauptstadt' or
+                     $org-entry/*:location[1]/desc[@type = 'entity_type'] = 'Gemeinde'
+                     or $org-entry/*:location[1]/desc[@type = 'entity_type'] = 'Besiedelter Ort' or $org-entry/*:location[1]/desc[@type = 'entity_type'] = 'Ort'">
+                     <xsl:value-of select="foo:index-sortiert($org-entry/*:location[1]/placeName, 'bf')"/>
+                     <xsl:text>!</xsl:text>
+                  </xsl:when>
+               </xsl:choose>
+               <xsl:value-of select="foo:index-sortiert($org-entry/orgName[1], 'up')"/>
+               <xsl:value-of select="$endung"/>
+         </xsl:when>
+         <xsl:when test="$org-entry/*:location[@type = 'located_in_place']">
+            <xsl:for-each select="$org-entry/*:location[@type = 'located_in_place']">
                <xsl:text>\orgindex{</xsl:text>
                <xsl:choose>
                   <xsl:when test="not(foo:wienerBezirke(placeName/@ref) = 'keinBezirk')">
@@ -739,9 +768,9 @@
                      <xsl:text>!</xsl:text>
                   </xsl:when>
                   <xsl:when test="
-                        desc[@type = 'entity_type'] = 'Hauptstadt' or
-                        desc[@type = 'entity_type'] = 'Gemeinde'
-                        or desc[@type = 'entity_type'] = 'Besiedelter Ort' or desc[@type = 'entity_type'] = 'Ort'">
+                     desc[@type = 'entity_type'] = 'Hauptstadt' or
+                     desc[@type = 'entity_type'] = 'Gemeinde'
+                     or desc[@type = 'entity_type'] = 'Besiedelter Ort' or desc[@type = 'entity_type'] = 'Ort'">
                      <xsl:value-of select="foo:index-sortiert(placeName, 'bf')"/>
                      <xsl:text>!</xsl:text>
                   </xsl:when>
@@ -749,6 +778,10 @@
                <xsl:value-of select="foo:index-sortiert($org-entry/orgName[1], 'up')"/>
                <xsl:value-of select="$endung"/>
             </xsl:for-each>
+         </xsl:when>
+         <xsl:otherwise>
+            
+            <xsl:text>SEXSEX XXXX</xsl:text>
          </xsl:otherwise>
       </xsl:choose>
    </xsl:function>
