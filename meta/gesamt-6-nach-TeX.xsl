@@ -1320,6 +1320,9 @@
          <xsl:when test="$language = 'ru'">
             <xsl:text>\selectlanguage{russian}</xsl:text>
          </xsl:when>
+         <xsl:when test="$language = 'de' and @ana='alte-rechtschreibung'">
+            <xsl:text>\selectlanguage{german}</xsl:text>
+         </xsl:when>
          <xsl:when test="$language = 'de'">
             <xsl:text>\selectlanguage{ngerman}</xsl:text>
          </xsl:when>
@@ -3973,14 +3976,28 @@
             <xsl:text>\Aendnote{\textnormal{</xsl:text>
          </xsl:when>
          <xsl:otherwise>
-            <xsl:text>\Cendnote{\textnormal{</xsl:text>
+            <xsl:text>\Cendnote{\foreignlanguage{ngerman}{\textnormal{</xsl:text>
          </xsl:otherwise>
       </xsl:choose>
       <xsl:apply-templates select="node() except Lemma"/>
-      <xsl:text>}}}</xsl:text>
+      <xsl:choose>
+         <xsl:when test="@type = 'textConst'">
+            <!-- Trennt TextConst und Kommentar auf, sonst nur CendNote  -->
+            <xsl:text>}}}</xsl:text>
+         </xsl:when>
+         <xsl:otherwise>
+            <xsl:text>}}}}</xsl:text><!-- eins mehr wegen foreignlanguage -->
+         </xsl:otherwise>
+      </xsl:choose>
+      
+      <!--<xsl:choose>
+         <xsl:when test="ancestor::"></xsl:when>
+      </xsl:choose>-->
       <xsl:text>\label{</xsl:text>
       <xsl:value-of select="@id"/>
       <xsl:text>}</xsl:text>
+      
+      
    </xsl:template>
    <xsl:template
       match="note[(@type = 'textConst' or @type = 'commentary') and (ancestor::note[@type='footnote'])]">
@@ -4115,6 +4132,9 @@
       <xsl:apply-templates/>
    </xsl:template>
    <xsl:template match="quote">
+      <xsl:if test="not(child::foreign)">
+         <xsl:text> \foreignlanguage{german}{ </xsl:text>
+      </xsl:if>
       <xsl:choose>
          <xsl:when
             test="ancestor::physDesc | ancestor::note[@type = 'commentary'] | ancestor::note[@type = 'textConst'] | ancestor::div[@type = 'biographical']">
@@ -4143,6 +4163,9 @@
             <xsl:text>\end{quotation}</xsl:text>
          </xsl:otherwise>
       </xsl:choose>
+      <xsl:if test="not(child::foreign)">
+         <xsl:text>} </xsl:text>
+      </xsl:if>
    </xsl:template>
    <xsl:template match="lg[@type = 'poem']">
       <xsl:choose>

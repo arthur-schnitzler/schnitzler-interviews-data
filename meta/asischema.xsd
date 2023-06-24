@@ -562,6 +562,14 @@
          <xs:simpleContent>
             <xs:extension base="xs:NCName">
                <xs:attribute name="ident" use="required" type="xs:NCName"/>
+               <xs:attribute name="ana" use="optional">
+                  <xs:simpleType>
+                     <xs:restriction base="xs:string">
+                        <xs:enumeration value="alte-rechtschreibung"/>
+                        <xs:enumeration value="neue-rechtschreibung"/>
+                     </xs:restriction>
+                  </xs:simpleType>
+               </xs:attribute>
             </xs:extension>
          </xs:simpleContent>
       </xs:complexType>
@@ -821,6 +829,14 @@
                   <xs:enumeration value="translation"/>
                   <xs:enumeration value="biographical"/>
                   <xs:enumeration value="image"/>
+               </xs:restriction>
+            </xs:simpleType>
+         </xs:attribute>
+         <xs:attribute name="ana" use="optional">
+            <xs:simpleType>
+               <xs:restriction base="xs:string">
+                  <xs:enumeration value="alte-rechtschreibung"/>
+                  <xs:enumeration value="neue-rechtschreibung"/>
                </xs:restriction>
             </xs:simpleType>
          </xs:attribute>
