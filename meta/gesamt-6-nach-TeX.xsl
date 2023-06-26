@@ -1293,10 +1293,21 @@
    </xsl:template>
    <xsl:template
       match="div[not(@type = 'biographical' or @type = 'image') and not(ancestor::TEI/starts-with(@id, 'E_'))]">
+      <xsl:variable name="lunguage" select="ancestor::TEI[1]/teiHeader[1]/profileDesc[1]/langUsage[1]/language[1]" as="node()?"/>
       <xsl:variable name="language" as="xs:string">
          <xsl:choose>
             <xsl:when test="not(@lang)">
-               <xsl:text>de</xsl:text>
+               <xsl:choose>
+                  <xsl:when test="contains($lunguage[1]/@ident, '-')">
+                     <xsl:value-of select="substring-before($lunguage[1]/@ident, '-')"/>
+                  </xsl:when>
+                  <xsl:when test="$lunguage/@ident">
+                     <xsl:value-of select="$lunguage/@ident"/>
+                  </xsl:when>
+                  <xsl:otherwise>
+                     <xsl:text>de</xsl:text>
+                  </xsl:otherwise>
+               </xsl:choose>
             </xsl:when>
             <xsl:when test="contains(@lang, '-')">
                <xsl:value-of select="substring-before(@lang, '-')"/>
@@ -1320,7 +1331,7 @@
          <xsl:when test="$language = 'ru'">
             <xsl:text>\selectlanguage{russian}</xsl:text>
          </xsl:when>
-         <xsl:when test="$language = 'de' and @ana='alte-rechtschreibung'">
+         <xsl:when test="$language = 'de' and (@ana='alte-rechtschreibung' or $lunguage/@ana='alte-rechtschreibung') ">
             <xsl:text>\selectlanguage{german}</xsl:text>
          </xsl:when>
          <xsl:when test="$language = 'de'">
@@ -4065,13 +4076,13 @@
             test="not(position() = 1) and not(preceding-sibling::*[1][self::head]) and @type = 'sub'">
             <!-- Es befindet sich im Text und direkt davor steht nicht schon ein head -->
             <xsl:text>
-               {\centering\pstart[\vspace{0.35\baselineskip}]\noindent\leftskip=3em plus1fill\rightskip\leftskip
+               {\centering\pstart[\vspace{0.25\baselineskip}]\noindent\leftskip=3em plus1fill\rightskip\leftskip
             </xsl:text>
          </xsl:when>
          <xsl:when test="not(position() = 1) and not(preceding-sibling::*[1][self::head])">
             <!-- Es befindet sich im Text und direkt davor steht nicht schon ein head -->
             <xsl:text>
-               {\centering\pstart[\vspace{1\baselineskip}]\noindent\leftskip=3em plus1fill\rightskip\leftskip
+               {\centering\pstart[\vspace{0.75\baselineskip}]\noindent\leftskip=3em plus1fill\rightskip\leftskip
             </xsl:text>
          </xsl:when>
          <xsl:otherwise>
