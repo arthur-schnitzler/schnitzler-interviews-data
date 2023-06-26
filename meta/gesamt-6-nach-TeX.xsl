@@ -1092,6 +1092,11 @@
       </root>
    </xsl:template>
    <xsl:template match="TEI[not(starts-with(@id, 'E_'))]">
+      <xsl:if test="@latex">
+         <xsl:value-of select="concat('{', @latex, '}')"/>
+         <xsl:text>
+         </xsl:text>
+      </xsl:if>
       <xsl:variable name="jahr-davor" as="xs:string"
          select="substring(preceding-sibling::TEI[1]/@when, 1, 4)"/>
       <xsl:variable name="correspAction-date">
