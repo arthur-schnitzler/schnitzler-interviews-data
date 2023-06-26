@@ -4149,7 +4149,7 @@
    </xsl:template>
    <xsl:template match="quote">
       <xsl:if test="not(child::foreign)">
-         <xsl:text> \foreignlanguage{german}{ </xsl:text>
+         <xsl:text>\foreignlanguage{german}{</xsl:text>
       </xsl:if>
       <xsl:choose>
          <xsl:when
@@ -4180,7 +4180,7 @@
          </xsl:otherwise>
       </xsl:choose>
       <xsl:if test="not(child::foreign)">
-         <xsl:text>} </xsl:text>
+         <xsl:text>}</xsl:text>
       </xsl:if>
    </xsl:template>
    <xsl:template match="lg[@type = 'poem']">
@@ -5802,6 +5802,6 @@
       <xsl:value-of select="concat('{', normalize-space(.), '}')"/>
    </xsl:template>
    <xsl:template match="*:latex">
-      <xsl:value-of select="@alt"/>
+      <xsl:text>{</xsl:text><xsl:value-of select="@alt"/><xsl:text>}</xsl:text>
    </xsl:template>
 </xsl:stylesheet>
