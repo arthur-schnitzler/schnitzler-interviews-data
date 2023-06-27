@@ -7,20 +7,15 @@
    <!-- subst root persName address body div sourceDesc physDesc witList msIdentifier fileDesc teiHeader correspDesc correspAction date witnessdate -->
    <xsl:import href="partial/date-format-for-print.xsl"/>
    <!-- Globale Parameter -->
-   <xsl:param name="persons"
-      select="document('../meta/back.xml')"/>
+   <xsl:param name="persons" select="document('../meta/back.xml')"/>
    <xsl:key name="person-lookup" match="person" use="replace(@xml:id, 'pmb', '#pmb')"/>
-   <xsl:param name="works"
-      select="document('../meta/back.xml')"/>
+   <xsl:param name="works" select="document('../meta/back.xml')"/>
    <xsl:key name="work-lookup" match="bibl" use="replace(@xml:id, 'pmb', '#pmb')"/>
-   <xsl:param name="orgs"
-      select="document('../meta/back.xml')"/>
+   <xsl:param name="orgs" select="document('../meta/back.xml')"/>
    <xsl:key name="org-lookup" match="org" use="replace(@xml:id, 'pmb', '#pmb')"/>
-   <xsl:param name="places"
-      select="document('../meta/back.xml')"/>
+   <xsl:param name="places" select="document('../meta/back.xml')"/>
    <xsl:key name="place-lookup" match="place" use="replace(@xml:id, 'pmb', '#pmb')"/>
-   <xsl:param name="placework"
-      select="document('../meta/placework.xml')"/>
+   <xsl:param name="placework" select="document('../meta/placework.xml')"/>
    <xsl:key name="placework-lookup" match="item" use="related_work_id"/>
    <xsl:param name="sigle" select="document('../indices/siglen.xml')"/>
    <xsl:param name="interviewfragen" select="document('../indices/questions.xml')"/>
@@ -340,10 +335,12 @@
                </xsl:variable>
                <xsl:choose>
                   <xsl:when test="$gender = 'male'">
-                     <xsl:value-of select="normalize-space(substring-before($unterster-beruf, '/'))"/>
+                     <xsl:value-of select="normalize-space(substring-before($unterster-beruf, '/'))"
+                     />
                   </xsl:when>
                   <xsl:when test="$gender = 'female'">
-                     <xsl:value-of select="normalize-space(substring-after($unterster-beruf, '/'))"/>
+                     <xsl:value-of select="normalize-space(substring-after($unterster-beruf, '/'))"
+                     />
                   </xsl:when>
                   <xsl:otherwise>
                      <xsl:value-of select="normalize-space($unterster-beruf)"/>
@@ -614,7 +611,8 @@
             <xsl:variable name="author-ref" as="xs:string">
                <xsl:choose>
                   <xsl:when test="$work-entry/author[$author-zaehler]/@ref">
-                     <xsl:value-of select="replace($work-entry/author[$author-zaehler]/@ref, 'pmb', '#pmb')"/>
+                     <xsl:value-of
+                        select="replace($work-entry/author[$author-zaehler]/@ref, 'pmb', '#pmb')"/>
                   </xsl:when>
                   <xsl:otherwise>
                      <xsl:text>XXXX3 AUTHORREF</xsl:text>
@@ -677,7 +675,8 @@
          </xsl:otherwise>
       </xsl:choose>
       <xsl:choose>
-         <xsl:when test="$work-entry[contains(note[@type = 'work_kind'], 'Tageszeitung')] or $work-entry[contains(note[@type = 'work_kind'], 'Publikationsorgan')]">
+         <xsl:when
+            test="$work-entry[contains(note[@type = 'work_kind'], 'Tageszeitung')] or $work-entry[contains(note[@type = 'work_kind'], 'Publikationsorgan')]">
             <xsl:text>@\emph{</xsl:text>
          </xsl:when>
          <xsl:when test="$work-entry/author and not($author-zaehler = 0)">
@@ -723,34 +722,40 @@
          </xsl:when>
          <xsl:when test="not($org-entry/*:location[@type = 'located_in_place'])">
             <xsl:text>\orgindex{</xsl:text>
-            <xsl:value-of select="foo:index-sortiert(normalize-space($org-entry/*:orgName[1]), 'up')"/>
+            <xsl:value-of
+               select="foo:index-sortiert(normalize-space($org-entry/*:orgName[1]), 'up')"/>
             <xsl:value-of select="$endung"/>
          </xsl:when>
-         <xsl:when test="$org-entry/*:location[@type = 'located_in_place'] and $org-entry/*:desc[@type='entity_type'][contains(., 'Tageszeitungsr')]"><!-- Tageszeitungen werden
+         <xsl:when
+            test="$org-entry/*:location[@type = 'located_in_place'] and $org-entry/*:desc[@type = 'entity_type'][contains(., 'Tageszeitungsr')]">
+            <!-- Tageszeitungen werden
          nur am 1. Ort ausgegeben-->
-               <xsl:text>\orgindex{</xsl:text>
-               <xsl:choose>
-                  <xsl:when test="not(foo:wienerBezirke($org-entry/*:location[1]/placeName/@ref) = 'keinBezirk')">
-                     <xsl:value-of select="foo:index-sortiert('Wien', 'bf')"/>
-                     <xsl:text>!</xsl:text>
-                     <xsl:value-of select="foo:wienerBezirke($org-entry/*:location[1]/placeName/@ref)"/>
-                     <xsl:value-of select="foo:index-sortiert($org-entry/*:location[1]/placeName, 'bf')"/>
-                     <xsl:text>!</xsl:text>
-                  </xsl:when>
-                  <xsl:when test="$org-entry/*:location[1]/placeName/@ref = 'pmb50'">
-                     <xsl:value-of select="foo:index-sortiert('Wien', 'bf')"/>
-                     <xsl:text>!</xsl:text>
-                  </xsl:when>
-                  <xsl:when test="
+            <xsl:text>\orgindex{</xsl:text>
+            <xsl:choose>
+               <xsl:when
+                  test="not(foo:wienerBezirke($org-entry/*:location[1]/placeName/@ref) = 'keinBezirk')">
+                  <xsl:value-of select="foo:index-sortiert('Wien', 'bf')"/>
+                  <xsl:text>!</xsl:text>
+                  <xsl:value-of select="foo:wienerBezirke($org-entry/*:location[1]/placeName/@ref)"/>
+                  <xsl:value-of
+                     select="foo:index-sortiert($org-entry/*:location[1]/placeName, 'bf')"/>
+                  <xsl:text>!</xsl:text>
+               </xsl:when>
+               <xsl:when test="$org-entry/*:location[1]/placeName/@ref = 'pmb50'">
+                  <xsl:value-of select="foo:index-sortiert('Wien', 'bf')"/>
+                  <xsl:text>!</xsl:text>
+               </xsl:when>
+               <xsl:when test="
                      $org-entry/*:location[1]/desc[@type = 'entity_type'] = 'Hauptstadt' or
                      $org-entry/*:location[1]/desc[@type = 'entity_type'] = 'Gemeinde'
                      or $org-entry/*:location[1]/desc[@type = 'entity_type'] = 'Besiedelter Ort' or $org-entry/*:location[1]/desc[@type = 'entity_type'] = 'Ort'">
-                     <xsl:value-of select="foo:index-sortiert($org-entry/*:location[1]/placeName, 'bf')"/>
-                     <xsl:text>!</xsl:text>
-                  </xsl:when>
-               </xsl:choose>
-               <xsl:value-of select="foo:index-sortiert($org-entry/orgName[1], 'up')"/>
-               <xsl:value-of select="$endung"/>
+                  <xsl:value-of
+                     select="foo:index-sortiert($org-entry/*:location[1]/placeName, 'bf')"/>
+                  <xsl:text>!</xsl:text>
+               </xsl:when>
+            </xsl:choose>
+            <xsl:value-of select="foo:index-sortiert($org-entry/orgName[1], 'up')"/>
+            <xsl:value-of select="$endung"/>
          </xsl:when>
          <xsl:when test="$org-entry/*:location[@type = 'located_in_place']">
             <xsl:for-each select="$org-entry/*:location[@type = 'located_in_place']">
@@ -768,9 +773,9 @@
                      <xsl:text>!</xsl:text>
                   </xsl:when>
                   <xsl:when test="
-                     desc[@type = 'entity_type'] = 'Hauptstadt' or
-                     desc[@type = 'entity_type'] = 'Gemeinde'
-                     or desc[@type = 'entity_type'] = 'Besiedelter Ort' or desc[@type = 'entity_type'] = 'Ort'">
+                        desc[@type = 'entity_type'] = 'Hauptstadt' or
+                        desc[@type = 'entity_type'] = 'Gemeinde'
+                        or desc[@type = 'entity_type'] = 'Besiedelter Ort' or desc[@type = 'entity_type'] = 'Ort'">
                      <xsl:value-of select="foo:index-sortiert(placeName, 'bf')"/>
                      <xsl:text>!</xsl:text>
                   </xsl:when>
@@ -780,7 +785,6 @@
             </xsl:for-each>
          </xsl:when>
          <xsl:otherwise>
-            
             <xsl:text>SEXSEX XXXX</xsl:text>
          </xsl:otherwise>
       </xsl:choose>
@@ -989,17 +993,20 @@
          <xsl:text>\setlength{\voffset}{\originalVOffset}</xsl:text>
          <xsl:text>\setlength{\hoffset}{\originalHOffset}</xsl:text>
          <!--<xsl:apply-templates select="TEI[@id = 'E_toDo']"/>-->
-         
          <xsl:text>\ihead{}</xsl:text>
          <xsl:text>\sloppy</xsl:text>
          <xsl:text>\idxlayout{columns=1, itemlayout=relhang,hangindent=1em, subindent=1em, subsubindent=2em, justific=RaggedRight, indentunit=1em, totoc=true}</xsl:text>
          <xsl:text>\setindexprenote{\small\noindent In Abwandlung eines Sachregisters werden die tatsächlichen und mutmaßlichen Fragen
-         verzeichnet, auf die Schnitzler in seinen Interviews antwortet oder zumindest zu antworten scheint. Verwandte Fragen wurden teilweise verallgemeinert, um Variationen der selben Frage zu vermeiden.}</xsl:text>
+         verzeichnet, auf die Schnitzler in seinen Interviews antwortet 
+         oder zumindest zu antworten scheint. Verwandte Fragen wurden
+         teilweise verallgemeinert, um Variationen derselben Frage 
+         zu vermeiden.\enlargethispage{-1em}}</xsl:text>
          <xsl:text>\normalsize{}</xsl:text>
          <xsl:text>\part*{Interviews}\clearpage </xsl:text>
          <!--<xsl:text>\addcontentsline{toc}{part}{Interviews}</xsl:text>-->
          <xsl:text>\addtocontents{toc}{%
-  \protect\contentsline{part}{Interviews}}</xsl:text><!-- keine Seitenzahl im Inhaltsverzeichnis -->
+  \protect\contentsline{part}{Interviews}}</xsl:text>
+         <!-- keine Seitenzahl im Inhaltsverzeichnis -->
          <xsl:apply-templates select="TEI[starts-with(@id, 'I')]"/>
          <xsl:value-of select="foo:latexAnhang('I')"/>
          <xsl:text>\footnotesize</xsl:text>
@@ -1020,12 +1027,13 @@
          <xsl:text>\mainmatter</xsl:text>
          <xsl:text>\setcounter{page}{\value{alte-seitenzahl-vor-neuen-titelseiten}+1}</xsl:text>
          <xsl:text>\addtocontents{toc}{%
-  \protect\contentsline{part}{Meinungen}}</xsl:text><!-- keine Seitenzahl im Inhaltsverzeichnis -->
+  \protect\contentsline{part}{Meinungen}}</xsl:text>
+         <!-- keine Seitenzahl im Inhaltsverzeichnis -->
          <xsl:text>\part*{Meinungen}\clearpage </xsl:text>
          <xsl:apply-templates select="TEI[starts-with(@id, 'M')]"/>
-            
          <xsl:text>\addtocontents{toc}{%
-  \protect\contentsline{part}{Proteste}}</xsl:text><!-- keine Seitenzahl im Inhaltsverzeichnis -->
+  \protect\contentsline{part}{Proteste}}</xsl:text>
+         <!-- keine Seitenzahl im Inhaltsverzeichnis -->
          <xsl:text>\part*{Proteste}\clearpage </xsl:text>
          <xsl:apply-templates select="TEI[starts-with(@id, 'P')]"/>
          <xsl:text>\makeatletter
@@ -1033,9 +1041,8 @@
          <xsl:text>\makeatother
          </xsl:text>
          <xsl:value-of select="foo:latexAnhang('P')"/>
-         
          <!--<xsl:text>\backmatter</xsl:text>-->
-        <!-- <xsl:text>\addtocontents{toc}{%
+         <!-- <xsl:text>\addtocontents{toc}{%
   \protect\contentsline{part}{Anhang}}</xsl:text>
          <xsl:text>\renewcommand*{\raggedsection}{%
  \CenteringLeftskip=1cm plus 1em\relax 
@@ -1066,7 +1073,8 @@
          <xsl:text>\newpage</xsl:text>
          <xsl:apply-templates select="TEI[@id = 'E_danksagung']"/>
          <xsl:text>\newpage
-         </xsl:text><!-- Entfernt Seitenzahlen der Parts -->
+         </xsl:text>
+         <!-- Entfernt Seitenzahlen der Parts -->
          <xsl:text>\lohead{\textsc{inhalt}}</xsl:text>
          <xsl:text>\small</xsl:text>
          <xsl:text>\tableofcontents{}</xsl:text>
@@ -1079,7 +1087,8 @@
             select="normalize-space(teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level = 'a'])"/>
          <xsl:text>}</xsl:text>
          <xsl:text>\lohead{\textsc{</xsl:text>
-         <xsl:value-of select="lower-case(descendant::titleStmt/title[@level = 'a']/fn:normalize-space(.))"/>
+         <xsl:value-of
+            select="lower-case(descendant::titleStmt/title[@level = 'a']/fn:normalize-space(.))"/>
          <xsl:text>}}</xsl:text>
          <xsl:text>\mylabel{</xsl:text>
          <xsl:value-of select="concat(foo:umlaute-entfernen(@id), 'v')"/>
@@ -1150,25 +1159,30 @@
       </xsl:variable>
       <xsl:variable name="dokument-id" select="@id"/>
       <xsl:choose>
-         <xsl:when test="starts-with($dokument-id, 'I') and count(preceding-sibling::TEI[@when and starts-with(@id,'I')])=0">
+         <xsl:when
+            test="starts-with($dokument-id, 'I') and count(preceding-sibling::TEI[@when and starts-with(@id, 'I')]) = 0">
             <xsl:text>\addchap*{</xsl:text>
             <xsl:value-of select="substring(@when, 1, 4)"/>
             <xsl:text>}</xsl:text>
          </xsl:when>
-         <xsl:when test="starts-with($dokument-id, 'M') and count(preceding-sibling::TEI[@when and starts-with(@id,'M')])=0">
+         <xsl:when
+            test="starts-with($dokument-id, 'M') and count(preceding-sibling::TEI[@when and starts-with(@id, 'M')]) = 0">
             <xsl:text>\addchap*{</xsl:text>
             <xsl:value-of select="substring(@when, 1, 4)"/>
             <xsl:text>}</xsl:text>
          </xsl:when>
          <xsl:when test="substring(@when, 1, 4) != $jahr-davor">
-            <xsl:text>\addchap*{</xsl:text><!-- before: \leavevmode -->
+            <xsl:text>\addchap*{</xsl:text>
+            <!-- before: \leavevmode -->
             <xsl:value-of select="substring(@when, 1, 4)"/>
-            <xsl:text>}</xsl:text></xsl:when>
+            <xsl:text>}</xsl:text>
+         </xsl:when>
       </xsl:choose>
       <xsl:choose>
          <xsl:when test="starts-with($dokument-id, 'E_')">
             <!-- Herausgeber*innentext -->
-            <xsl:text>\addchap{</xsl:text><!-- zuvor: \leavevmode -->
+            <xsl:text>\addchap{</xsl:text>
+            <!-- zuvor: \leavevmode -->
             <xsl:value-of
                select="normalize-space(teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level = 'a'])"/>
             <xsl:text>}</xsl:text>
@@ -1220,13 +1234,19 @@
       <xsl:variable name="preceding" select="count(preceding::TEI)"/>
       <xsl:text>\addcontentsline{toc}{chapter}{\makebox[</xsl:text>
       <xsl:choose>
-         <xsl:when test="$preceding &lt; 98"><xsl:text>9pt</xsl:text></xsl:when>
-         <xsl:otherwise><xsl:text>13.5pt</xsl:text></xsl:otherwise>
+         <xsl:when test="$preceding &lt; 98">
+            <xsl:text>9pt</xsl:text>
+         </xsl:when>
+         <xsl:otherwise>
+            <xsl:text>13.5pt</xsl:text>
+         </xsl:otherwise>
       </xsl:choose>
       <xsl:text>][r]{</xsl:text>
-      <xsl:value-of select="$preceding"/><xsl:text>}. </xsl:text>
+      <xsl:value-of select="$preceding"/>
+      <xsl:text>}. </xsl:text>
       <xsl:value-of
-         select="foo:sectionInToc(teiHeader/fileDesc/titleStmt/title[@level = 'a'], 0, count(contains(teiHeader/fileDesc/titleStmt/title[@level = 'a'], ',')))"/><xsl:text>}</xsl:text>
+         select="foo:sectionInToc(teiHeader/fileDesc/titleStmt/title[@level = 'a'], 0, count(contains(teiHeader/fileDesc/titleStmt/title[@level = 'a'], ',')))"/>
+      <xsl:text>}</xsl:text>
       <xsl:text>\nopagebreak\mylabel{</xsl:text>
       <xsl:value-of select="concat($dokument-id, 'v')"/>
       <xsl:text>}\stepcounter{countcount}</xsl:text>
@@ -1270,7 +1290,7 @@
          </xsl:otherwise>
       </xsl:choose>
       <!-- Das hier setzt den Anhang ans Ende von Interviews und Proteste -->
-    <!--  <xsl:variable name="id-typ" select="substring(@id, 1, 1)" as="xs:string"/>
+      <!--  <xsl:variable name="id-typ" select="substring(@id, 1, 1)" as="xs:string"/>
       <xsl:choose>
          <xsl:when test="$id-typ = 'I' and following-sibling::TEI[1]/starts-with(@id, 'M')">
             <xsl:value-of select="foo:latexAnhang($id-typ)"/>
@@ -1298,7 +1318,8 @@
    </xsl:template>
    <xsl:template
       match="div[not(@type = 'biographical' or @type = 'image') and not(ancestor::TEI/starts-with(@id, 'E_'))]">
-      <xsl:variable name="lunguage" select="ancestor::TEI[1]/teiHeader[1]/profileDesc[1]/langUsage[1]/language[1]" as="node()?"/>
+      <xsl:variable name="lunguage"
+         select="ancestor::TEI[1]/teiHeader[1]/profileDesc[1]/langUsage[1]/language[1]" as="node()?"/>
       <xsl:variable name="language" as="xs:string">
          <xsl:choose>
             <xsl:when test="not(@lang)">
@@ -1336,7 +1357,8 @@
          <xsl:when test="$language = 'ru'">
             <xsl:text>\selectlanguage{russian}</xsl:text>
          </xsl:when>
-         <xsl:when test="$language = 'de' and (@ana='alte-rechtschreibung' or $lunguage/@ana='alte-rechtschreibung') ">
+         <xsl:when
+            test="$language = 'de' and (@ana = 'alte-rechtschreibung' or $lunguage/@ana = 'alte-rechtschreibung')">
             <xsl:text>\selectlanguage{german}</xsl:text>
          </xsl:when>
          <xsl:when test="$language = 'de'">
@@ -1457,7 +1479,8 @@
          <xsl:text>}{</xsl:text>
          <!--Einfügen des Dateinamens <xsl:value-of select="ancestor::TEI/@id"/>
          <xsl:text> </xsl:text>-->
-         <xsl:value-of select="$titel-ohne-datum"/><xsl:text> </xsl:text>
+         <xsl:value-of select="$titel-ohne-datum"/>
+         <xsl:text> </xsl:text>
          <xsl:value-of select="foo:date-translate($datum)"/>
          <xsl:text>\nopagebreak}</xsl:text>
          <!-- Wenn es Adressen gibt, diese in die Endnote -->
@@ -3373,7 +3396,7 @@
    <xsl:template match="lb[parent::item]">
       <xsl:text>{\newline}</xsl:text>
    </xsl:template>
-   <xsl:template match="note[@type='footnote' and ancestor::text/body]">
+   <xsl:template match="note[@type = 'footnote' and ancestor::text/body]">
       <xsl:text>\footnote{</xsl:text>
       <xsl:for-each select="p">
          <xsl:apply-templates select="."/>
@@ -3443,7 +3466,6 @@
          </xsl:when>
       </xsl:choose>
       <xsl:apply-templates/>
-      
       <xsl:choose>
          <xsl:when test="@rend = 'center'">
             <xsl:text>\end{center}</xsl:text>
@@ -3460,7 +3482,7 @@
       </xsl:if>
    </xsl:template>
    <xsl:template
-      match="p[(ancestor::body and not(ancestor::TEI[starts-with(@id, 'E')]) and not(child::space[@dim] and not(child::*[2]) and empty(text())) and not(ancestor::div[@type = 'biographical']) and not(parent::note[@type='footnote']))] | closer | dateline">
+      match="p[(ancestor::body and not(ancestor::TEI[starts-with(@id, 'E')]) and not(child::space[@dim] and not(child::*[2]) and empty(text())) and not(ancestor::div[@type = 'biographical']) and not(parent::note[@type = 'footnote']))] | closer | dateline">
       <!--     <xsl:if test="self::closer">\leftskip=1em{}</xsl:if>
 -->
       <xsl:if test="self::p[@rend = 'inline']">
@@ -3898,7 +3920,7 @@
    </xsl:template>
    <!-- anchors in Fussnoten, sehr seltener Fall-->
    <xsl:template
-      match="anchor[(@type = 'textConst' or @type = 'commentary') and ancestor::note[@type='footnote']]">
+      match="anchor[(@type = 'textConst' or @type = 'commentary') and ancestor::note[@type = 'footnote']]">
       <xsl:variable name="xmlid" select="concat(@id, 'h')"/>
       <xsl:text>\label{</xsl:text>
       <xsl:value-of select="@id"/>
@@ -3917,7 +3939,7 @@
    </xsl:template>
    <!-- Normaler anchor, Inhalt leer -->
    <xsl:template
-      match="anchor[(@type = 'textConst' or @type = 'commentary') and not(ancestor::note[@type='footnote'])]">
+      match="anchor[(@type = 'textConst' or @type = 'commentary') and not(ancestor::note[@type = 'footnote'])]">
       <xsl:text>\label{</xsl:text>
       <xsl:value-of select="@id"/>
       <xsl:text>v}</xsl:text>
@@ -3925,13 +3947,13 @@
       <xsl:apply-templates/>
    </xsl:template>
    <xsl:template
-      match="note[(@type = 'textConst' or @type = 'commentary') and not(ancestor::note[@type='footnote'])]"
+      match="note[(@type = 'textConst' or @type = 'commentary') and not(ancestor::note[@type = 'footnote'])]"
       mode="lemma"/>
    <xsl:template match="space[@unit = 'chars' and @quantity = '1']" mode="lemma">
       <xsl:text> </xsl:text>
    </xsl:template>
    <xsl:template
-      match="note[(@type = 'textConst' or @type = 'commentary') and not(ancestor::note[@type='footnote'])]">
+      match="note[(@type = 'textConst' or @type = 'commentary') and not(ancestor::note[@type = 'footnote'])]">
       <xsl:text>}{</xsl:text>
       <!-- Der Teil hier bildet das Lemma und kürzt es -->
       <xsl:variable name="lemma-start" as="xs:string"
@@ -4002,21 +4024,19 @@
             <xsl:text>}}}</xsl:text>
          </xsl:when>
          <xsl:otherwise>
-            <xsl:text>}}}}</xsl:text><!-- eins mehr wegen foreignlanguage -->
+            <xsl:text>}}}}</xsl:text>
+            <!-- eins mehr wegen foreignlanguage -->
          </xsl:otherwise>
       </xsl:choose>
-      
       <!--<xsl:choose>
          <xsl:when test="ancestor::"></xsl:when>
       </xsl:choose>-->
       <xsl:text>\label{</xsl:text>
       <xsl:value-of select="@id"/>
       <xsl:text>}</xsl:text>
-      
-      
    </xsl:template>
    <xsl:template
-      match="note[(@type = 'textConst' or @type = 'commentary') and (ancestor::note[@type='footnote'])]">
+      match="note[(@type = 'textConst' or @type = 'commentary') and (ancestor::note[@type = 'footnote'])]">
       <!--     <xsl:text>\toendnotes[C]{</xsl:text>
       <xsl:apply-templates/>
       <xsl:text>\par}</xsl:text>-->
@@ -4158,7 +4178,7 @@
          </xsl:when>
          <xsl:when test="ancestor::TEI[substring(@id, 1, 1) = 'E']">
             <xsl:choose>
-               <xsl:when test="substring(current(), 1, 1) = '»' and @type='poem'">
+               <xsl:when test="substring(current(), 1, 1) = '»' and @type = 'poem'">
                   <xsl:text>\begin{quoting}[leftmargin=5em]\noindent{}</xsl:text>
                   <xsl:apply-templates/>
                   <xsl:text>\normalsize\end{quoting}</xsl:text>
@@ -4195,8 +4215,6 @@
          </xsl:otherwise>
       </xsl:choose>
    </xsl:template>
-   
-   
    <xsl:template match="lg[@type = 'stanza']">
       <xsl:text>\stanza[\vspace\parskip]{{}</xsl:text>
       <xsl:apply-templates/>
@@ -4222,7 +4240,7 @@
    <xsl:template match="c[@rendition = '#kaufmannsund']">
       <xsl:text>{\kaufmannsund}</xsl:text>
    </xsl:template>
-   <xsl:template match="c[@rendition='#ornament']">
+   <xsl:template match="c[@rendition = '#ornament']">
       <xsl:text>\vspace{0.75\baselineskip}</xsl:text>
       <xsl:text>\hspace{-1em}\raisebox{1pt}{*}\hspace{1em}\raisebox{-2pt}{*}\hspace{1em}\raisebox{1pt}{*}</xsl:text>
       <xsl:text>\vspace{1.25\baselineskip}</xsl:text>
@@ -4262,7 +4280,8 @@
          </xsl:when>
          <xsl:when test="@hand or @n = '1'">
             <xsl:choose>
-               <xsl:when test="contains(., 'y') or contains(., 'g') or contains(., 'p') or contains(., 'q')">
+               <xsl:when
+                  test="contains(., 'y') or contains(., 'g') or contains(., 'p') or contains(., 'q')">
                   <xsl:text>\setul{}{0.3pt}\setuldepth{ygpq}</xsl:text>
                   <xsl:text>\ul{</xsl:text>
                   <xsl:apply-templates/>
@@ -4660,14 +4679,14 @@
    </xsl:template>
    <!-- Großbuchstaben -->
    <xsl:template
-      match="hi[@rend = 'capitals' and not(descendant::note or descendant::note[@type='footnote'])]//text()">
+      match="hi[@rend = 'capitals' and not(descendant::note or descendant::note[@type = 'footnote'])]//text()">
       <xsl:value-of select="upper-case(.)"/>
    </xsl:template>
    <xsl:template
-      match="hi[@rend = 'capitals' and (descendant::note or descendant::note[@type='footnote'])]//text()">
+      match="hi[@rend = 'capitals' and (descendant::note or descendant::note[@type = 'footnote'])]//text()">
       <xsl:choose>
          <xsl:when
-            test="ancestor-or-self::note[@type='footnote' and not(descendant::hi[@rend = 'capitals'])] | ancestor-or-self::note[not(descendant::hi[@rend = 'capitals'])]">
+            test="ancestor-or-self::note[@type = 'footnote' and not(descendant::hi[@rend = 'capitals'])] | ancestor-or-self::note[not(descendant::hi[@rend = 'capitals'])]">
             <xsl:value-of select="."/>
          </xsl:when>
          <xsl:otherwise>
@@ -4918,7 +4937,8 @@
       <!-- Das soll die Varianten abfangen, dass mehrere Verfasser an einem Werk beteiligt sein können -->
       <xsl:param name="first" as="xs:string"/>
       <xsl:param name="endung" as="xs:string"/>
-      <xsl:variable name="work-entry-authors" select="key('work-lookup', $first, $works)/author[@ref='pmb2121' or not(@role='hat-einen-beitrag-geschaffen-zu')]"/>
+      <xsl:variable name="work-entry-authors"
+         select="key('work-lookup', $first, $works)/author[@ref = 'pmb2121' or not(@role = 'hat-einen-beitrag-geschaffen-zu')]"/>
       <xsl:variable name="work-entry-authors-count" select="count($work-entry-authors)"/>
       <xsl:choose>
          <xsl:when test="not(key('work-lookup', $first, $works))">
@@ -5802,6 +5822,8 @@
       <xsl:value-of select="concat('{', normalize-space(.), '}')"/>
    </xsl:template>
    <xsl:template match="*:latex">
-      <xsl:text>{</xsl:text><xsl:value-of select="@alt"/><xsl:text>}</xsl:text>
+      <xsl:text>{</xsl:text>
+      <xsl:value-of select="@alt"/>
+      <xsl:text>}</xsl:text>
    </xsl:template>
 </xsl:stylesheet>

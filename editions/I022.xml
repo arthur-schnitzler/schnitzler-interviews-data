@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I022" next="M164" prev="M166">
+   xml:base="schnitzler-interviews" xml:id="I022" next="M164" prev="M166" latex="\newpage">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -107,8 +107,7 @@
    </teiHeader><text type="text">
       <body>
          <div type="original" xml:lang="en-US">
-            <head>Nations Must Check the Spread of Hate</head>
-            <head type="sub">Declares Noted <rs type="place" ref="#pmb41240">Austrian</rs>
+            <head>Nations Must Check the Spread of Hate Declares Noted <rs type="place" ref="#pmb41240">Austrian</rs>
                <space unit="chars" quantity="1"/>
                <rs type="person" ref="#pmb2121">
                   <anchor type="textConst" xml:id="T_I022-1"/>Schnitzler<note type="textConst"
@@ -118,10 +117,10 @@
                </rs>, Leader of <rs type="place" ref="#pmb50">Viennese</rs> Dramatists</head>
             <head type="sub">»What Is Becoming of <rs type="place" ref="#pmb468">Europe</rs>?« Asks
                Master Mind – »We See More Hate Than Before the War« – The Terror of Old Battles and
-               Slaughter is Lost in the Vistas of Time – World has Grown Careless of Human
+               Slaughter is Lost in the Vistas of Time – World has Grown Careless <latex alt="\\"/>of Human
                Life.</head>
             <head type="sub">By Herman Bernstein</head>
-            <p>
+            <p><latex alt="\enlargethispage{-1em}"/>
                <anchor type="commentary" xml:id="KT108-1"/>What<note type="commentary"
                   xml:id="KT108-1h">Bevor es bei beiden mit »<quote>
                      <foreign xml:lang="en-US">›What is becoming of <rs type="place" ref="#pmb468"
@@ -212,7 +211,7 @@
             <p>»What is becoming of <rs type="place" ref="#pmb468">Europe</rs>?« said <rs
                   type="person" ref="#pmb2121">Schnitzler</rs>. »The hate which has been intensified
                by the war is growing and spreading, and the most dreadful feature of it all is that
-               people are talking of now wars in the near future.</p>
+               people are talking of new wars in the near future.</p>
             <p>
                <anchor type="commentary" xml:id="KT108-2"/>»It<note type="commentary"
                   xml:id="KT108-2h">In der Buchausgabe beginnt der Absatz mit: »<quote>

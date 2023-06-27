@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I131" next="I097" prev="I116">
+   xml:base="schnitzler-interviews" xml:id="I131" next="I097" prev="I116"  latex="\newpage">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -65,6 +65,7 @@
             </figure>
          </div>
          <div type="original" xml:lang="sv-SE">
+            <latex alt="\enlargethispage{1em}"/>
             <head>
                <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> nu i <rs type="place"
                   ref="#pmb1119">Stockholm</rs>.</head>
@@ -194,9 +195,9 @@
                die abgewetzten Bretter des Bahnsteigs und unterhielt sich angeregt mit seinem <rs
                   type="place" ref="#pmb44335">schwedischen</rs> Übersetzer, dem Regisseur <rs
                   type="person" ref="#pmb20474">Gustaf Linden</rs>, und dessen <rs subtype="implied"
-                  ref="#pmb20478" type="person">Frau</rs> sowie mit dem Dir. <rs type="person"
+                  ref="#pmb20478" type="person">Frau</rs> sowie mit Dir.&#160;<rs type="person"
                   ref="#pmb21998">Nordberger</rs>, dem wir es verdanken, dass <rs type="person"
-                  ref="#pmb2121">Schnitzler</rs> hierher gekommen ist. </p>
+                  ref="#pmb2121">Schnitzler</rs> hierhergekommen ist. </p>
             <p>Nachdem Dr. <rs type="person" ref="#pmb2121">Schnitzler</rs> eilig gefrühstückt
                hatte, war er so freundlich, den Mitarbeitern von <rs type="org" ref="#pmb62336"
                   >Aftonbladet</rs> ein paar Minuten zu widmen, und begann das Interview selbst,
@@ -222,7 +223,7 @@
                auf die Literatur stellt.</p>
             <p>»Natürlich wird der große Weltkonflikt seine Spuren in der Poesie hinterlassen, da
                bin ich mir sicher. Aber bisher ist es noch nicht spürbar. Es ist, als ob die Autoren
-               sich nicht trauten, ihre Arbeit zu veröffentlichen, irgendetwas hält sie zurück. Ich
+               sich nicht trauten, ihre Arbeit zu <latex alt="ver\-öffent\-lichen">veröffentlichen</latex>, irgendetwas hält sie zurück. Ich
                sehe es an mir selbst. Lassen Sie mich eine kleine Eigentümlichkeit erzählen.</p>
             <p>Im Jahr <date>1908</date> skizzierte ich ein neues <rs
                   type="work" subtype="implied" ref="#pmb30205">Drama</rs>, das mit dem Ausbruch
@@ -276,7 +277,7 @@
                und auf die Bühne und vertrieben so das Publikum. Gegen den ›<rs type="work"
                   ref="#pmb29855">Reigen</rs>‹ als Lesedrama hatte niemand etwas einzuwenden, aber
                wenn er aufgeführt wurde<c rendition="#dots" n="3"/> Den Grund habe ich genannt: Der
-                  ›<rs type="work" ref="#pmb29855">Reigen</rs>‹ ist nicht unmoralisch, und es gibt
+                  ›<rs type="work" ref="#pmb29855">Reigen</rs>‹ ist nicht <latex alt="un\-moralisch">unmoralisch</latex>, und es gibt
                überhaupt keine Moral oder Unmoral in der Kunst.«</p>
             <p>
                <ref type="question" target="#q056"/>»Wie sind die Bedingungen in <rs type="place"
@@ -284,7 +285,7 @@
             <p>»Ein Ausländer, der dort hinkommt, wird wahrscheinlich den Eindruck haben, dass alles sienen gewohnten
                Gang geht, und
                wird wahrscheinlich gar nicht die Not bemerken, die noch herrscht. Besonders
-               schwierig ist es für die sogenannte Intelligenz. Die Schriftsteller leben unter
+               schwierig ist es für die sogenannte <latex alt="Intel\-ligenz">Intelligenz</latex>. Die Schriftsteller leben unter
                äußerst bedrückenden Bedingungen. Es ist fast unmöglich, ein Buch zu veröffentlichen,
                wegen der damit verbundenen Kosten. Es ist jedoch nicht mehr ganz so miserabel wie
                noch vor einigen Jahren, und es gibt Anzeichen für eine Veränderung zum Besseren, was vor
