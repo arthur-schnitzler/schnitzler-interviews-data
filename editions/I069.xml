@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I069" next="I091" prev="M177">
+   xml:base="schnitzler-interviews" xml:id="I069" next="I091" prev="M177" latex="\newpage">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -341,7 +341,7 @@
                </hi>
             </p>
          </div>
-         <div type="translation">
+         <div type="translation" xml:lang="de-DE">
             <head>Letztes Gespräch mit <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> über
                sich selbst als Arzt, über <rs type="person" ref="#pmb5257">Steinach</rs> und <rs
                   type="person" ref="#pmb56551">Voronoff</rs>, über die Erotik, über <rs
@@ -363,14 +363,14 @@
                   type="person" ref="#pmb2121">Arthur <hi rend="italics">Schnitzler</hi>
                </rs> zum letzten Mal getroffen. Als ich ihn ersuchte, sich über aktuelle Themen und
                über sich selbst zu äußern, sträubte er sich zunächst. Schließlich begann er doch zu
-               lächeln. Fortwährend spielte dann ein melancholisches, nachdenkliches Lächeln um
+               lächeln. Fortwährend spielte dann ein melancholisches, <latex alt="nach\-denk\-liches">nachdenkliches</latex> Lächeln um
                seinen Mund. Einst mag das das teils sarkastische, teils herablassende, teils
                höhnische, teils traurige Lächeln des <rs type="work" ref="#pmb29935">Anatol</rs>
                gewesen sein; in den letzten Jahren gewann die Traurigkeit Oberhand; von der
                leichtsinnigen Melancholie des <rs type="work" ref="#pmb29935">Anatol</rs> ist nur
                noch reine Melancholie übrig geblieben; von blasierter Resignation nur noch die
                Resignation.</p>
-            <p>Als wenn er bemerkt hätte, dass ich eben diese Veränderung, dieses stille Verwelken
+            <p>Als wenn er bemerkt hätte, dass ich ebendiese Veränderung, dieses stille Verwelken
                beobachtete, wandte er sich mir unvermittelt zu:</p>
             <p rend="inline">– Nein, Sie sind im Irrtum, <hi rend="italics">ich bin nicht müde, bloß
                   resigniert.</hi> Ja, glauben Sie mir, trotz aller Bitternisse meines Lebens hänge
@@ -389,7 +389,7 @@
                allerlei Dinge, bloß nicht um die Antworten, die ich von <rs type="person"
                   ref="#pmb2121">
                   <hi rend="italics">Schnitzler</hi>
-               </rs> haben wollte. Jetzt, wo er gestorben ist, und sein Tod mich der Pflicht zur
+               </rs> haben wollte. Jetzt, wo er gestorben ist und sein Tod mich der Pflicht zur
                Diskretion enthebt, darf ich alles sagen, was ich damals von ihm gehört habe. Ich
                rekonstruiere das ganze Gespräch aus meinem Gedächtnis.</p>
             <p>Zunächst sprach <rs type="person" ref="#pmb2121">
@@ -471,7 +471,7 @@
                der Kultusminister und der Mediziner zusammen ein Komplott. Das ist kein Zufall.
                Das ist die heilige Allianz der Mittelmäßigkeit und der Dummheit. Vom Kultusminister
                bis zum Kliniker gehören sie alle zum <rs type="org" ref="#pmb29481"
-                  >Ku-Klux-Klan</rs> der Mittelmäßigkeit. Dieser <rs type="org" ref="#pmb29481"
+                  >Ku-Klux-Klan</rs> der <latex alt="Mittel\-mäßig\-keit">Mittelmäßigkeit</latex>. Dieser <rs type="org" ref="#pmb29481"
                   >Ku-Klux-Klan</rs> richtet sich aber nicht gegen die Einwanderer, sondern gegen
                den großen Menschen. <rs type="work" ref="#pmb30203" subtype="implied">
                   <hi rend="italics">Bernhardi</hi>
@@ -531,7 +531,7 @@
                   xml:id="T_import_136h">
                   <quote>ewiges</quote>
                </note> Reigen. Ich für meinen Teil interessiere mich daher weit mehr für die <anchor
-                  xml:id="K_import_137" type="commentary"/>sozialen und medizinischen, denn für
+                  xml:id="K_import_137" type="commentary"/>sozialen und medizinischen denn für
                   Liebesprobleme.<note type="commentary" xml:id="K_import_137h">
                   <ref target="#I072-Lerot" type="pointer" subtype="cf"/>
                </note> Ich glaube aber fest, dass man sich weder ärztliche noch soziale Probleme
@@ -540,7 +540,7 @@
             <p rend="inline">– In alten Lustspielen fand sich häufig der Ausdruck: <hi
                   rend="italics">Cherchez la femme! Was meinen Sie, was ist denn eigentlich die <rs
                      type="person" ref="#pmb11370">Freud</rs>’sche Theorie? Das ewige Cherchez la
-                  femme! Hinter allem Möglichen steckt eine Frau, sogar hinter den sozialen
+               femme! Hinter allem <latex alt="Mög\-lichen">Möglichen</latex> steckt eine Frau, sogar hinter den sozialen
                   Problemen, auch hinter den Heldentaten, den Krankheiten.</hi>
                <anchor type="commentary" xml:id="K_I069-45"/>Professor <hi rend="italics">
                   <rs type="person" ref="#pmb11370">Freud</rs>

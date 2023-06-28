@@ -970,7 +970,7 @@
       <xsl:text>\lohead{\textsc{quellennachweis und erläuterungen}}</xsl:text>
       <xsl:text>\noindent{}</xsl:text>
       <xsl:text>\begin{description}[font=\normalsize\upshape, labelwidth=3.4em, itemsep=0em,leftmargin=2.4em]</xsl:text>
-      <xsl:text>\item[\symstandort]{Standort im Archiv}</xsl:text>
+      <!--<xsl:text>\item[\symstandort]{Standort im Archiv}</xsl:text>-->
       <xsl:text>\item[\symweiteredrucke]{Weitere Drucke}</xsl:text>
       <xsl:text>\item[\symhead]{Biografische Zeugnisse}</xsl:text>
       <xsl:text>\end{description}</xsl:text>
@@ -1269,12 +1269,26 @@
       <xsl:value-of select="foo:monatUndJahrInKopfzeile(@when)"/>
       <xsl:apply-templates select="image"/>
       <xsl:apply-templates select="text"/>
-      <xsl:if test="descendant::sourceDesc[not(listWit)]/listBibl/biblStruct[1]">
+      <xsl:if test="descendant::sourceDesc/listWit/witness[1] or descendant::sourceDesc[not(listWit)]/listBibl/biblStruct[1]">
+         <xsl:text>\begin{footnotesize}</xsl:text>
+         <xsl:choose>
+            <xsl:when test="descendant::sourceDesc/listWit/witness[1]">
+               <xsl:value-of
+                  select="foo:witnessAlsSectionAnhang(descendant::sourceDesc/listWit/witness[1], true())"/>
+            </xsl:when>
+            <xsl:when test="descendant::sourceDesc[not(listWit)]/listBibl/biblStruct[1]">
+               <xsl:value-of
+                  select="foo:buchAlsSectionAnhang(descendant::sourceDesc[not(listWit)]/listBibl, true())"/>
+            </xsl:when>
+         </xsl:choose>
+         <xsl:text>\end{footnotesize}</xsl:text>
+      </xsl:if>
+      <!--<xsl:if test="descendant::sourceDesc[not(listWit)]/listBibl/biblStruct[1]">
          <xsl:text>\begin{footnotesize}</xsl:text>
          <xsl:value-of
             select="foo:buchAlsSectionAnhang(descendant::sourceDesc[not(listWit)]/listBibl, true())"/>
          <xsl:text>\end{footnotesize}</xsl:text>
-      </xsl:if>
+      </xsl:if>-->
       <xsl:text>\mylabel{</xsl:text>
       <xsl:value-of select="concat($dokument-id, 'h')"/>
       <xsl:text>}</xsl:text>
@@ -2440,7 +2454,9 @@
    <xsl:template match="msDesc">
       <xsl:apply-templates/>
    </xsl:template>
-   <xsl:template match="msIdentifier">
+   <xsl:template match="witness[(fn:position()=1)]/msDesc[1]/msIdentifier"/>
+   <xsl:template match="witness[not(fn:position()=1)]/msDesc[1]/msIdentifier"><!-- hier reingepfuscht,
+   damit bei ASI der Standort vorne nach dem Text stehen kann-->
       <xsl:text>\Standort{</xsl:text>
       <xsl:apply-templates/>
       <!-- Kürzel für bestimmte Archive : -->
@@ -3043,7 +3059,20 @@
       </xsl:choose>
       <xsl:text>. </xsl:text>
    </xsl:function>
-   <!-- Sonderfunktion für ASI, wo der Buchtitel als Sectiontitel steht. Kann gelöscht werden, wenn nicht -->
+   <!-- Sonderfunktion für ASI, wo der erste Zeuge nach dem Text steht -->
+   <xsl:function name="foo:witnessAlsSectionAnhang">
+      <xsl:param name="witness-quellen" as="node()"/>
+      <xsl:param name="ists-druckvorlage" as="xs:boolean"/>
+      <xsl:variable name="msIdentify" select="$witness-quellen//msIdentifier[1]"/>
+      <!-- wenn hier true ist, dann wird die erste bibliografische Angabe als Druckvorlage ausgewiesen -->
+      <xsl:text>\bigskip</xsl:text>
+      <xsl:text>\begin{addmargin}[2cm]{0cm}\begin{flushleft}</xsl:text>
+      <xsl:text>Archivquelle: </xsl:text>
+      <xsl:value-of select="normalize-space($msIdentify/settlement)"/><xsl:text>, </xsl:text>
+      <xsl:value-of select="normalize-space($msIdentify/repository)"/><xsl:text>, </xsl:text>
+      <xsl:value-of select="normalize-space($msIdentify/idno)"/><xsl:text>.</xsl:text>
+      <xsl:text>\end{flushleft}\end{addmargin}</xsl:text>
+   </xsl:function>
    <xsl:function name="foo:buchAlsSectionAnhang">
       <xsl:param name="gedruckte-quellen" as="node()"/>
       <xsl:param name="ists-druckvorlage" as="xs:boolean"/>
@@ -3103,20 +3132,9 @@
                </xsl:when>
                <!-- Hier der nicht siglierte Teil -->
                <xsl:otherwise>
-                  <xsl:choose>
-                     <!-- ASI Sonderfall: Der analytic-Teil kann wegfallen, wenn Schnitzler der einzige Autor -->
-                     <xsl:when
-                        test="$gedruckte-quellen/biblStruct[1]/analytic[1]/author/@ref = '#pmb2121' and not($gedruckte-quellen/biblStruct[1]/analytic[1]/author[2])">
-                        <xsl:value-of
-                           select="foo:bibliographische-angabe($gedruckte-quellen/biblStruct[1], false(), false())"
-                        />
-                     </xsl:when>
-                     <xsl:otherwise>
-                        <xsl:value-of
-                           select="foo:bibliographische-angabe($gedruckte-quellen/biblStruct[1], true(), false())"
-                        />
-                     </xsl:otherwise>
-                  </xsl:choose>
+                  <xsl:value-of
+                     select="foo:bibliographische-angabe($gedruckte-quellen/biblStruct[1], true(), false())"
+                  />
                </xsl:otherwise>
             </xsl:choose>
             <xsl:text>}</xsl:text>
@@ -3130,60 +3148,6 @@
       <xsl:param name="ists-druckvorlage" as="xs:boolean"/>
       <!-- wenn hier true ist, dann wird die erste bibliografische Angabe als Druckvorlage ausgewiesen -->
       <!-- ASI SPEZIAL: NACHDEM DIE QUELLE UNTERHALB DES FLIESSTEXTES STEHT, WIRD SIE HIER NIE WIEDERGEGEBEN, DRUM NÄCHSTES IF AUSKOMMENTIERT -->
-      <!--<xsl:if 
-            test="not($ists-druckvorlage) and not($gedruckte-quellen/biblStruct[1]/@corresp = 'ASTB')">
-            <!-\-test="($ists-druckvorlage) and not($gedruckte-quellen/biblStruct[1]/@corresp = 'ASTB')">-\-><!-\- Das ist die richtige Variante. Aber da in ASI die erste Buchangabe als Section-Titel 
-            gebraucht wird, wurde durch das not($ists-druckvorlage) die Wiederholung im Buchanhang ausgeschalten-\->
-            <!-\- Schnitzlers Tagebuch kommt nicht rein -\->
-            <xsl:text>\buchAlsQuelle{</xsl:text><!-\- Diese Zeile statt der vorigen ist die alte Einstellung, die die bibliografische Angabe in den Anhang schreibt -\->
-            <xsl:choose>
-               <!-\- Für denn Fall, dass es sich um siglierte Literatur handelt: -\->
-               <xsl:when test="$gedruckte-quellen/biblStruct[1]/@corresp">
-                  <!-\- Siglierte Literatur -\->
-                  <xsl:variable name="seitenangabe" as="xs:string?"
-                     select="$gedruckte-quellen/biblStruct[1]/descendant::biblScope[@unit = 'pp']"/>
-                  <!-\- Zuerst indizierte Sachen in den Index: -\->
-                  <xsl:for-each select="$gedruckte-quellen/biblStruct[1]//title/@ref">
-                     <xsl:value-of select="foo:werk-indexName-Routine-autoren(., '|pwk}')"/>
-                  </xsl:for-each>
-                  <xsl:choose>
-                     <!-\- Der Analytic-Teil wird auch bei siglierter Literatur ausgegeben -\->
-                     <xsl:when
-                        test="not(empty($gedruckte-quellen/biblStruct[1]/analytic)) and empty($seitenangabe)">
-                        <xsl:value-of select="foo:analytic-angabe($gedruckte-quellen/biblStruct[1])"/>
-                        <xsl:text>In: </xsl:text>
-                        <xsl:value-of
-                           select="foo:sigle-schreiben($gedruckte-quellen/biblStruct[1]/@corresp, '')"
-                        />
-                     </xsl:when>
-                     <xsl:when
-                        test="not(empty($gedruckte-quellen/biblStruct[1]/analytic)) and not(empty($seitenangabe))">
-                        <xsl:value-of select="foo:analytic-angabe($gedruckte-quellen/biblStruct[1])"/>
-                        <xsl:text>In: </xsl:text>
-                        <xsl:value-of
-                           select="foo:sigle-schreiben($gedruckte-quellen/biblStruct[1]/@corresp, $seitenangabe)"
-                        />
-                     </xsl:when>
-                     <xsl:when test="empty($seitenangabe)">
-                        <xsl:value-of
-                           select="foo:sigle-schreiben($gedruckte-quellen/biblStruct[1]/@corresp, '')"
-                        />
-                     </xsl:when>
-                     <xsl:otherwise>
-                        <xsl:value-of
-                           select="foo:sigle-schreiben($gedruckte-quellen/biblStruct[1]/@corresp, $seitenangabe)"
-                        />
-                     </xsl:otherwise>
-                  </xsl:choose>
-               </xsl:when>
-               <xsl:otherwise>
-                  <xsl:value-of
-                     select="foo:bibliographische-angabe($gedruckte-quellen/biblStruct[1], true())"
-                  />
-               </xsl:otherwise>
-            </xsl:choose>
-            <xsl:text>}</xsl:text>
-         </xsl:if>-->
       <xsl:choose>
          <xsl:when
             test="($ists-druckvorlage and $gedruckte-quellen/biblStruct[2]) or (not($ists-druckvorlage) and $gedruckte-quellen/biblStruct[1])">
