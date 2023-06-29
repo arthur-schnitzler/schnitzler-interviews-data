@@ -1223,7 +1223,7 @@
                   <xsl:variable name="zuLebzeiten"
                      select="descendant::listBibl[1]/biblStruct[1]/monogr[1]/imprint[1]/date[1]/substring(@when, 1, 4)"
                      as="xs:string?"/>
-                  <xsl:if test="number($zuLebzeiten) &gt; 1932">
+                  <xsl:if test="number($zuLebzeiten) &gt; 1937">
                      <xsl:text>\unveroeffentlicht</xsl:text>
                   </xsl:if>
                </xsl:when>

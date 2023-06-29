@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I102" next="M077" prev="I033">
+   xml:base="schnitzler-interviews" xml:id="I102" next="M077" prev="I033" latex="\newpage">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -61,6 +61,7 @@
    </facsimile><text type="text">
       <body>
          <div type="original" xml:lang="dk-DK">
+            <latex alt="\enlargethispage{1em}"/>
             <head>Hos Arthur Schnitzler.</head>
             <head type="sub">Et Digterhjem.</head>
             <head type="sub">Interview med <rs type="place" ref="#pmb41240">Østerrigs</rs> førende
@@ -151,6 +152,7 @@
             <p>»Jeg maa dertil sige: Problemet er kun berørt i det nævnte Stykke. Der er mere
                Stemning end egenlig Udarbejdelse af Problemet. Der stikker mere deri, end man kan
                udforme i én Akt.«</p>
+            
             <p>Og »<rs type="work" ref="#pmb29899">Freiwild</rs>«, som jo snart skal opføres paa
                   »<rs type="place" ref="#pmb20">Deutsches Volkstheater</rs>«?</p>
             <p>»Ja, det er ikke noget rigtig godt Stykke. De ved maaske, at man i militære Kredse
@@ -281,7 +283,7 @@
             <p>
                <rs type="person" ref="#pmb2121">Schnitzler</rs>s Wohnung ist im <anchor
                   type="commentary" xml:id="K_I102-1"/>zweiten Stock<note type="commentary"
-                  xml:id="K_I102-1h">Das Haus besteht aus Erdgeschoß und zwei Stockwerken, wobei <rs
+                  xml:id="K_I102-1h">Das Haus besteht aus Erdgeschoss und zwei Stockwerken, wobei <rs
                      type="person" ref="#pmb2121">Schnitzler</rs> mit seiner Familie von der
                   Eingangstür aus gesehen auf der linken Seite unterhalb des Daches wohnte.</note>
                in einer der schmucken Villen der Straße, vor denen kleine Gärten angelegt sind. Den
@@ -324,7 +326,7 @@
                   Bauarbeiten für die Sternwarte das Gasthaus <rs type="place" ref="#pmb57943">Zum
                      König Sobieski</rs>. In der Nacht vom <date>13.</date> auf den
                      <date>14. 4. 1875</date> wurden die beiden Wirtsleute von zwei Männern getötet.
-                  Das Verbrechen wurde nie geklärt, das Wirtshaus <date>1878</date>
+                  Die Täter konnten nicht geschnappt, das Verbrechen nie aufgeklärt werden. Das Wirtshaus wurde <date>1878</date>
                   abgerissen.</note> begangen wurde. Jetzt heißt es, dass das Haus gerade dabei ist
                abzusacken.«</p>
             <p>»Das klingt ja ganz romantisch! Und vielleicht werden Sie hier einmal ein
@@ -360,7 +362,7 @@
                         ref="#pmb30067">Spiegelbild der Freundschaft</rs>. Wien: <publisher>Residenz
                         Verlag</publisher>
                      <space unit="chars" quantity="1"/>
-                     <date>1962</date>, S. 17</bibl>.) Das deckt sich mit Texten aus dem Jahr
+                     <date>1962</date>, S. 17</bibl>). Das deckt sich mit Texten aus dem Jahr
                      <date>1909</date>
                   <space unit="chars" quantity="1"/>(<ref type="pointer" target="#K_I124-123"/>),
                      <date>1924</date>
@@ -377,10 +379,10 @@
                   <space unit="chars" quantity="1"/>(<ref type="pointer" target="#K_I099-123"/>),
                   einen für dunkelbraune aus dem Jahr <date>1923</date>
                   <space unit="chars" quantity="1"/>(<ref type="pointer" target="#K_I093-1"/>). <rs
-                     type="person" ref="#pmb11937">Viktor Klemperer</rs> spricht in einer
+                     type="person" ref="#pmb11937">Victor Klemperer</rs> spricht in einer
                   Aufzeichnung, die auf eine Begegnung <date>1910</date> zurückgeht, von
                      »<quote>blaugrünen</quote>« Augen (<bibl>
-                     <title level="a">Besuche bei Arthur Schnitzler Private Aufzeichnungen von
+                     <title level="a">Besuche bei Arthur Schnitzler. Private Aufzeichnungen von
                         Albert Ehrenstein, Victor Klemperer und Robert Adam</title>. In: <title
                         level="j">Hofmannsthal Jahrbuch</title>, Bd. 27, <date>2019</date>,
                      S. 145</bibl>). </note>, dem kräftigen, rötlichen Vollbart und dem dunklen
@@ -424,6 +426,7 @@
                   Neueinstudierung des Stückes Premiere. Die Uraufführung hatte am
                      <date>3. 11. 1896</date> stattgefunden.</note>«, das ja bald am »<rs
                   type="place" ref="#pmb20">Deutschen Volkstheater</rs>« aufgeführt werden soll?</p>
+            <latex alt="\enlargethispage{-1em}"/>
             <p>»Ja, das ist kein richtig gutes Stück. Sie wissen vielleicht, dass man sich in
                Militärkreisen durch einige Szenen beleidigt gefühlt hat – insgesamt hat das
                Schicksal ja gewollt, dass meine Arbeiten mehrmals Verärgerung hervorgerufen
@@ -455,7 +458,7 @@
                ein kleines bisschen der Journalistik gewidmet, damals nämlich, als ich <anchor
                   type="commentary" xml:id="K_I102-222"/>Redakteur eines medizinischen <rs
                   type="org" ref="#pmb39399" subtype="implied">Wochenblattes</rs>
-               <note type="commentary" xml:id="K_I102-222h">Von <date>18. 12. 1887</date> bis zum
+               <note type="commentary" xml:id="K_I102-222h">Vom <date>18. 12. 1887</date> bis zum
                      <date>4. 9. 1894</date> arbeitete er im Auftrag seines <rs type="person"
                      subtype="implied" ref="#pmb12695">Vater</rs>s als einer von zwei Redakteuren
                   der <rs type="org" ref="#pmb39399">Internationalen klinischen

@@ -7,7 +7,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews,
                Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#pmb56290">Vilma Lengyel [=V. Erdelyi]: Beszélgetés Schnitzler
+            <title level="a" ref="#pmb56290">Vilma Lengyel [=&#160;V. Erdelyi]: Beszélgetés Schnitzler
                Arthurral, 7. 3. 1926</title>
             <title type="iso-date" when-iso="1926-03-07" n="1">7. 3. 1926</title>
             <author ref="#pmb18855">Lengyel, Vilma</author>
@@ -197,7 +197,8 @@
          </div>
          <div type="translation" xml:lang="de-DE">
             <head>Gespräch mit <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>.</head>
-            <p>
+            <latex alt="\enlargethispage{1em}"/>
+            <p><latex alt="\noindent"/>
                <rs type="place" ref="#pmb50">Wien</rs> hat eine eigentümliche Atmosphäre. Der
                äußerliche, entzückende Glanz der Metropole, die epochengetreue Dekadenz des
                prächtigen Vergnügungsangebots, die Dynamik und Lebensfreude touristischer
@@ -417,6 +418,7 @@
                darf ich nicht vielleicht die Lampe ausschalten?</p>
             <p>– Nein – lautete die <latex alt="Antwort\mbox{\ –,}">Antwort&#160;–,</latex> ich kann das Lampenlicht nicht missen.</p>
             <p>– Aber diese Beleuchtung ist so sonderbar.</p>
+            
             <p>– <anchor xml:id="K_import_82" type="commentary"/>Dann dreh’ die Sonne ab.<note
                   type="commentary" xml:id="K_import_82h">Als Ausspruch wirkt es dem anekdotischen
                   »Geh mir ein wenig aus der Sonne« nachgebildet, das <rs type="person"

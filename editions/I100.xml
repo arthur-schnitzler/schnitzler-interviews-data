@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I100" next="M090" prev="M167">
+   xml:base="schnitzler-interviews" xml:id="I100" next="M090" prev="M167" latex="\newpage">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -332,6 +332,7 @@
                wandte mich um. Hinter mir stand <rs type="person" ref="#pmb2121">Arthur
                   Schnitzler</rs>. Lächelnd sagte er:</p>
             <p>– Störe ich Sie etwa?</p>
+            <latex alt="\enlargethispage{-1em}"/>
             <p>– Wieso denn, ich bin ja froh, Sie sprechen zu dürfen – und mechanisch griff ich nach
                meinem Bleistift.</p>
             <p>Er nahm mir lachend den Bleistift aus der Hand.</p>
@@ -381,6 +382,7 @@
             <p>
                <gap reason="outOfScope" quantity="1" unit="paragraphs"/>
             </p>
+            <latex alt="\enlargethispage{-1em}"/>
             <p>
                <gap reason="outOfScope" quantity="1" unit="paragraphs"/>
             </p>

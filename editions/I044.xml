@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I044" next="I065" prev="I126">
+   xml:base="schnitzler-interviews" xml:id="I044" next="I065" prev="I126" latex="\newpage">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -61,7 +61,8 @@
             <head>
                <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> und die »<rs type="org"
                   ref="#pmb29441">Ravag</rs>«.</head>
-            <p>Bekanntlich hat <rs type="person" ref="#pmb2121">Arthur <hi rend="spaced_out"
+            <latex alt="\enlargethispage{2em}"/>
+            <p><latex alt="\noindent"/>Bekanntlich hat <rs type="person" ref="#pmb2121">Arthur <hi rend="spaced_out"
                      >Schnitzler</hi>
                </rs> durch seinen Rechtsfreund Dr.&#160;<rs type="person" ref="#pmb4401">Norbert <hi
                      rend="spaced_out">Hoffmann</hi>
@@ -171,6 +172,7 @@
                verächtlich wie der Dieb materiellen Eigentums. Ja verächtlicher noch, da das Risiko
                hiebei viel geringer ist, während ein richtiger Dieb sich doch immerhin in eine
                gewisse Gefahr begibt.«</p>
+            <latex alt="\enlargethispage{1em}"/>
             <head type="sub">Der Standpunkt der »<rs type="org" ref="#pmb29441">Ravag</rs>«.</head>
             <p>Ein leitender Funktionär der »<rs type="org" ref="#pmb29441">Ravag</rs>« teilt uns
                mit: »Die ›<rs type="org" ref="#pmb29441">Ravag</rs>‹ hat im Sinne der geltenden <rs

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I092" next="I007" prev="M077">
+   xml:base="schnitzler-interviews" xml:id="I092" next="I007" prev="M077" latex="\newpage">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews,
                Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#pmb57974">Gaspard [=Viggo Schiørring]: Hos Österrikes mest
+            <title level="a" ref="#pmb57974">Gaspard [=&#160;Viggo Schiørring]: Hos Österrikes mest
                framstående dramatiska författare, 23. 11. 1904</title>
             <title type="iso-date" when-iso="1904-11-23" n="1">23. 11. 1904</title>
             <author ref="#pmb24203">Gaspard [=&#160;Viggo Schiørring]</author>
@@ -112,8 +112,9 @@
                själf medicinare. År <date>1885</date> tog han doktorsgraden. Men litterära intressen
                lade snart beslag på honom, och han uppgaf resolut vetenskapen för att ägna sig åt
                konsten och poesien. <rs type="person" ref="#pmb2121">Schnitzler</rs> var en mogen
-               man då han utgaf sin första bok; måhända gör just därför hans förtattarepersonlighet
+               man då han utgaf sin första bok; måhända gör just därför hans författarepersonlighet
                ett så helgjutet, harmoniskt intryck.</p>
+            <latex alt="\enlargethispage{2em}"/>
             <p>Som <hi rend="italics">människa</hi> är <rs type="person" ref="#pmb2121">Arthur
                   Schnitzler</rs> något af det älskvärdaste och mest rättframma man kan tänka sig.
                Diktaren bor i en villa i en af <rs type="place" ref="#pmb50">Wien</rs>s måleriska
@@ -355,6 +356,7 @@
                   einsame Weg</rs>« und »<rs type="work" ref="#pmb29865">Die Frau mit den
                   Dolche</rs>« (aus der Einakterreihe »<rs type="work" ref="#pmb29863">Lebendige
                   Stunden</rs>«).</p>
+            <latex alt="\enlargethispage{1em}"/>
             <p>
                <ref target="#q210" type="question"/>
                <rs type="person" ref="#pmb2121">Schnitzler</rs> hat mehrfach das »Glück« gehabt,

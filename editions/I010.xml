@@ -1,9 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd" xml:base="schnitzler-interviews" xml:id="I010" next="I018" prev="I001"> <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="I010" next="I018" prev="I001" latex="\newpage">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
-            <title level="a" ref="#pmb32915">[Ludwig Basch]: Der Theatererlaß des Ministerpräsidenten,
-               15. 4. 1903</title>
+            <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews,
+               Meinungen, Proteste (1891–1931)</title>
+            <title level="a" ref="#pmb32915">[Ludwig Basch]: Der Theatererlaß des
+               Ministerpräsidenten, 15. 4. 1903</title>
             <title type="iso-date" when-iso="1903-04-15" n="1">15. 4. 1903</title>
             <author ref="#pmb13791">Basch, Ludwig</author>
             <editor>
@@ -26,7 +31,8 @@
                <biblStruct>
                   <analytic>
                      <author ref="#pmb13791">[Ludwig Basch]</author>
-                     <title level="a" ref="#pmb32915">Der Theatererlaß des Ministerpräsidenten</title>
+                     <title level="a" ref="#pmb32915">Der Theatererlaß des
+                        Ministerpräsidenten</title>
                   </analytic>
                   <monogr>
                      <title level="j" ref="#pmb41484">Illustrirtes Wiener Extrablatt</title>
@@ -54,45 +60,57 @@
    </teiHeader><text type="text">
       <body>
          <div type="original">
-            <head>Der Theatererlaß des <rs type="person" ref="#pmb11955" subtype="implied">Ministerpräsidenten</rs>
+            <head>Der Theatererlaß des <rs type="person" ref="#pmb11955" subtype="implied"
+                  >Ministerpräsidenten</rs>
             </head>
-            <p>Der Erlaß des Ministerpräsidenten Doctor <rs type="person" ref="#pmb11955">
+            <latex alt="\enlargethispage{1em}"/>
+            <p><latex alt="\noindent"/>Der Erlaß des Ministerpräsidenten Doctor <rs type="person" ref="#pmb11955">
                   <hi rend="spaced_out">v. Koerber</hi>
                </rs> über die Handhabung der Theatercensur, den wir in unserem Ostersonntagsblatte
                veröffentlicht haben, hat in allen Kreisen, in denen man sich für das Theater und
-               seine Freiheit interessirt – und wo wäre dies mehr der Fall, als in <rs type="place" ref="#pmb50">Wien</rs>? – großes und berechtigtes Aufsehen hervorgerufen. Ueber die
-               Tendenz des Erlasses herrscht nur eine Stimme: Man erkennt allgemein an, daß der
-               Erlaß des <rs type="person" ref="#pmb11955" subtype="implied">Ministerpräsidenten</rs>
-               ausschließlich von Wohlwollen für die freie Entwicklung der Bühnendichtung und der
-               Bühnen dictirt ist und daß er die durchaus anerkennenswerthe Absicht hat, den
-               Polizeigeist, der von  früheren Zeiten her das kritische Walten der Censurbehörden nur
-               allzusehr beeinflußt hat, in die gebührenden Schranken zu verweisen. Wenn man das
-               Theater einen Tempel der Kunst nennen kann, so hat der <rs type="person" ref="#pmb11955" subtype="implied">Ministerpräsident</rs> nun eine Tempelaustreibung im Sinne, bei
-               welcher engherziges Bureaukratenthum und alter Zopf aus den Räumen, die der Kunst
-               gewidmet sind, verwiesen werden sollen. Nicht der Schrankenlosigkeit soll Thor und
-               Thür geöffnet werden, aber die Censur soll größere Beschränkung erfahren und die
-               Bühne soll mehr Freiheit erhalten. Dies ist das Hauptprincip des Erlasses, der es
-               gestatten wird, daß sich im Rahmen des Theaters nun auch die socialen Erscheinungen
-               des Lebens von heute, so wie sie das Auge des Dichters sieht, wiederspiegeln können.
-               Gerade die moderne dramatische Dichtung hat am meisten Veranlassung, sich dieses
-               Erlasses zu freuen. Denn er erleichtert ihr den Zutritt zur Bühne, der ihr bisher oft
-               durch allerlei von überängstlicher oder übereifriger, unliterarischer oder
-               unkritischer Censur vorgeschobene Querbalken verlegt war.</p>
-            <p>Es erschien uns richtig, das Urtheil von Fachleuten über den Erlaß des <rs type="person" ref="#pmb11955" subtype="implied">Ministerpräsidenten</rs> einzuholen.
-                  <ref type="question" target="#q009"/>Wir befragten einen <rs type="person" ref="#pmb12671" subtype="implied">Theaterdirector</rs>, einen <rs type="person" ref="#pmb2121" subtype="implied">Dichter</rs> und einen angesehenen <rs type="person" ref="#pmb2777" subtype="implied">Juristen</rs> um ihre Meinungen über den Erlaß. Sie
-               Alle, die gewiß als competente Richter über die Bestimmungen des Erlasses anerkannt
-               werden müssen, begrüßen den Erlaß im Allgemeinen sympathisch, aber sie erheben
-               Einwendungen gegen manche Einzelnheiten. Wir geben <anchor type="commentary" xml:id="K_I010-1"/>im Nachstehenden<note type="commentary" xml:id="K_I010-1h">Vor
-                  jener <rs type="person" ref="#pmb2121">Schnitzler</rs>s findet sich die Stellungnahme
-                  des Direktor des <rs type="org" ref="#pmb36247">Burgtheaters</rs> Dr. <rs type="person" ref="#pmb12671">Paul Schlenther</rs>, nach seiner die des Hof- und
-                  Gerichtsadvokaten Dr. <rs type="person" ref="#pmb2777">Edmund Benedikt</rs>.</note>
-               das, was wir vernommen, wieder:</p>
+               seine Freiheit interessirt – und wo wäre dies mehr der Fall, als in <rs type="place"
+                  ref="#pmb50">Wien</rs>? – großes und berechtigtes Aufsehen hervorgerufen. Ueber
+               die Tendenz des Erlasses herrscht nur eine Stimme: Man erkennt allgemein an, daß der
+               Erlaß des <rs type="person" ref="#pmb11955" subtype="implied"
+                  >Ministerpräsidenten</rs> ausschließlich von Wohlwollen für die freie Entwicklung
+               der Bühnendichtung und der Bühnen dictirt ist und daß er die durchaus
+               anerkennenswerthe Absicht hat, den Polizeigeist, der von früheren Zeiten her das
+               kritische Walten der Censurbehörden nur allzusehr beeinflußt hat, in die gebührenden
+               Schranken zu verweisen. Wenn man das Theater einen Tempel der Kunst nennen kann, so
+               hat der <rs type="person" ref="#pmb11955" subtype="implied">Ministerpräsident</rs>
+               nun eine Tempelaustreibung im Sinne, bei welcher engherziges Bureaukratenthum und
+               alter Zopf aus den Räumen, die der Kunst gewidmet sind, verwiesen werden sollen.
+               Nicht der Schrankenlosigkeit soll Thor und Thür geöffnet werden, aber die Censur soll
+               größere Beschränkung erfahren und die Bühne soll mehr Freiheit erhalten. Dies ist das
+               Hauptprincip des Erlasses, der es gestatten wird, daß sich im Rahmen des Theaters nun
+               auch die socialen Erscheinungen des Lebens von heute, so wie sie das Auge des
+               Dichters sieht, wiederspiegeln können. Gerade die moderne dramatische Dichtung hat am
+               meisten Veranlassung, sich dieses Erlasses zu freuen. Denn er erleichtert ihr den
+               Zutritt zur Bühne, der ihr bisher oft durch allerlei von überängstlicher oder
+               übereifriger, unliterarischer oder unkritischer Censur vorgeschobene Querbalken
+               verlegt war.</p>
+            <p>Es erschien uns richtig, das Urtheil von Fachleuten über den Erlaß des <rs
+                  type="person" ref="#pmb11955" subtype="implied">Ministerpräsidenten</rs>
+               einzuholen. <ref type="question" target="#q009"/>Wir befragten einen <rs
+                  type="person" ref="#pmb12671" subtype="implied">Theaterdirector</rs>, einen <rs
+                  type="person" ref="#pmb2121" subtype="implied">Dichter</rs> und einen angesehenen
+                  <rs type="person" ref="#pmb2777" subtype="implied">Juristen</rs> um ihre Meinungen
+               über den Erlaß. Sie Alle, die gewiß als competente Richter über die Bestimmungen des
+               Erlasses anerkannt werden müssen, begrüßen den Erlaß im Allgemeinen sympathisch, aber
+               sie erheben Einwendungen gegen manche Einzelnheiten. Wir geben <anchor
+                  type="commentary" xml:id="K_I010-1"/>im Nachstehenden<note type="commentary"
+                  xml:id="K_I010-1h">Vor jener <rs type="person" ref="#pmb2121">Schnitzler</rs>s
+                  findet sich die Stellungnahme des Direktors des <rs type="org" ref="#pmb36247"
+                     >Burgtheaters</rs> Dr. <rs type="person" ref="#pmb12671">Paul Schlenther</rs>,
+                  nach seiner die des Hof- und Gerichtsadvokaten Dr. <rs type="person"
+                     ref="#pmb2777">Edmund Benedikt</rs>.</note> das, was wir vernommen, wieder:</p>
             <p>
                <gap reason="outOfScope" unit="paragraphs" quantity="10"/>
             </p>
             <head type="sub">Dr. <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>:</head>
             <p>Der urbane, vornehme Ton des Erlasses berührte mich sehr sympathisch. Wenn ich auch
-               nicht der Kundgebung des Herrn <rs type="person" ref="#pmb11955" subtype="implied">Ministerpräsidenten</rs> rückhaltlosen Beifall zu spenden vermag, so bedeutet sie
+               nicht der Kundgebung des Herrn <rs type="person" ref="#pmb11955" subtype="implied"
+                  >Ministerpräsidenten</rs> rückhaltlosen Beifall zu spenden vermag, so bedeutet sie
                doch einen wesentlichen Fortschritt.</p>
             <p>Nach dem Erlaß wird ein Censurbeirath aus drei Männern gebildet. Wer werden diese
                Persönlichkeiten sein? Werden sie die entsprechende Objectivität in ihr Amt
@@ -105,12 +123,14 @@
                »Wind« abzuwehren, der sich gegen die sogenannten gefährlichen Stücke erhebt. Dieser
                »Wind« hat schon häufig Stücke weggeblasen, die man für sehr zulässig erkannte.</p>
             <p>Im höheren, im culturgeschichtlichen Sinne ist die Censur entschieden zu verwerfen.
-               Eine Censur, liberal aufgefaßt und liberal geübt, muß geübt <anchor type="textConst" xml:id="T_I010-11"/>werden,<note type="textConst" xml:id="T_I010-11h">
+               Eine Censur, liberal aufgefaßt und liberal geübt, muß geübt <anchor type="textConst"
+                  xml:id="T_I010-11"/>werden,<note type="textConst" xml:id="T_I010-11h">
                   <quote>werden</quote>
-               </note> sonst kommt die
-               Censur der <latex alt="Thea\-ter\-direk\-to\-ren">Theaterdirectoren</latex> und die ist noch ärger. Am Richtigsten wäre es, die
+               </note> sonst kommt die Censur der <latex alt="Thea\-ter\-direk\-to\-ren"
+                  >Theaterdirectoren</latex> und die ist noch ärger. Am Richtigsten wäre es, die
                Autoren für ihre Werke verantwortlich zu machen. Doch das ist eine ideale Forderung
                in unseren Zeiten – ein schöner Traum.</p>
+            <latex alt="\enlargethispage{1em}"/>
             <p>Unter den Parteiungen in welchen wir leben, ist eine Aufhebung der Censur nicht zu
                erwarten. Es ist leider bei uns das Princip der Sachlichkeit ausgestorben, es
                herrscht übermächtig das Princip der Parteipolitik. Jede Partei denkt nur daran, die
@@ -119,21 +139,26 @@
                zu einem Punkte gediehen ist, der die Menschen befähigt, auf der Bühne blos die
                künstlerischen Dinge zu sehen. Es fällt mir gewiß nicht ein das Recht auf Tendenz
                verkümmern zu wollen. Meisterwerke der Weltliteratur sind Tendenzdichtungen; nur soll
-               das Publicum so reif <anchor type="textConst" xml:id="T_I010-1"/>sein,<note type="textConst" xml:id="T_I010-1h">
+               das Publicum so reif <anchor type="textConst" xml:id="T_I010-1"/>sein,<note
+                  type="textConst" xml:id="T_I010-1h">
                   <quote>sein</quote>
-               </note> daß es nicht für oder gegen die
-               Tendenz sich erklärt, sondern blos darüber urtheilt, ob es dem Dichter gelungen ist,
-               über eine bestimmte Tendenz sich auszusprechen, <anchor type="commentary" xml:id="KT096-1"/>die man vorher als zulässig erkannt hatte<note type="commentary" xml:id="KT096-1h">In der <bibl>Abend-Ausgabe, S. 3,</bibl> erschien folgende
-                  Korrektur: »<quote>* <hi rend="spaced_out">Richtigstellung</hi>. In einem Absatz
-                     der interessanten Aeußerungen <rs type="person" ref="#pmb2121">Arthur <hi rend="spaced_out">Schnitzler</hi>
-                     </rs>’s über den <rs type="work" ref="#pmb32915">Censurerlaß</rs> (siehe heutiges
-                     Morgenblatt) ist eine sinnstörende Verhebung enthalten. Es muß richtig heißen:
-                     ›nur soll das Publicum so reif sein, daß es nicht für oder gegen die Tendenz
-                     sich erklärt, sondern blos darüber urteilt, ob es dem Dichter gelungen ist,
-                     über eine bestimmte Tendenz sich auszusprechen.‹ Der Nachsatz, ›die man vorher
-                     als zulässig erkannt hatte‹, ist eine irrthümliche Wiederholung aus einem
-                     anderen Passus und ist zu eliminiren.</quote>«</note>.</p>
-            <p>In dem Erlasse des <rs type="person" ref="#pmb11955" subtype="implied">Ministerpräsidenten</rs> berührt die offene Sprache angenehm. Er gibt den
+               </note> daß es nicht für oder gegen die Tendenz sich erklärt, sondern blos darüber
+               urtheilt, ob es dem Dichter gelungen ist, über eine bestimmte Tendenz sich
+               auszusprechen, <anchor type="commentary" xml:id="KT096-1"/>die man vorher als
+               zulässig erkannt hatte<note type="commentary" xml:id="KT096-1h">In der
+                     <bibl>Abend-Ausgabe, S. 3,</bibl> erschien folgende Korrektur: »<quote>* <hi
+                        rend="spaced_out">Richtigstellung</hi>. In einem Absatz der interessanten
+                     Aeußerungen <rs type="person" ref="#pmb2121">Arthur <hi rend="spaced_out"
+                           >Schnitzler</hi>
+                     </rs>’s über den <rs type="work" ref="#pmb32915">Censurerlaß</rs> (siehe
+                     heutiges Morgenblatt) ist eine sinnstörende Verhebung enthalten. Es muß richtig
+                     heißen: ›nur soll das Publicum so reif sein, daß es nicht für oder gegen die
+                     Tendenz sich erklärt, sondern blos darüber urteilt, ob es dem Dichter gelungen
+                     ist, über eine bestimmte Tendenz sich auszusprechen.‹ Der Nachsatz, ›die man
+                     vorher als zulässig erkannt hatte‹, ist eine irrthümliche Wiederholung aus
+                     einem anderen Passus und ist zu eliminiren.</quote>«</note>.</p>
+            <p>In dem Erlasse des <rs type="person" ref="#pmb11955" subtype="implied"
+                  >Ministerpräsidenten</rs> berührt die offene Sprache angenehm. Er gibt den
                Censoren einen Wink, sich den Wandel der Zeiten vor Augen zu halten und es bedeutet
                nicht wenig, wenn in einem amtlichen Erlasse offen zugestanden wird, daß die Versuche
                einer gewaltsamen Hemmung sich erfolg- und werthlos erwiesen haben.</p>
@@ -142,7 +167,8 @@
             <div1>
                <ref type="schnitzler-tagebuch" target="1903-04-14"/>
                <quote>
-                  <rs type="person" ref="#pmb13791">Basch</rs>, Interview, über den <rs type="person" ref="#pmb11955">Körber</rs> Censur Erlass.</quote>
+                  <rs type="person" ref="#pmb13791">Basch</rs>, Interview, über den <rs
+                     type="person" ref="#pmb11955">Körber</rs> Censur Erlass.</quote>
             </div1>
          </div>
       </body>
@@ -175,8 +201,10 @@
                <sex value="male"/>
                <occupation ref="pmb99">Journalist/Journalistin</occupation>
                <occupation ref="pmb173">Redakteur/Redakteurin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13452</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb13791.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13452</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb13791.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/13791/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/28785/</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38916</idno>
@@ -206,15 +234,19 @@
                </death>
                <sex value="male"/>
                <occupation ref="pmb95">Politiker/Politikerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16977</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16977</idno>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118713434</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11955.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11955.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11955/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11955</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11955</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp40952</idno>
                <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00282226</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q72242</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ernest_von_Koerber</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Ernest_von_Koerber</idno>
             </person>
             <person xml:id="pmb12671">
                <persName>
@@ -243,16 +275,21 @@
                <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
                <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
                <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19724</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19724</idno>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118795112</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12671.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12671.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12671/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12671</idno>
-               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb12671</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12671</idno>
+               <idno type="URL" subtype="kraus"
+                  >https://kraus.wienbibliothek.at/register/personen/pmb12671</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp51242</idno>
                <idno type="URL" subtype="doi">https://doi.org/10.1553/0x002851cc</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q194574</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Paul_Schlenther</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Paul_Schlenther</idno>
             </person>
             <person xml:id="pmb2121">
                <persName>
@@ -281,16 +318,22 @@
                <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
                <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
-               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="kraus1933"
+                  >https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
                <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
-               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino"
+                  >https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
             </person>
             <person xml:id="pmb2777">
                <persName>
@@ -316,21 +359,25 @@
                   </settlement>
                </death>
                <sex value="male"/>
-               <occupation ref="pmb102">Wissenschaftler/Wissenschaftlerin &gt;&gt; Rechtswissenschaftler/Rechtswissenschaftlerin</occupation>
+               <occupation ref="pmb102">Wissenschaftler/Wissenschaftlerin &gt;&gt;
+                  Rechtswissenschaftler/Rechtswissenschaftlerin</occupation>
                <occupation ref="pmb106">Rechtsanwalt/Rechtsanwältin</occupation>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116120096</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13588</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13588</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2777/</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp40888</idno>
                <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00280fb9</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q25062055</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Edmund_Benedikt</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Edmund_Benedikt</idno>
             </person>
          </listPerson>
          <listBibl>
             <bibl xml:id="pmb32915">
                <title>Der Theatererlaß des Ministerpräsidenten</title>
-               <title type="werk_bibliografische-angabe">Illustrirtes Wiener Extrablatt, 15. 4. 1903</title>
+               <title type="werk_bibliografische-angabe">Illustrirtes Wiener Extrablatt, 15. 4.
+                  1903</title>
                <author ref="pmb13791" role="hat-anonym-veroffentlicht">Basch, Ludwig</author>
                <date when="1903-04-15">15.04.1903</date>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32915/</idno>
@@ -341,17 +388,20 @@
                <title type="werk_link">http://anno.onb.ac.at/cgi-content/anno?aid=iwe</title>
                <author ref="pmb13791" role="hat-einen-beitrag-geschaffen-zu">Basch, Ludwig</author>
                <author ref="pmb2150" role="hat-einen-beitrag-geschaffen-zu">Bauer, Julius</author>
-               <date from="1872-01-01" to="1928-07-01">1872  – 1928</date>
+               <date from="1872-01-01" to="1928-07-01">1872 – 1928</date>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41484/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41484</idno>
-               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb41484</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41484</idno>
+               <idno type="URL" subtype="kraus"
+                  >https://kraus.wienbibliothek.at/register/werke/pmb41484</idno>
                <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
             </bibl>
          </listBibl>
          <listPlace>
             <place xml:id="pmb50">
                <placeName>Wien</placeName>
-               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt
+                  Wien</placeName>
                <placeName type="alternative-name">Bécs</placeName>
                <placeName type="alternative-name">Land Wien</placeName>
                <placeName type="alternative-name">Vídeň</placeName>
@@ -371,15 +421,19 @@
                </location>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
-               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="kraus"
+                  >https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
             </place>
@@ -393,35 +447,45 @@
                <location type="located_in_place">
                   <placeName ref="pmb51">I., Innere Stadt</placeName>
                   <geo>48,20769 16,37049</geo>
-                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb51.html</idno>
+                  <idno type="URL" subtype="schnitzler-bahr"
+                     >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb51.html</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51/</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36789/</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51010/</idno>
                   <idno type="URL" subtype="geonames">https://sws.geonames.org/2775259/</idno>
-                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb51</idno>
-                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb51</idno>
+                  <idno type="URL" subtype="schnitzler-briefe"
+                     >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb51</idno>
+                  <idno type="URL" subtype="kraus"
+                     >https://kraus.wienbibliothek.at/register/orte/pmb51</idno>
                </location>
                <location type="located_in_place">
                   <placeName ref="pmb14">Burgtheater</placeName>
                   <geo>48,210333 16,361139</geo>
-                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb14.html</idno>
+                  <idno type="URL" subtype="schnitzler-bahr"
+                     >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb14.html</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/14/</idno>
-                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb14</idno>
-                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb14.html</idno>
+                  <idno type="URL" subtype="schnitzler-briefe"
+                     >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb14</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch"
+                     >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb14.html</idno>
                   <idno type="URL" subtype="geonames">https://www.geonames.org/6354992/</idno>
                </location>
                <location type="located_in_place">
                   <placeName ref="pmb44649">Schlosstheater Schönbrunn</placeName>
                   <geo>48,186667 16,3125</geo>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44649/</idno>
-                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb44649</idno>
+                  <idno type="URL" subtype="schnitzler-briefe"
+                     >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb44649</idno>
                   <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2244724</idno>
-                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Schlosstheater_Sch%C3%B6nbrunn</idno>
+                  <idno type="URL" subtype="wikipedia"
+                     >https://de.wikipedia.org/wiki/Schlosstheater_Sch%C3%B6nbrunn</idno>
                </location>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/38633-9</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36247/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36247</idno>
-               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb36247</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36247</idno>
+               <idno type="URL" subtype="kraus"
+                  >https://kraus.wienbibliothek.at/register/institutionen/pmb36247</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q308720</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Burgtheater</idno>
                <note type="apis_dates">
