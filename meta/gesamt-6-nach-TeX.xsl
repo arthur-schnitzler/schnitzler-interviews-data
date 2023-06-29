@@ -1164,18 +1164,27 @@
             <xsl:text>\addchap*{</xsl:text>
             <xsl:value-of select="substring(@when, 1, 4)"/>
             <xsl:text>}</xsl:text>
+            <xsl:text>\rehead{\textsc{interviews}}\lohead{\textsc{</xsl:text>
+            <xsl:value-of select="substring(@when, 1, 4)"/>
+            <xsl:text>}}</xsl:text>
          </xsl:when>
          <xsl:when
             test="starts-with($dokument-id, 'M') and count(preceding-sibling::TEI[@when and starts-with(@id, 'M')]) = 0">
             <xsl:text>\addchap*{</xsl:text>
             <xsl:value-of select="substring(@when, 1, 4)"/>
             <xsl:text>}</xsl:text>
+            <xsl:text>\rehead{\textsc{meinungen}}\lohead{\textsc{</xsl:text>
+            <xsl:value-of select="substring(@when, 1, 4)"/>
+            <xsl:text>}}</xsl:text>
          </xsl:when>
          <xsl:when test="substring(@when, 1, 4) != $jahr-davor">
             <xsl:text>\addchap*{</xsl:text>
             <!-- before: \leavevmode -->
             <xsl:value-of select="substring(@when, 1, 4)"/>
             <xsl:text>}</xsl:text>
+            <xsl:text>\rehead{\textsc{proteste}}\lohead{\textsc{</xsl:text>
+            <xsl:value-of select="substring(@when, 1, 4)"/>
+            <xsl:text>}}</xsl:text>
          </xsl:when>
       </xsl:choose>
       <xsl:choose>
@@ -1251,7 +1260,7 @@
       <xsl:value-of select="concat($dokument-id, 'v')"/>
       <xsl:text>}\stepcounter{countcount}</xsl:text>
       <!-- Kopfzeilen -->
-      <xsl:text>\rehead{\textsc{</xsl:text>
+      <!--<xsl:text>\rehead{\textsc{</xsl:text>
       <xsl:choose>
          <xsl:when test="starts-with(@id, 'I')">
             <xsl:text>interviews</xsl:text>
@@ -1265,8 +1274,8 @@
       </xsl:choose>
       <xsl:value-of
          select="concat(key('person-lookup', (@bw), $persons)/forename, ' ', key('person-lookup', (@bw), $persons)/persName/surname)"/>
-      <xsl:text>}}</xsl:text>
-      <xsl:value-of select="foo:monatUndJahrInKopfzeile(@when)"/>
+      <xsl:text>}}</xsl:text>-->
+      <!--<xsl:value-of select="foo:monatUndJahrInKopfzeile(@when)"/>-->
       <xsl:apply-templates select="image"/>
       <xsl:apply-templates select="text"/>
       <xsl:if test="descendant::sourceDesc/listWit/witness[1] or descendant::sourceDesc[not(listWit)]/listBibl/biblStruct[1]">
@@ -3464,29 +3473,29 @@
             <xsl:text>\pstart
            </xsl:text>
             <xsl:choose>
-               <xsl:when test="self::p and position() = 1">
+               <xsl:when test="(self::p and position() = 1) or (self::p and position() = 2 and preceding-sibling::latex)">
                   <xsl:text>\noindent{}</xsl:text>
                </xsl:when>
-               <xsl:when test="self::p and preceding-sibling::*[1] = preceding-sibling::head[1]">
+               <xsl:when test="self::p and preceding-sibling::*[not(name()='latex')][1] = preceding-sibling::head[1]">
                   <xsl:text>\noindent{}</xsl:text>
                </xsl:when>
-               <xsl:when test="parent::div[child::*[1]] = self::p">
-                  <xsl:text>\noindent{}</xsl:text>
-               </xsl:when>
-               <xsl:when
-                  test="self::p and preceding-sibling::*[1] = preceding-sibling::p[@rend = 'right' or @rend = 'center']">
+               <xsl:when test="parent::div[child::*[not(name()='latex')][1]] = self::p">
                   <xsl:text>\noindent{}</xsl:text>
                </xsl:when>
                <xsl:when
-                  test="self::p[not(@rend = 'inline')] and preceding-sibling::*[1] = preceding-sibling::p[@rend = 'inline']">
+                  test="self::p and preceding-sibling::*[not(name()='latex')][1] = preceding-sibling::p[@rend = 'right' or @rend = 'center']">
                   <xsl:text>\noindent{}</xsl:text>
                </xsl:when>
                <xsl:when
-                  test="self::p[preceding-sibling::*[1][self::p[(descendant::*[1] = space[@dim = 'vertical']) and not(descendant::*[2]) and empty(text())]]]">
+                  test="self::p[not(@rend = 'inline')] and preceding-sibling::*[not(name()='latex')][1] = preceding-sibling::p[@rend = 'inline']">
                   <xsl:text>\noindent{}</xsl:text>
                </xsl:when>
                <xsl:when
-                  test="self::p[@rend = 'inline'] and (preceding-sibling::*[1]/not(@rend = 'inline') or preceding-sibling::*[1]/not(@rend))">
+                  test="self::p[preceding-sibling::*[not(name()='latex')][1][self::p[(descendant::*[not(name()='latex')][1] = space[@dim = 'vertical']) and not(descendant::*[not(name()='latex')][2]) and empty(text())]]]">
+                  <xsl:text>\noindent{}</xsl:text>
+               </xsl:when>
+               <xsl:when
+                  test="self::p[@rend = 'inline'] and (preceding-sibling::*[not(name()='latex')][1]/not(@rend = 'inline') or preceding-sibling::*[not(name()='latex')][1]/not(@rend))">
                   <xsl:text>\noindent{}</xsl:text>
                </xsl:when>
                <xsl:when
