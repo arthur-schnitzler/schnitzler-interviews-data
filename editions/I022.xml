@@ -131,7 +131,7 @@
                   />) und fügt einen Satz hinzu; die Buchausgabe bringt stattdessen folgende
                   Einleitung: »<quote>
                      <foreign xml:lang="en-US">I met <rs type="person" ref="#pmb2121">Arthur
-                           Schnitzler</rs> in his study in <rs type="place" ref="#pmb50"
+                           <latex alt="Schnitz\-ler">Schnitzler</latex></rs> in his study in <rs type="place" ref="#pmb50"
                         >Vienna</rs>. A fine copy of <rs type="work" ref="#pmb31935">Mona Lisa</rs>
                         was conspicuous among the numerous portraits on the walls, and on his desk
                         stood a <rs type="work" ref="#pmb33013" subtype="implied">statuette</rs> of
@@ -181,7 +181,7 @@
                         Kunst</title> 110–111</bibl>.) Die Keramikstatue von Powolny ist auch in
                   einem anderen Interview erwähnt, <ref type="pointer" target="#I061_L_schlafrockii"
                   />. Die Texte <rs type="person" ref="#pmb11617">Hauptmanns</rs> und <rs
-                     type="person" ref="#pmb10815">Bahrs</rs>, auf die Bezug genommen werden,
+                     type="person" ref="#pmb10815">Bahrs</rs>, auf die Bezug genommen wird,
                   erschienen beide im <rs type="person" ref="#pmb2121">Schnitzler</rs> gewidmeten
                   Heft der <rs type="work" ref="#pmb36156">Neuen Rundschau</rs> vom <date>Mai
                      1922</date>.</note>
@@ -314,6 +314,7 @@
                   </quote>«</note>
             </p>
             <head type="sub">Careless of Life</head>
+            <latex alt="\enlargethispage{-1em}"/>
             <p>»I recall a simple, quite unimportant incident, but it is so characteristic that I
                will tell it to you. Some years ago my <rs type="person" subtype="implied"
                   ref="#pmb2173">wife</rs> had scarlet fever. We had a <anchor type="commentary"
@@ -388,8 +389,8 @@
             </p>
             <p>Our conversation turned to his dramatic works. Suddenly he asked:</p>
             <p>»How would you account for the fact that <anchor type="commentary" xml:id="K_I022-1"
-               />some of my plays<note type="commentary" xml:id="K_I022-1h">das trifft nur auf <rs
-                     type="work" ref="#pmb29855">Reigen</rs> zu</note> which were written twenty or
+               />some of my plays<note type="commentary" xml:id="K_I022-1h">Das trifft nur auf <rs
+                     type="work" ref="#pmb29855">Reigen</rs> zu.</note> which were written twenty or
                twenty-five years ago are being produced only now? They seem to attract more
                attention now than when I wrote them.«</p>
             <p>»Your works were at least a quarter of a century ahead of their time,« I answered,

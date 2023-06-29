@@ -5676,7 +5676,7 @@
          <xsl:when test="@subtype = 'See'">
             <xsl:text>Siehe </xsl:text>
          </xsl:when>
-         <xsl:when test="@subtype = 'cf'">
+         <xsl:when test="@subtype = 'Cf'">
             <xsl:text>Vgl. </xsl:text>
          </xsl:when>
       </xsl:choose>
@@ -5722,7 +5722,7 @@
             <xsl:when test="@subtype = 'See'">
                <xsl:text>Siehe </xsl:text>
             </xsl:when>
-            <xsl:when test="@subtype = 'cf'">
+            <xsl:when test="@subtype = 'Cf'">
                <xsl:text>Vgl. </xsl:text>
             </xsl:when>
          </xsl:choose>
@@ -5757,9 +5757,15 @@
          <xsl:otherwise>
             <xsl:choose>
                <xsl:when test="@subtype = 'see'">
-                  <xsl:text>Siehe </xsl:text>
+                  <xsl:text>siehe </xsl:text>
                </xsl:when>
                <xsl:when test="@subtype = 'cf'">
+                  <xsl:text>vgl. </xsl:text>
+               </xsl:when>
+               <xsl:when test="@subtype = 'See'">
+                  <xsl:text>Siehe </xsl:text>
+               </xsl:when>
+               <xsl:when test="@subtype = 'Cf'">
                   <xsl:text>Vgl. </xsl:text>
                </xsl:when>
             </xsl:choose>
