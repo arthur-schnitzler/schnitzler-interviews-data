@@ -1158,9 +1158,10 @@
          </xsl:choose>
       </xsl:variable>
       <xsl:variable name="dokument-id" select="@id"/>
+      <xsl:variable name="dokument-typ" select="substring($dokument-id, 1,1)"/>
       <xsl:choose>
          <xsl:when
-            test="starts-with($dokument-id, 'I') and count(preceding-sibling::TEI[@when and starts-with(@id, 'I')]) = 0">
+            test="$dokument-typ= 'I' and substring(@when, 1, 4) != $jahr-davor">
             <xsl:text>\addchap*{</xsl:text>
             <xsl:value-of select="substring(@when, 1, 4)"/>
             <xsl:text>}</xsl:text>
@@ -1169,7 +1170,7 @@
             <xsl:text>}}</xsl:text>
          </xsl:when>
          <xsl:when
-            test="starts-with($dokument-id, 'M') and count(preceding-sibling::TEI[@when and starts-with(@id, 'M')]) = 0">
+            test="$dokument-typ = 'M' and substring(@when, 1, 4) != $jahr-davor">
             <xsl:text>\addchap*{</xsl:text>
             <xsl:value-of select="substring(@when, 1, 4)"/>
             <xsl:text>}</xsl:text>
@@ -1471,25 +1472,25 @@
          <xsl:choose>
             <xsl:when
                test="ancestor::TEI/preceding-sibling::TEI[1]/teiHeader/fileDesc/sourceDesc/listBibl/biblStruct[1]/monogr/imprint/date/xs:integer(substring(@when, 1, 4)) &lt; 1935">
-               <xsl:text>\toendnotes[C]{\medbreak\pagebreak[2]}</xsl:text>
+               <xsl:text>\toendnotes[C]{\flexvspace}</xsl:text>
             </xsl:when>
             <xsl:when
                test="ancestor::TEI/preceding-sibling::TEI[1]/teiHeader/fileDesc/sourceDesc/listWit">
-               <xsl:text>\toendnotes[C]{\medbreak\pagebreak[2]}</xsl:text>
+               <xsl:text>\toendnotes[C]{\flexvspace}</xsl:text>
             </xsl:when>
             <xsl:when test="ancestor::TEI/preceding-sibling::TEI[1]/body//*[@subtype]">
-               <xsl:text>\toendnotes[C]{\medbreak\pagebreak[2]}</xsl:text>
+               <xsl:text>\toendnotes[C]{\flexvspace}</xsl:text>
             </xsl:when>
             <xsl:when
                test="ancestor::TEI/preceding-sibling::TEI[1]/body//descendant::note[@type = 'commentary' or @type = 'textConst']">
-               <xsl:text>\toendnotes[C]{\medbreak\pagebreak[2]}</xsl:text>
+               <xsl:text>\toendnotes[C]{\flexvspace}</xsl:text>
             </xsl:when>
             <xsl:when
                test="ancestor::TEI/preceding-sibling::TEI[1]/body//descendant::div[@type = 'biographical']">
-               <xsl:text>\toendnotes[C]{\medbreak\pagebreak[2]}</xsl:text>
+               <xsl:text>\toendnotes[C]{\flexvspace}</xsl:text>
             </xsl:when>
             <xsl:otherwise>
-               <xsl:text>\toendnotes[C]{\smallbreak\pagebreak[2]}</xsl:text>
+               <xsl:text>\toendnotes[C]{\smallbreak\goodbreak}</xsl:text>
             </xsl:otherwise>
          </xsl:choose>
          <xsl:text>\anhangTitel{</xsl:text>
@@ -1511,7 +1512,7 @@
          <xsl:value-of select="foo:monatUndJahrInKopfzeile(ancestor::TEI/@when)"/>
          <xsl:text>}</xsl:text>
          <xsl:if test="$kommentar-vorhanden or $mehr-quellen or $bibliographical-vorhanden">
-            <xsl:text>\toendnotes[C]{\unskip\smallbreak\nopagebreak[4]}</xsl:text>
+            <xsl:text>\toendnotes[C]{\nopagebreak[4]\unskip\nopagebreak[4]\smallbreak\nopagebreak[4]}</xsl:text>
          </xsl:if>
          <!-- noch etwas näher zum Titel rutschen -->
          <!-- Zuerst die Archivsignaturen  -->
