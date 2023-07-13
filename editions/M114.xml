@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd" xml:base="schnitzler-interviews" xml:id="M114" next="I104" prev="M110"> <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="M114" next="I104" prev="M110">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
+            <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews,
+               Meinungen, Proteste (1891–1931)</title>
             <title level="a" ref="#pmb46580">Stefan Großmann: Der Reigen der Gassenjungen,
                26. 2. 1921</title>
             <title type="iso-date" when-iso="1921-02-26" n="1">26. 2. 1921</title>
@@ -56,48 +61,68 @@
       <body>
          <div type="original">
             <head>Der Reigen der Gassenjungen</head>
-            <p>In <rs type="place" ref="#pmb50">Wien</rs> ist <rs type="person" ref="#pmb2121">Schnitzler</rs>s »<rs type="work" ref="#pmb29855">Reigen</rs>« durch Demonstranten
-               aus einem <rs type="org" ref="#pmb58521">Katholischen Gesellenverein</rs> gestört
-               worden. Daraufhin wurde die Aufführung verboten. <rs type="person" ref="#pmb2121">Arthur
-                  Schnitzler</rs>
+            <p>In <rs type="place" ref="#pmb50">Wien</rs> ist <rs type="person" ref="#pmb2121"
+                  >Schnitzler</rs>s »<rs type="work" ref="#pmb29855">Reigen</rs>« durch
+               Demonstranten aus einem <rs type="org" ref="#pmb58521">Katholischen
+                  Gesellenverein</rs> gestört worden. Daraufhin wurde die Aufführung verboten. <rs
+                  type="person" ref="#pmb2121">Arthur Schnitzler</rs>
                <space unit="chars" quantity="1"/>
-               <anchor type="commentary" xml:id="K_I114-3"/>schreibt mir<note type="commentary" xml:id="K_I114-3h">Der als Vorlage dienende Brief <rs type="person" ref="#pmb2121">Schnitzler</rs>s vom <date>17. 2. 1921</date> an <rs type="person" ref="#pmb11527">Stefan Großmann</rs> ediert als L02363, <bibl>
+               <anchor type="commentary" xml:id="K_I114-3"/>schreibt mir<note type="commentary"
+                  xml:id="K_I114-3h">Der als Vorlage dienende Brief <rs type="person" ref="#pmb2121"
+                     >Schnitzler</rs>s vom <date>17. 2. 1921</date> an <rs type="person"
+                     ref="#pmb11527">Stefan Großmann</rs> ediert als L02363, <bibl>
                      <title level="m">schnitzler-briefe</title>
                   </bibl>.</note> darüber:</p>
+            <latex alt="\enlargethispage{-1em}"/>
             <p rend="inline">»Sie haben wohl meine Karte erhalten, in der ich Ihnen sagte, wie sehr
                mich Ihr parodistischer <anchor type="commentary" xml:id="K_I114-1"/>
                <rs type="work" subtype="implied" ref="#pmb46573">Dialog</rs>
                <note type="commentary" xml:id="K_I114-1h">
                   <bibl>
-                     <rs type="person" ref="#pmb11527">Stefan Großmann</rs>: <rs type="work" ref="#pmb46573">Hänischs Reigen. Eine unsittliche Szenenfolge</rs>. In: <rs type="work" ref="#pmb46493">Das Tage-Buch</rs>, Jg. 2, H. 2,
-                        <date>15. 1. 1921</date>, S. 51–53</bibl>.</note> amüsiert
-               hat. (Heft 2 des <rs type="work" ref="#pmb46493">T.-B.</rs>) Ich habe vorläufig keine
-               Absicht, mich über den »<rs type="work" ref="#pmb29855">Reigen</rs>« und die sogenannnte
-                  <rs type="work" ref="#pmb29855">Reigen</rs>-Affaire in der Öffentlichkeit weiter zu
-               äußern. <anchor type="commentary" xml:id="K_I114-2"/>Von den hiesigen Skandalen<note type="commentary" xml:id="K_I114-2h">Hier wird aus <rs type="person" ref="#pmb2121">Schnitzler</rs>s Brief ein Hinweis auf die öffentliche Antwort an <rs type="person" ref="#pmb11581">Maximilian Harden</rs> (<rs type="work" ref="#pmb33205">Berichtigung. Ein paar Worte zum Gutachten Maximilian Hardens über den
-                     »Reigen«</rs>) gestrichen.</note>, insbesondere von dem <anchor type="commentary" xml:id="K_I114-5"/>gestrigen<note type="commentary" xml:id="K_I114-5h">am <date>16. 2. 1921</date>
-               </note>, werden Sie wohl
-               indeß gelesen haben. Was soll man dazu sagen? Ich käme mir unsäglich komisch vor,
-               wollte ich mit den Abgeordneten <rs type="person" ref="#pmb5339">Kunschak</rs> oder <rs type="person" ref="#pmb12762">Seipel</rs> oder mit dem <anchor type="commentary" xml:id="K_M114-4"/>
+                     <rs type="person" ref="#pmb11527">Stefan Großmann</rs>: <rs type="work"
+                        ref="#pmb46573">Hänischs Reigen. Eine unsittliche Szenenfolge</rs>. In: <rs
+                        type="work" ref="#pmb46493">Das Tage-Buch</rs>, Jg. 2, H. 2,
+                        <date>15. 1. 1921</date>, S. 51–53</bibl>.</note> amüsiert hat. (Heft 2 des
+                  <rs type="work" ref="#pmb46493">T.-B.</rs>) Ich habe vorläufig keine Absicht, mich
+               über den »<rs type="work" ref="#pmb29855">Reigen</rs>« und die sogenannnte <rs
+                  type="work" ref="#pmb29855">Reigen</rs>-Affaire in der Öffentlichkeit weiter zu
+               äußern. <anchor type="commentary" xml:id="K_I114-2"/>Von den hiesigen Skandalen<note
+                  type="commentary" xml:id="K_I114-2h">Hier wird aus <rs type="person"
+                     ref="#pmb2121">Schnitzler</rs>s Brief ein Hinweis auf die öffentliche Antwort
+                  an <rs type="person" ref="#pmb11581">Maximilian Harden</rs> (<rs type="work"
+                     ref="#pmb33205">Berichtigung. Ein paar Worte zum Gutachten Maximilian Hardens
+                     über den »Reigen«</rs>) gestrichen.</note>, insbesondere von dem <anchor
+                  type="commentary" xml:id="K_I114-5"/>gestrigen<note type="commentary"
+                  xml:id="K_I114-5h">am <date>16. 2. 1921</date>
+               </note>, werden Sie wohl indeß <latex alt="ge\-lesen">gelesen</latex> haben. Was soll
+               man dazu sagen? Ich käme mir unsäglich komisch vor, wollte ich mit den Abgeordneten
+                  <rs type="person" ref="#pmb5339">Kunschak</rs> oder <rs type="person"
+                  ref="#pmb12762">Seipel</rs> oder mit dem <anchor type="commentary"
+                  xml:id="K_M114-4"/>
                <rs type="person" ref="#pmb63472" subtype="implied">Schusterlehrling</rs>
-               <note type="commentary" xml:id="K_M114-4h">Nach
-                  der Stürmung des Theaters wurden von der Polizei fünf Personen festgenommen und
-                  nach Erfassung der Identität freigelassen. Die Namen wurden nicht bekannt gegeben,
-                  bei der Angabe der Berufe gibt es in den Zeitungsmeldungen Abweichungen von der
-                  Art: Maurer/Kommis/Tapeziergehilfe, aber auch die in der Folge von <rs type="person" ref="#pmb2121">Schnitzler</rs> gebrachte Vermutung, ein Medizinstudent wäre
+               <note type="commentary" xml:id="K_M114-4h">Nach der Stürmung des Theaters wurden von
+                  der Polizei fünf Personen festgenommen und nach Erfassung der Identität
+                  freigelassen. Die Namen wurden nicht bekannt gegeben, bei der Angabe der Berufe
+                  gibt es in den Zeitungsmeldungen Abweichungen von der Art:
+                  Maurer/Kommis/Tapeziergehilfe, aber auch die in der Folge von <rs type="person"
+                     ref="#pmb2121">Schnitzler</rs> gebrachte Vermutung, ein Medizinstudent wäre
                   darunter gewesen.</note> polemisieren, der das Theater stürmt, mit dem
                begeisterten Ruf: ›Nieder mit dem <rs type="work" ref="#pmb29855">Reigen</rs>! Man
-               schändet unsere Frauen! Nieder mit den Sozialdemokraten! (Es kann übrigens auch ein
-               Stud. med. gewesen sein oder ein <rs type="person" subtype="implied" ref="#pmb63480">Tapezierergehilfe</rs>, – wobei meine Sympathie immerhin
-               noch mehr bei dem <rs type="person" subtype="implied" ref="#pmb63480">Tapezierergehilfen</rs> ist als bei den Herren <rs type="person" ref="#pmb12762">Seipel</rs> und <rs type="person" ref="#pmb5339">Kunschak</rs>.) Ich
-               habe ja schon einige ähnliche Sachen erlebt, wenn auch in bescheideneren Dimensionen.
-               Erinnern Sie sich nur an den ›<rs type="work" ref="#pmb29853">Leutnant Gustl</rs>‹ und
-               den ›<rs type="work" ref="#pmb30203">Professor Bernhardi</rs>‹. Nach einigen Jahren
-               bleibt von all dem Lärm nichts weiter übrig als die Bücher, die ich geschrieben, und
-               eine dunkle Erinnerung an die Blamage meiner Gegner. In diesem Fall wird es nicht
-               anders sein. Mit herzlichem Gruß</p>
+               schändet unsere Frauen! Nieder mit den Sozialdemokraten!‹ (Es kann übrigens auch ein
+               Stud. med. gewesen sein oder ein <rs type="person" subtype="implied" ref="#pmb63480"
+                  >Tapezierergehilfe</rs>, – wobei meine Sympathie immerhin noch mehr bei dem <rs
+                  type="person" subtype="implied" ref="#pmb63480">Tapezierergehilfen</rs> ist als
+               bei den Herren <rs type="person" ref="#pmb12762">Seipel</rs> und <rs type="person"
+                  ref="#pmb5339">Kunschak</rs>.) Ich habe ja schon einige ähnliche Sachen erlebt,
+               wenn auch in bescheideneren Dimensionen. Erinnern Sie sich nur an den ›<rs
+                  type="work" ref="#pmb29853">Leutnant Gustl</rs>‹ und den ›<rs type="work"
+                  ref="#pmb30203">Professor Bernhardi</rs>‹. Nach einigen Jahren bleibt von all dem
+               Lärm nichts weiter übrig als die Bücher, die ich geschrieben, und eine dunkle
+               Erinnerung an die Blamage meiner Gegner. In diesem Fall wird es nicht anders sein.
+               Mit herzlichem Gruß</p>
             <p rend="inline">Ihr sehr ergebener</p>
-            <p rend="right">Arthur <anchor type="textConst" xml:id="T_R114-1"/>Schnitzler.«<note type="textConst" xml:id="T_R114-1h">
+            <p rend="right">Arthur <anchor type="textConst" xml:id="T_R114-1"/>Schnitzler.«<note
+                  type="textConst" xml:id="T_R114-1h">
                   <quote>Schnitzler.</quote>
                </note>
             </p>
@@ -132,16 +157,22 @@
                <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
                <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
-               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="kraus1933"
+                  >https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
                <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
-               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino"
+                  >https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
             </person>
             <person xml:id="pmb11527">
                <persName>
@@ -169,18 +200,25 @@
                <sex value="male"/>
                <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
                <occupation ref="pmb99">Journalist/Journalistin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15691</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15691</idno>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118542664</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11527.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11527.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11527/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11527</idno>
-               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11527.html</idno>
-               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11527</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11527</idno>
+               <idno type="URL" subtype="schnitzler-lektueren"
+                  >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11527.html</idno>
+               <idno type="URL" subtype="kraus"
+                  >https://kraus.wienbibliothek.at/register/personen/pmb11527</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp53581</idno>
-               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=G#DWpers0086</idno>
+               <idno type="URL" subtype="kraus1933"
+                  >https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=G#DWpers0086</idno>
                <idno type="URL" subtype="doi">https://doi.org/10.1553/0x0028190f</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2336439</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Stefan_Gro%C3%9Fmann</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Stefan_Gro%C3%9Fmann</idno>
             </person>
             <person xml:id="pmb11581">
                <persName>
@@ -208,16 +246,22 @@
                <sex value="male"/>
                <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
                <occupation ref="pmb237">Publizist/Publizistin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15919</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15919</idno>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118545892</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11581.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11581.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11581/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11581</idno>
-               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11581.html</idno>
-               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11581</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11581</idno>
+               <idno type="URL" subtype="schnitzler-lektueren"
+                  >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11581.html</idno>
+               <idno type="URL" subtype="kraus"
+                  >https://kraus.wienbibliothek.at/register/personen/pmb11581</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49994</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q63411</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Maximilian_Harden</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Maximilian_Harden</idno>
                <idno type="URL" subtype="dx">https://dx.doi.org/10.1553/0x0002ed46</idno>
             </person>
             <person xml:id="pmb5339">
@@ -247,11 +291,14 @@
                <occupation ref="pmb95">Politiker/Politikerin</occupation>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118725432</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5339/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb5339</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb5339</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp48368</idno>
-               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=K#DWpers0143</idno>
+               <idno type="URL" subtype="kraus1933"
+                  >https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=K#DWpers0143</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q876895</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Leopold_Kunschak</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Leopold_Kunschak</idno>
             </person>
             <person xml:id="pmb12762">
                <persName>
@@ -279,17 +326,23 @@
                <sex value="male"/>
                <occupation ref="pmb95">Politiker/Politikerin</occupation>
                <occupation ref="pmb515">Prälat/Prälatin</occupation>
-               <occupation ref="pmb1300">Politiker/Politikerin &gt;&gt; Bundeskanzler/Bundeskanzlerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20038</idno>
+               <occupation ref="pmb1300">Politiker/Politikerin &gt;&gt;
+                  Bundeskanzler/Bundeskanzlerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20038</idno>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/11861293X</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12762.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12762.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12762/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12762</idno>
-               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb12762</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12762</idno>
+               <idno type="URL" subtype="kraus"
+                  >https://kraus.wienbibliothek.at/register/personen/pmb12762</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp41233</idno>
                <idno type="URL" subtype="doi">https://doi.org/10.1553/0x0028493d</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q78720</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ignaz_Seipel</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Ignaz_Seipel</idno>
             </person>
             <person xml:id="pmb63472">
                <persName>
@@ -311,68 +364,92 @@
          <listBibl>
             <bibl xml:id="pmb29855">
                <title>Reigen. Zehn Dialoge</title>
-               <title type="werk_link">https://www.digital.wienbibliothek.at/wbrobv/content/pageview/2587756</title>
+               <title type="werk_link"
+                  >https://www.digital.wienbibliothek.at/wbrobv/content/pageview/2587756</title>
                <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
                <date when="1900-01-01">1900</date>
                <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.32</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1414190</idno>
                <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-reigen</idno>
                <idno type="URL" subtype="theadok">https://theadok.at/work/33309</idno>
-               <idno type="URL" subtype="deutschestextarchiv">http://www.deutschestextarchiv.de/book/show/schnitzler_reigen_1903</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29855.html</idno>
+               <idno type="URL" subtype="deutschestextarchiv"
+                  >http://www.deutschestextarchiv.de/book/show/schnitzler_reigen_1903</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29855.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29855/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29855</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29855.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29855</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29855.html</idno>
                <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
             </bibl>
             <bibl xml:id="pmb46573">
                <title>Hänischs Reigen. Eine unsittliche Szenenfolge</title>
-               <title type="werk_link-anno">http://anno.onb.ac.at/cgi-content/anno-plus?aid=dtb&amp;datum=1921&amp;page=67&amp;size=45</title>
-               <title type="werk_bibliografische-angabe">Das Tage-Buch, Jg. 2, H. 2, 15.1.1921, S. 51–53.</title>
+               <title type="werk_link-anno"
+                  >http://anno.onb.ac.at/cgi-content/anno-plus?aid=dtb&amp;datum=1921&amp;page=67&amp;size=45</title>
+               <title type="werk_bibliografische-angabe">Das Tage-Buch, Jg. 2, H. 2, 15.1.1921, S.
+                  51–53.</title>
                <author ref="pmb11527" role="hat-geschaffen">Großmann, Stefan</author>
                <date>1921-01-15</date>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/46573/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb46573</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb46573</idno>
                <note type="work_kind">Epik &gt;&gt; Satire</note>
             </bibl>
             <bibl xml:id="pmb46493">
                <title>Das Tage-Buch</title>
                <title type="werk_link">http://anno.onb.ac.at/cgi-content/anno-plus?aid=dtb</title>
                <author ref="pmb11527" role="hat-herausgegeben">Großmann, Stefan</author>
-               <date to="1933-01-01">1920-01-01  – 1933-01-01</date>
+               <date to="1933-01-01">1920-01-01 – 1933-01-01</date>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/46493/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb46493</idno>
-               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb46493</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb46493</idno>
+               <idno type="URL" subtype="kraus"
+                  >https://kraus.wienbibliothek.at/register/werke/pmb46493</idno>
                <note type="work_kind">Periodikum &gt;&gt; Zeitschrift</note>
             </bibl>
             <bibl xml:id="pmb33205">
-               <title>Berichtigung. Ein paar Worte zum Gutachten Maximilian Hardens über den »Reigen«</title>
-               <title type="werk_bibliografische-angabe">Artur Schnitzler: Berichtigung. Ein paar Worte zum Gutachten Maximilian Hardens über den »Reigen«. In: Neues Wiener Journal, Nr. 9782, 30. 1. 1921, S. 6.</title>
-               <title type="werk_link-anno">http://anno.onb.ac.at/cgi-content/anno?aid=nwj&amp;datum=19210130&amp;seite=6&amp;zoom=33</title>
+               <title>Berichtigung. Ein paar Worte zum Gutachten Maximilian Hardens über den
+                  »Reigen«</title>
+               <title type="werk_bibliografische-angabe">Artur Schnitzler: Berichtigung. Ein paar
+                  Worte zum Gutachten Maximilian Hardens über den »Reigen«. In: Neues Wiener
+                  Journal, Nr. 9782, 30. 1. 1921, S. 6.</title>
+               <title type="werk_link-anno"
+                  >http://anno.onb.ac.at/cgi-content/anno?aid=nwj&amp;datum=19210130&amp;seite=6&amp;zoom=33</title>
                <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
                <date when="1921-01-30">30.01.1921</date>
-               <idno type="URL" subtype="">http://anno.onb.ac.at/cgi-content/anno?aid=nwj&amp;datum=19210130&amp;seite=6&amp;zoom=33</idno>
+               <idno type="URL" subtype=""
+                  >http://anno.onb.ac.at/cgi-content/anno?aid=nwj&amp;datum=19210130&amp;seite=6&amp;zoom=33</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33205/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33205</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33205.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb33205</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb33205.html</idno>
                <note type="work_kind">Brief &gt;&gt; Öffentlicher Brief &gt;&gt; Leserbrief</note>
             </bibl>
             <bibl xml:id="pmb29853">
                <title>Lieutenant Gustl. Novelle</title>
-               <title type="werk_bibliografische-angabe">Arthur Schnitzler: Lieutenant Gustl. In: Neue Freie Presse, Nr. 13053, 25. 12. 1900, S. 34–41</title>
-               <title type="werk_link">http://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=19001225&amp;seite=34&amp;zoom=33</title>
+               <title type="werk_bibliografische-angabe">Arthur Schnitzler: Lieutenant Gustl. In:
+                  Neue Freie Presse, Nr. 13053, 25. 12. 1900, S. 34–41</title>
+               <title type="werk_link"
+                  >http://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=19001225&amp;seite=34&amp;zoom=33</title>
                <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
                <author ref="pmb28645" role="hat-illustriert">Coschell, Moritz</author>
                <date>1900-12-25</date>
                <idno type="URL" subtype="asaf">https://asaf.com/S.04.02.39</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1821658</idno>
                <idno type="URL" subtype="theadok">https://theadok.at/work/31187</idno>
-               <idno type="URL" subtype="">http://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=19001225&amp;seite=34&amp;zoom=33</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29853.html</idno>
+               <idno type="URL" subtype=""
+                  >http://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=19001225&amp;seite=34&amp;zoom=33</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29853.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29853/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29853</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29853.html</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Leutnant_Gustl</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29853</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29853.html</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Leutnant_Gustl</idno>
                <note type="work_kind">Novelle</note>
             </bibl>
             <bibl xml:id="pmb30203">
@@ -383,20 +460,28 @@
                <date notBefore="1912-01-01" when="1912-07-01">1912</date>
                <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.31</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q872683</idno>
-               <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-professor-bernhardi</idno>
+               <idno type="URL" subtype="dracor"
+                  >https://dracor.org/ger/schnitzler-professor-bernhardi</idno>
                <idno type="URL" subtype="theadok">https://theadok.at/work/43034</idno>
-               <idno type="URL" subtype="archive">http://www.archive.org/details/professorbernhar00schn</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30203.html</idno>
+               <idno type="URL" subtype="archive"
+                  >http://www.archive.org/details/professorbernhar00schn</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30203.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30203/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30203</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30203.html</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Professor_Bernhardi</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30203</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30203.html</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Professor_Bernhardi</idno>
                <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
             </bibl>
             <bibl xml:id="pmb46580">
                <title>Der Reigen der Gassenjungen</title>
-               <title type="werk_link-anno">http://anno.onb.ac.at/cgi-content/anno-plus?aid=dtb&amp;datum=1921&amp;page=268&amp;size=45</title>
-               <title type="werk_bibliografische-angabe">In: Das Tage-Buch, Jg.  2, H. 8, 26.2.1921, S. 252–253.</title>
+               <title type="werk_link-anno"
+                  >http://anno.onb.ac.at/cgi-content/anno-plus?aid=dtb&amp;datum=1921&amp;page=268&amp;size=45</title>
+               <title type="werk_bibliografische-angabe">In: Das Tage-Buch, Jg. 2, H. 8, 26.2.1921,
+                  S. 252–253.</title>
                <author ref="pmb11527" role="hat-herausgegeben">Großmann, Stefan</author>
                <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
                <date>26.2.1921</date>
@@ -407,7 +492,8 @@
          <listPlace>
             <place xml:id="pmb50">
                <placeName>Wien</placeName>
-               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt
+                  Wien</placeName>
                <placeName type="alternative-name">Bécs</placeName>
                <placeName type="alternative-name">Land Wien</placeName>
                <placeName type="alternative-name">Vídeň</placeName>
@@ -427,15 +513,19 @@
                </location>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
-               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="kraus"
+                  >https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
             </place>
@@ -447,7 +537,8 @@
                <desc type="entity_type_id">974</desc>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58521/</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q60619</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Adolph_Kolping</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Adolph_Kolping</idno>
                <note type="apis_dates">
                   <date notBefore="1851-01-01" when="1851-07-02">1851</date>
                </note>

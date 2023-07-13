@@ -1512,7 +1512,8 @@
          <xsl:value-of select="foo:monatUndJahrInKopfzeile(ancestor::TEI/@when)"/>
          <xsl:text>}</xsl:text>
          <xsl:if test="$kommentar-vorhanden or $mehr-quellen or $bibliographical-vorhanden">
-            <xsl:text>\toendnotes[C]{\nopagebreak[4]\unskip\nopagebreak[4]\smallbreak\nopagebreak[4]}</xsl:text>
+            <!--<xsl:text>\toendnotes[C]{\unskip\nopagebreak[4]\smallbreak\nopagebreak[4]}</xsl:text>-->
+            <xsl:text>\toendnotes[C]{\nopagebreak[4]}</xsl:text>
          </xsl:if>
          <!-- noch etwas näher zum Titel rutschen -->
          <!-- Zuerst die Archivsignaturen  -->
@@ -4671,7 +4672,7 @@
    <!-- Gesperrter Text -->
    <xsl:template match="hi[@rend = 'spaced_out']">
       <xsl:choose>
-         <xsl:when test="ancestor::TEI/descendant::hi[@rend = 'italics']">
+         <xsl:when test="ancestor::TEI/descendant::hi[@rend = 'italics'] or @n='latex'">
             <xsl:text>\so{</xsl:text>
             <xsl:apply-templates/>
             <xsl:text>}</xsl:text>
