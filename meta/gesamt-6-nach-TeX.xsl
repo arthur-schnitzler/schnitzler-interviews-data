@@ -963,9 +963,10 @@
       </xsl:text>
       <xsl:text>\part*{Anhang}</xsl:text>
       <xsl:text>\setcounter{footnote}{0}</xsl:text>
+      <xsl:text>\counterwithout{footnote}{chapter}</xsl:text>
       <xsl:text>\addtokomafont{section}{\normalsize\normalsize\centering\textit}</xsl:text>
       <xsl:text>\small</xsl:text>
-      <xsl:text>\addchap*{Quellennachweis und Erläuterungen}</xsl:text>
+      <xsl:text>\addchap{Quellennachweis und Erläuterungen}</xsl:text>
       <xsl:value-of select="concat('\label{annex_', $nur-eine-id-fuer-unique-labels, '}')"/>
       <xsl:text>\lohead{\textsc{quellennachweis und erläuterungen}}</xsl:text>
       <xsl:text>\noindent{}</xsl:text>
@@ -1006,6 +1007,7 @@
          <!--<xsl:text>\addcontentsline{toc}{part}{Interviews}</xsl:text>-->
          <xsl:text>\addtocontents{toc}{%
   \protect\contentsline{part}{Interviews}}</xsl:text>
+         <xsl:text>\counterwithin*{footnote}{section}</xsl:text>
          <!-- keine Seitenzahl im Inhaltsverzeichnis -->
          <xsl:apply-templates select="TEI[starts-with(@id, 'I')]"/>
          <xsl:value-of select="foo:latexAnhang('I')"/>
@@ -1026,6 +1028,7 @@
          <xsl:text>\setlength{\hoffset}{\originalHOffset}</xsl:text>
          <xsl:text>\mainmatter</xsl:text>
          <xsl:text>\setcounter{page}{\value{alte-seitenzahl-vor-neuen-titelseiten}+1}</xsl:text>
+         <xsl:text>\counterwithin*{footnote}{section}</xsl:text>
          <xsl:text>\addtocontents{toc}{%
   \protect\contentsline{part}{Meinungen}}</xsl:text>
          <!-- keine Seitenzahl im Inhaltsverzeichnis -->
@@ -3059,7 +3062,7 @@
             <xsl:text> </xsl:text>
             <xsl:value-of select="normalize-space($sigle-eintrag/sigle-band)"/>
             <xsl:if test="not(empty($seitenangabe) or $seitenangabe = '')">
-               <xsl:text>,</xsl:text>
+               <xsl:text>, S.&#160;</xsl:text>
                <xsl:value-of select="$seitenangabe"/>
             </xsl:if>
          </xsl:when>

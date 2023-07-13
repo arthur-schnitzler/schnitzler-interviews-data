@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd" xml:base="schnitzler-interviews" xml:id="M077" next="I092" prev="I102"> <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="M077" next="I092" prev="I102">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
+            <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews,
+               Meinungen, Proteste (1891–1931)</title>
             <title level="a" ref="#pmb58543">Hinter den Coulissen, 26. 10. 1904</title>
             <title type="iso-date" when-iso="1904-10-26" n="1">26. 10. 1904</title>
             <author ref="#pmb2121">Schnitzler, Arthur</author>
@@ -56,32 +61,44 @@
             <p>
                <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>, außerhalb seines eigenen
                dichterischen Schaffens sonst so sparsam, fast geizig mit seiner Feder, leitet die
-               deutsche <anchor type="commentary" xml:id="K_I077-1"/>Buchausgabe<note type="commentary" xml:id="K_I077-1h">Das Stück <rs type="work" ref="#pmb60042">Petit
-                     Chagrin</rs> (<date>1899</date>) erschien in Übersetzung als: <bibl>
-                     <rs type="person" ref="#pmb26414">Maurice Vaucaire</rs>: <rs type="work" ref="#pmb36075">Fesseln der Liebe. Komödie in 3 Akten.</rs> Deutsch von <rs type="person" ref="#pmb4076">Otto Eisenschitz</rs>. Vorwort von <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>. Berlin, Köln, Leipzig: <rs type="org" ref="#pmb29711">Albert Ahn</rs>
+               deutsche <anchor type="commentary" xml:id="K_I077-1"/>Buchausgabe<note
+                  type="commentary" xml:id="K_I077-1h">Das Stück <rs type="work" ref="#pmb60042"
+                     >Petit Chagrin</rs> (<date>1899</date>) erschien in Übersetzung als: <bibl>
+                     <rs type="person" ref="#pmb26414">Maurice Vaucaire</rs>: <rs type="work"
+                        ref="#pmb36075">Fesseln der Liebe. Komödie in 3 Akten.</rs> Deutsch von <rs
+                        type="person" ref="#pmb4076">Otto Eisenschitz</rs>. Vorwort von <rs
+                        type="person" ref="#pmb2121">Arthur Schnitzler</rs>. Berlin, Köln, Leipzig:
+                        <rs type="org" ref="#pmb29711">Albert Ahn</rs>
                      <space unit="chars" quantity="1"/>
                      <date>
                         <supplied>1904</supplied>
-                     </date> (Französisches Theater, 9)</bibl>.</note> von »<rs type="work" ref="#pmb36075">Fesseln der Liebe</rs>« mit einem reizenden und <latex alt="an\-regen\-den">anregenden</latex>, an <rs type="person" ref="#pmb26414">Vaucaire</rs> gerichteten Briefe ein, der uns zur
-               Wiedergabe übermittelt wird. Da das <rs type="work" ref="#pmb36075" subtype="implied">Stück</rs>
+                     </date> (Französisches Theater, 9)</bibl>.</note> von »<rs type="work"
+                  ref="#pmb36075">Fesseln der Liebe</rs>« mit einem reizenden und <latex
+                  alt="an\-regen\-den">anregenden</latex>, an <rs type="person" ref="#pmb26414"
+                  >Vaucaire</rs> gerichteten Briefe ein, der uns zur Wiedergabe übermittelt wird. Da
+               das <rs type="work" ref="#pmb36075" subtype="implied">Stück</rs>
                <space unit="chars" quantity="1"/>
-               <anchor type="commentary" xml:id="K_I077-11"/>morgen<note type="commentary" xml:id="K_I077-11h">am <date>27. 10. 1904</date>
+               <anchor type="commentary" xml:id="K_I077-11"/>morgen<note type="commentary"
+                  xml:id="K_I077-11h">am <date>27. 10. 1904</date>
                </note> im jungen »<rs type="org" ref="#pmb56528">Lustspielhaus</rs>« hier aufgeführt
                wird, sei der Brief Arthur Schnitzlers hier mitgeteilt:</p>
             <p>Lieber Herr <rs type="person" ref="#pmb26414">Vaucaire</rs>!</p>
-            <p>Sie wollen also wirklich ein Vorwort zu der deutschen Buchausgabe Ihres <rs type="work" ref="#pmb36075" subtype="implied">Stückes</rs>? Ich glaube, dieser Wunsch
-               entspringt mehr einer Liebenswürdigkeit Ihrerseits mir gegenüber als der Empfindung,
-               daß Ihre reizvolle <rs type="work" ref="#pmb36075" subtype="implied">Komödie</rs> einer
-               Einführung beim deutschen Publikum bedürfe.</p>
+            <p>Sie wollen also wirklich ein Vorwort zu der deutschen Buchausgabe Ihres <rs
+                  type="work" ref="#pmb36075" subtype="implied">Stückes</rs>? Ich glaube, dieser
+               Wunsch entspringt mehr einer Liebenswürdigkeit Ihrerseits mir gegenüber als der
+               Empfindung, daß Ihre reizvolle <rs type="work" ref="#pmb36075" subtype="implied"
+                  >Komödie</rs> einer Einführung beim deutschen Publikum bedürfe.</p>
             <p>Ein Vorwort, das ist schließlich immer eine Art von Erklärung oder von
                Entschuldigung. Und die beste Entschuldigung für ein Werk wird immer bleiben, daß es
                gelungen ist; die zweifelloseste Erklärung, ja vielleicht die einzig erlaubte, wenn
-               es sich selbst erklärt. Welches Vergnügen mir die Lektüre von »<rs type="work" ref="#pmb36075">Petit chagrin</rs>« bereitet hat, habe ich Ihnen seinerzeit nicht
+               es sich selbst erklärt. Welches Vergnügen mir die Lektüre von »<rs type="work"
+                  ref="#pmb36075">Petit chagrin</rs>« bereitet hat, habe ich Ihnen seinerzeit nicht
                verhehlt. Seither habe ich das Stück im <rs type="org" ref="#pmb39689">Josefstädter
                   Theater</rs> gesehen, und wieder hat es mir so lebhaft ans Herz gerührt wie
                damals, als ich es las. Nennen Sie es immerhin lächelnd den »kleinen Gram« oder
                »kleine Schmerzen« (ich weiß, daß »Petit chagrin« hübscher klingt und eigentlich was
-               anderes heißt – allerdings bestimmt nicht »Fesseln der Liebe«<c rendition="#dots" n="3"/>), ich finde nun einmal, daß diese alltägliche Geschichte von der kleinen
+               anderes heißt – allerdings bestimmt nicht »Fesseln der Liebe«<c rendition="#dots"
+                  n="3"/>), ich finde nun einmal, daß diese alltägliche Geschichte von der kleinen
                   <rs type="work" ref="#pmb36075" subtype="implied">Mimi Foy</rs> im Grunde recht
                traurig ist und auch Ihnen viel trauriger vorkommt, als Sie es zugestehen wollen. Daß
                   <rs type="work" ref="#pmb36075" subtype="implied">Mimi</rs> sich trösten, daß sie
@@ -96,49 +113,60 @@
                jedenfalls nicht sehr ernstlich. Aber sollte sie es wirklich ganz in der Ordnung
                finden, daß man ein Wesen ihrer Art verläßt, um irgend ein Fräulein aus guter Familie
                zu heiraten, und daß man ohne weiteres das Recht hat, sie in ihre Welt
-               zurückzustoßen, um ein Mädchen aus einer anderen zur Frau zu nehmen?<c rendition="#dots" n="3"/> Nein, ich glaube, sie weiß schon heute, daß ihre Welt
+               zurückzustoßen, um ein Mädchen aus einer anderen zur Frau zu nehmen?<c
+                  rendition="#dots" n="3"/> Nein, ich glaube, sie weiß schon heute, daß ihre Welt
                die bessere und hoffnungsreichere ist, und bald wird sie den tieferen Sinn und das
                Heil ihres Erlebnisses darin spüren, daß <hi rend="spaced_out">sie</hi> nicht zu
                gering für ihren Geliebten, sondern, daß <hi rend="spaced_out">er ihrer</hi> nicht
-               würdig war. – Damit will ich Ihrem <rs type="work" ref="#pmb36075" subtype="implied">Georges</rs> nicht einmal etwas Böses nachsagen. Er ist im Grunde ein guter
+               würdig war. – Damit will ich Ihrem <rs type="work" ref="#pmb36075" subtype="implied"
+                  >Georges</rs> nicht einmal etwas Böses nachsagen. Er ist im Grunde ein guter
                Junge, liebenswürdig und hat viel Geist<c rendition="#dots" n="3"/> Den haben sie
-               alle, die jungen Leute in Ihrem <rs type="work" ref="#pmb36075" subtype="implied">Stück</rs>. Sie haben beinahe so viel Geist als ihr Schöpfer und darum manchmal
-               mehr, als dieser verantworten könnte. – Besonders Herrn <rs type="work" ref="#pmb36075" subtype="implied">Daumesnil</rs> habe ich sehr gern. Er könnte sich mit Recht
-               darüber aufhalten, als Episodenfigur behandelt zu werden, und ich glaube, daß er ein
-               wenig tiefer empfindet, und daß ihm daher mehr Leid beschieden wird, als Sie uns
-               verraten. Die meisten Stücke haben ja irgend einen allerletzten Akt, der nicht
-               geschrieben wurde; und wenn man aus dem Theater nach Hause geht, liebt man es, solche
-               allerletzten Akte zu dem ausgespielten Stück dazu zu träumen. Und manche solcher
-               vierten Akte könnte man sich zu »<rs type="work" ref="#pmb36075">Petit chagrin</rs>«
-               dazudenken. Aber wer weiß, ob es auch nur in einem von ihnen so lustig zuginge als in
-               Ihren dreien, die in all ihrer Melancholie oft sehr heiter und immer so amüsant sind.
-               – So denke ich mir einen Akt, der zwischen <rs type="work" ref="#pmb36075" subtype="implied">Daumesnil</rs> und <rs type="work" ref="#pmb36075" subtype="implied">Mimi</rs> spielt; und mir ist, als wenn Schatten der
-               Vergangenheit ziemlich schwer über ihnen beiden liegen müßten. Dann seh’ ich <rs type="work" ref="#pmb36075" subtype="implied">Georges</rs> im Kreise der Familie <rs type="work" ref="#pmb36075" subtype="implied">Renouard</rs>, und trotz allen Glückes
-               junger Brautschaft sehnt er sich doch nach einer gewissen Nacht in <rs type="place" ref="#pmb36549">Versailles</rs> zurück, wo unter den Fenstern drei Violinen und ein
-               Piano <anchor type="textConst" xml:id="T_M077-4"/>spielten,<note type="textConst" xml:id="T_M077-4h">
+               alle, die jungen Leute in Ihrem <rs type="work" ref="#pmb36075" subtype="implied"
+                  >Stück</rs>. Sie haben beinahe so viel Geist als ihr Schöpfer und darum manchmal
+               mehr, als dieser verantworten könnte. – Besonders Herrn <rs type="work"
+                  ref="#pmb36075" subtype="implied">Daumesnil</rs> habe ich sehr gern. Er könnte
+               sich mit Recht darüber aufhalten, als Episodenfigur behandelt zu werden, und ich
+               glaube, daß er ein wenig tiefer empfindet, und daß ihm daher mehr Leid beschieden
+               wird, als Sie uns verraten. Die meisten Stücke haben ja irgend einen allerletzten
+               Akt, der nicht geschrieben wurde; und wenn man aus dem Theater nach Hause geht, liebt
+               man es, solche allerletzten Akte zu dem ausgespielten Stück dazu zu träumen. Und
+               manche solcher vierten Akte könnte man sich zu »<rs type="work" ref="#pmb36075">Petit
+                  chagrin</rs>« dazudenken. Aber wer weiß, ob es auch nur in einem von ihnen so
+               lustig zuginge als in Ihren dreien, die in all ihrer Melancholie oft sehr heiter und
+               immer so amüsant sind. – So denke ich mir einen Akt, der zwischen <rs type="work"
+                  ref="#pmb36075" subtype="implied">Daumesnil</rs> und <rs type="work"
+                  ref="#pmb36075" subtype="implied">Mimi</rs> spielt; und mir ist, als wenn Schatten
+               der Vergangenheit ziemlich schwer über ihnen beiden liegen müßten. Dann seh’ ich <rs
+                  type="work" ref="#pmb36075" subtype="implied">Georges</rs> im Kreise der Familie
+                  <rs type="work" ref="#pmb36075" subtype="implied">Renouard</rs>, und trotz allen
+               Glückes junger Brautschaft sehnt er sich doch nach einer gewissen Nacht in <rs
+                  type="place" ref="#pmb36549">Versailles</rs> zurück, wo unter den Fenstern drei
+               Violinen und ein Piano <anchor type="textConst" xml:id="T_M077-4"/>spielten,<note
+                  type="textConst" xml:id="T_M077-4h">
                   <quote>spielten</quote>
-               </note> nach irgend einem unordentlichen
-               Frühstück bei <rs type="work" ref="#pmb36075" subtype="implied">Mimi</rs>, und
-               vielleicht sogar nach dem traurig-süßen Abschiedsmahle im Café de Madrid, da
-               Sommerlüfte über den offenen Balkon in das stille Zimmer zogen.</p>
-            <p>Sehen Sie, lieber Herr <rs type="person" ref="#pmb26414">Vaucaire</rs>, so mache ich mir
-               Sorgen um manche Leute, die in Ihrer Komödie erscheinen; so stark ist der Hauch des
-               Lebens, der von ihnen ausgeht. Nur um die kleinen Freundinnen der Lucie ist mir wenig
-               bange, – eher um die Herren, die einmal ihre Gatten werden sollen.</p>
+               </note> nach irgend einem unordentlichen Frühstück bei <rs type="work"
+                  ref="#pmb36075" subtype="implied">Mimi</rs>, und vielleicht sogar nach dem
+               traurig-süßen Abschiedsmahle im Café de Madrid, da Sommerlüfte über den offenen
+               Balkon in das stille Zimmer zogen.</p>
+            <p>Sehen Sie, lieber Herr <rs type="person" ref="#pmb26414">Vaucaire</rs>, so mache ich
+               mir Sorgen um manche Leute, die in Ihrer Komödie erscheinen; so stark ist der Hauch
+               des Lebens, der von ihnen ausgeht. Nur um die kleinen Freundinnen der Lucie ist mir
+               wenig bange, – eher um die Herren, die einmal ihre Gatten werden sollen.</p>
             <p>Aber was erzähle ich Ihnen da? <c rendition="#dots" n="3"/> Sie wissen besser, was
                Ihre Figuren nach dem letzten Fallen des Vorhangs anstellen und erleben werden als
-               ich. Es sind ja keine ungewöhnlichen Menschen, und wie Sie selbst, lieber Herr <rs type="person" ref="#pmb26414">Vaucaire</rs>, in der wehmütig lächelnden Ueberschrift
-               ausdrücken, ihre Schmerzen sind gering. Aber wirkliche Menschen sind es, und ihre
-               kleinen Schmerzen gehen uns ans Herz, so vergänglich sie sind. Und das wird wohl die
-               Hauptsache sein.</p>
+               ich. Es sind ja keine ungewöhnlichen Menschen, und wie Sie selbst, lieber Herr <rs
+                  type="person" ref="#pmb26414">Vaucaire</rs>, in der wehmütig lächelnden
+               Ueberschrift ausdrücken, ihre Schmerzen sind gering. Aber wirkliche Menschen sind es,
+               und ihre kleinen Schmerzen gehen uns ans Herz, so vergänglich sie sind. Und das wird
+               wohl die Hauptsache sein.</p>
             <p>Und Sie wollen, daß ich Ihnen ein Vorwort schreibe? <c rendition="#dots" n="3"/>
-               Wahrhaftig, Ihre <rs type="work" ref="#pmb36075" subtype="implied">Komödie</rs> bedarf
-               weder eines Kommentars, noch einer Rechtfertigung. Aber vielleicht könnte ein Vorwort
-               doch noch etwas Drittes bedeuten: den Dank, den irgend jemand im Namen von vielen
-               ausspricht. Wollen wir es so nehmen? Da ist es vielleicht pretentiös, daß gerade ich
-               meinen Namen unter diese Zeilen setze. Aber Sie waren so liebenswürdig, es zu
-               wünschen, mein lieber Herr <rs type="person" ref="#pmb26414">Vaucaire</rs>, und so mag
-               ich darum auch bei anderen entschuldigt sein.</p>
+               Wahrhaftig, Ihre <rs type="work" ref="#pmb36075" subtype="implied">Komödie</rs>
+               bedarf weder eines Kommentars, noch einer Rechtfertigung. Aber vielleicht könnte ein
+               Vorwort doch noch etwas Drittes bedeuten: den Dank, den irgend jemand im Namen von
+               vielen ausspricht. Wollen wir es so nehmen? Da ist es vielleicht pretentiös, daß
+               gerade ich meinen Namen unter diese Zeilen setze. Aber Sie waren so liebenswürdig, es
+               zu wünschen, mein lieber Herr <rs type="person" ref="#pmb26414">Vaucaire</rs>, und so
+               mag ich darum auch bei anderen entschuldigt sein.</p>
             <p>Ihr herzlich ergebener</p>
             <p rend="right">Arthur Schnitzler.</p>
          </div>
@@ -155,7 +183,8 @@
             </div1>
             <div1>
                <ref type="schnitzler-tagebuch" target="1904-02-03"/>
-               <quote>Vm. Briefe und Vorwort zu <rs type="person" ref="#pmb26414">Vaucaire</rs> dictirt.–</quote>
+               <quote>Vm. Briefe und Vorwort zu <rs type="person" ref="#pmb26414">Vaucaire</rs>
+                  dictirt.–</quote>
             </div1>
             <div1>
                <ref type="schnitzler-tagebuch" target="1904-02-04"/>
@@ -164,11 +193,15 @@
             </div1>
             <div1>
                <ref type="schnitzler-tagebuch" target="1904-11-03"/>
-               <quote>›<rs type="work" ref="#pmb36075">Fesseln der Liebe</rs>‹ von <rs type="person" ref="#pmb26414">Vaucaire</rs> neulich <rs type="place" ref="#pmb168">Berlin</rs>
-                  fielen durch. Ich hatte contre coeur, nur aus Gefälligkeit für <rs type="person" ref="#pmb26414">Vaucaire</rs>, der mich brieflich und telegr. drum bat; ein
-                  Vorwort zu der dtsch. Ausgabe geschrieben ― was mir in allen <rs type="place" ref="#pmb168">Berl.</rs> Blättern übel genommen wird ― (und bei welcher
-                  Gelegenheit <rs type="work" ref="#pmb29917">Liebelei</rs> und <rs type="work" ref="#pmb30005">Absch.souper</rs> über den Klee gelobt wird). Was mich ein wenig
-                  enervirte.―</quote>
+               <quote>›<rs type="work" ref="#pmb36075">Fesseln der Liebe</rs>‹ von <rs type="person"
+                     ref="#pmb26414">Vaucaire</rs> neulich <rs type="place" ref="#pmb168"
+                     >Berlin</rs> fielen durch. Ich hatte contre coeur, nur aus Gefälligkeit für <rs
+                     type="person" ref="#pmb26414">Vaucaire</rs>, der mich brieflich und telegr.
+                  drum bat; ein Vorwort zu der dtsch. Ausgabe geschrieben – was mir in allen <rs
+                     type="place" ref="#pmb168">Berl.</rs> Blättern übel genommen wird – (und bei
+                  welcher Gelegenheit <rs type="work" ref="#pmb29917">Liebelei</rs> und <rs
+                     type="work" ref="#pmb30005">Absch.souper</rs> über den Klee gelobt wird). Was
+                  mich ein wenig enervirte.–</quote>
             </div1>
          </div>
       </body>
@@ -201,16 +234,22 @@
                <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
                <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
-               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="kraus1933"
+                  >https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
                <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
-               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino"
+                  >https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
             </person>
             <person xml:id="pmb26414">
                <persName>
@@ -239,7 +278,8 @@
                <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
                <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
                <occupation ref="pmb116">Übersetzer/Übersetzerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20931</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20931</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/26414/</idno>
             </person>
             <person xml:id="pmb4076">
@@ -272,10 +312,13 @@
                <occupation ref="pmb115">Dramaturg/Dramaturgin</occupation>
                <occupation ref="pmb116">Übersetzer/Übersetzerin</occupation>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116434716</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14686</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb4076.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14686</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb4076.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4076/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb4076</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb4076</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp42473</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q55674469</idno>
             </person>
@@ -292,26 +335,33 @@
                <title type="namensvariante">Petit chagrin. Comédie en trois actes</title>
                <author ref="pmb26414" role="hat-geschaffen">Vaucaire, Maurice</author>
                <author ref="pmb4076" role="hat-ubersetzt">Eisenschitz, Otto</author>
-               <author ref="pmb2121" role="hat-ein-vorwortnachwort-verfasst-zu">Schnitzler, Arthur</author>
+               <author ref="pmb2121" role="hat-ein-vorwortnachwort-verfasst-zu">Schnitzler,
+                  Arthur</author>
                <date notBefore="1904-01-01" when="1904-07-01">1904</date>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36075/</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb36075.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb36075.html</idno>
                <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
             </bibl>
             <bibl xml:id="pmb29917">
                <title>Liebelei. Schauspiel in drei Akten</title>
-               <title type="werk_link">https://www.deutschestextarchiv.de/book/show/schnitzler_liebelei_1896</title>
+               <title type="werk_link"
+                  >https://www.deutschestextarchiv.de/book/show/schnitzler_liebelei_1896</title>
                <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
                <date>1895-10-09</date>
                <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.27</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1823758</idno>
                <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-liebelei</idno>
                <idno type="URL" subtype="theadok">https://theadok.at/work/31062</idno>
-               <idno type="URL" subtype="deutschestextarchiv">http://www.deutschestextarchiv.de/book/show/schnitzler_liebelei_1896</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29917.html</idno>
+               <idno type="URL" subtype="deutschestextarchiv"
+                  >http://www.deutschestextarchiv.de/book/show/schnitzler_liebelei_1896</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29917.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29917/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29917</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29917.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29917</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29917.html</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Liebelei</idno>
                <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
             </bibl>
@@ -320,26 +370,33 @@
                <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
                <date when="1892-01-01">1892</date>
                <idno type="URL" subtype="theadok">https://theadok.at/work/30733</idno>
-               <idno type="URL" subtype="literature">http://www.literature.at/viewer.alo?objid=12109&amp;page=1&amp;viewmode=fullscreen</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30005.html</idno>
+               <idno type="URL" subtype="literature"
+                  >http://www.literature.at/viewer.alo?objid=12109&amp;page=1&amp;viewmode=fullscreen</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30005.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30005/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30005</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30005.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30005</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30005.html</idno>
                <note type="work_kind">Drama &gt;&gt; Einakter</note>
             </bibl>
             <bibl xml:id="pmb58543">
                <title>Hinter den Coulissen</title>
-               <author ref="pmb2121" role="hat-einen-beitrag-geschaffen-zu">Schnitzler, Arthur</author>
+               <author ref="pmb2121" role="hat-einen-beitrag-geschaffen-zu">Schnitzler,
+                  Arthur</author>
                <date when="1904-10-26">1904-10-26</date>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58543/</idno>
                <note type="work_kind">Kolumne</note>
             </bibl>
             <bibl xml:id="pmb41289">
                <title>Berliner Börsen-Courier</title>
-               <date from="1868-01-01" to="1933-07-02">1868  – 1933</date>
+               <date from="1868-01-01" to="1933-07-02">1868 – 1933</date>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41289/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41289</idno>
-               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb41289</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41289</idno>
+               <idno type="URL" subtype="kraus"
+                  >https://kraus.wienbibliothek.at/register/werke/pmb41289</idno>
                <note type="work_kind">Periodikum &gt;&gt; Tageszeitung</note>
             </bibl>
          </listBibl>
@@ -357,8 +414,10 @@
                </location>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2969679/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36549/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36549</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb36549.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb36549</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb36549.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/114896/</idno>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4063142-4</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q621</idno>
@@ -381,14 +440,19 @@
                   <geo>51,5 10,5</geo>
                </location>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
-               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb168</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
+               <idno type="URL" subtype="kraus"
+                  >https://kraus.wienbibliothek.at/register/orte/pmb168</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92171.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92171.html</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
             </place>
@@ -398,7 +462,8 @@
                <orgName>Albert Ahn</orgName>
                <desc type="entity_type">Verlag</desc>
                <desc type="entity_type_id">975</desc>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29711.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29711.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29711/</idno>
             </org>
             <org xml:id="pmb56528">
@@ -409,22 +474,28 @@
                   <placeName ref="pmb168">Berlin</placeName>
                   <geo>52,52437 13,41053</geo>
                   <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
-                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
+                  <idno type="URL" subtype="schnitzler-bahr"
+                     >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
                   <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
-                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
-                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb168</idno>
+                  <idno type="URL" subtype="schnitzler-briefe"
+                     >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
+                  <idno type="URL" subtype="kraus"
+                     >https://kraus.wienbibliothek.at/register/orte/pmb168</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
-                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
-                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92171.html</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch"
+                     >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch"
+                     >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92171.html</idno>
                   <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
                   <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
                </location>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/56528/</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q15833039</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Lustspielhaus_(Berlin)</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Lustspielhaus_(Berlin)</idno>
                <note type="apis_dates">
-                  <date from="1904-01-01" to="1939-07-02">1904  – 1939</date>
+                  <date from="1904-01-01" to="1939-07-02">1904 – 1939</date>
                </note>
             </org>
             <org xml:id="pmb39689">
@@ -438,36 +509,48 @@
                   <geo>48,21126 16,34706</geo>
                   <idno type="URL" subtype="geonames">https://sws.geonames.org/2775027/</idno>
                   <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4108158-4</idno>
-                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb58.html</idno>
+                  <idno type="URL" subtype="schnitzler-bahr"
+                     >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb58.html</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58/</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/15566/</idno>
-                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb58</idno>
-                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb58</idno>
-                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb58.html</idno>
+                  <idno type="URL" subtype="schnitzler-briefe"
+                     >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb58</idno>
+                  <idno type="URL" subtype="kraus"
+                     >https://kraus.wienbibliothek.at/register/orte/pmb58</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch"
+                     >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb58.html</idno>
                   <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q256778</idno>
-                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Josefstadt_(Wien)</idno>
+                  <idno type="URL" subtype="wikipedia"
+                     >https://de.wikipedia.org/wiki/Josefstadt_(Wien)</idno>
                </location>
                <location type="located_in_place">
                   <placeName ref="pmb40">Theater in der Josefstadt</placeName>
                   <geo>48,209583 16,351111</geo>
-                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb40.html</idno>
+                  <idno type="URL" subtype="schnitzler-bahr"
+                     >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb40.html</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/40/</idno>
-                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb40</idno>
+                  <idno type="URL" subtype="schnitzler-briefe"
+                     >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb40</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92311/</idno>
-                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92311.html</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch"
+                     >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92311.html</idno>
                   <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q167619</idno>
-                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Theater_in_der_Josefstadt</idno>
+                  <idno type="URL" subtype="wikipedia"
+                     >https://de.wikipedia.org/wiki/Theater_in_der_Josefstadt</idno>
                </location>
                <location type="located_in_place">
                   <placeName ref="pmb51915">Josefstädter Straße</placeName>
                   <geo>48,20995865037859 16,347448769410484</geo>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/51915/</idno>
-                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb51915</idno>
+                  <idno type="URL" subtype="kraus"
+                     >https://kraus.wienbibliothek.at/register/orte/pmb51915</idno>
                </location>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/251387-0</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/39689/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb39689</idno>
-               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb39689</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb39689</idno>
+               <idno type="URL" subtype="kraus"
+                  >https://kraus.wienbibliothek.at/register/institutionen/pmb39689</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q113470585</idno>
                <note type="apis_dates">
                   <date notBefore="1788-01-01" when="1788-07-01">1788</date>

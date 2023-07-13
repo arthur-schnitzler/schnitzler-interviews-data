@@ -39921,7 +39921,7 @@
             <note type="work_kind">Publikationsorgan &gt;&gt; Jahrbuch</note>
          </bibl>
          <bibl xml:id="pmb62621">
-            <title type="main">Artur Schnitzler und die beiden Radfahrer.</title>
+            <title type="main">(Artur Schnitzler und die beiden Radfahrer)</title>
             <date when-iso="1922-09-24">1922-09-24</date>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/62621/</idno>
             <note type="collections">
@@ -48180,7 +48180,32 @@
             </listBibl>
          </place>
       </listPlace>
+      
       <listOrg>
+         <org xml:id="pmb88613">
+            <orgName>Théâtre Antoine</orgName>
+            <desc type="entity_type">Theater</desc>
+            <desc type="entity_type_id">1012</desc>
+            <location type="located_in_place">
+               <placeName ref="pmb610">Théâtre Antoine-Simone Berriau</placeName>
+               <geo>48,870558 2,355367</geo>
+               <note type="IDNO" subtype="schnitzler-bahr">
+                  https://schnitzler-bahr.acdh.oeaw.ac.at/pmb610.html
+               </note>
+               <note type="IDNO" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/610/</note>
+               <note type="IDNO" subtype="schnitzler-briefe">
+                  https://schnitzler-briefe.acdh.oeaw.ac.at/pmb610.html
+               </note>
+               <note type="IDNO" subtype="wikidata">http://www.wikidata.org/entity/Q3097818</note>
+               <note type="IDNO" subtype="schnitzler-interviews">
+                  https://schnitzler-interviews.acdh.oeaw.ac.at/pmb610.html
+               </note>
+            </location>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/88613/</idno>
+            <note type="apis_dates">
+               <date from-iso="1897-01-01" to-iso="1906-07-02">1897 – 1906</date>
+            </note>
+         </org>
          <org xml:id="pmb29437">
             <orgName>Die Stimme</orgName>
             <desc type="entity_type">Zeitschriftenredaktion</desc>
@@ -53784,7 +53809,7 @@
             </note>
          </org>
          <org xml:id="pmb37286">
-            <orgName>Börsenblatt für den deutschen Buchhandel</orgName>
+            <orgName>Börsenblatt für den Deutschen Buchhandel</orgName>
             <orgName type="werk_link">https://www.boersenblatt-digital.de</orgName>
             <desc type="entity_type">Wochenzeitungsredaktion</desc>
             <desc type="entity_type_id">998</desc>
