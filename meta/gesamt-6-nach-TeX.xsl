@@ -961,14 +961,14 @@
  \Centering }</xsl:text>
       <xsl:text>
       </xsl:text>
-      <xsl:text>\part*{Anhang}</xsl:text>
+      <xsl:text>&#10;\part*{Anhang}</xsl:text>
       <xsl:text>\addtocontents{toc}{%
   \protect\contentsline{part}{Anhang}}</xsl:text>
       <xsl:text>\setcounter{footnote}{0}</xsl:text>
       <xsl:text>\counterwithout{footnote}{chapter}</xsl:text>
       <xsl:text>\addtokomafont{section}{\normalsize\normalsize\centering\textit}</xsl:text>
       <xsl:text>\small</xsl:text>
-      <xsl:text>\addchap{Quellennachweis und Erläuterungen}</xsl:text>
+      <xsl:text>&#10;\addchap{Quellennachweis und Erläuterungen}</xsl:text>
       <xsl:value-of select="concat('\label{annex_', $nur-eine-id-fuer-unique-labels, '}')"/>
       <xsl:text>\lohead{\textsc{quellennachweis und erläuterungen}}</xsl:text>
       <xsl:text>\noindent{}</xsl:text>
@@ -1005,7 +1005,7 @@
          teilweise verallgemeinert, um Variationen derselben Frage 
          zu vermeiden.\enlargethispage{-1em}}</xsl:text>
          <xsl:text>\normalsize{}</xsl:text>
-         <xsl:text>\part*{Interviews}\clearpage </xsl:text>
+         <xsl:text>&#10;\part*{Interviews}\clearpage </xsl:text>
          <!--<xsl:text>\addcontentsline{toc}{part}{Interviews}</xsl:text>-->
          <xsl:text>\addtocontents{toc}{%
   \protect\contentsline{part}{Interviews}}</xsl:text>
@@ -1034,12 +1034,12 @@
          <xsl:text>\addtocontents{toc}{%
   \protect\contentsline{part}{Meinungen}}</xsl:text>
          <!-- keine Seitenzahl im Inhaltsverzeichnis -->
-         <xsl:text>\part*{Meinungen}\clearpage </xsl:text>
+         <xsl:text>&#10;\part*{Meinungen}\clearpage </xsl:text>
          <xsl:apply-templates select="TEI[starts-with(@id, 'M')]"/>
          <xsl:text>\addtocontents{toc}{%
   \protect\contentsline{part}{Proteste}}</xsl:text>
          <!-- keine Seitenzahl im Inhaltsverzeichnis -->
-         <xsl:text>\part*{Proteste}\clearpage </xsl:text>
+         <xsl:text>&#10;\part*{Proteste}\clearpage </xsl:text>
          <xsl:apply-templates select="TEI[starts-with(@id, 'P')]"/>
          <xsl:text>\makeatletter
          </xsl:text>
@@ -1065,7 +1065,7 @@
          <xsl:text>\lohead{\textsc{emendationen}}</xsl:text>
          <xsl:text>
             \renewcommand{\printnpnum}[1]{\textbf{\printnpnumSave{#1}}}
-            \addchap{Emendationen}\mylabel{E_texteingriffe}
+            &#10;\addchap{Emendationen}\mylabel{E_texteingriffe}
             \Xendnotenumfont{\small{}}
             \noindent Es folgen die vorgenommenen Eingriffe in den ursprünglichen Text unter Angabe von fett gedruckter Seitenzahl und Zeilennummer. 
             Als Lemma gesetzt sind die emendierten, rechts davon die ursprünglichen Fassungen. Kommentare sind in eckige Klammern gefügt.\par
@@ -1087,7 +1087,7 @@
    </xsl:template>
    <xsl:template match="TEI[starts-with(@id, 'E_')]">
       <root>
-         <xsl:text>\addchap{</xsl:text>
+         <xsl:text>&#10;\addchap{</xsl:text>
          <xsl:value-of
             select="normalize-space(teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level = 'a'])"/>
          <xsl:text>}</xsl:text>
@@ -1167,7 +1167,7 @@
       <xsl:choose>
          <xsl:when
             test="$dokument-typ= 'I' and substring(@when, 1, 4) != $jahr-davor">
-            <xsl:text>\addchap*{</xsl:text>
+            <xsl:text>&#10;\addchap*{</xsl:text>
             <xsl:value-of select="substring(@when, 1, 4)"/>
             <xsl:text>}</xsl:text>
             <xsl:text>\rehead{\textsc{interviews}}\lohead{\textsc{</xsl:text>
@@ -1176,7 +1176,7 @@
          </xsl:when>
          <xsl:when
             test="$dokument-typ = 'M' and substring(@when, 1, 4) != $jahr-davor">
-            <xsl:text>\addchap*{</xsl:text>
+            <xsl:text>&#10;\addchap*{</xsl:text>
             <xsl:value-of select="substring(@when, 1, 4)"/>
             <xsl:text>}</xsl:text>
             <xsl:text>\rehead{\textsc{meinungen}}\lohead{\textsc{</xsl:text>
@@ -1184,7 +1184,7 @@
             <xsl:text>}}</xsl:text>
          </xsl:when>
          <xsl:when test="substring(@when, 1, 4) != $jahr-davor">
-            <xsl:text>\addchap*{</xsl:text>
+            <xsl:text>&#10;\addchap*{</xsl:text>
             <!-- before: \leavevmode -->
             <xsl:value-of select="substring(@when, 1, 4)"/>
             <xsl:text>}</xsl:text>
@@ -1196,15 +1196,14 @@
       <xsl:choose>
          <xsl:when test="starts-with($dokument-id, 'E_')">
             <!-- Herausgeber*innentext -->
-            <xsl:text>\addchap{</xsl:text>
+            <xsl:text>&#10;\addchap{</xsl:text>
             <!-- zuvor: \leavevmode -->
             <xsl:value-of
                select="normalize-space(teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level = 'a'])"/>
             <xsl:text>}</xsl:text>
          </xsl:when>
          <xsl:otherwise>
-            <xsl:text>
-               \section*</xsl:text>
+            <xsl:text>&#10;\section*</xsl:text>
             <xsl:text>{</xsl:text>
             <xsl:value-of select="count(preceding-sibling::TEI)"/>
             <xsl:text>.</xsl:text>
@@ -1315,8 +1314,7 @@
             <xsl:text>\doendnotes{B}</xsl:text>
             <xsl:text>\end{anhang}</xsl:text>
          </xsl:when>
-         <xsl:otherwise>  <xsl:apply-templates select="teiHeader"/>
-         </xsl:otherwise>
+         <xsl:otherwise><xsl:apply-templates select="teiHeader"/></xsl:otherwise>
       </xsl:choose>
       <!-- Das hier setzt den Anhang ans Ende von Interviews und Proteste -->
       <!--  <xsl:variable name="id-typ" select="substring(@id, 1, 1)" as="xs:string"/>
@@ -1374,12 +1372,10 @@
       </xsl:variable>
       <xsl:choose>
          <xsl:when test="@type = 'original' and following-sibling::div[@type = 'translation']">
-            <xsl:text>\begin{pairs}\RaggedRight
-               \begin{Leftside}\footnotesize </xsl:text>
+            <xsl:text>&#10;\begin{pairs}\RaggedRight&#10;\begin{Leftside}\footnotesize </xsl:text>
          </xsl:when>
          <xsl:when test="@type = 'translation' and preceding-sibling::div[@type = 'original']">
-            <xsl:text>\begin{pairs}\RaggedRight
-            \begin{Rightside}\footnotesize </xsl:text>
+            <xsl:text>\begin{pairs}\RaggedRight&#10;\begin{Rightside}\footnotesize </xsl:text>
          </xsl:when>
       </xsl:choose>
       <xsl:choose>
@@ -1421,7 +1417,7 @@
             <xsl:text>\textcolor{red}{XXXX SPRACHE ÜBERPRÜFEN}</xsl:text>
          </xsl:otherwise>
       </xsl:choose>
-      <xsl:text>\beginnumbering</xsl:text>
+      <xsl:text>&#10;\beginnumbering</xsl:text>
       <!-- Hier nun im Fall, dass wir im ersten div sind, die Archivsignaturen in den Anhang -->
       <xsl:if test="position() = 1 or (position() = 2 and preceding-sibling::div[@type = 'image'])">
          <xsl:variable name="quellen" as="node()"
@@ -1477,28 +1473,28 @@
          <xsl:choose>
             <xsl:when
                test="ancestor::TEI/preceding-sibling::TEI[1]/teiHeader/fileDesc/sourceDesc/listBibl/biblStruct[1]/monogr/imprint/date/xs:integer(substring(@when, 1, 4)) &lt; 1935">
-               <xsl:text>\toendnotes[C]{\flexvspace}</xsl:text>
+               <xsl:text>&#10;\toendnotes[C]{\flexvspace}</xsl:text>
             </xsl:when>
             <xsl:when
                test="ancestor::TEI/preceding-sibling::TEI[1]/teiHeader/fileDesc/sourceDesc/listWit">
-               <xsl:text>\toendnotes[C]{\flexvspace}</xsl:text>
+               <xsl:text>&#10;\toendnotes[C]{\flexvspace}</xsl:text>
             </xsl:when>
             <xsl:when test="ancestor::TEI/preceding-sibling::TEI[1]/body//*[@subtype]">
-               <xsl:text>\toendnotes[C]{\flexvspace}</xsl:text>
+               <xsl:text>&#10;\toendnotes[C]{\flexvspace}</xsl:text>
             </xsl:when>
             <xsl:when
                test="ancestor::TEI/preceding-sibling::TEI[1]/body//descendant::note[@type = 'commentary' or @type = 'textConst']">
-               <xsl:text>\toendnotes[C]{\flexvspace}</xsl:text>
+               <xsl:text>&#10;\toendnotes[C]{\flexvspace}</xsl:text>
             </xsl:when>
             <xsl:when
                test="ancestor::TEI/preceding-sibling::TEI[1]/body//descendant::div[@type = 'biographical']">
-               <xsl:text>\toendnotes[C]{\flexvspace}</xsl:text>
+               <xsl:text>&#10;\toendnotes[C]{\flexvspace}</xsl:text>
             </xsl:when>
             <xsl:otherwise>
-               <xsl:text>\toendnotes[C]{\smallbreak\goodbreak}</xsl:text>
+               <xsl:text>&#10;\toendnotes[C]{\smallbreak\goodbreak}</xsl:text>
             </xsl:otherwise>
          </xsl:choose>
-         <xsl:text>\anhangTitel{</xsl:text>
+         <xsl:text>&#10;\anhangTitel{</xsl:text>
          <xsl:text>\myrangeref{</xsl:text>
          <xsl:value-of select="concat(ancestor::TEI/@id, 'v')"/>
          <xsl:text>}</xsl:text>
@@ -1513,12 +1509,12 @@
          <xsl:value-of select="foo:date-translate($datum)"/>
          <xsl:text>\nopagebreak}</xsl:text>
          <!-- Wenn es Adressen gibt, diese in die Endnote -->
-         <xsl:text>\datumImAnhang{</xsl:text>
+         <xsl:text>&#10;\datumImAnhang{</xsl:text>
          <xsl:value-of select="foo:monatUndJahrInKopfzeile(ancestor::TEI/@when)"/>
          <xsl:text>}</xsl:text>
          <xsl:if test="$kommentar-vorhanden or $mehr-quellen or $bibliographical-vorhanden">
             <!--<xsl:text>\toendnotes[C]{\unskip\nopagebreak[4]\smallbreak\nopagebreak[4]}</xsl:text>-->
-            <xsl:text>\toendnotes[C]{\nopagebreak[4]}</xsl:text>
+            <xsl:text>&#10;\toendnotes[C]{\nopagebreak[4]}</xsl:text>
          </xsl:if>
          <!-- noch etwas näher zum Titel rutschen -->
          <!-- Zuerst die Archivsignaturen  -->
@@ -1550,23 +1546,23 @@
          <!-- Abstände zwischen Quellen, biographical und Kommentar -->
          <xsl:choose>
             <xsl:when test="$mehr-quellen and $bibliographical-vorhanden and $kommentar-vorhanden">
-               <xsl:text>\toendnotes[C]{\smallbreak}</xsl:text>
+               <xsl:text>&#10;\toendnotes[C]{\smallbreak}</xsl:text>
                <xsl:apply-templates select="following-sibling::div[@type = 'biographical']"
                   mode="fuer-anhang"/>
-               <xsl:text>\toendnotes[C]{\smallbreak}</xsl:text>
+               <xsl:text>&#10;\toendnotes[C]{\smallbreak}</xsl:text>
             </xsl:when>
             <xsl:when test="$mehr-quellen and $bibliographical-vorhanden">
-               <xsl:text>\toendnotes[C]{\smallbreak}</xsl:text>
+               <xsl:text>&#10;\toendnotes[C]{\smallbreak}</xsl:text>
                <xsl:apply-templates select="following-sibling::div[@type = 'biographical']"
                   mode="fuer-anhang"/>
             </xsl:when>
             <xsl:when test="$mehr-quellen and $kommentar-vorhanden">
-               <xsl:text>\toendnotes[C]{\smallbreak}</xsl:text>
+               <xsl:text>&#10;\toendnotes[C]{\smallbreak}</xsl:text>
             </xsl:when>
             <xsl:when test="$bibliographical-vorhanden and $kommentar-vorhanden">
                <xsl:apply-templates select="following-sibling::div[@type = 'biographical']"
                   mode="fuer-anhang"/>
-               <xsl:text>\toendnotes[C]{\smallbreak}</xsl:text>
+               <xsl:text>&#10;\toendnotes[C]{\smallbreak}</xsl:text>
             </xsl:when>
             <xsl:when test="$bibliographical-vorhanden">
                <xsl:apply-templates select="following-sibling::div[@type = 'biographical']"
@@ -1578,22 +1574,22 @@
       <!-- Ende der Signaturen in den Anhang -->
       <xsl:choose>
          <xsl:when test="@type = 'writingSession' and ancestor::*[self::text[@type = 'dedication']]">
-            <xsl:text>\centerline{\begin{minipage}{0.5\textwidth}</xsl:text>
+            <xsl:text>&#10;\centerline{\begin{minipage}{0.5\textwidth}</xsl:text>
             <xsl:apply-templates/>
-            <xsl:text>\end{minipage}}</xsl:text>
+            <xsl:text>&#10;\end{minipage}}</xsl:text>
          </xsl:when>
          <xsl:otherwise>
             <xsl:apply-templates/>
          </xsl:otherwise>
       </xsl:choose>
-      <xsl:text>\endnumbering</xsl:text>
+      <xsl:text>&#10;\endnumbering</xsl:text>
       <xsl:choose>
          <xsl:when test="@type = 'original' and following-sibling::div[@type = 'translation']">
-            <xsl:text>\normalsize\end{Leftside}\justifying
+            <xsl:text>&#10;\normalsize\end{Leftside}\justifying
             \end{pairs}</xsl:text>
          </xsl:when>
          <xsl:when test="@type = 'translation' and preceding-sibling::div[@type = 'original']">
-            <xsl:text>\normalsize\end{Rightside}\justifying
+            <xsl:text>&#10;\normalsize\end{Rightside}\justifying
             \end{pairs}\Columns </xsl:text>
          </xsl:when>
       </xsl:choose>
@@ -3477,7 +3473,7 @@
             </xsl:if>
          </xsl:when>
          <xsl:otherwise>
-            <xsl:text>\pstart
+            <xsl:text>&#10;\pstart
            </xsl:text>
             <xsl:choose>
                <xsl:when test="(self::p and position() = 1) or (self::p and position() = 2 and preceding-sibling::latex)">
@@ -3576,7 +3572,7 @@
       <xsl:if test="self::closer | self::p[@rend = 'inline']">\leftskip=0em{}</xsl:if>
    </xsl:template>
    <!-- <xsl:template match="opener/p|dateline">
-      <xsl:text>\pstart</xsl:text>
+      <xsl:text>&#10;\pstart</xsl:text>
       <xsl:choose>
          <xsl:when test="@rend='right'">
             <xsl:text>\raggedleft</xsl:text>
@@ -3590,7 +3586,7 @@
       <xsl:text>\pend</xsl:text>
    </xsl:template>-->
    <xsl:template match="salute[parent::opener]">
-      <xsl:text>\pstart</xsl:text>
+      <xsl:text>&#10;\pstart</xsl:text>
       <xsl:choose>
          <xsl:when test="@rend = 'right'">
             <xsl:text>\raggedleft</xsl:text>
@@ -3614,7 +3610,7 @@
       </xsl:if>
    </xsl:function>
    <xsl:template match="closer[not(child::lb)]">
-      <xsl:text>\pstart <!--\raggedleft\hspace{1em}--></xsl:text>
+      <xsl:text>&#10;\pstart <!--\raggedleft\hspace{1em}--></xsl:text>
       <xsl:apply-templates/>
       <xsl:text>\pend{}</xsl:text>
    </xsl:template>
@@ -3770,7 +3766,7 @@
          </xsl:when>
          <xsl:otherwise>
             <xsl:for-each select="row">
-               <xsl:text>\pstart\noindent</xsl:text>
+               <xsl:text>&#10;\pstart\noindent</xsl:text>
                <xsl:text>\makebox[</xsl:text>
                <xsl:text>\the\longeste</xsl:text>
                <xsl:text>][l]{</xsl:text>
@@ -4080,20 +4076,17 @@
          <xsl:when
             test="not(position() = 1) and not(preceding-sibling::*[1][self::head]) and @type = 'sub'">
             <!-- Es befindet sich im Text und direkt davor steht nicht schon ein head -->
-            <xsl:text>
-               {\centering\pstart[\vspace{0.25\baselineskip}]\noindent\leftskip=3em plus1fill\rightskip\leftskip
+            <xsl:text>>&#10;{\centering\pstart[\vspace{0.25\baselineskip}]\noindent\leftskip=3em plus1fill\rightskip\leftskip
             </xsl:text>
          </xsl:when>
          <xsl:when test="not(position() = 1) and not(preceding-sibling::*[1][self::head])">
             <!-- Es befindet sich im Text und direkt davor steht nicht schon ein head -->
-            <xsl:text>
-               {\centering\pstart[\vspace{0.75\baselineskip}]\noindent\leftskip=3em plus1fill\rightskip\leftskip
+            <xsl:text>>&#10;{\centering\pstart[\vspace{0.75\baselineskip}]\noindent\leftskip=3em plus1fill\rightskip\leftskip
             </xsl:text>
          </xsl:when>
          <xsl:otherwise>
             <!-- kein Abstand davor wenn es das erste Element-->
-            <xsl:text>
-               {\centering\pstart\noindent\leftskip=3em plus1fill\rightskip\leftskip
+            <xsl:text>&#10;{\centering\pstart\noindent\leftskip=3em plus1fill\rightskip\leftskip
             </xsl:text>
          </xsl:otherwise>
       </xsl:choose>
@@ -4139,7 +4132,7 @@
       <xsl:text>{\bigskip}</xsl:text>
    </xsl:template>
    <xsl:template match="addrLine">
-      <xsl:text>\pstart{}</xsl:text>
+      <xsl:text>&#10;\pstart{}</xsl:text>
       <xsl:apply-templates/>
       <xsl:text>\pend{}</xsl:text>
    </xsl:template>
