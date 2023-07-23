@@ -962,6 +962,8 @@
       <xsl:text>
       </xsl:text>
       <xsl:text>\part*{Anhang}</xsl:text>
+      <xsl:text>\addtocontents{toc}{%
+  \protect\contentsline{part}{Anhang}}</xsl:text>
       <xsl:text>\setcounter{footnote}{0}</xsl:text>
       <xsl:text>\counterwithout{footnote}{chapter}</xsl:text>
       <xsl:text>\addtokomafont{section}{\normalsize\normalsize\centering\textit}</xsl:text>
@@ -1247,7 +1249,7 @@
       <xsl:variable name="preceding" select="count(preceding::TEI)"/>
       <xsl:text>\addcontentsline{toc}{chapter}{\makebox[</xsl:text>
       <xsl:choose>
-         <xsl:when test="$preceding &lt; 98">
+         <xsl:when test="$preceding &lt; 95">
             <xsl:text>9pt</xsl:text>
          </xsl:when>
          <xsl:otherwise>
@@ -5806,8 +5808,19 @@
       <xsl:value-of select="concat('{', normalize-space(.), '}')"/>
    </xsl:template>
    <xsl:template match="*:latex">
-      <xsl:text>{</xsl:text>
-      <xsl:value-of select="@alt"/>
-      <xsl:text>}</xsl:text>
+      <xsl:choose>
+         <xsl:when test="@alt = '\small'">
+            <xsl:text>\small </xsl:text>
+         </xsl:when>
+         <xsl:when test="@alt = '\normalsize'">
+            <xsl:text>\normalsize </xsl:text>
+         </xsl:when>
+         <xsl:otherwise>
+            <xsl:text>{</xsl:text>
+            <xsl:value-of select="@alt"/>
+            <xsl:text>}</xsl:text>
+         </xsl:otherwise>
+      </xsl:choose>
+      
    </xsl:template>
 </xsl:stylesheet>

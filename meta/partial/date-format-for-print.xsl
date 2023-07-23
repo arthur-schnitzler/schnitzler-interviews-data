@@ -31,7 +31,7 @@
                         <xsl:matching-substring>
                             <xsl:variable name="datum" select="xs:date(.)" as="xs:date"/>
                             <xsl:value-of
-                                select="concat(number(fn:day-from-date($datum)), $spacy, number(fn:month-from-date($datum)), $spacy, number(year-from-date($datum)))"
+                                select="concat(number(fn:day-from-date($datum)), '.', $spacy, number(fn:month-from-date($datum)), '.', $spacy, number(year-from-date($datum)))"
                             />
                         </xsl:matching-substring>
                         <xsl:non-matching-substring>
@@ -57,7 +57,7 @@
                         <xsl:matching-substring>
                             <xsl:variable name="datum" select="xs:date(.)" as="xs:date"/>
                             <xsl:value-of
-                                select="concat(number(fn:day-from-date($datum)), '.\,;', number(fn:month-from-date($datum)), '.\,;', number(year-from-date($datum)))"
+                                select="concat(number(fn:day-from-date($datum)), '.', $spacy, number(fn:month-from-date($datum)), '.', $spacy, number(year-from-date($datum)))"
                             />
                         </xsl:matching-substring>
                         <xsl:non-matching-substring>
