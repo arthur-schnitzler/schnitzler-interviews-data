@@ -1011,8 +1011,8 @@
   \protect\contentsline{part}{Interviews}}</xsl:text>
          <xsl:text>\counterwithin*{footnote}{section}</xsl:text>
          <!-- keine Seitenzahl im Inhaltsverzeichnis -->
-         <xsl:apply-templates select="TEI[starts-with(@id, 'I')]"/>
-         <xsl:value-of select="foo:latexAnhang('I')"/>
+         <!--<xsl:apply-templates select="TEI[starts-with(@id, 'I')]"/>
+         <xsl:value-of select="foo:latexAnhang('I')"/>-->
          <xsl:text>\footnotesize</xsl:text>
          <xsl:text>\printindex[question]</xsl:text>
          <xsl:text>\normalsize</xsl:text>
@@ -1220,12 +1220,12 @@
                   <xsl:choose>
                      <xsl:when test="ancestor::TEI/@id = 'M144'"/>
                      <!-- Eingriff für den Tschechow-Text, der wohl erschienen ist -->
-                     <xsl:when test="not(descendant::listBibl[1])">
+                     <xsl:when test="not(descendant::listBibl[1][not(ancestor::back)])">
                         <xsl:text>\unveroeffentlicht</xsl:text>
                      </xsl:when>
-                     <xsl:when test="descendant::listBibl[1]/biblStruct">
+                     <xsl:when test="descendant::listBibl[1][not(ancestor::back)]/biblStruct">
                         <xsl:variable name="zuLebzeiten"
-                           select="descendant::listBibl[1]/biblStruct[1]/monogr[1]/imprint[1]/date[1]/substring(@when, 1, 4)"
+                           select="descendant::listBibl[1][not(ancestor::back)]/biblStruct[1]/monogr[1]/imprint[1]/date[1]/substring(@when, 1, 4)"
                            as="xs:string?"/>
                         <xsl:if test="number($zuLebzeiten) &gt; 1932">
                            <xsl:text>\unveroeffentlicht</xsl:text>
@@ -1233,9 +1233,9 @@
                      </xsl:when>
                   </xsl:choose>
                </xsl:when>
-               <xsl:when test="descendant::listBibl">
+               <xsl:when test="descendant::listBibl[not(ancestor::back)]">
                   <xsl:variable name="zuLebzeiten"
-                     select="descendant::listBibl[1]/biblStruct[1]/monogr[1]/imprint[1]/date[1]/substring(@when, 1, 4)"
+                     select="descendant::listBibl[1][not(ancestor::back)]/biblStruct[1]/monogr[1]/imprint[1]/date[1]/substring(@when, 1, 4)"
                      as="xs:string?"/>
                   <xsl:if test="number($zuLebzeiten) &gt; 1937">
                      <xsl:text>\unveroeffentlicht</xsl:text>
@@ -4076,12 +4076,12 @@
          <xsl:when
             test="not(position() = 1) and not(preceding-sibling::*[1][self::head]) and @type = 'sub'">
             <!-- Es befindet sich im Text und direkt davor steht nicht schon ein head -->
-            <xsl:text>>&#10;{\centering\pstart[\vspace{0.25\baselineskip}]\noindent\leftskip=3em plus1fill\rightskip\leftskip
+            <xsl:text>&#10;{\centering\pstart[\vspace{0.25\baselineskip}]\noindent\leftskip=3em plus1fill\rightskip\leftskip
             </xsl:text>
          </xsl:when>
          <xsl:when test="not(position() = 1) and not(preceding-sibling::*[1][self::head])">
             <!-- Es befindet sich im Text und direkt davor steht nicht schon ein head -->
-            <xsl:text>>&#10;{\centering\pstart[\vspace{0.75\baselineskip}]\noindent\leftskip=3em plus1fill\rightskip\leftskip
+            <xsl:text>&#10;{\centering\pstart[\vspace{0.75\baselineskip}]\noindent\leftskip=3em plus1fill\rightskip\leftskip
             </xsl:text>
          </xsl:when>
          <xsl:otherwise>
