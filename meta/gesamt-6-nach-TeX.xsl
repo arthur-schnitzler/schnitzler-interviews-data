@@ -1011,8 +1011,8 @@
   \protect\contentsline{part}{Interviews}}</xsl:text>
          <xsl:text>\counterwithin*{footnote}{section}</xsl:text>
          <!-- keine Seitenzahl im Inhaltsverzeichnis -->
-         <!--<xsl:apply-templates select="TEI[starts-with(@id, 'I')]"/>
-         <xsl:value-of select="foo:latexAnhang('I')"/>-->
+         <xsl:apply-templates select="TEI[starts-with(@id, 'I')]"/>
+         <xsl:value-of select="foo:latexAnhang('I')"/>
          <xsl:text>\footnotesize</xsl:text>
          <xsl:text>\printindex[question]</xsl:text>
          <xsl:text>\normalsize</xsl:text>
