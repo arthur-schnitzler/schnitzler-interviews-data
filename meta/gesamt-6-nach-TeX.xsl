@@ -1036,16 +1036,15 @@
          <!-- keine Seitenzahl im Inhaltsverzeichnis -->
          <xsl:text>&#10;\part*{Meinungen}\clearpage </xsl:text>
          <xsl:apply-templates select="TEI[starts-with(@id, 'M')]"/>
-         <xsl:text>\addtocontents{toc}{%
+         <xsl:text>&#10;\addtocontents{toc}{%
   \protect\contentsline{part}{Proteste}}</xsl:text>
          <!-- keine Seitenzahl im Inhaltsverzeichnis -->
          <xsl:text>&#10;\part*{Proteste}\clearpage </xsl:text>
          <xsl:apply-templates select="TEI[starts-with(@id, 'P')]"/>
-         <xsl:text>\makeatletter
-         </xsl:text>
-         <xsl:text>\makeatother
-         </xsl:text>
+         <xsl:text>&#10;\makeatletter
+         </xsl:text><xsl:text>&#10;\makeatother </xsl:text>
          <xsl:value-of select="foo:latexAnhang('P')"/>
+         <xsl:text>&#10;\deffootnote[1.5em]{1.5em}{1.5em}{\textsuperscript{\thefootnotemark}\enskip}</xsl:text>
          <!--<xsl:text>\backmatter</xsl:text>-->
          <!-- <xsl:text>\addtocontents{toc}{%
   \protect\contentsline{part}{Anhang}}</xsl:text>
@@ -1055,25 +1054,41 @@
  \Centering }</xsl:text>
          <xsl:text>\setcounter{secnumdepth}{-\maxdimen}</xsl:text>
          <xsl:text>\rehead{\textsc{anhang}}</xsl:text>-->
-         <xsl:text>\normalsize </xsl:text>
+         <xsl:text>&#10;\normalsize </xsl:text>
+         <xsl:text></xsl:text>
          <xsl:apply-templates select="TEI[@id = 'E_textauswahl']"/>
          <xsl:apply-templates select="TEI[@id = 'E_editorisch']"/>
          <xsl:text>\small
          </xsl:text>
          <xsl:apply-templates select="TEI[@id = 'E_literatur']"/>
          <!-- Herausgebereingriffe-->
-         <xsl:text>\lohead{\textsc{emendationen}}</xsl:text>
+         
          <xsl:text>
             \renewcommand{\printnpnum}[1]{\textbf{\printnpnumSave{#1}}}
-            &#10;\addchap{Emendationen}\mylabel{E_texteingriffe}
-            \Xendnotenumfont{\small{}}
-            \noindent Es folgen die vorgenommenen Eingriffe in den ursprünglichen Text unter Angabe von fett gedruckter Seitenzahl und Zeilennummer. 
+            &#10;\addchap{Emendationen}\lohead{\textsc{emendationen}}\mylabel{E_texteingriffe}</xsl:text>
+         <xsl:text>
+            &#10;\renewcommand{\printnpnum}{\printnpnumSave}
+&#10;\Xendbeforepagenumber{}
+&#10;\Xendboxlinenum[A]{0em}
+&#10;\Xendhangindent[A]{4em}
+&#10;\Xendlemmafont[A]{\normalfont}
+&#10;\Xendlemmaseparator{$\rbracket$}
+&#10;\Xendlineprefixmore[A]{\footnotesize}
+&#10;\Xendlineprefixsingle[A]{\footnotesize}
+&#10;\Xendnotefontsize[A]{\footnotesize}
+&#10;\Xendnotenumfont[A]{\footnotesize}
+&#10;\Xendparagraph[A]
+&#10;\Xendsep{}
+&#10;\Xendbeforepagenumber{\bfseries}
+&#10;\Xendafterpagenumber{\normalfont,\,}
+</xsl:text>
+         <xsl:text>&#10;\noindent Es folgen die vorgenommenen Eingriffe in den ursprünglichen Text unter Angabe von fett gedruckter Seitenzahl und Zeilennummer. 
             Als Lemma gesetzt sind die emendierten, rechts davon die ursprünglichen Fassungen. Kommentare sind in eckige Klammern gefügt.\par
-            \bigskip\small
-            \noindent\doendnotes{A}
+            &#10;\bigskip\small
+            &#10;\noindent\doendnotes{A}
          </xsl:text>
          <xsl:text>\normalsize</xsl:text>
-         <xsl:text>\lohead{\textsc{nachwort}}</xsl:text>
+         <!--<xsl:text>\lohead{\textsc{nachwort}}</xsl:text>-->
          <xsl:apply-templates select="TEI[@id = 'E_nachwort']"/>
          <xsl:text>\newpage</xsl:text>
          <xsl:apply-templates select="TEI[@id = 'E_danksagung']"/>
