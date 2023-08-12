@@ -1,7 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd" xml:base="schnitzler-interviews" xml:id="M057" next="M145" prev="M146"> <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
+   xml:base="schnitzler-interviews" xml:id="M057" next="M145" prev="M146"
+   latex="\vspace*{1em} \enlargethispage{-1em}">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
+            <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews,
+               Meinungen, Proteste (1891–1931)</title>
             <title level="a" ref="#pmb30983">Der Fall Jacobsohn, 17. 12. 1904</title>
             <title type="iso-date" when-iso="1904-12-17" n="1">17. 12. 1904</title>
             <author ref="#pmb2121">Schnitzler, Arthur</author>
@@ -97,104 +103,130 @@
       <body>
          <div type="original">
             <head>
-               <anchor type="commentary" xml:id="K_I057-1"/>Der Fall <rs type="person" ref="#pmb11813">Jacobsohn</rs>
+               <anchor type="commentary" xml:id="K_I057-1"/>Der Fall <rs type="person"
+                  ref="#pmb11813">Jacobsohn</rs>
                <note type="commentary" xml:id="K_I057-1h">
                   <rs type="person" ref="#pmb2121">Schnitzler</rs> reagiert auf: <bibl>
                      <supplied>
                         <rs type="person" ref="#pmb11581">Maximilian Harden</rs>
-                     </supplied>: <rs type="work" ref="#pmb32418">Der kleine Jacobsohn</rs>. In: <rs type="work" ref="#pmb40042">Die Zukunft</rs>, Jg. 13, Bd. 49,
-                  Nr. 11, <date>10. 12. 1904</date>,
-                  S. 370–378</bibl>, in dem ein Erklärungsversuch für einen Plagiatsvorwurf gegen <rs type="person" ref="#pmb11813">Jacobsohn</rs> gegeben wurde. Erstmals wurde der Vorwurf von <rs type="person" ref="#pmb11469">Alfred Gold</rs> am <date>12. 11. 1904</date> durch
-               ein Schreiben an das <rs type="org" ref="#pmb29329">Berliner Tageblatt</rs>
-               öffentlich gemacht (<bibl>
-                     <rs type="work" ref="#pmb33165">Ein psychologisches Rätsel</rs>, Jg. 33, Nr. 579,
-                  Abend-Ausgabe, S. 2</bibl>.) Darin wurden in einer Synopse drei Stellen aus
-               einer Theaterrezension von <rs type="person" ref="#pmb11469">Gold</rs> über <rs type="person" ref="#pmb12618">Adele Sandrock</rs> in <rs type="person" ref="#pmb12899">Sudermann</rs>’s <rs type="work" ref="#pmb31329">Heimat</rs> abgedruckt (<bibl>
-                     <rs type="person" ref="#pmb11469">A. G.</rs>: <rs type="work" ref="#pmb33167">[Adele
-                        Sandrock in Heimat]</rs>. In: <rs type="work" ref="#pmb36340">Die Zeit</rs>,
-                           Bd. 13, Nr. 169, S. 207</bibl>). Gegenübergestellt waren ein Zitat aus <rs type="person" ref="#pmb11813">Jacobsohn</rs>s Besprechung von <rs type="work" ref="#pmb31407">Traumulus</rs> (<rs type="org" ref="#pmb29460">Welt am Montag</rs>,
-               <date>26. 9. 1904</date>) sowie zwei aus der Rezension von <rs type="person" ref="#pmb11201">Eleonora Duse</rs> in <rs type="work" ref="#pmb31329">Heimat</rs> (<rs type="org" ref="#pmb29460">Welt am
-                        Montag</rs>, <date>7. 11. 1904</date>). Am <date>14. 11. 1904</date> erschien die Reaktion <rs type="person" ref="#pmb11813">Jacobsohn</rs>s, 
-               <rs type="work" ref="#pmb33159">In eigener Sache</rs>, in <rs type="org" ref="#pmb29460">Die
+                     </supplied>: <rs type="work" ref="#pmb32418">Der kleine Jacobsohn</rs>. In: <rs
+                        type="work" ref="#pmb40042">Die Zukunft</rs>, Jg. 13, Bd. 49, Nr. 11,
+                        <date>10. 12. 1904</date>, S. 370–378</bibl>, in dem ein Erklärungsversuch
+                  für einen Plagiatsvorwurf gegen <rs type="person" ref="#pmb11813">Jacobsohn</rs>
+                  gegeben wurde. Erstmals wurde der Vorwurf von <rs type="person" ref="#pmb11469"
+                     >Alfred Gold</rs> am <date>12. 11. 1904</date> durch ein Schreiben an das <rs
+                     type="work" ref="#pmb41531">Berliner Tageblatt</rs> öffentlich gemacht (<bibl>
+                     <rs type="work" ref="#pmb33165">Ein psychologisches Rätsel</rs>, Jg. 33,
+                     Nr. 579, Abend-Ausgabe, S. 2</bibl>.) Darin wurden in einer Synopse drei
+                  Stellen aus einer Theaterrezension von <rs type="person" ref="#pmb11469">Gold</rs>
+                  über <rs type="person" ref="#pmb12618">Adele Sandrock</rs> in <rs type="person"
+                     ref="#pmb12899">Sudermann</rs>’s <rs type="work" ref="#pmb31329">Heimat</rs>
+                  abgedruckt (<bibl>
+                     <rs type="person" ref="#pmb11469">A. G.</rs>: <rs type="work" ref="#pmb33167"
+                        >[Adele Sandrock in Heimat]</rs>. In: <rs type="work" ref="#pmb36340">Die
+                        Zeit</rs>, Bd. 13, Nr. 169, S. 207</bibl>). Gegenübergestellt waren ein
+                  Zitat aus <rs type="person" ref="#pmb11813">Jacobsohn</rs>s Besprechung von <rs
+                     type="work" ref="#pmb31407">Traumulus</rs> (<rs type="org" ref="#pmb29460">Welt
+                     am Montag</rs>, <date>26. 9. 1904</date>) sowie zwei aus der Rezension von <rs
+                     type="person" ref="#pmb11201">Eleonora Duse</rs> in <rs type="work"
+                     ref="#pmb31329">Heimat</rs> (<rs type="org" ref="#pmb29460">Welt am
+                  Montag</rs>, <date>7. 11. 1904</date>). Am <date>14. 11. 1904</date> erschien die
+                  Reaktion <rs type="person" ref="#pmb11813">Jacobsohn</rs>s, <rs type="work"
+                     ref="#pmb33159">In eigener Sache</rs>, in <rs type="org" ref="#pmb29460">Die
                      Welt am Montag</rs> (<bibl>Jg. 10, Nr. 46, S. 2</bibl>).</note>
                <note xml:id="FT143-1" type="footnote">
                   <p>Ein Brief des Dichters (der <hi rend="antiqua">Doctor medicinae</hi> und
-                     praktischer Arzt ist) und eine Ergänzung des im vorigen Heft (»<rs type="work" ref="#pmb32418">Der kleine Jacobsohn</rs>«) Gesagten.</p>
+                     praktischer Arzt ist) und eine Ergänzung des im vorigen Heft (»<rs type="work"
+                        ref="#pmb32418">Der kleine Jacobsohn</rs>«) Gesagten.</p>
                </note>
             </head>
-            <p>Lieber Herr 
-               <rs type="person" ref="#pmb11581">Harden</rs>, man hat Sie wohl berichtet, wenn man Ihnen sagte,
-               daß ich vom ersten Augenblick an zu denen gehörte, die den Fall <rs type="person" ref="#pmb11813">Jacobsohn</rs> in das Gebiet des Pathologischen zu verweisen
-               wünschten. Allerdings lag das pathologische Moment für mich schon nach dem ersten
-               Eindruck anderswo als dort, wo man es vielfach zu suchen scheint. Ich sagte mir
-               nämlich: Hier ist ein junger Mensch, der sich im Laufe weniger Jahre durch
-               zweifellose Begabung und außerordentlichen Fleiß einen höchst geschätzten Namen als
-               Kritiker erworben hat und dem nun plötzlich schriftstellerische Vergehen vorgeworfen
-               werden, zu denen für ihn, nach Wesen und Umfang seines Talentes, keinerlei Nötigung
-               vorliegen konnte und von denen er auch mit absoluter Sicherheit wissen mußte, daß sie
-               auf die Dauer weder unbekannt noch unbesprochen bleiben würden. Wenn er also trotzdem
-               dieser Vergehen schuldig wurde, so gibt es dafür nur eine einzige Erklärung:
-               zeitweiliges Versagen der Urteilskraft aufgrund einer psychischen Störung, die mir am
-               Verständlichsten wurde, wenn ich sie als gegensätzlich zum Krankheitbilde der
-               Hypochondrie aufzufassen suchte. Während man nämlich bei der Hypochondrie als
-               charakteristische Grundlage für eine Reihe von Symptomen eine Entfesselung der
-               Ideen-Assoziationen in der Richtung betrachten kann, daß durch einen oft
-               geringfügigen Reiz eilige und unaufhaltsame Gedankenfolgen ausgelöst werden, die sich
-               auf allerlei entfernte gefahrvolle Möglichkeiten beziehen, schien es mir im Fall <rs type="person" ref="#pmb11813">Jacobsohn</rs>, als wenn hier auch die nächstliegenden
-               Erwägungen über die höchst wahrscheinlichen Folgen einer innerhalb des
-               schriftstellerischen Berufes als unerlaubt geltenden Handlung ausgeschaltet würden.
-               Und ich will gleich hinzusetzen, daß mir bisher der Anlaß fehlt, von dieser ersten
-               Auffassung abzugehen. Weder leuchtete mir der 
-               <rs type="work" ref="#pmb33159" subtype="implied">Erklärungversuch</rs>
+            <p>Lieber Herr <rs type="person" ref="#pmb11581">Harden</rs>, man hat Sie wohl
+               berichtet, wenn man Ihnen sagte, daß ich vom ersten Augenblick an zu denen gehörte,
+               die den Fall <rs type="person" ref="#pmb11813">Jacobsohn</rs> in das Gebiet des
+               Pathologischen zu verweisen wünschten. Allerdings lag das pathologische Moment für
+               mich schon nach dem ersten Eindruck anderswo als dort, wo man es vielfach zu suchen
+               scheint. Ich sagte mir nämlich: Hier ist ein junger Mensch, der sich im Laufe weniger
+               Jahre durch zweifellose Begabung und außerordentlichen Fleiß einen höchst geschätzten
+               Namen als Kritiker erworben hat und dem nun plötzlich schriftstellerische Vergehen
+               vorgeworfen werden, zu denen für ihn, nach Wesen und Umfang seines Talentes,
+               keinerlei Nötigung vorliegen konnte und von denen er auch mit absoluter Sicherheit
+               wissen mußte, daß sie auf die Dauer weder unbekannt noch unbesprochen bleiben würden.
+               Wenn er also trotzdem dieser Vergehen schuldig wurde, so gibt es dafür nur eine
+               einzige Erklärung: zeitweiliges Versagen der Urteilskraft aufgrund einer psychischen
+               Störung, die mir am Verständlichsten wurde, wenn ich sie als gegensätzlich zum
+               Krankheitbilde der Hypochondrie aufzufassen suchte. Während man nämlich bei der
+               Hypochondrie als charakteristische Grundlage für eine Reihe von Symptomen eine
+               Entfesselung der Ideen-Assoziationen in der Richtung betrachten kann, daß durch einen
+               oft geringfügigen Reiz eilige und unaufhaltsame Gedankenfolgen ausgelöst werden, die
+               sich auf allerlei entfernte gefahrvolle Möglichkeiten beziehen, schien es mir im Fall
+                  <rs type="person" ref="#pmb11813">Jacobsohn</rs>, als wenn hier auch die
+               nächstliegenden Erwägungen über die höchst wahrscheinlichen Folgen einer innerhalb
+               des schriftstellerischen Berufes als unerlaubt geltenden Handlung ausgeschaltet
+               würden. Und ich will gleich hinzusetzen, daß mir bisher der Anlaß fehlt, von dieser
+               ersten Auffassung abzugehen. Weder leuchtete mir der <rs type="work" ref="#pmb33159"
+                  subtype="implied">Erklärungversuch</rs>
                <space unit="chars" quantity="1"/>
-               <rs type="person" ref="#pmb11813">Jacobsohn</rs>s in der »<rs type="org" ref="#pmb29460">Welt am Montag</rs>« ein, noch scheint mir die sogenannte »<anchor type="commentary" xml:id="KT143-2"/>Lösung des psychologischen Rätsels<note type="commentary" xml:id="KT143-2h">Dieses Privatgutachten wurde von <rs type="person" ref="#pmb11813">Jacobsohn</rs> versandt, <bibl>
-                     <rs type="person" ref="#pmb29083">Arthur R. H. Lehmann</rs>: <rs type="work" ref="#pmb33157">[Der Fall Jacobsohn. Lösung des psychologischen Rätsels]</rs>.
-                     In: <rs type="work" ref="#pmb59353">Montags-Revue aus Böhmen</rs>, Jg. 26, Nr. 48,
-                        <date>28. 11. 1904</date>, S. 6</bibl>. Ob es <rs type="person" ref="#pmb2121">Schnitzler</rs> unmittelbar oder durch einen Abdruck in einer Zeitung oder
-                  Zeitschrift bekannt war, ist nicht geklärt.</note>« durch Herrn <rs type="person" ref="#pmb29083">Arthur R. H. Lehmann</rs> auf den Fall <rs type="person" ref="#pmb11813">Jacobsohn</rs> mit genügender Sicherheit anwendbar. Herr <rs type="person" ref="#pmb29083">Lehmann</rs> citirt Fälle von außergewöhnlich gesteigertem Gedächtniß
-               unter sonst normalen Geistesverhältnissen und ferner Fälle von außergewöhnlichen
-               Gedächtnißsteigerungen im Verlauf gewisser Gehirnkrankheiten oder solcher
-               Krankheiten, bei denen es sekundär zu hyperämischen Störungen im Gehirn (im
-               Sprachcentrum oder in der Nähe des Sprachcentrums) kommt. Daß alle von <rs type="person" ref="#pmb29083">Lehmann</rs> citirten Beispiele an sich vollkommen
-               einwandfrei sind, versteht sich von selbst; nur geben sie meiner Empfindung nach
-               keinen Aufschluß über den Fall <rs type="person" ref="#pmb11813">Jacobsohn</rs>. Worin
-               besteht denn das Charakteristische und höchst Eigentümliche dieses Falles, wenn man
-               ihn,<pb/> wie <rs type="person" ref="#pmb11813">Jacobsohn</rs> selbst und wie <rs type="person" ref="#pmb29083">Lehmann</rs>, als chronische Affektion in der Nähe des
-               Sprachcentrums auffassen will? Besteht es in dem stupenden Gedächtniß, das sich in
-               der konstanten Fähigkeit ausspräche, Wort- und Satzfolgen, die vor langer Zeit
-               gelesen oder gehört wurden, bewußt zu reproduziren, oder darin, daß die Reproduktion
-               solcher Wort- und Satzfolgen zwangsartig infolge gewisser vorübergehender
-               Reizzustände im Sprachcentrum auftritt? Oder handelt es sich hier um eines jener
-               (gewiß nicht sehr häufigen) Phänomene, wo im Verlauf eines hysterischen Anfalles,
-               einer fieberhaften Erkrankung oder irgendeines anderen krankhaften Zustandes, der
-               einen Reiz in oder neben dem Sprachcentrum auslöst, Wort- oder auch Tonfolgen
-               reproduzirt werden, die der Kranke in gesundem Zustand gar nicht oder mindesten nicht
-               so genau reproduziren könnte wie unter dem Einflüsse seiner Krankheit? Diese Fälle
-               sind beinahe immer mit Amnesie verbunden. Das heißt: die betreffenden Kranken
-               erinnern sich nachher nicht des Umstandes, daß sie in ihrem Anfall die Wort- oder
-               Tonfolgen reproduzirt und wiedergegeben haben. Und ferner werden diese Wort- und
-               Tonfolgen mit mathematischer Genauigkeit, ja, um bei dem Vergleich <rs type="person" ref="#pmb29083">Lehmann</rs>s zu bleiben, ähnlich wie von einem Grammophon
-               abgeschnurrt. Gewiß aber gibt es auch Übergangsfälle, wo die Reproduktion der Wort-
-               oder Tonfolgen nicht unbewußt, sondern nur mechanisch, also unter einer gewissen
-               Kontrolle des Bewußtseins und ohne nachfolgende Amnesie, erfolgt. In all diesen
-               Fällen aber ist der Ersatz eines Wortes innerhalb der reproduzirten Wortfolge durch
-               ein anderes unter Mithilfe des Urteilsvermögens nach den bisherigen Erfahrungen
-               ausgeschlossen. Gerade dieser Vorgang aber tritt bei <rs type="person" ref="#pmb11813">Jacobsohn</rs> ein; und man müßte es geradezu als das Eigentümliche dieses Falles
-               ansprechen (wenn wir ihn eben als chronischen Reizzustand in der Nähe des
-               Sprachcentrums auffassen wollen), daß erstens innerhalb des mechanischen Ablaufes
-               einer reproduzirten Wortfolge (wie sie sich in den unter Verdacht stehenden Kritiken
-               vorfinden) das eine oder das andere für den betreffenden Anlaß nicht geeignete Wort
-               durch ein geeignetes (zum Beispiel: »<rs type="work" ref="#pmb31329">Magda</rs>« durch
-                  »<rs type="work" ref="#pmb31407">Traumulus</rs>«) ersetzt wird und daß zweitens die
-               Wortfolge regelmäßig dort, wo im mechanischen Ablauf Name oder Chiffre des wirklichen
-               Verfassers stehen sollte, jäh abreißt. Nun sollte man aber wenigstens glauben, daß
-               durch dieses plötzliche Einsetzen bewußter Urteilskraft der Kranke aufgestört würde,
-               etwa wie ein angerufener Nachtwandler, und selbst bemerken müßte, daß die unter Zwang
-               reproduzirten Wortfolgen nicht von ihm herrühren. Wenn es sich aber so verhält, dann
-               zieht <rs type="person" ref="#pmb11813">Jacobsohn</rs> keinenfalls die nötigen
-               Konsequenzen daraus; denn die auf so seltsame Weise entstandenen Kritiken sind ja
-               gedruckt und von <rs type="person" ref="#pmb11813">Jacobsohn</rs> selbst unterzeichnet
-               worden. </p>
+               <rs type="person" ref="#pmb11813">Jacobsohn</rs>s in der »<rs type="org"
+                  ref="#pmb29460">Welt am Montag</rs>« ein, noch scheint mir die sogenannte »<anchor
+                  type="commentary" xml:id="KT143-2"/>Lösung des psychologischen Rätsels<note
+                  type="commentary" xml:id="KT143-2h">Dieses Privatgutachten wurde von <rs
+                     type="person" ref="#pmb11813">Jacobsohn</rs> versandt, <bibl>
+                     <rs type="person" ref="#pmb29083">Arthur R. H. Lehmann</rs>: <rs type="work"
+                        ref="#pmb33157">[Der Fall Jacobsohn. Lösung des psychologischen
+                        Rätsels]</rs>. In: <rs type="work" ref="#pmb59353">Montags-Revue aus
+                        Böhmen</rs>, Jg. 26, Nr. 48, <date>28. 11. 1904</date>, S. 6</bibl>. Ob es
+                     <rs type="person" ref="#pmb2121">Schnitzler</rs> unmittelbar oder durch einen
+                  Abdruck in einer Zeitung oder Zeitschrift bekannt war, ist nicht geklärt.</note>«
+               durch Herrn <rs type="person" ref="#pmb29083">Arthur R. H. Lehmann</rs> auf den Fall
+                  <rs type="person" ref="#pmb11813">Jacobsohn</rs> mit genügender Sicherheit
+               anwendbar. Herr <rs type="person" ref="#pmb29083">Lehmann</rs> citirt Fälle von
+               außergewöhnlich gesteigertem Gedächtniß unter sonst normalen Geistesverhältnissen und
+               ferner Fälle von außergewöhnlichen Gedächtnißsteigerungen im Verlauf gewisser
+               Gehirnkrankheiten oder solcher Krankheiten, bei denen es sekundär zu hyperämischen
+               Störungen im Gehirn (im Sprachcentrum oder in der Nähe des Sprachcentrums) kommt. Daß
+               alle von <rs type="person" ref="#pmb29083">Lehmann</rs> citirten Beispiele an sich
+               vollkommen einwandfrei sind, versteht sich von selbst; nur geben sie meiner
+               Empfindung nach keinen Aufschluß über den Fall <rs type="person" ref="#pmb11813"
+                  >Jacobsohn</rs>. Worin besteht denn das Charakteristische und höchst Eigentümliche
+               dieses Falles, wenn man ihn,<pb/> wie <rs type="person" ref="#pmb11813"
+                  >Jacobsohn</rs> selbst und wie <rs type="person" ref="#pmb29083">Lehmann</rs>, als
+               chronische Affektion in der Nähe des Sprachcentrums auffassen will? Besteht es in dem
+               stupenden Gedächtniß, das sich in der konstanten Fähigkeit ausspräche, Wort- und
+               Satzfolgen, die vor langer Zeit gelesen oder gehört wurden, bewußt zu reproduziren,
+               oder darin, daß die Reproduktion solcher Wort- und Satzfolgen zwangsartig infolge
+               gewisser vorübergehender Reizzustände im Sprachcentrum auftritt? Oder handelt es sich
+               hier um eines jener (gewiß nicht sehr häufigen) Phänomene, wo im Verlauf eines
+               hysterischen Anfalles, einer fieberhaften Erkrankung oder irgendeines anderen
+               krankhaften Zustandes, der einen Reiz in oder neben dem Sprachcentrum auslöst, Wort-
+               oder auch Tonfolgen reproduzirt werden, die der Kranke in gesundem Zustand gar nicht
+               oder mindesten nicht so genau reproduziren könnte wie unter dem Einflüsse seiner
+               Krankheit? Diese Fälle sind beinahe immer mit Amnesie verbunden. Das heißt: die
+               betreffenden Kranken erinnern sich nachher nicht des Umstandes, daß sie in ihrem
+               Anfall die Wort- oder Tonfolgen reproduzirt und wiedergegeben haben. Und ferner
+               werden diese Wort- und Tonfolgen mit mathematischer Genauigkeit, ja, um bei dem
+               Vergleich <rs type="person" ref="#pmb29083">Lehmann</rs>s zu bleiben, ähnlich wie von
+               einem Grammophon abgeschnurrt. Gewiß aber gibt es auch Übergangsfälle, wo die
+               Reproduktion der Wort- oder Tonfolgen nicht unbewußt, sondern nur mechanisch, also
+               unter einer gewissen Kontrolle des Bewußtseins und ohne nachfolgende Amnesie,
+               erfolgt. In all diesen Fällen aber ist der Ersatz eines Wortes innerhalb der
+               reproduzirten Wortfolge durch ein anderes unter Mithilfe des Urteilsvermögens nach
+               den bisherigen Erfahrungen ausgeschlossen. Gerade dieser Vorgang aber tritt bei <rs
+                  type="person" ref="#pmb11813">Jacobsohn</rs> ein; und man müßte es geradezu als
+               das Eigentümliche dieses Falles ansprechen (wenn wir ihn eben als chronischen
+               Reizzustand in der Nähe des Sprachcentrums auffassen wollen), daß erstens innerhalb
+               des mechanischen Ablaufes einer reproduzirten Wortfolge (wie sie sich in den unter
+               Verdacht stehenden Kritiken vorfinden) das eine oder das andere für den betreffenden
+               Anlaß nicht geeignete Wort durch ein geeignetes (zum Beispiel: »<rs type="work"
+                  ref="#pmb31329">Magda</rs>« durch »<rs type="work" ref="#pmb31407"
+               >Traumulus</rs>«) ersetzt wird und daß zweitens die Wortfolge regelmäßig dort, wo im
+               mechanischen Ablauf Name oder Chiffre des wirklichen Verfassers stehen sollte, jäh
+               abreißt. Nun sollte man aber wenigstens glauben, daß durch dieses plötzliche
+               Einsetzen bewußter Urteilskraft der Kranke aufgestört würde, etwa wie ein angerufener
+               Nachtwandler, und selbst bemerken müßte, daß die unter Zwang reproduzirten Wortfolgen
+               nicht von ihm herrühren. Wenn es sich aber so verhält, dann zieht <rs type="person"
+                  ref="#pmb11813">Jacobsohn</rs> keinenfalls die nötigen Konsequenzen daraus; denn
+               die auf so seltsame Weise entstandenen Kritiken sind ja gedruckt und von <rs
+                  type="person" ref="#pmb11813">Jacobsohn</rs> selbst unterzeichnet worden. </p>
             <p>Nun hielte ich es ja nicht für unmöglich, daß durch die Macht eines neuen Eindruckes,
                trotz dem Zwang, mit dem alte Wortfolgen reproduzirt<pb/> wurden, gelegentlich die
                Substituierung eines Wortes durch ein anderes, passenderes erfolgen, ja, selbst daß
@@ -202,47 +234,54 @@
                Chiffre oder der Name des ursprünglichen Verfassers zu erscheinen hätte. Aber solche
                Vorgänge als regelmäßige anzuerkennen, wehrt sich alles in mir, was ich an Einsicht
                in gesunde und kranke Seelen besitze. Freilich kommt es weiter nicht in Betracht, daß
-               ein Fall wie der <rs type="person" ref="#pmb11813">Jacobsohn</rs>s bisher meines Wissens
-               weder publizirt noch überhaupt beobachtet worden ist; doch müßte er seine Logik in
-               sich tragen, wie alles Menschliche. <rs type="person" ref="#pmb11813">Jacobsohn</rs>
-               erzählt in seiner früher erwähnten Erwiderung einen Vorfall, der nur gegen seinen
-               eigenen Erklärungversuch auszunützen ist; er erzählt, wie er sich einmal auf
-               irgendeine Anregung im Gespräch hin sofort erinnert habe, was ein bestimmter Kritiker
-               bei einer bestimmten Gelegenheit über einen bestimmten Schauspieler geschrieben
-               hatte. In diesem Fall hat also <rs type="person" ref="#pmb11813">Jacobsohn</rs> eine
-               logische Wortfolge nicht nur bewußt reproduzirt, sondern er hat auch gewußt, auf wen
-               sich die Wortfolge bezog und von wem sie herrührte. In den Fällen, die man ihm zum
-               Vorwurf macht, ist gerade das Gegenteil bemerkenswert: er reproduzirt, wenn schon
-               nicht unbewußt, doch gegen seinen Willen und trotz dem Bedürfniß, eigene Worte zu
-               finden, er glaubt, diese Wortfolgen selbst gefunden zu haben, ersetzt aber zugleich
-               die für den neuen Anlaß nicht passenden Eigennamen und Ausdrücke durch die richtigen,
-               die in den Rahmen der neuen Kritik hineinpassen. Vor diesem Ineinanderspielen von
-               Wahnsinn und Methode wollen sich meine Zweifel nicht beruhigen; und darum kann ich
-               mich vorläufig den Erklärungversuchen des Falles <rs type="person" ref="#pmb11813">Jacobsohn</rs>, die ihn als eine chronische Affektion in der Nähe des
-               Sprachcentrums deuten wollen, nicht anschließen. Aber wie fern es mir liegt, <rs type="person" ref="#pmb11813">Jacobsohn</rs> durch meine Zweifel verletzen zu wollen,
-               sollen Sie gleich hören. Gerade sein Rechtfertigungversuch ist mir ein neuer Beweis
-               für die Richtigkeit meiner Auffassung seines Zustandes; denn dieser Versuch scheint
-               mir nichts als eine Unüberlegtheit mehr. Und im Interesse der Zukunft <rs type="person" ref="#pmb11813">Jacobsohn</rs>s, an die ich glaube, wünschte ich, mit
-               dieser Meinung recht zu behalten. Denn wenn <rs type="person" ref="#pmb11813">Jacobsohn</rs>s Krankheit wirklich auf dem unwiderstehlichen Zwang zu mehr oder
-               minder unbewußten Reproduktionen aufgrund einer chronischen Affektion in der Nähe des
-               Sprachcentrums beruhte, so müßte man den jungen Mann auf unbestimmte Zeit hinaus,
-               wenn nicht auf immer, für die Wiederaufnahme seiner kritischen Tätigkeit verloren
-               geben; hat es sich aber, wie ich eben glaube, nur um jenes Gegenteil von Hypochondrie
-               gehandelt, das ihn zu Unvorsichtigkeiten und Unüberlegtheiten gelangen ließ und das
-               nur als pathologisch und nicht als unredliches Beginnen gedeutet werden dürfte, so
-               bin ich überzeugt, daß <rs type="person" ref="#pmb11813">Siegfried Jacobsohn</rs>, der
-               begeisterte Freund des Theaters, der glänzende Stilist und der unter normalen
-               Umständen so selbständige Kritiker,<pb/> für alle künftigen Zeiten vor einer
-               Wiederkehr ähnlicher Anfälle gefeit ist und seine Feder bald wieder mit Glück und
-               Ehren führen wird. Denn wenn auch ein Dutzend oder zwanzig oder hundert Stellen in
-               seinen Kritiken nicht von ihm selbst herrühren: wie vieles bleibt trotzdem noch
-               übrig, woraus die Fähigkeiten dieses Dreiundzwanzigjährigen unverkennbar zu uns
-               sprechen! Nicht der Fall an sich, der sich hier ereignet hat, scheint mir tragisch:
-               er wird es nur dadurch, daß man ihn gar zu leicht gegen den Betroffenen ausnützen und
-               besonders aufgrund jener nicht glücklichen Erklärungversuche ihm die Wiederaufnahme
-               seiner Tätigkeit unmöglich machen könnte. Und darum wünschte ich in <rs type="person" ref="#pmb11813">Jacobsohn</rs>s eigenstem Interesse, daß er sich selbst meiner
-               Auffassung zuwende, nach der mir die Möglichkeit einer Wiederkehr seiner psychischen
-               Störung so gut wie ausgeschlossen scheint. Meine besten Wünsche sind bei ihm. </p>
+               ein Fall wie der <rs type="person" ref="#pmb11813">Jacobsohn</rs>s bisher meines
+               Wissens weder publizirt noch überhaupt beobachtet worden ist; doch müßte er seine
+               Logik in sich tragen, wie alles Menschliche. <rs type="person" ref="#pmb11813"
+                  >Jacobsohn</rs> erzählt in seiner früher erwähnten Erwiderung einen Vorfall, der
+               nur gegen seinen eigenen Erklärungversuch auszunützen ist; er erzählt, wie er sich
+               einmal auf irgendeine Anregung im Gespräch hin sofort erinnert habe, was ein
+               bestimmter Kritiker bei einer bestimmten Gelegenheit über einen bestimmten
+               Schauspieler geschrieben hatte. In diesem Fall hat also <rs type="person"
+                  ref="#pmb11813">Jacobsohn</rs> eine logische Wortfolge nicht nur bewußt
+               reproduzirt, sondern er hat auch gewußt, auf wen sich die Wortfolge bezog und von wem
+               sie herrührte. In den Fällen, die man ihm zum Vorwurf macht, ist gerade das Gegenteil
+               bemerkenswert: er reproduzirt, wenn schon nicht unbewußt, doch gegen seinen Willen
+               und trotz dem Bedürfniß, eigene Worte zu finden, er glaubt, diese Wortfolgen selbst
+               gefunden zu haben, ersetzt aber zugleich die für den neuen Anlaß nicht passenden
+               Eigennamen und Ausdrücke durch die richtigen, die in den Rahmen der neuen Kritik
+               hineinpassen. Vor diesem Ineinanderspielen von Wahnsinn und Methode wollen sich meine
+               Zweifel nicht beruhigen; und darum kann ich mich vorläufig den Erklärungversuchen des
+               Falles <rs type="person" ref="#pmb11813">Jacobsohn</rs>, die ihn als eine chronische
+               Affektion in der Nähe des Sprachcentrums deuten wollen, nicht anschließen. Aber wie
+               fern es mir liegt, <rs type="person" ref="#pmb11813">Jacobsohn</rs> durch meine
+               Zweifel verletzen zu wollen, sollen Sie gleich hören. Gerade sein
+               Rechtfertigungversuch ist mir ein neuer Beweis für die Richtigkeit meiner Auffassung
+               seines Zustandes; denn dieser Versuch scheint mir nichts als eine Unüberlegtheit
+               mehr. Und im Interesse der Zukunft <rs type="person" ref="#pmb11813">Jacobsohn</rs>s,
+               an die ich glaube, wünschte ich, mit dieser Meinung recht zu behalten. Denn wenn <rs
+                  type="person" ref="#pmb11813">Jacobsohn</rs>s Krankheit wirklich auf dem
+               unwiderstehlichen Zwang zu mehr oder minder unbewußten Reproduktionen aufgrund einer
+               chronischen Affektion in der Nähe des Sprachcentrums beruhte, so müßte man den jungen
+               Mann auf unbestimmte Zeit hinaus, wenn nicht auf immer, für die Wiederaufnahme seiner
+               kritischen Tätigkeit verloren geben; hat es sich aber, wie ich eben glaube, nur um
+               jenes Gegenteil von Hypochondrie gehandelt, das ihn zu Unvorsichtigkeiten und
+               Unüberlegtheiten gelangen ließ und das nur als pathologisch und nicht als unredliches
+               Beginnen gedeutet werden dürfte, so bin ich überzeugt, daß <rs type="person"
+                  ref="#pmb11813">Siegfried Jacobsohn</rs>, der begeisterte Freund des Theaters, der
+               glänzende Stilist und der unter normalen Umständen so selbständige Kritiker,<pb/> für
+               alle künftigen Zeiten vor einer Wiederkehr ähnlicher Anfälle gefeit ist und seine
+               Feder bald wieder mit Glück und Ehren führen wird. Denn wenn auch ein Dutzend oder
+               zwanzig oder hundert Stellen in seinen Kritiken nicht von ihm selbst herrühren: wie
+               vieles bleibt trotzdem noch übrig, woraus die Fähigkeiten dieses
+               Dreiundzwanzigjährigen unverkennbar zu uns sprechen! Nicht der Fall an sich, der sich
+               hier ereignet hat, scheint mir tragisch: er wird es nur dadurch, daß man ihn gar zu
+               leicht gegen den Betroffenen ausnützen und besonders aufgrund jener nicht glücklichen
+               Erklärungversuche ihm die Wiederaufnahme seiner Tätigkeit unmöglich machen könnte.
+               Und darum wünschte ich in <rs type="person" ref="#pmb11813">Jacobsohn</rs>s eigenstem
+               Interesse, daß er sich selbst meiner Auffassung zuwende, nach der mir die Möglichkeit
+               einer Wiederkehr seiner psychischen Störung so gut wie ausgeschlossen scheint. Meine
+               besten Wünsche sind bei ihm. </p>
+            <latex alt="\newpage "/>
             <p>Mit herzlichem Gruß Ihr aufrichtig ergebener </p>
             <p>
                <signed>
@@ -254,44 +293,58 @@
          <div type="biographical">
             <div1>
                <ref type="schnitzler-tagebuch" target="1904-12-03"/>
-               <quote>Vm. dictirt (über <rs type="person" ref="#pmb11813">Jacobsohn</rs> an <rs type="person" ref="#pmb11581">Harden</rs>), <rs type="work" ref="#pmb29903">N<supplied>eue</supplied>. E<supplied>he</supplied>.</rs> wieder von vorn.
-                  / Nm. wieder an diesem <rs type="work" ref="#pmb30983">Brief</rs>; später <rs type="work" ref="#pmb29903">N. E</rs>.–</quote>
+               <quote>Vm. dictirt (über <rs type="person" ref="#pmb11813">Jacobsohn</rs> an <rs
+                     type="person" ref="#pmb11581">Harden</rs>), <rs type="work" ref="#pmb29903"
+                        >N<supplied>eue</supplied>. E<supplied>he</supplied>.</rs> wieder von vorn.
+                  / Nm. wieder an diesem <rs type="work" ref="#pmb30983">Brief</rs>; später <rs
+                     type="work" ref="#pmb29903">N. E</rs>.–</quote>
             </div1>
             <div1>
                <ref type="schnitzler-tagebuch" target="1904-12-05"/>
                <quote>
-                  <rs type="work" ref="#pmb30983">Brief</rs> an <rs type="person" ref="#pmb11581">Harden</rs> umgearbeitet.–</quote>
+                  <rs type="work" ref="#pmb30983">Brief</rs> an <rs type="person" ref="#pmb11581"
+                     >Harden</rs> umgearbeitet.–</quote>
             </div1>
             <div1>
                <ref type="schnitzler-tagebuch" target="1904-12-06"/>
-               <quote>Vm., während ich den <rs type="work" ref="#pmb30983">Brief</rs> an <rs type="person" ref="#pmb11581">Harden</rs> nochmals dictirte, kam <rs type="person" ref="#pmb27882">Fritz Wärndorfer</rs>
+               <quote>Vm., während ich den <rs type="work" ref="#pmb30983">Brief</rs> an <rs
+                     type="person" ref="#pmb11581">Harden</rs> nochmals dictirte, kam <rs
+                     type="person" ref="#pmb27882">Fritz Wärndorfer</rs>
                   <space unit="chars" quantity="1"/>
                   <gap reason="outOfScope" unit="lines" quantity="99"/>
                </quote>
             </div1>
             <div1>
                <ref type="schnitzler-tagebuch" target="1904-12-17"/>
-               <quote>In der <rs type="org" ref="#pmb29631">Zukunft</rs> ist mein Brief an <rs type="person" ref="#pmb11581">Harden</rs> als Artikel gedruckt. ›<rs type="work" ref="#pmb30983">Der Fall <rs type="person" ref="#pmb11813">Jacobsohn</rs>
+               <quote>In der <rs type="org" ref="#pmb29631">Zukunft</rs> ist mein Brief an <rs
+                     type="person" ref="#pmb11581">Harden</rs> als Artikel gedruckt. ›<rs
+                     type="work" ref="#pmb30983">Der Fall <rs type="person" ref="#pmb11813"
+                        >Jacobsohn</rs>
                   </rs>‹.–</quote>
             </div1>
             <div1>
                <ref type="schnitzler-tagebuch" target="1904-12-19"/>
-               <quote>Dann kam <rs type="person" ref="#pmb11813">Jacobsohn</rs>, der einige Wochen hier
-                  bleiben will, dankte mir sehr für den <rs type="work" ref="#pmb30983">Brief</rs>, der
-                  ihm mehr genützt hätte als alles, was bisher für ihn geschehn. (Nachm. hatt ich
-                  von einem gewissen <rs type="person" ref="#pmb11541">Gugitz</rs> einen schnöden aber
-                  nicht unhöflichen, traurigen, verstimmenden Brief erhalten, gegen meinen.)</quote>
+               <quote>Dann kam <rs type="person" ref="#pmb11813">Jacobsohn</rs>, der einige Wochen
+                  hier bleiben will, dankte mir sehr für den <rs type="work" ref="#pmb30983"
+                     >Brief</rs>, der ihm mehr genützt hätte als alles, was bisher für ihn geschehn.
+                  (Nachm. hatt ich von einem gewissen <rs type="person" ref="#pmb11541">Gugitz</rs>
+                  einen schnöden aber nicht unhöflichen, traurigen, verstimmenden Brief erhalten,
+                  gegen meinen.)</quote>
             </div1>
             <div1>
                <ref type="schnitzler-tagebuch" target="1904-12-20"/>
-               <quote>Brief <rs type="person" ref="#pmb2167">Saltens</rs>, mit Bemerkung, er hätte über
-                  meinen Artikel <rs type="work" ref="#pmb30983">J.</rs> wesentliches zu bemerken,
-                  irritirte mich. (Bin zum Journalisten nicht geschaffen!) –</quote>
+               <quote>Brief <rs type="person" ref="#pmb2167">Saltens</rs>, mit Bemerkung, er hätte
+                  über meinen Artikel <rs type="work" ref="#pmb30983">J.</rs> wesentliches zu
+                  bemerken, irritirte mich. (Bin zum Journalisten nicht geschaffen!) –</quote>
             </div1>
             <div1>
                <ref type="schnitzler-tagebuch" target="1904-12-23"/>
-               <quote>Abd. <rs type="place" ref="#pmb44">Riedhof</rs> mit <rs type="person" ref="#pmb2173">O</rs>.– <rs type="person" ref="#pmb2167">Salten</rs>.– Über <rs type="person" ref="#pmb11391">Fuldas</rs> Klage gegen <rs type="person" ref="#pmb10815">Bahr</rs>
-                     (<rs type="person" ref="#pmb10815">Bahr</rs>: ›<rs type="work" ref="#pmb30045" subtype="implied">gieriger Jobber</rs>‹), über meinen <rs type="work" ref="#pmb30983" subtype="implied">
+               <quote>Abd. <rs type="place" ref="#pmb44">Riedhof</rs> mit <rs type="person"
+                     ref="#pmb2173">O</rs>.– <rs type="person" ref="#pmb2167">Salten</rs>.– Über <rs
+                     type="person" ref="#pmb11391">Fuldas</rs> Klage gegen <rs type="person"
+                     ref="#pmb10815">Bahr</rs> (<rs type="person" ref="#pmb10815">Bahr</rs>: ›<rs
+                     type="work" ref="#pmb30045" subtype="implied">gieriger Jobber</rs>‹), über
+                  meinen <rs type="work" ref="#pmb30983" subtype="implied">
                      <rs type="person" ref="#pmb11813">Jacobsohn</rs>
                      <space unit="chars" quantity="1"/>Artikel</rs>.</quote>
             </div1>
@@ -326,16 +379,22 @@
                <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
                <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
-               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="kraus1933"
+                  >https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
                <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
-               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino"
+                  >https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
             </person>
             <person xml:id="pmb27418">
                <persName>
@@ -343,7 +402,8 @@
                </persName>
                <sex value="not-set"/>
                <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21503</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21503</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/27418/</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp59744</idno>
             </person>
@@ -374,15 +434,20 @@
                <occupation ref="pmb99">Journalist/Journalistin</occupation>
                <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
                <occupation ref="pmb237">Publizist/Publizistin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16477</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16477</idno>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118556371</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11813.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11813.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11813/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11813</idno>
-               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11813</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11813</idno>
+               <idno type="URL" subtype="kraus"
+                  >https://kraus.wienbibliothek.at/register/personen/pmb11813</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp53253</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q66477</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Siegfried_Jacobsohn</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Siegfried_Jacobsohn</idno>
             </person>
             <person xml:id="pmb11581">
                <persName>
@@ -410,16 +475,22 @@
                <sex value="male"/>
                <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
                <occupation ref="pmb237">Publizist/Publizistin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15919</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15919</idno>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118545892</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11581.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11581.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11581/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11581</idno>
-               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11581.html</idno>
-               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11581</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11581</idno>
+               <idno type="URL" subtype="schnitzler-lektueren"
+                  >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11581.html</idno>
+               <idno type="URL" subtype="kraus"
+                  >https://kraus.wienbibliothek.at/register/personen/pmb11581</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49994</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q63411</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Maximilian_Harden</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Maximilian_Harden</idno>
                <idno type="URL" subtype="dx">https://dx.doi.org/10.1553/0x0002ed46</idno>
             </person>
             <person xml:id="pmb11469">
@@ -449,12 +520,16 @@
                <sex value="male"/>
                <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
                <occupation ref="pmb99">Journalist/Journalistin</occupation>
-               <occupation ref="pmb322">Händler/Händlerin &gt;&gt; Kunsthändler/Kunsthändlerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15511</idno>
+               <occupation ref="pmb322">Händler/Händlerin &gt;&gt;
+                  Kunsthändler/Kunsthändlerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15511</idno>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116746777</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11469.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11469.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11469/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11469</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11469</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2645040</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Alfred_Gold</idno>
             </person>
@@ -484,16 +559,21 @@
                </death>
                <sex value="female"/>
                <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19564</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19564</idno>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118605429</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12618.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12618.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12618/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12618</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12618</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp37789</idno>
                <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284783</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q75157</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Adele_Sandrock</idno>
-               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb12618.html</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Adele_Sandrock</idno>
+               <idno type="URL" subtype="schnitzler-kino"
+                  >https://schnitzler-kino.acdh.oeaw.ac.at/pmb12618.html</idno>
             </person>
             <person xml:id="pmb12899">
                <persName>
@@ -520,16 +600,22 @@
                </death>
                <sex value="male"/>
                <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20563</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20563</idno>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118619853</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12899.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12899.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12899/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12899</idno>
-               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12899.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12899</idno>
+               <idno type="URL" subtype="schnitzler-lektueren"
+                  >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12899.html</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp45949</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q65448</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hermann_Sudermann</idno>
-               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb12899.html</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Hermann_Sudermann</idno>
+               <idno type="URL" subtype="schnitzler-kino"
+                  >https://schnitzler-kino.acdh.oeaw.ac.at/pmb12899.html</idno>
             </person>
             <person xml:id="pmb11201">
                <persName>
@@ -557,14 +643,18 @@
                </death>
                <sex value="female"/>
                <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14574</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14574</idno>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118681354</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11201.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11201.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11201/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11201</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11201</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp42497</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q275970</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Eleonora_Duse</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Eleonora_Duse</idno>
             </person>
             <person xml:id="pmb29083">
                <persName>
@@ -605,15 +695,18 @@
                <occupation ref="pmb152">Industrieller/Industrielle</occupation>
                <occupation ref="pmb171">Mäzen/Mäzenin</occupation>
                <occupation ref="pmb913">Unternehmer/Unternehmerin</occupation>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb27882.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb27882.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/27882/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb27882</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb27882</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp55259</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/107201/</idno>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/122390326</idno>
                <idno type="URL" subtype="doi">https://doi.org/10.1553/0x003a0230</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q89659</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Fritz_Waerndorfer</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Fritz_Waerndorfer</idno>
             </person>
             <person xml:id="pmb11541">
                <persName>
@@ -640,14 +733,18 @@
                </death>
                <sex value="male"/>
                <occupation ref="pmb506">Volkskundler/Volkskundlerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15738</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15738</idno>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118699067</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11541.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11541.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11541/</idno>
-               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11541.html</idno>
+               <idno type="URL" subtype="schnitzler-lektueren"
+                  >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11541.html</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp45146</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q90508</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Gustav_Gugitz_(Heimatforscher)</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Gustav_Gugitz_(Heimatforscher)</idno>
             </person>
             <person xml:id="pmb2167">
                <persName>
@@ -679,17 +776,24 @@
                <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
                <occupation ref="pmb99">Journalist/Journalistin</occupation>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118840819</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2167.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2167.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2167/</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19542</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2167</idno>
-               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb2167</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19542</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2167</idno>
+               <idno type="URL" subtype="kraus"
+                  >https://kraus.wienbibliothek.at/register/personen/pmb2167</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43175</idno>
-               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0204</idno>
+               <idno type="URL" subtype="kraus1933"
+                  >https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0204</idno>
                <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284367</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q163747</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Felix_Salten</idno>
-               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2167.html</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Felix_Salten</idno>
+               <idno type="URL" subtype="schnitzler-kino"
+                  >https://schnitzler-kino.acdh.oeaw.ac.at/pmb2167.html</idno>
             </person>
             <person xml:id="pmb2173">
                <persName>
@@ -721,13 +825,17 @@
                <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
                <occupation ref="pmb107">Sänger/Sängerin</occupation>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116848723</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2173.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2173.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2173/</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19832</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2173</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19832</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2173</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp50811</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q55884531</idno>
-               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2173.html</idno>
+               <idno type="URL" subtype="schnitzler-kino"
+                  >https://schnitzler-kino.acdh.oeaw.ac.at/pmb2173.html</idno>
             </person>
             <person xml:id="pmb11391">
                <persName>
@@ -755,16 +863,22 @@
                <sex value="male"/>
                <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
                <occupation ref="pmb116">Übersetzer/Übersetzerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15306</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15306</idno>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118840452</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11391.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11391.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11391/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11391</idno>
-               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb11391</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11391</idno>
+               <idno type="URL" subtype="kraus"
+                  >https://kraus.wienbibliothek.at/register/personen/pmb11391</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49290</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q72283</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ludwig_Fulda</idno>
-               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11391.html</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Ludwig_Fulda</idno>
+               <idno type="URL" subtype="schnitzler-kino"
+                  >https://schnitzler-kino.acdh.oeaw.ac.at/pmb11391.html</idno>
             </person>
             <person xml:id="pmb10815">
                <persName>
@@ -792,17 +906,23 @@
                <sex value="male"/>
                <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
                <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10815.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10815.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10815/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10815</idno>
-               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10815.html</idno>
-               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/personen/pmb10815</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10815</idno>
+               <idno type="URL" subtype="schnitzler-lektueren"
+                  >https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10815.html</idno>
+               <idno type="URL" subtype="kraus"
+                  >https://kraus.wienbibliothek.at/register/personen/pmb10815</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp45908</idno>
                <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00280efa</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q94034</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hermann_Bahr</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Hermann_Bahr</idno>
                <idno type="URL" subtype="dx">https://dx.doi.org/10.1553/0x0001f7bb</idno>
             </person>
          </listPerson>
@@ -812,8 +932,10 @@
                <title type="werk_bibliografische-angabe">Die Zukunft, Bd. 49, 10. 12. 1904</title>
                <author ref="pmb11581" role="hat-anonym-veroffentlicht">Harden, Maximilian</author>
                <date when="1904-12-10">10.12.1904</date>
-               <idno type="URL" subtype="archive">https://archive.org/stream/bub_gb_OfgaAAAAYAAJ#page/n353/mode/2up</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb32418.html</idno>
+               <idno type="URL" subtype="archive"
+                  >https://archive.org/stream/bub_gb_OfgaAAAAYAAJ#page/n353/mode/2up</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb32418.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32418/</idno>
                <note type="work_kind">Epik &gt;&gt; Aufsatz</note>
             </bibl>
@@ -822,7 +944,8 @@
                <title type="werk_bibliografische-angabe">Berliner Tageblatt, 12. 11. 1904</title>
                <author ref="pmb11469" role="hat-geschaffen">Gold, Alfred</author>
                <date when="1904-11-12">12.11.1904</date>
-               <idno type="URL" subtype="">http://zefys.staatsbibliothek-berlin.de/index.php?id=55&amp;set%5Bimage%5D=2&amp;set%5Bmets%5D=http%3A%2F%2Fcontent.staatsbibliothek-berlin.de%2Fzefys%2FSNP27646518-19041112-1-0-0-0.xml&amp;set%5Bzoom%5D=default&amp;set%5Bdebug%5D=0&amp;set%5Bdouble%5D=0</idno>
+               <idno type="URL" subtype=""
+                  >http://zefys.staatsbibliothek-berlin.de/index.php?id=55&amp;set%5Bimage%5D=2&amp;set%5Bmets%5D=http%3A%2F%2Fcontent.staatsbibliothek-berlin.de%2Fzefys%2FSNP27646518-19041112-1-0-0-0.xml&amp;set%5Bzoom%5D=default&amp;set%5Bdebug%5D=0&amp;set%5Bdouble%5D=0</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33165/</idno>
                <note type="work_kind">Epik &gt;&gt; Aufsatz</note>
             </bibl>
@@ -830,10 +953,13 @@
                <title>Heimat</title>
                <author ref="pmb12899" role="hat-geschaffen">Sudermann, Hermann</author>
                <date notBefore="1893-01-01" when="1893-07-02">1893</date>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31329.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31329.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31329/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb31329</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31329.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb31329</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31329.html</idno>
                <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
             </bibl>
             <bibl xml:id="pmb33167">
@@ -850,10 +976,13 @@
                <author ref="pmb11763" role="hat-geschaffen">Holz, Arno</author>
                <author ref="pmb11824" role="hat-geschaffen">Jerschke, Oskar</author>
                <date when="1904-01-01">1904</date>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31407.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb31407.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31407/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb31407</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31407.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb31407</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31407.html</idno>
                <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
             </bibl>
             <bibl xml:id="pmb33159">
@@ -889,12 +1018,17 @@
                <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.35</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q245055</idno>
                <idno type="URL" subtype="theadok">https://theadok.at/work/38158</idno>
-               <idno type="URL" subtype="literature">http://www.literature.at/viewer.alo?objid=12124&amp;page=1&amp;viewmode=fullscreen</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29903.html</idno>
+               <idno type="URL" subtype="literature"
+                  >http://www.literature.at/viewer.alo?objid=12124&amp;page=1&amp;viewmode=fullscreen</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29903.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29903/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29903</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29903.html</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Zwischenspiel_(Schnitzler)</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29903</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29903.html</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Zwischenspiel_(Schnitzler)</idno>
                <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
             </bibl>
             <bibl xml:id="pmb30983">
@@ -902,29 +1036,38 @@
                <title type="werk_bibliografische-angabe">Die Zukunft, Bd. 49, 17. 12. 1904</title>
                <author ref="pmb2121" role="hat-geschaffen">Schnitzler, Arthur</author>
                <date when="1904-12-17">17.12.1904</date>
-               <idno type="URL" subtype="archive">https://archive.org/stream/bub_gb_OfgaAAAAYAAJ#page/n411/mode/1up</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30983.html</idno>
+               <idno type="URL" subtype="archive"
+                  >https://archive.org/stream/bub_gb_OfgaAAAAYAAJ#page/n411/mode/1up</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30983.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30983/</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30983.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30983.html</idno>
                <note type="work_kind">Epik &gt;&gt; Aufsatz</note>
             </bibl>
             <bibl xml:id="pmb30045">
-               <title>Bannermann (Schauspiel in drei Aufzügen von Otto Ernst. Zum erstenmal aufgeführt im Burgtheater am 26. November 1904)</title>
-               <title type="werk_bibliografische-angabe">Österreichische Volks-Zeitung, 27. 11. 1904</title>
+               <title>Bannermann (Schauspiel in drei Aufzügen von Otto Ernst. Zum erstenmal
+                  aufgeführt im Burgtheater am 26. November 1904)</title>
+               <title type="werk_bibliografische-angabe">Österreichische Volks-Zeitung, 27. 11.
+                  1904</title>
                <author ref="pmb10815" role="hat-geschaffen">Bahr, Hermann</author>
                <date when="1904-11-27">27.11.1904</date>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30045.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30045.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30045/</idno>
                <note type="work_kind">Rezension</note>
             </bibl>
             <bibl xml:id="pmb40042">
                <title>Die Zukunft</title>
                <title type="werk_link">https://de.wikisource.org/wiki/Die_Zukunft_(Harden)</title>
-               <author ref="pmb11581" role="hat-einen-beitrag-geschaffen-zu">Harden, Maximilian</author>
-               <date to="1922-01-01">1892  – 1922</date>
+               <author ref="pmb11581" role="hat-einen-beitrag-geschaffen-zu">Harden,
+                  Maximilian</author>
+               <date to="1922-01-01">1892 – 1922</date>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/40042/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb40042</idno>
-               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb40042</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb40042</idno>
+               <idno type="URL" subtype="kraus"
+                  >https://kraus.wienbibliothek.at/register/werke/pmb40042</idno>
                <note type="work_kind">Periodikum &gt;&gt; Zeitschrift</note>
             </bibl>
             <bibl xml:id="pmb33161">
@@ -932,7 +1075,8 @@
                <title type="werk_bibliografische-angabe">Hochland, Februar 1905</title>
                <author ref="pmb27418" role="hat-geschaffen">Z.</author>
                <date when="1905-02-01">Februar 1905</date>
-               <idno type="URL" subtype="babel">https://babel.hathitrust.org/cgi/pt?id=coo.31924066892724;view=1up;seq=577</idno>
+               <idno type="URL" subtype="babel"
+                  >https://babel.hathitrust.org/cgi/pt?id=coo.31924066892724;view=1up;seq=577</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/33161/</idno>
                <note type="work_kind">Epik &gt;&gt; Aufsatz</note>
             </bibl>
@@ -940,14 +1084,16 @@
                <title>Hochland</title>
                <date>None</date>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/58330/</idno>
-               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb58330</idno>
+               <idno type="URL" subtype="kraus"
+                  >https://kraus.wienbibliothek.at/register/werke/pmb58330</idno>
                <note type="work_kind">Periodikum &gt;&gt; Zeitschrift</note>
             </bibl>
          </listBibl>
          <listPlace>
             <place xml:id="pmb50">
                <placeName>Wien</placeName>
-               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+               <placeName type="ort_fruherer_name">K.K. Reichshaupt- und Residenzstadt
+                  Wien</placeName>
                <placeName type="alternative-name">Bécs</placeName>
                <placeName type="alternative-name">Land Wien</placeName>
                <placeName type="alternative-name">Vídeň</placeName>
@@ -967,21 +1113,26 @@
                </location>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
                <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
-               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+               <idno type="URL" subtype="kraus"
+                  >https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
             </place>
             <place xml:id="pmb44">
                <placeName>Riedhof</placeName>
-               <placeName type="wien-geschichte-wiki">https://www.geschichtewiki.wien.gv.at/Riedhof</placeName>
+               <placeName type="wien-geschichte-wiki"
+                  >https://www.geschichtewiki.wien.gv.at/Riedhof</placeName>
                <desc type="entity_type">Lokal (K.LKL)</desc>
                <desc type="entity_type_id">22</desc>
                <location type="coords">
@@ -991,9 +1142,11 @@
                   <placeName ref="pmb58">VIII., Josefstadt</placeName>
                   <geo>48,21126 16,34706</geo>
                </location>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb44.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb44.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb44</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb44</idno>
             </place>
          </listPlace>
          <listOrg>
@@ -1005,21 +1158,29 @@
                   <placeName ref="pmb168">Berlin</placeName>
                   <geo>52,52437 13,41053</geo>
                   <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
-                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
+                  <idno type="URL" subtype="schnitzler-bahr"
+                     >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
                   <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
-                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
-                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb168</idno>
+                  <idno type="URL" subtype="schnitzler-briefe"
+                     >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
+                  <idno type="URL" subtype="kraus"
+                     >https://kraus.wienbibliothek.at/register/orte/pmb168</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
-                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
-                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92171.html</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch"
+                     >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch"
+                     >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92171.html</idno>
                   <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
                   <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
                </location>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29631.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29631.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29631/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29631</idno>
-               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb29631</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29631</idno>
+               <idno type="URL" subtype="kraus"
+                  >https://kraus.wienbibliothek.at/register/institutionen/pmb29631</idno>
             </org>
             <org xml:id="pmb29329">
                <orgName>Berliner Tageblatt</orgName>
@@ -1029,23 +1190,32 @@
                   <placeName ref="pmb168">Berlin</placeName>
                   <geo>52,52437 13,41053</geo>
                   <idno type="URL" subtype="geonames">https://sws.geonames.org/2950159/</idno>
-                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
+                  <idno type="URL" subtype="schnitzler-bahr"
+                     >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html</idno>
                   <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
-                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
-                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb168</idno>
+                  <idno type="URL" subtype="schnitzler-briefe"
+                     >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
+                  <idno type="URL" subtype="kraus"
+                     >https://kraus.wienbibliothek.at/register/orte/pmb168</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92171/</idno>
-                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
-                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92171.html</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch"
+                     >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch"
+                     >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb92171.html</idno>
                   <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64</idno>
                   <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berlin</idno>
                </location>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29329.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29329.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29329/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29329</idno>
-               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/institutionen/pmb29329</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29329</idno>
+               <idno type="URL" subtype="kraus"
+                  >https://kraus.wienbibliothek.at/register/institutionen/pmb29329</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q455014</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berliner_Tageblatt</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Berliner_Tageblatt</idno>
             </org>
             <org xml:id="pmb29209">
                <orgName>Die Zeit. Wiener Wochenschrift</orgName>
@@ -1056,28 +1226,36 @@
                   <geo>48,2066 16,37341</geo>
                   <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
                   <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
-                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="schnitzler-bahr"
+                     >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316/</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954/</idno>
-                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+                  <idno type="URL" subtype="schnitzler-briefe"
+                     >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
-                  <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
-                  <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
+                  <idno type="URL" subtype="kraus"
+                     >https://kraus.wienbibliothek.at/register/orte/pmb50</idno>
+                  <idno type="URL" subtype="schnitzler-tagebuch"
+                     >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb50.html</idno>
                   <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1741</idno>
                   <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wien</idno>
                </location>
                <location type="located_in_place">
                   <placeName ref="pmb296">Günthergasse</placeName>
                   <geo>48,216599877109 16,358330000258</geo>
-                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb296.html</idno>
+                  <idno type="URL" subtype="schnitzler-bahr"
+                     >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb296.html</idno>
                   <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/296/</idno>
-                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb296</idno>
+                  <idno type="URL" subtype="schnitzler-briefe"
+                     >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb296</idno>
                </location>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29209.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29209.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29209/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29209</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29209</idno>
             </org>
             <org xml:id="pmb29460">
                <orgName>Welt am Montag</orgName>

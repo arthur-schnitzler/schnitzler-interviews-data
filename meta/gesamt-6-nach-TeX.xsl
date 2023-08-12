@@ -25,9 +25,39 @@
    <!-- Ersetzt im übergegeben String die Umlaute mit ae, oe, ue etc. -->
    <xsl:function name="foo:umlaute-entfernen">
       <xsl:param name="umlautstring"/>
-      <xsl:value-of
-         select="replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace($umlautstring,'ä','ae'), 'ö', 'oe'), 'ü', 'ue'), 'ß', 'ss'), 'Ä', 'Ae'), 'Ü', 'Ue'), 'Ö', 'Oe'), 'é', 'e'), 'è', 'e'), 'É', 'E'), 'È', 'E'),'ò', 'o'), 'Č', 'C'), 'D’','D'), 'd’','D'), 'Ś', 'S'), '’', ' '), '&amp;', 'und'), 'ë', 'e'), '!', ''), 'č', 'c'), 'Ł', 'L')"
-      />
+      <xsl:variable name="umlaut1" select="replace($umlautstring, 'ä', 'ae')" />
+      <xsl:variable name="umlaut2" select="replace($umlaut1, 'ö', 'oe')" />
+      <xsl:variable name="umlaut3" select="replace($umlaut2, 'ü', 'ue')" />
+      <xsl:variable name="umlaut4" select="replace($umlaut3, 'ß', 'ss')" />
+      <xsl:variable name="umlaut5" select="replace($umlaut4, 'Ä', 'Ae')" />
+      <xsl:variable name="umlaut6" select="replace($umlaut5, 'Ü', 'Ue')" />
+      <xsl:variable name="umlaut7" select="replace($umlaut6, 'Ö', 'Oe')" />
+      <xsl:variable name="umlaut8" select="replace($umlaut7, 'é', 'e')" />
+      <xsl:variable name="umlaut9" select="replace($umlaut8, 'è', 'e')" />
+      <xsl:variable name="umlaut10" select="replace($umlaut9, 'É', 'E')" />
+      <xsl:variable name="umlaut11" select="replace($umlaut10, 'ò', 'o')" />
+      <xsl:variable name="umlaut12" select="replace($umlaut11, 'Č', 'C')" />
+      <xsl:variable name="umlaut13" select="replace($umlaut12, 'D’', 'D')" />
+      <xsl:variable name="umlaut14" select="replace($umlaut13, 'd’', 'D')" />
+      <xsl:variable name="umlaut15" select="replace($umlaut14, 'Ś', 'S')" />
+      <xsl:variable name="umlaut16" select="replace($umlaut15, '’', ' ')" />
+      <xsl:variable name="umlaut17" select="replace($umlaut16, '&amp;', 'und')" />
+      <xsl:variable name="umlaut18" select="replace($umlaut17, 'ë', 'e')" />
+      <xsl:variable name="umlaut19" select="replace($umlaut18, '!', '')" />
+      <xsl:variable name="umlaut20" select="replace($umlaut19, 'č', 'c')" />
+      <xsl:variable name="umlaut21" select="replace($umlaut20, 'Ł', 'L')" />
+      <xsl:variable name="umlaut22" select="replace($umlaut21, 'ø', 'zo')" />
+      <xsl:variable name="umlaut23" select="replace($umlaut22, 'Ø', 'ZO')" />
+      <xsl:variable name="umlaut24" select="replace($umlaut23, 'å', 'zza')" />
+      <xsl:variable name="umlaut25" select="replace($umlaut24, 'Å', 'ZZA')" />
+      
+      <xsl:value-of select="$umlaut25" />
+      
+      
+      
+      <!--<xsl:value-of
+         select="replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace($umlautstring,'ä','ae'), 'ö', 'oe'), 'ü', 'ue'), 'ß', 'ss'), 'Ä', 'Ae'), 'Ü', 'Ue'), 'Ö', 'Oe'), 'é', 'e'), 'è', 'e'), 'É', 'E')"
+      />-->
    </xsl:function>
    <!-- Ersetzt im übergegeben String die Kaufmannsund -->
    <xsl:function name="foo:sonderzeichen-ersetzen">
@@ -720,7 +750,9 @@
          <xsl:when test="$first = ''">
             <xsl:text>\textcolor{red}{ORGNR INHALT FEHLT}</xsl:text>
          </xsl:when>
-         <xsl:when test="not($org-entry/*:location[@type = 'located_in_place'])">
+         <xsl:when test="not($org-entry/*:location[@type = 'located_in_place']) or ($org-entry/*:desc[@type='entity_type'][1]/. ='Verlag') or
+            contains($org-entry/*:desc[@type='entity_type'][1]/. , 'Zeitschrift') or contains($org-entry/*:desc[@type='entity_type'][1]/. , 'Wochenschrift') or
+            contains($org-entry/*:desc[@type='entity_type'][1]/. , 'Monatsschrift')">
             <xsl:text>\orgindex{</xsl:text>
             <xsl:value-of
                select="foo:index-sortiert(normalize-space($org-entry/*:orgName[1]), 'up')"/>
@@ -730,9 +762,11 @@
             test="$org-entry/*:location[@type = 'located_in_place'] and $org-entry/*:desc[@type = 'entity_type'][contains(., 'Tageszeitungsr')]">
             <!-- Tageszeitungen werden
          nur am 1. Ort ausgegeben-->
+            <xsl:variable name="ort" select="$org-entry/*:location[@type = 'located_in_place'][1]" as="node()"/>
+            <xsl:variable name="entitytype" select="$ort/*:desc[@type='entity_type_id']/text()" as="text()"/>
             <xsl:text>\orgindex{</xsl:text>
             <xsl:choose>
-               <xsl:when
+               <!--<xsl:when
                   test="not(foo:wienerBezirke($org-entry/*:location[1]/placeName/@ref) = 'keinBezirk')">
                   <xsl:value-of select="foo:index-sortiert('Wien', 'bf')"/>
                   <xsl:text>!</xsl:text>
@@ -740,15 +774,13 @@
                   <xsl:value-of
                      select="foo:index-sortiert($org-entry/*:location[1]/placeName, 'bf')"/>
                   <xsl:text>!</xsl:text>
-               </xsl:when>
-               <xsl:when test="$org-entry/*:location[1]/placeName/@ref = 'pmb50'">
+               </xsl:when>-->
+               <xsl:when test="$ort/*:placeName/@ref = 'pmb50'">
                   <xsl:value-of select="foo:index-sortiert('Wien', 'bf')"/>
                   <xsl:text>!</xsl:text>
                </xsl:when>
-               <xsl:when test="
-                     $org-entry/*:location[1]/desc[@type = 'entity_type'] = 'Hauptstadt' or
-                     $org-entry/*:location[1]/desc[@type = 'entity_type'] = 'Gemeinde'
-                     or $org-entry/*:location[1]/desc[@type = 'entity_type'] = 'Besiedelter Ort' or $org-entry/*:location[1]/desc[@type = 'entity_type'] = 'Ort'">
+               <xsl:when test="$entitytype = '1418' or $entitytype ='1419' or $entitytype='14' or $entitytype='1412' or $entitytype ='1103' or
+                  $entitytype ='1415'">
                   <xsl:value-of
                      select="foo:index-sortiert($org-entry/*:location[1]/placeName, 'bf')"/>
                   <xsl:text>!</xsl:text>
@@ -757,9 +789,12 @@
             <xsl:value-of select="foo:index-sortiert($org-entry/orgName[1], 'up')"/>
             <xsl:value-of select="$endung"/>
          </xsl:when>
+         
          <xsl:when test="$org-entry/*:location[@type = 'located_in_place']">
             <xsl:for-each select="$org-entry/*:location[@type = 'located_in_place']">
                <xsl:text>\orgindex{</xsl:text>
+               <xsl:variable name="ort" select="$org-entry/*:location[@type = 'located_in_place'][1]" as="node()"/>
+               <xsl:variable name="entitytype" select="$ort/*:desc[@type='entity_type_id']/text()" as="text()?"/>
                <xsl:choose>
                   <xsl:when test="not(foo:wienerBezirke(placeName/@ref) = 'keinBezirk')">
                      <xsl:value-of select="foo:index-sortiert('Wien', 'bf')"/>
@@ -768,8 +803,14 @@
                      <xsl:value-of select="foo:index-sortiert(placeName, 'bf')"/>
                      <xsl:text>!</xsl:text>
                   </xsl:when>
-                  <xsl:when test="placeName/@ref = 'pmb50'">
+                  <xsl:when test="placeName/@ref = '#pmb50'">
                      <xsl:value-of select="foo:index-sortiert('Wien', 'bf')"/>
+                     <xsl:text>!</xsl:text>
+                  </xsl:when>
+                  <xsl:when test="$entitytype = '1418' or $entitytype ='1419' or $entitytype='14' or $entitytype='1412' or $entitytype ='1103' or
+                     $entitytype ='1415'">
+                     <xsl:value-of
+                        select="foo:index-sortiert($org-entry/*:location[1]/placeName, 'bf')"/>
                      <xsl:text>!</xsl:text>
                   </xsl:when>
                   <xsl:when test="
@@ -951,39 +992,34 @@
    </xsl:function>
    <xsl:function name="foo:latexAnhang">
       <xsl:param name="nur-eine-id-fuer-unique-labels" as="xs:string"/>
-      <!--<xsl:text>\backmatter</xsl:text>-->
-      <xsl:text>\setcounter{secnumdepth}{-\maxdimen}</xsl:text>
-      <xsl:text>\rehead{\textsc{anhang}}</xsl:text>
-      <xsl:text>\renewcommand*{\partpagestyle}{empty}</xsl:text>
-      <xsl:text>\renewcommand*{\raggedsection}{%
- \CenteringLeftskip=1cm plus 1em\relax 
- \CenteringRightskip=1cm plus 1em\relax 
- \Centering }</xsl:text>
-      <xsl:text>
-      </xsl:text>
-      <xsl:text>&#10;\part*{Anhang}</xsl:text>
-      <xsl:text>\addtocontents{toc}{%
-  \protect\contentsline{part}{Anhang}}</xsl:text>
-      <xsl:text>\setcounter{footnote}{0}</xsl:text>
-      <xsl:text>\counterwithout{footnote}{chapter}</xsl:text>
-      <xsl:text>\addtokomafont{section}{\normalsize\normalsize\centering\textit}</xsl:text>
-      <xsl:text>\small</xsl:text>
+      <xsl:text>&#10;\setcounter{secnumdepth}{-\maxdimen}</xsl:text>
+      <xsl:text>&#10;\rehead{\textsc{anhang}}</xsl:text>
+      <xsl:text>&#10;\renewcommand*{\partpagestyle}{empty}</xsl:text>
+      <xsl:text>&#10;\renewcommand*{\raggedsection}{% &#10;\CenteringLeftskip=1cm plus 1em\relax &#10;\CenteringRightskip=1cm plus 1em\relax &#10;\Centering }</xsl:text>
+      <xsl:text>&#10;\cleardoublepage\part*{Anhang}\cleardoublepage</xsl:text>
+      <xsl:text>&#10;\addtocontents{toc}{% &#10;\protect\contentsline{part}{Anhang}}</xsl:text>
+      <xsl:text>&#10;\clearpage </xsl:text>
+      <xsl:text>&#10;\setcounter{footnote}{0}</xsl:text>
+      <xsl:text>&#10;\counterwithout{footnote}{chapter}</xsl:text>
+      <xsl:text>&#10;\addtokomafont{section}{\normalsize\normalsize\centering\textit}</xsl:text>
+      <xsl:text>&#10;\small</xsl:text>
       <xsl:text>&#10;\addchap{Quellennachweis und Erläuterungen}</xsl:text>
       <xsl:value-of select="concat('\label{annex_', $nur-eine-id-fuer-unique-labels, '}')"/>
-      <xsl:text>\lohead{\textsc{quellennachweis und erläuterungen}}</xsl:text>
-      <xsl:text>\noindent{}</xsl:text>
-      <xsl:text>\begin{description}[font=\normalsize\upshape, labelwidth=3.4em, itemsep=0em,leftmargin=2.4em]</xsl:text>
+      <xsl:text>&#10;\lohead{\textsc{quellennachweis und erläuterungen}}</xsl:text>
+      <xsl:text>&#10;\noindent{}</xsl:text>
+      <xsl:text>&#10;\begin{description}[font=\normalsize\upshape, labelwidth=3.4em, itemsep=0em,leftmargin=2.4em]</xsl:text>
       <!--<xsl:text>\item[\symstandort]{Standort im Archiv}</xsl:text>-->
-      <xsl:text>\item[\symweiteredrucke]{Weitere Drucke}</xsl:text>
-      <xsl:text>\item[\symhead]{Biografische Zeugnisse}</xsl:text>
-      <xsl:text>\end{description}</xsl:text>
-      <xsl:text>\bigskip</xsl:text>
-      <xsl:text>\setlength{\parindent}{0em}</xsl:text>
-      <xsl:text>\doendnotes{C}\setcounter{alte-seitenzahl-vor-neuen-titelseiten}{\value{page}}</xsl:text>
-      <xsl:text>\addtokomafont{section}{\normalsize\normalsize\centering}</xsl:text>
-      <xsl:text>\normalsize</xsl:text>
-      <xsl:text>\lohead{}</xsl:text>
-      <xsl:text>\setlength{\parindent}{1em}</xsl:text>
+      <xsl:text>&#10;\item[\symweiteredrucke]{Weitere Drucke}</xsl:text>
+      <xsl:text>&#10;\item[\symhead]{Biografische Zeugnisse}</xsl:text>
+      <xsl:text>&#10;\end{description}</xsl:text>
+      <xsl:text>&#10;\bigskip</xsl:text>
+      <xsl:text>&#10;\setlength{\parindent}{0em}</xsl:text>
+      <xsl:text>&#10;\doendnotes{C}\setcounter{alte-seitenzahl-vor-neuen-titelseiten}{\value{page}}</xsl:text>
+      <xsl:text>&#10;\addtokomafont{section}{\normalsize\normalsize\centering}</xsl:text>
+      <xsl:text>&#10;\normalsize</xsl:text>
+      <xsl:text>&#10;\lohead{}</xsl:text>
+      <xsl:text>&#10;\setlength{\parindent}{1em}</xsl:text>
+      <!--<xsl:text>&#10;\renewcommand{\partpagestyle}{\partpagestylesave}</xsl:text>-->
    </xsl:function>
    <!-- HAUPT -->
    <xsl:template match="root">
@@ -996,50 +1032,48 @@
          <xsl:text>\setlength{\voffset}{\originalVOffset}</xsl:text>
          <xsl:text>\setlength{\hoffset}{\originalHOffset}</xsl:text>
          <!--<xsl:apply-templates select="TEI[@id = 'E_toDo']"/>-->
-         <xsl:text>\ihead{}</xsl:text>
-         <xsl:text>\sloppy</xsl:text>
-         <xsl:text>\idxlayout{columns=1, itemlayout=relhang,hangindent=1em, subindent=1em, subsubindent=2em, justific=RaggedRight, indentunit=1em, totoc=true}</xsl:text>
+         <xsl:text>&#10;\ihead{}</xsl:text>
+         <xsl:text>&#10;\sloppy</xsl:text>
+         <xsl:text>&#10;\idxlayout{columns=1, itemlayout=relhang,hangindent=1em, subindent=1em, subsubindent=2em, justific=RaggedRight, indentunit=1em, totoc=true}</xsl:text>
          <xsl:text>\setindexprenote{\small\noindent In Abwandlung eines Sachregisters werden die tatsächlichen und mutmaßlichen Fragen
          verzeichnet, auf die Schnitzler in seinen Interviews antwortet 
          oder zumindest zu antworten scheint. Verwandte Fragen wurden
          teilweise verallgemeinert, um Variationen derselben Frage 
          zu vermeiden.\enlargethispage{-1em}}</xsl:text>
-         <xsl:text>\normalsize{}</xsl:text>
-         <xsl:text>&#10;\part*{Interviews}\clearpage </xsl:text>
+         <xsl:text>&#10;\normalsize{}</xsl:text>
+         
+         <xsl:text>&#10;\part*{Interviews}\cleardoublepage </xsl:text>
          <!--<xsl:text>\addcontentsline{toc}{part}{Interviews}</xsl:text>-->
-         <xsl:text>\addtocontents{toc}{%
+         <xsl:text>&#10;\addtocontents{toc}{%
   \protect\contentsline{part}{Interviews}}</xsl:text>
-         <xsl:text>\counterwithin*{footnote}{section}</xsl:text>
+         <xsl:text>&#10;\counterwithin*{footnote}{section}</xsl:text>
          <!-- keine Seitenzahl im Inhaltsverzeichnis -->
          <xsl:apply-templates select="TEI[starts-with(@id, 'I')]"/>
          <xsl:value-of select="foo:latexAnhang('I')"/>
-         <xsl:text>\footnotesize</xsl:text>
-         <xsl:text>\printindex[question]</xsl:text>
-         <xsl:text>\normalsize</xsl:text>
-         <xsl:text>\cleardoublepage</xsl:text>
-         <xsl:text>\ihead{}</xsl:text>
-         <xsl:text>\setlength{\voffset}{0cm}</xsl:text>
-         <xsl:text>\setlength{\hoffset}{0cm}</xsl:text>
-         <xsl:text>\frontmatter</xsl:text>
-         <xsl:text>\renewcommand*{\raggedsection}{%
- \CenteringLeftskip=1cm plus 1em\relax 
- \CenteringRightskip=1cm plus 1em\relax}</xsl:text>
-         <xsl:text>\setcounter{secnumdepth}{\sectionnumdepth}</xsl:text>
-         <xsl:text>\includepdf[pages=5-8]{asi-titelseiten/asi-titelseiten.pdf}</xsl:text>
-         <xsl:text>\setlength{\voffset}{\originalVOffset}</xsl:text>
-         <xsl:text>\setlength{\hoffset}{\originalHOffset}</xsl:text>
-         <xsl:text>\mainmatter</xsl:text>
-         <xsl:text>\setcounter{page}{\value{alte-seitenzahl-vor-neuen-titelseiten}+1}</xsl:text>
-         <xsl:text>\counterwithin*{footnote}{section}</xsl:text>
-         <xsl:text>\addtocontents{toc}{%
-  \protect\contentsline{part}{Meinungen}}</xsl:text>
+         <xsl:text>&#10;\footnotesize</xsl:text>
+         <xsl:text>&#10;\printindex[question]</xsl:text>
+         <xsl:text>&#10;\normalsize</xsl:text>
+         <!--<xsl:text>&#10;\cleardoubleevenpage</xsl:text>
+         <xsl:text>&#10;\ihead{}</xsl:text>
+         <xsl:text>&#10;\setlength{\voffset}{0cm}</xsl:text>
+         <xsl:text>&#10;\setlength{\hoffset}{0cm}</xsl:text>
+         <xsl:text>&#10;\setcounter{page}{0}</xsl:text>
+         <xsl:text>&#10;\renewcommand*{\raggedsection}{% &#10;\CenteringLeftskip=1cm plus 1em\relax &#10;\CenteringRightskip=1cm plus 1em\relax}</xsl:text>
+         <xsl:text>&#10;\setcounter{secnumdepth}{\sectionnumdepth}</xsl:text>
+         <xsl:text>&#10;\includepdf[pages=5-8]{asi-titelseiten/asi-titelseiten.pdf}</xsl:text>
+         <xsl:text>&#10;\setlength{\voffset}{\originalVOffset}</xsl:text>
+         <xsl:text>&#10;\setlength{\hoffset}{\originalHOffset}</xsl:text>
+         <xsl:text>&#10;\setcounter{page}{\value{alte-seitenzahl-vor-neuen-titelseiten}+1}</xsl:text>
+         <xsl:text>&#10;\counterwithin*{footnote}{section}</xsl:text>-->
+         <xsl:text>&#10;\addtocontents{toc}{% &#10;\protect\contentsline{part}{Meinungen}}</xsl:text>
          <!-- keine Seitenzahl im Inhaltsverzeichnis -->
-         <xsl:text>&#10;\part*{Meinungen}\clearpage </xsl:text>
+         <xsl:text>&#10;\cleardoublepage\part*{Meinungen} </xsl:text>
+         <xsl:text>&#10;\cleardoublepage </xsl:text>
          <xsl:apply-templates select="TEI[starts-with(@id, 'M')]"/>
-         <xsl:text>&#10;\addtocontents{toc}{%
-  \protect\contentsline{part}{Proteste}}</xsl:text>
+         <xsl:text>&#10;\addtocontents{toc}{% &#10;\protect\contentsline{part}{Proteste}}</xsl:text>
          <!-- keine Seitenzahl im Inhaltsverzeichnis -->
-         <xsl:text>&#10;\part*{Proteste}\clearpage </xsl:text>
+         <xsl:text>&#10;\cleardoublepage\part*{Proteste} </xsl:text>
+         <xsl:text>&#10;\cleardoublepage </xsl:text>
          <xsl:apply-templates select="TEI[starts-with(@id, 'P')]"/>
          <xsl:text>&#10;\makeatletter
          </xsl:text><xsl:text>&#10;\makeatother </xsl:text>
@@ -1055,7 +1089,7 @@
          <xsl:text>\setcounter{secnumdepth}{-\maxdimen}</xsl:text>
          <xsl:text>\rehead{\textsc{anhang}}</xsl:text>-->
          <xsl:text>&#10;\normalsize </xsl:text>
-         <xsl:text></xsl:text>
+         
          <xsl:apply-templates select="TEI[@id = 'E_textauswahl']"/>
          <xsl:apply-templates select="TEI[@id = 'E_editorisch']"/>
          <xsl:text>\small
@@ -1063,25 +1097,22 @@
          <xsl:apply-templates select="TEI[@id = 'E_literatur']"/>
          <!-- Herausgebereingriffe-->
          
-         <xsl:text>
-            \renewcommand{\printnpnum}[1]{\textbf{\printnpnumSave{#1}}}
-            &#10;\addchap{Emendationen}\lohead{\textsc{emendationen}}\mylabel{E_texteingriffe}</xsl:text>
-         <xsl:text>
-            &#10;\renewcommand{\printnpnum}{\printnpnumSave}
-&#10;\Xendbeforepagenumber{}
-&#10;\Xendboxlinenum[A]{0em}
-&#10;\Xendhangindent[A]{4em}
-&#10;\Xendlemmafont[A]{\normalfont}
-&#10;\Xendlemmaseparator{$\rbracket$}
-&#10;\Xendlineprefixmore[A]{\footnotesize}
-&#10;\Xendlineprefixsingle[A]{\footnotesize}
-&#10;\Xendnotefontsize[A]{\footnotesize}
-&#10;\Xendnotenumfont[A]{\footnotesize}
-&#10;\Xendparagraph[A]
-&#10;\Xendsep{}
-&#10;\Xendbeforepagenumber{\bfseries}
-&#10;\Xendafterpagenumber{\normalfont,\,}
-</xsl:text>
+         <xsl:text>&#10;\renewcommand{\printnpnum}[1]{\textbf{\printnpnumSave{#1}}}</xsl:text>
+         <xsl:text>&#10;\addchap{Emendationen}\lohead{\textsc{emendationen}}\mylabel{E_texteingriffe}</xsl:text>
+         <xsl:text>&#10;\renewcommand{\printnpnum}{\printnpnumSave}</xsl:text>
+<xsl:text>&#10;\Xendbeforepagenumber{}</xsl:text>
+<xsl:text>&#10;\Xendboxlinenum[A]{0em}</xsl:text>
+<xsl:text>&#10;\Xendhangindent[A]{4em}</xsl:text>
+<xsl:text>&#10;\Xendlemmafont[A]{\normalfont}</xsl:text>
+<xsl:text>&#10;\Xendlemmaseparator{$\rbracket$}</xsl:text>
+<xsl:text>&#10;\Xendlineprefixmore[A]{\footnotesize}</xsl:text>
+<xsl:text>&#10;\Xendlineprefixsingle[A]{\footnotesize}</xsl:text>
+<xsl:text>&#10;\Xendnotefontsize[A]{\footnotesize}</xsl:text>
+<xsl:text>&#10;\Xendnotenumfont[A]{\footnotesize}</xsl:text>
+<xsl:text>&#10;\Xendparagraph[A]</xsl:text>
+<xsl:text>&#10;\Xendsep{}</xsl:text>
+<xsl:text>&#10;\Xendbeforepagenumber{\bfseries}</xsl:text>
+<xsl:text></xsl:text>&#10;\Xendafterpagenumber{\normalfont,\,}
          <xsl:text>&#10;\noindent Es folgen die vorgenommenen Eingriffe in den ursprünglichen Text unter Angabe von fett gedruckter Seitenzahl und Zeilennummer. 
             Als Lemma gesetzt sind die emendierten, rechts davon die ursprünglichen Fassungen. Kommentare sind in eckige Klammern gefügt.\par
             &#10;\bigskip\small
@@ -1121,11 +1152,15 @@
       </root>
    </xsl:template>
    <xsl:template match="TEI[not(starts-with(@id, 'E_'))]">
-      <xsl:if test="@latex">
-         <xsl:value-of select="concat('{', @latex, '}')"/>
-         <xsl:text>
-         </xsl:text>
-      </xsl:if>
+      <xsl:choose>
+         <xsl:when test="@latex = '\vspace*{1em} \enlargethispage{-1em}'">
+            <xsl:text>\vspace*{1em} \enlargethispage{-1em} </xsl:text>
+         </xsl:when>
+         <xsl:when test="@latex">
+            <xsl:value-of select="concat('{', @latex, '}')"/>
+            <xsl:text>&#10;</xsl:text>
+         </xsl:when>
+      </xsl:choose>
       <xsl:variable name="jahr-davor" as="xs:string"
          select="substring(preceding-sibling::TEI[1]/@when, 1, 4)"/>
       <xsl:variable name="correspAction-date">
@@ -1197,6 +1232,7 @@
             <xsl:text>\rehead{\textsc{meinungen}}\lohead{\textsc{</xsl:text>
             <xsl:value-of select="substring(@when, 1, 4)"/>
             <xsl:text>}}</xsl:text>
+            
          </xsl:when>
          <xsl:when test="substring(@when, 1, 4) != $jahr-davor">
             <xsl:text>&#10;\addchap*{</xsl:text>
@@ -1206,11 +1242,13 @@
             <xsl:text>\rehead{\textsc{proteste}}\lohead{\textsc{</xsl:text>
             <xsl:value-of select="substring(@when, 1, 4)"/>
             <xsl:text>}}</xsl:text>
+            
          </xsl:when>
       </xsl:choose>
       <xsl:choose>
          <xsl:when test="starts-with($dokument-id, 'E_')">
             <!-- Herausgeber*innentext -->
+            
             <xsl:text>&#10;\addchap{</xsl:text>
             <!-- zuvor: \leavevmode -->
             <xsl:value-of
@@ -4115,25 +4153,25 @@
       </xsl:if>
       <xsl:choose>
          <xsl:when test="not(following-sibling::*[1][self::head]) and @type = 'sub'">
-            <xsl:text>\pend[\vspace{0.15\baselineskip}]}</xsl:text>
+            <xsl:text>&#10;\pend[\vspace{0.15\baselineskip}]}</xsl:text>
          </xsl:when>
          <xsl:when test="not(following-sibling::*[1][self::head])">
-            <xsl:text>\pend[\vspace{0.5\baselineskip}]}</xsl:text>
+            <xsl:text>&#10;\pend[\vspace{0.5\baselineskip}]}</xsl:text>
          </xsl:when>
          <xsl:otherwise>
-            <xsl:text>\pend}
+            <xsl:text>&#10;\pend}
             </xsl:text>
          </xsl:otherwise>
       </xsl:choose>
-      <xsl:text>\nopagebreak[4] </xsl:text>
+      <xsl:text>&#10;\nopagebreak[4] </xsl:text>
    </xsl:template>
    <xsl:template match="head[ancestor::TEI[starts-with(@id, 'E_')]]">
       <xsl:choose>
          <xsl:when test="@type = 'sub'">
-            <xsl:text>\subsection{</xsl:text>
+            <xsl:text>&#10;\subsection{</xsl:text>
          </xsl:when>
          <xsl:otherwise>
-            <xsl:text>\section*{</xsl:text>
+            <xsl:text>&#10;\section*{</xsl:text>
          </xsl:otherwise>
       </xsl:choose>
       <xsl:apply-templates/>
@@ -4144,12 +4182,12 @@
    </xsl:template>
    <xsl:template match="address">
       <xsl:apply-templates/>
-      <xsl:text>{\bigskip}</xsl:text>
+      <xsl:text>&#10;{\bigskip}</xsl:text>
    </xsl:template>
    <xsl:template match="addrLine">
       <xsl:text>&#10;\pstart{}</xsl:text>
       <xsl:apply-templates/>
-      <xsl:text>\pend{}</xsl:text>
+      <xsl:text>&#10;\pend{}</xsl:text>
    </xsl:template>
    <xsl:template match="postscript">
       <!--<xsl:text>\noindent{}</xsl:text>-->
@@ -4167,14 +4205,14 @@
          <xsl:when test="ancestor::TEI[substring(@id, 1, 1) = 'E']">
             <xsl:choose>
                <xsl:when test="substring(current(), 1, 1) = '»' and @type = 'poem'">
-                  <xsl:text>\begin{quoting}[leftmargin=5em]\noindent{}</xsl:text>
+                  <xsl:text>&#10;\begin{quoting}[leftmargin=5em]\noindent{}</xsl:text>
                   <xsl:apply-templates/>
-                  <xsl:text>\normalsize\end{quoting}</xsl:text>
+                  <xsl:text>&#10;\normalsize\end{quoting}</xsl:text>
                </xsl:when>
                <xsl:when test="substring(current(), 1, 1) = '»'">
-                  <xsl:text>\begin{quoting}\noindent{}</xsl:text>
+                  <xsl:text>&#10;\begin{quoting}\noindent{}</xsl:text>
                   <xsl:apply-templates/>
-                  <xsl:text>\normalsize\end{quoting}</xsl:text>
+                  <xsl:text>&#10;\normalsize\end{quoting}</xsl:text>
                </xsl:when>
                <xsl:otherwise>
                   <xsl:apply-templates/>
@@ -4182,9 +4220,9 @@
             </xsl:choose>
          </xsl:when>
          <xsl:otherwise>
-            <xsl:text>\begin{quotation}\noindent{}</xsl:text>
+            <xsl:text>&#10;\begin{quotation}\noindent{}</xsl:text>
             <xsl:apply-templates/>
-            <xsl:text>\end{quotation}</xsl:text>
+            <xsl:text>&#10;\end{quotation}</xsl:text>
          </xsl:otherwise>
       </xsl:choose>
       <xsl:if test="not(child::foreign)">
@@ -4192,6 +4230,18 @@
       </xsl:if>
    </xsl:template>
    <xsl:template match="lg[@type = 'poem']">
+      <xsl:choose>
+         <xsl:when test="@latex">
+            <xsl:text>&#10;\settowidth{\mylength}{</xsl:text>
+            <xsl:value-of select="@latex"/>
+            <xsl:text>}</xsl:text>
+            <xsl:text>&#10;\setlength{\remainingwidth}{\dimexpr 0.5\fullwidth - 0.5\mylength \relax}</xsl:text>
+            <xsl:text>&#10;\setlength{\stanzaindentbase}{\remainingwidth}</xsl:text>
+         </xsl:when>
+         <xsl:otherwise>
+            <xsl:text>&#10;\setlength{\stanzaindentbase}{20pt}</xsl:text>
+         </xsl:otherwise>
+      </xsl:choose>
       <xsl:choose>
          <xsl:when test="child::lg[@type = 'stanza']">
             <xsl:apply-templates/>
@@ -5320,13 +5370,7 @@
       <xsl:param name="wert" as="xs:string"/>
       <xsl:value-of select="normalize-space(foo:umlaute-entfernen($wert))"/>
    </xsl:function>
-   <xsl:function name="foo:obersterort" as="xs:boolean">
-      <!-- Diese Funktion fragt ab, ob wir in der Hierarchie ganz oben sind -->
-      <xsl:param name="first" as="xs:string"/>
-      <xsl:sequence
-         select="(key('place-lookup', $first, $places)/belongsTo[1]/@active = $first) or not(key('place-lookup', $first, $places)/belongsTo[1]/@active) or key('place-lookup', $first, $places)/@type = 'A.BSO'"
-      />
-   </xsl:function>
+   
    <xsl:function name="foo:ort-für-index">
       <xsl:param name="first" as="xs:string"/>
       <xsl:variable name="ort" select="key('place-lookup', $first, $places)/placeName[1]"/>
@@ -5438,8 +5482,8 @@
          <xsl:when test="not(starts-with($first, '#pmb'))">
             <xsl:text>\textcolor{red}{FEHLER4}</xsl:text>
          </xsl:when>
-         <xsl:when test="$first = 'pmb50'"/>
-         <!-- Wien raus -->
+         <xsl:when test="$first = 'pmb50' or $first = 'pmb168' or $first = '#pmb50' or $first = '#pmb168'"/>
+         <!-- Wien und Berlin raus -->
          <xsl:when test="not($place/location[@type = 'located_in_place'])">
             <xsl:text>\oindex{</xsl:text>
             <xsl:value-of select="foo:ort-für-index($first)"/>
@@ -5449,6 +5493,7 @@
          </xsl:when>
          <xsl:otherwise>
             <xsl:for-each select="$place/location[@type = 'located_in_place']">
+               <xsl:variable name="entityTypeID" as="text()" select="desc[@type='entity_type_id']/text()"/>
                <xsl:choose>
                   <xsl:when test="not(foo:wienerBezirke(placeName/@ref) = 'keinBezirk')">
                      <xsl:text>\oindex{</xsl:text>
@@ -5482,10 +5527,17 @@
                         <xsl:value-of select="$endung"/>
                      </xsl:if>
                   </xsl:when>
-                  <xsl:when test="
-                        desc[@type = 'entity_type'] = 'Hauptstadt' or
-                        desc[@type = 'entity_type'] = 'Gemeinde'
-                        or desc[@type = 'entity_type'] = 'Besiedelter Ort' or desc[@type = 'entity_type'] = 'Ort'">
+                  <xsl:when test="$entityTypeID = '14' or
+                     $entityTypeID = '1103' or
+                     $entityTypeID = '1123' or
+                     $entityTypeID = '1412' or
+                     $entityTypeID = '1418' or
+                     $entityTypeID = '1419' or
+                     $entityTypeID = '1519' or
+                     $entityTypeID = '1576' or
+                     $entityTypeID = '1729' or
+                     $entityTypeID = '25' or
+                     $entityTypeID = '28'">
                      <xsl:text>\oindex{</xsl:text>
                      <xsl:value-of select="foo:index-sortiert(placeName, 'bf')"/>
                      <xsl:text>!</xsl:text>
@@ -5824,9 +5876,11 @@
             <xsl:text>\normalsize </xsl:text>
          </xsl:when>
          <xsl:otherwise>
-            <xsl:text>{</xsl:text>
-            <xsl:value-of select="@alt"/>
-            <xsl:text>}</xsl:text>
+            
+                  <xsl:text>{</xsl:text>
+                  <xsl:value-of select="@alt"/>
+                  <xsl:text>}</xsl:text>
+            
          </xsl:otherwise>
       </xsl:choose>
       

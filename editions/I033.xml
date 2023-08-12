@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I033" next="I102" prev="I018" latex="\newpage">
+   xml:base="schnitzler-interviews" xml:id="I033" next="I102" prev="I018">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -85,6 +85,7 @@
             <p>äußerte sich im Gespräche mit einem unserer Redacteure über das Verbot der Aufführung
                der »<rs type="work" ref="#pmb31317">Rose Bernd</rs>« am <rs type="org"
                   ref="#pmb36247">Burgtheater</rs> in folgender Weise:</p>
+            <latex alt="\pagebreak"/>
             <p>»Wenn man um jeden Preis <anchor type="commentary" xml:id="K_I033-2"/>
                <rs type="person" ref="#pmb12671" subtype="implied">Director</rs> bleiben<note
                   type="commentary" xml:id="K_I033-2h">
@@ -117,7 +118,6 @@
                zu fallen.«</p>
             <p>Ueber die <hi rend="spaced_out">juristische Seite</hi> der Affaire äußerte sich einem
                unserer Redacteure gegenüber ein hervorragendes</p>
-            <latex alt="\newpage"/>
             <head type="sub">Mitglied des <rs type="place" ref="#pmb50">Wiener <anchor
                      type="commentary" xml:id="K_I033-12"/>Barreaus<note type="commentary"
                      xml:id="K_I033-12h">Anwaltschaft, Anwaltskammer</note>

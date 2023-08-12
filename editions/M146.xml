@@ -178,7 +178,7 @@
                   <add place="above">wird</add>
                </subst> es sich schon aus technischen Gründen niemals um einen Vorgang handeln, den
                man, wie es gerne geschieht, dem Portraitieren gleichsetzen könnte. Während es sich
-               bei der Photographie um die Anwendung eines physikalischen Gesetzes handelt, wonach
+               bei der Photographie um die Anwendung eines <latex alt="phy\-sik\-alischen">physikalischen</latex> Gesetzes handelt, wonach
                die Umrisse eines Gegenstandes oder einer Person mit mathematischer Genauigkeit auf
                einer lichtempfindlichen Platte reproduziert werden, ist der Vorgang, nach dem das
                Konterfei eines lebendigen Menschen in einem Roman entsteht, ein so unendlich
@@ -233,6 +233,7 @@
             <p>
                <space dim="vertical" quantity="1" unit="paragraphs"/>
             </p>
+            <latex alt="\newpage"/>
             <p>
                <rs type="person" ref="#pmb8165">
                   <hi rend="underline" n="1">Keller</hi>
