@@ -1051,6 +1051,7 @@
          <xsl:apply-templates select="TEI[starts-with(@id, 'I')]"/>
          <xsl:value-of select="foo:latexAnhang('I')"/>
          <xsl:text>&#10;\footnotesize</xsl:text>
+         <xsl:text>&#10;\lohead{\textsc{Fragen}}</xsl:text>
          <xsl:text>&#10;\printindex[question]</xsl:text>
          <xsl:text>&#10;\normalsize</xsl:text>
          <!--<xsl:text>&#10;\cleardoubleevenpage</xsl:text>
@@ -1488,7 +1489,7 @@
                   <xsl:value-of select="true()"/>
                </xsl:when>
                <xsl:when
-                  test="ancestor::TEI/teiHeader/fileDesc/sourceDesc/listWit[1]/witness and $quellen/listBibl[1]">
+                  test="ancestor::TEI/teiHeader/fileDesc/sourceDesc/listWit[1]/witness[1]/msDesc/physDesc/p">
                   <xsl:value-of select="true()"/>
                </xsl:when>
                <xsl:otherwise>
@@ -1520,6 +1521,16 @@
                </xsl:otherwise>
             </xsl:choose>
             <!--Alternative, wenn es auch textConst im Kommentarbereich gibt <xsl:value-of select="descendant::note or descendant::hi[@rend = 'underline' and (@n &gt; 2)]"/>-->
+         </xsl:variable>
+         <xsl:variable name="physDesc-vorhanden" as="xs:boolean" >
+            <xsl:choose>
+               <xsl:when test="ancestor::TEI/teiHeader/fileDesc/sourceDesc/listWit[1]/witness[1]/msDesc/physDesc/p">
+                  <xsl:value-of select="true()"/>
+               </xsl:when>
+               <xsl:otherwise>
+                  <xsl:value-of select="false()"/>
+               </xsl:otherwise>
+            </xsl:choose>
          </xsl:variable>
          <!-- Das Folgende schreibt Titel in den Anhang zum Kommentar -->
          <!-- Zuerst mal Abstand, ob klein oder groß, je nachdem, ob Archivsignatur und Kommentar war -->
@@ -1565,7 +1576,7 @@
          <xsl:text>&#10;\datumImAnhang{</xsl:text>
          <xsl:value-of select="foo:monatUndJahrInKopfzeile(ancestor::TEI/@when)"/>
          <xsl:text>}</xsl:text>
-         <xsl:if test="$kommentar-vorhanden or $mehr-quellen or $bibliographical-vorhanden">
+         <xsl:if test="$kommentar-vorhanden or $mehr-quellen or $bibliographical-vorhanden or $physDesc-vorhanden">
             <!--<xsl:text>\toendnotes[C]{\unskip\nopagebreak[4]\smallbreak\nopagebreak[4]}</xsl:text>-->
             <xsl:text>&#10;\toendnotes[C]{\nopagebreak[4]}</xsl:text>
          </xsl:if>
@@ -1597,19 +1608,29 @@
             </xsl:choose>
          </xsl:if>
          <!-- Abstände zwischen Quellen, biographical und Kommentar -->
-         <xsl:choose>
-            <xsl:when test="$mehr-quellen and $bibliographical-vorhanden and $kommentar-vorhanden">
+         <xsl:if test="($mehr-quellen or $physDesc-vorhanden) and $bibliographical-vorhanden">
+            <xsl:text>&#10;\toendnotes[C]{\smallbreak}</xsl:text>
+         </xsl:if>
+         <xsl:if test="$bibliographical-vorhanden">
+            <xsl:apply-templates select="following-sibling::div[@type = 'biographical']"
+               mode="fuer-anhang"/>
+         </xsl:if>
+         <xsl:if test="$kommentar-vorhanden and ($mehr-quellen or $physDesc-vorhanden or $bibliographical-vorhanden)">
+            <xsl:text>&#10;\toendnotes[C]{\smallbreak}</xsl:text>
+         </xsl:if>
+         
+         <!--<xsl:choose>
+            <xsl:when test="($mehr-quellen or $physDesc-vorhanden) and $bibliographical-vorhanden and $kommentar-vorhanden">
+               
+               
+               <xsl:text>&#10;\toendnotes[C]{\smallbreak}</xsl:text>
+            </xsl:when>
+            <xsl:when test="($mehr-quellen or $physDesc-vorhanden) and $bibliographical-vorhanden">
                <xsl:text>&#10;\toendnotes[C]{\smallbreak}</xsl:text>
                <xsl:apply-templates select="following-sibling::div[@type = 'biographical']"
                   mode="fuer-anhang"/>
-               <xsl:text>&#10;\toendnotes[C]{\smallbreak}</xsl:text>
             </xsl:when>
-            <xsl:when test="$mehr-quellen and $bibliographical-vorhanden">
-               <xsl:text>&#10;\toendnotes[C]{\smallbreak}</xsl:text>
-               <xsl:apply-templates select="following-sibling::div[@type = 'biographical']"
-                  mode="fuer-anhang"/>
-            </xsl:when>
-            <xsl:when test="$mehr-quellen and $kommentar-vorhanden">
+            <xsl:when test="($mehr-quellen or $physDesc-vorhanden) and $kommentar-vorhanden">
                <xsl:text>&#10;\toendnotes[C]{\smallbreak}</xsl:text>
             </xsl:when>
             <xsl:when test="$bibliographical-vorhanden and $kommentar-vorhanden">
@@ -1622,7 +1643,7 @@
                   mode="fuer-anhang"/>
             </xsl:when>
             <xsl:otherwise/>
-         </xsl:choose>
+         </xsl:choose>-->
       </xsl:if>
       <!-- Ende der Signaturen in den Anhang -->
       <xsl:choose>
