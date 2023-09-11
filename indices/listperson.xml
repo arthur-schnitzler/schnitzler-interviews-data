@@ -30,6 +30,44 @@
     <text>
         <body>
             <listPerson>
+                <person xml:id="pmb145390">
+                    <persName>
+                        <forename>Willi</forename>
+                        <surname>Simon</surname>
+                    </persName>
+                    <sex value="male"/>
+                    <occupation ref="pmb119">Herausgeber/Herausgeberin</occupation>
+                    <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/145390/</idno>
+                </person>
+                <person xml:id="pmb27806">
+                    <persName>
+                        <forename>Emma</forename>
+                        <surname>Heymann</surname>
+                    </persName>
+                    <persName type="person_ehename_nachname">Heymann</persName>
+                    <persName type="person_geburtsname_nachname">Abrahamsohn</persName>
+                    <birth>
+                        <date when="1853-05-12">1853-05-12</date>
+                        <settlement ref="pmb506">
+                            <placeName type="pref">Hamburg</placeName>
+                            <location>
+                                <geo>53,57532 10,01534</geo>
+                            </location>
+                        </settlement>
+                    </birth>
+                    <death>
+                        <date when="1937-10-04">1937-10-04</date>
+                        <settlement ref="pmb506">
+                            <placeName type="pref">Hamburg</placeName>
+                            <location>
+                                <geo>53,57532 10,01534</geo>
+                            </location>
+                        </settlement>
+                    </death>
+                    <sex value="female"/>
+                    <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb27806.html</idno>
+                    <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/27806/</idno>
+                </person>
                 <person xml:id="pmb141443">
                     <persName>
                         <surname>Baum</surname>

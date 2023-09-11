@@ -1028,13 +1028,14 @@
          <xsl:text>\setlength{\voffset}{0cm}</xsl:text>
          <xsl:text>\setlength{\hoffset}{0cm}</xsl:text>
          <xsl:text>\setcounter{secnumdepth}{\sectionnumdepth}</xsl:text>
-         <xsl:text>\includepdf[pages=1-4]{asi-titelseiten/asi-titelseiten.pdf}</xsl:text>
+         <xsl:text>\includepdf[pages=1-3]{asi-titelseiten/verlag_titeleien_band1.pdf}</xsl:text>
+         <xsl:text>\includepdf[pages={4}]{asi-titelseiten/asi-titelseiten.pdf}</xsl:text>
          <xsl:text>\setlength{\voffset}{\originalVOffset}</xsl:text>
          <xsl:text>\setlength{\hoffset}{\originalHOffset}</xsl:text>
          <!--<xsl:apply-templates select="TEI[@id = 'E_toDo']"/>-->
          <xsl:text>&#10;\ihead{}</xsl:text>
          <xsl:text>&#10;\sloppy</xsl:text>
-         <xsl:text>&#10;\idxlayout{columns=1, itemlayout=relhang,hangindent=1em, subindent=1em, subsubindent=2em, justific=RaggedRight, indentunit=1em, totoc=true}</xsl:text>
+         <xsl:text>&#10;\idxlayout{columns=1, itemlayout=relhang,hangindent=1em, subindent=1em, subsubindent=2em, justific=RaggedRight, indentunit=1em, totoc=true, unbalanced=true}</xsl:text>
          <xsl:text>\setindexprenote{\small\noindent In Abwandlung eines Sachregisters werden die tatsächlichen und mutmaßlichen Fragen
          verzeichnet, auf die Schnitzler in seinen Interviews antwortet 
          oder zumindest zu antworten scheint. Verwandte Fragen wurden
