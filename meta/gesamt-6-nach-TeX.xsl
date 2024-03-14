@@ -1051,8 +1051,9 @@
          <!-- keine Seitenzahl im Inhaltsverzeichnis -->
          <xsl:apply-templates select="TEI[starts-with(@id, 'I')]"/>
          <xsl:value-of select="foo:latexAnhang('I')"/>
+         <xsl:text>&#10;\lohead{\textsc{1937}}\clearpage</xsl:text>
          <xsl:text>&#10;\footnotesize</xsl:text>
-         <xsl:text>&#10;\lohead{\textsc{Fragen}}</xsl:text>
+<xsl:text>&#10;\lohead{\textsc{fragen}}</xsl:text>         
          <xsl:text>&#10;\printindex[question]</xsl:text>
          <xsl:text>&#10;\normalsize</xsl:text>
          <!--<xsl:text>&#10;\cleardoubleevenpage</xsl:text>
@@ -1080,6 +1081,7 @@
          <xsl:text>&#10;\makeatletter
          </xsl:text><xsl:text>&#10;\makeatother </xsl:text>
          <xsl:value-of select="foo:latexAnhang('P')"/>
+         <xsl:text>&#10;\lohead{\textsc{1931}}\clearpage</xsl:text>
          <xsl:text>&#10;\deffootnote[1.5em]{1.5em}{1.5em}{\textsuperscript{\thefootnotemark}\enskip}</xsl:text>
          <!--<xsl:text>\backmatter</xsl:text>-->
          <!-- <xsl:text>\addtocontents{toc}{%
@@ -1573,9 +1575,33 @@
          <xsl:text> </xsl:text>
          <xsl:value-of select="foo:date-translate($datum)"/>
          <xsl:text>\nopagebreak}</xsl:text>
-         <!-- Wenn es Adressen gibt, diese in die Endnote -->
          <xsl:text>&#10;\datumImAnhang{</xsl:text>
-         <xsl:value-of select="foo:monatUndJahrInKopfzeile(ancestor::TEI/@when)"/>
+         <xsl:choose>
+            <xsl:when test="ancestor::TEI/@id='I024'">
+               <xsl:text>\lohead{\textsc{s1909}}</xsl:text>
+            </xsl:when>
+            <xsl:when test="ancestor::TEI/@id='I014'">
+               <xsl:text>\lohead{\textsc{s1921}}</xsl:text>
+            </xsl:when>
+            <xsl:when test="ancestor::TEI/@id='M110'">
+               <xsl:text>\lohead{\textsc{s1920}}</xsl:text>
+            </xsl:when>
+            <xsl:when test="ancestor::TEI/@id='M169'">
+               <xsl:text>\lohead{\textsc{1925}}</xsl:text>
+            </xsl:when>
+            <xsl:when test="ancestor::TEI/@id='M062'">
+               <xsl:text>\lohead{\textsc{1925}}</xsl:text>
+            </xsl:when>
+            <xsl:when test="ancestor::TEI/@id='P123'">
+               <xsl:text>\lohead{\textsc{1903}}</xsl:text>
+            </xsl:when>
+            <xsl:when test="ancestor::TEI/@id='P080'">
+               <xsl:text>\lohead{\textsc{1913}}</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+               <xsl:value-of select="foo:monatUndJahrInKopfzeile(ancestor::TEI/@when)"/>
+            </xsl:otherwise>
+         </xsl:choose>
          <xsl:text>}</xsl:text>
          <xsl:if test="$kommentar-vorhanden or $mehr-quellen or $bibliographical-vorhanden or $physDesc-vorhanden">
             <!--<xsl:text>\toendnotes[C]{\unskip\nopagebreak[4]\smallbreak\nopagebreak[4]}</xsl:text>-->
@@ -4139,6 +4165,7 @@
    <xsl:template match="encodingDesc/refsDecl/ab"/>
    <!-- Titel -->
    <xsl:template match="head">
+      
       <xsl:choose>
          <xsl:when test="not(preceding-sibling::*)">
             <xsl:text>\nopagebreak[4] </xsl:text>
@@ -4147,6 +4174,9 @@
             <xsl:text>\pagebreak[2] </xsl:text>
          </xsl:otherwise>
       </xsl:choose>
+      <xsl:if test=" ancestor::TEI/@id='P054'"><!-- der chronique theatrale eingriff -->
+         <xsl:text> \vspace{-1.75cm}</xsl:text>
+      </xsl:if>
       <xsl:choose>
          <xsl:when
             test="not(position() = 1) and not(preceding-sibling::*[1][self::head]) and @type = 'sub'">
