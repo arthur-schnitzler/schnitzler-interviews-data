@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="E_literatur">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.« Interviews, Meinungen, Proteste (1891–1931)</title>
+                <title level="a">Siglierte Literatur</title>
+                <author key="">Müller, Martin Anton</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASI</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Martin Anton Müller</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Martin Anton Müller</publisher>
+                <idno type="ASI-E" n="006"/>
+                <availability status="free">
+                    <p>Copyright © 2018</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Interviews of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-AT" ana="neue-rechtschreibung">German</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="MAM" when="2021-12-16">angelegt</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="text">
+        <body>
+            <div type="writingSession" n="1">
+                <list type="gloss">
+                    <label>
+                        <hi rend="italics">Bahr/Schnitzler</hi>
+                    </label>
+                    <item><bibl>Hermann Bahr; Arthur Schnitzler: <title level="m">Briefwechsel,
+                                Aufzeichnungen, Dokumente. 1891–1931</title>. Hg. Kurt Ifkovits,
+                            Martin Anton Müller. Göttingen: <publisher>Wallstein</publisher><space
+                                unit="chars" quantity="1"/><date>2018</date></bibl>.<lb/>Online:
+                            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at" type="url"
+                            >https://bahrschnitzler.acdh.oeaw.ac.at</ref></item>
+                    <label>
+                        <hi rend="italics">Aspekte und Akzente</hi>
+                    </label>
+                    <item><bibl>Hans-Ulrich Lindken: <title level="m">Arthur Schnitzler. Aspekte und
+                        Akzente. Materialien zu Leben und Werk</title>. Frankfurt am Main,
+                        Bern, New York: <publisher>Peter Lang</publisher><space unit="chars"
+                            quantity="1"/><date>1984</date></bibl>.</item>
+                    <label>
+                        <hi rend="italics">Aphorismen und Betrachtungen</hi>
+                    </label>
+                    <item><bibl>Arthur Schnitzler: <title level="m">Aphorismen und
+                                Betrachtungen</title>. Hg. Robert O. Weiss. Frankfurt am Main:
+                                <publisher>S. Fischer</publisher><space unit="chars" quantity="1"
+                                /><date when="1967">1967</date>
+                        </bibl>.</item>
+                    <label><hi rend="italics">Briefe</hi> I</label>
+                    <item><bibl>Arthur Schnitzler: Briefe 1875–1912. Hg. Therese Nickl und Heinrich
+                            Schnitzler. Frankfurt am Main: <publisher>S. Fischer</publisher>
+                            1981</bibl>.</item>
+                    <label><hi rend="italics">Briefe</hi> II</label>
+                    <item><bibl>Arthur Schnitzler: Briefe 1913–1931. Hg. Peter Michael Braunwarth,
+                            Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am
+                            Main: <publisher>S. Fischer</publisher> 1984</bibl>.</item>
+                    <label>
+                        <hi rend="italics">schnitzler-briefe</hi>
+                    </label>
+                    <item>
+                        <bibl>Arthur Schnitzler: <title level="m">Briefwechsel mit Autorinnen und
+                                Autoren</title>. Digitale Edition. Hg. Martin Anton Müller, Gerd
+                            Hermann Susen und Laura Untner, 2018–[2024], <ref target="https://schnitzler-briefe.acdh.oeaw.ac.at"
+                                type="url">https://schnitzler-briefe.acdh.oeaw.ac.at</ref>.</bibl>
+                        <lb/>
+                        <hi rend="italics">Verweise mit der jeweiligen Briefnummer.</hi>
+                    </item>
+                    <label>
+                        <hi rend="italics">Schnitzler digital</hi>
+                    </label>
+                    <item>
+                        <bibl><title level="m">Arthur Schnitzler digital. Digitale
+                                historisch-kritische Edition (Werke 1905–1931).</title> Hg.
+                            Wolfgang Lukas, Michael Scheffel, Andrew Webber und Judith Beniston in
+                            Zusammenarbeit mit Thomas Burch. Wuppertal, Cambridge, Trier
+                            2018&#8239;ff., <ref target="https://www.schnitzler-edition.net"
+                                type="url">https://www.schnitzler-edition.net</ref></bibl>
+                        <list>
+                            <item>
+                                <bibl><title level="m">Komödie der Verführung. Historisch-kritische
+                                        Edition</title>. Hg. Christian Belz, Kristina Fink, Wolfgang
+                                    Lukas, Dana Machwitz, Kathrin Nühlen, Michael Scheffel, Giulia
+                                    Speciale, Jonas Wolf. Wuppertal: <date>2020</date> (Abruf
+                                        <date>12.&#8239;12.&#8239;2021</date>)</bibl>
+                            </item>
+                        </list>
+                    </item>
+                    <label><hi rend="italics">Historisch-kritische Ausgabe</hi></label>
+                    <item>
+                        <bibl>Arthur Schnitzler: <title level="s">Werke in historisch-kritischen
+                                Ausgaben</title>. Hg. Konstanze Fliedl. Berlin, Boston:
+                                <publisher>de Gruyter</publisher>
+                            <space unit="chars" quantity="1"/>
+                            <date>2011–[2022]</date>.</bibl>
+                        <list>
+                            <item>
+                                <bibl><title level="m">Anatol</title>. Hg. Evelyne Polt-Heinzl und
+                                    Isabella Schwentner unter Mitarbeit von Gerhard Hubmann,
+                                        <date>2012</date>.</bibl>
+                            </item>
+                            <item>
+                                <bibl><title level="m">Der grüne Kakadu</title>. Hg. Anna Lindner,
+                                        <date>2020</date>.</bibl>
+                            </item>
+                            <item>
+                                <bibl><title level="m">Die Frau des Weisen</title>. Hg. Konstanze Fliedl und Evelyne Polt-Heinzl
+                                    unter Mitarbeit von
+                                    Anna Lindner, Martin Anton Müller und Isabella Schwentner, <date>2016</date>.</bibl>
+                            </item>
+                            <item>
+                                <bibl><title level="m">Liebelei</title>. Hg. Peter Michael
+                                    Braunwarth, Gerhard Hubmann und Isabella Schwenter,
+                                        <date>2014</date>.</bibl>
+                            </item>
+                        </list>
+                    </item>
+                    <label>
+                        <hi rend="italics">Jugend in Wien</hi>
+                    </label>
+                    <item><bibl>Arthur Schnitzler: <title level="m">Jugend in Wien</title>. Hg.
+                            Therese Nickl und Heinrich Schnitzler. Wien, München, Zürich:
+                                <publisher>Molden</publisher>
+                            <space unit="chars" quantity="1"/>
+                            <date>1968</date>
+                        </bibl>.</item>
+                    <label>
+                        <hi rend="italics">Leseliste</hi>
+                    </label>
+                    <item>
+                        <bibl>
+                            <title level="m">Arthur Schnitzlers Lektüren. Leseliste und virtuelle
+                                Bibliothek.</title> Hg. Achim Aurnhammer. Würzburg:
+                            <publisher>Ergon</publisher> 2013</bibl>. Digital: <ref
+                                target="https://schnitzler-lektueren.acdh.oeaw.ac.at" type="url"
+                                >https://schnitzler-lektueren.acdh.oeaw.ac.at</ref></item>
+                    <label>
+                        <hi rend="italics">A.&#8239;S. und die bildende Kunst</hi>
+                    </label>
+                    <item><bibl><title level="m">Arthur Schnitzler und die bildende Kunst</title>.
+                            Hg. Achim Aurnhammer und Dieter Martin. Würzburg:
+                                <publisher>Ergon</publisher>
+                            <space unit="chars" quantity="1"/>
+                            <date>2021</date></bibl>.</item>
+                    <label><hi rend="italics">A.&#8239;S. Materialien</hi></label>
+                    <item>
+                        <bibl><title level="m">Arthur Schnitzler (1862–1931). Materialien zur
+                                Ausstellung der Wiener Festwochen 1981</title>. Hg. Arthur
+                            Schnitzler-Institut, Wien, im Auftrag der Wiener Festwochen.
+                            Zusammenstellung von Peter Michael Braunwarth, Richard Miklin, Susanne
+                            Pertlik, Walter Ruprechter und Reinhard Urbach. <date when="1981" n="1"
+                                >1981</date></bibl>
+                    </item>
+                    <label>
+                        <hi rend="italics">Tagebuch</hi>
+                    </label>
+                    <item><bibl>Arthur Schnitzler: <title level="m">Tagebuch 1879–1931.</title> Herausgegeben von der
+                            Kommission für literarische Gebrauchsformen der Österreichischen
+                            Akademie der Wissenschaften, Obmann: Werner Welzig. Wien:
+                                <publisher>Verlag der Österreichischen Akademie der
+                                Wissenschaften</publisher>, 1981–2000</bibl>. <list>
+                            <item><bibl><title level="m">1879–1892</title>. (Unter Mitwirkung von
+                                    Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach,
+                                    1987)</bibl></item>
+                            <item><bibl><title level="m">1893–1902</title>. (Unter Mitwirkung von
+                                    Peter Michael Braunwarth, Konstanze Fliedl, Susanne Pertlik und
+                                    Reinhard Urbach, 1989)</bibl></item>
+                            <item><bibl><title level="m">1903–1908</title>. (Unter Mitwirkung von
+                                    Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach,
+                                    1991)</bibl></item>
+                            <item><bibl><title level="m">1909–1912</title>. (Unter Mitwirkung von
+                                    Peter Michael Braunwarth, Richard Miklin, Maria Neyses, Susanne
+                                    Pertlik, Walter Ruprechter und Reinhard Urbach,
+                                1981)</bibl></item>
+                            <item><bibl><title level="m">1913–1916</title>. (Unter Mitwirkung von
+                                    Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik,
+                                    Walter Ruprechter und Reinhard Urbach, 1983)</bibl></item>
+                            <item><bibl><title level="m">1917–1919</title>. (Unter Mitwirkung von
+                                    Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und
+                                    Reinhard Urbach, 1985)</bibl></item>
+                            <item><bibl><title level="m">1920–1922</title>. (Unter Mitwirkung von
+                                    Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach,
+                                    1993)</bibl></item>
+                            <item><bibl><title level="m">1923–1926</title>. (Unter Mitwirkung von
+                                    Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach,
+                                    1995)</bibl></item>
+                            <item><bibl><title level="m">1927–1930</title>. (Unter Mitwirkung von
+                                    Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach,
+                                    1997)</bibl></item>
+                            <item><bibl><title level="m">1931. Gesamtverzeichnisse
+                                    1897–1931</title>. (Unter Mitwirkung von Peter Michael
+                                    Braunwarth, Susanne Pertlik und Reinhard Urbach,
+                                2000).</bibl></item></list> Digital: <ref
+                            target="https://schnitzler-tagebuch.acdh.oeaw.ac.at" type="url"
+                            >https://schnitzler-tagebuch.acdh.oeaw.ac.at</ref>
+                    </item>
+                    <label><hi rend="italics">Ungarische Interviews</hi></label>
+                    <item><bibl><title level="a">Arthur Schnitzlers ungarische Interviews</title>.
+                            Hg. Martin Anton Müller, Übersetzung Sándor Tatár. In: <title level="j"
+                                >Hofmannsthal-Jahrbuch. Zur europäischen Moderne</title>,
+                            Bd.&#8239;28 (2020), S.&#8239;55–93</bibl>.</item>
+                    
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>
