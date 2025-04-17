@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="E_literatur">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Arthur Schnitzler: »Das Zeitlose ist von kürzester Dauer.«
+                    Interviews, Meinungen, Proteste (1891–1931)</title>
+                <title level="a">Rezensionen der Buchausgabe</title>
+                <author key="">Müller, Martin Anton</author>
+                <editor>
+                    <name>Müller, Martin Anton</name>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>ASI</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name>Martin Anton Müller</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Martin Anton Müller</publisher>
+                <idno type="ASI-E" n="007"/>
+                <availability status="free">
+                    <p>Copyright © 2025</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Interviews of Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-AT" ana="neue-rechtschreibung">German</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="MAM" when="2025-04-17">angelegt</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="text">
+        <body>
+            <div type="writingSession" n="1">
+                <list>
+                    <item>
+                        <bibl>Michael Scheffel, in: Arbitrium, Jg. 43, H. 1, 11. April 2025, S.
+                            85–89, <ref type="URL" target="https://doi.org/10.1515/arb-2025-0022"
+                                >https://doi.org/10.1515/arb-2025-0022</ref> (€).</bibl>
+                    </item>
+                    <item>
+                        <bibl>Leo A. Lensing: Schnitzler says no. In: The Times Literary Supplement,
+                            Nr. 6321, 24. Mai 2024, <ref
+                                target="https://www.the-tls.co.uk/literature-by-region/european-literature/das-zeitlose-ist-von-kurzester-dauer-arthur-schnitzler-book-review-leo-lensing"
+                                type="URL">online</ref> (€).</bibl>
+                    </item>
+                    <item>
+                        <bibl>Günter Rinke: Arthur Schnitzler als öffentliche Person, in:
+                            Literaturkritik.de, 18. März 2024, <ref
+                                target="https://literaturkritik.de/public/rezension.php?rez_id=30417"
+                                type="URL">online</ref>. </bibl>
+                    </item>
+                    <item>
+                        <bibl>Thomas Rothschild, Juryvoting ORF-Bestenliste, Dezember 2023, <ref type="URL" target="https://tv.orf.at/stories/2312bestenliste100.html">online</ref>.</bibl>
+                    </item>
+                    <item>
+                        <bibl>Renate Wagner: Stückwerk und Fundgrube. Arthur Schnitzler in Gespräch
+                            und Meinung. In: Musenblätter, 27. Dezember 2023, <ref
+                                target="https://musenblaetter.de/artikel.php?aid=36200" type="URL"
+                                >online</ref>.</bibl>
+                    </item>
+                    <item>
+                        <bibl>Renate Wagner, in: Online Merker, 23. Dezember 2023, <ref type="URL"
+                                target="https://onlinemerker.com/arthur-schnitzler-interviews-meinungen-und-proteste-2/"
+                                >online</ref>.</bibl>
+                    </item>
+                   
+                    <item>
+                        <bibl>Philipp Haibach: »Alles, nur kein Interview!«: Meinungen und Proteste
+                            von Arthur Schnitzler. In: der Freitag, 1. Dezember 2023, <ref
+                                target="https://www.freitag.de/autoren/philipp-haibach/alles-nur-kein-interview-meinungen-und-proteste-von-arthur-schnitzler"
+                                >online</ref> (€). </bibl>
+                    </item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>
