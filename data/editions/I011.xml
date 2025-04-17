@@ -57,11 +57,13 @@
          <change who="MAM" when="2021-09-15">Index check</change>
          <change who="KH" when="2021-10-29">Durchsicht</change>
       </revisionDesc>
-   </teiHeader><text type="text">
+   </teiHeader>
+   <text type="text">
       <body>
          <div type="image">
             <figure>
-               <figDesc>Strichzeichung – Schnitzlers Porträt im Halbprofil. Unterschrift Leo Kober</figDesc>
+               <figDesc>Strichzeichung – Schnitzlers Porträt im Halbprofil. Unterschrift Leo
+                  Kober</figDesc>
                <graphic url="./images/1931-ewen-vigor.png" width="3.5cm"/>
             </figure>
             <caption>
@@ -84,9 +86,11 @@
                anniversary – and Sir <rs type="person" ref="#pmb5194">George</rs> has already seen
                his eightieth year. A man, however, is as old as he feels – and, though <rs
                   type="person" ref="#pmb2121">Arthur Schnitzler</rs> is only sixty-eight, he feels
-               <anchor type="textConst" xml:id="T_I011-12"/>much, much<note type='textConst' xml:id="T_I011-12h"><quote>much, much,</quote></note> older. His face is deeply wrinkled. His eyes are dull and appear sad and
-               tired over heavy bags, he walks with a heavy gait and with stooped back. In spirit
-               and in flesh he is already an old man.</p>
+                  <anchor type="textConst" xml:id="T_I011-12"/>much, much<note type="textConst"
+                  xml:id="T_I011-12h"><quote>much, much,</quote></note> older. His face is deeply
+               wrinkled. His eyes are dull and appear sad and tired over heavy bags, he walks with a
+               heavy gait and with stooped back. In spirit and in flesh he is already an old
+               man.</p>
             <p>But though he is old and feels that death cannot be very far away, there is by no
                means any melancholy or despair in him.</p>
             <p>
@@ -111,9 +115,10 @@
                first hand. And, unfortunately, I am now too old to remedy this!«</p>
             <p>
                <anchor type="label" xml:id="I011_L1_bookcase"/>We were sitting on the comfortably
-               soft couch in <rs type="person" ref="#pmb2121">Arthur <latex alt="Schnitz\-ler">Schnitzler</latex>’s</rs> charming
-               study. The walls are <anchor type="textConst" xml:id="T_I011-1"/>covered<note
-                  type="textConst" xml:id="T_I011-1h">
+               soft couch in <rs type="person" ref="#pmb2121">Arthur <latex alt="Schnitz\-ler"
+                     >Schnitzler</latex>’s</rs> charming study. The walls are <anchor
+                  type="textConst" xml:id="T_I011-1"/>covered<note type="textConst"
+                  xml:id="T_I011-1h">
                   <quote>cov</quote>
                </note> with bookcases heavily lined with books. One of these bookcases, modestly
                covered by a velvet curtain, contains all of <rs type="person" ref="#pmb2121">Arthur
@@ -123,12 +128,11 @@
                   ref="#pmb2121">Schnitzler</rs> does all of his writing<note type="commentary"
                   xml:id="K_I011-1h">Das dürfte er nicht gesagt haben; die Aussage, dass er nicht im
                   Freien arbeite, ist wahrscheinlich richtig: <ref target="#I072_L1_gartenarbeit"
-                     type="pointer"/>.
-               </note>. It was rapidly becoming dusk, and the room – as we were talking – was
-               becoming suffused with a serene, mellow darkness. <rs type="person" ref="#pmb2121"
-                  >Schnitzler</rs> did not trouble putting on the light. He was buried in the
-               softness of the couch and he was quietly speaking to me about <rs type="place"
-                  ref="#pmb175">America</rs>.</p>
+                     type="pointer"/>. </note>. It was rapidly becoming dusk, and the room – as we
+               were talking – was becoming suffused with a serene, mellow darkness. <rs
+                  type="person" ref="#pmb2121">Schnitzler</rs> did not trouble putting on the light.
+               He was buried in the softness of the couch and he was quietly speaking to me about
+                  <rs type="place" ref="#pmb175">America</rs>.</p>
             <p>
                <ref target="#q169" type="question"/>»I have no illusions about <rs type="place"
                   ref="#pmb175">America</rs> being something of a Utopia in the miniature,« he said,
@@ -624,4 +628,5 @@
             </org>
          </listOrg>
       </back>
-   </text></TEI>
+   </text>
+</TEI>
