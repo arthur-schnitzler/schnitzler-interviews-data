@@ -31,22 +31,61 @@
          </publicationStmt>
          <sourceDesc>
             <listBibl>
-               <listBibl>
-                  <biblStruct>
-                     <analytic>
-                        <title level="a" ref="#pmb288729">Josef Kainz</title>
-                     </analytic>
-                     <monogr>
-                        <title level="j" ref="#pmb35935">Die Zeit</title>
-                        <imprint>
-                           <date when="1910-09-22" n="1">22. 9. 1910</date>
-                        </imprint>
-                        <biblScope unit="jg">9</biblScope>
-                        <biblScope unit="nr">2871, Morgenblatt</biblScope>
-                        <biblScope unit="pp">5</biblScope>
-                     </monogr>
-                  </biblStruct>
-               </listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a" ref="#pmb288729">Josef Kainz</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#pmb35935">Die Zeit</title>
+                     <imprint>
+                        <date when="1910-09-22" n="1">22. 9. 1910</date>
+                     </imprint>
+                     <biblScope unit="jg">9</biblScope>
+                     <biblScope unit="nr">2871, Morgenblatt</biblScope>
+                     <biblScope unit="pp">5</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">Josef Kainz †</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#pmb41321">Neues Wiener Tagblatt</title>
+                     <imprint>
+                        <date when="1910-09-22" n="1">22. 9. 1910</date>
+                     </imprint>
+                     <biblScope unit="jg">44</biblScope>
+                     <biblScope unit="nr">260</biblScope>
+                     <biblScope unit="pp">12–13</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">Josef Kainz</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#pmb36374">Neue Freie Presse</title>
+                     <imprint>
+                        <date when="1910-09-22" n="1">22. 9. 1910</date>
+                     </imprint>
+                     <biblScope unit="nr">16.553</biblScope>
+                     <biblScope unit="pp">9–10</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">Josef Kainz tot</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="#pmb41484">Illustrirtes Wiener Extrablatt</title>
+                     <imprint>
+                        <date when="1910-09-22" n="1">22. 9. 1910</date>
+                     </imprint>
+                     <biblScope unit="jg">39</biblScope>
+                     <biblScope unit="nr">260</biblScope>
+                     <biblScope unit="pp">6</biblScope>
+                  </monogr>
+               </biblStruct>
             </listBibl>
          </sourceDesc>
       </fileDesc>
@@ -146,6 +185,50 @@
       </body>
       <back>
          <listPerson>
+            <person xml:id="pmb2121">
+               <persName>
+                  <forename>Arthur</forename>
+                  <surname>Schnitzler</surname>
+               </persName>
+               <birth>
+                  <date when="1862-05-15">15.05.1862</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when="1931-10-21">21.10.1931</date>
+                  <settlement ref="pmb50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+               <idno type="URL" subtype="schnitzler-bahr"
+                  >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
+               <idno type="URL" subtype="schnitzler-briefe"
+                  >https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch"
+                  >https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
+               <idno type="URL" subtype="kraus1933"
+                  >https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
+               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
+               <idno type="URL" subtype="wikipedia"
+                  >https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
+               <idno type="URL" subtype="schnitzler-kino"
+                  >https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
+            </person>
             <person xml:id="pmb11851">
                <persName>
                   <forename>Josef</forename>
@@ -366,52 +449,6 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Gustav_Kober</idno>
                <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148873.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb148873.html</idno>
-            </person>
-            <person xml:id="pmb2121">
-               <persName>
-                  <forename>Arthur</forename>
-                  <surname>Schnitzler</surname>
-               </persName>
-               <persName type="legacy-name-merge">Schnitzler, Arthur</persName>
-               <birth>
-                  <date when="1862-05-15">15.05.1862</date>
-                  <settlement ref="pmb50">
-                     <placeName type="pref">Wien</placeName>
-                     <location>
-                        <geo>48,208333 16,373056</geo>
-                     </location>
-                  </settlement>
-               </birth>
-               <death>
-                  <date when="1931-10-21">21.10.1931</date>
-                  <settlement ref="pmb50">
-                     <placeName type="pref">Wien</placeName>
-                     <location>
-                        <geo>48,208333 16,373056</geo>
-                     </location>
-                  </settlement>
-               </death>
-               <sex value="male"/>
-               <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-               <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
-               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
-               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2121.html</idno>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121/</idno>
-               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38500</idno>
-               <idno type="URL" subtype="kraus1933">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0212</idno>
-               <idno type="URL" subtype="doi">https://doi.org/10.1553/0x00284416</idno>
-               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44331</idno>
-               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Arthur_Schnitzler</idno>
-               <idno type="URL" subtype="geschichtewiki">https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=11215</idno>
-               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2121.html</idno>
-               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2121.html</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb2121.html</idno>
-               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2121.html</idno>
-               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2121.html</idno>
-               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb2121</idno>
-               <idno type="URL" subtype="stefanzweig">https://www.stefanzweig.digital/o:szd.personen/sdef:TEI/get#SZDPER.1273</idno>
-               <idno type="URL" subtype="brenner">https://brenner.oeaw.ac.at/?p=brennerp859</idno>
-               <idno type="URL" subtype="schaubuehne">https://schaubuehne.oeaw.ac.at/register.html?author=574</idno>
             </person>
             <person xml:id="pmb10883">
                <persName>
@@ -774,6 +811,52 @@
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35935/</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb35935.html</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb35935.html</idno>
+               <note type="work_kind">Tageszeitung</note>
+            </bibl>
+            <bibl xml:id="pmb41321">
+               <title>Neues Wiener Tagblatt</title>
+               <title type="werk_link">http://anno.onb.ac.at/cgi-content/anno?aid=nwg</title>
+               <title type="namensvariante">Neues Wiener Abendblatt</title>
+               <date from="1867-01-01" to="1945-01-01">1867 – 1945</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41321/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb41321</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1654066</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Neues_Wiener_Tagblatt</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb41321.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb41321.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb41321.html</idno>
+               <note type="work_kind">Tageszeitung</note>
+            </bibl>
+            <bibl xml:id="pmb36374">
+               <title>Neue Freie Presse</title>
+               <title type="werk_link">http://anno.onb.ac.at/cgi-content/anno?aid=nfp</title>
+               <title type="legacy-name-merge">Neue freie Presse (Zeitung, Wien)</title>
+               <author ref="pmb10809" role="hat-herausgegeben">Bacher, Eduard</author>
+               <author ref="pmb10875" role="hat-herausgegeben">Benedikt, Moriz</author>
+               <author ref="pmb10872" role="hat-herausgegeben">Benedikt, Ernst</author>
+               <date from="1864-01-01" to="1939-01-01">1864 – 1939</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/36374/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb36374</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb36374.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb36374.html</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/7640546-1</idno>
+               <idno type="URL" subtype="hanslick">https://hanslick.acdh.oeaw.ac.at/hsl_work_id_82.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb36374.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/201326/</idno>
+               <note type="work_kind">Tageszeitung</note>
+            </bibl>
+            <bibl xml:id="pmb41484">
+               <title>Illustrirtes Wiener Extrablatt</title>
+               <title type="werk_link">http://anno.onb.ac.at/cgi-content/anno?aid=iwe</title>
+               <title type="werk_namensvariante">Illustriertes Wiener Extrablatt</title>
+               <author ref="pmb13791" role="hat-einen-beitrag-geschaffen-zu">Basch, Ludwig</author>
+               <author ref="pmb2150" role="hat-einen-beitrag-geschaffen-zu">Bauer, Julius</author>
+               <date from="1872-01-01" to="1928-01-01">1872 – 1928</date>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41484/</idno>
+               <idno type="URL" subtype="kraus">https://kraus.wienbibliothek.at/register/werke/pmb41484</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb41484.html</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb41484.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb41484.html</idno>
                <note type="work_kind">Tageszeitung</note>
             </bibl>
          </listBibl>
