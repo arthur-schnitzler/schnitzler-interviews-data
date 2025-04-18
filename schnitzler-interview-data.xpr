@@ -10,6 +10,26 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>data/editions/M187.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>backelement</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>editions/M186.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -695,7 +715,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>file:/Users/oldfiche/Documents/git/arthur-schnitzler-arbeit/xslts/backElement-0.xsl</String>
+                                    <String>file:/Users/oldfiche/git/arthur-schnitzler-arbeit/xslts/backElement-0.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${currentFileURL}</String>
@@ -747,9 +767,9 @@
                                 </field>
                                 <field name="cascadingStylesheets">
                                     <String-array>
-                                        <String>file:/Users/oldfiche/Documents/git/arthur-schnitzler-arbeit/xslts/backElement-1.xsl</String>
-                                        <String>file:/Users/oldfiche/Documents/git/arthur-schnitzler-arbeit/xslts/backElement-2.xsl</String>
-                                        <String>file:/Users/oldfiche/Documents/git/arthur-schnitzler-arbeit/xslts/backElement-3.xsl</String>
+                                        <String>file:/Users/oldfiche/git/arthur-schnitzler-arbeit/xslts/backElement-1.xsl</String>
+                                        <String>file:/Users/oldfiche/git/arthur-schnitzler-arbeit/xslts/backElement-2.xsl</String>
+                                        <String>file:/Users/oldfiche/git/arthur-schnitzler-arbeit/xslts/backElement-3.xsl</String>
                                     </String-array>
                                 </field>
                                 <field name="xslTransformer">
