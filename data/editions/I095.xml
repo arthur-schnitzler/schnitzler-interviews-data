@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I095" next="I133" prev="I094" latex="\newpage">
+   xml:base="schnitzler-interviews" xml:id="I095" next="I133" prev="I094">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -262,7 +262,7 @@
                sagt das. Es kann jedoch vorkommen, dass die Feder manchmal mit dem, womit das Herz
                voll ist, davonläuft und man sich ein wenig gehen lässt. Aber es war immer gegen
                meinen Willen. </p>
-            <p><latex alt="\ledpb"/>Grundsätzlich sage ich nie etwas über die Ziele und Ansichten meiner Kunst. Wenn sie
+            <p><!-- <latex alt="\ledpb"/> -->Grundsätzlich sage ich nie etwas über die Ziele und Ansichten meiner Kunst. Wenn sie
                nicht klar aus meinen Arbeiten hervorgehen, ist mit ihnen nicht viel anzufangen. </p>
             <p>
                <ref target="#q205" type="question"/>Das Gespräch wendet sich der <rs type="place"
@@ -302,7 +302,7 @@
                <ref type="schnitzler-tagebuch" target="1923-05-17"/>
                <quote>Wieder ein Interview Frl. <rs type="person" ref="#pmb5985">Andersson</rs> (aus
                      <rs type="place" ref="#pmb50">Wien</rs> bekannt); währenddem zeichnet mich ein
-                  Herr <rs type="person" ref="#pmb25761">Svahn</rs> für das gleiche (<latex alt="sozial\-dem">sozialdem</latex>.
+                  Herr <rs type="person" ref="#pmb25761">Svahn</rs> für das gleiche (<!-- <latex alt="sozial\-dem"> -->sozialdem<!-- </latex> -->.
                   Blatt).– <gap reason="outOfScope" unit="chars" quantity="99"/> Zu Haus übersetzt
                   er mir zwei meiner Interviews.– Empfinde die Lächerlichkeit all dieser
                   Dinge;</quote>

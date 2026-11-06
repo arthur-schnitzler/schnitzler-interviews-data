@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I124" next="M170" prev="I034" latex="\enlargethispage{2em}">
+   xml:base="schnitzler-interviews" xml:id="I124" next="M170" prev="I034">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -162,7 +162,7 @@
                   <rs type="person" ref="#pmb2121">D-r Arthur Schnitzler</rs>
                </hi>. Ein kleines, helles Vorzimmer. Gleich rechts befindet sich das Empfangszimmer,
                ein fast quadratischer Raum, der von Sonnenlicht durchflutet ist. Im Inneren stehen
-               ein stilvolles, weiches Tagesbett, ein eleganter kleiner Tisch <latex alt="\ledpb"/>und ein paar Stühle.
+               ein stilvolles, weiches Tagesbett, ein eleganter kleiner Tisch <!-- <latex alt="\ledpb"/> -->und ein paar Stühle.
                An der weißen Wand sind mehrere kleine verzierte Regale. Darauf erkennt man
                wunderschöne <rs type="place" ref="#pmb318">japan</rs>ische Vasen und Figuren, Kopien
                   <anchor type="commentary" xml:id="K_I124-1"/>
@@ -256,7 +256,7 @@
                      <rs type="place" ref="#pmb50">Wien</rs>. Am <ref target="1906-04-18"
                      subtype="date-only" type="schnitzler-tagebuch"/> und am Folgetag besuchte <rs
                      type="person" ref="#pmb2121">Schnitzler</rs> Aufführungen und führte auch
-                  hinter der Bühne Gespräche. Das gäbe auch eine <latex alt="mög\-liche">mögliche</latex> Orientierung für den
+                  hinter der Bühne Gespräche. Das gäbe auch eine <!-- <latex alt="mög\-liche"> -->mögliche<!-- </latex> --> Orientierung für den
                   Zeitpunkt des Interviews, auch wenn <rs type="person" ref="#pmb2121"
                      >Schnitzler</rs>
                   <space unit="chars" quantity="1"/>
@@ -274,7 +274,7 @@
             <p>Als ich <rs type="person" ref="#pmb2121">Schnitzler</rs> verließ, blieb sein
                ansprechendes Bild in meiner Erinnerung. Es schien mir, als würde ich den
                allmählichen Fortgang seines Einfallsreichtums erkennen können.</p>
-            <p><latex alt="\ledpb"/>Dort, in der Stadt, nimmt er feinfühlig die schnellen, gegenläufigen Wellen des
+            <p><!-- <latex alt="\ledpb"/> -->Dort, in der Stadt, nimmt er feinfühlig die schnellen, gegenläufigen Wellen des
                lärmenden Lebens in sich auf. Hier, in der Einsamkeit, wird alles, was er sieht,
                kondensiert und auf seine grundlegenden Eigenschaften zurückgeführt. Dort in der
                Stadt ist er in den mondänen Salons ein charmanter und geistreicher Gesprächspartner,

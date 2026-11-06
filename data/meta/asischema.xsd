@@ -219,6 +219,7 @@
             <xs:simpleType>
                <xs:restriction base="xs:string">
                   <xs:enumeration value="schnitzler-tagebuch"/>
+                  <xs:enumeration value="schnitzler-briefe"/>
                   <xs:enumeration value="toLetter"/>
                   <xs:enumeration value="withinCorrespondence"/>
                   <xs:enumeration value="withinCollection"/>

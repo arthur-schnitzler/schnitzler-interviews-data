@@ -95,7 +95,7 @@
     </xsl:template>
     
     <xsl:template match="date">
-        <xsl:element name="date" xmlns="">
+        <xsl:element name="date">
             <xsl:apply-templates select="@when-iso|@notBefore-iso|@notAfter-iso|@from-iso|@to-iso"/>
         <xsl:choose>
             <xsl:when test=".='0363-06-26'">
@@ -193,7 +193,7 @@
         </xsl:attribute>
     </xsl:template>
     <xsl:template match="back//idno[@type = 'URL']">
-        <xsl:element name="idno" xmlns="">
+        <xsl:element name="idno">
             <xsl:attribute name="type">
                 <xsl:text>URL</xsl:text>
             </xsl:attribute>
@@ -289,7 +289,7 @@
         </xsl:attribute>
     </xsl:template>
     <xsl:template match="back//note[@type = 'IDNO']">
-        <xsl:element name="idno" xmlns="">
+        <xsl:element name="idno">
             <xsl:attribute name="type">
                 <xsl:text>URL</xsl:text>
             </xsl:attribute>
@@ -321,7 +321,7 @@
         </xsl:element>
     </xsl:template>
     <xsl:template match="back//orgName[contains(@type, 'uri')]">
-        <xsl:element name="idno" xmlns="">
+        <xsl:element name="idno">
             <xsl:attribute name="type">
                 <xsl:text>URL</xsl:text>
             </xsl:attribute>
@@ -353,7 +353,7 @@
         </xsl:element>
     </xsl:template>
     <xsl:template match="title[@type = 'bibliografische_angabe']">
-        <xsl:element name="note" xmlns="">
+        <xsl:element name="note">
             <xsl:attribute name="type">
                 <xsl:text>bibliografische_angabe</xsl:text>
             </xsl:attribute>
@@ -361,7 +361,7 @@
         </xsl:element>
     </xsl:template>
     <xsl:template match="title[@type = 'uri_worklink']">
-        <xsl:element name="note" xmlns="">
+        <xsl:element name="note">
             <xsl:attribute name="type">
                 <xsl:text>uri_worklink</xsl:text>
             </xsl:attribute>
@@ -369,7 +369,7 @@
         </xsl:element>
     </xsl:template>
     <xsl:template match="title[contains(@type, 'wikipedia')]">
-        <xsl:element name="idno" xmlns="">
+        <xsl:element name="idno">
             <xsl:attribute name="type">
                 <xsl:text>URL</xsl:text>
             </xsl:attribute>
@@ -407,7 +407,7 @@
     />
     
     <xsl:template match="back//occupation">
-        <xsl:element name="occupation" xmlns="">
+        <xsl:element name="occupation">
             <xsl:copy select="@*"/>
             <xsl:variable name="beruf">
             <xsl:choose>
@@ -434,7 +434,7 @@
     </xsl:template>
     
     <xsl:template match="desc[@type='entity_type']">
-        <xsl:element name="desc" xmlns="">
+        <xsl:element name="desc">
             <xsl:attribute name="type">
                 <xsl:text>entity_type</xsl:text>
             </xsl:attribute>

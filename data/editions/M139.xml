@@ -76,8 +76,8 @@
             </head>
             <p>
                <hi rend="bold">Arthur Schnitzler</hi>.</p>
-            <latex alt="\enlargethispage{-1em}"/>
-            <p><latex alt="\noindent"/>Ich vermag nur einige Fragen zu formulieren, auf deren
+            <!-- <latex alt="\enlargethispage{-1em}"/> -->
+            <p><!-- <latex alt="\noindent"/> -->Ich vermag nur einige Fragen zu formulieren, auf deren
                Beantwortung es mir besonders anzukommen scheint. Erstens: Welchen Vorteil bietet
                eine <hi rend="antiqua">
                   <rs type="org" ref="#pmb29397">
@@ -131,7 +131,7 @@
             <div1>
                <ref target="1906-03-28" type="schnitzler-tagebuch"/>
                <quote>Notizen zum ›Bühnenvertrieb‹ (<rs type="person" ref="#pmb11813"
-                  >Jacobsohn</rs>s <latex alt="Er\-suchen">Ersuchen</latex>, <rs type="person"
+                  >Jacobsohn</rs>s <!-- <latex alt="Er\-suchen"> -->Ersuchen<!-- </latex> -->, <rs type="person"
                      ref="#pmb12968">Trebitsch</rs>’ <rs type="work" ref="#pmb32516"
                      subtype="implied">Artikel</rs>) –</quote>
             </div1>

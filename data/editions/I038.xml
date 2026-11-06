@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I038" next="I041" prev="I098" latex="\newpage">
+   xml:base="schnitzler-interviews" xml:id="I038" next="I041" prev="I098">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -128,7 +128,7 @@
                glänzen zu lassen, ein Spiel, dem nicht nur Kinder gerne zusehen. Aber alle Mühe hat
                nichts genützt, speziell in der Frage des »<rs type="work" ref="#pmb33031"
                   >Parsifal</rs>«-Schutzes.</p>
-            <latex alt="\pagebreak"/>
+            <!-- <latex alt="\pagebreak"/> -->
             <p>Und deshalb ist <rs type="person" ref="#pmb10815">Bahr</rs> gerade in seinem
                fünfzigsten Jahre auf das deutsche Volk »böse«, vielleicht in dem Maße, wie er es
                   <anchor type="commentary" xml:id="KT124-3"/>seinerzeit<note type="commentary"
@@ -158,7 +158,7 @@
                </note> 11 Heller und – ein gutes Buch.</p>
             <p>Es ist ein Weg unermüdlicher Arbeit, reicher Erfolge, aber auch bitterer
                Enttäuschungen, den der dramatische Dichter <rs type="person" ref="#pmb10815"
-                  >Bahr</rs> in den <latex alt="Jahr\-zehn\-ten">Jahrzehnten</latex> seit
+                  >Bahr</rs> in den <!-- <latex alt="Jahr\-zehn\-ten"> -->Jahrzehnten<!-- </latex> --> seit
                   <date>1886</date> zurückgelegt hat. Wie viele wären an den Mißerfolgen zugrunde
                gegangen, die dieser Schriftsteller von sich abgeschüttelt hat, wie den Schnee nach
                einem ein bißchen frostigen Winterspaziergang. Wer denkt nicht an die ausgewachsenen
@@ -166,7 +166,7 @@
                   <rs type="person" ref="#pmb10815">Bahr</rs>s beschieden waren. Und doch hat er
                sich schließlich durchgesetzt. Wenn auch nicht mit literarisch-künstlerischen Werken,
                in die er Ueberzeugungen gelegt hatte oder Keime für eine »künftige Richtung« oder
-               sonst eine »<latex alt="\mbox{bessere}">bessere</latex>« Absicht; wohl aber mit
+               sonst eine »<!-- <latex alt="\mbox{bessere}"> -->bessere<!-- </latex> -->« Absicht; wohl aber mit
                Komödien, die er – es ist ja schließlich keine Schande – für das Publikum geschrieben
                hatte. »<rs type="work" ref="#pmb29933">Das Konzert</rs>« ist über ganz <rs
                   type="place" ref="#pmb151">Deutschland</rs> gegangen und an fremdsprachigen Bühnen
@@ -310,7 +310,7 @@
                <rs type="person" ref="#pmb10883">Alfred Berger</rs> hatte in seiner »Rage«
                vergessen, <hi rend="spaced_out">mit wem</hi> er sprach! Er hatte wahrhaftig nur laut
                gedacht!</p>
-            <latex alt="\pagebreak"/>
+            <!-- <latex alt="\pagebreak"/> -->
             <p>Indem aber <rs type="person" ref="#pmb10883">Berger</rs> seinem Partner ins Gesicht
                sah und merkte, es sei eben der <rs type="person" ref="#pmb10815">Hermann Bahr</rs>
                des »<rs type="work" ref="#pmb29887">Apostel</rs>«, begann ihn ein derartiges Lachen

@@ -6,14 +6,14 @@
     <xsl:output method="xml" indent="yes"/>
    
    <xsl:template match="listPerson">
-       <xsl:element name="listPerson" xmlns="">
+       <xsl:element name="listPerson">
            <xsl:copy-of select="person"/>
            <xsl:copy-of select="following-sibling::listBibl/bibl/author/person"/>
        </xsl:element>
    </xsl:template>
     
    <xsl:template match="author[person]">
-       <xsl:element name="author" xmlns="">
+       <xsl:element name="author">
            <xsl:copy-of select="@*"/>
            <xsl:value-of select="descendant::persName[1]/surname[1]"/><xsl:text>, </xsl:text><xsl:value-of select="descendant::persName[1]/forename[1]"/>
        </xsl:element>

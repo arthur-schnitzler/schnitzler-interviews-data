@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I131" next="I097" prev="I116" latex="\newpage\enlargethispage{1em}" >
+   xml:base="schnitzler-interviews" xml:id="I131" next="I097" prev="I116" >
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -223,7 +223,7 @@
                auf die Literatur stellt.</p>
             <p>»Natürlich wird der große Weltkonflikt seine Spuren in der Poesie hinterlassen, da
                bin ich mir sicher. Aber bisher ist es noch nicht spürbar. Es ist, als ob die Autoren
-               sich nicht trauten, ihre Arbeit zu <latex alt="ver\-öffent\-lichen">veröffentlichen</latex>, irgendetwas hält sie zurück. Ich
+               sich nicht trauten, ihre Arbeit zu <!-- <latex alt="ver\-öffent\-lichen"> -->veröffentlichen<!-- </latex> -->, irgendetwas hält sie zurück. Ich
                sehe es an mir selbst. Lassen Sie mich eine kleine Eigentümlichkeit erzählen.</p>
             <p>Im Jahr <date>1908</date> skizzierte ich ein neues <rs
                   type="work" subtype="implied" ref="#pmb30205">Drama</rs>, das mit dem Ausbruch
@@ -277,7 +277,7 @@
                und auf die Bühne und vertrieben so das Publikum. Gegen den ›<rs type="work"
                   ref="#pmb29855">Reigen</rs>‹ als Lesedrama hatte niemand etwas einzuwenden, aber
                wenn er aufgeführt wurde<c rendition="#dots" n="3"/> Den Grund habe ich genannt: Der
-                  ›<rs type="work" ref="#pmb29855">Reigen</rs>‹ ist nicht <latex alt="un\-moralisch">unmoralisch</latex>, und es gibt
+                  ›<rs type="work" ref="#pmb29855">Reigen</rs>‹ ist nicht <!-- <latex alt="un\-moralisch"> -->unmoralisch<!-- </latex> -->, und es gibt
                überhaupt keine Moral oder Unmoral in der Kunst.«</p>
             <p>
                <ref type="question" target="#q056"/>»Wie sind die Bedingungen in <rs type="place"
@@ -285,7 +285,7 @@
             <p>»Ein Ausländer, der dort hinkommt, wird wahrscheinlich den Eindruck haben, dass alles seinen gewohnten
                Gang geht, und
                wird wahrscheinlich gar nicht die Not bemerken, die noch herrscht. Besonders
-               schwierig ist es für die sogenannte <latex alt="Intel\-ligenz">Intelligenz</latex>. Die Schriftsteller leben unter
+               schwierig ist es für die sogenannte <!-- <latex alt="Intel\-ligenz"> -->Intelligenz<!-- </latex> -->. Die Schriftsteller leben unter
                äußerst bedrückenden Bedingungen. Es ist fast unmöglich, ein Buch zu veröffentlichen,
                wegen der damit verbundenen Kosten. Es ist jedoch nicht mehr ganz so miserabel wie
                noch vor einigen Jahren, und es gibt Anzeichen für eine Veränderung zum Besseren, was vor

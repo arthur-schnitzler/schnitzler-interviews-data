@@ -18,11 +18,11 @@
         <xsl:copy/>
     </xsl:template>
     <xsl:template match="back/listPerson[child::*]">
-        <xsl:element name="listPerson" xmlns="">
+        <xsl:element name="listPerson">
             <xsl:for-each select="distinct-values(person/@xml:id)">
                 <xsl:choose>
                     <xsl:when test=". = '2121'">
-                        <person xml:id="pmb2121">
+                        <person xml:id="pmb2121" xmlns="">
                             <!-- Sonderregel für Schnitzler -->
                             <persName>
                                 <surname>Schnitzler</surname>
@@ -48,7 +48,7 @@
                             as="xs:string"/>
                         <xsl:choose>
                             <xsl:when test="doc-available($eintrag)">
-                                <xsl:element name="person" xmlns="">
+                                <xsl:element name="person">
                                     <xsl:attribute name="xml:id">
                                         <xsl:value-of select="concat('pmb', $nummer)"/>
                                     </xsl:attribute>
@@ -75,7 +75,7 @@
         </xsl:element>
     </xsl:template>
     <xsl:template match="back/listBibl[child::*]">
-        <xsl:element name="listBibl" xmlns="">
+        <xsl:element name="listBibl">
             <xsl:for-each select="distinct-values(bibl/@xml:id)">
                 <xsl:variable name="nummer" select="substring-after(., 'pmb')"/>
                 <xsl:variable name="eintrag"
@@ -83,7 +83,7 @@
                     as="xs:string"/>
                 <xsl:choose>
                     <xsl:when test="doc-available($eintrag)">
-                        <xsl:element name="bibl" xmlns="">
+                        <xsl:element name="bibl">
                             <xsl:attribute name="xml:id">
                                 <xsl:value-of select="concat('pmb', $nummer)"/>
                             </xsl:attribute>
@@ -107,7 +107,7 @@
         </xsl:element>
     </xsl:template>
     <xsl:template match="back/listPlace[child::*]">
-        <xsl:element name="listPlace" xmlns="">
+        <xsl:element name="listPlace">
             <xsl:for-each select="distinct-values(place/@xml:id)">
                 <xsl:variable name="nummer" select="substring-after(., 'pmb')"/>
                 <xsl:variable name="eintrag"
@@ -130,7 +130,7 @@
         </xsl:element>
     </xsl:template>
     <xsl:template match="back/listOrg[child::*]">
-        <xsl:element name="listOrg" xmlns="">
+        <xsl:element name="listOrg">
             <xsl:for-each select="distinct-values(org/@xml:id)">
                 <xsl:variable name="nummer" select="substring-after(., 'pmb')"/>
                 <xsl:variable name="eintrag"

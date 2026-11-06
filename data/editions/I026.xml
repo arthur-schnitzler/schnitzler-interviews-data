@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I026" next="I028" prev="I023" latex="\enlargethispage{-1em}">
+   xml:base="schnitzler-interviews" xml:id="I026" next="I028" prev="I023">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -260,7 +260,7 @@
                in dem die süße <rs type="work" ref="#pmb29857" subtype="implied">Beatrice</rs> dem
                Dichter <rs type="work" ref="#pmb29857">Philippo Loschi</rs> ihren Traum
                bekannte:</p>
-            <lg type="poem" latex="Mit eines Dichters Seel’, weil sie voll Rätsel – –">
+            <lg type="poem">
                <l>
                   <rs type="work" ref="#pmb29857" subtype="implied">
                      <anchor type="commentary" xml:id="K_I026-88"/>Warst du nicht, Beatrice, nur ein
@@ -335,8 +335,8 @@
                der beginnenden Sechzig mit diesem vom Temperament dirigierten Schritt – gedrungene
                Kraft bei aller Zartheit – und mit diesem klaren Blick – melancholisch-heiter in den
                Kern der Dinge:</p>
-            <latex alt="\pagebreak"/>
-            <lg type="poem" latex="Klarsinn schaut tiefer in dieser Welt.">
+            <!-- <latex alt="\pagebreak"/> -->
+            <lg type="poem">
                <l>
                   <anchor type="commentary" xml:id="K_implied_30053"/>Tiefsinn hat nie ein Ding
                      erhellt<note type="commentary" xml:id="K_implied_30053h">aus <rs type="work"

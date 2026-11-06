@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xml:id="I001" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" next="I010" prev="P037" latex="\enlargethispage{1em}">
+   xml:base="schnitzler-interviews" next="I010" prev="P037">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -87,7 +87,7 @@
             <p>Nur ein Marillenbaum hat seine Blüthenpracht entfaltet und grüßt mit den bestreuten
                Zweigen. Es ist schier unangenehm, daß die Natur sich nicht dazu verstehen will,
                einem modernen Haus die richtige Stimmung zu geben, die Blüthen sollten größer, die
-               Zweige <latex alt="gerad\-lini\-ger">geradliniger</latex> sein.</p>
+               Zweige <!-- <latex alt="gerad\-lini\-ger"> -->geradliniger<!-- </latex> --> sein.</p>
             <p>Und vollends stört der Hausherr. Da kommt ein Mann, der bisher in der Sonne gesessen,
                groß und kräftig mit durchaus unregelmäßigem Gang, von Antlitz finster und noch
                furchtbarer durch Kleidung und Begleitschaft. Jägermäßig ist seine Tracht, der
@@ -184,7 +184,7 @@
                </note> ein. Bin ich da der Vater? – Oder denken Sie vielleicht, daß ich die <rs
                   type="place" ref="#pmb7">Secession</rs> erfunden habe, oder daß ich an den Versen
                   <rs type="person" ref="#pmb11740">Hofmannsthal</rs>s Schuld trage?« – </p>
-            <latex alt="\enlargethispage{1em}"/>
+            <!-- <latex alt="\enlargethispage{1em}"/> -->
             <p>Und das Café <rs type="place" ref="#pmb34">Griensteidl</rs>? Die legendarische
                Kaffeehausliteratur?</p>
             <p>
@@ -264,7 +264,7 @@
             <p>
                <rs type="person" ref="#pmb10815">Bahr</rs> fuhr mit <rs type="person"
                   ref="#pmb12899">Sudermann</rs> nach der <anchor type="commentary" xml:id="KT040-8"
-               />Première der »<rs type="work" ref="#pmb31815">Drei <latex alt="Rei\-her\-federn">Reiherfedern</latex></rs>
+               />Première der »<rs type="work" ref="#pmb31815">Drei <!-- <latex alt="Rei\-her\-federn"> -->Reiherfedern<!-- </latex> --></rs>
                <note type="commentary" xml:id="KT040-8h">am <date>7. 10. 1902</date> im <rs
                      type="org" ref="#pmb36247">Burgtheater</rs>
                </note>« nach <rs type="place" ref="#pmb168">Berlin</rs> und merkte dem Dichter schon

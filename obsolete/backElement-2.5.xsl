@@ -14,7 +14,7 @@
         <xsl:copy/>
     </xsl:template>
     <xsl:template match="author">
-        <xsl:element name="author" xmlns="">
+        <xsl:element name="author">
             <xsl:copy-of select="@role"/>
             <xsl:variable name="reffi">
                 <xsl:choose>
@@ -39,7 +39,7 @@
                 <xsl:otherwise>
                     <xsl:choose>
                         <xsl:when test="$reffi = 'pmb2121'">
-                            <person xml:id="pmb2121">
+                            <person xml:id="pmb2121" xmlns="">
                                 <!-- Sonderregel für Schnitzler -->
                                 <persName>
                                     <surname>Schnitzler</surname>
@@ -65,7 +65,7 @@
                                 as="xs:string"/>
                             <xsl:choose>
                                 <xsl:when test="doc-available($eintrag)">
-                                    <xsl:element name="person" xmlns="">
+                                    <xsl:element name="person">
                                         <xsl:attribute name="xml:id">
                                             <xsl:value-of select="concat('pmb', $nummer)"/>
                                         </xsl:attribute>

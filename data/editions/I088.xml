@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I088" next="I016" prev="I085" latex="\newpage">
+   xml:base="schnitzler-interviews" xml:id="I088" next="I016" prev="I085">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -68,7 +68,7 @@
             <head type="sub">By Reuben Brainin</head>
             <p>
                <hi rend="italics">The literary world is celebrating the seventieth year of Arthur
-                     <rs type="person" ref="#pmb2121"><latex alt="Schnitz\-ler">Schnitzler</latex></rs>, one of the foremost
+                     <rs type="person" ref="#pmb2121"><!-- <latex alt="Schnitz\-ler"> -->Schnitzler<!-- </latex> --></rs>, one of the foremost
                   story-tellers of our time. Reuben Brainin, dean of Hebrew literature, and a
                      <anchor type="commentary" xml:id="K_I088-1"/>personal friend<note
                      type="commentary" xml:id="K_I088-1h">Im <rs type="work" ref="#pmb33243"

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../meta/asischema.xsd"
-   xml:base="schnitzler-interviews" xml:id="I100" next="M090" prev="M167" latex="\newpage">
+   xml:base="schnitzler-interviews" xml:id="I100" next="M090" prev="M167">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -253,11 +253,11 @@
                      das jeweilige Hotel berichtete (<bibl>
                         <publisher>Amerika Magyar Világ</publisher>, Jg. 12, Nr. 43,
                            <date>26. 10. 1975</date>, S. 8</bibl>).</note>, <date>22. Oktober</date>
-               </hi>. <latex alt="Tief\-betroffen">Tiefbetroffen</latex> lese ich hier in <rs type="place" ref="#pmb56501"
+               </hi>. <!-- <latex alt="Tief\-betroffen"> -->Tiefbetroffen<!-- </latex> --> lese ich hier in <rs type="place" ref="#pmb56501"
                   >Tátraszéplak</rs> die traurige Nachricht: <rs type="person" ref="#pmb2121">Arthur
                   Schnitzler</rs>, der wahre Kenner und Erzähler des menschlichen Lebens, ist in <rs
                   type="place" ref="#pmb50">Wien</rs> plötzlich gestorben. Ich sehe vor mir sein
-               <latex alt="un\-ver\-wechsel\-bares">unverwechselbares</latex> Profil, seine kleine, fragile Figur, die, sooft sie sich im <rs
+               <!-- <latex alt="un\-ver\-wechsel\-bares"> -->unverwechselbares<!-- </latex> --> Profil, seine kleine, fragile Figur, die, sooft sie sich im <rs
                   type="place" ref="#pmb413" subtype="implied">Semmeringer Hotel</rs> sehen ließ,
                rundum Ehrfurcht erweckte.</p>
             <p>Ich war mit <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>
@@ -350,7 +350,7 @@
             <p>Ohne ein Wort habe ich mich gefügt und der Schriftsteller setzte sich leicht und
                rasch auf die Rückenlehne des breiten Fauteuils, strich sich über den weißen Bart und
                zog lachend einen goldenen Bleistift aus seiner Rocktasche hervor.</p>
-            <p><latex alt="\ledpb"/>– Wissen Sie, <anchor xml:id="K_import_120" type="commentary"/>wie viele
+            <p><!-- <latex alt="\ledpb"/> -->– Wissen Sie, <anchor xml:id="K_import_120" type="commentary"/>wie viele
                   Bleistifte<note type="commentary" xml:id="K_import_120h">Die vielen Bleistifte
                   erwähnt auch der Portier <rs type="person" ref="#pmb23635">Karl Rostler</rs>.
                      (<bibl>[O. V.]: <rs type="work" ref="#pmb56450">Wie Schnitzler
@@ -369,7 +369,7 @@
             </p>
             <p>– Wissen Sie, warum ich nie ein Interview gebe? – fing <rs type="person"
                   ref="#pmb2121">Arthur Schnitzler</rs> an. – Weil es so etwas wie ein <hi
-                  rend="spaced_out"><latex alt="ehr\-liches">ehrliches</latex> Interview gar nicht gibt</hi>. Es gibt dreierlei Arten
+                  rend="spaced_out"><!-- <latex alt="ehr\-liches"> -->ehrliches<!-- </latex> --> Interview gar nicht gibt</hi>. Es gibt dreierlei Arten
                von Interviews. <supplied>Ab hier folgt der Text der autorisierten deutschsprachigen
                   Veröffentlichung aus dem <rs type="work" ref="#pmb36376"><hi rend="spaced_out">Neuen Wiener Journal</hi></rs>
                   <space unit="chars" quantity="1"/>
@@ -400,7 +400,7 @@
             <p>
                <gap reason="outOfScope" quantity="1" unit="paragraphs"/>
             </p>
-            <p><latex alt="\ledpb"/>
+            <p><!-- <latex alt="\ledpb"/> -->
                <gap reason="outOfScope" quantity="1" unit="lines"/> Zuerst mache ich mir meine
                Notizen, aus denen diktiere ich in die Maschine; wenn aber das Diktat fertig ist,
                dann fängt meine eigentliche Arbeit an. Ich lasse nur Menschenleben in Druck gehen,

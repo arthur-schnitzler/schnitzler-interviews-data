@@ -140,7 +140,7 @@
                     Aufbauend auf der Personendatenbank der <rs type="work" ref="#pmb33243">Tagebuch</rs>-Edition,
                      ihrer Digitalisierung und der seither stattfindenden Weiterarbeit am Webservice PMB können
                     viele Geburts- und Todesdaten taggenau und mit den jeweiligen Ortsangaben gebracht werden.
-                    Während sich die <latex alt="Ver\-ant\-wort\-lichen">Verantwortlichen</latex> der <rs type="work" ref="#pmb33243"
+                    Während sich die <!-- <latex alt="Ver\-ant\-wort\-lichen"> -->Verantwortlichen<!-- </latex> --> der <rs type="work" ref="#pmb33243"
                     >Tagebuch</rs>-Edition aufgrund der zweifelhaften Gültigkeit gegen die Aufnahme
                     von Berufsbezeichnungen entschieden haben, werden hier bei Personen bis zu drei Berufsangaben
                     aufgenommen. Das Ergebnis ist nicht nur problematisch, weil zwischen Beruf und Tätigkeit
@@ -190,7 +190,7 @@
                         <supplied>Beispiel</supplied>
                     </label>
                     <item>Ergänzung des Herausgebers</item>
-                    <label><latex alt="{[}">[</latex><c rendition="#dots" n="3"/><latex alt="{]}">]</latex></label>
+                    <label><!-- <latex alt="{[}"> -->[<!-- </latex> --><c rendition="#dots" n="3"/><!-- <latex alt="{]}"> -->]<!-- </latex> --></label>
                     <item>Auslassung eines Textteils</item>
                 </list>
             </div>
