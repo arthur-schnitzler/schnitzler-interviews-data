@@ -24,7 +24,8 @@ Was umgeschrieben wird
 ----------------------
 * In den Attributen ref, corresp, sameAs, target, source, who, key, xml:id
   (änderbar mit --attrs) alle Token der Form
-    pmb123, #pmb123, pmbperson__123 (Präfix bleibt, außer mit --normalize)
+    pmb123, #pmb123, pmbperson__123 (wird zu pmb123 vereinheitlicht,
+    außer mit --keep-prefix)
     https://pmb.acdh.oeaw.ac.at/entity/123/
   auch mehrere pro Attribut (durch Leerzeichen getrennt); doppelte Token
   werden danach entfernt.
@@ -88,6 +89,7 @@ TOKEN_RE = re.compile(r"(?<![\w/.#-])(#?pmb(?:[a-z]+__)?)(\d+)(?![\w.])")
 URL_RE = re.compile(r"(https?://pmb\.acdh\.oeaw\.ac\.at/entity/)(\d+)(?!\d)")
 XMLID_RE = re.compile(r"\sxml:id\s*=\s*[\"']pmb(\d+)[\"']")
 IDNO_PMB_RE = re.compile(r"entity/(\d+)")
+NORMALIZED = "_vereinheitlicht"  # Zählerschlüssel für pmbperson__123 -> pmb123
 
 
 # --------------------------------------------------------------------------
@@ -132,6 +134,8 @@ class Scanner:
         def repl_token(m: re.Match) -> str:
             prefix, num = m.group(1), m.group(2)
             new_prefix = ("#pmb" if prefix.startswith("#") else "pmb") if normalize else prefix
+            if new_prefix != prefix:
+                counter[NORMALIZED] += 1
             new_num = mapping.get(num, num)
             if new_num != num:
                 counter[(num, new_num)] += 1
@@ -362,19 +366,29 @@ def rel(p: Path) -> str:
 
 def markdown_report(used, report, missing, where, errors, dry_run) -> str:
     out = ["## PMB-Nummern-Prüfung", ""]
-    if not used and not missing and not errors:
+    if not used and not report and not missing and not errors:
         out.append("Alle PMB-Nummern sind aktuell. ✅")
         return "\n".join(out) + "\n"
     if used:
         out += [f"### {len(used)} veraltete Nummern", "", "| alt | neu |", "|---|---|"]
         out += [f"| pmb{o} | pmb{n} |" for o, n in sorted(used.items(), key=lambda kv: int(kv[0]))]
+        out.append("")
+    if report:
         verb = "würden geändert" if dry_run else "geändert"
-        out += ["", f"**{len(report)} Dateien {verb}:**", ""]
+        normalized = sum(c[NORMALIZED] for _, c, _ in report)
+        if normalized:
+            out += [f"{normalized} Verweise wie `pmbperson__123` zu `pmb123` vereinheitlicht.", ""]
+        out += [f"**{len(report)} Dateien {verb}:**", ""]
         for f, counter, removed in report:
-            line = f"- `{rel(f)}`: {sum(counter.values())} Referenzen"
+            parts = []
+            refs = sum(v for k, v in counter.items() if k != NORMALIZED)
+            if refs:
+                parts.append(f"{refs} Referenzen aktualisiert")
+            if counter[NORMALIZED]:
+                parts.append(f"{counter[NORMALIZED]} vereinheitlicht")
             if removed:
-                line += f"; entfernt: {', '.join(removed)}"
-            out.append(line)
+                parts.append(f"entfernt: {', '.join(removed)}")
+            out.append(f"- `{rel(f)}`: " + "; ".join(parts))
         out.append("")
     if missing:
         out += [f"### {len(missing)} Nummern in der PMB nicht gefunden (404)", "",
@@ -420,8 +434,8 @@ def main() -> int:
                     help=f"zu prüfende Attribute (Standard: {','.join(DEFAULT_ATTRS)})")
     ap.add_argument("--exclude-element", action="append", default=None, metavar="NAME",
                     help="Elemente ignorieren (mehrfach möglich; Standard: occupation)")
-    ap.add_argument("--normalize", action="store_true",
-                    help="Token wie pmbperson__123 zu pmb123 vereinheitlichen")
+    ap.add_argument("--keep-prefix", action="store_true",
+                    help="Schreibweisen wie pmbperson__123 beibehalten (Standard: zu pmb123 vereinheitlichen)")
     ap.add_argument("--workers", type=int, default=8, help="parallele Anfragen an die PMB (Standard: 8)")
     ap.add_argument("--report", type=Path, help="Zuordnung alt -> neu als CSV schreiben")
     ap.add_argument("--summary", type=Path, help="Bericht als Markdown schreiben")
@@ -465,12 +479,12 @@ def main() -> int:
     used = {k: v for k, v in resolve_chains(mapping).items() if k in numbers}
 
     report = []
-    if used or args.normalize:
+    if used or not args.keep_prefix:
         for f in files:
             original = f.read_text(encoding="utf-8")
             text, removed = remove_duplicates(original, used)
             counter: Counter = Counter()
-            text = scanner.rewrite(text, used, args.normalize, counter)
+            text = scanner.rewrite(text, used, not args.keep_prefix, counter)
             if text != original:
                 report.append((f, counter, removed))
                 if not args.dry_run:

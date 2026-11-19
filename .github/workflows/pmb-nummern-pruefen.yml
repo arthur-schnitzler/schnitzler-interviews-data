@@ -24,7 +24,7 @@ on:
         type: string
         default: ''
       args:
-        description: Zusätzliche Optionen für das Skript, z. B. "--normalize --exclude-element occupation"
+        description: Zusätzliche Optionen für das Skript, z. B. "--keep-prefix --exclude-element occupation"
         type: string
         default: ''
       pull-request:

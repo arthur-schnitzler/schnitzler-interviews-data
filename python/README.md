@@ -32,7 +32,7 @@ Weitere Optionen zeigt `--help`, unter anderem:
 | `--source online` | jede Nummer einzeln bei der PMB abfragen statt den Export zu nutzen (langsam) |
 | `--report alt-neu.csv` | Zuordnung alt → neu als Tabelle |
 | `--exclude-element NAME` | Elemente ignorieren (Standard: `occupation`, deren Refs auf Vokabulare zeigen) |
-| `--normalize` | `pmbperson__123` zu `pmb123` vereinheitlichen |
+| `--keep-prefix` | Schreibweisen wie `pmbperson__123` beibehalten (Standard: zu `pmb123` vereinheitlichen) |
 
 ## Monatliche Prüfung in einem anderen Repository
 
@@ -55,7 +55,7 @@ jobs:
     # optional:
     # with:
     #   paths: editions indices      # Standard: ./data, sonst das ganze Repository
-    #   args: --normalize
+    #   args: --keep-prefix
     #   pull-request: true           # Pull-Request statt direktem Commit
 ```
 
