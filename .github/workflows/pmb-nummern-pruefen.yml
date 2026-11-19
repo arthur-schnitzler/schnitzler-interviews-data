@@ -1,0 +1,86 @@
+# Prüft monatlich, ob alle PMB-Nummern noch aktuell sind (z. B. nach Merges
+# in der PMB), schreibt veraltete Nummern um und committet sie direkt
+# (oder legt mit pull-request: true einen Pull-Request an).
+# Nummern, die es in der PMB nicht mehr gibt, lassen den Lauf fehlschlagen
+# (→ E-Mail-Benachrichtigung) und stehen in der Zusammenfassung des Laufs.
+#
+# Kann von anderen Repositories wiederverwendet werden, siehe python/README.md.
+
+name: PMB-Nummern prüfen
+
+on:
+  schedule:
+    - cron: '0 4 1 * *' # am 1. jedes Monats, 4:00 UTC
+  workflow_dispatch:
+    inputs:
+      pull-request:
+        description: Pull-Request anlegen statt direkt zu committen
+        type: boolean
+        default: false
+  workflow_call:
+    inputs:
+      paths:
+        description: Zu prüfende Ordner/Dateien, durch Leerzeichen getrennt (Standard ./data, sonst .)
+        type: string
+        default: ''
+      args:
+        description: Zusätzliche Optionen für das Skript, z. B. "--normalize --exclude-element occupation"
+        type: string
+        default: ''
+      pull-request:
+        description: Pull-Request anlegen statt direkt zu committen
+        type: boolean
+        default: false
+      script-ref:
+        description: Branch/Tag von schnitzler-interviews-data, aus dem das Skript geladen wird
+        type: string
+        default: main
+
+jobs:
+  pruefen:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v5
+
+      - name: Skript laden
+        run: >
+          curl -fsSL -o "$RUNNER_TEMP/pmb_nummern_aktualisieren.py"
+          "https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-interviews-data/${{ inputs.script-ref || 'main' }}/python/pmb_nummern_aktualisieren.py"
+
+      - name: PMB-Nummern prüfen und umschreiben
+        id: pmb
+        env:
+          PATHS: ${{ inputs.paths }}
+          ARGS: ${{ inputs.args }}
+        run: |
+          # PATHS und ARGS bewusst ohne Anführungszeichen (mehrere Werte)
+          python3 "$RUNNER_TEMP/pmb_nummern_aktualisieren.py" $PATHS $ARGS \
+            --summary "$RUNNER_TEMP/pmb-bericht.md"
+
+      - name: Pull-Request anlegen
+        if: ${{ !cancelled() && inputs.pull-request && steps.pmb.outputs.changed_files > 0 }}
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: pmb-nummern-aktualisieren
+          delete-branch: true
+          commit-message: Veraltete PMB-Nummern aktualisiert
+          title: Veraltete PMB-Nummern aktualisieren
+          body-path: ${{ runner.temp }}/pmb-bericht.md
+
+      - name: Direkt committen und pushen
+        if: ${{ !cancelled() && !inputs.pull-request && steps.pmb.outputs.changed_files > 0 }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git commit -am "Veraltete PMB-Nummern aktualisiert"
+          git push
+
+      - name: Nicht gefundene Nummern melden
+        if: ${{ !cancelled() && steps.pmb.outputs.missing > 0 }}
+        run: |
+          echo "::error::${{ steps.pmb.outputs.missing }} PMB-Nummern gibt es in der PMB nicht mehr – Liste in der Zusammenfassung des Laufs."
+          exit 1
